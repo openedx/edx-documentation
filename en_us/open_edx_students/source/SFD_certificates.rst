@@ -27,15 +27,18 @@ for the course platform that you are taking a course on.
 Accessing a Certificate
 ***********************
 
-Some courses issue web-based certificates. You can access a web-based
-certificate from your dashboard.
+Some courses issue certificates, which you can access from your dashboard.
 
-The following example from the edx.org website shows the **View Certificate**
-option on a learner dashboard.
+The following examples show the **View Certificate** option on a learner
+dashboard on the edx.org website and on the mobile app.
 
 .. image:: ../../shared/students/Images/SFD_Cert_web.png
    :width: 600
    :alt: Dashboard with course name, grade, and link to the web certificate.
+
+.. image:: ../../shared/students/Images/SFD_Mobile_View_Cert.png
+   :width: 300
+   :alt: "View certificate" button on the mobile app course page.
 
 To open a web certificate in your browser, select **View Certificate**. You can
 then share or print your web certificate.
@@ -55,6 +58,13 @@ You can share your web certificates on Facebook, LinkedIn, and Twitter.
 
    A dialog box for the social site you selected opens, with the certificate
    URL already entered.
+
+   On the mobile app, select the **Share** icon to open a page from which you
+   choose the social network to share your certificate to.
+
+.. image:: ../../shared/students/Images/SFD_Mobile_SocialShare.png
+   :width: 300
+   :alt: Choose the social network to which you want to share your certificate.
 
 #. Complete the steps for the social site to post your web certificate.
 
@@ -93,7 +103,6 @@ earned in the **Accomplishments** section of your profile.
    :width: 400
    :alt: A user profile showing the Accomplishments tab
 
-
 .. _Sharing Badges:
 
 ************************************************
@@ -107,20 +116,30 @@ badging site such as Mozilla Backpack.
 Share Badges From Your Profile
 ===============================
 
-To share badges from your profile on the Mozilla Backpack site, follow these
+To share badges from your profile to the Mozilla Backpack site, follow these
 steps.
+
+.. note:: You have to create an account on Mozilla Backpack before you can share
+   your badges.
 
 #. On your profile, select **Accomplishments**.
 
-#. For the badge that you want to share, select **Share**.
+#. For the badge that you want to share, select **Share**, or on the edX mobile
+   apps, select the **Share** icon.
+
+   The following examples show the **Share** options for badges on the edx.org
+   website and on the mobile app.
 
 .. image:: ../../shared/images/ProfileBadgesShare.png
    :alt: The Mozilla Backpack share button is available for each badge on the
     Accomplishments section of your user profile page.
 
+.. image:: ../../shared/students/Images/SFD_Mobile_Profile_Accomplishments.png
+   :width: 300
+   :alt: Choose the social network to which you want to share your certificate.
+
 You see instructions for downloading your badge and then sharing it on
-the Mozilla Backpack site. You have to create an account on Mozilla
-Backpack before you can share your badge.
+the Mozilla Backpack site.
 
 .. image:: ../../shared/students/Images/SFD_MozillaBackpackShareDialog.png
    :width: 500

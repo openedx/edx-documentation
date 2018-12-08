@@ -11,27 +11,37 @@ Word List
    * - Term
      - Description and Examples
    * - course team, course team member
-     - Use instead of "instructor", professor", "course author", "course
-       staff", "faculty",  etc.
+     - Use instead of instructor, professor, course author, course
+       staff, faculty, and so on.
    * - discussion, course discussions
-     - Use instead of "forum" or "discussion forum".
-   * - drop-down
-     - Use drop-down throughout the guides except when directly referring to
-       the edX problem type, which is labeled "dropdown". As always, avoid
-       using in procedural steps to describe a particular type of UI control.
-   * - edx, EdX, edX
-     - The name of our company is presented in mixed case: edX. However, when a
-       sentence begins with the company name, the first letter is also
-       capitalized as in the following example. "EdX is the name of our
-       company." Our websites, edx.org and edge.edx.org, are presented in all
-       lower case.
+     - Use instead of forum or discussion forum.
+   * - drop-down, dropdown
+     - The edX problem type is labeled "dropdown". If it is necessary to
+       describe a particular type of user interface control, use drop-down.
+   * - The E-Commerce service
+     - The part of the edX platform that handles payments. Always use with
+       "service".
+   * - edx, edX, EdX
+     - The company name is presented in mixed case: edX or edX, Inc. However,
+       when a sentence begins with the company name, the first letter is also
+       capitalized, as in the following example. "EdX provides the edX Demo
+       course..." Present the edx.org website in all lower case.
+   * - The edX mobile app
+     - There is one app, available for different platforms. Do not refer to
+       edX mobile apps (plural). Refer to numbered versions for the different
+       mobile platforms. For example, "Version 2.6.2 of the edX mobile app for
+       iOS is now available." "The edX mobile app for Android now supports..."
    * - email
-     - Not e-mail or Email. Can be a noun or adjective (for example, "Send an
-       email" or "Send an email message"). Do not use as a verb.
+     - Do not hyphenate e-mail, and use Email only at the start of a sentence
+       or when using title capitalization. Use email to modify a noun. For
+       example, prefer "Send an email message" to "Send an email". Do not use
+       as a verb.
+   * - GitHub
+     - The "H" is always capitalized.
    * - ID
-     - Use instead of id or Id.
-   * - Instructor Dashboard
-     - Capitalize both words.
+     - Capitalize. Use instead of "id" or "Id".
+   * - instructor dashboard
+     - Lowercase both words.
    * - learner
      - Use instead of "student", except when referring to a UI label.
    * - page
@@ -43,18 +53,18 @@ Word List
      - Use to refer to partners' main edX contact, not program manager. Do not
        capitalize either word.
    * - plug-in
-     - Use instead of plugin.
+     - Use instead of plugin or plug in.
    * - privilege
      - Use instead of "user rights". The roles that grant privileges to users
-       are "course creator", "admin", and "staff". The name of the role should
-       only be used when the privilege is an explicit requirement to complete
+       are "course creator", "admin", and "staff". These role names should only
+       be used when having the privilege is an explicit requirement to complete
        an activity.
    * - sample
      - Use instead of "snippet". "Example" can also be used.
    * - section
-     - In our guides, refers to any part of a guide that is a parent to other
-       content, including other sections or individual topics. Use instead of
-       chapter.
+     - In the edX guides, use "section" to refer to any part of a guide that is
+       a parent to other content, including other sections or individual
+       topics. Use instead of "chapter".
    * - select
      - Use instead of "click" (mouse), "press" (keyboard), or "tap"
        (smartphone). Accessible alternatives are "choose" (for a UI element
@@ -65,28 +75,18 @@ Word List
    * - sign-in (adj)
      - Use instead of "login" or "log in".
    * - smartphone
-     - One word. Use instead of "mobile device": Android smartphones and
-       iPhones.
-   * - Student Dashboard
-     - TBD: Capitalize?
+     - One word. Use instead of "mobile device". For example, Android
+       smartphones and iPhones.
+   * - student dashboard
+     - Present both words in lowercase.
    * - third party (n), third-party (adj)
      - "Third party" is a noun: "This product comes from a third party".
        "Third-party" is the adjective form: "third-party software".
    * - topic
-     - In our guides, refers to the concepts or procedures that are the
-       lowest-level contents of a section.
-   * - URL
-     - Use instead of url. When providing a URL in documentation, omit trailing
-       slashes (http://edx.org instead of http://edx.org/).
+     - In the edX guides, the concepts or procedures that are the
+       lowest level contents of a section are referred to as topics.
    * - username
      - Use instead of "user name".
-   * - View as Staff (or Student)
-     - Be sure to cast sentences in terms of the selections that people
-       actually have to make in the user interface. As an example, if you
-       select a control labeled **View as Staff**, avoid referring to the
-       result as the staff view or student view.
    * - XBlock
      - Use instead of "Xblock" or "xBlock".
-   * - GitHub
-     - The "H" is always capitalized.
 

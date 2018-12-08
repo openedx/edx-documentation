@@ -15,6 +15,7 @@ You control content visibility through these features in Studio.
 
 These features work together to control content visibility for learners.
 
+
 .. _Release Dates:
 
 ***********************
@@ -41,11 +42,18 @@ Prior to release, content is visible to course team members by
 :ref:`previewing the course <Preview Course Content>` or :ref:`viewing the live
 course as staff<View Your Live Course>`.
 
-.. note:: The release times that you set, and the times that learners see,
-   are in Coordinated Universal Time (UTC). You might want to verify that you
-   have specified the times that you intend by using a time zone converter such
-   as `Time and Date Time Zone Converter
-   <http://www.timeanddate.com/worldclock/converter.html>`_
+.. note::
+   When you set release times in Studio, times are in Coordinated Universal
+   Time (UTC). You might want to verify that you have specified the times that
+   you intend by using a time zone converter such as `Time and Date Time Zone
+   Converter <http://www.timeanddate.com/worldclock/converter.html>`_.
+
+   Learners who have specified a time zone in their account settings see course
+   dates and times converted to their specified time zone. Learners who have
+   not specified a time zone in their account settings see course dates and
+   times on their dashboards, in the body of the course, and on their
+   **Progress** pages in the time zone that their browsers specify. Learners
+   see other course dates and times in UTC.
 
 For more information about setting release dates in an instructor-paced course,
 see the following topics.
@@ -81,20 +89,26 @@ the following topics.
 .. _Content Hidden from Students:
 
 *****************************
-Content Hidden from Learners
+Hiding Content from Learners
 *****************************
 
-You can hide content from learners. You can hide content in both
-instructor-paced and self-paced courses. Such content is never visible to
-learners, regardless of the release and publishing status.
+You can hide content from learners in both instructor-paced and self-paced
+courses. Such content is never visible to learners, regardless of the release
+and publishing status.
 
 You might hide a unit from learners, for example, when that unit contains an
 answer to a problem in another unit of that subsection. After the problem's due
 date, you could make the unit with the answer visible.
 
-You could also hide a unit from learners if you wanted to use that unit to
+You might also hide a unit from learners if you want to use that unit to
 provide instructions or guidance meant only for the course team. Only course
 team members would see that unit in the course.
+
+.. note:: As a best practice, do not hide sections, subsections, or units that
+   contain graded content. When the platform performs grading for a learner,
+   the grading process does not include problems that are not included in the
+   course navigation for that learner. For more details, see :ref:`Hiding Graded
+   Content`.
 
 You can hide content at different levels, as described in the following topics.
 
@@ -102,13 +116,13 @@ You can hide content at different levels, as described in the following topics.
 * :ref:`Subsections<Hide a Subsection from Students>`
 * :ref:`Units<Hide a Unit from Students>`
 
-.. note::
- When you make a previously hidden section or subsection visible to learners,
- some content in the section or subsection may remain hidden. If you have
- explicitly set a subsection or unit to be hidden from learners, this
- subsection or unit remains hidden even when you change the visibility of the
- parent section or subsection. Unpublished units remain unpublished, and
- changes to published units remain unpublished.
+.. note:: Units and subsections inherit visibility settings from their parent
+   subsections or sections. Be aware that when you make a previously hidden
+   section or subsection visible to learners, all child subsections or units
+   also become visible, unless you have explicitly hidden the subsection or
+   unit. Subsections or units that are explicitly hidden remain hidden
+   even when you change the visibility of their parent section or subsection.
+
 
 .. _Hiding Graded Content:
 
@@ -116,11 +130,16 @@ You can hide content at different levels, as described in the following topics.
 Hiding Graded Content
 =====================
 
-If you hide a section, subsection, or unit that contains graded problems,
-grading is not affected. The hidden problems are still counted when the edX
-platform calculates grades. If a problem was visible at one time, and learners
-submitted answers for it, they still receive the credit they earned if you
-later hide the problem.
+Grading is affected if you hide sections, subsections, or units that contain
+graded problems in such a way that they are not included in the course
+navigation. When the platform performs grading for a learner, the grading
+process does not include problems that are not included in the course
+navigation for that learner.
+
+.. note:: Grading is not affected when you hide the content of a subsection or
+   a timed exam based on due dates. For more information, see :ref:`Timed
+   Exams` and :ref:`Hide a Subsection After its Due Date`.
+
 
 .. _Content Groups:
 

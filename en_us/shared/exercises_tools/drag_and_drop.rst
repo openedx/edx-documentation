@@ -27,14 +27,14 @@ to use drag and drop problems in your course.
 Overview of Drag and Drop Problems
 **********************************
 
-A drag and drop problem includes a background image and one or more draggable
-items that learners move into target zones on the background image. You can
-include as many draggable items and as many target zones as you need. You can
-include decoy items that do not have a target and you can include decoy targets
-that do not correspond to draggable items.
+A drag and drop problem includes a background image and one or more items that
+learners can drag into target zones on the background image. You can include as
+many draggable items and as many target zones as you need. You can include
+decoy items that do not have a target, and you can include decoy targets that
+do not correspond to draggable items.
 
 When learners view a drag and drop problem in the LMS, the problem includes a
-top section and a bottom section. Learners drag items from the top section  on
+top section and a bottom section. Learners drag items from the top section on
 to the background image in the section below it.
 
 The way that a learner selects, or grabs, an item depends on the type of
@@ -46,15 +46,20 @@ from the top section into a target zone. A learner who uses a keyboard
 interface might use the navigation keys to select an item and then match it to
 a target zone.
 
-Learners complete a drag and drop problem when each draggable item that matches
-a target zone is correctly placed on its zone. Draggable items can require that
-learners enter number input for problems.
+You can configure a drag and drop problem to give learners unlimited attempts
+to match items to target zones or you can configure it to behave restrictively,
+like a test.
 
-Learners must match all items to their targets to complete a problem and
-receive any credit. If draggable items do not require number input, learners
-receive full credit for a drag and drop problem when it is complete. If
-draggable items require number input, learners receive partial credit for the
-items with correct input when the problem is complete.
+* In standard mode, the problem gives learners unlimited attempts to match
+  items and it provides immediate feedback to indicate whether an item is
+  matched correctly.
+
+* In assessment mode, learners must match all of the draggable items to target
+  zones and then submit the problem. The problem does not reveal
+  whether items are matched correctly until the learner submits the problem.
+
+For more information about assessment mode and standard mode, see
+:ref:`choosing_a_dnd_mode`.
 
 The following image shows an example drag and drop problem.
 
@@ -99,8 +104,12 @@ The background image for a drag and drop problem is the surface that learners
 drag items onto.
 
 A target zone is a rectangular area on the background image. You can show or
-hide the borders of a zone for learners. You can add labels for zones or leave
-them unlabeled.
+hide the borders of a zone for learners. You can add titles for zones or leave
+the **Title** field empty. However, you must fill in the **Description** field
+for each zone. The description is only exposed to screen readers. The
+description must describe the content of the zone for visually impaired
+learners. For example, a zone that includes an apple might have a description
+that says "A round, red fruit with a stem."
 
 A background image must fit within the course screen. The LMS automatically
 scales images that are too wide. If you choose a background image that is
@@ -144,16 +153,17 @@ the width of the problem. If you do not specify the size, the LMS sets it based
 on the length of the text in the label or the size of the image in it. You can
 set the background color and the label text color for the items in a problem.
 
-Each draggable item can match one target zone on the background image. A
-draggable item can match none of the target zones.
+Each draggable item can match one target zone on the background image, multiple
+target zones, or no target zones.
 
 Each item must have a text label to identify it in the drag and drop problem.
 If you include only a text label, that label appears in the draggable item. If
 you include both a text label and an image for an item, the image appears as
 its label.
 
-Using Image Draggable Items
-************************************
+=================================
+Using Draggable Items with Images
+=================================
 
 The following image shows draggable items with images. For examples of items
 with text, see :ref:`overview_of_drag_and_drop_problems`.
@@ -163,7 +173,7 @@ with text, see :ref:`overview_of_drag_and_drop_problems`.
   :alt: Draggable items with image labels in the item area of a drag and drop
       problem.
 
-Images for draggable items have alternate image descriptions. The alternate
+Images for draggable items have alternative image descriptions. The alternative
 description explains the image content in text. If a learner cannot access the
 visual image content, the text description helps that learner to complete the
 problem.
@@ -176,68 +186,74 @@ draggable item, you should consider how that image appears after scaling.
     If an image file is unavailable, or cannot be displayed, the LMS displays
     the text description as the button label.
 
-.. _using_number_input_draggable_items:
+.. _choosing_a_dnd_mode:
 
-Using Number Input with Draggable Items
-****************************************
+=========================================
+Choosing a Drag and Drop Problem Mode
+=========================================
 
-Draggable items can accept number input after they are correctly placed on
-matching target zones. You specify the number that learners must enter and an
-optional margin of error that will be accepted as correct. The margin of error
-is the range of values above or below the correct number that also qualify as
-correct.
+You can configure drag and drop problems to allow learners to experiment with
+matching draggable items to target zones until all items are matched correctly,
+or to require that learners match all items to target zones without any input
+and then submit their attempts for grading. You can choose either **Standard
+Mode** or **Assessment Mode** to control the behavior of the problem.
 
-For example, if the target value is ``5`` and the margin of error is ``1``,
-``6``, ``5``, and ``4`` are correct entries. In that example, ``3``, ``7``, and
-any other numbers are incorrect entries because they are outside of the margin
-of error.
+* In standard mode, learners have unlimited attempts to match
+  items and the problem provides immediate feedback to indicate whether
+  an item is matched correctly.
 
-You can specify the target number and the acceptable margin of error using
-whole numbers or fractional values to one decimal place. For example, the
-target value can be ``5`` or ``5.5``. The target value cannot be ``5.55``.
+* In assessment mode, learners must match all of the draggable items to target
+  zones and then choose to submit the problem. The problem does not reveal
+  whether items are matched correctly until the learner submits the problem.
+  You can limit the number of attempts a learner is allowed, or allow unlimited
+  attempts.
 
-The following image shows draggable items that accept number input after they
-are dragged to the correct target zone. The number entry for one item is
-correct and the number entry of the other item is incorrect.
+.. _using_standard_mode:
 
-.. image:: ../../../shared/images/dnd-items-with-number-input.png
-  :width: 600
-  :alt: Draggable items placed on the background image. Each draggable item
-      displays number input entered by a learner. The number input for one item
-      is correct. The number input for the other item is incorrect.
+Using Standard Mode
+********************************************
 
-.. _enabling_drag_and_drop_problem:
+Standard mode configures a drag and drop problem to give learners unlimited
+attempts to match draggable items with target zones until all of the items are
+matched to the correct targets. Each time a learner drops an item on a target
+zone, the problem reports whether the match is correct. If the match is not
+correct, the draggable item is returned to the item bank for a new attempt.
 
-********************************
-Enabling Drag and Drop Problems
-********************************
+A learner completes a drag and drop problem in standard mode when all of the
+items are matched to target zones correctly. Learners receive the maximum score
+for the problem when the problem is complete.
 
-Before you can add drag and drop problems, you must enable the drag and drop
-problem type for your course.
+.. _using_assessment_mode:
 
-To enable the drag and drop problem type, you add the ``"drag-and-drop-v2"``
-key to the **Advanced Module List** on the **Advanced Settings** page. (Be sure
-to include the quotation marks around the key value.) For more information, see
-:ref:`Enable Additional Exercises and Tools`.
+Using Assessment Mode
+********************************************
 
-After you enable the ``drag-and-drop-v2`` problem type, **Drag and Drop**
-appears in the **Advanced** menu of the **Add New Component** screen.
+Assessment mode configures a drag and drop problem to behave like a test. In
+assessment mode, learners must match all of the draggable items to target zones
+before the problem reveals whether the items are matched correctly.
 
-.. note::
-    By default, your course includes a **Drag and Drop** problem type in the
-    **Problem > Advanced** menu of the **Add New Component** screen. This is an
-    older drag and drop problem type that has been replaced by the ``drag-and-drop-v2`` advanced module in the **Advanced** menu of the **Add New
-    Component** screen.
+Learners select **Submit** when they believe that they have completed the
+problem. If all items are matched correctly, the problem is complete. If any
+items are not matched correctly, and the maximum number of attempts has not
+been reached, the learner can correct items and select **Submit** again. When
+the learner reaches the maximum number of attempts, the problem is complete.
+
+The score for the problem is calculated by dividing the maximum score based on
+the percent of draggable items that are matched correctly. If a learner
+attempts the problem multiple times, the score for the best attempt is the
+final score for the problem.
+
+In assessment mode, you can specify the number of times that learners can
+submit a drag and drop problem. If you allow more than one attempt, the problem
+reveals which items are correctly matched and gives learners an opportunity to
+move items that are not correct. If you do not specify a limit, learners have
+unlimited attempts.
 
 .. _creating_a_drag_and_drop_problem:
 
 *********************************
 Creating a Drag and Drop Problem
 *********************************
-
-You must enable the drag and drop problem type for your course before you can
-add a drag and drop problem. For more information, see
-:ref:`enabling_drag_and_drop_problem`.
 
 To create a drag and drop problem, follow these steps.
 
@@ -289,10 +305,8 @@ To create a drag and drop problem, follow these steps.
      target zone for each item in the **Zone** field. Add a label, success
      feedback text, and error feedback text. For more information about how the
      text in these fields appears, see
-     :ref:`overview_of_drag_and_drop_problems`.  For more information about
-     draggable items, see
-     :ref:`drag_and_drop_draggable_items`.
-
+     :ref:`overview_of_drag_and_drop_problems`. For more information about
+     draggable items, see :ref:`drag_and_drop_draggable_items`.
 
 .. _drag_and_drop_editor_fields:
 
@@ -316,11 +330,22 @@ The following table explains the controls in the **Editing** dialog box.
    * - **Show title**
      - Controls whether the problem title appears above the problem in the LMS.
 
+   * - **Problem mode**
+     - Controls whether the problem allows learners to experiment with matching
+       draggable items to target zones (standard mode) or requires learners to
+       match all items before providing feedback and optionally restricts the
+       number of attempts (assessment mode). For more information, see
+       :ref:`choosing_a_dnd_mode`.
+
+   * - **Maximum attempts (assessment mode only)**
+     - Controls the number of times that learners can match items to target
+       zones and submit the problem for grading. If you do not enter a maximum
+       number, learners have unlimited attempts. For more information, see
+       :ref:`choosing_a_dnd_mode`.
+
    * - **Maximum score**
      - The total number of points that learners receive for completing the
-       problem. If draggable items have number input, learners may receive
-       partial credit for the item. If items do not have number input, learners
-       receive the maximum score. For more information about scores and
+       problem. For more information about scores and
        grading, see :ref:`Grading Index`.
 
    * - **Problem text**
@@ -375,19 +400,24 @@ The following table explains the controls in the **Editing** dialog box.
      - The vertical size of a target zone in pixels.
 
    * - **Zone X**
-     - The horizontal distance between the left edge of the background image
-       and the left edge of a target zone.
+     - The horizontal distance (in pixels) between the left edge of the
+       background image and the left edge of a target zone.
 
    * - **Zone Y**
-     - The vertical distance between the top edge of the background image and
-       the top edge of a target zone.
+     - The vertical distance (in pixels) between the top edge of the background
+       image and the top edge of a target zone.
+
+   * - **Zone Alignment**
+     - Controls the way that the problem aligns draggable items after learners
+       drop them on a target zone. Available options are "left", "center", and
+       "right".
 
    * - **Add a zone**
      - Adds a set of controls for a new zone to the **Editing** dialog box.
 
    * - **Background color**
      - The color that appears behind the text or image label of a draggable
-       item. You can specify the color using a hexidecimal color code
+       item. You can specify the color using a hexadecimal color code
        (including the ``#`` character) or any other valid CSS color
        specification. For more information, see the `W3C CSS color
        specification`_. This is an optional configuration. If you do not set
@@ -396,7 +426,7 @@ The following table explains the controls in the **Editing** dialog box.
 
    * - **Text color**
      - The color of the text label for a draggable item. You can specify the
-       color using a hexidecimal color code (including the ``#`` character) or
+       color using a hexadecimal color code (including the ``#`` character) or
        any other valid CSS color specification. For more information, see the
        `W3C CSS color specification`_. This is an optional configuration. If
        you do not set the background color, the LMS will apply the default
@@ -405,9 +435,9 @@ The following table explains the controls in the **Editing** dialog box.
    * - **Item Text**
      - Controls the text that appears on the draggable item in the problem.
 
-   * - **Item Zone**
-     - Controls the target zone that matches the draggable item. Learners must
-       drag the item to the target zone that you select.
+   * - **Item Zones**
+     - Controls the target zones that match the draggable item. Learners must
+       drag the item to any one of the target zones that you select.
 
    * - **Item Image URL**
      - (Optional) the URL of an image that appears on a draggable item. The
@@ -440,18 +470,8 @@ The following table explains the controls in the **Editing** dialog box.
      - Opens additional controls for configuring a draggable item.
 
    * - **Item Preferred width**
-     - The horizonal size of a draggable item as a percent of the problem
+     - The horizontal size of a draggable item as a percent of the problem
        width. The percent value must be a whole number between 0 and 100.
-
-   * - **Item Optional numerical value**
-     - A number that learners must enter after they place a draggable item on
-       the correct target zone. For more information, see
-       :ref:`using_number_input_draggable_items`.
-
-   * - **Item Margin ±**
-     - Controls the range of numbers that are accepted as the correct number
-       input for a draggable item. For more information, see
-       :ref:`using_number_input_draggable_items`.
 
    * - **Add an item**
      - Adds a set of controls for a new draggable item to the **Editing**

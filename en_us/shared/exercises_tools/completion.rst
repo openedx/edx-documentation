@@ -4,7 +4,7 @@
 Completion Tool
 ##################
 
-.. note:: EdX offers full support for this tool.
+.. note:: EdX does not support this tool.
 
 The completion tool provides learners with a way to mark sections of the
 course as completed. It helps learners to track their progress through
@@ -100,8 +100,8 @@ component to a unit in a course, follow these steps.
  Add the Completion Tool to an OLX Course
  ****************************************
 
- To add the completion tool to a unit in an OLX course, it is sufficient to add
- the ``<done>`` tag to the OLX.
+ To add the completion tool to a unit in an OLX (open learning XML) course, it
+ is sufficient to add the ``<done>`` tag to the OLX.
 
  EdX recommends that you also explicitly specify a ``url_name`` within the
  ``<done>`` tag, as shown in the following example. If you do not explicitly

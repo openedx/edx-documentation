@@ -10,6 +10,73 @@ The following information describes what is new in edX analytics.
   :local:
   :depth: 2
 
+
+*************************
+22 Dec 2016 to 6 Jan 2017
+*************************
+
+.. include:: 2017/analytics/analytics_2017-01-09.rst
+
+**************************
+Week of 12 December 2016
+**************************
+
+.. include:: 2016/analytics/analytics_2016-12-12.rst
+
+**************************
+Week of 8 November 2016
+**************************
+
+.. include:: 2016/analytics/analytics_2016-11-08.rst
+
+**************************
+Week of 24 October 2016
+**************************
+
+.. include:: 2016/analytics/analytics_2016-10-24.rst
+
+**************************
+Week of 18 October 2016
+**************************
+
+.. include:: 2016/analytics/analytics_2016-10-17.rst
+
+**************************
+Week of 3 October 2016
+**************************
+
+.. include:: 2016/analytics/analytics_0928_2016.rst
+
+**************************
+Week of 29 August 2016
+**************************
+
+.. include:: 2016/analytics/analytics_2016-08-29.rst
+
+**************************
+Week of 15 August 2016
+**************************
+
+.. include:: 2016/analytics/analytics_2016-08-15.rst
+
+**************************
+Week of 1 August 2016
+**************************
+
+.. include:: 2016/analytics/analytics_2016-08-01.rst
+
+**************************
+Week of 6 June 2016
+**************************
+
+.. include:: 2016/analytics/analytics_0606_2016.rst
+
+**************************
+Week of 16 May 2016
+**************************
+
+.. include:: 2016/analytics/analytics_0516_2016.rst
+
 **************************
 Week of 2 May 2016
 **************************

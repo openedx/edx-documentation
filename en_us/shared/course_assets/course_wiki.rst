@@ -170,12 +170,14 @@ changes to be saved.
 Groups Used in Wiki Permissions
 ===============================
 
-There are three groups for each course, managed by adding users to these groups
-on the **Membership** page of the Instructor Dashboard.
+Each course has the following groups.
 
 	* Beta Testers (by default there are no beta testers until you add them)
 	* Admins (by default, the course author is always in this group)
 	* Staff (these are course team members)
+
+You add users to these groups in the LMS by selecting **Instructor** and then
+**Membership**.
 
 The permissions for the **Others** group apply to users who are not in the
 three course groups, including learners.

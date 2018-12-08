@@ -4,18 +4,25 @@
 Bulk Email
 ##############################
 
-For courses on edx.org, you can send bulk email messages to course
-participants directly from the Instructor Dashboard. Messages can use HTML
-styling, and can include links to videos, social media pages for the course,
-and other material. All course contributors who are assigned the Staff or
-Admin role can use bulk emails to communicate with course participants before,
-during, and after the course run.
+For courses on edx.org, you can send bulk email messages to course participants
+directly from the instructor dashboard: in the LMS, select **Instructor**, and
+then select **Email**.
 
-.. note::
-  Some courses use third party services such as MailChimp to send bulk email.
-  Do not use both a third party service and the edX bulk email service. If you
-  use more than one service to send email, your messages are more likely to be
-  be marked as spam, and learners might not see them.
+Your messages can use HTML styling, and can include links to videos, social
+media pages for the course, and other material. All course team members who
+have the Staff or Admin role can use bulk email messages to communicate with
+course participants before, during, and after the course run.
+
+Learners are less likely to read and respond to email messages from courses
+when they receive too many of them. As a best practice, do not send more than
+one email message per week to course participants, unless there is good reason
+to do so.
+
+.. note:: Some courses use third party services such as MailChimp to send bulk
+   email. Do not use both a third party service and the edX bulk email
+   service. If you use more than one service to send email message, your
+   messages are more likely to be marked as spam, and learners might not read
+   them.
 
 This section contains the following topics.
 
@@ -23,37 +30,174 @@ This section contains the following topics.
   :local:
   :depth: 1
 
+.. _bulk_email_message_addressing:
+
 *************************
 Message Addressing
 *************************
 
-When you send an email message from the Instructor Dashboard, you choose its
-recipients by selecting one of these predefined groups.
+When you send a bulk email message from the instructor dashboard, you choose
+its recipients by selecting a **Send to** option. You can select one or more
+recipient groups for each message. For details about who is included in each
+of the preset recipient groups, see :ref:`Bulk Email Who Is Included or
+Excluded`.
 
-* **Myself**, to test out a message before sending it to a larger group.
-* **Staff and admins**, to contact other members of the course
-  team.
-* **All (learners, staff and admins)**, to communicate with currently
-  enrolled learners and the course team.
+When you send a message to more than one recipient group, duplicate recipients
+are filtered out, so that someone who belongs to more than one of the
+recipient groups (for example, a course team member who is also enrolled in
+the course) only receives one copy of the message.
 
-  Email messages are sent to all enrolled learners with these exceptions.
+The following preset recipient groups are available.
 
-  * Learners who have not replied to the account activation email message
-    that is sent when they registered on edx.org.
-  * Learners who have opted out of receiving email messages through the **Email
-    Settings** link, which is present for each course on the **Current
-    Courses** dashboard.
+* **Myself**. Send an email message only to yourself, to test and review the
+  message before sending it to a larger group.
 
-Before you use the bulk email feature, consider that messages **cannot be
-canceled** after they are sent. If you plan to send a message to all course
-participants, be sure to review each draft carefully, and send the message to
-yourself first for thorough testing.
+* **Staff and Administrators**. Send an email message to members of the course
+  team who have Staff or Admin privileges. For information about course
+  team member privileges, see :ref:`Course_Staffing`.
+
+* **All Learners**. Send an email message to all currently enrolled learners,
+  including course team members who are enrolled in the course. This group
+  does not include learners who have not activated their accounts, or who
+  have opted out of receiving email communications.
+
+In addition, if you have cohorts enabled in your course, each cohort is
+available as a separate recipient group. For more information, see :ref:`Bulk
+Email Cohorts`.
+
+
+.. _Bulk Email Who Is Included or Excluded:
+
+=========================================
+Who Is Included in Each Recipient Group?
+=========================================
+
+When you send a bulk email message to one of the preset recipient groups, you
+should be aware of who is included in each group.
+
+
+.. list-table::
+   :widths: 30 40 40
+   :header-rows: 1
+
+   * - Recipient Group
+     - Includes
+     - Does Not Include
+   * - Staff and Administrators
+     - * Any course team member who has the **Staff** role.
+       * Any course team member who has the **Admin** role.
+     - * Beta testers who do not also have the **Staff** or **Admin** role.
+       * Discussion moderators who do not also have the **Staff** or **Admin** role.
+       * Discussion administrators who do not also have the **Staff** or **Admin**
+         role.
+       * Discussion community TAs.
+   * - All Learners
+     - * All currently enrolled learners in your course, including those who
+         have enrolled but have not yet accessed the course.
+       * Course team members who are enrolled in your course.
+     - * Learners who have not replied to the account activation email message
+         that they received when they registered on edx.org.
+       * Learners who have opted out of receiving email messages through the
+         **Email Settings** link for the course on the learner's dashboard.
+
+.. note:: To send an email message to all course team members as well as all
+   learners, select both **Staff and Administrators** and **All Learners**.
+   Recipients who are in both groups will receive only one copy of the email
+   message.
+
+
+.. _Bulk Email Cohorts:
+
+===================================================
+Sending Email Messages to Learners in Cohorts
+===================================================
+
+If you enable cohorts in your course, each cohort is available as a separate
+recipient group. The recipient groups for individual cohorts only include
+enrolled learners who have been assigned to a cohort, whether they were
+automatically assigned when they accessed the course or manually assigned to a
+cohort by a member of the course team.
+
+The recipient groups for cohorts do not include enrolled learners who have not
+been added to a cohort. This might be the case if they have not accessed the
+course or have not been manually added to a cohort by a member of the course
+team. To make sure such learners are included in email messages that are
+intended for all enrolled learners, select the **All Learners** recipient
+group instead of selecting all of the cohort recipient groups.
+
+If a default cohort exists in your course, a recipient group named **Cohort:
+Default Group** is also available.
+
+.. note:: The default cohort is created only if you have not created at least
+   one automated assignment cohort in your course by the time the first
+   learner accesses course content. If learners access the course before you
+   have created any automated cohorts, they are automatically placed in the
+   default cohort, to ensure that all learners in the course belong to a
+   cohort. You can manually reassign learners from the default cohort to
+   another cohort. For more information, see :ref:`Default Cohort Group`.
+
+
+.. _Options for Email Message Text:
+
+*******************************
+Composing Email Messages
+*******************************
+
+When you compose an email message, you can use the following options.
+
+.. contents::
+  :local:
+  :depth: 1
+
+=======
+Styling
+=======
+
+Messages can include HTML styling, including text formatting and links. The
+email message editor offers the same formatting options as the HTML component
+editor in Studio.
+
+For more information, see :ref:`Working with HTML Components`.
+
+======
+Images
+======
+
+Messages can include images. To include an image, you must first add the file
+to your course on the **Files & Uploads** page. For an email message, you copy
+the **Web** URL that the system assigns to the image. Then, in the email
+message editor, you select the **Insert/edit image** icon to add the web URL.
+
+To ensure that your course assets are transmitted securely, add the
+``https://`` preface to the web URL. An example follows.
+
+::
+
+    https://courses.edx.org/asset-v1:{course}.x+{run}+type@asset+block@{image}.jpg
+
+For more information, see :ref:`Add Files to a Course`.
+
+=========
+Keywords
+=========
+
+Messages can include variables that represent values that are specific to each
+message recipient, such as learner name or user ID. The LMS substitutes these
+variables, called keywords, with actual values when it sends a message.
+
+For more information, see :ref:`Use Keywords in Messages`.
 
 .. _Send_Bulk_Email:
 
 **************************************************
-Send Email Messages to Course Participants
+Send an Email Message to Course Participants
 **************************************************
+
+.. Important:: You cannot cancel bulk email messages after you send them.
+
+   Before you send a message to a wide audience, send the message only to
+   yourself to test and review it. Make sure it displays as you intend it to,
+   and that any links or media function correctly.
 
 To send an email message to course participants, follow these steps.
 
@@ -61,39 +205,26 @@ To send an email message to course participants, follow these steps.
 
 #. Select **Instructor**, and then select **Email**.
 
-#. Select who you want to send the message to from the **Send to** drop-down
-   list. You select from the following options.
+#. From the **Send to** option, select one or more groups of email recipients.
 
-  * **Myself**
-  * **Staff and admins**
-  * **All (students, staff and admins)**
+   .. note:: Make sure you understand who is included or excluded when you
+      send a message to one, or a combination, of the recipient groups. For
+      details, see :ref:`Bulk Email Who Is Included or Excluded`
 
-4. Enter a **Subject** for the message. A subject is required.
+#. In the **Subject** field, enter a subject for the message.
 
-#. Enter the text for the message. Message text is required.
+#. In the **Message** box, enter the text for the message.
 
-   To include an image in your message, use the **Files & Uploads** page in
-   Studio to add the file to your course, and then select the **Insert/edit
-   image** icon. For more information, see :ref:`Add Files to a Course`.
+   For details about options for composing your message, see
+   :ref:`Options for Email Message Text`.
 
-   Messages can use HTML styling, including text formatting and links. The
-   email message editor offers the same formatting options as the HTML
-   component editor in Studio. For more information, see :ref:`Working with
-   HTML Components`.
+#. Select **Send Email**. A bulk email task is queued for processing.
 
-   You can use keywords in messages, to have values that are specific to each
-   recipient substituted in the content when messages are sent. For more
-   information, see :ref:`Use Keywords in Messages`.
-
-#. Select **Send Email**. You can perform other tasks on the Instructor
-   Dashboard or navigate to other pages while you wait for your message to be
-   sent.
-
-After you send a message, a bulk email task is queued for processing.
 Multiple courses use the same queue to complete these tasks, so it can take
-some time for your message to be sent to all of its recipients. If your course
-is a MOOC, consider limiting the number of messages that you send to all
-course participants to no more than one per week.
+some time for your message to be sent to all of its recipients. You can
+perform other tasks on the instructor dashboard or navigate to other pages
+while you wait for your message to be sent.
+
 
 .. _Use Keywords in Messages:
 
@@ -195,7 +326,7 @@ message text.
     :alt: A tabular list of sent messages, with columns for subject, sent by,
           time sent, and number sent.
 
-4. To review additional information for a message, select its subject. The
+#. To review additional information for a message, select its subject. The
    message opens in a dialog box.
 
    .. image:: ../../../shared/images/Bulk_email_sent.png
@@ -203,7 +334,7 @@ message text.
           and message for an email message, and an option to Copy Email
           to Editor.
 
-5. Optionally, use the message as the basis for a new message: select **Copy
+#. Optionally, use the message as the basis for a new message: select **Copy
    Email to Editor**. The dialog box closes and you can edit the text, links,
    and formatting that were duplicated into the **Subject** and **Message**
    fields.
@@ -237,8 +368,8 @@ To produce the Email Task History report, follow these steps.
 #. Select **Instructor**, and then select **Email**.
 
 #. In the **Email Task History** section of the page, select **Show Email Task
-   History**. A report like the following example displays on the Instructor
-   Dashboard.
+   History**. A report like the following example displays on the instructor
+   dashboard.
 
 .. image:: ../../../shared/images/Bulk_email_history.png
        :width: 800
@@ -292,7 +423,7 @@ Example Messages to Learners
 You can use these example messages, prepared for delivery before typical course
 milestones, as models for your own course communications.
 
-.. contents:: Section Contents
+.. contents::
   :local:
   :depth: 1
 
@@ -345,9 +476,12 @@ Keywords in Messages>` appropriately.
   We are excited that you are joining us for {course number}
   %%COURSE_DISPLAY_NAME%%, offered by {organization name} through edX. Class
   begins on {day}, {date} at {time} UTC (which is {time} {local time zone}).
-  Note that edX courses use Coordinated Universal Time (UTC) for due dates and
-  release times. You might want to verify the times in the course by using a
-  time zone converter such as {link}.
+  Note that many dates and times in edX courses appear in your local time zone,
+  but some might appear in Coordinated Universal Time (UTC). Dates and times
+  that use your local time zone are followed by an indication of the time
+  zone: for example, 17:00 Sept. 5, 2016 IOT. UTC dates and times do not
+  have a time zone indicator. For UTC times, you might want to use a time zone
+  converter such as {link}.
 
   In case you haven't already found it, {course number} has its own official
   Facebook page {add link}. You can find videos and photos posted there before
@@ -659,8 +793,8 @@ about future access to course materials. Be sure to replace values enclosed by
 
   * If you qualify for a certificate (overall score {number}% or higher), the
     edX dashboard will include a link to your certificate in the near future.
-    While you may see the link in a few days, it can take up to two weeks edX
-    to generate all of the course certificates.
+    While you may see the link in a few days, it can take up to two weeks for
+    edX to generate all of the course certificates.
 
   * As an enrolled student, you will have access to the lecture videos even
     after the course ends. Assessments will remain, but you will no longer be

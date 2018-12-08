@@ -83,10 +83,6 @@ course.
 Create a Certificate
 *********************
 
-You create one certificate for each course mode, or track. For example, if your
-course has an "honor code" track and a "verified track", you must create two
-certificates.
-
 To create a certificate for your course, follow these steps.
 
 #. In Studio, from the **Settings** menu, select **Certificates**.
@@ -159,11 +155,10 @@ To edit a certificate, follow these steps.
 
 #. In Studio, from the **Settings** menu, select **Certificates**.
 
-#. On the Certificates page, at the top right corner of the certificate
-   form, select the **Edit** icon.
+#. On the Certificates page, at the top of the certificate form, select the
+   **Edit** icon.
 
-#. When you have finished editing the certificate, select
-   **Save**.
+#. When you have finished editing the certificate, select **Save**.
 
    After you save your changes, you can :ref:`preview the certificate<Preview
    a Certificate>` to make sure it appears as you want it to. You then need to
@@ -212,14 +207,16 @@ To delete a certificate, follow these steps.
 
 #. In Studio, from the **Settings** menu, select **Certificates**.
 
-#. On the Certificates page, at the top right corner of the certificate
-   form, select the "Delete" icon.
+#. On the **Certificates** page, at the top of the certificate form, select the
+   "Delete" icon.
+
+   .. image:: ../../../shared/images/CertificateDeleteIcon.png
+    :width: 500
+    :alt: Top portion of the certificate form showing the delete icon at the
+        top.
 
 #. In the confirmation dialog, confirm that you want to delete the certificate.
 
-.. image:: ../../../shared/images/CertificateDeleteIcon.png
-   :width: 500
-   :alt: Top portion of the certificate form showing the delete icon in the upper right corner.
 
 
 .. _Preview a Certificate:
@@ -228,10 +225,10 @@ To delete a certificate, follow these steps.
 Preview Certificates
 ************************
 
-After you have finished editing your certificate, you can
-preview a certificate for verification purposes. You select from the available
-course modes (such as "honor code" or "verified") to see how a certificate
-will appear to a learner taking the course in the selected mode.
+After you have finished editing your certificate, you can preview a certificate
+for verification purposes. You select from the available course modes (such as
+"verified") to see how a certificate will appear to a learner taking the course
+in the selected mode.
 
 #. In Studio, from the **Settings** menu, select **Certificates**.
 
@@ -240,10 +237,6 @@ will appear to a learner taking the course in the selected mode.
 
    You see the web view for the certificate, as a learner in the selected
    course mode would see it.
-
-   .. image:: ../../../shared/images/PreviewCertificate.png
-     :width: 350
-     :alt: The Preview button on the Certificates page in Studio.
 
 After previewing the certificate, you can :ref:`edit the certificate<Edit a
 Certificate>` further or :ref:`activate your certificate configuration<Activate
@@ -256,28 +249,21 @@ a Certificate>`.
 Activate a Certificate
 ***********************
 
-.. only:: Partners
+When you have verified your certificate, a course team member with the Admin or
+Staff role can activate the certificate.
 
-  When you have verified your certificates, contact your edX partner manager to
-  activate your certificates.
+.. note::
+  Course team members without the Admin or Staff role cannot activate a
+  certificate.
 
-.. only:: Open_edX
+To activate a certificate, follow these steps.
 
-  When you have verified your certificate, a course team member with the Admin
-  role must activate the certificate.
+#. Make sure that you have the Admin or Staff role for the course. For more
+   information, see :ref:`Course_Staffing`.
 
-  .. note:: Course team members without the Admin role cannot activate a
-     certificate.
+#. In Studio, on the **Settings** menu, select **Certificates**.
 
-  The course team administrator must complete the following steps.
-
-  #. In Studio, from the **Settings** menu, select **Certificates**.
-
-  #. On the Certificates page, select **Activate**.
-
-     .. image:: ../../../shared/images/ActivateCertificate.png
-       :width: 350
-       :alt: The Activate button on the Certificates page in Studio.
+#. On the **Certificates** page, select **Activate**.
 
 After certificates are activated, learners in your course who attain a passing
 grade or otherwise qualify receive certificates.
@@ -289,29 +275,27 @@ grade or otherwise qualify receive certificates.
 Deactivate a Certificate
 ********************************************
 
-In some situations, after having made a certificate active, you
-might need to deactivate the certificate to make changes.
+In some situations, after you have activated a certificate, you might need to
+deactivate the certificate to make changes.
 
 As a best practice, do not make changes to certificates in a running course if
-it is possible that certificates have already been issued to learners.
+the course has already issued certificates to learners.
 
-.. only:: Partners
+A course team member with the Admin or Staff role can deactivate the
+certificate.
 
-  Contact your edX partner manager if you need to modify an activated
+.. note::
+  Course team members without the Admin or Staff role cannot deactivate a
   certificate.
 
-.. only:: Open_edX
+To deactivate a certificate, follow these steps.
 
-  A course team member with the Admin role must deactivate the certificate.
+#. Make sure that you have the Admin or Staff role for the course. For more
+   information, see :ref:`Course_Staffing`.
 
-  .. note:: Course team members without the Admin role cannot deactivate a
-     certificate.
+#. In Studio, on the **Settings** menu, select **Certificates**.
 
-  The course team administrator must complete the following steps.
-
-  #. In Studio, from the **Settings** menu, select **Certificates**.
-
-  #. On the Certificates page, select **Deactivate**.
+#. On the **Certificates** page, select **Deactivate**.
 
 The certificate is no longer active and the course team can edit it. No new
 certificates can be issued to learners while it is deactivated. Learners who
@@ -343,18 +327,18 @@ manually remove unused images. For information, see
  *****************************************
 
  Badges provide a way for learners to share their course achievements. For
- courses that have course completion badges enabled, learners receive a badge  at
- the same time as they receive a course certificate, and have the option of
+ courses that have course completion badges enabled, learners receive a badge
+ at the same time as they receive a course certificate, and have the option of
  sharing their badges to a badging site such as Mozilla Backpack.
 
  The Open edX platform supports Open Badges, an open standard developed by the
- Mozilla Foundation. For more information about Open Badges, see the
- `Open Badges web site <http://openbadges.org/>`_.
+ Mozilla Foundation. For more information about Open Badges, see the `Open
+ Badges web site <http://openbadges.org/>`_.
 
- If badging is enabled for your platform, course completion badges are enabled by
- default for your course. If you are unsure whether badging is enabled for your
- platform, or if you need help with configuring your course badges, contact your
- platform administrator.
+ If badging is enabled for your platform, course completion badges are enabled
+ by default for your course. If you are unsure whether badging is enabled for
+ your platform, or if you need help with configuring your course badges,
+ contact your platform administrator.
 
  To stop issuing badges in your course, follow these steps.
 

@@ -26,20 +26,22 @@ Open the Course Outline
 
 To view the course outline, follow these steps.
 
-#. Log in to edX Studio.
-#. In the **My Courses** page, select the course you want to develop.
+#. Sign in to edX Studio.
+#. On the **My Courses** page, select the course you want to develop.
 
    The course outline opens by default when you open a course.
 
-When working in a course, to open the outline, from the **Content** menu,
-select **Outline**.
+To open the outline when you are working in a course, from the **Content**
+menu, select **Outline**.
 
-The first time you view an outline for a course, it contains no content.
+The first time you view an outline for a course, it contains no content. The
+following message is visible.
 
-.. image:: ../../../shared/images/outline_empty.png
- :alt: An empty course outline.
+::
 
-You must :ref:`create the first section<Create a Section>`.
+  You haven't added any content to this course yet.
+
+To add content, you :ref:`create a section<Create a Section>`.
 
 ********************************************************
 Understanding a Course Outline in Studio
@@ -51,8 +53,9 @@ it will begin to look like this example.
 
 .. image:: ../../../shared/images/outline-callouts.png
  :alt: An outline with callouts for sections, subsections, and units.
+ :width: 500
 
-As this example shows, the course is organized into the following levels.
+In this example, the course is organized into the following levels.
 
 #. :ref:`Sections<Developing Course Sections>`
 #. :ref:`Subsections<Developing Course Subsections>`
@@ -75,17 +78,23 @@ your course content.
 
 .. image:: ../../../shared/images/Course_Outline_LMS.png
  :alt: Course content from learner's point of view.
+ :width: 600
 
-#. Sections are listed in the left pane. Learners can expand the sections to
-   see the subsections and units that they contain, or collapse for a compact
-   overview.
-#. Subsections and units appear in the left pane when learners expand a
-   section.
-#. Components in the selected unit appear in the learning sequence. Learners
-   select icons in the learning sequence to access specific components in the
-   current unit. They can also use the left and right arrow buttons at either
-   end of the learning sequence to move back to the previous unit or forward to
-   the next unit.
+#. Sections are listed in the course navigation pane. Learners select a section
+   to see the subsections that it contains.
+
+#. Subsections are listed in the course navigation pane after a learner expands
+   a section.
+
+#. Units appear in the unit navigation bar, represented by icons, after
+   learners select a subsection. A tooltip with the unit's name appears when
+   learners move the pointer onto an icon.
+
+   Learners select icons in the unit navigation bar to access course units. They
+   can also use the **Previous** and **Next** options at either end of the unit
+   navigation bar to move back to the previous unit or forward to the next unit.
+   The current unit is indicated with bold underlining in the unit navigation
+   bar.
 
 .. _Navigating the Course Outline:
 
@@ -98,12 +107,15 @@ and subsections. Use the "drop-down" icon next to a section or subsection name
 to expand or collapse its contents.
 
 .. image:: ../../../shared/images/outline-expand-collapse.png
- :alt: The outline with expand and collapse icons circled.
+ :alt: The outline showing an expanded section and a collapsed subsection, with
+     expand and collapse icons circled.
+ :width: 500
 
 When you expand a subsection, all units in the subsection are visible.
 
 .. image:: ../../../shared/images/outline-with-units.png
- :alt: The outline with an expanded subsection.
+ :alt: The outline showing an expanded subsection.
+ :width: 500
 
 Select the name of a unit to open the :ref:`unit page<Developing Course
 Units>`.
@@ -114,25 +126,10 @@ Units>`.
 Add Content in the Course Outline
 ************************************************
 
-You add sections, subsections, and units directly in the outline.
+You can add content in the course outline by creating a new section,
+subsection, or unit, or by duplicating an existing unit, subsection, or
+section.
 
-* To add a section to the outline, select **New Section**. This option appears
-  at both the top of the page and below the current sections in the outline.
-  For more information, see :ref:`Create a Section`.
-
-*  To add a subsection to the end of the section, expand the section and select
-   **New Subsection**.
-
-   .. image:: ../../../shared/images/outline-new-subsection.png
-     :alt: The outline with the New Subsection button circled.
-
-* To add a unit to the end of a subsection, expand the subsection and select
-  **New Unit**.
-
-  .. image:: ../../../shared/images/outline-new-unit.png
-    :alt: The outline with the New Subsection button circled.
-
-  The :ref:`unit<Developing Course Units>` page opens.
 
 .. the following note is for prerequisite exams, which are currently released in open edx only and not on edx.org.  when they are available on edx.org, this note should no longer be conditionalized.
 
@@ -143,6 +140,40 @@ You add sections, subsections, and units directly in the outline.
       the exam in the course outline. Before you can create an exam, you must
       set your course to require an entrance exam in Studio. For more
       information, see :ref:`Require an Entrance Exam`.
+
+
+==========================================
+Adding New Sections, Subsections, or Units
+==========================================
+
+* To add a section to the outline, select **New Section**. This option appears
+  at both the top of the page and below the current sections in the outline.
+  For more information, see :ref:`Create a Section`.
+
+*  To add a subsection to the end of the section, expand the section and select
+   **New Subsection**.
+
+* To add a unit to the end of a subsection, expand the subsection and select
+  **New Unit**. The :ref:`unit<Developing Course Units>` page opens.
+
+
+=======================================================
+Duplicating Existing Sections, Subsections, or Units
+=======================================================
+
+To add a section, subsection, or unit by duplicating content that already exists
+in the course outline, select the **Duplicate** icon for the item that you want
+to duplicate. You see a **Duplicating** indicator at the bottom of the Studio
+page.
+
+Duplicated items are added to the course outline immediately below the
+original item, with the name "Duplicate of <original item name>".
+
+.. note:: Duplicated items inherit the release date of the item that they are
+   duplicated from, but you must explicitly publish duplicated subsections and
+   units before they are visible to learners. For more information about
+   release statuses and visibility of sections to learners, see :ref:`Sections
+   and Visibility to Learners`.
 
 .. _Modify Settings for Objects in the Course Outline:
 
@@ -166,6 +197,7 @@ circled for a section, a subsection, and two units.
 
 .. image:: ../../../shared/images/settings-icons.png
  :alt: Configure icons in the course outline.
+ :width: 500
 
 For more information, see the links above.
 
@@ -185,6 +217,7 @@ for a section, subsection, and unit.
 
 .. image:: ../../../shared/images/outline-publish-icons.png
  :alt: Publishing icons in the course outline.
+ :width: 500
 
 .. note::
  The **Publish** icon only appears when there is new or changed content within
@@ -213,6 +246,7 @@ Started is selected.
 
 .. image:: ../../../shared/images/outline-drag-select.png
  :alt: A subsection handle selected to drag it.
+ :width: 500
 
 Then, click and drag the object to the location that you want.
 
@@ -224,6 +258,7 @@ Introduction.
 
 .. image:: ../../../shared/images/outline-drag-new-location.png
  :alt: A subsection being dragged to a new section.
+ :width: 500
 
 If you did not expand the section or subsection you are moving the object to,
 the outline of that section or subsection turns blue when you have moved the
@@ -233,6 +268,7 @@ the collapsed section Introduction.
 
 .. image:: ../../../shared/images/outline-drag-new-location-collapsed.png
   :alt: A subsection being dragged to a new section.
+  :width: 500
 
 .. note:: When you move a subsection to a different section, the release date
   and time for that subsection does not change.
@@ -254,6 +290,7 @@ Select the **Delete** icon in the box for the object you want to delete.
 
 .. image:: ../../../shared/images/outline-delete.png
  :alt: The outline with Delete icons circled.
+ :width: 500
 
 You are prompted to confirm the deletion.
 

@@ -39,7 +39,7 @@ component.
   :alt:  The Google Calendar editor in Studio.
   :width: 600
 
-Course teams or developers can also add a Google calendar using OLX.
+Course teams or developers can also add a Google calendar using OLX (open learning XML).
 
 .. code-block:: xml
 
@@ -50,8 +50,9 @@ Course teams or developers can also add a Google calendar using OLX.
     display_name="Class Schedule"
   />
 
-For more information, see :ref:`opencoursestaff:Google Calendar Tool` and :ref:`opencoursestaff:Google Drive Files Tool` in
-*Building and Running an Open edX Course*.
+For more information, see :ref:`opencoursestaff:Google Calendar Tool` and
+:ref:`opencoursestaff:Google Drive Files Tool` in *Building and Running an Open
+edX Course*.
 
 ==================
 Viewing the XBlock

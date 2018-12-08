@@ -4,19 +4,12 @@
 Course Data
 ############################
 
-After you create a course in Studio, you can access information about it from
-the Instructor Dashboard.
+After you create a course in Studio, you can access information about it in the
+LMS by selecting **Instructor** to access the instructor dashboard.
 
 .. contents::
   :local:
   :depth: 1
-
-Additional data about the course and its learners is available from other pages
-in the Instructor Dashboard, and from edX Insights.
-
-To access the data visualizations, metrics, and reports of Insights from the
-Instructor Dashboard, select the link in the banner at the top of each page.
-For more information, see :ref:`insights:Using edX Insights`.
 
 *************************************************
 Review Course Data
@@ -44,11 +37,18 @@ To view this course data, follow these steps.
     .. image:: ../../../shared/images/Instructor_Dash_Course_Info.png
      :alt: The basic course information section of the Instructor Dashboard.
 
+Additional data about the course and its learners is available from other pages
+in the instructor dashboard, and from Insights.
+
+To access the data visualizations, metrics, and reports that are available in
+Insights from the instructor dashboard, select the link in the banner at the
+top of each page. For more information, see :ref:`insights:Using edX Insights`.
+
 *************************************************
 Sources in Studio of the Basic Course Information
 *************************************************
 
-The course data that displays on the Instructor Dashboard is defined in
+The course data that displays on the instructor dashboard is defined in
 Studio, or derived from data that you define in Studio.
 
 * **Organization**: Specified in Studio when you create the course. Becomes
@@ -71,7 +71,7 @@ Studio, or derived from data that you define in Studio.
 
   The illustration that follows shows the information that you enter in Studio
   for a new course, side-by-side with the same information as it appears on the
-  **Course Info** page of the Instructor Dashboard.
+  **Course Info** page of the instructor dashboard.
 
 .. image:: ../../../shared/images/Course_Info_Comparison.png
    :alt: The Course Name in Studio and the Course Display Name in the LMS are

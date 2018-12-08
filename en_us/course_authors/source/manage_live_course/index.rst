@@ -15,6 +15,5 @@ course discussions.
    bulk_email
    course_enrollment
    discussions
-   discussions_students
    discussion_guidance_moderators
    staff_debug_info

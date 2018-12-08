@@ -1,7 +1,7 @@
 .. _Front Matter:
 
 #############################
-For Your Information
+General Information
 #############################
 
 .. toctree::
@@ -10,6 +10,3 @@ For Your Information
    read_me
    preface
    browsers
-   change_log
-   change_log_2015
-   change_log_2014

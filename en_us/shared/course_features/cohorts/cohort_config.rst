@@ -37,7 +37,8 @@ configuration steps (as applicable).
     Assignment Strategy>`
 
   * :ref:`Implement a manual assignment strategy<Implementing the Manual
-    Assignment Strategy>` and :ref:`manually assign learners <Assign Learners to Cohorts Manually>` to the cohorts you create
+    Assignment Strategy>` and :ref:`manually assign enrolled learners <Assign
+    Learners to Cohorts Manually>` to the cohorts that you create
 
   * :ref:`Use a combination of automated and manual assignment<Hybrid
     Assignment>`
@@ -100,8 +101,8 @@ Automated Cohorts
 The first time a learner views course content on the **Course** or
 **Discussion** page, if she is not already assigned to a cohort, she is
 randomly assigned to one of the automated cohorts. If no automated cohorts
-exist, the system creates a :ref:`Default Cohort Group` and assigns the learner
-to this default cohort.
+exist, the system creates a :ref:`default cohort <Default Cohort Group>` and
+assigns the learner to this cohort.
 
 .. note:: The default cohort is created to ensure that every learner is
    assigned to a cohort. To avoid having to re-assign learners from the default
@@ -117,14 +118,17 @@ Implementing a Manual Assignment Strategy
 To implement a manual assignment strategy of learners to cohorts, you
 :ref:`enable the cohort feature<Enable Cohorts>` for your course, and
 :ref:`create cohorts<Add Cohorts>` that have the **Manual** :ref:`assignment
-method<Changing the Assignment Method of a Cohort>`. To add learners to these
-cohorts, you manually assign learners to the appropriate cohort.
+method<Changing the Assignment Method of a Cohort>`. Then, you manually assign
+enrolled learners to the appropriate cohorts.
 
-.. note:: Manual assignments should be as complete as possible before your
-   course starts. If enrollment continues after your course starts, you
-   should continue to assign new learners to cohorts. If you need to make
-   changes to the way you have configured cohorts while your course is running,
-   see :ref:`Altering Cohort Configuration`.
+.. note:: You can only add learners to a cohort manually if they have enrolled
+   in your course.
+
+Manual assignments should be as complete as possible before your course
+starts. If learners enroll after your course starts, you should continue to
+assign new learners to cohorts. If you need to make changes to the way you
+have configured cohorts while your course is running, see :ref:`Altering
+Cohort Configuration`.
 
 For a scenario using a manual assignment strategy, see :ref:`All Manual
 Assignment`. For a scenario using a combination of automated and manual
@@ -159,7 +163,8 @@ You can now :ref:`add cohorts<Add Cohorts>` to your course.
 Adding Cohorts
 ****************
 
-After you enable the cohorts feature for your course, you can add cohorts.
+After you enable the cohorts feature for your course, you can add cohorts. To
+add a cohort to your course, follow these steps.
 
 #. In the LMS, select **Instructor**, then select **Cohorts**.
 
@@ -210,9 +215,15 @@ learner, review the learner profile information for your course. See
 Assign Learners to Cohorts Manually
 ***********************************
 
-.. note:: Manual assignments should be as complete as possible before your
- course starts. If enrollment continues after your course starts, you
- should continue to assign new learners to cohorts.
+If you have implemented a manual assignment strategy for cohorts in your
+course, make sure your manual assignments are as complete as possible before
+your course starts. Making changes to cohort assignments after the course
+starts affects the course experience for learners.
+
+To manually assign learners to cohorts in your course, follow these steps.
+
+.. note:: You can only add learners to a cohort manually if they have enrolled
+   in your course.
 
 #. View the live version of your course. For example, in Studio click **View
    Live**.
@@ -247,10 +258,13 @@ download student data`.
 Assign Learners to Cohorts by Uploading a .csv File
 ***************************************************
 
-In addition to assigning learners to cohorts by entering usernames or email
-addresses directly on the **Cohorts** page in the Instructor Dashboard, you can
-also upload a .csv file containing a list of learners and the cohorts that you
-want to assign them to.
+Uploading a .csv file containing a list of learners and the cohorts that you
+want to assign them to is another way of assigning learners to cohorts
+manually. For details about the other manual assignment method, see
+:ref:`Assign Learners to Cohorts Manually`.
+
+.. note:: You can only add learners to a cohort using a .csv file if they have
+   enrolled in your course.
 
 Any assignments to cohorts that you specify in the .csv files you upload
 will overwrite or change existing cohort assignments. The configuration of
@@ -318,7 +332,9 @@ The requirements for the .csv file are summarized in this table.
       - Columns with headings other than "email", "username" and "cohort" are
         ignored.
 
-Follow these steps to assign learners to cohorts by uploading a .csv file.
+
+To manually add enrolled learners to cohorts by uploading a .csv file, follow
+these steps.
 
 #. View the live version of your course. For example, in Studio, select **View
    Live**.
@@ -428,9 +444,9 @@ posts have "disappeared".
 To verify the cohort assignments for your learners, download the  :ref:`student
 profile report<View and download student data>` for your course. If changes are
 needed, you can :ref:`assign learners<Assign Learners to Cohorts Manually>` to
-different cohorts manually on the **Cohorts** page of the Instructor Dashboard,
-or :ref:`upload cohort assignment changes<Assign Learners to Cohort Groups by
-uploading CSV>` in a .csv file.
+different cohorts manually in the LMS by selecting **Instructor** and then
+**Cohorts**, or :ref:`upload cohort assignment changes<Assign Learners to
+Cohort Groups by uploading CSV>` in a .csv file.
 
 .. _Renaming a Cohort:
 
@@ -489,7 +505,7 @@ Learners to Cohorts` and :ref:`Altering Cohort Configuration`.
    course that has automatic assignment. If you have not created at least one
    automated assignment cohort in the course by the time that the first learner
    accesses your course content, edX creates a default cohort to which learners
-   are automatically assigned. If the :ref:`Default Group<Default Cohort
+   are automatically assigned. If the :ref:`default group<Default Cohort
    Group>` is the only automated assignment cohort in your course, you cannot
    change its assignment method to **Manual**.
 

@@ -24,24 +24,18 @@ What is a Component?
 A component is the part of a unit that contains your actual course content. A
 unit can contain one or more components.
 
-A learner can view the names of all components in a unit by moving the cursor
-over each unit in the learning sequence at the top of the page.
-
-.. image:: ../../../shared/images/ComponentNames_CourseRibbon.png
- :alt: Image of the component list for a unit.
-
 By default, Studio includes four types of components for you to add to your
 course.
 
-* **Discussion components** provide discussion spaces in the body of your
+* **Discussion** components provide discussion spaces in the body of your
   course. Learners can explore ideas about a lesson with their peers in a
   discussion space.
-* **HTML components** allow you to add text, images, and some types of learning
+* **HTML** components allow you to add text, images, and some types of learning
   tools to your course. Content in HTML components is formatted as HTML.
-* **Problem components** enable you to add many different types of exercises
-  and problems to you course, from simple multiple choice problems to complex
+* **Problem** components enable you to add many different types of exercises
+  and problems to your course, from simple multiple choice problems to complex
   circuit schematic exercises.
-* **Video components** contain the videos that you want to include in your
+* **Video** components contain the videos that you want to include in your
   course.
 
 .. _Add a Component:
@@ -50,12 +44,11 @@ course.
 Add a Component
 ********************
 
-To add a component to the unit, under **Add New Component** select a component
-type.
+To add a component to the unit, follow these steps.
 
-.. image:: ../../../shared/images/AddNewComponent.png
-  :alt: The controls for the default component types you can add: Discussion,
-      HTML, Problem, and Video.
+#. In Studio, open the page for the unit.
+#. Under **Add New Component**, select a component type. The default component
+   types are discussion, HTML, problem, and video.
 
 For more information, see the documentation for the specific component type
 that you want to work with.
@@ -74,7 +67,7 @@ After you add a component, it is not visible to learners until you
 Edit a Component
 ********************
 
-To edit a component, you select the **Edit** icon.
+To edit a component, you select **Edit**.
 
 .. image:: ../../../shared/images/unit-edit.png
   :alt: A component with the Edit icon indicated in the toolbar.
@@ -89,20 +82,20 @@ After you edit a component, the changes are not visible to learners until you
 Set the Display Name for a Component
 =====================================
 
-Each component has a display name that appears as the title or heading for the
-component. The display names of each component in a unit also appear to
-learners when they move their mouse pointers over the unit icons in the
-learning sequence.
+The display name identifies the component. This name appears as a heading
+above the component in the LMS, and it identifies the component for you in
+Insights.
 
-.. image:: ../../../shared/images/ProbComponent_LMS_DisplayName.png
-   :alt: A problem in a unit page from a learner's point of view, with the
-     display name appearing first in the component and as a tooltip for an icon
-     in the learning sequence.
-   :width: 500
+The following illustration shows the display name of a problem in Studio, in
+the LMS, and in Insights.
 
-In addition, edX Insights uses the display name to identify components. Unique,
-descriptive display names help you identify components quickly and accurately
-for analysis. For more information, see `Using edX Insights`_.
+.. image:: ../../../shared/images/display_names_problem.png
+ :alt: The identifying display name for a problem in Studio, the LMS, and
+     Insights.
+ :width: 800
+
+Unique, descriptive display names help you and your learners identify
+components quickly and accurately.
 
 To set the display name for a component, follow these steps.
 
@@ -117,14 +110,14 @@ To set the display name for a component, follow these steps.
 
 #. Edit the **Display Name** field.
 
-  .. image:: ../../../shared/images/display-name.png
-   :alt: The settings dialog box for an HTML component.
-   :width: 600
+   .. image:: ../../../shared/images/display-name.png
+    :alt: The settings dialog box for a problem component.
+    :width: 500
 
 #. Select **Save**.
 
 Different types of components have different fields in the **Settings** dialog
-box, but all of them have the **Display Name** field.
+box, but all of them have a **Display Name** field.
 
 .. _Duplicate a Component:
 
@@ -141,7 +134,7 @@ To duplicate a component, select the **Duplicate** icon in the component
 header.
 
 .. image:: ../../../shared/images/unit-dup.png
-  :alt: Image of a unit with Duplicate icon circled.
+  :alt: A unit with the Duplicate icon circled.
 
 Then, follow instructions for the type of component you are editing.
 
@@ -164,7 +157,7 @@ To delete a component, follow these steps.
 #. Select the **Delete** icon in the component header.
 
 .. image:: ../../../shared/images/unit-delete.png
-  :alt: Image of a unit with Delete icon circled.
+  :alt: A unit with the Delete icon circled.
 
 2. When you receive the confirmation prompt, select **Yes, delete this
    component**.
@@ -190,7 +183,7 @@ In the unit page, a parent component appears with the display name and a
 **View** link. For example:
 
 .. image:: ../../../shared/images/component_container.png
- :alt: Image of a unit page with a parent component.
+ :alt: A unit page with a parent component.
 
 
 ==================================================
@@ -217,13 +210,10 @@ opens, showing all child components. In this example, Child Component A
 contains an HTML component and a video.
 
 .. image:: ../../../shared/images/child-components-a.png
- :alt: Image of an expanded child component.
+ :alt: An expanded child component.
 
 Select the arrow next to a child component name to collapse it and hide the
 component's contents.
-
-.. image:: ../../../shared/images/child-components.png
- :alt: Image of a child component page.
 
 Select the arrow again to expand the component.
 
@@ -244,9 +234,6 @@ its parent component.
 To add a child component, open and expand the parent component. Then, select
 the component type that you want under **Add New Component** within the parent
 component.
-
-.. image:: ../../../shared/images/AddNewComponent.png
-  :alt: Image of adding a new component.
 
 For more information, see the section for the specific component type that you
 want.
@@ -318,12 +305,12 @@ For learners, all parent and child components appear on the unit page.
 The following example shows the learner view of the unit described above.
 
 .. image:: ../../../shared/images/nested_components_student_view.png
- :alt: Image of the learner's view of nested components.
+ :alt: The learner's view of nested components.
 
 .. note::
- The visibility of nested components depends on the visibility of
- the parent unit. The parent unit must be public for learners to see nested
- components. For more information, see :ref:`Unit States and Visibility to Students`.
+ The visibility of nested components depends on the visibility of the parent
+ unit. The parent unit must be public for learners to see nested components.
+ For more information, see :ref:`Unit States and Visibility to Students`.
 
 
 *******************************

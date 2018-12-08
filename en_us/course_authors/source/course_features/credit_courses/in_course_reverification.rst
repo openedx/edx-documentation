@@ -18,6 +18,12 @@ assessments to require verification.
 Enable In-Course Identity Reverification
 *****************************************
 
+.. note:: The in-course identity reverification process requires using the
+   edx-reverification-block, which is :ref:`unsupported<Levels of Support>`.
+   Before you can enable in-course identity reverification you must follow the
+   steps to :ref:`allow the addition of unsupported
+   <Add_Unsupported_Exercises_Problems>` tools and problem types.
+
 To enable in-course identity reverification for your course, follow these
 steps.
 
@@ -246,6 +252,5 @@ requirements on their **Progress** pages.
      progress graph.
 
 For more information about the in-course identity reverification experience for
-the learner, see `In-Course Identity Reverification <http://edx-guide-for-stude
-nts.readthedocs.org/en/latest/SFD_credit_courses/SFD_in_course_ID_reverificatio
-n.html>`_.
+the learner, see `In-Course Identity Reverification
+<http://edx-guide-for-students.readthedocs.org/en/latest/SFD_credit_courses/SFD_in_course_ID_reverification.html>`_.

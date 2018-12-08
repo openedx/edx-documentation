@@ -4,17 +4,19 @@ Open edX Documentation
 
 All Open edX documentation is available at `docs.edx.org`_.
 
-*******************************
-Dogwood Release Documentation
-*******************************
+*********************************
+Eucalyptus Release Documentation
+*********************************
 
 The following documentation is available for the Open edX Dogwood release.
 
-* `Installing, Configuring, and Running the Open edX Platform Dogwood Release`_
+* `Installing, Configuring, and Running the Open edX Platform: Eucalyptus Release`_
 
-* `Building and Running an Open edX Course for Dogwood`_
+* `Building and Running an Open edX Course: Eucalyptus Release`_
 
-* `Open edX Learner's Guide for Dogwood`_
+* `Open edX Learner's Guide: Eucalyptus Release`_
+
+* `Open edX Platform APIs: Eucalyptus Release`_
 
 *******************************
 Latest Documentation

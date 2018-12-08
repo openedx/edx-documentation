@@ -126,7 +126,7 @@ more readable is produced.
 Comment Document Example
 ----------------------------------------
 
-.. code-block:: json
+.. code-block:: none
 
  { "_id" : { "$oid" : "52e54fdd801eb74c33000070" }, "votes" : { "up" : [],
  "down" : [], "up_count" : 0, "down_count" : 0, "count" : 0, "point" : 0 },

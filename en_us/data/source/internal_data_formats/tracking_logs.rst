@@ -6,9 +6,9 @@ Events in the Tracking Logs
 
 This section provides reference information about the event data that is
 delivered in data packages. Events are emitted by the server, the browser, or
-the mobile device to capture information about interactions with the courseware
-and the Instructor Dashboard in the LMS, and are stored in JSON documents. In
-the data package, event data is delivered in a log file.
+the mobile device to capture information about interactions with a course in
+the LMS and are stored in JSON documents. In the data package, event data is
+delivered in a log file.
 
 .. contents::
   :local:
@@ -25,121 +25,89 @@ Reviewing a Sample Event
 
 A sample event from an edX.log file follows. This sample was edited to remove
 personally identifiable information. Events are stored in JSON documents, which
-can be difficult to read before standard formatting is applied.
-
-.. code-block:: json
-
-    {"agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
-    Chrome/30.0.1599.101 Safari/537.36", "context": {"course_id": "edx/AN101/2014_T1",
-    "module": {"display_name": "Multiple Choice Questions"}, "org_id": "edx", "user_id":
-    9999999}, "event": {"answers": {"i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1":
-    "yellow", "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_4_1": ["choice_0", "choice_2"]},
-    "attempts": 1, "correct_map": {"i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1":
-    {"correctness": "incorrect", "hint": "", "hintmode": null, "msg": "", "npoints": null,
-    "queuestate": null}, "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_4_1":
-    {"correctness": "correct", "hint": "", "hintmode": null, "msg": "", "npoints": null,
-    "queuestate": null}}, "grade": 2, "max_grade": 3, "problem_id": "i4x://edx/AN101/problem/
-    a0effb954cca4759994f1ac9e9434bf4", "state": {"correct_map": {}, "done": null, "input_state":
-    {"i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": {}, "i4x-edx-AN101-problem-
-    a0effb954cca4759994f1ac9e9434bf4_4_1": {}}, "seed": 1, "student_answers": {}}, "submission":
-    {"i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": {"answer": "yellow", "correct":
-    false, "input_type": "optioninput", "question": "What color is the open ocean on a sunny day?",
-    "response_type": "optionresponse", "variant": ""}, "i4x-edx-AN101-problem-
-    a0effb954cca4759994f1ac9e9434bf4_4_1": {"answer": ["a piano", "a guitar"], "correct": true,
-    "input_type": "checkboxgroup", "question": "Which of the following are musical instruments?",
-    "response_type": "choiceresponse", "variant": ""}}, "success": "incorrect"}, "event_source":
-    "server", "event_type": "problem_check", "host": "precise64", "referer": "http:\/\/localhost:8001\/
-    container\/i4x:\/\/edX\/DemoX\/vertical\/69dedd38233a46fc89e4d7b5e8da1bf4?action=new",
-    "accept_language": "en-US,en;q=0.8","ip": "NN.N.N.N", "page": "x_module",
-    "time": 2014-03-03T16:19:05.584523+00:00", "username": "AAAAAAAAAA"}
-
-If you use a JSON formatter to "pretty print" this event, a version that is
-more readable is produced.
+can be difficult to read before standard formatting is applied. If you use a
+JSON formatter to "pretty print" this event, a version that is more readable is
+produced.
 
 .. code-block:: json
 
  {
-    "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36",
-    "context": {
-        "course_id": "edx/AN101/2014_T1",
-        "module": {
-            "display_name": "Multiple Choice Questions"
-        },
-        "org_id": "edx",
-        "user_id": 9999999
-    },
-    "event": {
-        "answers": {
-            "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": "yellow",
-            "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_4_1": [
-                "choice_0",
-                "choice_2"
-            ]
-        },
-        "attempts": 1,
-        "correct_map": {
-            "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": {
-                "correctness": "incorrect",
-                "hint": "",
-                "hintmode": null,
-                "msg": "",
-                "npoints": null,
-                "queuestate": null
-            },
-            "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_4_1": {
-                "correctness": "correct",
-                "hint": "",
-                "hintmode": null,
-                "msg": "",
-                "npoints": null,
-                "queuestate": null
-            }
-        },
-        "grade": 2,
-        "max_grade": 3,
-        "problem_id": "i4x://edx/AN101/problem/a0effb954cca4759994f1ac9e9434bf4",
-        "state": {
-            "correct_map": {},
-            "done": null,
-            "input_state": {
-                "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": {},
-                "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_4_1": {}
-            },
-            "seed": 1,
-            "student_answers": {}
-        },
-        "submission": {
-            "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": {
-                "answer": "yellow",
-                "correct": false,
-                "input_type": "optioninput",
-                "question": "What color is the open ocean on a sunny day?",
-                "response_type": "optionresponse",
-                "variant": ""
-            },
-            "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_4_1": {
-                "answer": [
-                    "a piano",
-                    "a guitar"
-                ],
-                "correct": true,
-                "input_type": "checkboxgroup",
-                "question": "Which of the following are musical instruments?",
-                "response_type": "choiceresponse",
-                "variant": ""
-            }
-        },
-        "success": "incorrect"
-    },
-    "event_source": "server",
-    "event_type": "problem_check",
-    "host": "precise64",
-    "referer": "http:\/\/localhost:8001\/container\/i4x:\/\/edX\/DemoX\/vertical\/69dedd38233a46fc89e4d7b5e8da1bf4?action=new",
-    "accept_language": "en-US,en;q=0.8",
-    "ip": "NN.N.N.N",
-    "page": "x_module",
-    "time": "2014-03-03T16:19:05.584523+00:00",
-    "username": "AAAAAAAAAA"
+   "username": "staff",
+   "event_type": "problem_check",
+   "ip": "10.0.1.1",
+   "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",
+   "host": "precise64",
+   "referer": "http://localhost:8000/courses/course-v1:edX+DemoX+Demo_Course/courseware/d8a6192ade314473a78242dfeedfbf5b/330cf4d0c87b4bddbbd2eb4a466ff9f4/1?activate_block_id=block-v1%3AedX%2BDemoX%2BDemo_Course%2Btype%40vertical%2Bblock%40541e3597470c4c0d8ab11f6ac443fd5d",
+   "accept_language": "en;q=1.0, en;q=0.8",
+   "event": {
+     "submission": {
+       "29c5cbd840324d94be8ba51db1864277_2_1": {
+         "input_type": "checkboxgroup",
+         "question": "Which of the following is a fruit?",
+         "response_type": "choiceresponse",
+         "answer": [
+           "apple\n      <choicehint selected=\"true\">You are correct that an apple is a fruit because it is the fertilized ovary that comes from an apple tree and contains seeds.</choicehint>\n      <choicehint selected=\"false\">Remember that an apple is also a fruit.</choicehint>\n"
+         ],
+         "variant": "",
+         "correct": false
+       }
+     },
+     "success": "incorrect",
+     "grade": 0,
+     "correct_map": {
+       "29c5cbd840324d94be8ba51db1864277_2_1": {
+         "hint": "",
+         "hintmode": null,
+         "correctness": "incorrect",
+         "npoints": null,
+         "answervariable": null,
+         "msg": "<div class=\"feedback-hint-incorrect\"><div class=\"hint-label\">Incorrect: </div><div class=\"feedback-hint-multi\"><div class=\"hint-text\">You are correct that an apple is a fruit because it is the fertilized ovary that comes from an apple tree and contains seeds.</div><div class=\"hint-text\">Remember that a pumpkin is also a fruit.</div><div class=\"hint-text\">You are correct that a potato is a vegetable because it is an edible part of a plant in tuber form.</div><div class=\"hint-text\">Many people mistakenly think a tomato is a vegetable. However, because a tomato is the fertilized ovary of a tomato plant and contains seeds, it is a fruit.</div></div></div>",
+         "queuestate": null
+       }
+     },
+     "state": {
+       "student_answers": {
+
+       },
+       "seed": 1,
+       "done": null,
+       "correct_map": {
+
+       },
+       "input_state": {
+         "29c5cbd840324d94be8ba51db1864277_2_1": {
+
+         }
+       }
+     },
+     "answers": {
+       "29c5cbd840324d94be8ba51db1864277_2_1": [
+         "choice_0"
+       ]
+     },
+     "attempts": 1,
+     "max_grade": 1,
+     "problem_id": "block-v1:edX+DemoX+Demo_Course+type@problem+block@29c5cbd840324d94be8ba51db1864277"
+   },
+   "event_source": "server",
+   "context": {
+     "course_user_tags": {
+
+     },
+     "user_id": 3,
+     "org_id": "edX",
+     "asides": {
+
+     },
+     "module": {
+       "usage_key": "block-v1:edX+DemoX+Demo_Course+type@problem+block@29c5cbd840324d94be8ba51db1864277",
+       "display_name": "Checkboxes with Hints and Feedback"
+     },
+     "course_id": "course-v1:edX+DemoX+Demo_Course",
+     "path": "/courses/course-v1:edX+DemoX+Demo_Course/xblock/block-v1:edX+DemoX+Demo_Course+type@problem+block@29c5cbd840324d94be8ba51db1864277/handler/xmodule_handler/problem_check"
+   },
+   "time": "2016-08-04T13:43:34.967980+00:00",
+   "page": "x_module"
  }
 
 For more information about fields that are included in every event, see
@@ -408,7 +376,7 @@ Student Events
 
 This section lists the events that are typically initiated by learners. These
 events are generated by interactions with the learning management system (LMS)
-other than the Instructor Dashboard.
+other than the instructor dashboard.
 
 .. contents::
   :local:
@@ -613,7 +581,7 @@ event type also includes the following ``context`` member field.
 .. _navigational:
 
 ==============================
-Navigational Events
+Course Navigation Events
 ==============================
 
 This section includes descriptions of the following events.
@@ -621,6 +589,442 @@ This section includes descriptions of the following events.
 .. contents::
   :local:
   :depth: 1
+
+
+``edx.ui.lms.link_clicked``
+****************************
+
+The browser emits this event when a user selects any hypertext link from the
+course content.
+
+**History**: Added May 5 2016.
+
+**Component**: Sequence
+
+**Event Source**: Browser
+
+``event`` **Member Fields**:
+
+The ``edx.ui.lms.link_clicked`` event includes both a ``name`` field
+and an ``event_type`` field. For more information about these common fields,
+see :ref:`common`.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+
+   * - ``current_url``
+     - string
+     - The URL of the page where the user selected the hypertext link.
+
+   * - ``target_url``
+     - string
+     - The URL of the page that the selected link leads to.
+
+
+Example ``edx.ui.lms.link_clicked`` Event
+*****************************************
+
+The following example shows the relevant fields of the event that is emitted
+when a user selects any hypertext link from the course content.
+
+.. code-block:: json
+
+ {
+     "name": "edx.ui.lms.link_clicked",
+     "event_type": "edx.ui.lms.link_clicked",
+     "event": {
+         "target_url": "http://example-website.com",
+         "current_url": "https://courses.edx.org/courses/a/course/here/some/further/info",
+         }
+ }
+
+
+``edx.ui.lms.outline.selected``
+********************************
+
+The browser emits this event when a user selects a subsection in the course
+navigation pane in the LMS to open a new page. Selecting a section in the course navigation pane does not emit an event.
+
+**History**: Added May 5 2016.
+
+**Component**: Sequence
+
+**Event Source**: Browser
+
+``event`` **Member Fields**:
+
+The ``edx.ui.lms.sequence.outline.selected`` event includes both a ``name``
+field and an ``event_type`` field. For more information about these common
+fields, see :ref:`common`.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+
+   * - ``current_url``
+     - string
+     - The URL of the page where the user is viewing the course
+       navigation pane.
+
+   * - ``target_name``
+     - string
+     - The display name of the subsection that the user is navigating to,
+       on the page identified by ``target_url``.
+
+   * - ``target_url``
+     - string
+     - The URL of the page containing the subsection that the user is
+       navigating to.
+
+   * - ``widget_placement``
+     - string
+     - Indicates the position on the page of the control that the user
+       selected.
+
+       For this event, the control is the course navigation pane at the side of
+       the course page, identified with a value of ``accordion``.
+
+
+
+
+Example ``edx.ui.lms.outline.selected`` Event
+***************************************************
+
+The following example shows the relevant fields of the event that is emitted
+when a user selects a subsection on the course navigation pane in the LMS.
+
+.. code-block:: json
+
+ {
+     "name": "edx.ui.lms.outline.selected",
+     "event_type": "edx.ui.lms.outline.selected",
+     "event": {
+         "target_name": "Lesson 3 - Be Social ",
+         "target_url": "https://courses.stage.edx.org/courses/edX/DemoX/Demo_Course/courseware/social_integration/48ecb924d7fe4b66a230137626bfa93e/",
+         "widget_placement": "accordion",
+         "current_url": "https://courses.stage.edx.org/courses/edX/DemoX/Demo_Course/courseware/graded_interactions/simulations/"
+         }
+ }
+
+
+
+``edx.ui.lms.sequence.next_selected``
+*************************************
+
+The browser emits this event when a user selects the "next" control in the
+unit navigation bar in the LMS. Users can use the "next" control to navigate
+from one unit to the next unit within the current subsection, or from the last
+unit in one subsection to the first unit in the next subsection.
+
+**History** : On May 3, 2016, the "next" navigation control in the LMS was
+enhanced to allow users to move not only within a subsection but also between
+subsections. The ``seq_next`` event was correspondingly enhanced with
+additional fields and now maps to the new event
+``edx.ui.lms.sequence.next_selected``. Before May 3, 2016, the ``name`` and
+``event`` fields for the ``seq_next`` event were both set to the same value.
+Events that have both a ``name`` and an ``event_type`` of ``seq_next`` are no
+longer emitted.
+
+The new event with a ``name`` value of ``edx.ui.lms.sequence.next_selected``
+is emitted when users navigate in the LMS using the "next" control. Depending
+on whether a learner navigates within the current subsection or between
+subsections, the resulting event has a different ``event_type`` value.
+
+* Navigating to the next unit within a subsection (the already supported
+  interaction that previously emitted the ``seq_next`` event) now emits the
+  new event with an ``event_type`` of ``seq_next``, so that you can continue
+  to track the same interaction.
+
+* Navigating from the last unit in one subsection to the first unit in the
+  next subsection, which is the newly supported interaction, emits the new
+  event with both an ``event_type`` and ``name`` of
+  ``edx.ui.lms.sequence.next_selected``.
+
+
+**Component**: Sequence
+
+**Event Source**: Browser
+
+The ``edx.ui.lms.sequence.next_selected`` event includes both a ``name`` field
+and an ``event_type`` field. For more information about these common fields,
+see :ref:`common`.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+
+   * - ``current_tab``
+     - integer
+     - Identifies the tab or icon in the unit navigation bar that the user was
+       viewing prior to selecting "next". Tabs correspond to the unit in the
+       subsection (or verticals in the sequence) and are indexed starting from
+       1. If this value is equal to ``tab_count``, the user was on the last
+       vertical of the subsection.
+
+   * - ``id``
+     - string
+     - The usage key of the subsection that is being navigated by the user.
+
+   * - ``new``
+     - integer
+     - Identifies the tab that the user was navigating to.
+
+       This field is included only for events that are emitted by "next"
+       navigation within a subsection. These events have an ``event_type`` of
+       ``seq_next`` to enable backward compatibility with the ``seq_next``
+       events emitted prior to 3 May 2016.
+
+   * - ``old``
+     - integer
+     - Identifies the tab that the user was navigating from.
+
+       This field is included only for events that are emitted by "next"
+       navigation within a subsection. These events have an ``event_type`` of
+       ``seq_next`` to enable backward compatibility with the ``seq_next``
+       events emitted prior to 3 May 2016.
+
+       The ``edx.ui.lms.sequence.next_selected`` events emitted after 3 May
+       2016 use the ``current_tab`` value to identify the user's position in
+       the unit, and do not include this field.
+
+   * - ``tab_count``
+     - integer
+     - The number of tabs in the unit navigation bar. This number
+       matches the total number of units in the current subsection.
+
+   * - ``widget_placement``
+     - string
+     - Unit navigation controls appear at the top and bottom of pages in the
+       LMS. Values for this field can be "top" or "bottom", indicating the
+       position on the page of the control that the user selected.
+
+Example ``edx.ui.lms.sequence.next_selected`` Events
+*****************************************************
+
+The following example shows the relevant fields in the event that is emitted
+when a user navigates within the same subsection using the "next" control.
+
+.. code-block:: json
+
+  {
+    "name": "edx.ui.lms.sequence.next_selected",
+    "event_type": "seq_next",
+    "event": {
+        "current_tab": 3,
+        "tab_count": 6
+        "old": 3,
+        "new": 4,
+        "id":     "block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5",
+        "widget_placement": "top"
+      }
+   }
+
+The following example shows the relevant fields in the event that is emitted
+when a user navigates from the last unit in one subsection to the first unit
+in the next subsection using the "next" control.
+
+.. code-block:: json
+
+ {
+     "name": "edx.ui.lms.sequence.next_selected",
+     "event_type": "edx.ui.lms.sequence.next_selected",
+     "event": {
+         "current_tab": 6,
+         "tab_count": 6,
+         "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5",
+         "widget_placement": "top"
+         }
+ }
+
+
+``edx.ui.lms.sequence.previous_selected``
+*****************************************
+
+The browser emits this event when a user selects the "previous" control in the
+unit navigation bar in the LMS. Users can use the "previous" control to
+navigate from one unit back to the previous unit within the current
+subsection, or from the first unit in one subsection to the last unit in the
+previous subsection.
+
+**History** : On May 3, 2016, the "previous" navigation control in the LMS was
+enhanced to allow users to move not only within a subsection but also between
+subsections. The ``seq_prev`` event was correspondingly enhanced with
+additional fields and now maps to the new event
+``edx.ui.lms.sequence.previous_selected``. Before May 3 2016, the ``name``
+and ``event`` fields for the ``seq_prev`` event were both set to the same
+value. Events that have both a ``name`` and an ``event_type`` of ``seq_prev``
+are no longer emitted.
+
+After May 3 2016, an event that has a ``name`` value of
+``edx.ui.lms.sequence.previous_selected`` is emitted when users navigate in
+the LMS using the "previous" control. Depending on whether a learner navigates
+within the current subsection or between subsections, the resulting event has
+a different ``event_type`` value.
+
+* Navigating to the previous unit within a subsection (the already supported
+  interaction that previously emitted the ``seq_prev`` event) now emits the
+  new event with an ``event_type`` of ``seq_prev``, so that you can continue
+  to track the same interaction.
+
+* Navigating from the first unit in one subsection to the last unit in the
+  previous subsection, which is the newly supported interaction, emits the new
+  event with both an ``event_type`` and ``name`` of
+  ``edx.ui.lms.sequence.previous_selected``.
+
+
+**Component**: Sequence
+
+**Event Source**: Browser
+
+The ``edx.ui.lms.sequence.previous_selected`` event includes both a ``name``
+field and an ``event_type`` field. For more information about these common
+fields, see :ref:`common`.
+
+``event`` **Member Fields**:
+
+The ``edx.ui.lms.sequence.previous_selected`` event also includes the
+following ``event`` member fields. These fields serve the same purpose for
+events of this type as for ``edx.ui.lms.sequence.next_selected`` events.
+
+* ``current_tab``
+* ``id``
+* ``new``
+* ``old``
+* ``tab_count``
+* ``widget_placement``
+
+Example ``edx.ui.lms.sequence.previous_selected`` Events
+********************************************************
+
+The following example shows the relevant fields in the event that is emitted
+when a user navigates within the same subsection using the "previous" control.
+
+.. code-block:: json
+
+  {
+    "name": "edx.ui.lms.sequence.previous_selected",
+    "event_type": "seq_prev",
+    "event": {
+        "current_tab": 2,
+        "tab_count": 6
+        "old": 2,
+        "new": 1,
+        "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5",
+        "widget_placement": "top"
+      }
+   }
+
+The following example shows the relevant fields in the event that is emitted
+when a user navigates from the first unit in one subsection to the last unit
+in the previous subsection using the "previous" control.
+
+.. code-block:: json
+
+ {
+     "name": "edx.ui.lms.sequence.previous_selected",
+     "event_type": "edx.ui.lms.sequence.previous_selected",
+     "event": {
+         "current_tab": 1,
+         "tab_count": 6,
+         "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5",
+         "widget_placement": "top"
+         }
+ }
+
+
+``edx.ui.lms.sequence.tab_selected``
+************************************
+
+The browser emits this event when a user selects any tab in the unit
+navigation bar in the LMS to navigate to another unit within the subsection.
+Tabs correspond to the unit in the subsection (or verticals in the sequence).
+
+**History** : On May 3, 2016, the ``seq_goto`` event was promoted to a new
+naming infrastructure and now maps to the new event
+``edx.ui.lms.sequence.tab_selected``. Before May 3, 2016, the ``name`` and
+``event`` fields for the ``seq_goto`` event were both set to the same value.
+
+New fields have been added to the event, but existing fields are retained for
+backward compatibility. The updated event has a ``name`` value of
+``edx.ui.lms.sequence.tab_selected`` and an ``event_type`` value of
+``seq_goto``, to ensure that you can map these new events to the ``seq_goto``
+events that were emitted previously. Events that have both a ``name`` and an
+``event_type`` of ``seq_goto`` are no longer emitted.
+
+**Component**: Sequence
+
+**Event Source**: Browser
+
+The ``edx.ui.lms.sequence.tab_selected`` event includes both a ``name`` field
+and an ``event_type`` field. For more information about these common fields,
+see :ref:`common`.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+
+   * - ``target_tab``
+     - integer
+     - Identifies the tab or icon in the unit navigation bar that the user
+       selected to navigate to. Tabs correspond to the unit in the subsection,
+       and are indexed starting from 1.
+
+The ``edx.ui.lms.sequence.tab_selected`` event also includes the following
+``event`` member fields. These fields serve the same purpose for events of
+this type as for ``edx.ui.lms.sequence.next_selected`` events.
+
+* ``current_tab``
+* ``id``
+* ``new``
+* ``old``
+* ``tab_count``
+* ``widget_placement``
+
+
+Example ``edx.ui.lms.sequence.tab_selected`` Event
+***************************************************
+
+.. code-block:: json
+
+ {
+     "name": "edx.ui.lms.sequence.tab_selected",
+     "event_type": "seq_goto",
+     "event": {
+         "current_tab": 3,
+         "target_tab": 7,
+         "tab_count": 7,
+         "old": 3,
+         "new": 7,
+         "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5",
+         "widget_placement": "top"
+         }
+ }
+
 
 ``page_close``
 **************
@@ -632,51 +1036,6 @@ The ``page_close`` event originates from within the JavaScript Logger itself.
 **Event Source**: Browser
 
 ``event`` **Member Fields**: None
-
-
-``seq_goto``, ``seq_next``, and ``seq_prev``
-********************************************
-
-The browser emits these events when a user selects a navigational control.
-
-* ``seq_goto`` is emitted when a user jumps between units in a sequence.
-
-* ``seq_next`` is emitted when a user navigates to the next unit in a sequence.
-
-* ``seq_prev`` is emitted when a user navigates to the previous unit in a
-  sequence.
-
-**Component**: Sequence
-
-**Event Source**: Browser
-
-``event`` **Member Fields**:
-
-All of these navigational events have the same ``event`` member fields.
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``id``
-     - number
-     - The edX ID of the sequence.
-   * - ``new``
-     - number
-     - For ``seq_goto``, the index of the unit being jumped to.
-
-       For ``seq_next`` and ``seq_prev``, the index of the unit being navigated
-       to.
-
-   * - ``old``
-     - number
-     - For ``seq_goto``, the index of the unit being jumped from.
-
-       For ``seq_next`` and ``seq_prev``, the index of the unit being navigated
-       away from.
 
 
 .. _video:
@@ -727,7 +1086,7 @@ of the video events on 23 Dec 2014.
 ``hide_transcript``/``edx.video.transcript.hidden``
 ***************************************************
 
-When a user selects **CC** to suppress display of the video transcript, the
+When a user toggles **Show Transcript** to suppress display of the video transcript, the
 browser or mobile app emits a ``hide_transcript`` event.
 
 In addition to the identifying ``event_type`` of ``hide_transcript``, events
@@ -759,6 +1118,64 @@ events of this type as for the :ref:`play_video` events.
 * ``currentTime``: The point in the video file at which the transcript was
   hidden.
 * ``id``
+
+``edx.video.closed_captions.hidden``
+*************************************************************
+
+When a user toggles **CC** to suppress display of the overlay captioning, the
+browser or mobile app emits an ``edx.video.closed_captions.hidden`` event.
+
+**Event Source**: Browser or Mobile
+
+**History**: Added on 5 May 2016 to include this new event.
+
+``context`` **Member Fields**:
+
+Only video interaction events with an ``event_source`` of 'mobile' include
+additional ``context`` member fields in addition to the :ref:`common<context>`
+member fields. The same set of additional context fields are added for
+``edx.video.closed_captions.hidden`` events as for the
+:ref:`play_video` events. For an example of an event with these fields, see
+:ref:`Example Mobile App Event`.
+
+``event`` **Member Fields**:
+
+The ``edx.video.closed_captions.hidden`` events include the
+following ``event`` member fields. These fields serve the same purpose for
+events of this type as for the :ref:`play_video` events.
+
+* ``code``
+* ``id``
+* ``current_time``
+
+``edx.video.closed_captions.shown``
+************************************************************
+
+When a user toggles **CC** to display the closed captions, the browser or
+mobile app emits an ``edx.video.closed_captions.shown`` event.
+
+**Event Source**: Browser or Mobile
+
+**History**: Added on 5 May 2016 to include this new event.
+
+``context`` **Member Fields**:
+
+Only video interaction events with an ``event_source`` of 'mobile' include
+additional ``context`` member fields in addition to the :ref:`common<context>`
+member fields. The same set of additional context fields are added for
+``edx.video.closed_captions.shown`` events as for
+:ref:`play_video`. For an example of an event with these fields, see
+:ref:`Example Mobile App Event`.
+
+``event`` **Member Fields**:
+
+The ``edx.video.closed_captions.shown`` events include the
+following ``event`` member fields. These fields serve the same purpose for
+events of this type as for the :ref:`play_video` events.
+
+* ``code``
+* ``id``
+* ``current_time``
 
 ``load_video``/``edx.video.loaded``
 ***********************************
@@ -1149,7 +1566,7 @@ The following additional ``event`` member fields apply specifically to
 ``show_transcript``/``edx.video.transcript.shown``
 **************************************************
 
-When a user selects **CC** to display the video transcript, the browser or
+When a user toggles **Show Transcript** to display the video transcript, the browser or
 mobile app emits a ``show_transcript`` event.
 
 In addition to the identifying ``event_type`` of ``show_transcript``, events
@@ -1181,6 +1598,7 @@ events of this type as for the :ref:`play_video` events.
 * ``currentTime``: The point in the video file at which the transcript was
   opened.
 * ``id``
+
 
 ``speed_change_video``
 *********************************
@@ -1266,42 +1684,60 @@ this type as for the :ref:`play_video` events.
 * ``id``
 
 
-``video_hide_cc_menu``
-************************************************
+``video_hide_cc_menu``/``edx.video.language_menu.hidden``
+*********************************************************
 
-When a user selects a language from the **CC** menu for a video that
+When a user closes the **Language Menu** for a video that
 has transcripts in multiple languages, the browser emits a
 ``video_hide_cc_menu`` event.
 
+In addition to the identifying ``event_type`` of ``video_hide_cc_menu``, events
+that the edX mobile app emits also include a ``name`` field with a value of
+``edx.video.language_menu.hidden`` and the selected language is included in the
+event.
+
 **Event Source**: Browser
 
-**History**: Added 17 Feb 2015.
+**History**: Updated 5 May 2016 to include the ``name`` value. Note that older
+tracking logs will only utilize the ``event_type`` value. Also note that from
+Fall 2015 until 5 May 2016, this event was emitted incorrectly. Events may
+have been emitted even when the language menu was not triggered.
+Added 17 Feb 2015.
 
 ``event`` **Member Fields**:
 
-The ``video_hide_cc_menu`` events include the following ``event`` member
-fields. These fields serve the same purpose for events of this type as for
-:ref:`play_video`.
+The ``video_hide_cc_menu``/``edx.video.language_menu.hidden`` events include the
+following ``event`` member fields. These fields serve the same purpose for events of
+this type as for :ref:`play_video`.
 
 * ``code``
 * ``id``
+* ``language``: The selected language of the current video trascript.
 
-``video_show_cc_menu``
-************************************************
+``video_show_cc_menu``/``edx.video.language_menu.shown``
+********************************************************
 
-When a user selects **CC** for a video that has transcripts in multiple
-languages, the browser emits a ``video_show_cc_menu`` event. This event is
-emitted in addition to the ``show_transcript`` event.
+When a user opens the **Language Menu** for a video that
+has transcripts in multiple languages, the browser emits a
+``video_show_cc_menu`` event.
+
+In addition to the identifying ``event_type`` of ``video_show_cc_menu``, events
+that the edX mobile app emits also include a ``name`` field with a value of
+``edx.video.language_menu.shown``.
 
 **Event Source**: Browser
 
-**History**: Added 17 Feb 2015.
+**History**: Updated 5 May 2016 to include the ``name`` value. Note that older
+tracking logs will only utilize the ``event_type`` value. Also note that from
+Fall 2015 until 5 May 2016, this event was emitted incorrectly. Events may
+have been emitted even when the language menu was not triggered.
+Added 17 Feb 2015.
 
 ``event`` **Member Fields**:
 
-The ``video_show_cc_menu`` events include the following ``event`` member
-fields. These fields serve the same purpose for events of this type as for
-:ref:`play_video`.
+The ``video_show_cc_menu``/``edx.video.language_menu.shown`` events include the
+following ``event`` member fields. These fields serve the same purpose for events
+of this type as for :ref:`play_video`.
 
 * ``code``
 * ``id``
@@ -2160,7 +2596,10 @@ This section includes descriptions of the following events.
   :depth: 1
 
 Problem interaction events are emitted by the server or the browser to capture
-information about interactions with problems.
+information about interactions with core problem types. For more information
+about using problem components to add problems, see
+:ref:`partnercoursestaff:Working with Problem Components` in the *Building and
+Running an edX Course* guide.
 
 These events were designed for the problem types implemented in the edX
 platform by the ``capa_module.py`` XBlock. Problem types that are implemented
@@ -2185,6 +2624,11 @@ hint.
 **Event Source**: Server
 
 **History**: This event was added on 1 Jul 2015.
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
 
 ``event`` **Member Fields**:
 
@@ -2216,11 +2660,16 @@ hint.
 Course teams can design problems to include feedback messages that appear after
 a user submits an answer. For problems that include feedback messages, the
 server emits an ``edx.problem.hint.feedback_displayed`` event each time a user
-selects **Check**.
+selects **Submit**.
 
 **Event Source**: Server
 
 **History**: This event was added on 1 Jul 2015.
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
 
 ``event`` **Member Fields**:
 
@@ -2260,7 +2709,7 @@ selects **Check**.
        the specific problem for which the user received feedback.
    * - ``question_type``
      - string
-     - The XML tag that identifies the problem type. For example,
+     - The XML element that identifies the problem type. For example,
        'stringresponse' for a text input problem.
    * - ``student_answer``
      - array
@@ -2278,34 +2727,22 @@ selects **Check**.
        For more information, see :ref:`partnercoursestaff:Adding Feedback and
        Hints to a Problem` in the *Building and Running an edX Course* guide.
 
-
-``problem_check`` (Browser)
+``problem_check``
 *********************************
-
-.. no sample to check
-
-Both browser interactions and server requests produce ``problem_check`` events.
-The browser emits ``problem_check`` events when a user checks a problem.
-
-**Event Source**: Browser
-
-``event`` **Member Fields**: For browser-emitted ``problem_check`` events, the
-``event`` field contains the values of all input fields from the problem being
-checked, styled as GET parameters.
-
-``problem_check`` (Server)
-*********************************
-
-.. no sample to check
-
-Both browser interactions and server requests produce ``problem_check`` events.
 
 The server emits ``problem_check`` events when a problem is successfully
 checked.
 
 **Event Source**: Server
 
+Both browser interactions and server requests produce ``problem_check`` events,
+so your data package can also contain events with an event source of browser.
+Events emitted by the browser contain all of the GET parameters. Only events
+emitted by the server are useful for most purposes.
+
 **History**:
+
+* On 7 Sep 2016, added the ``submission.group_label`` member field.
 
 * On 5 Mar 2014, the ``submission`` object was added to the ``event`` field
   and  ``module`` was added to the ``context`` field.
@@ -2367,18 +2804,23 @@ field.
      - object
      - Provides data about the response made.
 
-       For components that include multiple problems, a separate submission
-       object is provided for each one.
+       For problem components that include multiple questions, a separate
+       ``submission`` object is provided for each one.
 
        * ``answer``: string; The value that the student entered, or the display
          name of the value selected.
-       * ``correct``: Boolean; 'true', 'false'
+       * ``correct``: Boolean; 'true', 'false'.
+       * ``group_label``: string; Present only for questions that have multiple
+         input types, such as a multiple choice problem that includes a text
+         input field for learners to provide a rationale for their choice,
+         within the response type. Presents the question or prompt from the
+         ``<label>`` element.
        * ``input_type``: string; The type of value that the student supplies
          for the ``response_type``. Based on the XML element names used in the
          advanced editor. Examples include 'checkboxgroup', 'radiogroup',
          'choicegroup', and 'textline'.
        * ``question``: string; Provides the text of the question.
-       * ``response_type``: string; The type of problem. Based on the XML
+       * ``response_type``: string; The type of problem. Based on the OLX
          element names used in the advanced editor. Examples include
          'choiceresponse', 'optionresponse', and 'multiplechoiceresponse'.
        * ``variant``: number; For problems that use problem randomization
@@ -2392,8 +2834,6 @@ field.
 ``problem_check_fail``
 *********************************
 
-.. no sample to check
-
 The server emits ``problem_check_fail`` events when a problem cannot be checked
 successfully.
 
@@ -2401,6 +2841,11 @@ successfully.
 
 **History**: Prior to 15 Oct 2013, this event was named
 ``save_problem_check_fail``.
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
 
 ``event`` **Member Fields**:
 
@@ -2427,10 +2872,13 @@ successfully.
 ``problem_graded``
 *********************************
 
-.. return Logger.log('problem_graded', [_this.answers, response.contents], _this.id);
+The browser emits a ``problem_graded`` event each time a user selects
+**Submit** for a problem and it is graded successfully.
 
-The server emits a ``problem_graded`` event each time a user clicks **Check**
-for a problem and it is graded successfully.
+**Event Source**: Browser
+
+**History**: On 7 Sep 2016, updates to the HTML-formatted values in the
+``event.contents`` field were made.
 
 ``event`` **Member Fields**:
 
@@ -2456,10 +2904,12 @@ for a problem and it is graded successfully.
 ``problem_rescore``
 *********************************
 
-.. no sample to check
-
 The server emits ``problem_rescore`` events when a problem is successfully
 rescored.
+
+In these events, the user who rescored the problem is identified in the
+``username`` and ``context.user_id`` fields, and the user who originally
+submitted the response to the problem is identified in the ``student`` field.
 
 **Event Source**: Server
 
@@ -2496,17 +2946,25 @@ rescored.
    * - ``state``
      - object
      - Current problem state.
+   * - ``student``
+     - string
+     - The username of the person whose response is being rescored.
    * - ``success``
      - string
      - 'correct', 'incorrect'
+   * - ``task_id``
+     - string
+     -
 
 ``problem_rescore_fail``
 *********************************
 
-.. no sample to check
-
 The server emits ``problem_rescore_fail`` events when a problem cannot be
 successfully rescored.
+
+In these events, the user who rescored the problem is identified in the
+``username`` and ``context.user_id`` fields, and the user who originally
+submitted the response to the problem is identified in the ``student`` field.
 
 **Event Source**: Server
 
@@ -2528,15 +2986,16 @@ successfully rescored.
    * - ``state``
      - object
      - Current problem state.
+   * - ``student``
+     - string
+     - The username of the person whose response was being rescored.
 
 
 ``problem_reset``
 *********************************
 
-The browser emits ``problem_reset`` events when a user clicks **Reset** to
-reset the answer to a problem.
-
-.. return Logger.log('problem_reset', [_this.answers, response.contents], _this.id);
+The browser emits ``problem_reset`` events after a user selects **Reset** and
+the answer to a problem is reset.
 
 **Event Source**: Browser
 
@@ -2557,9 +3016,7 @@ reset the answer to a problem.
 ``problem_save``
 *********************************
 
-.. no sample to check
-
-The browser emits ``problem_save`` events when a user saves a problem.
+The browser emits ``problem_save`` events after a user saves a problem.
 
 **Event Source**: Browser
 
@@ -2605,12 +3062,15 @@ shown; that is, the user selected **Show Answer**.
 ``reset_problem``
 *********************************
 
-.. no sample to check
-
 The server emits ``reset_problem`` events when a problem has been reset
 successfully.
 
 **Event Source**: Server
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
 
 ``event`` **Member Fields**:
 
@@ -2634,12 +3094,15 @@ successfully.
 ``reset_problem_fail``
 *********************************
 
-.. no sample to check
-
 The server emits ``reset_problem_fail`` events when a problem cannot be reset
 successfully.
 
 **Event Source**: Server
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
 
 ``event`` **Member Fields**:
 
@@ -2663,12 +3126,15 @@ successfully.
 ``save_problem_fail``
 *********************************
 
-.. no sample to check
-
 The server emits ``save_problem_fail``  events when a problem cannot be saved
 successfully.
 
 **Event Source**: Server
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
 
 ``event`` **Member Fields**:
 
@@ -2695,12 +3161,15 @@ successfully.
 ``save_problem_success``
 *********************************
 
-.. no sample to check
-
 The server emits ``save_problem_success`` events when a problem is saved
 successfully.
 
 **Event Source**: Server
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
 
 ``event`` **Member Fields**:
 
@@ -2724,11 +3193,14 @@ successfully.
 ``showanswer``
 *********************************
 
-.. no sample to check
-
 The server emits ``showanswer`` events when the answer to a problem is shown.
 
 **Event Source**: Server
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
 
 ``event`` **Member Fields**:
 
@@ -2742,16 +3214,6 @@ The server emits ``showanswer`` events when the answer to a problem is shown.
    * - ``problem_id``
      - string
      - EdX ID of the problem being shown.
-   * - ``[answers, contents]``
-     - array
-     - The array includes each problem in a problem component that has multiple
-       problems.
-
-       * ``answers`` provides the value checked by the user.
-
-       * ``contents`` delivers HTML using data entered for the problem in
-         Studio, including the display name, problem text, and choices or
-         response field labels.
 
 .. Including the special exam (timed and proctored) events doc in a separate
 .. file because it is very long. - Peter March 2016
@@ -3679,6 +4141,9 @@ complete, the server emits an ``edx.forum.thread.created`` event.
        Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
 
+       The :ref:`student_courseaccessrole` table lists all users who have a
+       privileged role for the course.
+
    * - ``user_forums_roles``
      - array
      - Identifies a user who does not have discussion management privileges as
@@ -3687,6 +4152,9 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 
        Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
+
+       The :ref:`django_comment_client_role_users` table lists the discussion
+       role of every enrolled user.
 
 .. _edx.forum.thread.voted:
 
@@ -3786,8 +4254,7 @@ problems, see :ref:`ORA2 Data`.
 **History:** The open response assessment feature was released in August 2014;
 limited release of this feature began in April 2014. The ability for course
 team members to either include a staff assessment step in the assignment, or
-to perform a staff override grade was added in January 2016.
-
+to perform a staff override grade, was added in January 2016.
 
 ``openassessmentblock.get_peer_submission``
 ********************************************
@@ -4236,6 +4703,8 @@ input, this event is also emitted after the learner submits the number input.
 
 **Event Source**: Server
 
+**History**: ``item`` and ``location_id`` added 7 Sep 2016.
+
 ``context`` **Member Fields**:
 
 This event type includes the :ref:`common<context>` ``context.module`` member
@@ -4253,6 +4722,11 @@ field.
    * - ``input``
      - integer
      - The number input value entered by the learner.
+   * - ``item``
+     - string
+     - The display name of the draggable item selected by the learner.  For
+       items that do not have a display name, this contains the item's image
+       URL.
    * - ``item_id``
      - integer
      - The index assigned to the draggable item selected by the learner.
@@ -4271,6 +4745,11 @@ field.
      - string
      - The text identifier for the target zone in which the learner placed the
        item.
+   * - ``location_id``
+     - integer
+     - The automatically generated unique index assigned to the target zone in
+       which the learner placed the item.  The assigned index is persistent for
+       each instance.
 
 ``edx.drag_and_drop_v2.item.picked_up``
 ***************************************
@@ -5011,8 +5490,8 @@ cohorts that are defined by the ``auto_cohort_groups`` advanced setting when
 they are needed (for example, when a student is assigned to one of those
 cohorts).
 
-Additional events are emitted when members of the course team interact with the
-Instructor Dashboard to create a cohort. See
+Additional events are emitted when members of the course team select
+**Instructor** in the LMS to create a cohort on the instructor dashboard. See
 :ref:`instructor_cohort_events`.
 
 **Event Source**: Server
@@ -5045,9 +5524,9 @@ adds a user to the default cohort or a cohort included in the course's
 ``auto_cohort_groups`` setting if a user who has not yet been assigned to a
 cohort accesses course content.
 
-Additional events are emitted when members of the course team interact with the
-Instructor Dashboard to add a user to a cohort. See
-:ref:`instructor_cohort_events`.
+Additional events are emitted when members of the course team select
+**Instructor** in the LMS to add a user to a cohort on the instructor
+dashboard. See :ref:`instructor_cohort_events`.
 
 **Event Source**: Server
 
@@ -5075,8 +5554,9 @@ Instructor Dashboard to add a user to a cohort. See
 ``edx.cohort.user_removed``
 *********************************
 
-When a course team member changes the cohort assignment of a user on the
-Instructor Dashboard, the server emits an ``edx.cohort.user_removed`` event.
+When a course team member selects **Instructor** in the LMS to change the
+cohort assignment of a learner on the instructor dashboard, the server emits an
+``edx.cohort.user_removed`` event.
 
 **Event Source**: Server
 
@@ -5237,6 +5717,9 @@ When a team is deleted, the server emits an ``edx.team.deleted`` event. Course
 team members who have any of the **Staff**, **Admin**, **Discussion Admin**,
 **Discussion Moderator**, or **Community TA** roles can delete teams.
 
+For more information about course and discussion role data, see
+:ref:`student_courseaccessrole` and :ref:`django_comment_client_role_users`.
+
 **Event Source**: Server
 
 ``event`` **Member Fields**:
@@ -5299,6 +5782,9 @@ is deleted, because all members are removed when a team is deleted.
 Course team members who have any of the **Staff**, **Admin**, **Discussion
 Admin**, **Discussion Moderator**, or **Community TA** roles can remove
 learners from teams.
+
+For more information about course and discussion role data, see
+:ref:`student_courseaccessrole` and :ref:`django_comment_client_role_users`.
 
 **Event Source**: Server
 
@@ -5859,8 +6345,9 @@ and ``staff_grading_show_problem``.
 Course Team Events
 *************************
 
-This section lists events that are generated by interactions with the
-Instructor Dashboard in the LMS.
+This section lists events that are generated by interactions with options on
+the instructor dashboard. Users who have the Admin or Staff role can select
+**Instructor** in the LMS to access the instructor dashboard.
 
 The schema definitions for events include only the JSON fields that are common
 to all events follow.
@@ -5943,7 +6430,7 @@ follow.
 ======================================================
 
 The browser emits an  ``edx.instructor.report.downloaded`` event when the user
-clicks a report link on the Instructor Dashboard to download a report.
+selects a report link on the instructor dashboard to download a report.
 
 **History**: Added 8 May 2015.
 
@@ -5971,7 +6458,7 @@ clicks a report link on the Instructor Dashboard to download a report.
 ======================================================
 
 The server emits an  ``edx.instructor.report.requested`` event when the user
-clicks to request the generation of a report on the Instructor Dashboard.
+clicks to request the generation of a report on the instructor dashboard.
 
 **History**: Added 8 May 2015.
 
@@ -6071,6 +6558,272 @@ clicks to request the generation of a report on the Instructor Dashboard.
      - string
 
 
+.. _grading_events:
+
+=============================
+Grading-Related Events
+=============================
+
+Grading-related events are emitted when grades at the subsection or course
+level are updated. Changes to grades can result from a learner action such as
+submitting a response to a problem, a course team member action on the
+Instructor Dashboard such as rescoring a problem or deleting a learner's state
+for a problem, or a course-level action such as calculation of a learner's
+final grade for a course.
+
+This section presents grading-related events alphabetically.
+
+**Component**: LMS, Instructor Dashboard
+
+**Event Source**: Server
+
+**History**: Grading-related events were added on 14 Dec 2016.
+
+.. contents::
+  :local:
+  :depth: 1
+
+
+.. _edx_grades_course_grade_calculated:
+
+``edx.grades.course.grade_calculated``
+******************************************
+
+After a learner's updated subsection score is successfully saved to the
+database (which triggers an ``edx.grades.subsection.grade_calculated`` event),
+the learner's grade for the course is updated as a result. When a learner's
+updated grade for a course is successfully saved to the database, the server
+emits an ``edx.grades.course.grade_calculated`` event.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``course_edited_on``
+     - datetime
+     - The timestamp of the most recent edit to the course at the time the
+       grade was calculated.
+   * - ``course_version``
+     - string
+     - The version of the course for which the problem was submitted.
+   * - ``grading_policy_hash``
+     - string
+     - A hash of the grading policy at the time that the grade was calculated.
+       This field might be useful for identifying whether the course content
+       was the same for two grades.
+   * - ``letter_grade``
+     - string
+     - The string or alphabetical letter representing the learner's course
+       grade, as defined by the course's grading policy.
+   * - ``percent``
+     - float
+     - The learner's course grade, expressed as a percentage.
+   * - ``event_transaction_id``
+     - string
+     - The unique identifier for tracing transactional events back to learner
+       or instructor actions.
+   * - ``event_transaction_type``
+     - string
+     - A readable string representing the learner or course team action that
+       triggered this event. Possible values are
+       ``edx.grades.problem.submitted``, ``edx.grades.problem.rescored``,
+       ``edx.grades.problem.state_deleted``,
+       ``edx.grades.subsection.grade_calculated``, and
+       ``edx.grades.course.grade_calculated``.
+
+
+.. _edx_grades_problem_rescored:
+
+``edx.grades.problem.rescored``
+*********************************
+
+When a course team member successfully rescores a learner's problem
+submission, the server emits an ``edx.grades.problem.rescored`` event.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+
+   * - ``instructor_id``
+     - string
+     - The identifier for the course team member who initiated the rescore.
+
+   * - ``new_weighted_earned``
+     - number
+     - The learner's weighted score for the problem, after the rescore.
+
+   * - ``new_weighted_possible``
+     - number
+     - The weighted maximum score for the problem, after the rescore.
+
+   * - ``only_if_higher``
+     - boolean
+     - Indicates whether the "rescore only if higher" option was selected when
+       the problem was rescored.
+
+   * - ``problem_id``
+     - string
+     - The identifier for the problem in the form of a serialized usage key.
+
+
+The ``edx.grades.problem.rescored`` event also includes the following
+``event`` member fields. These fields serve the same purpose for this event as
+they do for the :ref:`edx_grades_course_grade_calculated` event.
+
+* ``event_transaction_id``
+* ``event_transaction_type``
+
+
+.. _edx_grades_problem_state_deleted:
+
+``edx.grades.problem.state_deleted``
+************************************
+
+When a course team member deletes the state for a learner's problem
+submission, the server emits an ``edx.grades.problem.state_deleted`` event.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member fields. These fields
+serve the same purpose for this event as they do for the
+:ref:`edx_grades_problem_rescored` event.
+
+* ``instructor_id``
+* ``problem_id``
+* ``event_transaction_id``
+* ``event_transaction_type``
+
+
+.. _edx_grades_problem_submitted:
+
+``edx.grades.problem.submitted``
+*********************************
+
+When a learner's response to a problem is submitted and successfully saved,
+the server emits an ``edx.grades.problem.submitted`` event.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``weight``
+     - number
+     - The weight of this problem.
+   * - ``weighted_earned``
+     - number
+     - The learner's weighted score for this problem.
+   * - ``weighted_possible``
+     - number
+     - The weighted maximum possible score for this problem.
+
+The ``edx.grades.problem.submitted`` event also includes the following
+``event`` member fields. These fields serve the same purpose for this event as
+they do for the :ref:`edx_grades_course_grade_calculated` and
+:ref:`edx_grades_problem_rescored` events.
+
+* ``problem_id``
+* ``event_transaction_id``
+* ``event_transaction_type``
+
+
+.. _edx_grades_subsection_grade_calculated:
+
+``edx.grades.subsection.grade_calculated``
+******************************************
+
+After a learner has submitted a response to a problem (which triggers the
+``edx.grades.problem.submitted`` event), the score for the subsection that
+contains the problem is recalculated. When the updated subsection score is
+successfully saved to the database, the server emits an
+``edx.grades.subsection.grade_calculated`` event.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``block_id``
+     - string
+     - The identifier for the subsection, in the form of a serialized usage
+       key.
+   * - ``first_attempted``
+     - datetime
+     - The timestamp of the learner's first attempt at a problem in the
+       subsection.
+   * - ``subtree_edited_on``
+     - datetime
+     - The timestamp of the latest edit to the section of the course that
+       contains the graded subsection.
+   * - ``visible_blocks_hash``
+     - string
+     - A hash of the course content that was available to this learner at the
+       time that the grade was calculated. This field might be useful for
+       identifying whether the course content was the same for two grades.
+   * - ``weighted_graded_earned``
+     - number
+     - The total weighted points earned on all graded problems in the
+       subsection.
+   * - ``weighted_graded_possible``
+     - number
+     - The total weighted possible scores for all graded problems in the
+       subsection.
+   * - ``weighted_total_earned``
+     - number
+     - The total weighted score earned on all problems in the subsection.
+   * - ``weighted_total_possible``
+     - number
+     - The total weighted scores possible on all problems in the subsection.
+
+The ``edx.grades.subsection.grade_calculated`` event also includes the
+following ``event`` member fields. These fields serve the same purpose for
+this event as they do for the :ref:`edx_grades_course_grade_calculated` event.
+
+* ``course_version``
+* ``event_transaction_id``
+* ``event_transaction_type``
 
 
 .. _list_forum:
@@ -6150,7 +6903,7 @@ Manage Discussion Team Events
 **Event Source**: Server
 
 **History**: The chart feature intended to emit these events was never enabled
-on the edX Edge or edx.org Instructor Dashboard.
+on the edX Edge or edx.org instructor dashboard.
 
 ``event`` **Member Fields**:
 
@@ -6216,7 +6969,10 @@ enrollment events.
   ``context.user_id`` identify the course team member who made the change, and
   the ``event.user_id`` identifies the student who was enrolled or unenrolled.
 
+The :ref:`student_courseaccessrole` table lists all users who have a privileged
+
 For details about the enrollment events, see :ref:`enrollment`.
+role for the course.
 
 .. _instructor_cohort_events:
 
@@ -6235,9 +6991,8 @@ Course* guide.
 ``edx.cohort.creation_requested``
 *********************************
 
-When a course team member manually creates a cohort on the
-Instructor Dashboard, the server emits an ``edx.cohort.creation_requested``
-event.
+When a course team member selects **Instructor** in the LMS to manually create
+a cohort, the server emits an ``edx.cohort.creation_requested`` event.
 
 **Event Source**: Server
 
@@ -6263,7 +7018,7 @@ event.
 *********************************
 
 When a course team member adds a student to a cohort on the
-Instructor Dashboard, the server emits an ``edx.cohort.user_add_requested``
+instructor dashboard, the server emits an ``edx.cohort.user_add_requested``
 event. Course team members can add students to a cohort individually, or by
 uploading a .csv file of student cohort assignments.
 

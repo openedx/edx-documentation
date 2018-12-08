@@ -91,7 +91,7 @@ To create and register a new OIDC client, follow these steps.
 #. Leave the **User** field blank.
 #. For **Client Name**, enter ``E-Commerce Service``.
 #. For **URL**, enter ``http://localhost:8002/``.
-#. For **Redirect URL**, enter ``https://localhost:8002/complete/edx-oidc/``.
+#. For **Redirect URL**, enter ``http://127.0.0.1:8002/complete/edx-oidc/``.
    This is the OIDC client endpoint.
 
    The system automatically generates values in the **Client ID** and **Client
@@ -163,7 +163,7 @@ partner and site configuration with the specified options.
     .. code-block:: bash
 
       $ sudo su ecommerce
-      $ python manage.py create_or_update_site --site-id=1 --site-domain=127.0.0.1:8002 --partner-code=edX --partner-name='Open edX' --lms-url-root=http://127.0.0.1:8000 --theme-scss-path=sass/themes/edx.scss --payment-processors=cybersource,paypal --client-id=[change to OIDC client ID] --client-secret=[change to OIDC client secret]
+      $ python manage.py create_or_update_site --site-id=1 --site-domain=localhost:8002 --partner-code=edX --partner-name='Open edX' --lms-url-root=localhost:8000 --theme-scss-path=sass/themes/edx.scss --payment-processors=cybersource,paypal --client-id=[change to OIDC client ID] --client-secret=[change to OIDC client secret]
 
 .. _Add Another Site Partner and Site Configuration:
 
@@ -223,7 +223,25 @@ this command.
    * - ``--client-secret``
      - Yes
      - OIDC client secret.
-     - ``--client-id=ecommerce-secret``
+     - ``--client-secret=ecommerce-secret``
+   * - ``--from-email``
+     - Yes
+     - Address from which email messages are sent.
+     - ``--from-email=notifications@example.com``
+   * - ``--enable-enrollment-codes``
+     - No
+     - Indication that specifies whether enrollment codes for seats can be
+       created.
+     - ``--enable-enrollment-codes=True``
+   * - ``--payment-support-email``
+     - No
+     - Email address displayed to user for payment support.
+     - ``--payment-support-email=support@example.com``
+   * - ``--payment-support-url``
+     - No
+     - URL displayed to user for payment support.
+     - ``--payment-support-url=https://example.com/support``
+
 
 To add another site, use the appropriate settings module for your environment
 (``ecommerce.settings.devstack`` for Devstack,
@@ -234,7 +252,7 @@ configuration with the options that you specify.
     .. code-block:: bash
 
       $ sudo su ecommerce
-      $ python manage.py create_or_update_site --site-domain=[change me] --partner-code=[change me] --partner-name=[change me] --lms-url-root=[change me] --client-id=[OIDC client ID] --client-secret=[OIDC client secret]
+      $ python manage.py create_or_update_site --site-domain=[change me] --partner-code=[change me] --partner-name=[change me] --lms-url-root=[change me] --client-id=[OIDC client ID] --client-secret=[OIDC client secret] --from-email=[from email]
 
 ****************
 Start the Server
@@ -255,7 +273,7 @@ steps.
     .. code-block:: bash
 
       $ sudo su ecommerce
-      $ make devserve
+      $ make serve
 
 #. To run the server, execute the following command.
 
@@ -268,7 +286,34 @@ steps.
      the Django administration panel in the LMS. For more information about
      configuring the OIDC client, see :ref:`Configure OIDC`.
 
+*****************************************
+Switch from ShoppingCart to E-Commerce
+*****************************************
 
+By default, the ShoppingCart service is enabled when you install an Open edX
+instance. To use the E-Commerce service to handle ecommerce-related tasks
+instead of ShoppingCart, follow these steps.
+
+#. Sign in to the Django administration console for your base URL. For example,
+   ``http://{your_URL}/admin``.
+
+#. In the **Commerce** section, next to **Commerce configuration**, select **Add**. 
+
+#. Select **Enabled**.
+
+#. Select **Checkout on ecommerce service**.
+
+#. (Optional) In the **Single course checkout page**  field, override the
+   default path value of ``/basket/single-item/`` with your own path value.
+
+   .. important:: If you override the default path value, you must also change
+     all of the code that relies on that path.
+
+#. Set the **Cache Time To Live** value in seconds.
+
+#. Select the site for which you want to enable the E-Commerce service.
+
+#. Select **Save**.
 
 .. _Development Outside Devstack:
 

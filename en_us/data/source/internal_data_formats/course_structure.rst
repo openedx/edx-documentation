@@ -137,14 +137,19 @@ Studio, see :ref:`partnercoursestaff:document index`.
      - This field stores the value entered for **Course Start Date** on the
        Studio **Settings & Details** page.
    * - ``tabs``
-     - This array contains member objects that describe the tabs, or
-       pages, that appear for the course in the learning management system
-       (LMS). Course teams can rename most of the default pages, and add more
+     - This array contains member objects that describe the tabs, or pages,
+       that appear for the course in the learning management system (LMS).
+       Course teams can change the order of the default pages, and add custom
        pages, on the Studio **Pages** page.
 
-       The default **Courseware** page cannot be renamed. This page uses the
-       structure defined by the course building blocks to deliver the content
-       defined by the course components.
+       The default **Course** page uses the structure defined by the course
+       building blocks to deliver the content defined by the course components.
+       Similarly, the default **Home** page delivers the updates that are
+       defined on the Studio **Course Updates** page. You cannot change the
+       order of these pages.
+
+       For more information, see :ref:`partnercoursestaff:Adding Pages to a
+       Course`.
 
 ===================
 Course Data Sample
@@ -152,56 +157,67 @@ Course Data Sample
 
 .. code-block:: json
 
-   "i4x://edX/DemoX/course/1T2015": {
-      "category": "course",
-      "children": [
-        "i4x://edX/DemoX/chapter/1ff96c6155eb40c39140c656cdc2708b",
-        "i4x://edX/DemoX/chapter/00d4374f346b4744aa6f4708cdf46d53",
-        "i4x://edX/DemoX/chapter/abc5cf5203ee494faf73fa3f55b4485b",
-        "i4x://edX/DemoX/chapter/a783b6e59fe24917985a8aa29eeec150",
-        "i4x://edX/DemoX/chapter/0cdd0de7b1f740468381c265796f6f63"
-      ],
-      "metadata": {
-        "advertised_start": "4/15/2015",
-        "days_early_for_beta": 90.0,
-        "discussion_topics": {
-          "General": {
-            "id": "i4x-edX-DemoX-course-1T2015"
+   {
+       "i4x://edX/DemoX/course/1T2015":{
+          "category":"course",
+          "children":[
+             "i4x://edX/DemoX/chapter/1ff96c6155eb40c39140c656cdc2708b",
+             "i4x://edX/DemoX/chapter/00d4374f346b4744aa6f4708cdf46d53",
+             "i4x://edX/DemoX/chapter/abc5cf5203ee494faf73fa3f55b4485b",
+             "i4x://edX/DemoX/chapter/a783b6e59fe24917985a8aa29eeec150",
+             "i4x://edX/DemoX/chapter/0cdd0de7b1f740468381c265796f6f63"
+          ],
+          "metadata":{
+             "advertised_start":"4/15/2015",
+             "days_early_for_beta":90.0,
+             "discussion_topics":{
+                "General":{
+                   "id":"i4x-edX-DemoX-course-1T2015"
+                }
+             },
+             "display_name":"edX Demonstration Course",
+             "end":null,
+             "graceperiod":"18000 seconds",
+             "start":"2014-08-10T07:00:00Z",
+             "tabs":[
+                {
+                   "name":"Home",
+                   "type":"course_info",
+                   "course_staff_only": false
+                },
+                {
+                   "name":"Course",
+                   "type":"courseware",
+                   "course_staff_only": false
+                },
+
+                {
+                   "name":"Discussion",
+                   "type":"discussion",
+                   "course_staff_only": false
+                },
+                {
+                   "name":"edX Community",
+                   "type":"static_tab",
+                   "url_slug":"67e8a9e44dde4e97b2bd33a928b9099e",
+                   "course_staff_only": true
+                },
+                {
+                   "name":"Progress",
+                   "is_hidden": false,
+                   "type":"progress"
+                   "course_staff_only": false
+                },
+                {
+                   "name":"Wiki",
+                   "is_hidden": true,
+                   "type":"wiki",
+                   "course_staff_only": false
+                }
+             ]
           }
-        },
-        "display_name": "edX Demonstration Course",
-        "end": null,
-        "graceperiod": "18000 seconds",
-        "start": "2014-08-10T07:00:00Z",
-        "tabs": [
-          {
-            "name": "Courseware",
-            "type": "courseware"
-          },
-          {
-            "name": "Course Info",
-            "type": "course info"
-          },
-          {
-            "name": "Discussion",
-            "type": "discussion"
-          },
-          {
-            "name": "edX Community",
-            "type": "static_tab",
-            "url_slug": "67e8a9e44dde4e97b2bd33a928b9099e"
-          }
-          {
-            "name": "Progress",
-            "type": "progress"
-          },
-          {
-            "name": "Wiki",
-            "type": "wiki"
-          }
-        ]
-      }
-    },
+       }
+    }
 
 
 .. _Course Building Block Data:
@@ -266,7 +282,7 @@ Course Building Block Data Sample
 ======================================
 
 
-.. code-block:: json
+.. code-block:: none
 
   "i4x://edX/DemoX/chapter/00d4374f346b4744aa6f4708cdf46d53": {
     "category": "chapter",
@@ -350,7 +366,7 @@ component.
 Course Component Data Sample
 ======================================
 
-.. code-block:: json
+.. code-block:: none
 
   "i4x://edX/DemoX/html/d3bd5215cf044056beb8e6f7f3e3afc4": {
     "category": "html",

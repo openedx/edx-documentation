@@ -34,8 +34,6 @@ code details, or in a "raw" editor that requires you to mark up your content.
  Review :ref:`Developing Your Course Index` and :ref:`Best Practices for HTML
  Markup` before you start working with HTML components.
 
-To add an instant hangout to an HTML component, see :ref:`Google Instant
-Hangout`.
 
 .. _Options for Editing HTML Components:
 
@@ -269,6 +267,12 @@ Create an HTML Component
    component for learners, so it should describe the content effectively. To
    do so, select **Settings**, and then enter text in the **Display Name**
    field.
+
+   Each HTML template supplies a default display name. Changing the default to
+   a unique, descriptive display name can help you and your learners identify
+   course content quickly and accurately. If you delete the default display
+   name and do not enter your own identifying name, the platform supplies
+   "html" for you.
 
    To return to the visual editor, select **Editor**.
 

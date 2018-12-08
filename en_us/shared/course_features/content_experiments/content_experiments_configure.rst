@@ -36,7 +36,7 @@ To enable content experiments in your course, you add ``split_test`` to the
    For example, the text in the **Advanced Module List** field may resemble
    the following:
 
-   .. code-block:: json
+   .. code-block:: none
 
      [
        "lti_consumer",

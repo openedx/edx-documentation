@@ -1,0 +1,4 @@
+The *Open edX Platform APIs* guide has been updated with documentation for the
+`courses API`_.
+
+.. _courses API: http://edx.readthedocs.io/projects/edx-platform-api/en/latest/courses/overview.html

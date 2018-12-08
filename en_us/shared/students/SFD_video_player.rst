@@ -18,7 +18,7 @@ by an explanation of each option or control on the video player.
    player in a course.
 
 .. image:: ../../shared/students/Images/Video_Intro.png
-  :width: 600
+  :width: 800
   :alt: The edX video player with numbered call-outs for every possible
       control.
 
@@ -46,10 +46,17 @@ by an explanation of each option or control on the video player.
    window by selecting this control. To return to default mode, press ESC on
    your keyboard or select this control again.
 
-8. **Closed caption**: You can show an overlaid transcript of the audio portion
-   of the file by selecting this control. If you show the captions, you can
-   move them to different areas on the video screen by dragging and dropping
-   them. To hide the captions, select this control again.
+8. **Show or hide closed captioning**: You can show an overlaid transcript of
+   the audio portion of the file by selecting this control. If you show the
+   captions, you can move them to different areas on the video screen by
+   dragging and dropping them. To hide the captions, select this control again.
+
+   .. note:: In some cases, two sets of captions can appear when you select
+    **CC**. This situation can occur if YouTube is the host service for the
+    video and your YouTube account settings for playback are set to always show
+    captions. As a result, YouTube and your course might both provide captions
+    for the video. To correct this problem, select **CC** again or change your
+    YouTube account setting.
 
 9. **Show transcript**: You can show a complete, scrolling transcript of the
    audio portion of the file to the right of the video by selecting this
@@ -67,13 +74,12 @@ by an explanation of each option or control on the video player.
 11. **Download video**: You can download the video to watch later with this
     option (if available for the video).
 
-12. **Download transcript**: You can download the video's transcript
-    with this option. You can download the transcript as a SubRip (.srt) file
-    or as a text (.txt) file. You can open files of both types in a text editor
-    such as Notepad.
+12. **Download transcript**: You can download the video's transcript as a
+    SubRip (.srt) file or as a text (.txt) file. You can open files of either
+    type in a text editor such as Notepad.
 
-13. **Transcript**: You can scroll through the transcript and select any line
-    to go to that point in the video.
+13. **Handouts**: You can download any handouts that the course team has
+    associated with the video.
 
 14. **License or Copyright**: If the course team reserves rights or specifies a
     Creative Commons license for the video that is different from the
@@ -81,12 +87,10 @@ by an explanation of each option or control on the video player.
     Creative Commons licenses, you can select the license to open a web site
     with more information about your rights.
 
-    .. image:: ../../shared/students/Images/Video_rights.png
-      :alt: A Creative Commons license with the Attribution, Noncommercial, and
-       No Derivatives options.
-      :width: 200
-
     For more information, see :ref:`Course and Video Licenses`.
+
+15. **Transcript**: You can scroll through the transcript and select any line
+    to go to that point in the video.
 
 For a demonstration of the edX video player, see `Videos on edX`_ in the edX
 DemoX course.

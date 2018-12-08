@@ -46,8 +46,8 @@ Video Length
 
 Keep videos as short as possible.
 
-Learners are much less likely to finish watching a video if it is more than
-5-10 minutes long.
+Learners are more likely to finish watching a video if it is no more than 5-10
+minutes long.
 
 ====================
 Video Accessibility
@@ -67,8 +67,8 @@ files, including YouTube videos and videos that are hosted in other locations.
 You can allow learners to download videos by selecting the **Video Download
 Allowed** option for your video components.
 
-For more information about posting
-videos to hosting sites other than YouTube, see :ref:`Post the Video Online`.
+For more information about posting videos to hosting sites other than YouTube,
+see :ref:`Post the Video Online`.
 
 For more information about options that you can set when you create a video
 component, see :ref:`Video Advanced Options` under :ref:`Create a Video
@@ -84,11 +84,10 @@ Your videos can contain whatever content you want to include in the course. The
 `Creating Videos`_ section of `edX101 Overview of Creating an edX Course`_ has
 some helpful pointers for creating good video content.
 
-When you create videos, follow `Richard Mayer's 12 Principles
-<http://hartford.edu/academics/faculty/
-fcld/data/documentation/technology/presentation/powerpoint/12_principles_mult
-imedia.pdf>`_. The principles in this document are based on extensive
-experimental research of student learning.
+When you create videos, follow Richard E. Mayer's `12 Principles of Multimedia
+Learning <http://hartford.edu/academics/faculty/fcld/data/documentation/technology/presentation/powerpoint/12_principles_multimedia.pdf>`_. The
+principles in this document are based on extensive experimental research of
+student learning.
 
 .. _Compression Specifications:
 
@@ -162,7 +161,7 @@ automatically scrolls as the video plays, and learners can select a line in the
 transcript to jump to the point in the video where that word is spoken.
 
 Learners can also choose to show the transcript file as overlaid closed
-captions for the video by selecting the **Closed caption** (CC) icon in the
+captions for the video by selecting the **CC** icon in the
 video player's control bar.
 
 To create or obtain a transcript in .srt format, you can work with a company
@@ -174,15 +173,10 @@ that provides captioning services.
   `Cielo24 <http://www.cielo24.com/>`_. `YouTube <http://www.youtube.com/>`_
   also provides captioning services.
 
-When you upload an .srt file, a .txt file is created automatically. You can
-allow learners to download these transcript files. If you allow your learners
-to download transcripts, the video player includes a **Download transcript**
-option. Learners can then select either **SubRip (.srt) file** or **Text (.txt)
-file** to download the .srt or .txt transcript.
-
-.. image:: ../../../shared/images/Video_DownTrans_srt-txt.png
-   :width: 500
-   :alt: Video status bar showing .srt and .txt transcript download options.
+When you upload an .srt file, a text (.txt) file is created automatically. You
+can allow learners to download these transcript files. If you allow your
+learners to download transcripts, the video player includes an option to
+download the video transcript as either an .srt file or a .txt file.
 
 ================================
 Naming SubRip Text Files
@@ -243,11 +237,6 @@ YouTube
 
 After you create your video, upload the video to `YouTube
 <http://www.youtube.com/>`_.
-
-.. note:: YouTube only hosts videos of up to 15 minutes. If you create a
- 0.75-speed option, you must make sure that your 1.0-speed video segments are
- only 11.25 minutes long so that YouTube can host all speeds. YouTube offers
- paid accounts that relax this restriction.
 
 ==================
 Other Sites
@@ -310,10 +299,14 @@ To add a video and its transcript to your course, follow these steps.
 
    You replace the default values with your own.
 
-3. In the **Component Display Name** field, enter an identifying name for this
-   video. This name appears as a heading above the video and as a tooltip in
-   the learning sequence at the top of the **Course** page. It also
+#. In the **Component Display Name** field, enter an identifying name for this
+   video. This name appears as a heading above the video in the LMS, and it
    identifies the video for you in Insights.
+
+   The default display name for new video components is "Video". Changing the
+   default to a unique, descriptive display name can help you and your learners
+   identify different videos quickly and accurately. If you delete this default
+   and do not enter an identifying name, the platform supplies "video" for you.
 
 #. In the **Default Video URL** field, enter the URL of the video. Example
    URLs follow.
@@ -324,14 +317,15 @@ To add a video and its transcript to your course, follow these steps.
       http://www.youtube.com/watch?v=OEoXaMPEzfM
       https://s3.amazonaws.com/edx-course-videos/edx-edx101/EDXSPCPJSP13-G030300.mp4
 
-.. note:: To be sure that all learners can access a video, you can
-    create multiple versions that use different encodings or hosting services.
-    After you post different versions on the Internet, you add each URL below
-    the default video URL. **These URLs cannot be YouTube URLs**. To add a URL
-    for another version, select **Add URLs for additional versions**. The first
-    listed video that is compatible with the learner's computer plays.
+   .. note:: To be sure that all learners can access a video, you can
+      create multiple versions that use different encodings or hosting
+      services. After you post different versions on the Internet, you add each
+      URL below the default video URL. **These URLs cannot be YouTube URLs**.
+      To add a URL for another version, select **Add URLs for additional
+      versions**. The first listed video that is compatible with the learner's
+      computer plays.
 
-5. Next to **Default Timed Transcript**, select an option.
+#. Next to **Default Timed Transcript**, select an option.
 
    * If edX already has a transcript for this video, Studio automatically
      finds the transcript and associates the transcript with the video. This
@@ -368,7 +362,7 @@ To add a video and its transcript to your course, follow these steps.
         * If your transcript uses the .sjson format, do not use this field.
           For more information, see :ref:`Steps for sjson files`.
 
-6. Optionally, select **Advanced** to set more options for the video. For a
+#. Optionally, select **Advanced** to set more options for the video. For a
    description of each option, see :ref:`Video Advanced Options`.
 
 #. Select **Save.**
@@ -511,26 +505,15 @@ Add a Supplemental Downloadable Transcript
 
 By default, a .txt file is created when you upload an .srt file, and learners
 can download either the .srt or .txt transcript when you set **Download
-Transcript Allowed** to **True**. **Download Transcript** appears below the
-video, and learners see the .srt and .txt options when they move the cursor
-over that option.
+Transcript Allowed** to **True**. Options to download the transcript** appear
+below the video.
 
-.. image:: ../../../shared/images/Video_DownTrans_srt-txt.png
-   :width: 500
-   :alt: Video status bar showing .srt and .txt transcript download options.
+You can provide an additional downloadable transcript in a format such as .pdf
+along with the default .srt and .txt transcripts. To do this, you upload the
+additional transcript in the video player as a handout. Learners see an option
+to download the handout below the video.
 
-To provide a downloadable transcript in a format such as .pdf along with the
-.srt and .txt transcripts, you use the **Upload Handout** advanced setting.
-When you do this, **Download Handout** appears to the right of the **Download
-Transcript** in the video player, and learners can download the .srt, .txt, or
-handout version of the transcript.
-
-.. image:: ../../../shared/images/Video_DownTrans_srt-handout.png
-   :width: 500
-   :alt: Video status bar showing .srt, .txt, and handout transcript download
-    options.
-
-To add a downloadable transcript, follow these steps.
+To add another downloadable transcript, follow these steps.
 
 #. Create or obtain your transcript as a .pdf or in another format.
 #. In the video component, select **Advanced**.

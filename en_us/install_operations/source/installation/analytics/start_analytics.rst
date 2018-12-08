@@ -75,8 +75,8 @@ Starting Open edX Insights
 
    .. code-block:: bash
 
-     $ ~/venvs/insights/bin/python ~/edx_analytics_dashboard/manage.py switch display_verified_enrollment on --create
-     $ ~/venvs/insights/bin/python ~/edx_analytics_dashboard/manage.py switch enable_course_api on --create
+     $ ./manage.py waffle_switch display_verified_enrollment on --create
+     $ ./manage.py waffle_switch enable_course_api on --create
 
    For a complete list of the waffle switches that are available, see
    `Feature Gating`_.
@@ -100,30 +100,28 @@ Starting the Open edX Analytics Pipeline
 
 #. Navigate to the course body and submit answers to a few problems.
 
-#. Navigate to the location where edx-analytics-pipeline project was cloned on
-   the host.
+#. Activate the data pipeline virtual environment as the ``hadoop`` user.
 
    .. code-block:: bash
 
-     $ cd edx-analytics-pipeline
+     $ sudo su hadoop
+     $ cd /edx/app/analytics_pipeline/
+     $ . venvs/analytics_pipeline/bin/activate
+     $ cd analytics_pipeline/
+     $ export LUIGI_CONFIG_PATH="$PWD/config/devstack.cfg"
 
 #. Run the enrollment task.
 
    .. code-block:: bash
 
-     $ export WHEEL_URL=http://edx-wheelhouse.s3-website-us-east-1.amazonaws.com/Ubuntu/precise
-     # On Mac OS X replace the date command below with $(date -v+1d +%Y-%m-%d)
-     $ remote-task --vagrant-path <path to `analyticstack`> --remote-name devstack --override-config ${PWD}/config/devstack.cfg --wheel-url $WHEEL_URL --wait \
-        ImportEnrollmentsIntoMysql --local-scheduler --interval-end $(date +%Y-%m-%d -d "tomorrow") --n-reduce-tasks 1
+     $ launch-task ImportEnrollmentsIntoMysql --local-scheduler --interval-end $(date +%Y-%m-%d -d "tomorrow") --n-reduce-tasks 1
 
 #. Run the answer distribution task.
 
    .. code-block:: bash
 
-     $ export WHEEL_URL=http://edx-wheelhouse.s3-website-us-east-1.amazonaws.com/Ubuntu/precise
      $ export UNIQUE_NAME=$(date +%Y-%m-%dT%H_%M_%SZ)
-     $ remote-task --vagrant-path <path to `analyticstack`> --remote-name devstack --override-config ${PWD}/config/devstack.cfg --wheel-url $WHEEL_URL --wait \
-         AnswerDistributionWorkflow --local-scheduler \
+     $ launch-task AnswerDistributionWorkflow --local-scheduler \
            --src hdfs://localhost:9000/data/ \
            --include '*tracking.log*' \
            --dest hdfs://localhost:9000/edx-analytics-pipeline/output/answer_distribution_raw/$UNIQUE_NAME/data \

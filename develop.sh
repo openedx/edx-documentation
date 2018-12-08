@@ -13,6 +13,6 @@ fi
 project_dir=$1
 port=${2:-9090}
 
-cd $1
+cd $project_dir
 make html
-sphinx-autobuild -b html -d build/doctrees -c source source build/html --port $port
+sphinx-autobuild --ignore '*.swp' --ignore '*~' -b html -d build/doctrees -c source source build/html --port $port

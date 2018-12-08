@@ -23,31 +23,50 @@ Add a Course Update
 **********************
 
 You add updates to notify learners of upcoming exams or deadlines, changes in
-the course schedule, or to make other announcements.
+the course schedule, or to make other announcements. Updates are visible to
+enrolled learners as soon as you post them.
+
+Each update requires a date for identification and sorting purposes. This date
+does not control when the date becomes visible to learners. In the LMS, updates
+display on the **Home** page in reverse chronological order (most recent at the
+top), based on the date associated with each update.
 
 To add a course update, follow these steps.
 
 #. From the **Content** menu, select **Updates**.
 #. Select **New Update**.
-#. Enter your update in the text editor that opens.
+#. Create your update in the text editor that opens.
 
-  * This editor is like the :ref:`raw HTML editor<The Raw HTML Editor>` that is
-    provided for HTML components. To format your update, you must supply HTML
-    tags. The :ref:`visual editor<The Visual Editor>` is not provided.
+   * Enter text for the update, using HTML tags for formatting. This editor is
+     like the :ref:`raw HTML editor<The Raw HTML Editor>` in HTML components.
+     The course update editor does not have a :ref:`visual editor<The Visual
+     Editor>`.
 
-  * If you change the supplied date, the new date appears above the update on
-    the **Home** page. However, the update is visible to all enrolled
-    learners as soon as you post it.
+     .. note::
+        To make sure that your announcements are accessible, if you use
+        headings inside an announcement, make sure that you use only level 6
+        headings (``<h6>``). The structure of the course **Home** page uses
+        heading levels 1-5.
 
-.. note::
-  If you copy text from another source and paste it into the text editor, be
-  sure to proofread the result carefully. Some applications automatically
-  change quotation marks and apostrophes from the "straight" version to the
-  "smart" or "curly" version. The editor requires "straight" quotation marks
-  and apostrophes.
+        If you copy text from another source and paste it into the text
+        editor, proofread the result carefully. Some applications automatically
+        change quotation marks and apostrophes from the "straight" version to
+        the "smart" or "curly" version. The editor requires "straight"
+        quotation marks and apostrophes.
 
-.. The following step allows installations that use the edX mobile apps to send a push notification to the app when an update is added.
-.. Alison, DOC-1814, June 2015
+   * Specify a date for this update. By default, today's date is already
+     entered. You can change the date using the calendar tool, or by entering
+     some other valid date. This date is used only for identification and
+     sorting purposes. This date does not control when the date becomes visible
+     to learners.
+
+#. Select **Post**. Your update appears on your course's **Home** page
+   immediately.
+
+
+.. The following step allows installations that use the edX mobile apps to send
+.. a push notification to the app when an update is added. Alison, DOC-1814,
+.. June 2015
 
 .. only:: Open_edX
 
@@ -60,8 +79,8 @@ To add a course update, follow these steps.
       * All updates appear on the **Home** page, even if you do not send
         notifications.
 
-#. Select **Post**. Your update appears on your course's **Home** page
-   immediately.
+
+
 
 .. _Add Course Handouts:
 

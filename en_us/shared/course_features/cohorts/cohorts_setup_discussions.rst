@@ -33,8 +33,8 @@ is different from the behavior of :ref:`content-specific discussion topics
 By default, course-wide discussion topics are unified because these discussions
 are generally used for posts that are of broad interest to all learners in the
 course. In contrast, content-specific discussion topics are by default divided
-by cohort. On the Instructor Dashboard, you can change discussion topics of
-either type to be divided or unified.
+by cohort. You can change discussion topics of either type to be divided or
+unified on the instructor dashboard in the LMS.
 
 .. warning:: If you change the cohort settings of discussion topics in a live
    course after learners have begun reading and contributing to discussion

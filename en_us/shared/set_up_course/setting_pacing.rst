@@ -72,6 +72,18 @@ not appear in the LMS.
 Set Pacing for Your Course
 ***************************
 
+
+.. only:: Open_edX
+
+    Before you can use this feature to set up a self-paced course, it must be enabled using the Open edX Django admin panel.
+    Follow these steps, or contact your Open edX site administrator for assistance.
+
+    #. Log in to your Open edX Django Admin panel.
+    #. In the **Self_Paced** section, locate **Self paced configurations** and then select **Add**.
+    #. Check the **Enabled** and **Enable course home page improvements** checkboxes.
+    #. Select **Save**.
+
+
 .. note::
  You cannot change the course pacing after the course start date has passed.
 

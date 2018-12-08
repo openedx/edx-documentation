@@ -210,8 +210,8 @@ Enable Badges in Studio and the Learning Management System
 To enable badges, you modify the ``lms.env.json`` and ``cms.env.json`` files,
 which are located one level above the ``edx-platform`` directory.
 
-#. In the ``lms.env.json`` and ``cms.env.json`` files, set the
-   value of ``ENABLE_OPENBADGES``  to ``True``.
+#. In the ``lms.env.json`` and ``cms.env.json`` files, in the FEATURES
+   section, set the value of ``ENABLE_OPENBADGES``  to ``True``.
 
    .. code-block:: bash
 
@@ -669,7 +669,7 @@ Supported Badges API Endpoint
 =============================
 
 The Badges API supports the endpoint
-``GET/api/badges/v1/assertions/user/{username}/``. You can use the following
+``GET /api/badges/v1/assertions/user/{username}/``. You can use the following
 query parameters with this endpoint.
 
 .. note:: All of these query parameters are optional.
@@ -695,9 +695,9 @@ For example, to get a list of badge assertions issued for a badge with an
 ``issuing_component`` value of ``openedx__course`` and a ``slug`` value of
 ``enroll_in_three_courses``, the query would be
 
-.. code-block:: html
+.. code-block:: none
 
- <openedx_instance>/api/badges/v1/assertions/user/?issuing_component=openedx__course&slug=enroll_in_three_courses
+   {openedx domain}/api/badges/v1/assertions/user/?issuing_component=openedx__course&slug=enroll_in_three_courses
 
 where ``<openedx_instance>`` is the site URL for your Open edX instance.
 

@@ -8,25 +8,25 @@ EdX Learner's Guide
    :numbered:
    :maxdepth: 2
 
-   front_matter/index
    SFD_introduction
    SFD_account
-   sfd_dashboard_profile/index
-   SFD_self_paced
    SFD_enrolling
+   sfd_dashboard_profile/index
+   SFD_check_progress
+   SFD_mobile
+   SFD_certificates
+   SFD_self_paced
    SFD_credit_courses/index
    SFD_content_availability
-   SFD_licensing
    SFD_video_player
-   SFD_bookmarks
-   SFD_notes
-   SFD_google_docs
-   SFD_check_progress
-   SFD_certificates
-   SFD_teams
-   SFD_mobile
+   sfd_discussions/index
    completing_assignments/index
    SFD_ORA
-   sfd_discussions/index
+   SFD_google_docs
+   SFD_teams
+   SFD_bookmarks
+   SFD_notes
    SFD_wiki
-   SFD_mathformatting
+   SFD_licensing
+   front_matter/index
+

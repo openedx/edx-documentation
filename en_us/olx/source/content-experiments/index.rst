@@ -4,7 +4,8 @@
 Content Experiments
 #################################
 
-Use the topics in this section to configure and create content experiments.
+The topics in this section describe how to use OLX (open learning XML) to
+create and configure content experiments.
 
 .. toctree::
    :maxdepth: 2

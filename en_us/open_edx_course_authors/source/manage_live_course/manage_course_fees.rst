@@ -4,8 +4,9 @@
 Manage Course Fees
 #################################
 
-If your course has a fee, you can manage the fees for your course in the
-**E-Commerce** section of the Instructor Dashboard. You can set the price for
+If your course has a fee, users with an appropriate course role can manage the
+fees for your course in the LMS by selecting **Instructor** and then
+**E-Commerce**. On this instructor dashboard page, you set the price for
 each seat in the course, create and manage coupon codes and enrollment codes,
 and download reports about financial transactions.
 
@@ -63,7 +64,7 @@ configuration code in your Open edX environment.
 
 * Add the following code to the lms.env.json file.
 
-  .. code-block:: json
+  .. code-block:: none
 
     ...
     "FEATURES": {
@@ -76,7 +77,7 @@ configuration code in your Open edX environment.
 
 * Add the following code to the lms.auth.json file.
 
-  .. code-block:: json
+  .. code-block:: none
 
     ...
         "CC_PROCESSOR": {
@@ -133,15 +134,15 @@ administration website for your Open edX instance.
 Assign Admin Roles
 ========================
 
-Two new roles are required for courses that charge fees and that create and
-manage coupon codes and enrollment codes.
+To manage fees, coupon codes, and enrollment codes for a course, you give users
+one of these administrative roles.
 
-* The *Finance Admin* role creates and manages discounts and enrollment codes.
+* The Finance Admin role creates and manages discounts and enrollment codes.
   This role also cancels and resubmits invoices.
-* The *Sales Admin* role creates and manages coupon codes and enrollment
-  codes, but cannot cancel or resubmit invoices.
+* The Sales Admin role creates and manages coupon codes and enrollment codes,
+  but cannot cancel or resubmit invoices.
 
-To add the Finance Admin or Sales Admin role to a user, follow these steps.
+To give a user the Finance Admin or Sales Admin role, follow these steps.
 
 .. note:: A user can have both the Finance Admin and Sales Admin roles.
 
@@ -170,15 +171,15 @@ To add the Finance Admin or Sales Admin role to a user, follow these steps.
 
 To add another role for the user, repeat steps 3-4.
 
-When a user has the Sales Admin or Finance Admin role, that user can see an
-**E-Commerce** page on the Instructor Dashboard. The **E-Commerce** page
-includes the following sections. The Finance Admin role can see all sections.
-The Sales Admin role can see all sections except the **Course Seat Purchases**
-section.
+When a user has the Sales Admin or Finance Admin role, in the LMS that user can
+select **Instructor** and then see an **E-Commerce** page on the instructor
+dashboard. The **E-Commerce** page includes the following sections. Users with
+the Finance Admin role can access all sections. Users with the Sales Admin role
+can access all sections except the **Course Seat Purchases** section.
 
 .. image:: ../../../shared/images/ECommercePage.png
  :width: 500
- :alt: The E-Commerce page on the Instructor Dashboard with all sections
+ :alt: The E-Commerce page on the instructor dashboard with all sections
      showing and "Course Price" expanded.
 
 
@@ -189,15 +190,15 @@ Set the Price of the Course
 ******************************************
 
 You set the price of an individual seat in the course on the **E-Commerce**
-page on the Instructor Dashboard. To see the **E-Commerce** page, you must
+page on the instructor dashboard. To see the **E-Commerce** page, you must
 have either the Sales Admin or Finance Admin role. For information, see
 :ref:`Assign Admin Roles`.
 
 To set the price for each course seat, follow these steps.
 
-#. On the Instructor Dashboard, select the **E-Commerce** page, and then
-   select the **Course Price** section.
-#. On the right side of the page, select **Edit Price**.
+#. In the LMS, select **Instructor**.
+#. Select **E-Commerce**, and then select the **Course Price** section.
+#. At the side of the page, select **Edit Price**.
 #. In the **Set Course Price** dialog box, enter the price of each seat in the
    course. Do not enter a currency symbol.
 #. In the **Currency** list, select the currency that you want.
@@ -216,7 +217,7 @@ Unlimited learners can use the same coupon code. Optionally, you can set
 an expiration date for coupon codes.
 
 You can see all the coupon codes for your course in the **Coupon Code List**
-section of the **E-Commerce** page on the Instructor Dashboard. You can also
+section of the **E-Commerce** page on the instructor dashboard. You can also
 see information such as the discount amount and the number that have been
 used.
 
@@ -243,8 +244,8 @@ Holiday_10, MYDISCOUNT, or ZYX321.
 
 To create coupon codes, follow these steps.
 
-#. On the Instructor Dashboard, select the **E-Commerce** page, and then
-   select the **Coupon Code List** section.
+#. In the LMS, select **Instructor**.
+#. Select **E-Commerce**, and then select the **Coupon Code List** section.
 #. On the right side of the page, select **Add Coupon Code**.
 #. In the **Add Coupon Code** dialog box, enter your information in the
    **Code** and **Discount Percentage** fields.
@@ -263,8 +264,8 @@ View Coupon Code Information
 
 To see information about a particular coupon code, follow these steps.
 
-#. On the Instructor Dashboard, select the **E-Commerce** page.
-#. Select the **Coupon Code List** section.
+#. In the LMS, select **Instructor**.
+#. Select **E-Commerce**, and then select the **Coupon Code List** section.
 #. In the **Coupon Codes** list, locate the coupon code that you want to see.
 
    The **Coupon Codes** list has the following information.
@@ -289,7 +290,8 @@ Admin or Finance Admin role. For information, see :ref:`Assign Admin Roles`.
 .. note:: You can only edit the description of a coupon code. You cannot
  edit the code, discount percentage, course ID, or expiration date.
 
-#. On the Instructor Dashboard, select the **E-Commerce** page, and then
+#. In the LMS, select **Instructor**.
+#. Select **E-Commerce**, and then
    select the **Coupon Code List** section.
 #. In the **Coupon Codes** list, locate the coupon code that you want to
    edit or delete.
@@ -326,7 +328,7 @@ You create enrollment codes on the **E-Commerce** page on the Instructor
 Dashboard. To see the **E-Commerce** page, you must have either the Sales Admin
 or Finance Admin role. For information, see :ref:`Assign Admin Roles`.
 
-#. On the Instructor Dashboard, select the **E-Commerce** page.
+#. In the LMS, select **Instructor**, and then select **E-Commerce**.
 #. In the **Enrollment Codes** section, select **Create Enrollment Codes**.
 #. When the **Create Enrollment Codes** form opens, complete the form. The
    following fields are required.
@@ -407,7 +409,8 @@ transactions.
 
 To cancel, restore, or mark an enrollment code as unused, follow these steps.
 
-#. On the Instructor Dashboard, select the **E-Commerce** page, and then
+#. In the LMS, select **Instructor**.
+#. Select **E-Commerce**, and then
    select the **Enrollment Codes** section.
 #. Under **Cancel, restore, or mark an enrollment code as unused**, select
    **Change Enrollment Code Status**.
@@ -439,7 +442,8 @@ To cancel or resubmit an invoice, follow these steps.
 #. Locate the number of the invoice that you want to cancel or resubmit. You
    can download a list of all the invoices for the course by selecting
    **Download All Invoices**.
-#. On the Instructor Dashboard, select the **E-Commerce** page, and then
+#. In the LMS, select **Instructor**.
+#. Select **E-Commerce**, and then
    select the **Course Seat Purchases** section.
 #. Select the action that you want to complete.
 
@@ -490,7 +494,7 @@ You can download the following reports.
 * The enrollment codes for the course that have been used.
 
 To download an enrollment code report, select the **E-Commerce** page on the
-Instructor Dashboard, and then select the report that you want in the
+instructor dashboard, and then select the report that you want in the
 **Enrollment Codes** section. If you enter an organization name in the
 **Company Name** field, the report contains the enrollment codes for only that
 organization.
@@ -508,7 +512,8 @@ see :ref:`Assign Admin Roles`.
 
 To see financial transaction information, follow these steps.
 
-#. On the Instructor Dashboard, select the **E-Commerce** page, and then
+#. In the LMS, select **Instructor**.
+#. Select **E-Commerce**, and then
    select the **Course Seat Purchases** section.
 #. Select the action that you want to complete.
 

@@ -216,6 +216,9 @@ assessment feature.
   subsection due date. Due dates for each ORA assignment are set in the
   assignment's settings.
 
+* The :ref:`grace period <Set the Grace Period>` that you can set for the
+  course does not apply to ORA assignments.
+
 * EdX recommends that you set the response due date at least one week before
   the peer assessment due date and time, to allow enough time for peer
   assessments to be performed after learners have submitted their own
@@ -224,10 +227,10 @@ assessment feature.
   other learners may not have time to perform peer assessments before peer
   assessments are due. For details, see :ref:`Best Practices for ORA`.
 
-* The times that you set, and the times that learners see, are in Coordinated
-  Universal Time (UTC). You might want to verify that you have specified the
-  times that you intend by using a time zone converter such as `Time and Date
-  Time Zone Converter <http://www.timeanddate.com/worldclock/converter.html>`_
+* The times that you set are in Coordinated Universal Time (UTC). You might
+  want to verify that you have specified the times that you intend by using a
+  time zone converter such as `Time and Date Time Zone Converter
+  <http://www.timeanddate.com/worldclock/converter.html>`_.
 
 To specify a name for the assignment as well as start and due dates for all
 learner responses, complete these steps.
@@ -354,7 +357,7 @@ To specify peer assessment settings, follow these steps.
    Coordinated Universal Time (UTC). You might want to verify that you have
    specified the times that you intend by using a time zone converter such as
    `Time and Date Time Zone Converter
-   <http://www.timeanddate.com/worldclock/converter.html>`_
+   <http://www.timeanddate.com/worldclock/converter.html>`_.
 
 For more information about peer assessment steps, see :ref:`Peer Assessment
 Step`.
@@ -377,7 +380,7 @@ For the self assessment step, you specify when the step starts and ends.
    Coordinated Universal Time (UTC). You might want to verify that you have
    specified the times that you intend by using a time zone converter such as
    `Time and Date Time Zone Converter
-   <http://www.timeanddate.com/worldclock/converter.html>`_
+   <http://www.timeanddate.com/worldclock/converter.html>`_.
 
 For more information about self assessment steps, see :ref:`Self Assessment
 Step`.
@@ -423,10 +426,10 @@ for an ORA assignment, see :ref:`PA Top Responses`.
 Step 8. Test the Assignment
 ******************************
 
-To test your assignment, set up the assignment in your course, set the section
-or subsection date in the future, and ask a group of beta testers to submit
-responses and grade each other. The beta testers can then let you know if they
-found the question and the rubric easy to understand or if they had any
-problems with the assignment.
+To test your ORA assignment, you can set up the assignment in your course, set
+the section or subsection date in the future, publish the unit, and ask one or
+more beta testers to submit responses and grade each other. The beta testers
+can then let you know if they found the question and the rubric easy to
+understand or if they had any problems with the assignment.
 
 For more information about beta testing, see :ref:`Beta_Testing`.

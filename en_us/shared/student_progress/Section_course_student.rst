@@ -30,8 +30,8 @@ Reported Problem Types
 **********************
 
 To measure problem-related activity, the learner engagement report includes
-data for capa problems. That is, the report includes data for problems for
-which learners can select **Check**, including these problem types.
+data for CAPA problems. That is, the report includes data for problems for
+which learners can select **Submit**, including these problem types.
 
  * Checkboxes
  * Custom JavaScript
@@ -80,10 +80,10 @@ The learner engagement report .csv files contain the following columns.
      - Included only in the weekly report. Identifies the number of days
        during the week that the learner visited any page (URL) in the course.
    * - Unique Problems Attempted
-     - The number of unique problems for which the learner selected **Check**
+     - The number of unique problems for which the learner selected **Submit**
        to submit an answer.
    * - Total Problem Attempts
-     - The number of times the learner selected **Check** to submit answers,
+     - The number of times the learner selected **Submit** to submit answers,
        regardless of the particular problem attempted.
    * - Unique Problems Correct
      - The number of unique problems for which the learner submitted a correct
@@ -114,7 +114,7 @@ Download the Learner Engagement Report
 
 An automated process runs daily on the system server to update learner
 engagement data and create the daily or weekly .csv file for you to download.
-Links to the .csv files are available on the Instructor Dashboard.
+Links to the .csv files are available in the LMS from the instructor dashboard.
 
 To download a learner engagement report, follow these steps.
 

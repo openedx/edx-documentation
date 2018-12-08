@@ -4,240 +4,180 @@
 Working with Problem Components
 ################################
 
-This section covers the basics of problem components: what they look like to
-you and your learners, and the options that every problem component has.
+This section introduces the core set of problem types that course teams can add
+to any course by using the problem component. It also describes editing options
+and settings for problem components.
 
 .. contents::
  :local:
  :depth: 1
 
-For more information about individual problem types, see :ref:`Create
-Exercises`.
+For information about specific problem types, and the other exercises and tools
+that you can add to your course, see :ref:`Create Exercises`.
 
-******************************
-Overview
-******************************
+.. _Adding a Problem:
 
-The problem component allows you to add interactive, automatically
-graded exercises to your course content. You can create many different
-types of problems in Studio.
+****************
+Adding a Problem
+****************
 
-******************************
-Graded Problems
-******************************
+To add interactive problems to a course in Studio, In the course outline in
+Studio, at the :ref:`unit<The Unit Workflow>` level, you select **Problem**.
+You then choose the type of problem that you want to add from a list of
+**Common Problem Types** or **Advanced** problem types.
 
-All problems receive a point score, but, by default, problems do not count
-toward a learner's grade.
+The common problem types include relatively straightforward CAPA problems such
+as multiple choice and text or numeric input. The advanced problem types can be
+more complex to set up, such as math expression input, peer assessment, or
+custom JavaScript problems.
 
-To have problems to count toward the grade, change the assignment type of the
-subsection that contains the problems. For more information, see :ref:`Set the
-Assignment Type and Due Date for a Subsection`.
+The common and advanced problem types that the problem component lists are the
+core set of problems that every course team can include in a course. You can
+also enable more exercises and tools for use in your course. For more
+information, see :ref:`Enable Additional Exercises and Tools`.
+
+=====================================
+Adding Graded or Ungraded Problems
+=====================================
+
+When you :ref:`establish the grading policy<Grading Index>` for your course,
+you define the assignment types that count toward learners' grades: for
+example, homework, labs, midterm, final, and ungraded. You specify
+one of these assignment types for each of the subsections in your course.
+
+As you develop your course, you can add problem components to a unit in any
+subsection. The problem components that you add automatically inherit the
+assignment type that is defined at the subsection level. For example, all of
+the problem components that you add to a unit in an ungraded subsection are
+ungraded, all of the problem components that you add to a unit in the midterm
+subsection are graded, and so on.
+
+For more information, see :ref:`Set the Assignment Type and Due Date for a
+Subsection`.
 
 .. _Problem Learner View:
 
-************************************
-The Learner View of a Problem
-************************************
-
-All problems on the edX platform have several component parts.
-
-.. image:: ../../../shared/images/AnatomyOfExercise1.png
- :alt: An image of a problem from a learner's point of view, with callouts for
-       elements of the problem.
-  :width: 500
-
-#. **Problem text.** The problem text can contain any standard HTML formatting.
-
-#. **Response field with the learner's answer.** Learners enter answers
-   in response fields. The appearance of the response field depends on
-   the type of the problem.
-
-#. **Rendered answer.** For some problem types, Studio uses MathJax to
-   render plain text as "beautiful math".
-
-#. **Check button.** After entering or selecting an answer, a learner can
-   select **Check** to find out if his answer is correct. If the answer is
-   correct, a green check mark appears. If it is incorrect, a red X appears.
-   When the learner selects **Check**, the Learning Management System saves
-   the grade and current state of the problem.
-
-#. **Save button.** The learner can select **Save** to save her current
-   response without submitting it for a grade. This allows the learner to
-   stop working on a problem and come back to it later.
-
-#. **Show Answer button.** This button is optional. When the learner
-   selects **Show Answer**, she sees both the correct answer (see 2
-   above) and the explanation (see 10 below). You define whether
-   the **Show Answer** button is visible.
-
-#. **Attempts.** You can set a specific number of attempts, or allow
-   unlimited attempts for a problem. By default, the course-wide **Maximum
-   Attempts** advanced setting is null, meaning that the maximum number of
-   attempts for problems is unlimited. If the course-wide **Maximum Attempts**
-   setting is changed to a specific number, the **Maximum Attempts** setting
-   for individual problems defaults to that number, and cannot be set to
-   unlimited.
-
-.. image:: ../../../shared/images/AnatomyOfExercise2.png
-    :alt: An image of a problem from a learner's point of view, with
-       callouts for attempts and showing the answer.
-    :width: 500
-
-8. **Feedback.** After a learner selects **Check**, all problems return a
-   green check mark or a red X.
-
-   .. image:: ../../../shared/images/AnatomyofaProblem_Feedback.png
-    :alt: An image of a feedback checkmark and x from a learner's point of
-     view.
-
-#. **Correct answer.** Most problems require that you specify
-   a single correct answer.
-
-#. **Explanation.** You can include an explanation that
-   appears when a learner selects **Show Answer**.
-
-#. **Reset button.** Learners can select **Reset** to clear any input that has
-   not yet been submitted, and try again to answer the problem.
-
-   - If the learner has already submitted an answer, selecting **Reset** clears
-     the submission and, if the problem includes a Python script to randomize
-     variables and the randomization setting is **On Reset**, changes the
-     values the learner sees in the problem.
-   - If the maximum number of attempts that was set for this problem has been
-     reached, the **Reset** button is not visible.
-
-#. **Hide Answer button.**
-
-.. image:: ../../../shared/images/AnatomyOfExercise3.png
-    :alt: An image of a course section in the left pane of the LMS, with
-     callouts for the icon for graded content and for the due date.
-    :width: 200
-
-13. **Grading.** You can specify whether a group of problems is graded. If a
-    group of problems is graded, an icon of a pen and a piece of paper appears
-    for that assignment in the left pane.
-
-#. **Due date.** The date that the problem is due. A problem that is past due
-   does not have a **Check** button. It also does not accept answers or
-   provide feedback.
-
-.. note:: Problems can be **open** or **closed.** Closed problems do not
-          have a **Check** button. Learners can still see problem text,
-          solutions, and revealed explanations, but they cannot check their
-          work, submit responses, or change earlier scores.
-
-There are also some attributes of problems that are not immediately
-visible. You can set these attributes in Studio.
-
-* **Accessible Label.** In the problem text, you can identify the text that is,
-  specifically, the question that learners need to answer. The text that is
-  labeled as the question is used by screen readers, reports, and Insights. For
-  more information, see
-  :ref:`Simple Editor`.
-
-* **Randomization.** In certain types of problems, you can include a Python
-  script to randomize the values that are presented to learners. You use
-  this setting to define when values are randomized. For more information,
-  see :ref:`Randomization`.
-
-* **Weight.** Different problems in a particular problem set can be given
-  different weights. For more information, see :ref:`Problem Weight`.
+.. include:: ../../../shared/course_components/Section_learner_problem_view.rst
 
 .. _Problem Studio View:
 
-************************************
-The Studio View of a Problem
-************************************
+*****************************
+Editing a Problem in Studio
+*****************************
 
-All problems are written in XML. However, Studio offers two interfaces for
-editing problem components: the simple editor and the advanced editor.
+When you select **Problem** and choose one of the problem types, Studio adds an
+example problem of that type to the unit. To replace the example with your own
+problem, you select **Edit** to open the example problem in an editor.
 
-*  The simple editor allows you to edit problems visually, without
-   having to work with XML.
+The editing interface that opens depends on the type of problem you choose.
 
-*  The advanced editor converts the problem to edX's XML standard and
-   allows you to edit that XML directly.
+* For common problem types, the :ref:`simple editor<Simple Editor>` opens. In
+  this editor, you use Markdown-style formatting indicators to identify the
+  elements of the problem, such as the prompt and the correct and incorrect
+  answer options.
 
-You can switch at any time from the simple editor to the advanced editor by
-selecting **Advanced Editor** from the simple editor's toolbar. However, after
-you save a problem in the advanced editor, you cannot open it again in the
-simple editor.
+* For advanced problem types (with the exception of :ref:`peer assessment<Open
+  Response Assessments 2>`), the :ref:`advanced editor<Advanced Editor>` opens.
+  In this editor you use open learning XML (OLX) elements and attributes
+  to identify the elements of the problem.
+
+  For peer assessment problem types, you define the problem elements and
+  options by using a graphical user interface. For more information, see
+  :ref:`PA Create an ORA Assignment`.
+
+You can switch from the simple editor to the advanced editor at any time by
+selecting **Advanced Editor** from the simple editor's toolbar.
+
+.. note:: After you save a problem in the advanced editor, you cannot open it
+ again in the simple editor.
 
 .. _Simple Editor:
 
-=================
+==================
 The Simple Editor
-=================
+==================
 
-When you select the following problem types, the simple editor opens with a
-preformatted example problem.
+When you edit one of the :ref:`common problem types<Adding a Problem>`, the
+simple editor opens with a template that you can use as a guideline for
+adding Markdown formatting. The following templates are available.
 
-*  :ref:`Checkbox`: In checkbox problems, learners select one or more options
-   from a list of possible answers.
+*  :ref:`Checkbox` and Checkboxes with Hints and Feedback
 
-*  :ref:`Dropdown`: In dropdown problems, learners select one answer from a
-   dropdown list.
+*  :ref:`Dropdown` and Dropdown with Hints and Feedback
 
-*  :ref:`Multiple Choice`: Multiple choice problems require learners to select
-   one answer from a list of choices that appear below the problem text.
+*  :ref:`Multiple Choice` and Multiple Choice with Hints and Feedback
 
-*  :ref:`Numerical Input`: Numerical input problems require answers that
-   include only integers, fractions, and a few common constants and
-   operators.
+*  :ref:`Numerical Input` and Numerical Input with Hints and Feedback
 
-*  :ref:`Text Input`: In text input problems, learners enter a short text
-   answer.
+*  :ref:`Text Input` and Text Input with Hints and Feedback
 
-The following image shows an example multiple choice problem in the simple
+Blank common problems also open in the simple editor but they do not provide a
+template.
+
+Adding Markdown Formatting
+***************************
+
+The following image shows the multiple choice template in the simple
 editor.
 
 .. image:: ../../../shared/images/MultipleChoice_SimpleEditor.png
- :alt: An image of the simple editor with numbered callouts for each option,
-  and an example multiple choice problem to demonstrate the formatting.
+ :alt: A template of required formatting for multiple choice problems, with
+     numbered callouts for each formatting option.
  :width: 600
 
 The simple editor includes a toolbar with options that provide the required
-formatting for different types of problems. When you select an option from the
-toolbar, formatted sample text appears in the simple editor. Alternatively,
-you can apply formatting to your own text by selecting the text and then one
-of the toolbar options.
+Markdown formatting for different types of problems. When you select an option
+from the toolbar, formatted sample text appears in the simple editor.
+Alternatively, you can apply formatting to your own text by selecting the text
+and then one of the toolbar options.
 
-Descriptions of the toolbar options follow.
+Descriptions of the Markdown formatting that you use in the simple editor
+follow.
 
-#. **Heading**: Formats text as a title or heading.
+#. **Heading**: Identifies a title or heading by adding a
+   series of equals signs (``=``) below it on the next line.
 
-#. **Multiple Choice**: Identifies text as an answer option for a multiple
-   choice problem.
+#. **Multiple Choice**: Identifies an answer option for a multiple choice
+   problem by adding a pair of parentheses (``( )``) before it. To identify the
+   correct answer option, you insert an ``x`` within the parentheses:
+   (``(x)``).
 
-#. **Checkboxes**: Identifies text as an answer option for a checkboxes
-   problem.
+#. **Checkboxes**: Identifies an answer option for a checkboxes problem by
+   adding a pair of brackets (``[ ]``) before it. To identify the correct
+   answer option or options, you insert an ``x`` within the brackets:
+   (``[x]``).
 
-#. **Text Input**: Identifies text as the correct answer for a text input
-   problem.
+#. **Text Input**: Identifies the correct answer for a text input problem by
+   adding an equals sign (``=``) before the answer value on the same line.
 
-#. **Numerical Input**: Identifies the correct answer, with an optional
-   tolerance, for a numerical input problem.
+#. **Numerical Input**: Identifies the correct answer for a numerical input
+   problem by adding an equals sign (``=``) before the answer value on the same
+   line.
 
-#. **Dropdown**: Identifies a comma-separated list as correct and incorrect
-   answer options for a dropdown problem.
+#. **Dropdown**: Identifies a comma-separated list of values as the set of
+   answer options for a dropdown problem by adding two pairs of brackets
+   (``[[ ]]``) around the list. To identify the correct answer option, you add
+   parentheses (``( )``) around that option.
 
-#. **Explanation**: Formats text as an explanation that appears after learners
-   select **Show Answer**.
+#. **Explanation**: Identifies the explanation for the correct answer by adding
+   an ``[explanation]`` tag to the lines before and after the text. The
+   explanation appears only after learners select **Show Answer**. You define
+   when the **Show Answer** option is available to learners by using the
+   :ref:`Show Answer` setting.
 
-#. Opens the problem in the advanced editor.
+#. **Advanced Editor** link: Opens the problem in the :ref:`advanced
+   editor<Advanced Editor>`, which shows the OLX markup for the problem.
 
-#. Opens a list of formatting hints.
+#. **Toggle Cheatsheet**: Opens a list of formatting hints.
 
-#. **Accessible Label**: Identifies the part of the problem text that is the
-   specific question that learners will answer by selecting the options that
-   follow, or by entering a text or numeric response. The toolbar does not have
-   an option that provides this formatting, so you type two angle brackets on
-   either side of the question text pointing inward. For example, ``>>Is this
-   the question text?<<``.
+#. **Question or Prompt**: Identifies the question that learners need
+   to answer. The toolbar does not have an option that provides this
+   formatting, so you add two pairs of inward-pointing angle brackets (``>>
+   <<``) around the question text. For example, ``>>Is this the question?<<``.
 
-   * Screen readers read all of the text that you supply for the problem, and
-     then repeat the text that you identify with this formatting immediately
-     before reading the answer choices for the problem.
+   * You must identify a question or prompt in every problem component. In
+     problems that include :ref:`multiple questions<Multiple Problems in One
+     Component>`, you must identify each one.
 
    * The :ref:`Student_Answer_Distribution` report uses the text with this
      formatting to identify each problem.
@@ -245,106 +185,150 @@ Descriptions of the toolbar options follow.
    * Insights also uses the text with this formatting to identify each problem.
      For more information, see `Using edX Insights`_.
 
+#. **Description**: Identifies optional guidance that helps learners answer the
+   question. For example, when you add a checkbox problem that is only correct
+   when learners select three of the answer options, you might include the
+   description, "Be sure to select all that apply." The toolbar does not have
+   an option that provides this formatting, so you add it after the question
+   within the angle brackets, and then you separate the question and the
+   description by inserting a pair of pipe symbols (``||``) between them. For
+   example, ``>>Which of the following choices is correct? ||Be sure to select
+   all that apply.<<``.
+
+Adding Text, Symbols, and Mathematics
+**************************************
+
+You can also add text, without formatting, to a problem. Note that screen
+readers read all of the text that you supply for the problem, and then repeat
+the text that is identified as the question or prompt immediately before
+reading the answer choices for the problem. For problems that require
+descriptions or other text, you might consider adding an HTML component for the
+text immediately before the problem component.
+
+When you enter unformatted text, note that the simple editor cannot interpret
+certain symbol characters correctly. These symbols are reserved HTML
+characters: greater than (>), less than (<), and ampersand (&). If you enter
+text that includes these characters, the simple editor cannot save your edits.
+To resolve this problem, replace these characters in your problem text with the
+HTML entities that represent them.
+
+* To enter >, type ``&gt;``.
+* To enter <, type ``&lt;``.
+* To enter &, type ``&amp;``.
+
+To add mathematics, you can use LaTeX, MathML, or AsciiMath notation. Studio
+uses MathJax to render equations. For more information, see :ref:`MathJax in
+Studio`.
+
 .. _Advanced Editor:
 
-===================
+====================
 The Advanced Editor
-===================
+====================
 
-The advanced editor opens a problem in XML. Templates for problems such as
-such as drag and drop and math expression input open directly in the advanced
-editor.
+When you edit one of the :ref:`advanced problem types<Adding a Problem>`, the
+advanced editor opens with an example problem. The advanced editor is an XML
+editor that shows the OLX markup for a problem. You edit the following advanced
+problem types in the advanced editor.
 
-The following image shows the multiple choice problem above in the advanced
-editor instead of the simple editor.
+* :ref:`Circuit Schematic Builder`
+
+* :ref:`Custom JavaScript Display and Grading<Custom JavaScript>`
+
+* :ref:`Custom Python-Evaluated Input<Write Your Own Grader>`
+
+* :ref:`Drag and Drop<drag_and_drop_problem>` (Deprecated)
+
+* :ref:`Image Mapped Input`
+
+* :ref:`Math Expression Input`
+
+* :ref:`Problem Written in LaTeX`
+
+* :ref:`Problem with Adaptive Hint` and Problem with Adaptive Hint in LaTex
+
+* :ref:`Molecular Structure<Molecule Editor>`
+
+For the :ref:`Peer Assessment<Open Response Assessments 2>` advanced problem
+type, a dialog box opens for problem setup.
+
+Blank advanced problems do not provide an example problem, but they also open
+in the advanced editor by default.
+
+The following image shows the OLX markup in the advanced editor for the same
+example multiple choice problem that is shown in the simple editor above.
 
 .. image:: ../../../shared/images/MultipleChoice_AdvancedEditor.png
- :alt: An image of a problem in the advanced editor.
+ :alt: An example multiple choice problem in the advanced editor.
  :width: 600
 
-The following problem templates open in the advanced editor.
-
-* :ref:`Circuit Schematic Builder` In circuit schematic problems, learners
-  create and modify circuits on an interactive grid and submit computer-
-  generated analyses of the circuits for grading.
-
-* :ref:`Custom JavaScript` With custom JavaScript problems, you can create a
-  custom problem or tool that uses JavaScript and add it directly into Studio.
-
-* :ref:`Drag and Drop` Drag and drop problems require learners to drag text or
-  objects to a specific location on an image.
-
-* :ref:`Image Mapped Input` Image mapped input problems require learners to
-  select a specific location on an image.
-
-* :ref:`Math Expression Input` Math expression input problems require learners
-  to enter a mathematical expression as text, such as e=m\*c^2.
-
-* :ref:`Problem with Adaptive Hint` These problems can give learners feedback
-  or hints based on their responses. Problems with adaptive hints can be text
-  input or multiple choice problems.
-
-* :ref:`Problem Written in LaTeX` This problem type allows you to convert
-  problems that you previously wrote in LaTeX into the edX format. Note that
-  this problem type is a prototype, and is not supported.
-
-* :ref:`Write Your Own Grader` Custom Python-evaluated input (also called
-  "write-your-own-grader" problems evaluate learners' responses using an
-  embedded Python script that you create. These problems can be of any type.
+For more information about the OLX markup to use for a problem, see the topic
+that describes that problem type.
 
 .. _Problem Settings:
 
-******************
-Problem Settings
-******************
+****************************************
+Defining Settings for Problem Components
+****************************************
 
-In addition to the text of the problem, problems that you create using a
-problem component have the following settings. To access these settings you
-select **Settings** in the component editor.
+In addition to the text of the problem and its Markdown formatting or OLX
+markup, you define the following settings for problem components. To access
+these settings, you edit the problem and then select **Settings**.
 
 .. contents::
   :local:
   :depth: 1
 
+If you do not edit these settings, default values are supplied for your
+problems.
+
 ===============
 Display Name
 ===============
 
-This setting indicates the name of your problem. This name appears for learners
-as a heading above the problem and as a tooltip in the learning sequence at the
-top of the **Course** page.
+This required setting provides an identifying name for the problem. The display
+name appears as a heading above the problem in the LMS, and it identifies the
+problem for you in Insights. Be sure to add unique, descriptive display names
+so that you, and your learners, can identify specific problems quickly and
+accurately.
 
-.. image:: ../../../shared/images/ProbComponent_LMS_DisplayName.png
- :alt: A problem in a unit page from a learner's point of view, with the
-     display name appearing first in the component and as a tooltip for an icon
-     in the learning sequence.
- :width: 500
+The following illustration shows the display name of a problem in Studio, in
+the LMS, and in Insights.
 
-In addition, edX Insights uses the display name to identify each problem.
-Unique, descriptive display names help you identify problems quickly and
-accurately for analysis. For more information, see `Using edX Insights`_.
+.. image:: ../../../shared/images/display_names_problem.png
+ :alt: The identifying display name for a problem in Studio, the LMS, and
+     Insights.
+ :width: 800
 
-==============================
+For more information about metrics for your course's problem components, see
+`Using edX Insights`_.
+
+=================
 Maximum Attempts
-==============================
+=================
 
-This setting specifies the number of times that a learner is allowed to attempt
-answering a problem. By default, the course-wide **Maximum Attempts**
-advanced setting is null, meaning that the maximum number of attempts for
-problems is unlimited. If the course-wide **Maximum Attempts** setting is
-changed to a specific number, the **Maximum Attempts** setting for individual
-problems defaults to that number, and cannot be set to unlimited.
+This setting specifies the number of times that a learner is allowed to try to
+answer this problem correctly. You can define a different **Maximum Attempts**
+value for each problem.
 
-.. note:: edX recommends setting **Maximum Attempts** to either unlimited or a
-   very large number. Unlimited attempts allow for mastery learning and
-   encourages risk taking and experimentation, both of which lead to improved
-   learning outcomes. Allowing for unlimited attempts might be impossible in
-   some courses, such as those where grading is primarily based on multiple
-   choice problems.
+A course-wide **Maximum Attempts** setting defines the default value for this
+problem-specific setting. Initially, the value for the course-wide setting is
+null, meaning that learners can try to answer problems an unlimited number of
+times. You can change the course-wide default by selecting **Settings** and
+then **Advanced Settings**. Note that if you change the course-wide default
+from null to a specific number, you can no longer change the problem-specific
+**Maximum Attempts** value to unlimited.
 
-.. note:: Only problems that have a **Maximum Attempts** setting of 1 or
-   higher are included in the answer distribution computations used in edX
-   Insights and the Student Answer Distribution report.
+Only problems that have a **Maximum Attempts** setting of 1 or higher are
+included in the answer distribution computations used in edX Insights and the
+Student Answer Distribution report.
+
+.. note:: EdX recommends setting **Maximum Attempts** to unlimited or a
+   large number when possible. Problems that allow unlimited attempts encourage
+   risk taking and experimentation, both of which lead to improved learning
+   outcomes. However, allowing for unlimited attempts might not be feasible in
+   some courses, such as those that use primarily multiple choice or dropdown
+   problems in graded subsections.
 
 .. _Problem Weight:
 
@@ -352,25 +336,30 @@ problems defaults to that number, and cannot be set to unlimited.
 Problem Weight
 ==============================
 
-.. note:: The Learning Management System stores scores for all problems, but
-  scores only count toward a learner's final grade if they are in a subsection
-  that is graded.
+.. note:: The LMS scores all problems. However, only scores for problem
+  components that are in graded subsections count toward a learner's final
+  grade.
 
-This setting specifies the total number of points possible for the
-problem. The problem weight appears next to the problem's display name.
+This setting specifies the total number of points possible for the problem. In
+the LMS, the problem weight appears near the problem's display name.
 
-.. image:: ../../../shared/images/ProblemWeight_DD.png
- :alt: An image of a problem from a learner's point of view, with the possible
-       number of points, 3, circled.
- :width: 500
+.. image:: ../../../shared/images/DropdownProblemWeight.png
+ :alt: An example problem that contains three questions, with the possible
+       number of points, 3, shown near the display name.
+ :width: 400
 
-By default, each response field, or "answer space", in a problem component is
-worth one point. Any problem component can have multiple response fields. For
-example, the problem component above contains one dropdown problem that has
-three separate questions, and also has three response fields.
+By default, each response field, or answer space, in a problem component is
+worth one point. You increase or decrease the number of points for a problem
+component by setting its **Problem Weight**.
 
-You can increase or decrease the weight for a problem component by entering a
-**Problem Weight**.
+In the example shown above, a single problem component includes three separate
+questions. To respond to these questions, learners select answer options from
+three separate dropdown lists, the response fields for this problem. By
+default, learners receive one point for each question that they answer
+correctly.
+
+For information about how to define a problem that includes more than one
+question, see :ref:`Multiple Problems in One Component`.
 
 Computing Scores
 ****************
@@ -395,7 +384,7 @@ The following are some examples of computing scores.
 
 *Example 1*
 
-A problem's **Weight** setting is left blank. The problem has two
+A problem's **Problem Weight** setting is left blank. The problem has two
 response fields. Because the problem has two response fields, the
 maximum score is 2.0 points.
 
@@ -423,10 +412,10 @@ answers, the learner's score is 0.5 out of 2 points.
 Randomization
 ===============
 
-.. note:: The **Randomization** setting serves a different purpose from
- "problem randomization". The **Randomization** setting affects how numeric
+.. note:: This **Randomization** setting serves a different purpose from
+ "problem randomization". This **Randomization** setting affects how numeric
  values are randomized within a single problem and requires the inclusion of a
- Python script. Problem randomization offers different problems or problem
+ Python script. Problem randomization presents different problems or problem
  versions to different learners. For more information, see :ref:`Problem
  Randomization`.
 
@@ -471,8 +460,8 @@ in *Using edX Insights*.
 
 .. important:: Whenever you choose an option other than **Never** for a
  problem, the computations for the Answer Distribution report and edX Insights
- include up to 20 variants for the problem, even if the problem was not
- actually configured to include randomly generated values. This can make data
+ include up to 20 variants for the problem, **even if the problem was not
+ actually configured to include randomly generated values**. This can make data
  collected for problems that cannot include randomly generated values,
  (including, but not limited to, all multiple choice, checkboxes, dropdown, and
  text input problems), extremely difficult to interpret.
@@ -487,10 +476,10 @@ You can choose the following options for the **Randomization** setting.
      - Description
    * - **Always**
      - Learners see a different version of the problem each time they select
-       Check.
+       **Submit**.
    * - **On Reset**
      - Learners see a different version of the problem each time they select
-       Reset.
+       **Reset**.
    * - **Never**
      - All learners see the same version of the problem. For most courses, this
        option is supplied by default. Select this option for every problem in
@@ -507,44 +496,53 @@ You can choose the following options for the **Randomization** setting.
 Show Answer
 ===============
 
-This setting defines when learners are shown the answers to a problem and has
-the following options
+This setting adds a **Show Answer** option to the problem. The following
+options define when the answer is shown to learners.
 
 .. list-table::
    :widths: 15 70
 
    * - **Always**
-     - Always show the answer when the learner selects the **Show Answer**
-       button.
+     - Always present the **Show Answer** option.
+
+       Note: If you specify **Always**, learners can submit a response even
+       after they select **Show Answer** to see the correct answer.
+
    * - **Answered**
-     - Show the answer after the learner tries to answer the problem.
+     - Show the answer only after the learner answers the problem correctly.
 
        If the problem can be, and is, reset, the answer is not shown until the
-       learner tries the problem again. (When a learner answers a problem, the
-       problem is considered to be both attempted and answered. When the
-       problem is reset, the problem is still attempted, but not yet
-       answered.)
+       learner tries the problem again after resetting. (When a learner
+       answers a problem, the problem is considered to be both attempted and
+       answered. When the problem is reset, the problem is still considered to
+       have been attempted, but is not considered to be answered.)
+
    * - **Attempted**
-     - Show the answer after the learner tries to answer the problem.
+     - Show the answer only after the learner tries to answer the problem.
 
        If the problem can be, and is, reset, the answer continues to show.
-       (When a learner answers a problem, the problem is considered to be
-       both attempted and answered. When the problem is reset, the problem is
-       still attempted, but not yet answered.)
+       (When a learner answers a problem, the problem is considered to be both
+       attempted and answered. When the problem is reset, the problem is still
+       considered to have been attempted, but is not considered to be
+       answered.)
+
    * - **Closed**
-     - Show the answer after the learner has used up all his attempts to answer
-       the problem or the due date has passed.
+     - Show the answer only after the learner has used up all his attempts to answer
+       the problem or if the due date has passed.
    * - **Finished**
      - Show the answer after the learner has answered the problem correctly,
-       the learner has no attempts left, or the problem due date has passed.
+       if the learner has no attempts remaining, or if the problem due date has
+       passed.
    * - **Correct or Past Due**
-     - Show the answer after the learner has answered the problem correctly or
-       the problem due date has passed.
+     - Show the answer only after the learner has answered the problem
+       correctly or if the problem due date has passed.
    * - **Past Due**
-     - Show the answer after the due date for the problem has passed.
+     - Show the answer only after the due date for the problem has passed.
    * - **Never**
-     - Never show the answer. In this case, a **Show Answer** button does not
-       appear next to the problem in Studio or in the LMS.
+     - Never show the answer. In this case, the **Show Answer** option does
+       not appear next to the problem in Studio or in the LMS. If your problem
+       does not include a correct answer to show to learners, make sure you
+       select **Never**.
 
 .. _Show Reset Button:
 
@@ -552,7 +550,7 @@ the following options
 Show Reset Button
 =================
 
-This setting defines whether a **Reset** button is visible on the problem.
+This setting defines whether a **Reset** option is available for the problem.
 
 Learners can select **Reset** to clear any input that has not yet been
 submitted, and try again to answer the problem.
@@ -562,10 +560,10 @@ submission and, if the problem contains randomized variables and randomization
 is set to **On Reset**, changes the values in the problem.
 
 If the number of Maximum Attempts that was set for this problem has been
-reached, the **Reset** button is not visible.
+reached, the **Reset** option is not visible.
 
 This problem-level setting overrides the course-level **Show Reset Button for
-Problems** setting.
+Problems** advanced setting.
 
 .. _Timer Between Attempts:
 
@@ -585,6 +583,156 @@ sees a message below the problem indicating the remaining wait time. The format
 of the message is, "You must wait at least {n} seconds between submissions. {n}
 seconds remaining."
 
+.. _Multiple Problems in One Component:
+
+***************************************************
+Including Multiple Questions in One Component
+***************************************************
+
+In some cases, you might want to design an assessment that combines multiple
+questions in a single problem component. For example, you might want learners
+to demonstrate mastery of a concept by providing the correct responses to
+several questions, and only giving them credit for problem if all of the
+answers are correct.
+
+Another example involves learners who have slow or intermittent internet
+connections. When every problem appears on a separately loaded web page, these
+learners can find the amount of time it takes to complete an assignment or exam
+discouraging. For these learners, grouping several questions together can
+promote increased engagement with course assignments.
+
+When you add multiple questions to a single problem component, the settings
+that you define, including the display name and whether to show the **Reset**
+button, apply to all of the questions in that component. The answers to all of
+the questions are submitted when learners select **Submit**, and the correct
+answers for all of the questions appear when learners select **Show Answer**.
+By default, learners receive one point for each question they answer correctly.
+For more information about changing the default problem weight and other
+settings, see :ref:`Problem Settings`.
+
+.. important:: To assure that the data collected for learner interactions with
+  your problem components is complete and accurate, include a maximum of 10
+  questions in a single problem component.
+
+================================================
+Adding Multiple Questions to a Problem Component
+================================================
+
+To design an assignment that includes several questions, you add one problem
+component and then edit it to add every question and its answer options, one
+after the other, in that component. Be sure to identify the text of every
+question or prompt with the appropriate Markdown formatting (``>> <<``) or OLX
+``<label>`` element, and include all of the other required elements
+for each question.
+
+* In the simple editor, you use three hyphen characters (``---``) on a new line
+  to separate one question and its answer options from the next.
+
+* In the advanced editor, each question and its answer options are enclosed by
+  the element that identifies the type of problem, such as
+  ``<multiplechoiceresponse>`` for a multiple choice question or
+  ``<formularesponse>`` for a math expression input question.
+
+* You can provide a different explanation for each question with the
+  appropriate Markdown formatting (``[explanation]``) or OLX ``<solution>``
+  element.
+
+As a best practice, edX recommends that you avoid including unformatted
+paragraph text between the questions. Screen readers can skip over text that is
+inserted among multiple questions.
+
+The questions that you include can all be of the same problem type, such as a
+series of text input questions, or you can include questions that use different
+problem types, such as both numerical input and math expression input.
+
+.. note::
+  You cannot use a :ref:`Custom JavaScript` in a problem component that
+  contains more than one question. Each custom JavaScript problem must be in
+  its own component.
+
+An example of a problem component that includes a text input question and a
+numerical input question follows. In the simple editor, the problem has the
+following Markdown formatting.
+
+::
+
+  >>Who invented the Caesar salad?||Be sure to check your spelling.<<
+  = Caesar Cardini
+  [explanation]
+  Caesar Cardini is credited with inventing this salad and received a U.S. trademark for his salad dressing recipe.
+  [explanation]
+  ---
+  >>In what year?<<
+  = 1924
+  [explanation]
+  Cardini invented the dish at his restaurant on 4 July 1924 after the rush of holiday business left the kitchen with fewer supplies than usual.
+  [explanation]
+
+That is, you include three hyphen characters (``---``) on a new line to
+separate the problems.
+
+In the advanced editor, the problem has the following OLX markup.
+
+.. code-block:: xml
+
+  <problem>
+    <stringresponse answer="Caesar Cardini" type="ci">
+      <label>Who invented the Caesar salad?</label>
+      <description>Be sure to check your spelling.</description>
+      <textline size="20"/>
+      <solution>
+        <div class="detailed-solution">
+          <p>Explanation</p>
+          <p>Caesar Cardini is credited with inventing this salad and received
+           a U.S. trademark for his salad dressing recipe.</p>
+        </div>
+      </solution>
+    </stringresponse>
+
+    <numericalresponse answer="1924">
+      <label>In what year?</label>
+      <formulaequationinput/>
+      <solution>
+        <div class="detailed-solution">
+          <p>Explanation</p>
+          <p>Cardini invented the dish at his restaurant on 4 July 1924 after
+           the rush of holiday business left the kitchen with fewer supplies
+           than usual.</p>
+        </div>
+      </solution>
+    </numericalresponse>
+  </problem>
+
+.. include:: ../../../shared/exercises_tools/Section_adding_hints.rst
+
+.. include:: ../../../shared/exercises_tools/Section_partial_credit.rst
+
+.. include:: ../../../shared/exercises_tools/Section_adding_tooltip.rst
+
+.. _Problem Randomization:
+
+***********************************
+Problem Randomization
+***********************************
+
+Presenting different learners with different problems or with different
+versions of the same problem is referred to as "problem randomization".
+
+You can provide different learners with different problems by using randomized
+content blocks, which randomly draw problems from pools of problems stored in
+content libraries. For more information, see :ref:`Randomized Content Blocks`.
+
+.. note:: Problem randomization is different from the **Randomization** setting
+   that you define in Studio. Problem randomization presents different problems
+   or problem versions to different learners, while the **Randomization**
+   setting controls when a Python script randomizes the variables within a
+   single problem. For more information about the **Randomization** setting,
+   see :ref:`Randomization`.
+
+.. _Create Randomized Problems:
+
+Creating randomized problems by exporting your course and editing some of your
+course's XML files is no longer supported.
 
 .. _Modifying a Released Problem:
 
@@ -596,13 +744,12 @@ Modifying a Released Problem
  released. Changes that you make to published problems can affect the learner
  experience in the course and analysis of course data.
 
-After a learner submits a response to a problem, the edX Learning Management
-System (LMS) stores that response, the score that the learner
-received, and the maximum score for the problem. For problems with a **Maximum
-Attempts** setting greater than 1, the LMS updates these values each time the
-learner submits a new response to a problem. However, if you change
-a problem or its attributes, existing learner information for that problem is
-not automatically updated.
+After a learner submits a response to a problem, the LMS stores that response,
+the score that the learner received, and the maximum score for the problem. For
+problems with a **Maximum Attempts** setting greater than 1, the LMS updates
+these values each time the learner submits a new response to a problem.
+However, if you change a problem or its attributes, existing learner
+information for that problem is not automatically updated.
 
 For example, you release a problem and specify that its answer is 3.
 After some learner have submitted responses, you notice that the answer
@@ -630,121 +777,15 @@ to submit a new response and be regraded. Note that both options require you to
 ask your learners to go back and resubmit answers to a problem.
 
 *  In the problem component that you changed, increase the number of attempts
-   for the problem, then ask all your learners to redo the problem.
+   for the problem, and then ask all of your learners to redo the problem.
 
-*  Delete the entire problem component in Studio and create a new Problem
-   component with the content and settings that you want, then ask all your
-   learners to complete the new problem. (If the revisions you must make are
-   minor, duplicate the problem component before you delete it and revise the
-   copy.)
+*  Delete the entire problem component in Studio and replace it with a new
+   problem component that has the content and settings that you want. Then ask
+   all of your learners to complete the new problem. (If the revisions you must
+   make are minor, you might want to duplicate the problem component before you
+   delete it, and then revise the copy.)
 
 For information about how to review and adjust learner grades in the LMS, see
-:ref:`Grades`.
-
-.. _Multiple Problems in One Component:
-
-***********************************
-Multiple Problems in One Component
-***********************************
-
-You might want to create a problem that has more than one response type. For
-example, you might want to create a numerical input problem and then include a
-multiple choice problem about that numerical input problem. Or, you might
-want a learner to be able to check the answers to many problems at one time. To
-do this, you can include multiple problems inside a single problem component.
-The problems can be different types.
-
-.. note::
-  You cannot use a :ref:`Custom JavaScript` in a component that contains more
-  than one problem. Each custom JavaScript problem must be in its own
-  component.
-
-To create multiple problems in one component, create a new Blank Advanced
-problem component, and then add the XML for each problem in the component
-editor. You only need to include the XML for the problem and its answers. You
-do not have to include the code for other elements, such as the **Check**
-button.
-
-Elements such as the **Check**, **Show Answer**, and **Reset** buttons, as well
-as the settings that you select for the problem component, apply to all of the
-problems in that component. Thus, if you set the maximum number of attempts to
-3, the learner has three attempts to answer the entire set of problems in the
-component as a whole rather than three attempts to answer each problem
-individually. If a learner selects **Check**, the LMS scores all of the
-problems in the component at once. If a learner selects **Show Answer**, the
-answers for all the problems in the component appear.
-
-.. include:: ../../../shared/exercises_tools/Section_adding_hints.rst
-
-.. include:: ../../../shared/exercises_tools/Section_partial_credit.rst
-
-
-.. _Problem Randomization:
-
-***********************************
-Problem Randomization
-***********************************
-
-Presenting different learners with different problems or with different
-versions of the same problem is referred to as "problem randomization".
-
-You can provide different learners with different problems by using randomized
-content blocks, which randomly draw problems from pools of problems stored in
-content libraries. For more information, see :ref:`Randomized Content Blocks`.
-
-.. note:: Problem randomization is different from the **Randomization** setting
-   in Studio. Problem randomization offers different problems or problem
-   versions to different learners, whereas the **Randomization** setting
-   controls when a Python script randomizes the variables within a single
-   problem. For more information about the **Randomization** setting, see
-   :ref:`Randomization`.
-
-
-
-============================================
-Course Outline Terminology in Exported Files
-============================================
-
-Sections, subsections, units, and components have different names in the
-**Course Outline** view and in the list of files that you will see after you
-export your course and open the .xml files for editing. The following table
-lists the names of these elements in the **Course Outline** view and in a list
-of files.
-
-.. list-table::
-   :widths: 15 15
-   :header-rows: 0
-
-   * - Course Outline View
-     - File List
-   * - Section
-     - Chapter
-   * - Subsection
-     - Sequential
-   * - Unit
-     - Vertical
-   * - Component
-     - Discussion, HTML, problem, or video
-
-For example, when you want to find a specific section in your course, look in
-the **Chapter** directory when you open the list of files that your course
-contains. To find a unit, look in the **Vertical** directory.
-
-.. _Create Randomized Problems:
-
-==========================
-Create Randomized Problems
-==========================
-
-.. note:: Creating randomized problems by exporting your course and editing
-   some of your course's XML files is no longer supported.
-
-You can provide different learners with different problems by using randomized
-content blocks, which randomly draw problems from pools of problems stored in
-content libraries. For more information, see
-:ref:`partnercoursestaff:Randomized Content Blocks`.
-
-
-.. include:: ../../../shared/exercises_tools/Section_adding_tooltip.rst
+:ref:`Adjust_grades`.
 
 .. include:: ../../../links/links.rst

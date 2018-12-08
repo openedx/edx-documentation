@@ -6,7 +6,7 @@
 Office Mix Tool
 ##########################
 
-.. note:: EdX offers full support for this tool.
+.. note:: EdX offers provisional support for this tool.
 
 `Office Mix`_ is a third-party tool that you can use to turn Microsoft®
 PowerPoint® presentations into interactive online lessons that are called
@@ -171,8 +171,7 @@ the mix that you want to add and obtain its URL.
      :width: 600
 
 #. In the **Component Display Name** field, enter an identifying name for the
-   component. This name appears to learners as a tooltip in the learning
-   sequence at the top of the **Course** page.
+   component. In the LMS, this name appears as a heading above the mix.
 
 #. In the **Office Mix URL** field, enter the complete URL for the mix that you
    want to add. For example, ``https://mix.office.com/watch/1otxpj7hz6kbx``.

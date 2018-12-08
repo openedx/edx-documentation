@@ -73,8 +73,9 @@ In this case, the ``html`` element contains no children.
    * - Attribute
      - Meaning
    * - ``display_name``
-     - The value that is displayed to students as the name of the HTML
-       component.
+     - Required. The value that is displayed to students as the name of the
+       HTML component. If you do not supply a ``display_name`` value, "html" is
+       supplied for you.
    * - ``file_name``
      - The name of the HTML file that contains the content for the HTML
        component, without the ``.HTML`` extension.
@@ -106,7 +107,7 @@ file for the edX Demo course:
     src="/static/interactive_x250.png" alt="Interactive" width="250"
     hspace="12" vspace="12" border="0" align="right" />Now that you know your
     way around an edX course let's look at some of the exciting interactive
-    tools you may encounter. Use the learning sequence above to explore.
+    tools you may encounter. Use the unit navigation bar above to explore.
     &nbsp;</p>
     <p>Once you have tried the interactive tools in this lesson,
     make sure to check out the week 2 homework where we show you several of the

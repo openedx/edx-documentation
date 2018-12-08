@@ -40,14 +40,12 @@ then
         "en_us/edx_style_guide"
         "en_us/install_operations"
         "en_us/landing_page"
-        "en_us/olx"
         "en_us/open_edx_course_authors"
         "en_us/open_edx_release_notes"
         "en_us/open_edx_students"
         "en_us/ORA2"
         "en_us/release_notes"
         "en_us/students"
-        "en_us/xblock-tutorial"
     )
 fi
 

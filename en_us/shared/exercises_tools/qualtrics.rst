@@ -4,7 +4,7 @@
 Qualtrics Survey Tool
 #########################
 
-.. note:: EdX offers full support for this tool.
+.. note:: EdX offers provisional support for this tool.
 
 You can administer Qualtrics surveys to your learners in your edX course. The
 Qualtrics survey appears in an iframe inside the course.
@@ -144,8 +144,8 @@ from the Insructor Dashboard and from Qualtrics, and then review the data.
 Download Data from the Instructor Dashboard
 **********************************************
 
-#. In the LMS, go to the Instructor Dashboard.
-#. Select the **Data Download** page.
+#. In the LMS, select **Instructor**.
+#. Select **Data Download**.
 #. Under **Data Download**, select **Get Student Anonymized IDs CSV**. If you
    receive a prompt, specify the location where you want to save the file.
 

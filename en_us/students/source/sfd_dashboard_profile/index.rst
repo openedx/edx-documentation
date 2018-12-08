@@ -1,7 +1,7 @@
 .. _Dashboard Index:
 
 ###################################################
-Working with Your Dashboard, Settings, and Profile
+Finding and Updating Your Account Information
 ###################################################
 
 .. toctree::

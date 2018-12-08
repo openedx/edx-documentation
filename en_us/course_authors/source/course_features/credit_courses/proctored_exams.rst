@@ -55,6 +55,8 @@ Minimum Credit Eligible Grade`.
 Learner Requirements for Taking Proctored Exams
 =====================================================
 
+.. note:: Learners cannot complete proctored exams using the edX mobile app.
+
 Learners who agree to take an exam with online proctoring must install
 proctoring software, which checks that the person taking the exam is the same
 person who is taking the course for credit, and also detects any attempts to
@@ -65,11 +67,11 @@ monitoring the test environment and screen activity as the learner takes the
 exam.
 
 For more information about the technical requirements for taking a proctored
-exam, and edX's :ref:`Online Proctoring Rules <Online Proctoring Rules>`, see
+exam, and edX's :ref:`online proctoring rules <Online Proctoring Rules>`, see
 :ref:`Preparing Learners for Proctored Exams`.
 
-.. note:: Course staff should familiarize themselves with edX's :ref:`Online
-   Proctoring Rules <Online Proctoring Rules>`, which reflect our proctoring
+.. note:: Course staff should familiarize themselves with edX's :ref:`online
+   proctoring rules <Online Proctoring Rules>`, which reflect our proctoring
    software partner's "Closed Book Exam" rules. These strict rules prohibit
    learners from using any tools during the exam, including pencil and
    paper, calculators, or reference books.
@@ -91,10 +93,10 @@ Proctored Exam Session Results
 
 When learners complete a proctored exam, either by submitting their answers or
 when the time expires for the exam, the proctoring session data is uploaded to
-the third party proctoring service provider. This data is reviewed for
-adherence to :ref:`Online Proctoring Rules <Online Proctoring Rules>`, and
-when the review is complete, a result is returned for each learner who took
-the exam as a proctored exam.
+the third party proctoring service provider. A team of reviewers examines the
+data to determine whether the learner complied with the :ref:`Online Proctoring
+Rules <Online Proctoring Rules>`. When the review is complete, the proctoring
+service returns the results for each learner.
 
 Before proctoring session results are available, learners see a **Pending**
 result. After their proctoring sessions are available, learners can receive
@@ -158,7 +160,7 @@ start taking the exam.
 A countdown timer is visible at the top of the page during the exam. Warnings
 are displayed when there is 20% and 5% of allotted time remaining. For example,
 if the allowed time in the exam is 60 minutes, learners see a warning when
-there are 12 minutes left, and again when there are 3 minutes left.
+there are 12 minutes remaining, and again when there are 3 minutes remaining.
 
 For information about scenarios that learners might encounter while taking
 proctored exams, see :ref:`Respond to Learner Concerns about Proctored Exams`
@@ -191,8 +193,8 @@ grading policy of your course, and make it clear what the requirements are for
 earning credit.
 
 Explain what proctored exams are, and provide learners with links to the
-Learner's Guide topics about proctored exams, and to edX's :ref:`Online
-Proctoring Rules <Online Proctoring Rules>`.
+Learner's Guide topics about proctored exams, and to edX's :ref:`online
+proctoring rules <Online Proctoring Rules>`.
 
 .. note:: Course staff should familiarize themselves with edX's :ref:`Online
    Proctoring Rules <Online Proctoring Rules>`, which reflect our proctoring
@@ -223,7 +225,7 @@ Exam`.
    as that process is completed.
 
 The following list represents only some of the requirements listed in the
-:ref:`Online Proctoring Rules <Online Proctoring Rules>`.
+:ref:`online proctoring rules <Online Proctoring Rules>`.
 
 * System and environment checks that learners are asked to perform for the
   proctoring session include taking a photo of a government-issued photo ID,
@@ -393,14 +395,16 @@ regardless of their enrollment track.
 Specifying Exam Rules and Exceptions
 ====================================
 
-You can provide custom rules and rule exceptions to the team of reviewers who
-determine whether learners' exam attempts conform to the rules for proctored
-exams. If your course allows learners to use tools and techniques that are
-prohibited by the default rules for proctored exams, you must describe the
-exceptions to the reviewers.
+The team of reviewers who examine exam attempt records determine whether
+learners complied with the :ref:`Online Proctoring Rules <Online Proctoring
+Rules>`. By default, the team of reviewers uses the standard set of rules for
+taking proctored exams.
 
-For more information about the default rules for proctored exams, see
-:ref:`Online Proctoring Rules <Online Proctoring Rules>`.
+You can provide custom rules and rule exceptions if the content of an exam
+requires them. If your course allows learners to use tools and techniques that
+the default rules for proctored exams prohibit, you must provide information
+about these rules and exceptions both to your learners and to the team of
+reviewers.
 
 To specify custom proctored exam rules and rule exceptions, follow these steps.
 
@@ -428,6 +432,41 @@ To specify custom proctored exam rules and rule exceptions, follow these steps.
    attempts. Use uncomplicated sentences and words that a global English-
    speaking audience will understand.
 
+.. _Allow Opting Out of Proctored Exams:
+
+*************************************************************
+Allowing Verified Learners to Opt Out of Proctored Exams
+*************************************************************
+
+By default, verified learners can choose to take proctored exams without
+online proctoring, and accept that they are no longer eligible for course
+credit if they make this choice.
+
+If you do not want to give verified learners in your course the choice of
+taking proctored exams without proctoring, you can change a setting on the
+**Advanced Settings** page in Studio.
+
+==============================================================
+Do Not Allow Verified Learners to Opt Out of Proctored Exams
+==============================================================
+
+To remove the option for verified learners to opt out of proctored exams in
+your course, follow these steps.
+
+#. In Studio, select **Settings**, then select **Advanced Settings**.
+
+#. Locate the **Allow Opting Out of Proctored Exams** policy key. The default
+   value is ``true``, which gives verified learners the option of taking
+   proctored exams without proctoring.
+
+#. Change the value of the setting to ``false``.
+
+#. Select **Save Changes**.
+
+After you enable this setting for your course, options for taking exams
+without proctoring are no longer available to verified learners.
+
+
 .. _Respond to Learner Concerns about Proctored Exams:
 
 **********************************************************
@@ -435,7 +474,7 @@ Responding to Learners' Concerns about Proctored Exams
 **********************************************************
 
 In addition to questions that can be answered in the FAQs on edx.org, or by the
-:ref:`Online Proctoring Rules <Online Proctoring Rules>`, situations might
+:ref:`online proctoring rules <Online Proctoring Rules>`, situations might
 arise that require an action by edX Support.
 
 .. contents::

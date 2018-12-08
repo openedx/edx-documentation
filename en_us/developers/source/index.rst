@@ -9,12 +9,14 @@ Open edX Developer's Guide
    :maxdepth: 2
 
    front_matter/index
+   architecture
    process/index
-   testing/index
    extending_platform/index
    modulestores/index
+   testing/index
    pavelib.rst
-   public_sandboxes.rst
+   environment/index
+   user_interface_development
    analytics.rst
    deploy-new-service
    conventions/index

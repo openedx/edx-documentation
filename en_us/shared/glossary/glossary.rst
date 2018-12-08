@@ -10,8 +10,8 @@ Glossary
 - :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`
 
 .. note:: Most of the links to documentation provided in this glossary are to
-   the :ref:`partnercoursestaff:document index` guide, for edX partners. Many of
-   the same topics are available in the Open edX version of this guide,
+   the :ref:`partnercoursestaff:document index` guide, for edX partners. Many
+   of the same topics are available in the Open edX version of this guide,
    :ref:`opencoursestaff:Building and Running an Open edX Course`.
 
 .. _A:
@@ -58,8 +58,8 @@ A
 
 **Advanced Editor**
 
-  An XML-only editor in a problem component that allows you to create and edit
-  any type of problem. For more information, see
+  An OLX (open learning XML) editor in a problem component that allows you to
+  create and edit any type of problem. For more information, see
   :ref:`partnercoursestaff:Advanced Editor`.
 
 
@@ -78,14 +78,15 @@ C
 
 **CAPA Problem**
 
-  A "Computer Assisted Personalized Approach" (CAPA) problem refers to any of
+  A CAPA (computer assisted personalized approach) problem refers to any of
   the problem types that are implemented in the edX platform by the
   ``capa_module`` XBlock. Examples range from text input, drag and drop, and
   math expression input problem types to circuit schematic builder, custom
   JavaScript, and chemical equation problem types.
 
   Other assessment methods are also available, and implemented using other
-  XBlocks. An open response assessment is an example of a non-CAPA problem type.
+  XBlocks. An open response assessment is an example of a non-CAPA problem
+  type.
 
 .. _Certificate:
 
@@ -129,8 +130,9 @@ C
 **Closed Captions**
 
   The spoken part of the transcript for a video file, which is overlaid on the
-  video as it plays. You can move closed captions to different areas on the
-  video screen by dragging and dropping them.
+  video as it plays. To show or hide closed captions, you select the **CC**
+  icon. You can move closed captions to different areas on the video screen by
+  dragging and dropping them.
 
   For more information, see :ref:`learners:Video Player`.
 
@@ -167,7 +169,7 @@ C
 
 **Content Library**
 
-See :ref:`Library<Library_g>`.
+  See :ref:`Library<Library_g>`.
 
 
 .. _Content Specific Discussion Topic_g:
@@ -201,10 +203,18 @@ See :ref:`Library<Library_g>`.
 
 **Course Handouts**
 
-  Course handouts are files you make available to learners on the **Home** page.
-  For more information, see :ref:`partnercoursestaff:Adding Course Updates and
-  Handouts`.
+  Course handouts are files you make available to learners on the **Home**
+  page. For more information, see :ref:`partnercoursestaff:Adding Course
+  Updates and Handouts`.
 
+**Course Navigation Pane**
+
+  The navigation frame that appears at one side of the **Course** page in the
+  LMS. The course navigation pane shows the sections in the course. When you
+  select a section, the section expands to show subsections. When you select a
+  subsection, the first unit in that subsection appears on the course page.
+
+  See also :ref:`Unit Navigation Bar<U>`.
 
 .. _Run:
 
@@ -227,7 +237,7 @@ See :ref:`Library<Library_g>`.
 
 **Courseware**
 
-  In Open Learning XML (OLX) and in data packages, "courseware" refers to the
+  In OLX (open learning XML) and in data packages, "courseware" refers to the
   main content of your course, consisting mainly of lessons and assessments.
   Courseware is organized into sections, subsections, units, and components.
   Courseware does not include handouts, the syllabus, or other course
@@ -259,9 +269,9 @@ See :ref:`Library<Library_g>`.
 **Custom Response Problem**
 
   A custom response problem evaluates text responses from learners using an
-  embedded Python script. These problems are also called "write-your-own-
-  grader" problems. For more information, see :ref:`partnercoursestaff:Write
-  Your Own Grader`.
+  embedded Python script. These problems are also called
+  "write-your-own-grader" problems. For more information, see
+  :ref:`partnercoursestaff:Write Your Own Grader`.
 
 .. _D:
 
@@ -279,14 +289,12 @@ D
 
   For more information, see the :ref:`data:edX Research Guide`.
 
-
 **Discussion**
 
   The set of topics defined to promote course-wide or unit-specific dialog.
   Learners use the discussion topics to communicate with each other and the
   course team in threaded exchanges. For more information, see
   :ref:`partnercoursestaff:Discussions`.
-
 
 .. _Discussion Component:
 
@@ -296,11 +304,20 @@ D
   video component can be followed by a discussion component so that learners
   can discuss the video content without having to leave the page. When you add
   a discussion component to a unit, you create a content-specific discussion
-  topic. See also
-  :ref:`Content Specific Discussion Topic <Content Specific Discussion Topic_g>`.
+  topic. See also :ref:`Content Specific Discussion Topic <Content Specific
+  Discussion Topic_g>`.
 
   For more information, see :ref:`partnercoursestaff:Working with Discussion
   Components`.
+
+**Discussion Thread List**
+
+  The navigation frame that appears at one side of the **Discussion** page in
+  the LMS. The discussion thread list shows the discussion categories and
+  subcategories in the course. When you select a category, the list shows all
+  of the posts in that category. When you select a subcategory, the list shows
+  all of the posts in that subcategory. Select a post to read it and its
+  responses and comments, if any.
 
 .. _Dropdown_g:
 
@@ -369,7 +386,7 @@ E
 
   A tool in edX Studio that you use to export your course or library for
   backup purposes, or so that you can edit the course or library directly in
-  XML format. See also :ref:`Import<I>`.
+  OLX format. See also :ref:`Import<I>`.
 
   For more information, see :ref:`partnercoursestaff:Export a Course` or
   :ref:`partnercoursestaff:Export a Library`.
@@ -416,8 +433,8 @@ H
 **Home Page**
 
   The page that opens first every time learners access your course. You can
-  post announcements on the **Home** page. The **Course Handouts** sidebar
-  appears in the right pane of this page. This page was formerly called the
+  post announcements on the **Home** page. The handout navigation sidebar
+  appears at the side of this page. This page was formerly called the
   **Course Info** page.
 
 .. _HTML Component:
@@ -450,7 +467,7 @@ I
 
 **Import**
 
-  A tool in edX Studio that you use to load a course or library in XML format
+  A tool in Studio that you use to load a course or library in OLX format
   into your existing course or library. When you use the Import tool, Studio
   replaces all of your existing course or library content with the content
   from the imported course or library. See also :ref:`Export<E>`.
@@ -458,6 +475,15 @@ I
   For more information, see :ref:`partnercoursestaff:Import a Course` or
   :ref:`partnercoursestaff:Import a Library`.
 
+**Instructor Dashboard**
+
+  A user who has the Admin or Staff role for a course can access the instructor
+  dashboard in the LMS by selecting **Instructor**. Course team members use the
+  tools, reports, and other features that are available on the pages of the
+  instructor dashboard to manage a running course.
+
+  For more information, see :ref:`partnercoursestaff:Managing Live Course
+  Index`.
 
 .. _K:
 
@@ -499,16 +525,11 @@ L
 
 **Learning Sequence**
 
-  The horizontal navigation bar that appears at the top of the **Course**
-  page in the LMS. The learning sequence contains an icon for each unit in the
-  selected subsection. When a learner moves the cursor over one of these
-  icons, the names of each component in that unit appear.
+  See :ref:`Unit Navigation Bar<U>`.
 
 **Left Pane**
 
-  The navigation frame that appears at the left side of the **Course**
-  page in the LMS. The left pane shows the sections in the course. When you
-  click a section, the section expands to show subsections.
+  See :ref:`Course Navigation Pane<C>`.
 
 .. _Library_g:
 
@@ -535,7 +556,7 @@ L
 
 **LON-CAPA**
 
-  The LearningOnline Network with Computer-Assisted Personalized Approach
+  The Learning Online Network with Computer-Assisted Personalized Approach
   e-learning platform. The structure of CAPA problem types in the edX platform
   is based on the `LON-CAPA`_ assessment system, although they are not
   compatible.
@@ -612,6 +633,14 @@ N
 O
 ****
 
+**OLX**
+
+  OLX  (open learning XML) is the XML-based markup language that is used to
+  build courses on the Open edX platform.
+
+  For more information, see :ref:`olx:What is Open Learning XML?`.
+
+
 .. _Open Response Assessment_g:
 
 **Open Response Assessment**
@@ -640,8 +669,7 @@ P
 
   Pages organize course materials into categories that learners select in the
   learning management system. Pages provide access to the course content and to
-  tools and uploaded files that supplement the course. Each page appears in
-  your course's navigation bar.
+  tools and uploaded files that supplement the course. Links to each page appear in the course material navigation bar.
 
   For more information, see :ref:`partnercoursestaff:Adding Pages to a
   Course`.
@@ -712,6 +740,16 @@ Q
 R
 ****
 
+**Research Data Exchange (RDX)**
+
+  An edX program that allows participating partner institutions to request data
+  for completed edx.org courses to further approved educational research
+  projects. Only partner institutions that choose to participate in RDX
+  contribute data to the program, and only researchers at those institutions
+  can request data from the program.
+
+  For more information, see :ref:`data:Research Data Exchange`.
+
 .. _Rubric_g:
 
 **Rubric**
@@ -762,10 +800,19 @@ S
 
 **Simple Editor**
 
-  The graphical user interface in a problem component that contains formatting
-  buttons and is available for some problem types. For more information, see
+  The graphical user interface in a problem component that contains a toolbar
+  for adding Markdown formatting to the text you supply. The simple editor is
+  available for some problem types. For more information, see
   :ref:`partnercoursestaff:Problem Studio View`.
 
+**Single Sign-On (SSO)**
+
+  SSO is an authentication service that allows a user to access multiple
+  related applications, such as Studio and the LMS, with the same username and
+  password. The term SSO is sometimes used to refer to third party
+  authentication, which is a different type of authentication system. For
+  information about third party authentication, see
+  :ref:`Third Party Authentication<T>`.
 
 .. _Split_Test:
 
@@ -801,6 +848,18 @@ T
 
   For more information, see :ref:`partnercoursestaff:Text Input`.
 
+.. _TPA_g:
+
+**Third Party Authentication**
+
+  A system-wide configuration option that allows users who have a username and
+  password for one system, such as a campus or institutional system, to log in
+  to that system and automatically be given access to the LMS. These users do
+  not enter their system credentials in the LMS.
+
+  For more information about how system administrators can integrate an
+  instance of Open edX with a campus or institutional authentication system,
+  see :ref:`installation:Enabling Third Party Authentication`.
 
 .. _Transcript:
 
@@ -825,6 +884,15 @@ U
 
   For more information, see :ref:`partnercoursestaff:Developing Course Units`.
 
+**Unit Navigation Bar**
+
+  The horizontal control that appears at the top of the **Course** page in the
+  LMS. The unit navigation bar contains an icon for each unit in the selected
+  subsection. When you move your pointer over one of these icons, the name of
+  the unit appears. If you have bookmarked a unit, the unit navigation bar
+  includes an identifying flag above that unit's icon.
+
+  See also :ref:`Course Navigation Pane<C>`.
 
 .. _V:
 

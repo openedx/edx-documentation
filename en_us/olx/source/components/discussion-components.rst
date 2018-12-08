@@ -70,8 +70,9 @@ The ``discussion`` element contains no children.
    * - Attribute
      - Meaning
    * - ``display_name``
-     - The value that is displayed to students as the name of the discussion
-       component.
+     - Required. The value that is displayed to students as the name of the
+       discussion component. If you do not supply a ``display_name`` value,
+       "discussion" is supplied for you.
    * - ``discussion_category``
      - The name of the category for the inline discussion as shown in the main
        **Discussion** tab of the course.

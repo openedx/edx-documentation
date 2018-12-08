@@ -10,6 +10,79 @@ The following information summarizes what is new in Open edX.
   :local:
   :depth: 1
 
+
+*************************
+Week of 7 November 2016
+*************************
+
+.. include:: 2016/openedx/openedx_2016-11-08.rst
+
+*************************
+Week of 3 October 2016
+*************************
+
+.. include:: 2016/openedx/openedx_2016-10-03.rst
+
+*************************
+Week of 5 September 2016
+*************************
+
+.. include:: 2016/openedx/openedx_2016-09-05.rst
+
+*************************
+Week of 29 August 2016
+*************************
+
+.. include:: 2016/openedx/openedx_2016-08-29.rst
+
+*************************
+Week of 15 August 2016
+*************************
+
+.. include:: 2016/openedx/openedx_2016-08-15.rst
+
+*************************
+Week of 8 August 2016
+*************************
+
+.. include:: 2016/openedx/openedx_2016-08-08.rst
+
+*************************
+Week of 18 July 2016
+*************************
+
+.. include:: 2016/openedx/openedx_0718_2016.rst
+
+*************************
+Week of 27 June 2016
+*************************
+
+.. include:: 2016/openedx/openedx_0627_2016.rst
+
+*************************
+Week of 30 May 2016
+*************************
+
+.. include:: 2016/openedx/openedx_0530_2016.rst
+
+*************************
+Week of 23 May 2016
+*************************
+
+.. include:: 2016/openedx/openedx_0523_2016.rst
+
+*************************
+Week of 16 May 2016
+*************************
+
+.. include:: 2016/openedx/openedx_0516_2016.rst
+
+*************************
+Week of 9 May 2016
+*************************
+
+.. include:: 2016/openedx/openedx_0509_2016.rst
+
 *************************
 Week of 2 May 2016
 *************************

@@ -1,4 +1,4 @@
-.. _Adding E-Commerce to the Open edX Platform:
+.. _Adding ECommerce to Open edX:
 
 ##########################################
 Adding E-Commerce to the Open edX Platform
@@ -15,7 +15,7 @@ use the E-Commerce service with the Open edX platform.
 
    install_ecommerce
    manage_assets
-   create_products
+   create_products/index
    manage_orders
    test_features
    test_ecommerce

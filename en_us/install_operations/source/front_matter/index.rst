@@ -1,5 +1,5 @@
 #############################
-For Your Information
+General Information
 #############################
 
 .. toctree::
@@ -7,7 +7,7 @@ For Your Information
    :maxdepth: 2
 
    read_me
+   getting_help
    preface
    browsers
-   change_log
 

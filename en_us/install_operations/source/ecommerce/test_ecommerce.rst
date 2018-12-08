@@ -34,6 +34,14 @@ the unit test suite.)
 
      $ make validate
 
+  .. note::
+    If numerous unit tests fail with an ``OfflineGenerationError`` message, run
+    the following command, then try to run unit tests again.
+
+    .. code-block:: bash
+
+       $ DJANGO_SETTINGS_MODULE=ecommerce.settings.test make static
+
 * To run unit tests with quality checks but without migrations, run the
   following command.
 
@@ -60,6 +68,40 @@ When you create E-Commerce tests, use the ``TestCase`` class in
 ``Partner`` objects configured. This will help you test any code that relies on
 these models, which are used for multi-tenancy.
 
+* To run all Python unit tests and quality checks, run the following command.
+
+  .. code-block:: bash
+
+      $ make validate_python
+
+* To run all Python unit tests and quality checks *in parallel*, run the
+  following command.
+
+  .. code-block:: bash
+
+      $ make fast_validate_python
+
+* To run the Python unit tests in a specific file, such as
+  ``ecommerce/courses/tests/test_utils.py``, run the following command and
+  substitute the desired file path.
+
+  .. code-block:: bash
+
+      $ DISABLE_ACCEPTANCE_TESTS=True ./manage.py test
+      ecommerce.courses.tests.test_utils --settings=ecommerce.settings.test
+      --with-ignore-docstrings --logging-level=DEBUG
+
+  Setting the DISABLE_MIGRATIONS variable significantly decreases the time
+  needed to run tests by creating the test database directly from Django model
+  definitions as opposed to applying the defined migrations.
+
+  .. code-block:: bash
+
+      $ DISABLE_MIGRATIONS=1 DISABLE_ACCEPTANCE_TESTS=True ./manage.py test
+      ecommerce.courses.tests.test_utils --settings=ecommerce.settings.test
+      --with-ignore-docstrings --logging-level=DEBUG
+
+
 JavaScript Unit Tests
 **********************
 
@@ -70,6 +112,13 @@ directory, and add a ``_spec`` suffix. For example, your test name may be
 
 All JavaScript code must adhere to the `edX JavaScript standards`_. These
 standards are enforced using `JSHint`_ and `jscs`_.
+
+* To run all JavaScript unit tests and linting checks, run the following
+  command.
+
+  .. code-block:: bash
+
+      $ make validate_js
 
 
 ===================================

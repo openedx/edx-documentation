@@ -66,13 +66,13 @@ An example of the contents of a ``course.xml`` file follows.
 The attributes of the ``course`` element are used to construct URLs in the
 course.  The following course URL shows where these values are used.
 
-.. code-block:: html
+.. code-block:: none
 
   http://my-edx-server.org/courses/<@org value>/<@course value>/<@url_name value>/info
 
 For example:
 
-.. code-block:: html
+.. code-block:: none
 
   http://my-edx-server.org/courses/edX/DemoX/Demo_Course/info
 
@@ -189,7 +189,7 @@ For example, the course can contain a sequential in this format.
 
 The ``sequential`` element contains one or more child ``vertical`` elements.
 
-The ``veritical`` element references a vertical, or unit, in the course.
+The ``vertical`` element references a vertical, or unit, in the course.
 
 The following example shows a chapter with a sequential that has three
 verticals, or units.
@@ -199,9 +199,9 @@ verticals, or units.
     <course>
         <chapter url_name="exam_review">
             <sequential display_name="Simulations" url_name="simulations">
-                <vertical display_name: "Unit 1" url_name="Lesson_1_Unit_1">
+                <vertical display_name="Unit 1" url_name="Lesson_1_Unit_1">
                     . . . .
-                <vertical display_name: "Unit 2" url_name="Lesson_1_Unit_2">
+                <vertical display_name="Unit 2" url_name="Lesson_1_Unit_2">
                     . . . .
             </sequential>
         </chapter>

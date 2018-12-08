@@ -71,7 +71,7 @@ completed both in the browser and on the server. These records appear with the
 most recent interaction at the top of the Submission History Viewer, followed
 by each previous interaction.
 
-This topic provides an example submission history for a capa problem with
+This topic provides an example submission history for a CAPA problem with
 guidelines that can help you interpret a submission history. The number and
 complexity of the records that appear in this report vary based on the type of
 problem and the settings and features defined.
@@ -82,7 +82,7 @@ The first interaction, shown at the bottom of the Submission History, records
 when the server delivered the problem component to the browser for the learner
 to view.
 
-.. code-block:: json
+.. code-block:: none
 
   #1: 2015-09-04 08:34:53+00:00 (America/New_York time)
 
@@ -99,10 +99,10 @@ to view.
 **Record 2: Problem Checked (Browser)**
 
 The next interaction shown as you scroll up from the bottom records when the
-learner selected **Check** in the browser to submit an answer. Note that this
+learner selected **Submit** in the browser to submit an answer. Note that this
 record does not contain the actual answer submitted.
 
-.. code-block:: json
+.. code-block:: none
 
   #2: 2015-09-04 08:35:03+00:00 (America/New_York time)
 
@@ -125,7 +125,7 @@ after the learner submitted the answer. This record includes
 ``student_answers`` with the submitted answer value, along with ``attempts``,
 ``correctness``, and other values.
 
-.. code-block:: json
+.. code-block:: none
 
   #3: 2015-09-03 18:15:10+00:00 (America/New_York time)
 
@@ -160,7 +160,7 @@ after the learner submitted the answer. This record includes
 
 When a problem gives learners multiple attempts at the correct answer, and the
 learner tries again, an additional record is added when a learner selects
-**Check** again. The server has not yet processed the new submission, so the
+**Submit** again. The server has not yet processed the new submission, so the
 data in the record is almost identical to the data in record 3.
 
 **Record 5: Problem Retried (Server)**
@@ -171,7 +171,7 @@ differences between values in this record and in record 3, including the
 reported ``Score`` and the values for ``student_answers``, ``attempts``, and
 ``correctness``.
 
-.. code-block:: json
+.. code-block:: none
 
   #5: 2015-09-03 18:15:17+00:00 (America/New_York time)
 
@@ -219,7 +219,7 @@ submitted for a problem by every learner, follow these steps.
 
 #. Select **Instructor**, and then select **Data Download**.
 
-#. In the **Reports** section, enter the **Problem location** . For capa
+#. In the **Reports** section, enter the **Problem location** . For CAPA
    problems, you can use the **Staff Debug Info** option to :ref:`find this
    identifier<find_URL>` for a problem.
 
@@ -244,7 +244,7 @@ learner's most recently submitted answer.
 
 When you open the report, the value in the **State** column appears on a single
 line. This value is a record in JSON format. An example record for a text input
-capa problem follows.
+CAPA problem follows.
 
 ``{"correct_map": {"e58b639b86db44ca89652b30ea566830_2_1": {"hint": "", "hintmode": null, "correctness": "correct", "msg": "", "answervariable": null, "npoints": null, "queuestate": null}}, "input_state": {"e58b639b86db44ca89652b30ea566830_2_1": {}}, "last_submission_time": "2015-10-26T17:32:20Z", "attempts": 3, "seed": 1, "done": true, "student_answers": {"e58b639b86db44ca89652b30ea566830_2_1": "choice_2"}}``
 
@@ -280,12 +280,12 @@ You can use a JSON "pretty print" tool or script to make the value in the
   }
 
 When you add line breaks and spacing to the value in the **State** column for
-this capa problem, it becomes possible to recognize its similarity to the
+this CAPA problem, it becomes possible to recognize its similarity to the
 server problem check records in the Submission History. For more information,
 see :ref:`Interpret a Student Submission History`.
 
 A **State** value that appears as follows indicates a learner who has viewed a
-capa problem, but not yet submitted an answer.
+CAPA problem, but not yet submitted an answer.
 
   ``{"seed": 1, "input_state": {"e58b639b86db44ca89652b30ea566830_2_1": {}}}``
 
@@ -323,6 +323,11 @@ called rerandomization), there is one row for each problem-variant-answer
 combination selected by your learners. For more information, see :ref:`Problem
 Settings`.
 
+.. note:: Certain types of problems can be set up to :ref:`award partial
+  credit<Awarding Partial Credit for a Problem>`. When a learner receives
+  either the full or a partial score for a problem, this report includes that
+  answer as correct.
+
 The .csv file contains the following columns.
 
 .. list-table::
@@ -332,14 +337,18 @@ The .csv file contains the following columns.
    * - Column
      - Description
    * - ModuleID
-     - The internal identifier for the Problem component.
+     - The internal identifier for the problem component.
    * - PartID
-     - For a Problem component that contains multiple problems, the internal
-       identifier for each individual problem. For a Problem component that
+     - For a problem component that contains multiple problems, the internal
+       identifier for each individual problem. For a problem component that
        contains a single problem, the internal identifier of that problem.
    * - Correct Answer
      - 0 if this **AnswerValue** is incorrect, or 1 if this **AnswerValue** is
        correct.
+
+       For a problem that is set up to award partial credit, 1 if the
+       **AnswerValue** awards either the full or a partial score.
+
    * - Count
      - The number of times that learners entered or selected this answer as
        their most recent submission for the problem or problem variant. For

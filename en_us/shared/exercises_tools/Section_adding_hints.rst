@@ -4,7 +4,7 @@
 Adding Feedback and Hints to a Problem
 ***************************************
 
-You can add feedback, hints, or both to the following problem types.
+You can add feedback, hints, or both to the following core problem types.
 
 * :ref:`Checkbox`
 * :ref:`Dropdown`
@@ -19,10 +19,10 @@ they work on problems.
 Feedback in Response to Attempted Answers
 ==========================================
 
-You can add feedback that is displayed to learners when they submit an answer.
+You can add feedback that displays to learners after they submit an answer.
 
 For example, the following multiple choice problem provides feedback in
-response to the selected option when the learner selects **Check**. In this
+response to the selected option when the learner selects **Submit**. In this
 case, feedback is given for an incorrect answer.
 
 .. image:: ../../../shared/images/multiple_choice_feedback.png
@@ -51,7 +51,7 @@ such as multiple choice and dropdown problems, the feedback should provide a
 reason why the selection is correct.
 
 ============================
-General Hints to a Problem
+Providing Hints for Problems
 ============================
 
 You can add one or more hints that are displayed to learners. When you add
@@ -60,14 +60,15 @@ access the hints by selecting **Hint** beneath the problem.  A learner can view
 multiple hints by selecting **Hint** multiple times.
 
 For example, in the following multiple choice problem, the learner selects
-**Hint** before attempting the answer.
+**Hint** after having made one incorrect attempt.
 
 .. image:: ../../../shared/images/multiple_choice_hint.png
  :alt: Image of a multiple choice problem with the first hint.
  :width: 600
 
-The hint indicates that it is the first of two hints. The learner selects
-**Hint** a second time.
+The hint text indicates that it is the first of two hints. After the learner
+selects **Next Hint**, both of the available hints appear. When all hints have
+been used, the **Hint** or **Next Hint** option is no longer available.
 
 .. image:: ../../../shared/images/multiple_choice_hint2.png
  :alt: Image of a multiple choice problem with the second hint.
@@ -97,12 +98,8 @@ You create problems with feedback and hints in Studio. Templates with feedback
 and hints configured are available to make creating your own problems easier.
 
 While editing a unit, in the **Add New Component** panel, select **Problem**.
-In the list that opens, select the  **Common Problem Types** tab. Templates for
+In the list that opens, select  **Common Problem Types**. Templates for
 problems with feedback and hints are listed.
-
-.. image:: ../../../shared/images/hints_feedback_problem_templates.png
- :alt: Image of the templates with hints and feedback in Studio.
- :width: 250
 
 Add the problem type you need to the unit, then edit the component.  The exact
 syntax you use to configure hints and feedback depends on the problem type.

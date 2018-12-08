@@ -6,8 +6,9 @@ Adding Files to a Course
 
 To use images and other files in your course, you upload the files to your
 course by using Studio, and then you add links to the files in the course
-content. You can also use uploaded files in the bulk email messages that you
-send from the LMS using the instructor dashboard.
+content. You can also use uploaded files in the bulk email messages that course
+team members can send from the LMS by selecting **Instructor** to access the
+instructor dashboard.
 
 .. contents::
   :local:
@@ -28,7 +29,7 @@ that are larger than 50 MB after compression, contact your edX partner manager.
 If you have video or audio files or large data sets to share with your
 students, use YouTube or another hosting service to host these files. Do not
 use the Files & Uploads page to add these files to your course. If you are an
-edX partner and you need to store large data sets, contact your edX program
+edX partner and you need to store large data sets, contact your edX partner
 manager.
 
 .. _Upload a File:
@@ -82,19 +83,23 @@ that is assigned to it. On the **Files & Uploads** page, the **URL** column
 lists a **Studio** URL and a **Web** URL for each file you upload.
 
 * To add a file or image to a component, a course update, or a course handout,
-  you use the **Studio** URL. For more information, see :ref:`Add an Image to
-  an HTML Component`.
+  you use the **Studio** URL.
+
+  For more information, see :ref:`Add an Image to an HTML Component`.
 
 * To provide a link to the file or image from outside the course, including in
   the body of an email message that you send to course participants from the
-  LMS, you use the **Web** URL. For more information about sending email
-  messages, see :ref:`Send_Bulk_Email`.
+  LMS, you use the **Web** URL. Be sure that you do not use the ``/static/``
+  URL in an email message.
+
+  For more information about sending email messages, see
+  :ref:`Send_Bulk_Email`.
 
 .. note::
-  You can lock a file if you do not want to allow access to a file from outside
-  your course. When you lock a file, the web URL only allows file access to
-  learners who are signed in and enrolled in your course. For more information,
-  see :ref:`Lock a File`.
+  You can lock a file if you do not want to allow access to that file from
+  outside your course. When you lock a file, the web URL only allows file
+  access to learners who are signed in and enrolled in your course. For more
+  information, see :ref:`Lock a File`.
 
 To copy a URL from the file list, select the URL in the **URL** column and copy
 it.

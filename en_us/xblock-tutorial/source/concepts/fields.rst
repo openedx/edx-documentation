@@ -67,7 +67,7 @@ the scope ``user_state``.
 
 .. code-block:: python
 
-    voted = Boolean(help="Has this student voted?", default=False, 
+    voted = Boolean(help="Has this student voted?", default=False,
         scope=Scope.user_state)
 
 ===========
@@ -90,8 +90,8 @@ Fields can relate to users in the following ways.
   change the field value, and all learners see the same value. For example, the
   total number of learners who answer a question is the same for all users.
 
-  .. note:: Field data related to all users is not the same as aggregate or 
-    query data. The same value is shared for all users, and you cannot 
+  .. note:: Field data related to all users is not the same as aggregate or
+    query data. The same value is shared for all users, and you cannot
     associate specific actions to specific users.
 
 ============
@@ -113,12 +113,12 @@ Fields can relate to XBlocks in the following ways.
   courses or within the same course.
 
 * **Block type**: The field data is related to the Python type of the XBlock,
-  and is shared across all instances of the XBlock in all courses. 
+  and is shared across all instances of the XBlock in all courses.
 
 * **All**: The field data is related to all XBlocks, of all types. Any
   XBlock can access the field data.
 
-  .. note:: 
+  .. note::
     When you use the **All** scope, there is potential for name conflicts. If
     you have two fields of the same name with the scope **All** in different
     XBlock types, both fields point to the same data. Therefore you should use
@@ -156,32 +156,32 @@ configuring fields. Each of these scopes includes the indicated user and block
 scope settings.
 
 * ``Scope.content``
-  
+
   * Block definition
   * No user
 
 * ``Scope.settings``
-  
+
   * Block usage
   * No user
 
 * ``Scope.user_state``
-  
+
   * Block usage
   * One user
 
 * ``Scope.preferences``
-  
+
   * Block type
   * One user
 
 * ``Scope.user_info``
-  
+
   * All blocks
   * One user
 
 * ``Scope.user_state_summary``
-  
+
   * Block usage
   * All users
 
@@ -208,7 +208,7 @@ work in those contexts.
 
 To initialize field values, use one of the following alternatives.
 
-* Use ``xblock.fields.UNIQUE_ID`` to set a default string value for the field. 
+* Use ``xblock.fields.UNIQUE_ID`` to set a default string value for the field.
 
 * Use a lazy property decorator, so that when a field is first accessed, a
   function is called to set the value.
@@ -220,7 +220,7 @@ To initialize field values, use one of the following alternatives.
 Fields and OLX
 ***************
 
-XBlock fields map to attributes in the Open Learning XML (OLX) definition.
+XBlock fields map to attributes in the OLX (open learning XML) definition.
 
 For example, you might include the fields ``href``, ``maxwidth``, and
 ``maxheight`` in a ``SimpleVideoBlock`` XBlock.  You configure the fields as in
@@ -233,11 +233,11 @@ the following example.
       An XBlock providing Embed capabilities for video
       """
 
-      href = String(help="URL of the video page at the provider", 
+      href = String(help="URL of the video page at the provider",
           default=None, scope=Scope.content)
-      maxwidth = Integer(help="Maximum width of the video", default=800, 
+      maxwidth = Integer(help="Maximum width of the video", default=800,
           scope=Scope.content)
-      maxheight = Integer(help="Maximum height of the video", default=450, 
+      maxheight = Integer(help="Maximum height of the video", default=450,
           scope=Scope.content)
 
 By default, the ``SimpleVideoBlock`` XBlock is represented in OLX as in the
@@ -245,10 +245,10 @@ following example:
 
 .. code-block:: xml
 
-    <simplevideo 
-        href="https://vimeo.com/46100581" 
-        maxwidth="800" 
-        maxheight="450" 
+    <simplevideo
+        href="https://vimeo.com/46100581"
+        maxwidth="800"
+        maxheight="450"
     />
 
 You can customize the OLX representation of the XBlock by using the

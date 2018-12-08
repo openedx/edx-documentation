@@ -6,7 +6,7 @@
 Oppia Exploration Tool
 ##########################
 
-.. note:: EdX offers full support for this tool.
+.. note:: EdX offers provisional support for this tool.
 
 `Oppia`_ is a third-party tool that you can use to create short interactive
 tutorials, called explorations. This topic describes how to embed Oppia
@@ -80,8 +80,7 @@ of the website that hosts that exploration and its ID.
      :width: 600
 
 #. In the **Component Display Name** field, enter an identifying name for the
-   component. This name appears to learners as a tooltip in the learning
-   sequence at the top of the **Course** page.
+   component. In the LMS, this name appears as a heading above the exploration.
 
 #. In the **Oppia Exploration ID** field, enter the identifier assigned to the
    exploration you want to add. For example, ``qG6kclSxlWZn`` or

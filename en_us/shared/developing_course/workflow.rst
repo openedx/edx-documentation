@@ -31,7 +31,7 @@ Before you begin, you should understand the building blocks of an edX course.
   section, and usually represent a topic or other organizing principle. A
   subsection contains one or more units.
 * :ref:`Course units <Developing Course Units>` are lessons in a subsection
-  that students view as single pages. A unit contains one or more components.
+  that learners view as single pages. A unit contains one or more components.
 * :ref:`Course components<Developing Course Components>` are objects within
   units that contain your actual course content.
 
@@ -62,6 +62,7 @@ The following diagram summarizes the content creation workflow:
 
 .. image:: ../../../shared/images/workflow-create-content.png
  :alt: Diagram of the content creation process
+ :width: 600
 
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` throughout the creation process, including making sure that the
@@ -79,8 +80,8 @@ For more information, see :ref:`Designing For a Mobile Experience`.
 Making Course Content Visible to Students
 *****************************************
 
-When you create your content, you'll also specify if and when students will be
-able to see it. Content visibility depends on several factors:
+When you create your content, you also specify if and when learners will be
+able to see it. Content visibility depends on several factors.
 
 * The :ref:`course start date <Set Start and End Dates>`
 * The release dates of the :ref:`section<Set a Section Release Date>` and
@@ -88,8 +89,8 @@ able to see it. Content visibility depends on several factors:
 * The :ref:`prerequisite subsections<configuring_prerequisite_content>` that
   you configure
 * The :ref:`publishing status<Hide a Unit from Students>` of the unit
-* The :ref:`Hide content from students<Hide a Unit from Students>` setting
-* The use of :ref:`Content Groups`
+* The :ref:`Hide content from learners<Hide a Unit from Students>` setting
+* The use of :ref:`content groups<Content Groups>`
 
 For more information, see :ref:`Controlling Content Visibility`.
 
@@ -100,17 +101,17 @@ Making Course Content Searchable
 ***********************************
 
 Learners can search course text in :ref:`HTML components<Working with HTML
-Components>` and video transcripts by using the **Search** box in the upper-left
-corner of the **Course** tab.
+Components>` and video transcripts by using the **Search** box at the top of
+the **Course** page.
 
 Before learners can search your course, Studio must index the content. Studio
 indexes all new course content automatically when you :ref:`publish<Publish a
 Unit>` the content.
 
 If necessary, you can manually reindex all of the content in your course at any
-time. Typically, you would only manually reindex your course content if learners
-see unexpected search results. To reindex your course content, select **Reindex
-Content** in the upper-right corner of the **Course Outline** page. Reindexing
+time. Typically, you would only manually reindex your course content if
+learners see unexpected search results. To reindex your course content, select
+**Reindex Content** at the top of the **Course Outline** page. Reindexing
 usually takes less than 30 seconds.
 
 .. _Revising Content:
@@ -123,17 +124,18 @@ You can revise your course content at any time.
 
 * When you :ref:`reorganize sections, subsections, and units<Reorganize the
   Course Outline>` in the outline, the new order is immediately visible to
-  students if the section and subsection are released.
+  learners if the section and subsection are released.
 
 * When you :ref:`edit a unit<Edit a Unit>`, or :ref:`components<Add a
   Component>` within a unit, you must :ref:`publish<Publish a Unit>` those
-  changes to make them visible to students.
+  changes to make them visible to learners.
 
 The following diagram summarizes the content revision workflow and content
 visibility:
 
 .. image:: ../../../shared/images/workflow-revise-content.png
  :alt: Diagram of the content creation process
+ :width: 500
 
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` during the revision process, including making sure that the content

@@ -1,8 +1,8 @@
 .. _Custom JavaScript:
 
-###########################
-Custom JavaScript Problem
-###########################
+##############################################
+Custom JavaScript Display and Grading Problem
+##############################################
 
 .. note:: EdX offers full support for this problem type.
 
@@ -19,7 +19,8 @@ style sheets (CSS). You can use any application creation tool, such as the
 Google Web Toolkit (GWT), to create your JS input problem.
 
 .. image:: ../../../shared/images/JavaScriptInputExample.png
- :alt: Image of a JavaScript Input problem
+ :alt: An example JavaScript Input problem that contains a dropdown selector
+       inside an inline frame.
 
 .. caution::
 
@@ -31,11 +32,8 @@ Google Web Toolkit (GWT), to create your JS input problem.
   * The **Show Answer** button does not work for JS input problems. By
     default, the **Show Answer** option is set to **Never**. If you change
     this option in the problem component, a **Show Answer** button appears in
-    the LMS, but the button does not work.
+    the learner's view of the problem in the LMS, but the button does not work.
 
-.. note::
-  You can make a calculator available to your learners on every unit
-  page. For more information, see :ref:`Calculator`.
 
 ************************************************************
 Create a Custom JavaScript Display and Grading Problem
@@ -47,124 +45,124 @@ Create a Custom JavaScript Display and Grading Problem
    Component** select **Problem** , and then select **Advanced**.
 #. Select **Custom JavaScript Display and Grading**.
 #. In the component that appears, select **Edit**.
-#. In the component editor, modify the example code according to your problem.
 
-   All problems have more than one element. Most problems conform to the
-   same-origin policy (SOP), meaning that all elements have the same protocol,
-   host, and port. For example,
+#. In the component editor, modify the example code according to your problem.
+   Be sure to specify a ``title`` attribute on the ``jsinput`` tag. This title
+   is used for the title attribute on the generated inline frame.
+
+#. (Optional) To add a **Save** button to your problem, select **Settings**, and
+   then set **Maximum Attempts** to a number larger than zero.
+
+#. Select **Save**.
+
+
+.. note::  All problems include more than one resource. If all the resources in
+   a problem have the same protocol, host, and port, then the problem conforms
+   to the same-origin policy (SOP). For example, the resources
    ``http://store.company.com:81/subdirectory_1/JSInputElement.html`` and
    ``http://store.company.com:81/subdirectory_2/JSInputElement.js`` have the
-   same protocol (http), host (store.company.com), and port (81).
+   same protocol (``http``), host (``store.company.com``), and port (``81``).
 
-   If any elements of your problem use a different protocol, host, or port,
+   If any resources in your problem use a different protocol, host, or port,
    you need to bypass the SOP. For example,
    ``https://info.company.com/JSInputElement2.html`` uses a different
-   protocol, host, and port. To bypass the SOP, change ``sop="false"`` in
-   line 8 of the example code to ``sop="true"``. For more information, see
-   the same-origin policy page on the `Mozilla Developer Network
-   <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Same_origin_policy_for_JavaScript>`_ or on
+   protocol, host, and port from
+   ``http://store.company.com:81/subdirectory_1/JSInputElement.html``.
+
+   To bypass the SOP, change ``sop="true"`` to ``sop="false"``. In the example
+   problem code, this attribute is just before the closing ``customresponse``
+   tag.
+
+   If you bypass the same-origin policy, you require an additional file.
+   The example problem uses the file ``jschannel.js`` to bypass the SOP.
+
+   For more information, see the same-origin policy page on the `Mozilla
+   Developer Network site <https://developer.mozilla.org/en-
+   US/docs/Web/JavaScript/Same_origin_policy_for_JavaScript>`_ or on
    `Wikipedia <http://en.wikipedia.org/wiki/Same_origin_policy>`_.
 
-#. If you want your problem to have a **Save** button, select **Settings**, and
-   then set **Maximum Attempts** to a number larger than zero.
-#. Select **Save**.
 
-================================
-Recreate the Example Problem
-================================
+========================================
+JavaScript Input Example Problem Code
+========================================
 
-To recreate the example problem above, you need the following files.
+The following code recreates the JavaScript Input problem example shown in the
+overview. The example problem uses these files.
 
-   - webGLDemo.html
-   - webGLDemo.js
-   - webGLDemo.css
-   - three.min.js
+* https://files.edx.org/custom-js-example/jsinput_example.html
+* https://files.edx.org/custom-js-example/jsinput_example.js
+* https://files.edx.org/custom-js-example/jsinput_example.css
+* https://files.edx.org/custom-js-example/jschannel.js (This file is used only
+  because this example bypasses the SOP, as indicated by the line
+  ``sop="false"``)
 
-To download these files in a .zip archive, go to
-http://files.edx.org/JSInput.zip.
-
-.. note:: If you need to bypass the SOP, you also need the
-  ``jschannel.js`` file, and your webGLDemo.html file will be slightly
-  different. To download all of these files in a .zip archive, go to
-  http://files.edx.org/JSInput_BypassSOP.zip.
-
-#. Download and unpackage the files in either the JSInput.zip file or the
-   JSInput_BypassSOP.zip file.
-#. On the **Files & Uploads** page, upload all the files from the .zip file.
-#. Create a new custom JavaScript display and grading problem component.
-#. Select **Settings**, and then set **Maximum Attempts** to a number larger
-   than zero.
-#. In the problem component editor, replace the example code with the code
-   below.
-#. Select **Save**.
-
-================================
-JavaScript Input Problem Code
-================================
 
 .. code-block:: xml
 
-    <problem display_name="webGLDemo">
-    In the image below, click the cone.
+ <problem>
+     <customresponse cfn="check_function">
+         <script type="loncapa/python">
+             <![CDATA[
+             import json
+             def check_function(e, ans):
+                 """
+                 "response" is a dictionary that contains two keys, "answer" and
+                 ""state".
 
-    <script type="loncapa/python">
-    import json
-    def vglcfn(e, ans):
-        '''
-        par is a dictionary containing two keys, "answer" and "state"
-        The value of answer is the JSON string returned by getGrade
-        The value of state is the JSON string returned by getState
-        '''
-        par = json.loads(ans)
-        # We can use either the value of the answer key to grade
-        answer = json.loads(par["answer"])
-        return answer["cylinder"]  and not answer["cube"]
-        # Or we can use the value of the state key
-        '''
-        state = json.loads(par["state"])
-        selectedObjects = state["selectedObjects"]
-        return selectedObjects["cylinder"] and not selectedObjects["cube"]
-        '''
-    </script>
-    <customresponse cfn="vglcfn">
-        <jsinput
-            gradefn="WebGLDemo.getGrade"
-            get_statefn="WebGLDemo.getState"
-            set_statefn="WebGLDemo.setState"
-            width="400"
-            height="400"
-            html_file="/static/webGLDemo.html"
-        />
-    </customresponse>
-    </problem>
+                 The value of "answer" is the JSON string that "getGrade" returns.
+                 The value of "state" is the JSON string that "getState" returns.
+                 Clicking either "Submit" or "Save" registers the current state.
+                 """
+                 response = json.loads(ans)
+
+                 # You can use the value of the answer key to grade:
+                 answer = json.loads(response["answer"])
+                 return answer == "correct"
+
+                 # Or you can use the value of the state key to grade:
+                 """
+                 state = json.loads(response["state"])
+                 return state["selectedChoice"] == "correct"
+                 """
+             ]]>
+         </script>
+         <p>This is paragraph text displayed before the iframe.</p>
+         <jsinput
+             gradefn="JSInputDemo.getGrade"
+             get_statefn="JSInputDemo.getState"
+             set_statefn="JSInputDemo.setState"
+             initial_state='{"selectedChoice": "incorrect1", "availableChoices":
+             ["incorrect1", "correct", "incorrect2"]}'
+             width="600"
+             height="100"
+             html_file="https://files.edx.org/custom-js-example/jsinput_example.html"
+             title="Dropdown with Dynamic Text"
+             sop="false"/>
+     </customresponse>
+ </problem>
 
 
-.. note::    When you create this problem, keep the following in mind.
+.. note:: Keep the following points in mind about this example problem.
 
- - The webGLDemo.js file defines the three JavaScript functions
-   (**WebGLDemo.getGrade**, **WebGLDemo.getState**, and
-   **WebGLDemo.setState**).
+ - The jsinput_example.js file defines three JavaScript functions
+   (**JSInputDemo.getGrade**, **JSInputDemo.getState**, and
+   **JSInputDemo.setState**).
 
- - The JavaScript input problem code uses **WebGLDemo.getGrade**,
-   **WebGLDemo.getState**, and **WebGLDemo.setState** to grade, save, or
+ - The JavaScript input problem code uses **JSInputDemo.getGrade**,
+   **JSInputDemo.getState**, and **JSInputDemo.setState** to grade, save, or
    restore a problem. These functions must be global in scope.
 
- - **WebGLDemo.getState** and **WebGLDemo.setState** are optional. You only
-   have to define these functions if you want to conserve the state of the
-   problem.
+ - **JSInputDemo.getState** and **JSInputDemo.setState** are optional. You
+   need to define these functions only if you want to conserve the state of
+   the problem.
 
- - **Width** and **height** represent the dimensions of the iframe that holds
-   the application.
+ - **Width** and **height** represent the dimensions of the inline frame that
+   holds the application.
 
- - When the problem opens, the cone and the cube are both blue, or
-   "unselected." When you click either shape once, the shape becomes yellow,
-   or "selected." To unselect the shape, click it again. Continue clicking the
-   shape to select and unselect it.
+ - The response is graded as correct if the ``correct`` option is selected in
+   the dropdown control when the user selects **Submit**.
 
- - The response is graded as correct if the cone is selected (yellow) when the
-   user selects **Check**.
-
- - Selecting **Check** or **Save** registers the problem's current state.
+ - Selecting **Submit** registers the problem's current state.
 
 
 .. _JS Input Problem XML:
@@ -177,9 +175,10 @@ JSInput allows problem authors to turn stand-alone HTML files into problems
 that can be integrated into the edX platform. Since its aim is flexibility, it
 can be seen as the input and client-side equivalent of **CustomResponse**.
 
-A JSInput exercise creates an iframe in a static HTML page, and passes the
-return value of author-specified functions to the enclosing response type
-(generally **CustomResponse**). JSInput can also store and retrieve state.
+A JSInput exercise creates an inline frame (iframe) in a static HTML page, and
+passes the return value of author-specified functions to the enclosing
+response type (generally **CustomResponse**). JSInput can also store and
+retrieve state.
 
 ========
 Template
@@ -191,14 +190,15 @@ The following is the basic format of a JSInput problem.
 
  <problem>
         <script type="loncapa/python">
- def all_true(exp, ans): return ans == "hi"
+            def all_true(exp, ans): return ans == "hi"
         </script>
         <customresponse cfn="all_true">
             <jsinput gradefn="gradefn"
                 height="500"
                 get_statefn="getstate"
                 set_statefn="setstate"
-                html_file="/static/jsinput.html"/>
+                html_file="/static/jsinput.html"
+                title="iframe Title"/>
         </customresponse>
  </problem>
 
@@ -208,11 +208,13 @@ The accepted attributes are:
 Attribute Name   Value Type     Required   Default
 ==============  ==============  =========  ==========
 html_file        URL string     Yes        None
-gradefn          Function name  Yes        `gradefn`
+title            string         Yes        ``Problem Remote Content``
+gradefn          Function name  Yes        ``gradefn``
 set_statefn      Function name  No         None
 get_statefn      Function name  No         None
-height           Integer        No         `500`
-width            Integer        No         `400`
+height           Integer        No         ``300``
+width            Integer        No         ``400``
+title            String         No         None
 ==============  ==============  =========  ==========
 
 ========================
@@ -234,17 +236,23 @@ Required Attributes
   uses the **gradefn** function, `gradefn` is called with
   `gradefn`.call(`obj`), where **obj** is the object-part of **gradefn**. For
   example, if **gradefn** is **myprog.myfn**, JSInput calls
-  **myprog.myfun.call(myprog)**. (This is to ensure "`this`" continues to
-  refer to what `gradefn` expects.)
+  **myprog.myfun.call(myprog)**.
 
-  Aside from that, more or less anything goes. Note that currently there is no
-  support for inheriting CSS or JavaScript from the parent (aside from the
-  Chrome-only **seamless** attribute, which is set to True by default).
+  The HTML file has no specific requirements other than the **gradefn**
+  function. Note that inheriting CSS or JavaScript from the parent (except for
+  the Chrome-only **seamless** attribute, which is set to ``True`` by default)
+  is not currently supported.
+
+* **title**
+
+  The **title** attribute specifies the title for the generated iframe.
+  Generally, the title attribute on the iframe should match the title tag of
+  the HTML file that is hosted within the iframe.
 
 * **gradefn**
 
   The **gradefn** attribute specifies the name of the function that will be
-  called when a user selects **Check**, and that returns the learner's answer.
+  called when a user selects **Submit**, and that returns the learner's answer.
   Unless both the **get_statefn** and **set_statefn** attributes are also
   used, this answer is passed as a string to the enclosing response type. In
   the **customresponse** example above, this means **cfn** will be passed this
@@ -286,7 +294,7 @@ Optional Attributes
 * **get_statefn**
 
   Sometimes the state and the answer are quite different. For instance, a
-  problem that involves using a javascript program that allows the learner to
+  problem that involves using a JavaScript program that allows the learner to
   alter a molecule may grade based on the molecule's hydrophobicity, but from
   the hydrophobicity it might be incapable of restoring the state. In that
   case, a *separate* state may be stored and loaded by **set_statefn**. Note
@@ -311,6 +319,6 @@ Optional Attributes
 
   In the future, JSInput may attempt to make these dimensions match the HTML
   file's dimensions (up to the aforementioned limits), but currently it
-  defaults to `500` and `400` for **height** and **width**, respectively.
+  defaults to ``300`` and ``400`` for **height** and **width**, respectively.
 
 

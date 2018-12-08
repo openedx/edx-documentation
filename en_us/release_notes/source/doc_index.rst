@@ -16,6 +16,78 @@ documentation.
   :depth: 2
 
 *************************
+Week Ending 13 Jan 2017
+*************************
+
+.. include:: 2017/documentation/docs_2017-01-13.rst
+
+*************************
+Week of 19 September 2016
+*************************
+
+.. include:: 2016/documentation/doc_2016-09-19.rst
+
+*********************
+Week of 8 August 2016
+*********************
+
+.. include:: 2016/documentation/doc_2016-08-08.rst
+
+********************
+Week of 18 July 2016
+********************
+
+.. include:: 2016/documentation/doc_0718_2016.rst
+
+********************
+Week of 11 July 2016
+********************
+
+.. include:: 2016/documentation/doc_0711_2016.rst
+
+*************************
+Week of 27 June 2016
+*************************
+
+.. include:: 2016/documentation/doc_0627_2016.rst
+
+*************************
+Week of 20 June 2016
+*************************
+
+.. include:: 2016/documentation/doc_0620_2016.rst
+
+*************************
+Week of 13 June 2016
+*************************
+
+.. include:: 2016/documentation/doc_0613_2016.rst
+
+*************************
+Week of 6 June 2016
+*************************
+
+.. include:: 2016/documentation/doc_0606_2016.rst
+
+*************************
+Week of 30 May 2016
+*************************
+
+.. include:: 2016/documentation/doc_0530_2016.rst
+
+*************************
+Week of 23 May 2016
+*************************
+
+.. include:: 2016/documentation/doc_0523_2016.rst
+
+*************************
+Week of 16 May 2016
+*************************
+
+.. include:: 2016/documentation/doc_0516_2016.rst
+
+*************************
 Week of 2 May 2016
 *************************
 

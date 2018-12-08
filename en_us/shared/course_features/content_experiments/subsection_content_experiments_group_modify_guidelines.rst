@@ -7,7 +7,8 @@ Guidelines for Modifying Group Configurations
 *********************************************
 
 Review these guidelines if you must modify a group configuration after a course
-starts. These guidelines apply for courses built in Studio or OLX.
+starts. These guidelines apply for courses built in Studio or using OLX (open
+learning XML).
 
 ==================================
 Modifying a Group Configuration

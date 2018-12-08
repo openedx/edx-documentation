@@ -7,8 +7,14 @@ Example .rst File
 If you work with edX documentation source files, you might find this file
 helpful as a reference. This file contains examples of .rst formatting.
 
-Explanations and more context for each type of element is provided in
+Explanations and more context for each type of element are provided in
 :ref:`Work with edX Documentation Source Files`.
+
+This file covers the following topics.
+
+.. contents::
+  :local:
+  :depth: 1
 
 ***************
 Heading Levels
@@ -36,14 +42,6 @@ Heading Levels
 
  Heading 6
  ~~~~~~~~~~~
-
-***************************
-Internal Table of Contents
-***************************
-
-.. contents::
-  :local:
-  :depth: 1
 
 ************************************************
 Paragraph Text and Commented Text
@@ -245,7 +243,7 @@ Make sure to indent the paragraph under the directive.
   .. only:: Partners
 
    Data about course enrollment is available from edX Insights. You can access
-   Insights from the Instructor Dashboard for your live course: after you select
+   Insights from the instructor dashboard for your live course: after you select
    **Instructor**, follow the link in the banner at the top of each page. For
    more information, see `Using edX Insights`_.
 
@@ -308,71 +306,199 @@ Notes and Warnings
 Cross-References
 ****************************
 
-Cross-references use anchors that are placed above the heading for the target
-section. Anchors are defined in lines beginning with 2 periods, followed by a
-space, underscore and the anchor text, and ending with a colon.
+In edX documents, you can include cross-references to other locations in the
+same edX document, to locations in other edX documents (such as a cross-
+reference from a location in the *Building and Running an edX Course* guide to
+a location in the *EdX Learner's Guide*), to JIRA stories, and to external
+websites. In this section, "EdX documents" refers to the resources, including
+guides and tutorials, that are listed on docs.edx.org.
 
-For example, ``.. _Anchors and Internal Links:``
+For more information about creating cross-references using RST and Sphinx, see
+`Cross-referencing arbitrary locations`_ in the online Sphinx documentation.
 
-You can also see examples of anchors above the first three headings in this document.
+==================================================
+Cross-References to Locations in the Same Document
+==================================================
 
-Anchor text is never visible in output. It is always replaced either by the
-text of the anchored topic heading, or by the specified link text.
-
-=================================================
-Example of Cross-Reference Using Anchor Only
-=================================================
-
-For cross-references that use the actual text of the target topic’s heading,
-use ``:ref:`Anchor_text``` syntax. For example,
-::
-
-   Ensure that your course introduction video follows the same
-   :ref:`Compression Specifications` and :ref:`Video Formats` guidelines as
-   course content videos
-
-where "Compression Specifications" and "Video Formats" are the text for
-anchors that exist somewhere in the files that make up the guide. In output,
-the actual text of the associated headings is substituted.
-
-=======================================================
-Example of Cross-Reference Using Specified Link Text
-=======================================================
+Cross-references to locations in the same document use anchors that are located
+above the heading for each topic or section. Anchors can contain numbers,
+letters, spaces, underscores, and hyphens, but cannot include punctuation.
+Anchors use the following syntax.
 
 ::
 
-  For more information, see :ref:`the introductory section on
-  exercises<Exercises_introduction>`
+  .. _Anchor Text:
 
-where ``Exercises_introduction`` is the anchor text that exists somewhere in
-the files that make up the guide, and "the introduction section on exercises"
-is your preferred link text.
+The following example shows an anchor for a section, followed by the heading
+for that section. ``SFD SN Keyboard Shortcuts`` is the anchor text.
 
+::
+
+  .. _SFD SN Keyboard Shortcuts:
+
+  ******************************
+  Keyboard Shortcuts for Notes
+  ******************************
+
+To create cross-references to locations in the same document, you can use the
+anchor only, or you can use your own text. The anchor text is never visible in
+output. It is replaced by the text of the heading that follows the anchor or
+the text that you specify.
+
+Cross-References Using the Anchor Only
+********************************************
+
+To add a cross-reference to a specific location in a document and use the text
+of the heading for that location as link text, use ``:ref:`Anchor Text```
+syntax, as in the following example.
+
+::
+
+   For more information about using keyboard shortcuts, see :ref:`SFD SN
+   Keyboard Shortcuts`.
+
+In this example, "SFD SN Keyboard Shortcuts" is the anchor text for a section
+that is titled "Keyboard Shortcuts for Notes". Readers will see the following
+text, and "Keyboard Shortcuts for Notes" will be an active link.
+
+::
+
+  For more information about using keyboard shortcuts, see Keyboard Shortcuts
+  for Notes.
+
+Cross-References Using Specified Link Text
+*******************************************
+
+For internal cross-references that use text other than the heading for the
+section that you're linking to, use ``:ref:`specified text<Anchor Text>```
+syntax, as in the following example.
+
+::
+
+  If you want to, you can use :ref:`keyboard shortcuts<SFD SN Keyboard
+  Shortcuts>` to create, edit, and view notes.
+
+.. note::
+  Do not include a space between the last word of the link text and the opening
+  angle bracket for the anchor text.
+
+In this example, "keyboard shortcuts" is the link text, and "SFD SN Keyboard
+Shortcuts" is the anchor text for a section that is titled "Keyboard Shortcuts
+for Notes". Readers will see the following text, and "keyboard shortcuts" will
+be an active link.
+
+::
+
+  If you want to, you can use keyboard shortcuts to create, edit, and view your
+  notes.
+
+==========================================================
+Cross-References to Locations in Different edX Documents
+==========================================================
+
+You can create cross-references between different edX documents. For example,
+you can create a link in *Building and Running an edX Course* to a topic in the
+*EdX Learner's Guide*. To do this, you use the intersphinx map ID of the
+document that you want to link to and the anchor text for the section you want.
+The cross-reference uses the following syntax.
+
+::
+
+  :ref:`intersphinx_map_ID:Anchor Name`
+
+For example:
+
+::
+
+  :ref:`partnercoursestaff:Release Dates`
+
+To find the intersphinx map ID for the document that you want, follow these
+steps.
+
+#. Open the conf.py file in the `edx-documentation/shared`_ folder, and then
+   locate the following line.
+
+   ``intersphinx_mapping = {``
+
+#. In the list that follows this line, find the ID for the document that you
+   want. The text between the single quotation marks (') at the beginning of
+   each line is the intersphinx map ID for the document.
+
+The following intersphinx map IDs are the most frequently used.
+
+.. list-table::
+   :widths: 25 25 50
+
+  * - Map ID
+    - Document
+  * - ``partnercoursestaff``
+    - *Building and Running an edX Course*
+  * - ``opencoursestaff``
+    - *Building and Running an Open edX Course*
+  * - ``learners``
+    - *EdX Learner's Guide*
+  * - ``openlearners``
+    - *Open edX Learner's Guide*
+  * - ``data``
+    - *EdX Research Guide*
+  * - ``insights``
+    - *Using edX Insights*
+  * - ``installation``
+    - *Installing, Configuring, and Running the Open edX Platform*
+  * - ``opendevelopers``
+    - *Open edX Developer's Guide*
+  * - ``partnerreleasenotes``
+    - Partner release notes
+  * - ``openreleasenotes``
+    - Open edX release notes
+
+============================================
+Cross-References to JIRA
+============================================
+
+For cross-references to JIRA tickets, use the ``:jira:`PROJECT-ticketnumber```
+syntax, as in the following example.
+
+::
+
+  For more information, see :jira:`DOC-2316`.
+
+Note that ``jira`` replaces ``ref`` for these links.
+
+Readers will see the following text, and "DOC-2316" will be an active link.
+
+``For more information, see DOC-2316.``
 
 ============================================
 Cross-References to External Web Pages
 ============================================
 
-To reference an external web page, you decide what text to use for the cross-
-reference, such as the title of the web page, and add that text using markup.
-Then, you add that same text to the links.rst file along with the actual URL.
-An example follows.
+A cross-reference to an external web page has several elements.
 
-#. In the paragraph where you want the cross-reference, create an anchor that
-   represents the text that you want to use for the cross-reference.
+* The URL of the external web page.
+* The text to use for the cross-reference. This text becomes an anchor in the
+  file that contains the cross-reference.
+* An ``include`` directive in the file that contains the cross-reference to the
+  links.rst file that is located in the ``edx-documentation/en_us/links/``
+  folder.
+* An entry in the links.rst file.
+
+To create an external cross-reference, follow these steps.
+
+#. In the paragraph where you want the cross-reference, add the text that you
+   want to use for the link, formatted as follows (where "Release Pages" is the
+   link text). This creates an anchor out of that text.
 
    ::
 
       The edX engineering wiki `Release Pages`_ provide access to detailed
       information about every change made to the edx-platform GitHub
-      repository. If you are interested in additional information about every
-      change in a release, create a user account for the wiki and review the
-      dated release pages.
+      repository.
 
-#. If the file that contains the cross-reference does not already have one, add
-   an ``include`` directive that links to the ``edx-
-   documentation/en_us/links/links.rst`` file. These links are typically at the
-   end of the file.
+#. In the file that contains the cross-reference, add an ``include`` directive
+   for the ``edx-documentation/en_us/links/links.rst`` file if one does not
+   already exist. These ``include`` directives are typically at the end of the
+   file.
 
    ::
 
@@ -385,25 +511,21 @@ An example follows.
       ``../../../links/links.rst`` or ``../links/links.rst``.
 
 #. In the ``edx-documentation/en_us/links/links.rst`` file, add an entry for
-   the anchor and URL.
+   the anchor text and the URL of the external website, formatted as follows.
+   Make sure that the anchor text in this file matches the anchor text in the
+   file that contains the cross-reference exactly, including capitalization.
 
     ::
 
       .. _Release Pages: https://openedx.atlassian.net/wiki/display/ENG/Release+Pages
 
-============================================
-Cross-References to edX101 Course Pages
-============================================
+Readers will see the following text. "Release Pages" will be an active link.
 
 ::
 
-  `Writing Exercises <https://edge.edx.org/courses/edX/edX101/How_to_Create_an
-   _edX_Course/courseware/a45de3baa8a9468cbfb1a301fdcd7e86/d15cfeaff0af4dd7be4
-   765cd0988d172/1>`_ has more in-depth discussion about problem types, and
-   some general pedagogical considerations for adapting to the online format
-   and a `Gallery of Response Types <https://edge.edx.org/accounts/login?next=
-   /courses/edX/edX101/How_to_Create_an_edX_Course/courseware/a45de3baa8a9468c
-   bfb1a301fdcd7e86/3ba055e760d04f389150a75edfecb844/1>`_
+      The edX engineering wiki Release Pages provide access to detailed
+      information about every change made to the edx-platform GitHub
+      repository.
 
 
 ****************************

@@ -10,7 +10,7 @@ enable this feature, follow these steps.
 #. In the ``edx/app/edxapp/lms.env.json`` file, edit the file so that it
    includes the following line in the features section.
 
-   .. code-block:: json
+   .. code-block:: none
 
        "FEATURES" : {
            ...

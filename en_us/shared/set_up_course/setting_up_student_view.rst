@@ -16,7 +16,7 @@ see :ref:`SFD Dashboard Settings Profile`.
 .. only:: Partners
 
   For courses running on edX Edge, you configure these course details in
-  Studio. For courses running on edX.org, you work directly with your partner
+  Studio. For courses running on edx.org, you work directly with your partner
   manager to configure some of these course details.
 
 .. contents::
@@ -26,8 +26,8 @@ see :ref:`SFD Dashboard Settings Profile`.
 For information about setting important dates for the course, see
 :ref:`Scheduling Your Course`.
 
-For information about setting the course license, see :ref:`Licensing a
-Course`.
+For information about setting the licensing for the course, see
+:ref:`Licensing a Course`.
 
 .. _The Learner Dashboard:
 
@@ -74,9 +74,9 @@ might decide to enroll based on the content of the page.
   then visible on the course **About** page. For more information, see
   :ref:`installation:Add CourseTalk`.
 
-******************************************
-Add Information to the Course About Page
-******************************************
+===========================================
+Adding Information to the Course About Page
+===========================================
 
 .. only:: Open_edX
 
@@ -85,14 +85,18 @@ Add Information to the Course About Page
 .. only:: Partners
 
   For courses running on edX Edge, you configure the contents of this page in
-  Studio, as described in this topic. For courses running on edX.org, you work
+  Studio, as described in this topic. For courses running on edx.org, you work
   directly with your partner manager to configure the contents of this page.
+
+
+.. contents::
+  :local:
+  :depth: 2
 
 .. _Describe Your Course:
 
-===========================
 Describe Your Course
-===========================
+*********************
 
 Learners see the description of your course on the course **About** page. For
 example, the course description is circled in the following course **About**
@@ -104,7 +108,7 @@ page.
 
 .. only:: Partners
 
-  .. note:: For courses running on edX.org, you must communicate the course
+  .. note:: For courses running on edx.org, you must communicate the course
    description to your edX partner manager to ensure that the information
    on the course **About** page is accurate.
 
@@ -127,18 +131,17 @@ To provide a description for your course, follow these steps.
 
 #. Overwrite the content as needed for your course, following the directions in
    the boilerplate text. Do not edit HTML tags. For a template that includes
-   placeholders, see :ref:`A Template For Course Overview`.
+   these placeholders, see the :ref:`A Template For Course Overview`.
 
-#. To test how the description will appear to learners, select **your course
-   summary page** from the text that follows the **Course Overview** field.
+#. To test how the description will appear to learners, from the text that
+   follows the **Course Overview** field select **your course summary page**.
 
 #. Select **Save Changes**.
 
 .. _Add a Course Image:
 
-===========================
 Add a Course Image
-===========================
+*********************
 
 The course image that you add in Studio appears on the **About** page for the
 course and on the learner dashboard. It must be a minimum of 378 pixels in
@@ -171,42 +174,41 @@ To add a course image, follow these steps.
 .. only:: Partners
 
   .. note::
-    For courses running on edX.org, the course image you add in Studio is used
-    on the learner dashboard, but does not automatically appear on the course
-    **About** page. Work directly with your edX partner manager to set up the
-    **About** page assets and course image.
+    For courses running on edx.org, the course image that you add in Studio is
+    used on the learner dashboard, but does not automatically appear on the
+    course **About** page. Work directly with your edX partner manager to set
+    up the **About** page assets and course image.
 
 .. _Add a Course Video:
 
-===========================
 Adding a Course About Video
-===========================
+****************************
 
-The course About video should excite and entice potential learners to enroll, and
-reveal some of the personality that the course team brings to the course.
+The course "about" video should excite and entice potential learners to enroll,
+and reveal some of the personality that the course team brings to the course.
 
-The video should answer these key questions.
+This video should answer these key questions.
 
 * Who is teaching the course?
 * What university or institution is the course affiliated with?
 * What topics and concepts are covered in your course?
 * Why should a learner enroll in your course?
 
-The video should deliver your message as concisely as possible and have a run
+This video should deliver your message as concisely as possible and have a run
 time of less than 2 minutes.
 
-Before you upload a course About video, make sure that it follows the same
+Before you upload a course about video, make sure that it follows the same
 :ref:`Compression Specifications` and :ref:`Video Formats` guidelines as your
 course content videos.
 
 .. note::
 
-  * If you upload both a course image and a course About video, the course
+  * If you upload both a course image and a course about video, the course
     image appears on learner dashboards with a **play** icon superimposed on
     it. If you upload only a course video, the first frame of the the video
     file appears with the **play** icon.
 
-  * The process for adding a course About video is different than the process
+  * The process for adding a course about video is different than the process
     for including videos as part of the content of your course. For more
     information about including video content, see :ref:`Working with Video
     Components`.
@@ -215,17 +217,17 @@ course content videos.
 
 .. only:: Open_edX
 
-  To upload a course About video, follow these steps.
+  To upload a course about video, follow these steps.
 
 .. only:: Partners
 
   Add a Course About Video to Edge
-  ***************************************
+  ================================
 
-  To upload a course About video for the `edX Edge`_ website, follow these
+  To upload a course about video for the edX Edge website only, follow these
   steps.
 
-.. the following procedure applies to both audiences.
+.. the following procedure applies to both the open edX and partner-Edge audiences.
 
 #. Upload the video file to YouTube. Make note of the code that appears
    between **watch?v=** and **&feature** in the URL. This code appears in
@@ -253,12 +255,14 @@ course content videos.
 .. only:: Partners
 
   Add a Course About Video to edx.org
-  ***************************************
+  ===================================
 
-  For courses running on `edx.org`_ only, follow these steps.
+  To add an about video for a course that is running on edx.org only, follow
+  these steps.
 
-  #. Locate the video file on your computer. For example, on a Mac,
-     open Finder and go to the directory that contains the video file.
+  #. Locate the video file on your computer. For example, if you use a
+     Mac® computer, open Finder and go to the directory that contains the
+     video file.
 
   #. In your browser, go to the edX/Veda video upload page at
      http://veda.edx.org/upload/.
@@ -271,6 +275,49 @@ course content videos.
 
   #. Enter the Studio URL for the course. For example,
      ``https://studio.edx.org/course/course-v1:edX+edX101x+2015``.
+
+     If you are adding an about video for an XSeries, or to any other page that
+     does not have a Studio URL, see :ref:`XSeries About Video`.
+
+  #. Select **Submit**.
+
+  #. Drag the video file from the local directory into the **Drop files here to
+     upload** field. You can also click inside this field to browse to the
+     file.
+
+     The file upload process begins immediately.
+
+     .. important:: Do not close the browser tab or window, or use it to go to
+      another URL while the file is uploading. When the upload process is
+      complete, the message "File Upload Complete" appears.
+
+  .. _XSeries About Video:
+
+  Add an XSeries About Video to edx.org
+  =====================================
+
+  To add an about video for an XSeries that is running on edx.org only, follow
+  these steps.
+
+  #. Locate the video file on your computer. For example, if you use a Mac
+     computer, open Finder and go to the directory that contains the video
+     file.
+
+  #. In your browser, go to the edX/Veda video upload page at
+     http://veda.edx.org/upload/.
+
+  #. Enter a title for the video that includes the XSeries name. For
+     example, ``edx VideoX XSeries: Creating Video for the edX Platform``.
+
+     You can abbreviate the full name of the XSeries. However, the information
+     that you enter should clearly identify the XSeries.
+
+  #. In the **edX Studio Course URL** field, add identifying information
+     about the XSeries to the Studio URL that is provided. For example,
+     ``https://studio.edx.org/course/XSeries_edX_VideoX``.
+
+     The value that you enter in this field does not need to resolve to an
+     actual URL, but it must begin with ``https://studio.edx.org/course/``.
 
   #. Select **Submit**.
 
@@ -286,9 +333,8 @@ course content videos.
 
 .. _Set Course Effort Expectations:
 
-===============================
 Set Course Effort Expectations
-===============================
+******************************
 
 The estimated effort that the course requires appears in the course **About**
 page.
@@ -313,11 +359,11 @@ To set the hours and minutes a week estimate in Studio, follow these steps.
 
 .. _A Template For Course Overview:
 
-*****************************
- Course Overview Template
-*****************************
+Course Overview Template
+*************************
 
-Replace the placeholders in the following template with your information.
+Replace the placeholders in the following template with information for your
+course.
 
 .. code-block:: html
 
@@ -370,4 +416,3 @@ Replace the placeholders in the following template with your information.
   </section>
 
 .. include:: ../../../links/links.rst
-

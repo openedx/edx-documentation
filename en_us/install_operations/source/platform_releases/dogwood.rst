@@ -10,6 +10,10 @@ This section describes how to install the Open edX Dogwood release.
  :local:
  :depth: 1
 
+.. note::
+  Now that the Open edX Eucalyptus release is available, edX no longer
+  supports the Dogwood release.
+
 ******************************
 What's Included in Dogwood
 ******************************
