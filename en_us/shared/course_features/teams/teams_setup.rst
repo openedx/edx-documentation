@@ -40,12 +40,9 @@ and a clear outcome to achieve with fellow team members. For example, you
 might create an assignment that consists of a group project or activity, with
 a choice of topics, and ask learners to join teams within the topic of their
 choice to complete the assignment. Team members can use discussions within the
-team to communicate and collaborate on the assignment.
-
-Teams are not as effective when members have no specific team tasks or goals.
-EdX does not recommend using teams in your course if you want only to provide
-a way for learners to connect socially. You can encourage learners to connect
-socially by using discussions within the course. For more information about
+team to communicate and collaborate on the assignment. If you want only to 
+provide a way for learners to connect socially, consider using discussions 
+within the course rather than teams. For more information about
 using discussions, see :ref:`Running_discussions`.
 
 

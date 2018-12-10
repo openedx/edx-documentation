@@ -57,9 +57,6 @@ This should instead be written as::
       color: $my-custom-color;
     }
 
-See :ref:`ui_bootstrap_custom_designs` for more details about writing custom
-Sass for Bootstrap.
-
 .. _CSS Rules: https://github.com/stylelint/stylelint/blob/master/docs/user-guide/rules.md#possible-errors
 .. _default flag: http://sass-lang.com/documentation/file.SASS_REFERENCE.html#Variable_Defaults___default
 .. _edX Stylelint Config: https://github.com/edx/stylelint-config-edx
