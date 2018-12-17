@@ -205,13 +205,7 @@ content until they have earned a minimum score in the prerequisite subsection.
 
 .. note::
    You must first :ref:`Enable Course Prerequisites` before 
-   prerequisite course subsections can be used.
-
-.. note::
-
-   You cannot use :ref:`open response assessments<Open Response Assessments 2>`
-   as the prerequisite for other course subsections.   
-
+   prerequisite course subsections can be used. 
 
 .. _enabling_subsection_gating:
 
@@ -243,6 +237,10 @@ subsection, follow these steps.
     prerequisite configuration controls do not prevent you from creating a
     circular chain of prerequisites that will permanently hide them from
     learners.
+
+.. note::
+    You cannot use :ref:`open response assessments<Open Response Assessments 2>`
+    that have a point value of 0 as the prerequisite for other course subsections. 
 
 #. Enable subsection prerequisites for your course. For more information, see
    :ref:`enabling_subsection_gating`.
