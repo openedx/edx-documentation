@@ -1,22 +1,19 @@
 .. _Using edX as an LTI Tool Provider:
 
-######################################
+#####################################
 Using edX as an LTI Tool Provider
-######################################
+#####################################
 
-The edX Edge site can be configured to be a learning tool interoperability
-(LTI) provider to other systems and applications that partner institutions use.
-After initial configuration and testing between Edge and your system or
-application is complete, course teams can use this feature to reuse Edge course
-content, including advanced problem types and videos, in an on campus or in
-house learning management system. Examples currently include courses running on
-Canvas and Blackboard.
+.. note:: This feature was a closed pilot experiment. This feature is not
+ supported for new users.
 
-.. note:: Support for this feature is provisional. EdX is currently working
- with a set of early adopter partners in a closed pilot to test this
- feature.
-
-.. This note ^ can be removed after we get a better sense of how we'll do testing with new consumers, and regression testing for code changes. We'll also need to provide some direction on how they would line up this work (probably though partner manager) - Alison 16 Sept 15
+An experimental feature enabled the edX Edge site to be configured  to be a
+learning tool interoperability (LTI) provider to other systems and  applications
+that partner institutions use. After initial configuration and testing between
+Edge and your system or application is complete, course teams could use this
+feature to reuse Edge course content, including advanced problem types and
+videos, in an on campus or in house learning management system. Examples
+currently include courses running on Canvas and Blackboard.
 
 You use the topics in this section to prepare a course for reuse in another
 context.

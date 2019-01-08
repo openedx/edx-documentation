@@ -6,8 +6,8 @@ Example: edX as an LTI Provider to Canvas
 
 .. only:: Partners
 
-  .. note:: Support for this feature is provisional. EdX is currently working
-   with a limited number of partners to test this feature on edX Edge.
+.. note:: This feature was a closed pilot experiment. This feature is not
+ supported for new users.
 
 To use edX course content in the Canvas LMS, you add a new app to the course and then add external tool module items.
 
