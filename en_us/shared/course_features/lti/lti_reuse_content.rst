@@ -6,8 +6,8 @@ Reusing Course Content with LTI
 
 .. only:: Partners
 
-  .. note:: Support for this feature is provisional. EdX is currently working
-   with a limited number of partners to test this feature on edX Edge.
+.. note:: This feature was a closed pilot experiment. This feature is not
+ supported for new users.
 
 When you use LTI to reuse edX course content, learners who are already familiar
 with an external learning management system or other consumer application

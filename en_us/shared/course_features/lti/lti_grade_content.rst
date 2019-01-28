@@ -6,8 +6,8 @@ Grading Remote Content
 
 .. only:: Partners
 
-  .. note:: Support for this feature is provisional. EdX is currently working
-   with a limited number of partners to test this feature on edX Edge.
+.. note:: This feature was a closed pilot experiment. This feature is not
+ supported for new users.
 
 When you include the problem components in a graded edX subsection in an
 external LMS, the edX system grades the learner responses to those problems.
