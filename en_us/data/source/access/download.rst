@@ -32,7 +32,7 @@ Follow these steps to access your edX data package on Amazon S3.
 #. To access the database data files, specify or select ``s3://course-data``.
 
    To access the event data files, specify or select ``s3://edx-course-
-   data/{org}/``. You must include the identifier for your organization after
+  data/{org}/``. You must include the identifier for your organization after
    the name of the bucket.
 
    .. note:: If you are using a third-party tool to connect to Amazon S3, you
