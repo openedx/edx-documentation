@@ -21,8 +21,6 @@ Operational Impact
       available?
     * A new queue that needs to be monitored for dequeueing
     * Bulk Email --> Amazon SES, Inbound queues, etc...
-    * Are important feature metrics sent to datadog and is there a
-      dashboard to monitor them?
 
 * Am I building a feature that will have impact on the performance of the
   system? Keep in mind that Open edX needs to support hundreds of thousands if
