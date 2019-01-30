@@ -79,9 +79,7 @@ below.
 Metrics
 -------
 What are the key metrics for your application? Concurrent users? Transactions
-per second? Ideally you should create a DataDog view that captures the key
-metrics for your service and provided an instant gauge of overall service
-health.
+per second?
 
 Messaging
 ---------

@@ -357,21 +357,6 @@ for a single API to be used while still transmitting data to each of these
 service providers. This would reduce discrepancies between the measurements
 made by the various systems and significantly clarify the instrumentation.
 
-Data Dog
-*****************
-
-Data dog is used primarily for real-time operational monitoring of a running
-edX platform server. It supports rapid display and monitoring of various
-metrics within the platform such as enrollments, user creation and answers to
-problems.
-
-The edX platform is instrumented to send data to `data dog`_ using the
-standard `dogapi`_ python package. If ``lms.auth.json`` contains a
-``DATADOG_API`` key whose value is a valid data dog API key, then the edX
-platform will transmit a variety of metrics to data dog. Running ``git grep
-dog_stats_api`` will give a pretty good overview of the usage of data dog to
-track operational metrics.
-
 Segment
 *****************
 
@@ -385,6 +370,7 @@ from normal ``tracker.emit()`` calls. Events specified in this whitelist will be
 sent to both the tracking logs and Segment.  Similarly, it is enabled in Studio
 if the ``SEGMENT_KEY`` key is set to a valid Segment API key in the
 ``cms.auth.json`` file.
+
 
 Google Analytics
 *****************
@@ -407,6 +393,4 @@ continue to be supported.
 
 .. _event-tracking: https://github.com/edx/event-tracking
 .. _event-tracking documentation: http://event-tracking.readthedocs.io/en/latest/overview.html#event-tracking
-.. _data dog: http://www.datadoghq.com/
-.. _dogapi: http://pydoc.datadoghq.com/en/latest/
 .. _Segment: https://segment.com/
