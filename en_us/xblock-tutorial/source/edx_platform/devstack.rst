@@ -20,67 +20,55 @@ Prerequisites
 Before proceeding with the steps to deploy your XBlock, ensure the following
 requirements are met.
 
-* Devstack is running. For instructions, see the :ref:`installation:Starting
-  the Open edX Developer Stack`.
+* Devstack is running. For instructions, see the :ref:`installation:Installing and Updating Devstack`.
 
 * Ensure you have the XBlock directory in a location you can access from the
-  devstack Vagrant instance.
+  devstack containers (e.g. `edx-platform/src/``).
 
 *******************
-Install the XBlock
+Installing the XBlock
 *******************
 
-#. Use SSH to access the devstack Vagrant instance.
+The following instructions will help you install a XBlock on your OpenEdX
+devstack. Since LMS and Studio run on separate Docker containers, you will need
+to install the XBlock to the virtual environments of both containers.
+
+.. note::
+  These steps consider you're running the Docker based Devstack provisioned at
+  ``~/devstack_workspace/``.
+
+
+#. From your devstack folder (``~/devstack_workspace/devstack``), enter the LMS container shell:
 
    .. code-block:: bash
 
-      $ vagrant ssh
+      $ make lms-shell
 
-#. Install the XBlock.
-
-   .. code-block:: bash
-
-      vagrant@precise64:~$ sudo -u edxapp /edx/bin/pip.edxapp install /path/to/your/block
-
-**************************************
-Enable the XBlock in the edX Platform
-**************************************
-
-#. In the file ``edx-platform/lms/envs/common.py``, ensure the following lines
-   are not commented out::
-
-     from xmodule.x_module import prefer_xmodules
-     XBLOCK_SELECT_FUNCTION = prefer_xmodules
-     .. first line not there. obsolete?
-
-#. In the file ``edx-platform/cms/envs/common.py``, ensure the following lines
-   are not commented out::
-
-     from xmodule.x_module import prefer_xmodules
-     XBLOCK_SELECT_FUNCTION = prefer_xmodules
-
-
-************************
-Start the LMS and Studio
-************************
-
-#. Start the LMS server.
+#. Install the XBlock on ``edx-platform`` virtual enviroment:
 
    .. code-block:: bash
 
-      edxapp@precise64:~$ paver devstack lms
+      root@7beb9df53150:/edx/app/edxapp/edx-platform# pip install path/to/xblock
 
-#. Start the Studio server.
+#. Use ``C-d`` to exit the LMS shell and enter Studio shell with:
 
-   .. code-block:: bash
+    .. code-block:: bash
 
-      edxapp@precise64:~$ paver devstack studio
+       $ make studio-shell
+
+#. Install the XBlock in the same way you've installed it on LMS:
+
+  .. code-block:: bash
+
+     root@7beb9df53150:/edx/app/edxapp/edx-platform# pip install path/to/xblock
+
+After this, you'll be able to enable and add the XBlock to your course.
 
 ********************************
 Enable the XBlock in Your Course
 ********************************
 
-You must enable the XBlock in each course in which you intend to use it.
+To use a XBlock, you must enable it in each course in which you intend to use it.
 
 #.  Log in to Studio.
 
