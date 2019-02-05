@@ -67,9 +67,6 @@ the publishing status of that content.
 If you have modified the course start date, when you create a new section, the
 default release date is the course start date.
 
-On the Studio **Course Outline** page, each unscheduled section appears with a
-gray bar next to the section display name.
-
 To make the content available to learners, you must schedule the release date.
 
 ==========
@@ -79,12 +76,6 @@ Scheduled
 A section that is scheduled for release on a future date will not be visible to
 learners until after the release date. Regardless of the publishing status of
 content within the section, the entire section will not visible to learners.
-
-The following example shows how a section that is scheduled for release
-displays in the outline, summarized with a green bar.
-
-On the Studio **Course Outline** page, each scheduled section appears with a
-green bar next to the section display name.
 
 The scheduled date must pass for the section to be visible to learners.
 
@@ -96,19 +87,12 @@ A section that is released is visible to learners; however, learners see only
 subsections within the section that are also released, and units that are
 published.
 
-On the Studio **Course Outline** page, each released section appears with a
-blue bar next to the section display name.
-
 ==================================
 Released with Unpublished Changes
 ==================================
 
 If you change a unit in a released section but do not publish the changes,
 learners see the last published version of the modified unit.
-
-On the Studio **Course Outline** page, each released section that has
-unpublished changes appears with a yellow bar next to the section display name.
-When you expand the section, the unit that has unpublished changes is visible.
 
 You must publish the unit for learners to see the updates.
 
@@ -119,9 +103,6 @@ Staff Only Content
 A section can contain a unit that is hidden from learners and available to
 members of the course team only. That unit is not visible to learners,
 regardless of the release date of the section or subsection.
-
-On the Studio **Course Outline** page, each section that includes a unit with
-staff only content appears with a black bar next to the section display name.
 
 .. _Create a Section:
 
