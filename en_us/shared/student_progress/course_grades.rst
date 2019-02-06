@@ -89,9 +89,8 @@ learners in your course affect how long this process takes. You can download a
 report of the calculated grades in a comma-separated values (.csv) file when
 the grading process is complete.
 
-For courses with fewer than 200 learners enrolled, you also have the option to
-review learner grades on the instructor dashboard. For more information, see
-:ref:`gradebook`.
+You also have the option to review learner grades on the instructor dashboard.
+For more information, see :ref:`gradebook`.
 
 To generate and download the grade report for the learners in your course,
 follow these steps.
@@ -361,51 +360,40 @@ provide the following information.
 
 .. _gradebook:
 
-*************************************
-Review Learner Grades (Small Courses)
-*************************************
+*************************************************
+Review Learner Grades on the Instructor Dashboard
+*************************************************
 
-For courses with enrollments of up to 200 learners, you can review a gradebook
-on the instructor dashboard. To review grades for a small course, follow these
-steps.
+You can review a gradebook for a course on the instructor dashboard. To
+review grades for a course, follow these steps.
 
 #. View the live version of your course.
 
-#. Select **Instructor**, and then select **Student Admin**. For courses with
-   fewer than 200 learners, this page includes a **View gradebook for
-   enrolled learners** section.
+#. Select **Instructor**, and then select **Student Admin**. 
 
-#. Select **View Gradebook**. Grades are calculated and the gradebook displays.
+#. Select **View Gradebook**. Grades are calculated and the Gradebook displays.
 
-   .. image:: ../../../shared/images/Student_Gradebook.png
-     :alt: Course gradebook with rows for learners and columns for assignment
-         types.
+   .. image:: ../../../shared/images/Learner_Gradebook.png
+     :alt: Course gradebook with rows for learners and columns for assignments.
 
+The gradebook displays a table, with a row for each learner enrolled in the
+course, listed by user name, and a column for each assignment in the course. 
 The gradebook includes the following features.
 
-* You can select the username in each row to review that learner's **Course
-  Progress** page. For more information, see :ref:`check_student_progress`.
+* You can choose whether to view grades as a percent, from 0% to 100%, or as an
+  absolute score (for example, 10 out of 14).
 
-* There is a column for each **{assignment type} {number}** defined in your
-  grading configuration, with the scores that the learner attained for that
-  specific assignment.
+* You can filter the columns displayed in the gradebook by assignment type.
 
-  The gradebook does not have a scroll bar, but it can be dragged: to see
-  columns that are hidden at one side of the grade book, select the gradebook
-  and then drag left or right to reveal those columns.
+* You can filter the learners displayed in the gradebook by enrollment type 
+  (for example, verified, audit, or all learners) or by cohort. 
 
-* For assignment types that include more than one assignment, an **{assignment
-  type} Avg** column displays each learner's current average score for that
-  assignment type, modified by the assignment weight.
+* You can search for individual learners by their user name, using the search
+  field. Searches are case-insensitive.
 
-* The **Total** column presents the total score that each learner has currently
-  attained in the course. This value is expressed as a whole number: a learner
-  with a grade of 65 has earned 65% of the credit in the course, and a learner
-  with a grade of 100 has earned 100%.
-
-* To filter the data that displays you can use the **Search students** option.
-  This option is case-sensitive and limits the rows shown in the gradebook to
-  usernames that match your entry.
+* You can change, or override, the grade that a learner has received for a 
+  specific subsection. For information about how to do this, see 
+  :ref:`Override in Gradebook`.
 
 
 .. _check_student_progress:
@@ -539,12 +527,13 @@ after learners have attempted to answer it, we recommend that you rescore the
 changed problem so that learners' grades are updated.
 
 You can adjust an individual learner's score for a problem using either the
-**Staff Debug Info** option in the course or on the **Student Admin** tab of
-the instructor dashboard in the LMS. To adjust the scores for all enrolled
-learners at once, you use the options on the **Student Admin** tab of the
-instructor dashboard in the LMS. If you use the options in the instructor
-dashboard, you need to :ref:`obtain the unique location identifier<find_URL>`
-of the problem.
+**Staff Debug Info** option in the course, the gradebook that you can access
+from the **Student Admin** tab of the instructor dashboard in the LMS,  or on
+the **Student Admin** tab of the instructor dashboard in the LMS. To adjust
+the scores for all enrolled learners at once, you use the options on the
+**Student Admin** tab of the instructor dashboard in the LMS. If you use the
+options in the instructor dashboard **Student Admin** tab, you need to 
+:ref:`obtain the unique location identifier<find_URL>` of the problem.
 
 The following sections describe the various ways in which you can adjust
 learners' scores when you cannot avoid making a correction or other change to
@@ -563,19 +552,47 @@ Override a Learner's Score for a Problem
 In some cases, you might want to change, or override, the score that Studio has
 given a learner for a specific problem. For example, you might receive an email
 message that explains extenuating circumstances for a learner. You can change
-an individual learner's score for a problem using either the instructor
-dashboard or the Staff Debug viewer for the problem.
+an individual learner's score for a problem using either the instructor 
+dashboard Gradebook, the instructor dashboard **Student Admin** page, or the 
+Staff Debug viewer for the problem.
 
-Override a Learner's Score Using the Instructor Dashboard
-************************************************************
+.. _Override in Gradebook:
+
+Override a Learner's Subsection Score Using the Instructor Dashboard Gradebook
+******************************************************************************
+
+To override a learner's score for a specific subsection by using the instructor
+dashboard Gradebook, follow these steps.
+
+#. View the live version of your course in the LMS.
+
+#. Select **Instructor**, and then select **Student Admin**.
+
+#. Select **View Gradebook.**
+
+#. Enter the learner's user name in the **Search** field.
+
+#. Click the score for the assignment that you want to modify. The **Edit 
+   Grades** dialog opens, displaying the assignment name, the learner's user
+   name, and the current grade for the assignment.
+
+   .. image:: ../../../shared/images/Gradebook_Edit_Grades.png
+     :alt: The Edit Grades dialog, which enables you to adjust a learner's
+           grade for an assignment.
+
+#. In the **Adjusted grade** field, enter the new grade for the learner on this
+   assignment and select **Save Grade**.
+
+Override a Learner's Score Using the Instructor Dashboard Student Admin
+***********************************************************************
 
 To override a learner's score for a specific problem by using the instructor
-dashboard, follow these steps.
+dashboard Student Admin page, follow these steps.
 
 #. Obtain the location identifier for the problem that you want to rescore.
    For more information, see :ref:`find_URL`.
 
-#. View the live version of your course.
+#. View the live version of your course in the LMS.
 
 #. Select **Instructor**, and then select **Student Admin**.
 

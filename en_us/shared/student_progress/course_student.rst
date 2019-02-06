@@ -40,10 +40,9 @@ Accessing Learner Data
 ****************************
 
 In the LMS, you can download data about the individuals who are currently
-enrolled in your course in a .csv (comma-separated values) file. For courses
-that have fewer than 200 learners enrolled, you can also view data for enrolled
-learners on the instructor dashboard. For more information, see :ref:`View and
-download student data`.
+enrolled in your course in a .csv (comma-separated values) file. You can also
+view data for enrolled learners on the instructor dashboard. For more
+information, see :ref:`View and download student data`.
 
 For information about course enrollment, see :ref:`Enrollment`.
 
@@ -62,7 +61,7 @@ After learners create an account, they can enroll in as many individual courses
 as they choose.
 
 * The learner data that is available from the instructor dashboard reflects the
-  set of live, current enrollments. Data for the course team, wha are also
+  set of live, current enrollments. Data for the course team, who are also
   enrolled in the course, is included.
 
 * Learners can enroll in your course throughout the defined enrollment period,
@@ -177,9 +176,8 @@ Download or View Learner Data
 ==========================================
 
 You can download a report of learner data to gain more information about the
-individuals who are enrolled in your course. For courses with fewer than 200
-learners enrolled, you also have the option to view learner data on the
-instructor dashboard.
+individuals who are enrolled in your course. You also have the option to view
+learner data on the instructor dashboard.
 
 Download Learner Data
 ***********************
@@ -214,12 +212,10 @@ View Learner Data
 
 To view learner data, follow these steps.
 
-.. note:: This option is available only for courses with an enrollment of less
- than 200.
 
 #. View the live version of your course.
 
-#. Select **Instructor**, and then select **Data Download**.
+#. Select **Instructor**, and then select **Student Admin**.
 
 #. To display data about enrolled learners, select **List enrolled students'
    profile information**.
