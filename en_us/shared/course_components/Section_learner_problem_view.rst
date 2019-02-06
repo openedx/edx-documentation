@@ -77,7 +77,11 @@ an option is available in problems.
    problem. If a learner selects **Show Answer**, the learner sees both the
    correct answer and the explanation, if any.
 
-9. **Feedback.** After a learner selects **Submit**, an icon appears beside
+   If you specify a number in **Show Answer: Number of Attempts**, the learner
+   must submit at least that number of attempted answers before the **Show 
+   Answer** option is available for the problem.
+
+#. **Feedback.** After a learner selects **Submit**, an icon appears beside
    each response field or selection within a problem. A green check mark
    indicates that the response was correct, a green asterisk (*) indicates that
    the response was partially correct, and a red X indicates that the response

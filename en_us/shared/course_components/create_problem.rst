@@ -553,6 +553,16 @@ options define when the answer is shown to learners.
        does not include a correct answer to show to learners, make sure you
        select **Never**.
 
+.. _Show Answer Number of Attempts:
+
+===============================
+Show Answer: Number of Attempts
+===============================
+
+This setting limits when learners can select the **Show Answer** option for a 
+problem. Learners must submit at least the specified number of attempted
+answers for the problem before the **Show Answer** option is available to them.
+
 .. _Show Reset Button:
 
 =================
