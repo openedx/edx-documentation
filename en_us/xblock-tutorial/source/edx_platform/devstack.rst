@@ -25,9 +25,9 @@ requirements are met.
 * Ensure you have the XBlock directory in a location you can access from the
   devstack containers (e.g. `edx-platform/src/``).
 
-*******************
+*********************
 Installing the XBlock
-*******************
+*********************
 
 The following instructions will help you install a XBlock on your OpenEdX
 devstack. Since LMS and Studio run on separate Docker containers, you will need
