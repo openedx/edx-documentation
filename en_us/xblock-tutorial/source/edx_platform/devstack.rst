@@ -38,8 +38,7 @@ to install the XBlock to the virtual environments of both containers.
   ``~/devstack_workspace/``.
 
 
-#. From your devstack folder (``~/devstack_workspace/devstack``), enter the LMS
-container shell:
+#. From your devstack folder (``~/devstack_workspace/devstack``), enter the LMS container shell:
 
    .. code-block:: bash
 
@@ -63,8 +62,7 @@ container shell:
 
      root@7beb9df53150:/edx/app/edxapp/edx-platform# pip install path/to/xblock
 
-#. To make sure the XBlock is available, you will need to restart both LMS and
-Studio:
+#. To make sure the XBlock is available, you will need to restart both LMS and Studio:
 
 .. code-block:: bash
 
