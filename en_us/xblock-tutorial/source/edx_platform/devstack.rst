@@ -54,19 +54,20 @@ to install the XBlock to the virtual environments of both containers.
 
    .. code-block:: bash
 
-     $ make studio-shell
+      $ make studio-shell
 
 #. Install the XBlock in the same way you've installed it on LMS:
 
    .. code-block:: bash
 
-     root@7beb9df53150:/edx/app/edxapp/edx-platform# pip install path/to/xblock
+      root@7beb9df53150:/edx/app/edxapp/edx-platform# pip install path/to/xblock
 
 #. To make sure the XBlock is available, you will need to restart both LMS and Studio:
 
    .. code-block:: bash
 
-     $ make lms-restart && make studio-restart
+      $ make lms-restart && make studio-restart
+
 
 After this, you'll be able to enable and add the XBlock to your course.
 
