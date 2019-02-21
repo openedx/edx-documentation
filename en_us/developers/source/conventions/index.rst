@@ -8,6 +8,5 @@ Writing Good Code
     :maxdepth: 2
 
     accessibility
-    preventing_xss
     django
 

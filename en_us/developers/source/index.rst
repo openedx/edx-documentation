@@ -17,5 +17,6 @@ Open edX Developer's Guide
    deploy-new-service
    conventions/index
    internationalization/index
+   preventing_xss/index
    style_guides/index
    glossary

@@ -181,6 +181,11 @@ The resulting safe page source is as follows.
 This time, the browser will not interpret the ``<script>`` tag as a JavaScript
 context, and instead simply displays the original string in the page.
 
+Stripping HTML Tags
+~~~~~~~~~~~~~~~~~~~
+
+See :ref:`Preventing XSS by Stripping HTML Tags` for help with stripping HTML tags, which can be useful in cases where you want to remove certain tags rather than having them appear escaped.
+
 
 JavaScript Context and Escaping
 ===============================
@@ -364,14 +369,7 @@ Django Template Files
 
 .. highlight:: django
 
-Django templates are considered "safe by default", meaning that expressions
-are HTML-escaped by default. HTML-escaping is not always the right choice for
-escaping, for example, with embedded JavaScript.
-
-If you need to do special escaping for internationalization or a JavaScript
-context in a Django template, you will need to follow the patterns detailed in
-:ref:`Safe Mako Template Files`, but we don't currently offer documented helper
-functions or syntax for Django templates.
+See :ref:`Preventing XSS in Django Templates`.
 
 
 .. _Safe Mako Template Calls:
@@ -640,6 +638,18 @@ For more information, see `Mako: Defs and Blocks <http://docs.makotemplates.org/
 
 JavaScript Files
 ================
+
+.. _Safe React Files:
+
+React (JSX) files
+~~~~~~~~~~~~~~~~~
+
+New front-end code should use React, which is detailed in :ref:`Preventing XSS in React`.
+
+Legacy JavaScript files
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. note:: The following instructions detail legacy technologies that have been deprecated, but are still actively used in edx-platform. For new code, see :ref:`Safe React Files`.
 
 .. highlight:: javascript
 
@@ -1685,3 +1695,4 @@ To learn more about XSS in general, see the following references.
 * `OWASP: XSS (Cross Site Scripting) Prevention Cheat Sheet <https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet>`_
 * `OWASP: DOM based XSS Prevention Cheat Sheet <https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet>`_
 * `OWASP: XSS Filter Evasion Cheat Sheet <https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet>`_
+* A good article on `Input Validation in Python <https://ipsec.pl/python/2017/input-validation-free-form-unicode-text-python.html>`__. You must still use proper escaping on output!
