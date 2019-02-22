@@ -51,9 +51,15 @@ list of requirements to be sure that your pull request is ready to be reviewed:
    multiple bugfixes) should not be bundled into one pull request. A handful of
    small pull requests is much better than one large pull request.
 
-#. Structure your pull request into logical commits. "Fixup" commits should be
-   squashed together. The best pull requests contain only a single, logical
-   change -- which means only a single, logical commit.
+#. Structure your pull request into logical commits. "Fixup" commits
+   should be squashed together. The best pull requests contain only a
+   single, logical change -- which means only a single, logical
+   commit. The person merging the pull request may choose to squash
+   all commits to reduce the number of commits in the master
+   branch. They will do so by using the `Squash and merge` button of
+   the GitHub interface to preserve the logical commits in the pull
+   request, for forensic purposes when trying to diagnose a regression
+   or understand a bug.
 
 #. All code in the pull request must be compatible with edX's AGPL license.
    This means that the author of the pull request must sign a `contributor's
