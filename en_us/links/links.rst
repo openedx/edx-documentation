@@ -582,7 +582,9 @@
 
 .. _User Retirement: https://user-retirement-guide.readthedocs.io/en/latest/index.html
 
-.. _Open edX Release Notes: http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/hawthorn.html
+.. _Open edX Release Notes: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html
+
+.. _Ironwood: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html#ironwood
 
 .. _Password Policy: https://github.com/edx/edx-platform/wiki/Optional-Password-Policy-Enforcement
 
