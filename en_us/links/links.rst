@@ -218,7 +218,9 @@
 
 .. EDX WIKI LINKS
 
-.. _Open edX Releases Wiki page: https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/11108700/Open+edX+Releases
+.. _Open edX Releases Wiki page: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html
+
+.. _Open edX Named Releases page: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html
 
 .. _Release Pages: https://openedx.atlassian.net/wiki/pages/viewpage.action?pageId=12550314
 
@@ -582,7 +584,7 @@
 
 .. _User Retirement: https://user-retirement-guide.readthedocs.io/en/latest/index.html
 
-.. _Open edX Release Notes: http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/hawthorn.html
+.. _Open edX Release Notes: http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/ironwood.html
 
 .. _Password Policy: https://github.com/edx/edx-platform/wiki/Optional-Password-Policy-Enforcement
 
