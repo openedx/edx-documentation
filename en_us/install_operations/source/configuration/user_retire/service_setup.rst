@@ -130,10 +130,11 @@ application and client credentials, as in the following command.
    ./manage.py lms --settings=<your-settings> manage_user $user_name $user_name@example.com --staff --superuser
    ./manage.py lms --settings=<your-settings> create_dot_application $app_name $user_name
 
-..note:: The client credentials (client ID and client secret) will be printed to the
-terminal, so take this opportunity to copy them for future reference. You
-will use these credentials to configure the driver scripts. For more
-information, see :ref:`driver-setup`.
+.. note::
+   The client credentials (client ID and client secret) will be printed to the
+   terminal, so take this opportunity to copy them for future reference. You
+   will use these credentials to configure the driver scripts. For more
+   information, see :ref:`driver-setup`.
 
 The retirement service user needs permission to perform retirement tasks, and
 that is done by specifying the ``RETIREMENT_SERVICE_WORKER_USERNAME`` variable
