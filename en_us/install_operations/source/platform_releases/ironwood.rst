@@ -32,7 +32,7 @@ the `Open edX Releases Wiki page`_.
 Installing the Ironwood Release
 *******************************
 
-You can install the Open edX Hawthorn release using either 
+You can install the Open edX Ironwood release using either 
 :ref:`Devstack <Installing the Open edX Developer stack>` or  the `Open edX 
 Native Installation`_ instructions.
 
@@ -49,7 +49,7 @@ The recommended approach to upgrading an existing installation of the Open edX
 Hawthorn release to the Ironwood release is to make a fresh installation of the
 Hawthorn release on a new machine, and move your data and settings to it.
 
-To move and upgrade your Ginkgo data onto a Hawthorn installation, follow these
+To move and upgrade your Hawthorn data onto an Ironwood installation, follow these
 steps.
 
 #. Be sure that your Hawthorn installation is on the latest 
@@ -118,7 +118,7 @@ steps.
         $ /edx/app/edx_ansible/edx_ansible/util/install/sandbox.sh --tags migrate
 
 #. Copy your configuration files from the Hawthorn machine to the Ironwood
-    machine.
+   machine.
 
 #. Restart all services.
 
