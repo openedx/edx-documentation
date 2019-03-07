@@ -17,6 +17,12 @@ features.
   :local:
   :depth: 1
 
+.. only:: Open_edX
+
+  You can also configure Open edX so that courses or course outlines are visible 
+  to anyone, not just registered and enrolled learners. For information, see 
+  :ref:`installation:Enable Public Course Content`. 
+
 
 .. _Release Dates:
 
