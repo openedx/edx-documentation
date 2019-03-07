@@ -28,7 +28,7 @@ Configuring the Transcript Feature Flag
   Platform`.
 
 To set the ``FALLBACK_TO_ENGLISH_TRANSCRIPTS`` feature flag, you modify the
-``lms.env.json`` and ``cms.env.json``files, which are located one level above
+``lms.env.json`` and ``cms.env.json`` files, which are located one level above 
 the ``edx-platform`` directory.
 
 #. In the ``lms.env.json`` and ``cms.env.json`` files, in the ``FEATURES``
