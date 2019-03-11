@@ -20,6 +20,7 @@ configuration options.
    enable_badging
    enable_certificates
    enable_pacing
+   enable_public_course
    enable_ccx
    enable_custom_course_settings
    enable_discussion_notifications
