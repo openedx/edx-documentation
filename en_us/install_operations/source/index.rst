@@ -7,8 +7,10 @@ Installing, Configuring, and Running the Open edX Platform: Ironwood Release
 This guide provides instructions for using your own instance of the Open edX
 platform and associated applications.
 
-This document applies to the most recent release of the Open edX 
-platform, the :ref:`Ironwood <Open edX Ironwood Release>`.
+This document applies to :ref:`Ironwood <Open edX
+Ironwood Release>`, which is the most recent release of the Open edX 
+platform. This document also contains instructions for installing Open edX 
+releases.
 
 You can install any release of the Open edX platform. For most situations, edX
 recommends that you install the most recent release. However, if your

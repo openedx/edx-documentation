@@ -1,8 +1,8 @@
 .. _Open edX Learner's Guide:
 
-##########################################
-Open edX Learner's Guide: Ironwood Release
-##########################################
+########################
+Open edX Learner's Guide
+########################
 
 .. toctree::
    :numbered:

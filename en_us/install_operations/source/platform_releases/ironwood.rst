@@ -37,7 +37,7 @@ You can install the Open edX Ironwood release using either
 Native Installation`_ instructions.
 
 Ironwood releases have git tag names like ``open-release/Ironwood.1``.
-The available names are detailed on the `Open edX Releases Wiki page`_.
+The available names are detailed on the `Open edX Named Releases page`_.
 
 .. _upgrade_hawthorn:
 
