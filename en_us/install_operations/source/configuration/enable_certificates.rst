@@ -371,11 +371,11 @@ for eligible learners.
 #. Run ``manage.py`` with the following settings, replacing ``{CourseID}``
    with the actual course ID. Do not include beginning or trailing slashes.
 
-   ``./manage.py lms --settings=aws ungenerated_certs -c {CourseID}``
+   ``./manage.py lms --settings=production ungenerated_certs -c {CourseID}``
 
    For example,
 
-   ``./manage.py lms --settings=aws ungenerated_certs -c course-v1:edX+demoX_Demo_2015``.
+   ``./manage.py lms --settings=production ungenerated_certs -c course-v1:edX+demoX_Demo_2015``.
 
    .. Note::
      If the LMS is running on a server that does not have https support (such
@@ -386,6 +386,6 @@ for eligible learners.
 #. View the certificate generation status for a course using
    ``gen_cert_report``. An example follows.
 
-   ``./manage.py lms --settings=aws gen_cert_report -c course-v1:edX+demoX_Demo_2015``.
+   ``./manage.py lms --settings=production gen_cert_report -c course-v1:edX+demoX_Demo_2015``.
 
 .. include:: ../../../links/links.rst
