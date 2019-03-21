@@ -10,6 +10,7 @@ platform.
 .. toctree::
    :maxdepth: 2
 
+   ironwood
    hawthorn
    ginkgo
    ficus
