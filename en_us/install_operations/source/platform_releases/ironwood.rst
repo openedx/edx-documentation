@@ -1,77 +1,65 @@
-.. _Open edX Hawthorn Release:
+.. _Open edX Ironwood Release:
 
 #########################
-Open edX Hawthorn Release
+Open edX Ironwood Release
 #########################
 
-This section describes how to install the Open edX Hawthorn release.
+This section describes how to install the Open edX Ironwood release.
 
 .. contents::
  :local:
  :depth: 1
 
 ****************************
-What's Included in Hawthorn
+What's Included in Ironwood
 ****************************
 
-The Open edX Hawthorn release contains several new features for learners,
+The Open edX Ironwood release contains several new features for learners,
 course teams, and developers. For more information, see the 
 `Open edX Release Notes`_.
 
-=======================
-User Retirement Feature
-=======================
-
-The Hawthorn release also includes the new user retirement feature, which is a 
-set of APIs and tooling that enables Open edX instances to retire registered 
-users. There have been many changes to privacy laws (for example, GDPR or the 
-European Union General Data Protection Regulation) intended to change the way 
-that businesses think about and handle Personally Identifiable Information 
-(PII) data. The user retirement feature is a step toward enabling Open edX to 
-support some of the key updates in privacy laws. For more information, see 
-`retirement`_.
 
 ******************************
-What Is the Hawthorn Git Tag?
+What Is the Ironwood Git Tag?
 ******************************
 
-A git tag identifies the version of Open edX code that is the Hawthorn release.
+A git tag identifies the version of Open edX code that is the Ironwood release.
 About two dozen repositories are tagged as part of an Open edX release. Many 
 other repositories are installed as dependencies of those repositories. You can 
 find the most up-to-date git tag for the current Open edX release on
 the `Open edX Releases Wiki page`_.
 
 *******************************
-Installing the Hawthorn Release
+Installing the Ironwood Release
 *******************************
 
-You can install the Open edX Hawthorn release using either 
+You can install the Open edX Ironwood release using either 
 :ref:`Devstack <Installing the Open edX Developer stack>` or the the `Open edX 
 Native Installation`_ instructions.
 
-Hawthorn releases have git tag names like ``open-release/hawthorn.1``.
+Ironwood releases have git tag names like ``open-release/ironwood.1``.
 The available names are detailed on the `Open edX Releases Wiki page`_.
 
-.. _upgrade_ginkgo:
+.. _upgrade_hawthorn:
 
-**********************************
-Upgrading from the Ginkgo Release
-**********************************
+***********************************
+Upgrading from the Hawthorn Release
+***********************************
 
 The recommended approach to upgrading an existing installation of the Open edX
-Ginkgo release to the Hawthorn release is to make a fresh installation of the
-Hawthorn release on a new machine, and move your data and settings to it.
+Hawthorn release to the Ironwood release is to make a fresh installation of the
+Ironwood release on a new machine, and move your data and settings to it.
 
-To move and upgrade your Ginkgo data onto a Hawthorn installation, follow these
+To move and upgrade your Hawthorn data onto a Ironwood installation, follow these
 steps.
 
-#. Be sure that your Ginkgo installation is on the latest 
-   ``open-release/ginkgo.master``. This ensures that your database is fully 
-   migrated and ready for upgrade to Hawthorn.
+#. Be sure that your Hawthorn installation is on the latest 
+   ``open-release/hawthorn.master``. This ensures that your database is fully 
+   migrated and ready for upgrade to Ironwood.
 
-#. Stop all services on the Ginkgo machine.
+#. Stop all services on the Hawthorn machine.
 
-#. Dump the data on the Ginkgo machine. Here's an example script that will dump
+#. Dump the data on the Hawthorn machine. Here's an example script that will dump
    the MySQL and Mongo databases into a single ``.tgz`` file.  The script will
    prompt for the MySQL and Mongo passwords as needed.
 
@@ -97,11 +85,11 @@ steps.
 
         tar -czf openedx-data-${NOW}.tgz ${SQL_FILE} mongo-dump-${NOW}
 
-#. Copy the ``.tgz`` data file to the Hawthorn machine.
+#. Copy the ``.tgz`` data file to the Ironwood machine.
 
-#. Stop all services on the Hawthorn machine.
+#. Stop all services on the Ironwood machine.
 
-#. Restore the Ginkgo data into the Hawthorn machine. As an example, you might
+#. Restore the Hawthorn data into the Ironwood machine. As an example, you might
    use the following commands.
 
     .. code-block:: bash
@@ -111,8 +99,8 @@ steps.
         $ mongorestore -u admin -p -h localhost --authenticationDatabase admin --drop -d edxapp mongo-dump-20170811T154750/edxapp
         $ mongorestore -u admin -p -h localhost --authenticationDatabase admin --drop -d cs_comment_service mongo-dump-20170811T154750/cs_comment_service_development
 
-#. To migrate data from Ginkgo to Hawthorn, you need to drop the database
-   tables used by djcelery. These tables should be empty in your Ginkgo data,
+#. To migrate data from Hawthorn to Ironwood, you need to drop the database
+   tables used by djcelery. These tables should be empty in your Hawthorn data,
    so it is safe to drop them. The edx-platform application has a management
    command to check that they are empty and drop them:
 
@@ -123,32 +111,31 @@ steps.
         edxapp@xyz:~$ cd edx-platform/
         edxapp@xyz:~/edx-platform$ python manage.py lms drop_djcelery_tables --settings=aws
 
-#. Run the Hawthorn migrations, which will update your Ginkgo data to be
-   valid for Hawthorn:
+#. Run the Ironwood migrations, which will update your Hawthorn data to be
+   valid for Ironwood:
 
     .. code-block:: bash
 
         $ /edx/app/edx_ansible/edx_ansible/util/install/sandbox.sh --tags migrate
 
-#. Copy your configuration files from the Ginkgo machine to the Hawthorn
+#. Copy your configuration files from the Hawthorn machine to the Ironwood
     machine.
 
 #. Restart all services.
 
-
 ******************************************
-Upgrading to a Subsequent Hawthorn Release
+Upgrading to a Subsequent Ironwood Release
 ******************************************
 
-Occasionally, we release updates to Hawthorn.  For example, the second
-release of Hawthorn will be ``open-release/hawthorn.2``.
+Occasionally, we release updates to Ironwood.  For example, the second
+release of Ironwood will be ``open-release/ironwood.2``.
 The steps to upgrade differ based on your original installation method.
 
 ================================
 Upgrading a Docker Installation
 ================================
 
-Devstack is installed using Docker. To upgrade from one Hawthorn
+Devstack is installed using Docker. To upgrade from one Ironwood
 release to another, follow the instructions in :ref:`Updating Devstack`.
 
 ===============================
@@ -156,8 +143,8 @@ Upgrading a Native Installation
 ===============================
 
 If you installed Open edX using the `Open edX Native Installation`_, you can
-upgrade from one Hawthorn release to another by re-running those steps using
-your desired Hawthorn tag as the new value for ``OPENEDX_RELEASE``.
+upgrade from one Ironwood release to another by re-running those steps using
+your desired Ironwood tag as the new value for ``OPENEDX_RELEASE``.
 
 
 .. include:: ../../../links/links.rst
