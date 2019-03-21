@@ -115,7 +115,7 @@ steps.
         $ sudo su - -s /bin/bash edxapp
         edxapp@xyz:~$ . edxapp_env
         edxapp@xyz:~$ cd edx-platform/
-        edxapp@xyz:~/edx-platform$ python manage.py lms drop_djcelery_tables --settings=production
+        edxapp@xyz:~/edx-platform$ python manage.py lms drop_djcelery_tables --settings=aws
 
 #. Run the Ginkgo migration script, which will update your Ficus data to be valid
    for Ginkgo:
