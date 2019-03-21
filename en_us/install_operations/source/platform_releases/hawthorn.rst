@@ -124,7 +124,7 @@ steps.
         edxapp@xyz:~/edx-platform$ python manage.py lms drop_djcelery_tables --settings=aws
 
 #. Run the Hawthorn migrations, which will update your Ginkgo data to be
-   valid for Ginkgo:
+   valid for Hawthorn:
 
     .. code-block:: bash
 
@@ -135,9 +135,6 @@ steps.
 
 #. Restart all services.
 
-.. _django_hawthorn:
-
->> ANYTHING ABOUT DJANGO 1.11?
 
 ******************************************
 Upgrading to a Subsequent Hawthorn Release
