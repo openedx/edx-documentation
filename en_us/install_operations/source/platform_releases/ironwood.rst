@@ -14,7 +14,7 @@ This section describes how to install the Open edX Ironwood release.
 What's Included in Ironwood
 ****************************
 
-The Open edX Hawthorn release contains several new features for learners,
+The Open edX Ironwood release contains several new features for learners,
 course teams, and developers. For more information, see the 
 `Open edX Release Notes`_.
 
@@ -135,7 +135,7 @@ The steps to upgrade differ based on your original installation method.
 Upgrading a Docker Installation
 ================================
 
-Devstack is installed using Docker. To upgrade from one Hawthorn
+Devstack is installed using Docker. To upgrade from one Ironwood
 release to another, follow the instructions in :ref:`Updating Devstack`.
 
 ===============================

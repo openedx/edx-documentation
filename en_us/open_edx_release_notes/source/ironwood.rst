@@ -122,8 +122,8 @@ Expanded Language Support for course experience
 
 We have added support for beta languages on the platform. These languages
 become a selectable option in the account settings dropdown alongside fully
-supported languages. If a learner selects a beta language they are shown a
-message letting them know support for this language is partial and makes to
+supported languages. If a learner selects a beta language, they are shown a
+message letting them know support for this language is partial and makes it
 easy to revert their language or head over to transifex to help translate the
 platform into that language as a member of that language team. 
 
@@ -141,10 +141,10 @@ public outline, or public.
 * Public Outline (redirects learners to the course outline page and shows the outline only)
 * Public (lets learners view HTML & Video content in the course, but hides unsupported XBlocks - such as problems and inline discussions)
 
-Feature Based Enrollments (FBE)
--------------------------------
+Feature Based Enrollments
+-------------------------
 
-Feature Based Enrollments, the basis of edX.org’s new revenue model - is
+Feature Based Enrollments, the basis of edX.org’s new revenue model, is
 available in Ironwood. FBE allows you to differentiate what features are
 available to audit learners (free track). With this enabled, audit learners
 will have access to core course content – videos, reading, discussion forums,
@@ -185,9 +185,8 @@ applications, including initial support for iOS 11’s recently introduced
 Dynamic Text Type sizing and scaling. This change means learners who have set
 their device text size to being larger now have that setting expressed within
 the open edX mobile application. Additionally, the mobile application now
-provides clarity into when learner’s will lose access to a course. More details
-around this are included in the Feature Based Enrollments update included
-below.  
+provides clarity into when learners will lose access to a course. More details
+around this are included in the `Feature Based Enrollments`_ update.  
 
 Developer Facing Mobile Changes
 -------------------------------
