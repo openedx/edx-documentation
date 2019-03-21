@@ -154,7 +154,7 @@ steps.
 
    If the check mark does not appear, make sure that celery is configured
    correctly and is running. You can also manually trigger an update by running
-   the management command ``./manage.py lms saml --pull --settings=aws`` on
+   the management command ``./manage.py lms saml --pull --settings=production`` on
    fullstack or ``./manage.py lms saml --pull --settings=devstack`` on
    devstack.
 
