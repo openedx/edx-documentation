@@ -69,13 +69,13 @@ technology and accessibility specialists.
 The following resources might also assist you in producing accessible course
 content.
 
-* `User Agent Accessibility Guidelines (UAAG) 1.0 <http://www.w3.org/WAI/intro/uaag.php#whatis>`_
-* `Authoring Tool Accessibility Guidelines (ATAG) 2.0 <http://www.w3.org/WAI/intro/atag.php>`_
-* `WAI-ARIA (Accessible Rich Internet Applications) <http://www.w3.org/WAI/intro/aria.php>`_
-* `WCAT2ICT <http://www.w3.org/WAI/intro/wcag2ict>`_
+* `User Agent Accessibility Guidelines (UAAG) <https://www.w3.org/WAI/standards-guidelines/uaag/#user-agent-accessibility-guidelines-uaag>`_
+* `Authoring Tool Accessibility Guidelines (ATAG) <https://www.w3.org/WAI/standards-guidelines/atag/#atag>`_
+* `WAI-ARIA (Accessible Rich Internet Applications) <https://www.w3.org/WAI/standards-guidelines/aria/#introduction>`_
+* `WCAT2ICT <http://www.w3.org/WAI/standards-guidelines/wcag/non-web-ict/>`_
 * `EPUB 3.0 <http://idpf.org/epub/30>`_
 * `DAISY Consortium <http://www.daisy.org/>`_
-* `MathJax <http://www.mathjax.org>`_
+* `MathJax <https://www.mathjax.org>`_
 * `MathML <http://www.w3.org/Math/>`_
 
 While your ability to support students in the MOOC context might be different

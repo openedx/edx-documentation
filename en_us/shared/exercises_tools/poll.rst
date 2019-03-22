@@ -68,8 +68,8 @@ Create a Poll
 
    - To do this on a Windows computer, you need to download a third-party
      program. For more information, see `How to Unpack a tar File in Windows
-     <http://www.haskell.org/haskellwiki/How_to_unpack_a_tar_file_in_Windows>`_,
-     `How to Extract a Gz File <http://www.wikihow.com/Extract-a-Gz-File>`_,
+     <https://www.haskell.org/haskellwiki/How_to_unpack_a_tar_file_in_Windows>`_,
+     `How to Extract a Gz File <https://www.wikihow.com/Extract-a-Gz-File>`_,
      `The gzip Home Page <http://www.gzip.org/>`_, or the `Windows
      <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/#windows>`_
      section of the `How to Open .tar.gz Files
@@ -128,10 +128,6 @@ Create a Poll
 #. After you add the poll code, save and close the .xml file.
 
 #. Re-package your course as a .tar.gz file.
-
-   * For information about how to do this on a Mac, see `How to Create a Tar GZip File from the Command Line <http://osxdaily.com/2012/04/05/create-tar-gzip/>`_.
-
-   * For information about how to do this on a Windows computer, see `How to Make a .tar.gz on Windows <http://stackoverflow.com/questions/12774707/how-to-make-a-tar-gz-on-windows>`_.
 
 #. In Studio, re-import your course. You can now review the poll question and
    answers that you added in Studio.

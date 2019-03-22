@@ -19,7 +19,7 @@ create web pages. Web browsers present HTML code in a more readable format.
 
 When students see text and images in your course, they are seeing HTML code
 that is formatted and presented by their browsers. For more information about
-HTML, see `Wikipedia <http://en.wikipedia.org/wiki/HTML>`_.
+HTML, see `Wikipedia <https://en.wikipedia.org/wiki/HTML>`_.
 
 ===================
 HTML Components

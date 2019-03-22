@@ -175,7 +175,7 @@ To set the section release date, follow these steps.
    The time that you set is in Coordinated Universal Time (UTC). You might want
    to verify that you have specified the time that you intend by using a time
    zone converter such as `Time and Date Time Zone Converter
-   <http://www.timeanddate.com/worldclock/converter.html>`_.
+   <https://www.timeanddate.com/worldclock/converter.html>`_.
 
 #. Select **Save**.
 

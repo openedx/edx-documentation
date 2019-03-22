@@ -53,7 +53,7 @@ Course team members can access content that has not been released by
    When you set release times in Studio, times are in Coordinated Universal
    Time (UTC). You might want to verify that you have specified the times that
    you intend by using a time zone converter such as `Time and Date Time Zone
-   Converter <http://www.timeanddate.com/worldclock/converter.html>`_.
+   Converter <https://www.timeanddate.com/worldclock/converter.html>`_.
 
    Learners who have specified a time zone in their account settings see course
    dates and times converted to their specified time zone. Learners who have

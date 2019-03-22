@@ -18,7 +18,7 @@ learners in an online course.
   :depth: 2
 
 For more information about the Peer Instruction learning system, consult the
-resources of the `Mazur Group`_ or the `Turn to Your Neighbor`_ blog.
+`Turn to Your Neighbor`_ blog.
 
 *********************
 Assignment Overview

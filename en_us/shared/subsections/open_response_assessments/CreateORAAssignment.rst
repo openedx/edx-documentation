@@ -203,7 +203,7 @@ assessment feature. For more information, see
 * The times that you set are in Coordinated Universal Time (UTC). To verify
   that you have specified the times that you intend, use a time zone converter
   such as `Time and Date Time Zone Converter
-  <http://www.timeanddate.com/worldclock/converter.html>`_.
+  <https://www.timeanddate.com/worldclock/converter.html>`_.
 
 To specify a name for the assignment as well as start and due dates for all
 learner responses, follow these steps.
@@ -409,7 +409,7 @@ To specify peer assessment settings, follow these steps.
      The times that you set are in Coordinated Universal Time (UTC). To verify
      that you have specified the times that you intend, use a time zone
      converter such as `Time and Date Time Zone Converter
-     <http://www.timeanddate.com/worldclock/converter.html>`_.
+     <https://www.timeanddate.com/worldclock/converter.html>`_.
 
      Additionally, the course grace period setting does not apply to open
      response assessments. For more information about the grace period setting,
@@ -438,7 +438,7 @@ the step starts and ends.
      The times that you set are in Coordinated Universal Time (UTC). To verify
      that you have specified the times that you intend, use a time zone
      converter such as `Time and Date Time Zone Converter
-     <http://www.timeanddate.com/worldclock/converter.html>`_.
+     <https://www.timeanddate.com/worldclock/converter.html>`_.
 
      Additionally, the course grace period setting does not apply to open
      response assessments. For more information about the grace period setting,

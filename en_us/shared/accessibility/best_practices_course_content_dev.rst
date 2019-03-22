@@ -103,7 +103,7 @@ color corrected as effectively as HTML text. Whenever possible, use the default
 font and color defined in the edX platform, which was designed to be easy to
 read. If you choose to override default font colors, make sure that the
 foreground and background colors have `sufficient contrast
-<https://leaverou.github.io/contrast-ratio/>`_.
+<https://contrast-ratio.com/>`_.
 
 For audio elements, make sure that foreground sounds are sufficiently louder
 than background sounds.
@@ -358,12 +358,12 @@ Accessible Images Resources
 * `W3C WAI Images Tutorial <http://www.w3.org/WAI/tutorials/images/>`_
 
 * `HTML5 - Requirements for providing text to act as an alternative for images
-  <http://www.w3.org/TR/html5/embedded-content-0.html#alt>`_
+  <https://www.w3.org/TR/html5/semantics-embedded-content.html#alt-text>`_
 
-* `WebAim <http://webaim.org/techniques/alttext/>`_ provides general guidance
+* `WebAim <https://webaim.org/techniques/alttext/>`_ provides general guidance
   on the appropriate use of alternative text for images.
 
-* `The DIAGRAM Center <http://www.diagramcenter.org/webinars.html>`_,
+* `The DIAGRAM Center <http://diagramcenter.org/diagramwebinars.html>`_,
   established by the US Department of Education (Office of Special Education
   Programs), provides guidance on ways to make it easier, faster, and more
   cost effective to create and use accessible images.
@@ -386,7 +386,7 @@ Whenever possible, create course materials in HTML format, using the tools
 available to you in edX Studio. When you make digital textbooks (ebooks)
 available within your course, ask digital book publishers for books in either
 `DAISY <https://en.wikipedia.org/wiki/DAISY_Digital_Talking_Book>`_ or `EPUB 3
-<https://en.wikipedia.org/wiki/EPUB#Version_3.0.1_.28current_version.29>`_
+<https://en.wikipedia.org/wiki/EPUB#Version_3.0.1>`_
 format, or both. Both of these digital book formats include unparalleled
 support for accessibility. However, simply supporting accessibility does not
 always mean a document will be accessible. When you source ebooks from third
@@ -513,18 +513,18 @@ Accessible PDF Resources
 * Adobe provides documentation on how to `create and verify PDF accessibility
   <https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html>`_.
 
-* `Adobe Accessibility <http://www.adobe.com/accessibility.html>`_ (Adobe) is a
+* `Adobe Accessibility <https://www.adobe.com/accessibility.html>`_ (Adobe) is a
   comprehensive collection of resources on PDF authoring and repair, using
   Adobe's products.
 
-* `PDF Accessibility <http://webaim.org/techniques/acrobat/>`_ (WebAIM)
+* `PDF Accessibility <https://webaim.org/techniques/acrobat/>`_ (WebAIM)
   provides a detailed and illustrated guide on creating accessible PDFs .
 
 * The National Center of Disability and Access to Education has a collection
   of one-page `"cheat sheets" on accessible document authoring <http://ncdae.org/resources/cheatsheets/>`_.
 
 * The Accessible Digital Office Document (ADOD) Project provides guidance on
-  `creating accessible Office documents <http://adod.idrc.ocad.ca/>`_.
+  `creating accessible Office documents <https://adod.idrc.ocad.ca/>`_.
 
 =====================================================
 Creating Accessible Word Documents
@@ -654,7 +654,7 @@ Accessible PowerPoint Resources
   presentations-6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25>`_.
 
 * WebAIM's `PowerPoint Accessibility
-  <http://webaim.org/techniques/powerpoint/>`_.
+  <https://webaim.org/techniques/powerpoint/>`_.
 
 * Microsoft tool that allows you to `check Powerpoint documents for
   accessibility issues <https://support.office.com/en-us/article/Check-for-
@@ -703,16 +703,16 @@ directly in LaTeX using the `LaTeX Source Compiler
 Accessible Mathematical Content Resources
 ======================================================
 
-* `The MathJax website <http://www.mathjax.org>`_ provides guidance on creating
+* `The MathJax website <https://www.mathjax.org>`_ provides guidance on creating
   accessible pages using their display engine.
 
-* The `DO-IT project <http://www.washington.edu/doit/are-there-guidelines-creating-accessible-math?465=>`_ from the University of Washington provides guidance on creating accessible math content.
+* The `DO-IT project <https://www.washington.edu/doit/are-there-guidelines-creating-accessible-math?465=>`_ from the University of Washington provides guidance on creating accessible math content.
 
-* `The AccessSTEM website <http://www.washington.edu/doit/programs/accessstem/overview>`_
+* `The AccessSTEM website <https://www.washington.edu/doit/programs/accessstem/overview>`_
   provides guidance on creating accessible science, technology, engineering
   and math educational content.
 
-* The `Design Science News blog <http://news.dessci.com/accessible-math>`_
+* `Design Science <https://www.dessci.com/en/solutions/access/>`_
   shares information about making math accessible.
 
 .. _Best Practices for Custom Content Types:
@@ -835,13 +835,13 @@ creating accessible HTML.
 Accessible Custom Content Resources
 ======================================================
 
-* `Effective Practices for Description of Science Content within Digital Talking Books <http://ncam.wgbh.org/experience_learn/educational_media/stemdx>`_, from the National Center for Accessible Media, provides best practices for describing graphs, charts, diagrams, and illustrations.
+* `Provide access to digital publications <http://ncamftp.wgbh.org/ncam-old-site/invent_build/web_multimedia/accessible-digital-media-guide/guideline-d-digital-publicatio.html>`_, from the National Center for Accessible Media, provides best practices for describing graphs, charts, diagrams, and illustrations.
 
-* `AccessSTEM <http://www.washington.edu/doit/programs/accessstem/overview>`_
+* `AccessSTEM <https://www.washington.edu/doit/programs/accessstem/overview>`_
   provides guidance on creating accessible science, technology, engineering
   and math educational content.
 
-* The National Center on Educational Outcomes (NCEO) provides `Principles and Characteristics of Inclusive Assessment and Accountability Systems <http://www.cehd.umn.edu/nceo/onlinepubs/Synthesis40.html>`_.
+* The National Center on Educational Outcomes (NCEO) provides `Principles and Characteristics of Inclusive Assessment and Accountability Systems <https://www.cehd.umn.edu/nceo/onlinepubs/Synthesis40.html>`_.
 
 .. _Creating Accessible Media:
 
@@ -852,7 +852,7 @@ Create Accessible Media
 Media-based course materials help to convey concepts and can bring course
 information to life. We require all videos in edX courses to include timed text
 captions in `SubRip (SRT) format
-<https://en.wikipedia.org/wiki/SubRip#SubRip_text_file_format>`_. The edX media
+<https://en.wikipedia.org/wiki/SubRip>`_. The edX media
 player displays caption files in an interactive sidebar that benefits a variety
 of learners, including learners who are hard of hearing or whose native
 language differs from the primary language of the media. This built-in
@@ -884,7 +884,7 @@ Simply review the recorded video and update the script as needed. Proper
 editing should maintain both the original meaning, content, and essential
 vocabulary. Text captions can be uploaded to YouTube along with the video to
 create a timed text file in `SubRip (SRT) format
-<https://en.wikipedia.org/wiki/SubRip#SubRip_text_file_format>`_. Otherwise,
+<https://en.wikipedia.org/wiki/SubRip>`_. Otherwise,
 you will need to create the timed text caption file yourself or engage someone
 to do it. There are many companies that will create timed text captions
 (captions that synchronize the text with the video using time codes) for a fee.
@@ -937,8 +937,8 @@ Accessible Media Resources
 =====================================================
 
 * `Accessible Digital Media Guidelines <http://ncam.wgbh.org/invent_build/web_multimedia/accessible-digital-media-guide>`_ provides detailed advice on creating online video and audio with accessibility in mind.
-* `Captioning Key <https://dcmp.org/public_content/ai/captioningkey/index.html>`_ by the National Association for the Deaf provides excellent guidance on creating described and captioned media.
-* `Transcription, Captioning and Subtitling Standards <http://www.3playmedia.com/2014/05/06/transcription-captioning-subtitling-standards/>`_ by 3PlayMedia discusses best practices in this recorded webinar and white paper.
+* `Captioning Key <http://captioningkey.org/quality_captioning.html>`_ by the National Association for the Deaf provides excellent guidance on creating described and captioned media.
+* `Closed Captioning & Subtitling Standards in IP Video Programming <https://www.3playmedia.com/2016/06/16/closed-captioning-subtitling-standards-in-ip-video-programming/>`_ by 3PlayMedia discusses best practices in this recorded webinar and white paper.
 
 .. _Best Practices for HTML Markup:
 
@@ -1004,11 +1004,11 @@ Keep the following guidelines in mind when you create HTML content.
 HTML Markup Resources
 ====================================================
 
-* `Creating Semantic Structure <http://webaim.org/techniques/semanticstructure/>`_
+* `Creating Semantic Structure <https://webaim.org/techniques/semanticstructure/>`_
   provides guidance on reflecting the semantic structure of a web page in
   the underlying markup (WebAIM).
 
-* `Creating Accessible Tables <http://webaim.org/techniques/tables/data>`_
+* `Creating Accessible Tables <https://webaim.org/techniques/tables/data>`_
   provides specific guidance on creating data tables with the appropriate
   semantic structure so that screen readers can correctly present the
   information (WebAIM).
@@ -1059,8 +1059,6 @@ guidelines.
 =======================================
 Universal Design for Learning Resources
 =======================================
-
-* `Delivering Accessible Digital Learning (JISC Techdis) <http://www.jisctechdis.ac.uk/techdis/resources/accessiblecontent>`_ provides a useful overview of an inclusive approach to course design.
 
 * `The National Center on Universal Design for Learning <http://www.udlcenter.org/implementation/postsecondary>`_ provides a helpful overview on Universal Design for Learning.
 

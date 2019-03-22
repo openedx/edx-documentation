@@ -116,5 +116,5 @@ your request and make any adjustments before you start your exam.
   status, you automatically receive a score of 0 for the exam. For most
   courses, you are no longer eligible for academic credit.
 
-  If you have questions about your proctoring exam status, go to http://edx.org
+  If you have questions about your proctoring exam status, go to https://edx.org
   to contact edX Support, or consult your course team.
