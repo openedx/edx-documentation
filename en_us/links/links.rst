@@ -389,7 +389,7 @@
 
 .. _How to add Closed Captions to an Office Mix: https://officemix.uservoice.com/knowledgebase/articles/505262-how-to-add-closed-captions-to-an-office-mix
 
-.. _W3C CSS color specification: https://www.w3.org/TR/css3-color/
+.. _W3C CSS color specification: https://www.w3.org/TR/css-color-3/
 
 .. _ESLint: https://openedx.atlassian.net/wiki/display/FEDX/ESLint
 
@@ -500,9 +500,7 @@
 
 .. Peer Instruction
 
-.. _Mazur Group: http://mazur.harvard.edu/research/detailspage.php?ed=1&rowid=8
-
-.. _Turn to Your Neighbor: https://blog.peerinstruction.net/
+.. _Turn to Your Neighbor: https://peerinstruction.wordpress.com/
 
 .. _OAuth 2.0 Standard: https://tools.ietf.org/html/draft-ietf-oauth-v2-31
 

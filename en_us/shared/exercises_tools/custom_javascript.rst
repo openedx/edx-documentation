@@ -77,9 +77,8 @@ Create a Custom JavaScript Display and Grading Problem
    The example problem uses the file ``jschannel.js`` to bypass the SOP.
 
    For more information, see the same-origin policy page on the `Mozilla
-   Developer Network site <https://developer.mozilla.org/en-
-   US/docs/Web/JavaScript/Same_origin_policy_for_JavaScript>`_ or on
-   `Wikipedia <http://en.wikipedia.org/wiki/Same_origin_policy>`_.
+   Developer Network site <https://developer.mozilla.org/en-US/docs/Web/Security/>`_ 
+   or on `Wikipedia <https://en.wikipedia.org/wiki/Same_origin_policy>`_.
 
 
 ========================================

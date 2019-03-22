@@ -28,8 +28,8 @@ graded or used to store student data. If you want to add a graded tool or
 exercise, add the tool as a :ref:`custom JavaScript problem<Custom JavaScript>`
 or an :ref:`LTI component<LTI Component>`.
 
-For more information about iframes, see the `HTML/Elements/iframe specification
-<http://www.w3.org/wiki/HTML/Elements/iframe>`_.
+For more information about iframes, see the `iframe: The Inline Frame element
+<https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe>`_.
 
 ****************************
 Create an IFrame Tool
@@ -146,5 +146,5 @@ elements below affect the iframe.
    :alt: Iframe with only the top half showing but no scroll bar available.
    :width: 500
 
-For more information about iframe attributes, see the `HTML/Elements/iframe
-specification <http://www.w3.org/wiki/HTML/Elements/iframe>`_.
+For more information about iframe attributes, see 
+`iframe: The Inline Frame element <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe>`_.

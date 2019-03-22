@@ -78,7 +78,7 @@ Studio.
 
 For more information, see the `Creative Commons website`_.
 
-.. _Creative Commons website: http://creativecommons.org/licenses
+.. _Creative Commons website: https://creativecommons.org/licenses
 
 .. _Set Course Content Licensing:
 
