@@ -42,15 +42,14 @@ Adding Graded or Ungraded Problems
 
 When you :ref:`establish the grading policy<Grading Index>` for your course,
 you define the assignment types that count toward learners' grades: for
-example, homework, labs, midterm, final, and ungraded. You specify
+example, homework, labs, midterm, final, and participation. You specify
 one of these assignment types for each of the subsections in your course.
 
 As you develop your course, you can add problem components to a unit in any
 subsection. The problem components that you add automatically inherit the
 assignment type that is defined at the subsection level. For example, all of
-the problem components that you add to a unit in an ungraded subsection are
-ungraded, all of the problem components that you add to a unit in the midterm
-subsection are graded, and so on.
+the problem components that you add to a unit in the midterm
+subsection are graded.
 
 For more information, see :ref:`Set the Assignment Type and Due Date for a
 Subsection`.
