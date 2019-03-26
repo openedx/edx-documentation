@@ -145,22 +145,22 @@ copyright = '{year}, edX Inc.'.format(year=datetime.datetime.now().year)
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
-    'opencoursestaff' : ('http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/', None),
-    'data' : ('http://edx.readthedocs.io/projects/devdata/en/latest/', None),
-    'partnercoursestaff': ('http://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/', None),
-    'insights' : ('http://edx.readthedocs.io/projects/edx-insights/en/latest/', None),
-    'xblockapi' : ('http://edx.readthedocs.io/projects/xblock/en/latest/', None),
-    'xblocktutorial' : ('http://edx.readthedocs.io/projects/xblock-tutorial/en/latest/', None),
-    'installation' : ('http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/', None),
-    'olx' : ('http://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/', None),
-    'learners' : ('http://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/', None),
-    'openlearners' : ('http://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/', None),
-    'opendevelopers' : ('http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/', None),
-    'opendataapi' : ('http://edx.readthedocs.io/projects/edx-data-analytics-api/en/latest/', None),
-    'openreleasenotes' : ('http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/', None),
-    'partnerreleasenotes': ('http://edx.readthedocs.io/projects/edx-release-notes/en/latest/', None),
-    '2014releasenotes' : ('http://edx.readthedocs.io/projects/edx-2013-2014-release-notes/en/latest/', None),
-    'retirement' : ('http://user-retirement-guide.readthedocs.io/en/latest/', None)
+    'opencoursestaff' : ('https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/', None),
+    'data' : ('https://edx.readthedocs.io/projects/devdata/en/latest/', None),
+    'partnercoursestaff': ('https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/', None),
+    'insights' : ('https://edx.readthedocs.io/projects/edx-insights/en/latest/', None),
+    'xblockapi' : ('https://edx.readthedocs.io/projects/xblock/en/latest/', None),
+    'xblocktutorial' : ('https://edx.readthedocs.io/projects/xblock-tutorial/en/latest/', None),
+    'installation' : ('https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/', None),
+    'olx' : ('https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/', None),
+    'learners' : ('https://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/', None),
+    'openlearners' : ('https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/', None),
+    'opendevelopers' : ('https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/', None),
+    'opendataapi' : ('https://edx.readthedocs.io/projects/edx-data-analytics-api/en/latest/', None),
+    'openreleasenotes' : ('https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/', None),
+    'partnerreleasenotes': ('https://edx.readthedocs.io/projects/edx-release-notes/en/latest/', None),
+    '2014releasenotes' : ('https://edx.readthedocs.io/projects/edx-2013-2014-release-notes/en/latest/', None),
+    'retirement' : ('https://user-retirement-guide.readthedocs.io/en/latest/', None)
 
 }
 

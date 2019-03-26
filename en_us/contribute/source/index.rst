@@ -56,8 +56,8 @@ understand the entire codebase to make a contribution. The success criteria for
 completing these tickets are very clear. These are great for anyone new to the
 edX platform because the barrier to entry is low.
 
-    #. Find an INCR ticket to work on from the INCR Epics section of the INCR 
-       project dashboard. The INCR tickets are grouped together into JIRA epic 
+    #. Find an INCR ticket to work on from the INCR Epics section of the
+       `INCR project dashboard`_. The INCR tickets are grouped together into JIRA epic
        tickets.
     #. Select an epic from the dashboard and navigate to **Stories in this epic** 
        to see all of the tasks associated with it.
@@ -66,6 +66,8 @@ edX platform because the barrier to entry is low.
        starting it, so that other developers are less likely to duplicate your work.
     #. Click **Start watching this issue** to get email about any future 
        updates to the ticket.
+
+.. _INCR project dashboard: https://openedx.atlassian.net/secure/Dashboard.jspa?selectPageId=18935
 
 ************
 Get to Work!
