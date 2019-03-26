@@ -31,6 +31,12 @@ group that each learner has been assigned to. For more information, see
 For information about analyzing events from content experiments, see
 :ref:`data:AB_Event_Types` in the *EdX Research Guide*.
 
+.. important::
+
+  Due to an issue in the edX mobile apps, content experiments do not display 
+  correctly in the mobile apps. Blocks created with Content Experiment 
+  components display in the mobile app with a "Group ID" label. 
+
 
 .. _Courses with Multiple Content Experiments:
 
