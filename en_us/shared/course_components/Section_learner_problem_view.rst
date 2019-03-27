@@ -111,9 +111,7 @@ have the following elements.
 * **Explanation.** You can include an explanation that appears when a learner
   selects **Show Answer**.
 
-* **Grading.** You can specify whether a group of problems is graded. If a
-  group of problems is graded, an icon of a pen and a piece of paper is
-  shown for that assignment in the course navigation pane.
+* **Grading.** You can specify whether a group of problems is graded.
 
 * **Due date.** The date that the problem is due. Learners cannot submit
   answers for problems whose due dates have passed, although they can select
