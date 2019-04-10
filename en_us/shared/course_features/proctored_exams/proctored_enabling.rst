@@ -159,6 +159,13 @@ Prevent Learners from Opting Out of Proctored Exams
   to take proctored exams without proctoring, you can change a setting on the
   **Advanced Settings** page in Studio.
 
+.. note::
+   If a learner opts to take an exam without proctoring, the exam will not be 
+   timed either. In effect, learners who opt out of proctoring will have 
+   unlimited time to complete the exam and could return to problem sets at 
+   any time. You can reduce the ability to view the exam by selecting a due 
+   date for the exam.
+
 To remove the option for learners to opt out of proctored exams in your course,
 follow these steps.
 
