@@ -47,7 +47,7 @@ Upgrading from the Hawthorn Release
 
 The recommended approach to upgrading an existing installation of the Open edX
 Hawthorn release to the Ironwood release is to make a fresh installation of the
-Hawthorn release on a new machine, and move your data and settings to it.
+Ironwood release on a new machine, and move your data and settings to it.
 
 To move and upgrade your Hawthorn data onto an Ironwood installation, follow these
 steps.
