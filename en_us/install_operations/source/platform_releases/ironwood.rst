@@ -116,7 +116,7 @@ steps.
 
     .. code-block:: bash
 
-        $ /edx/app/edx_ansible/edx_ansible/util/install/sandbox.sh --tags migrate
+        $ /edx/app/edx_ansible/edx_ansible/util/install/native.sh --tags migrate
 
 #. Copy your configuration files from the Hawthorn machine to the Ironwood
     machine.
