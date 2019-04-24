@@ -6,11 +6,17 @@
 edX Browser Support
 ####################
 
-Most current browsers will work on edX.org. For best performance, we recommend, 
-and fully support, only the latest versions of: 
+Most current browsers will work on edX.org. For best performance, we recommend the latest versions of:
 
 * `Chrome`_
 * `Firefox`_
+
+We also support the latest versions of:
+
+* `Microsoft Edge`_
+* `Microsoft Internet Explorer`_
+* `Safari`_
+
 
 .. note:: If you use the Safari browser, be aware that it does not support the
  search feature for the guides on `docs.edx.org`_. This is a known limitation.
