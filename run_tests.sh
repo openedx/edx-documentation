@@ -34,6 +34,7 @@ projects=($@)
 if [ ${#projects[@]} -eq 0 ]
 then
     projects=(
+        "en_us/contribute"
         "en_us/course_authors"
         "en_us/data"
         "en_us/developers"

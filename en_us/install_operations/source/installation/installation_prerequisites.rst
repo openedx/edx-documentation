@@ -35,6 +35,8 @@ Software Prerequisites
 
 Devstack and Analytics Devstack require the following software.
 
+* Linux or macOS.  Windows is not yet supported, although you may be able
+  to install Devstack in a Linux virtual machine running under Windows.
 * `make`_
 * `Docker`_ 17.06 CE or later. We recommend Docker Stable, but Docker Edge
   should work as well.
@@ -46,7 +48,7 @@ Mac takes care of this requirement.
 Allocate Sufficient Resources to Docker
 =======================================
 
-Since a Docker-based Devstack runs many containers, you should configure Docker with a sufficient amount of resources. We find that configuring Docker for Mac with a minimum of 2 CPUs and 6GB of memory works well. For more information, see the `Docker documentation`_.
+Since a Docker-based Devstack runs many containers, you should configure Docker with a sufficient amount of resources. We find that configuring Docker for Mac with a minimum of 2 CPUs and 8GB of memory does work. For more information, see the `Docker documentation`_.
 
 ======================
 Use overlay2 on Linux
