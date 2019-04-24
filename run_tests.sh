@@ -34,7 +34,8 @@ projects=($@)
 if [ ${#projects[@]} -eq 0 ]
 then
     projects=(
-        "en_us/course_authors"
+       "en_us/contribute"
+       "en_us/course_authors"
         "en_us/data"
         "en_us/developers"
         "en_us/edx_style_guide"
@@ -43,9 +44,7 @@ then
         "en_us/open_edx_course_authors"
         "en_us/open_edx_release_notes"
         "en_us/open_edx_students"
-        "en_us/ORA2"
         "en_us/students"
-        "en_us/user_retirement"
     )
 fi
 
