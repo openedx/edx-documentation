@@ -86,6 +86,12 @@ To install Devstack, follow these steps.
 #. (macOS only) Share the cloned service directories in Docker, using
    **Docker -> Preferences -> File Sharing** in the Docker menu.
 
+#. Pull any changes made to the various images on which the devstack depends.
+
+   .. code-block:: bash
+
+    make pull
+
 #. Run the provision command to configure the various services with superusers
    (for development without the auth service) and tenants (for multi-tenancy).
 
@@ -98,6 +104,9 @@ To install Devstack, follow these steps.
     .. code-block:: bash
 
      make dev.provision
+
+   This is expected to take tens of minutes, produce large amounts of console
+   output, and finally end with ``Provisioning complete!``
 
 The default username and password for the superusers are both ``edx``. You can
 access the services directly using Django admin at the ``/admin/`` path, or
