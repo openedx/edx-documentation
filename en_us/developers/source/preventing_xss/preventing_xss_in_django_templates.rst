@@ -32,14 +32,6 @@ Approach 1:
 
     {% trans "somestring" as tmsg %}{{ tmsg | force_escape }}
 
-Approach 2:
-
-.. code::
-
-    {% filter force_escape %}
-        {% trans "somestring" %} 
-    {% endfilter %}
-
 Blocktrans Example:
 ^^^^^^^^^^^^^^^^^^^
 
