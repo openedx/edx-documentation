@@ -88,5 +88,5 @@ problems during an exam, see `Technical problems during a proctored exam`_ in
 the edX Help Center.
 
 
-.. include:: ../../../../links/links.rst
+.. include:: ../../../links/links.rst
 

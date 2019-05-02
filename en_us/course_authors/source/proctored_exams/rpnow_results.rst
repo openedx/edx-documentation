@@ -1,8 +1,8 @@
-.. _Proctored Session Results:
+.. _RP Proctored Session Results:
 
-#################################
-Viewing Proctored Session Results
-#################################
+############################################
+Viewing Proctored Session Results with RPNow
+############################################
 
 To view proctored exam results, you use the :ref:`Proctored Exam Results
 report<Viewing Proctored Session Results>`. This report is a .csv file that you
@@ -27,7 +27,7 @@ sections.
   :local:
   :depth: 1
 
-.. _Viewing Proctored Session Results:
+.. _Viewing RPNow Proctored Session Results:
 
 *********************************************
 Download the Proctored Exam Results Report
@@ -80,7 +80,7 @@ steps.
 #. When the download is complete, open the .csv files in a spreadsheet
    application to sort, graph, and compare data.
 
-.. _Proctored Session Results File:
+.. _RPNow Proctored Session Results File:
 
 ********************************************
 Interpret the Proctored Exam Results Report
@@ -146,7 +146,7 @@ The Proctored Exam Results report contains the following fields.
      - The comments that Software Secure entered for each "Rules Violation"
        incident, separated by semicolons (;).
 
-.. _Proctoring Results Status Column:
+.. _RPNow Proctoring Results Status Column:
 
 ===============================
 Values in the ``status`` Column
@@ -280,7 +280,7 @@ column.
        the learner is no longer eligible for academic credit.
 
 
-.. _Determine if Learner Passed Proctoring Review:
+.. _Determine if Learner Passed RPNow Proctoring Review:
 
 *******************************************************
 Determine if a Learner Passed the Proctored Exam Review
