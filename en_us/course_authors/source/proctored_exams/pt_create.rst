@@ -83,12 +83,17 @@ steps.
 
 #. In the course outline, select **Proctoring Settings**.
    
-   A Verificient Proctortrack dashboard opens in a new browser window. 
+   The Verificient Proctortrack dashboard opens in a new browser window. 
 
-#. In the Proctortrack dashboard, select the rules that you want to enforce for 
-   the proctored exam.
+#. In the Proctortrack dashboard, open the **Manage Configurations > Exceptions 
+   > Identify Verification** tab. Select the rules that you want to enforce for 
+   the proctoring Onboarding subsection of your course and disable 
+   the rules that you do not want to enforce.
 
-#. Select **Save**.
+#. Open the **Manage Configurations > Exceptions > Test Settings** tab. Select 
+   the rules that you want to enforce for the proctored exam and disable 
+   the rules that you do not want to enforce.
+
 
 
 
