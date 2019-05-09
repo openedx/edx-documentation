@@ -9,7 +9,7 @@ Building and Running an Open edX Course: Ironwood Release
    :maxdepth: 2
 
    front_matter/index
-   CA_get_started_Studio
+   getting_started/index
    CA_dashboard_profile_SectionHead
    reaching_learners/index
    accessibility/index
