@@ -95,6 +95,20 @@ can push changes to GitHub.  You can update your local clone if necessary via:
 
     git remote set-url origin <URL from "Clone or download" button of your fork>
 
+
+Remember to add the original Open edX repository as your upstream remote.
+
+  .. code-block:: bash
+
+    git remote add upstream <URL from "Clone or download" button of Open edX repository>
+
+Pull the latest version of the code to prevent you from encountering conflicts when you send a Pull Request.
+
+  .. code-block:: bash
+
+    git pull upstream master
+
+
 ****************
 Getting Support
 ****************
