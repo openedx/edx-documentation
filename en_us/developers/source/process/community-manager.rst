@@ -24,7 +24,7 @@ pull requests. For each pull request, a community manager should:
    to build their own component separately. Then close the pull request.
 
 #. Check that the author of the pull requests has submitted a
-   `contributor's agreement`_, added name to AUTHORS file, and any other
+   `contributor's agreement`_ and completed any other
    necessary administrivia (our bot will make an automated comment if this is not
    properly in place). If not, inform author of problems and wait for them to fix it.
 
