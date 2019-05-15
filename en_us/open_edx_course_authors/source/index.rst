@@ -1,7 +1,7 @@
 .. _Building and Running an Open edX Course:
 
 #########################################################
-Building and Running an Open edX Course: Hawthorn Release
+Building and Running an Open edX Course: Ironwood Release
 #########################################################
 
 .. toctree::
