@@ -516,6 +516,38 @@ point scores from ungraded sections are called "Practice Scores".
    learners resubmit responses to the changed problem.
 
 
+
+
+.. _grant_extensions:
+
+
+************************************************
+Grant Due Date Extensions for a Specific Learner
+************************************************
+
+You can extend graded subsection due dates for individual learners.
+
+This can be used to support special circumstances, personal emergencies, and disabilities accommodations. 
+
+Instructions
+
+To extend a deadline for a learner, visit the **Extensions** tab on the **Instructor Dashboard**
+
+1. Look up learner by email address or username
+2. Choose the graded subsection from the dropdown
+3. Enter new due date 
+4. Specify the reason for the extension
+5. Click **Change due date for student**
+
+
+You can also use this tab to **View** all deadlines or **Reset** a deadline.
+
+What courses is this feature available for?
+
+All new courses. If you need this feature for an older course, please contact your PM.
+
+
+
 .. _Adjust_grades:
 
 ****************************************
