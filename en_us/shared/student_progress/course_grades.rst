@@ -544,7 +544,7 @@ You can also use this tab to **View** all deadlines or **Reset** a deadline.
 
 What courses is this feature available for?
 
-All new courses. If you need this feature for an older course, please contact your PM.
+All new courses. If you need this feature for an older course, please contact your edX Project Coordinator.
 
 
 
