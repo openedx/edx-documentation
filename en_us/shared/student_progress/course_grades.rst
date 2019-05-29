@@ -530,6 +530,7 @@ You can extend graded subsection due dates for individual learners.
 This can be used to support special circumstances, personal emergencies, and disabilities accommodations. 
 
 Instructions
+============
 
 To extend a deadline for a learner, visit the **Extensions** tab on the **Instructor Dashboard**
 
