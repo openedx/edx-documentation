@@ -13,4 +13,4 @@ EdX Enterprise API Guide
     intro_edx_apis
     authentication
     api_reference/reference
-
+    reporting_services/reference
