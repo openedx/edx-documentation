@@ -525,10 +525,13 @@ point scores from ungraded sections are called "Practice Scores".
 Grant Due Date Extensions for a Specific Learner
 ************************************************
 
-You can extend graded subsection due dates for individual learners.
+We’re providing a way to allow extending subsection due dates per individual learner.
 
-This can be used to support special circumstances, personal emergencies, and disabilities accommodations. 
+This could be used to support special circumstances, personal emergencies, and disabilities accommodations.
 
+*Note: This feature currently only extends assignment due dates - it does not cover other due dates - e.g. for Open Response Assessments*
+
+============
 Instructions
 ============
 
@@ -541,11 +544,9 @@ To extend a deadline for a learner, visit the **Extensions** tab on the **Instru
 5. Click **Change due date for student**
 
 
-You can also use this tab to **View** all deadlines or **Reset** a deadline.
+You can also use this tab to **view all deadlines** or **reset a deadline**.
 
-What courses is this feature available for?
-
-All new courses. If you need this feature for an older course, please contact your edX Project Coordinator.
+*This feature is supported in courses published after June 1, 2019. To enable for an older course, first Publish the course from Studio. If you have questions, please contact your edX Project Coordinator.*
 
 
 
