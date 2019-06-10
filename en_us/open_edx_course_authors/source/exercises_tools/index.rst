@@ -58,6 +58,7 @@ For information about building specific course component types, see
    qualtrics
    randomized_content_blocks
    recommenderXBlock
+   staffgraded
    survey
    text_input
    word_cloud
