@@ -70,10 +70,11 @@ learners will to find, and make, mistakes.
 
 However, beta testers are not the same as other learners in the course,
 either. They have privileged access to the course and have more time to review
-and complete the course materials than the enrolled learners do. Course
-discussions are not open before the course start date, so beta testers cannot
-participate in community conversations. As a result of these differences, beta
-testers do not receive certificates when they complete a course.
+and complete the course materials than the enrolled learners do. Beta testers
+can access the course indefinitely and are able to access all graded assignments.
+Course discussions are not open before the course start date, so beta testers
+cannot participate in community conversations. As a result of these differences,
+beta testers do not receive certificates when they complete a course.
 
 .. note:: If one of your beta testers wishes to earn a certificate for the
  course, she must create a separate user account with a different username and
