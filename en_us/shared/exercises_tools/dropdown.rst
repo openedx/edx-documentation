@@ -67,7 +67,7 @@ field empty.
 .. note:: You separate :ref:`multiple questions<Multiple Problems in
   One Component>` in a problem component with three hyphen (``---``)
   characters. You can separate the answer options with either comma (``,``)
-  characters or new lines. Each question can have a single correct answer.
+  characters or new lines. Each question can ONLY have a single correct answer.
 
 The OLX markup for this example problem follows.
 
