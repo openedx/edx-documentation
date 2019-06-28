@@ -7,8 +7,8 @@ Dropdown Problem
 .. note:: EdX offers full support for this problem type.
 
 The dropdown problem type is a core problem type that can be added to any
-course. At a minimum, dropdown problems include a question or prompt and
-several answer options. By adding hints, feedback, or both, you can give
+course. Dropdown problems include a question or prompt and
+several answer options with a single correct answer. By adding hints, feedback, or both, you can give
 learners guidance and help when they work on a problem.
 
 .. contents::
@@ -26,6 +26,8 @@ In dropdown problems, learners select one option from a list of answer options.
 Unlike :ref:`multiple choice<Multiple Choice>` problems, where the answer
 choices are always visible directly below the question, the answer options for
 dropdown problems do not appear until the learner selects the dropdown arrow.
+
+Dropdown problems can only have one correct answer per question, we reccomend adding a "Both B & C" option where multiple multiple selections could be correct.
 
 ================================
 Example Dropdown Problem
@@ -65,7 +67,7 @@ field empty.
 .. note:: You separate :ref:`multiple questions<Multiple Problems in
   One Component>` in a problem component with three hyphen (``---``)
   characters. You can separate the answer options with either comma (``,``)
-  characters or new lines.
+  characters or new lines. Each question can ONLY have a single correct answer.
 
 The OLX markup for this example problem follows.
 
