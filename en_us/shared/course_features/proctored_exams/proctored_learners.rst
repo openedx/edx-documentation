@@ -9,7 +9,9 @@ To prepare learners for a proctored exam, follow these guidelines.
 .. only:: Partners
 
   * Emphasize that learners must be aware of the requirements before taking the
-    exam, and that some of the requirements might take some preparation.
+    exam, and that some of the requirements might take some preparation. The 
+    proctoring software has minimum bandwidth requirements and learners must
+    have a consistent connection of 500 kbps or more.
   * Well before the exam, provide learners with information about the grading
     policy in your course and the requirements for earning academic credit.
   * Explain what proctored exams are, and provide learners with links to
