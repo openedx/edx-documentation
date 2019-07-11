@@ -52,4 +52,4 @@ Learners must satisfy the following criteria to pass a proctored exam.
   see `Taking Timed and Proctored Exams` in the edX Help Center.
 
 
-.. include:: ../../../../links/links.rst
+.. include:: ../../../links/links.rst

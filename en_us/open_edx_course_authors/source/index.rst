@@ -20,6 +20,7 @@ Building and Running an Open edX Course: Hawthorn Release
    exercises_tools/index
    course_assets/index
    course_features/index
+   proctored_exams/index
    grading/index
    releasing_course/index
    manage_live_course/index
