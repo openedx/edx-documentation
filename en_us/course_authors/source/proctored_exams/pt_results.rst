@@ -134,7 +134,7 @@ The Proctored Exam Results report contains the following fields.
        the value in the ``status`` column.
 
        For possible values and an explanation of each value, see
-       :ref:`Proctoring Results Review Status Column`.
+       :ref:`Proctoring Results Review Status Column PT`.
 
    * - Suspicious Count
      - Number of incidents during the exam that Software Secure marked as
@@ -189,7 +189,7 @@ The following table describes the possible values in the ``status`` column.
        credit.
 
        This value results from a value of "Suspicious" in the
-       :ref:`review_status<Proctoring Results Review Status Column>` column.
+       :ref:`review_status<Proctoring Results Review Status Column PT>` column.
 
    * - second_review_required
      - The exam attempt has been reviewed and the review team has determined
@@ -197,7 +197,7 @@ The following table describes the possible values in the ``status`` column.
        perform the second review. Course teams do not need to take any action.
 
        This status results from a value of "Suspicious" in the
-       :ref:`review_status<Proctoring Results Review Status Column>` column.
+       :ref:`review_status<Proctoring Results Review Status Column PT>` column.
 
    * - started
      - The learner has started the proctored exam.
@@ -212,10 +212,10 @@ The following table describes the possible values in the ``status`` column.
        learner exam page and in a notification email message.
 
        This value results from a value of "Clean" or "Rules Violation" in the
-       :ref:`review_status<Proctoring Results Review Status Column>` column.
+       :ref:`review_status<Proctoring Results Review Status Column PT>` column.
 
 
-.. _Proctoring Results Review Status Column:
+.. _Proctoring Results Review Status Column PT:
 
 ======================================
 Values in the ``review_status`` Column
