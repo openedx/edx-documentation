@@ -1355,6 +1355,186 @@ Once the page level directive has been added to make the Mako template safe by
 default, any use of the ``h`` filter in an expression is redundant. These ``h``
 filters should be removed.
 
+django-trans-missing-escape
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Each translation string needs to be properly escaped before being shown to the user. This error is raised when a ``trans`` tag has a missing escape filter. Translation strings should be passed through django's builtin ``force_escape`` filter.
+
+.. code::
+
+    ## DO this
+    {% trans 'Log out' as tmsg %}{{tmsg|force_escape}}
+
+The ``force_escape`` filter should be on the same line as the ``trans`` expression and should not be moved to next line.
+
+.. code::
+
+    ## DO NOT do this
+    {% trans 'Log out' as tmsg %}
+    {{tmsg|force_escape}}
+
+django-trans-invalid-escape-filter
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This error is raised when the ``trans`` tag is escaped via unknown filter.
+
+.. code::
+
+    ## DO Not do this
+    {% trans 'Log out' as tmsg %}{{tmsg|some_unknown_filter}}
+
+
+django-trans-escape-variable-mismatch
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This error is raised when there is a mismatch between the ``trans`` tag expression variable and the filter expression variable.
+
+.. code::
+
+    ## DO Not do this
+    {% trans 'Log out' as tmsg %}{{some_other_variable|force_escape}}
+
+
+django-html-interpolation-missing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Whenever there are some html tags that need to be used in the translation string and we do not want them to be escaped then we have to interpolate such html via a custom ``interpolate_html`` tag.
+
+This error is raised when a trans/blocktrans tag includes html directly, rather than using the ``interpolation_html`` tag.
+
+In the case of a ``trans`` tag::
+
+    ## DO NOT do this
+    {% trans "some text <a href='some-path'>link text to display</a>." %}
+
+The correct way is to use a variable to store the translation string and use the ``interpolate_html`` tag to escape that variable like below.
+
+.. code::
+
+    ## DO this
+    {% trans "Some text {start_link}link text to display{end_link}." as tmsg %}
+    {% interpolate_html tmsg start_link='<a href='some-path'>'|safe end_link='</a>'|safe %}
+
+In the case of a ``blocktrans`` tag::
+
+    ## DO NOT do this
+    {% blocktrans%}
+    some text <a href="some-path">link text to display</a>.
+    {% endblocktrans %}
+
+Instead we should use the ``interpolate_html`` tag to HTML-escape the string, except for parts that are real HTML that are marked as ``safe``.
+
+.. code::
+
+    ## DO this
+    {% blocktrans trimmed asvar msg %}
+    some text {start_link}link text to display{end_link}.
+    {% endblocktrans %}
+    {% interpolate_html msg start_link='<a href="'|add:some_url|add:'">'|safe end_link='</a>'|safe %}
+
+.. Important:: One thing to keep in mind while using ``interpolate_html`` is to correctly map the ``trans/blocktrans`` tag string output variable to the ``interpolate_html`` tag.  For example, in the above case the ``msg`` variable used in ``interpolate_html`` must match the ``trans/blocktrans`` tag output variable (also ``msg``), otherwise the linter will complain.
+
+
+django-html-interpolation-missing-safe-filter
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This error is raised when the injected html is not marked as safe via a ``safe`` filter. Not marking it safe would cause the ``interpolate_html`` tag to not only HTML-escape the translation string, but it would also HTML-escape the true HTML arguments that were passed to it.
+
+.. code::
+
+    ## DO NOT do this
+    {% blocktrans trimmed asvar msg %}
+    some text {start_link}link text to display{end_link}.
+    {% endblocktrans %}
+    {% interpolate_html msg start_link='<ahref="'|add:some_url|add:'">' end_link='</a>'%}
+
+This linter violation is also raised when some unknown filter is being used instead of ``safe``.
+
+.. code::
+
+    ## DO NOT do this
+    {% blocktrans trimmed asvar msg %}
+    some text {start_link}link text for to display{end_link}.
+    {% endblocktrans %}
+    {% interpolate_html msg start_link='<ahref="'|add:some_url|add:'">'|unknown_filter end_link='</a>'|safe%}
+
+
+Instead, the ``**kwargs`` sent to ``interpolate_html`` must be marked safe.
+
+.. code::
+
+    ## DO this
+    {% blocktrans trimmed asvar msg %}
+    some text {start_link}link text to display{end_link}.
+    {% endblocktrans %}
+    {% interpolate_html msg start_link='<ahref="'|add:some_url|add:'">'|safe end_link='</a>'|safe %}
+
+django-html-interpolation-invalid-tag
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This violation is raised when ``interpolate_tag`` has missing arguments.
+
+.. code::
+
+    ## DO NOT do this
+    {% blocktrans trimmed asvar msg %}
+    some text {start_link}link text to display{end_link}.
+    {% endblocktrans %}
+    {% interpolate_html %}
+
+``interpolate_html`` requires one argument and a set of keyword arguments. The first positional argument is the output variable of the ``trans/blocktrans`` tag, which is the translation string that needs to be HTML-escaped. The second set of arguments are keyword arguments that are injected into the translation string.
+
+.. code::
+
+    ## DO this
+    {% blocktrans trimmed asvar msg %}
+    some text {start_link}link text to display{end_link}.
+    {% endblocktrans %}
+    {% interpolate_html msg start_link='<ahref="'|add:some_url|add:'">'|safe end_link='</a>'|safe %}
+
+
+django-blocktrans-missing-escape-filter
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This error is raised when a ``blocktrans`` tag is not nested under an escape filter expression.
+
+.. code::
+
+    ## DO NOT do this
+    {% blocktrans %}
+        You have been enrolled in {{ course_name }}
+    {% endblocktrans %}
+
+Instead do this
+
+.. code::
+
+    ## DO this
+    {% filter force_escape %}
+    {% blocktrans %}
+        You have been enrolled in {{ course_name }}
+    {% endblocktrans %}
+    {% endfilter %}
+
+django-blocktrans-parse-error
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This error is raised when the ``blocktrans`` closing tag is missing.
+
+.. code::
+
+    ## DO NOT do this
+    {% filter force_escape %}
+    {% blocktrans %}
+    Some translation string
+    {% endfilter %}
+
+django-blocktrans-escape-filter-parse-error
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This error is raised when there is a parsing error in the filter expression. Mostly this should be found by the django template parser. For example, in the code snippet below, the filter  ``force_escape`` expression is not properly closed.
+
+.. code::
+
+    ## DO NOT do this
+    {% filter force_escape
+    {% blocktrans %}
+    Some translation string
+    {% endblocktrans %}
+    {% endfilter %}
+
+
 python-close-before-format
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
