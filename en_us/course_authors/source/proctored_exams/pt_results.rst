@@ -4,10 +4,33 @@
 Viewing Proctored Session Results with Proctortrack
 ###################################################
 
-THIS IS A COPY OF THE RPNow PROCEDURE. I don't know how it works with
-Proctortrack
+To review individual violation videos and screenshots, follow these steps:
 
-To view proctored exam results, you use the :ref:`Proctored Exam Results
+#. In the LMS, open the Proctortrack Review Dashboard by navigating to the **edX Instructor Dashboard** 
+   -> **Special Exams** tab -> **Review Dashboard**.
+
+#. The Verificient **Proctortrack Review Dashboard** will load inline in the LMS. 
+
+#. Navigate to the **Quiz List** tab and locate the exam you want to review.
+
+#. Click on **View Sessions** to open the list of learners who took the exam
+
+#. Review all learners who are flagged as “Require Attention” as follows.
+
+#. To review an individual learner’s session, click on the learner’s name to pop out 
+   their detailed exam results in a new tab. Here you can review their exam data, including Video 
+   Monitoring, Online Violations, Verification scans, and Onboarding tabs to understand what infractions 
+   (if any) were flagged as suspicious
+
+#. If the suspicious behavior is deemed to be in violation of proctoring rules of your course, 
+   select **Fail** to fail the learner and set their grade to 0. Learners will get an email informing them that they did not pass proctoring review, and their grade was set to 0. 
+
+#. If needed, you can later revert this decision by clicking **Pass** to pass the learner and 
+   restore their original exam grade.
+
+#. If needed, you can download the violation screenshot and data by clicking the **Export Data arrow**.
+
+To see a summary of proctored exam results, you use the :ref:`Proctored Exam Results
 report<Viewing Proctored Session Results>`. This report is a .csv file that you
 can download from the instructor dashboard. You can use this report to view
 proctoring results for all learners, or :ref:`determine whether a specific
