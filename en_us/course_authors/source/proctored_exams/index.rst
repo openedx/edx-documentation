@@ -12,8 +12,10 @@ online proctoring software.
    :maxdepth: 2
 
    overview
-   proctored_learners
    proctored_enabling
+   rpnow_create
+   rpnow_results
+   pt_create
+   pt_results
    proctored_managing
-   proctored_results
-   CA_online_proctoring_rules_students
+   proctored_learners

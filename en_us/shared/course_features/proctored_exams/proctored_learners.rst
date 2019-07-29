@@ -108,4 +108,4 @@ Practice Proctored Exams
 For information about how to create a practice proctored exam, see :ref:`Create
 a Proctored Exam`.
 
-.. include:: ../../../../links/links.rst
+.. include:: ../../../links/links.rst

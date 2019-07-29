@@ -39,4 +39,4 @@ For more information about specifying rules, see
        :ref:`specifying_exam_rules_and_exceptions`.
 
 
-.. include:: ../../../../shared/students/completing_assignments/Section_proctoring_rules.rst
+.. include:: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst
