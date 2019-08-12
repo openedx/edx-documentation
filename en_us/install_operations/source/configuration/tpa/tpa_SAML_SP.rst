@@ -48,58 +48,38 @@ these steps.
 
 #. Open the ``edx/app/edxapp/lms.auth.json`` file in your text editor.
 
-#. Edit the file to add a section for the SAML keys. For example,
-   ``# SAML KEYS``.
-
-#. In the new section, add the ``SOCIAL_AUTH_SAML_SP_PUBLIC_CERT`` parameter
-   followed by a colon (:), a space, and the YAML literal style indicator (|).
+#. In the root of the JSON, add the ``SOCIAL_AUTH_SAML_SP_PUBLIC_CERT`` key
+   followed by a colon (:), a space, and an empty string where you'll paste the
+   escaped certificate.
 
    .. code:: json
 
-    # SAML KEYS
-    SOCIAL_AUTH_SAML_SP_PUBLIC_CERT: |
+    "SOCIAL_AUTH_SAML_SP_PUBLIC_CERT": "",
 
 #. Open the ``saml.crt`` file, copy its entire contents, and then paste them
-   onto the line after the ``SOCIAL_AUTH_SAML_SP_PUBLIC_CERT`` parameter.
+   inside the quotes after the ``SOCIAL_AUTH_SAML_SP_PUBLIC_CERT`` parameter.
+   Replace all newlines with `\n`.
 
    .. code:: json
 
-    # SAML KEYS
-    SOCIAL_AUTH_SAML_SP_PUBLIC_CERT: |
-    -----BEGIN CERTIFICATE-----
-    SWP6P/C1ypaYkmS...
-       ...j9+hjvbBf3szk=
-    -----END CERTIFICATE-----
+    "SOCIAL_AUTH_SAML_SP_PUBLIC_CERT": "-----BEGIN CERTIFICATE-----\nSWP6P/C1ypaYkmS...j9+hjvbBf3szk=\n-----END CERTIFICATE-----\n"
 
-#. Add the ``SOCIAL_AUTH_SAML_SP_PRIVATE_KEY`` parameter followed by a colon
-   (:), a space, and the YAML literal style indicator (|).
+#. Add the ``SOCIAL_AUTH_SAML_SP_PRIVATE_KEY`` key followed by a colon
+   (:), a space, and an empty string where you'll paste the escaped key.
 
    .. code:: json
 
-    # SAML KEYS
-    SOCIAL_AUTH_SAML_SP_PUBLIC_CERT: |
-    -----BEGIN CERTIFICATE-----
-    SWP6P/C1ypaYkmS...
-       ...j9+hjvbBf3szk=
-    -----END CERTIFICATE-----
-    SOCIAL_AUTH_SAML_SP_PRIVATE_KEY: |
+    "SOCIAL_AUTH_SAML_SP_PUBLIC_CERT": "-----BEGIN CERTIFICATE-----\nSWP6P/C1ypaYkmS...j9+hjvbBf3szk=\n-----END CERTIFICATE-----\n"
+    "SOCIAL_AUTH_SAML_SP_PRIVATE_KEY": ""
 
 #. Open the ``saml.key`` file, copy its entire contents, and then paste them
-   onto the line after the ``SOCIAL_AUTH_SAML_SP_PRIVATE_KEY`` parameter.
+   inside the quotes after the ``SOCIAL_AUTH_SAML_SP_PRIVATE_KEY`` key.
+   Replace all newlines with `\n`.
 
    .. code:: json
 
-    # SAML KEYS
-    SOCIAL_AUTH_SAML_SP_PUBLIC_CERT: |
-    -----BEGIN CERTIFICATE-----
-    SWP6P/C1ypaYkmS...
-       ...j9+hjvbBf3szk=
-    -----END CERTIFICATE-----
-    SOCIAL_AUTH_SAML_SP_PRIVATE_KEY: |
-    -----BEGIN RSA PRIVATE KEY-----
-    W1icmlkZN+FtM5h...
-       ...s/psgLDn38Q==
-    -----END RSA PRIVATE KEY-----
+    "SOCIAL_AUTH_SAML_SP_PUBLIC_CERT": "-----BEGIN CERTIFICATE-----\nSWP6P/C1ypaYkmS...j9+hjvbBf3szk=\n-----END CERTIFICATE-----\n"
+    "SOCIAL_AUTH_SAML_SP_PRIVATE_KEY": "-----BEGIN RSA PRIVATE KEY-----\nW1icmlkZN+FtM5h...s/psgLDn38Q==\n-----END RSA PRIVATE KEY-----\n"
 
 #. Save and close the ``lms.auth.json`` file.
 
