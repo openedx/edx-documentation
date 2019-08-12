@@ -4,12 +4,11 @@
 Viewing Proctored Session Results with RPNow
 ############################################
 
-To view proctored exam results, you use the :ref:`Proctored Exam Results
-report<Viewing Proctored Session Results>`. This report is a .csv file that you
-can download from the instructor dashboard. You can use this report to view
-proctoring results for all learners, or :ref:`determine whether a specific
-learner has passed the proctoring review<Determine if Learner Passed Proctoring
-Review>`.
+To view proctored exam results, you use the Proctored Exam Results report. This
+report is a .csv file that you can download from the instructor dashboard. You
+can use this report to view proctoring results for all learners, or
+:ref:`determine whether a specific learner has passed the proctoring
+review<Determine if Learner Passed Proctoring Review>`.
 
 For information about the learner view of proctoring results, see
 :ref:`learners:Proctoring Session Review Results`.
@@ -294,8 +293,7 @@ learner.
 View the Proctored Session Results Report
 =========================================
 
-#. Download and open the :ref:`Proctored Session Results report<Viewing
-   Proctored Session Results>`.
+#. Download and open the Proctored Session Results report.
 #. In the row for the learner, check the ``status`` column.
 
    * If the value in the column is "verified", the learner passed the review.
