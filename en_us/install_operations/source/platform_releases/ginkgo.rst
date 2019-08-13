@@ -74,17 +74,17 @@ steps.
         #!/bin/bash
         MYSQL_CONN="-uroot -p"
         echo "Reading MySQL database names..."
-        mysql ${MYSQL_CONN} -ANe "SELECT schema_name FROM information_schema.schemata WHERE schema_name NOT IN ('mysql','information_schema','performance_schema')" > /tmp/db.txt
+        mysql ${MYSQL_CONN} -ANe "SELECT schema_name FROM information_schema.schemata WHERE schema_name NOT IN ('mysql','information_schema','performance_schema', 'sys')" > /tmp/db.txt
         DBS="--databases $(cat /tmp/db.txt)"
         NOW="$(date +%Y%m%dT%H%M%S)"
         SQL_FILE="mysql-data-${NOW}.sql"
         echo "Dumping MySQL structures..."
-        mysqldump ${MYSQL_CONN} --add-drop-database --no-data ${DBS} > ${SQL_FILE}
+        mysqldump ${MYSQL_CONN} --add-drop-database --skip-add-drop-table --no-data ${DBS} > ${SQL_FILE}
         echo "Dumping MySQL data..."
         # If there is table data you don't need, add --ignore-table=tablename
         mysqldump ${MYSQL_CONN} --no-create-info ${DBS} >> ${SQL_FILE}
 
-        for db in edxapp cs_comment_service_development; do
+        for db in edxapp cs_comments_service_development; do
             echo "Dumping Mongo db ${db}..."
             mongodump -u admin -p -h localhost --authenticationDatabase admin -d ${db} --out mongo-dump-${NOW}
         done
