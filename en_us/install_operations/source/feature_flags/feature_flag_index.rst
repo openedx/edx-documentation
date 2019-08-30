@@ -168,6 +168,9 @@ in the Open edX wiki.
    * - ENABLE_PSYCHOMETRICS
      - Deprecated
      - FALSE
+   * - ENABLE_PUBLISHER
+     - Supported
+     - FALSE
    * - ENABLE_RENDER_XBLOCK_API
      - Removed
      - FALSE
