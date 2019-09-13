@@ -246,9 +246,6 @@ in the Open edX wiki.
    * - REQUIRE_COURSE_EMAIL_AUTH
      - Supported
      - TRUE
-   * - RUN_AS_ANALYTICS_SERVER_ENABLED
-     - Deprecated
-     - FALSE
    * - SEGMENT_IO_LMS
      - Deprecated
      - FALSE
