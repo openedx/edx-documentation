@@ -388,12 +388,113 @@ The gradebook includes the following features.
 * You can filter the learners displayed in the gradebook by enrollment type 
   (for example, verified, audit, or all learners) or by cohort. 
 
-* You can search for individual learners by their user name, using the search
+* You can search for individual learners by their username, using the search
   field. Searches are case-insensitive.
 
 * You can change, or override, the grade that a learner has received for a 
   specific subsection. For information about how to do this, see 
   :ref:`Override in Gradebook`.
+
+* **Master’s courses:** The edX gradebook has several features for high-touch courses. For learners in the Master’s track: 
+
+  * You can search by email or university student key.
+
+  * You can override grades in bulk. For more information, see :ref:`Override Subsection Bulk`.
+
+  * You can download and view a detailed per-learner report for tracking learner progress and planning learning interventions. For more information, see :ref:`Interventions Report`.
+
+
+.. _Override Subsection Bulk:
+
+**********************************************
+Override Learner Subsection Scores in Bulk
+**********************************************
+
+.. note:: Master’s-only feature 
+
+This feature is available in courses with a Master’s track, to support bulk grade adjustments or curving. It allows you to override subsection (i.e. assignment or exam) grades for in bulk by uploading a file. 
+
+.. note:: Grade overrides apply to all learners enrolled in supported courses. There is a size limit of 4MB (~10k learners) for uploaded files. If your Master’s track course is bigger than this, you’ll have to upload grading files in chunks.
+
+To override grades in bulk, follow these steps.
+
+#. View the live version of your course.
+
+#. Select **Instructor**, and then select **Student Admin**.
+
+#. Select **View Gradebook**.
+
+#. Set up the filters to identify the segment of learners you want to grade.
+
+#. Click the **Download Bulk Management** button to download a CSV of subsection assignment grades for this segment of learners.
+
+#. Open the CSV in a data editor like Excel.
+
+#. Fill in the new grade column for the assignment(s) you want to override grades for and save the file.
+
+#. Return to the Gradebook and click on the **Bulk Management** tab.
+
+#. Click **Import Grades**.
+
+#. Select your updated grades file and click **Open**.
+
+#. The Gradebook will process your file, update learner grades, and provide a summary of grades updated and any errors.
+
+
+It can take several minutes for the file upload to complete and grades to be fully updated.
+
+You can find a history of files uploaded and summary of results in the table at the bottom of the screen. 
+
+
+
+.. _Interventions Report:
+
+**********************************************
+Per-Learner Interventions Report
+**********************************************
+
+.. note:: Master’s-only feature 
+
+This feature is available in courses with a Master’s track, to support manual learning interventions. It allows you to export per-learner progress and grade information for Master’s track learners, and enables you to identify and reach out to learners who may need additional help.
+
+To download and view the interventions report, follow these steps:
+
+#. View the live version of your course.
+
+#. Select **Instructor**, and then select **Student Admin**.
+
+#. Select **View Gradebook**.
+
+#. Set up the filters to identify the segment of learners you want to view
+
+#. Click the **Download Interventions** button to download a CSV report of progress and grades information for these learners.
+
+
+The report file contains per-learner information for learners in the Master’s track, including:
+
+* edX user ID
+
+* edX username
+
+* Student Key
+
+* Email
+
+* Full Name
+
+* Course ID
+
+* Cohort
+
+* Activity in this course -- number of videos, problems, and discussion forum posts submitted over the last week and overall in this course
+
+* Assignment grades
+
+* Letter Course Grade
+
+* Numeric Course Grade to-date
+
+Learner data is updated every day to include activity through the end of the previous day (23:59 UTC).
 
 
 .. _check_student_progress:
@@ -537,11 +638,15 @@ Instructions
 
 To extend a deadline for a learner, visit the **Extensions** tab on the **Instructor Dashboard**
 
-1. Look up learner by email address or username
-2. Choose the graded subsection from the dropdown
-3. Enter new due date 
-4. Specify the reason for the extension
-5. Click **Change due date for student**
+#. Look up learner by email address or username
+
+#. Choose the graded subsection from the dropdown
+
+#. Enter new due date 
+
+#. Specify the reason for the extension
+
+#. Click **Change due date for student**
 
 
 You can also use this tab to **view all deadlines** or **reset a deadline**.
