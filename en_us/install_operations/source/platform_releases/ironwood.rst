@@ -78,7 +78,7 @@ steps.
         # If there is table data you don't need, add --ignore-table=tablename
         mysqldump ${MYSQL_CONN} --no-create-info ${DBS} >> ${SQL_FILE}
 
-        for db in edxapp cs_comments_service_development; do
+        for db in edxapp cs_comments_service; do
             echo "Dumping Mongo db ${db}..."
             mongodump -u admin -p -h localhost --authenticationDatabase admin -d ${db} --out mongo-dump-${NOW}
         done
