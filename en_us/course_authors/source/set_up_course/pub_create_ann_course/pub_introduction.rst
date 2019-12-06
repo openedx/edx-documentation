@@ -31,7 +31,7 @@ Signing In to Publisher
 
 Publisher is a separate tool from Studio.
 
-To sign in to Publisher, go to https://prod-edx-discovery.edx.org/publisher,
+To sign in to Publisher, go to https://publisher.edx.org/,
 and then enter your edX username and password.
 
 .. _Publisher Terms:
