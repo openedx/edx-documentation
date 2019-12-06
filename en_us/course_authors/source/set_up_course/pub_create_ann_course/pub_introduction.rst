@@ -26,7 +26,7 @@ the Publisher process, and explains how to complete common tasks.
 .. _Signing In to Publisher:
 
 ***********************
-Signing In to Publisher
+Signing Into Publisher
 ***********************
 
 Publisher is a separate tool from Studio.
