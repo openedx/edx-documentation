@@ -46,7 +46,12 @@ Follow `PEP 8`_.
 * Names like this:  modules_and_packages, functions_and_methods, local_variables, GLOBALS, CONSTANTS, MultiWordClasses
 * Acronyms should count as one word:  RobustHtmlParser, not RobustHTMLParser
 * Trailing commas are good: they prevent having to edit the last line in a list when adding a new last line.  You can use them in lists, dicts, function calls, etc.
-* EXCEPT: we aren't (yet) limiting code lines to 79 characters.  Use 120 as a limit for code.  Please use 79 chars as a limit for docstring lines though, so that the text remains readable.
+* Many existing repositories currently limit code lines fairly liberally to 120 characters; however, for newer repositories, a lower limit may be justified:
+
+  * PEP-8 specifies **79 characters**, with the justification of ease of side-by-side code editing on smaller monitors.
+  * The Black code formatter, which is quickly gaining popularity, defaults to **88 characters**, with the reasoning that it retains many of the benefits of 79 while requiring significantly less line wrapping.
+
+* Please use 79 chars as a limit for docstring lines so that the text remains readable.
 
 .. contents::
  :local:
