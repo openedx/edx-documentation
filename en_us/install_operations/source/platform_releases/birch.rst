@@ -11,7 +11,7 @@ This section describes how to install the Open edX Birch release.
  :depth: 1
 
 .. note::
-  EdX no longer supports the Birch release.
+  edX no longer supports the Birch release.
 
 ******************************
 What's Included in Birch
