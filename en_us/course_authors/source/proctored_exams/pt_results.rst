@@ -151,24 +151,25 @@ The Proctored Exam Results report contains the following fields.
        value, see :ref:`Proctoring Results Status Column`.
 
    * - review_status
-     - The current status of the proctoring exam review by Software Secure. If
-       the proctored exam review is complete, the value in this column affects
-       the value in the ``status`` column.
+     - The current status of the proctoring exam review by
+       Proctortrack/the course team. If the proctored exam review is
+       complete, the value in this column affects the value in the
+       ``status`` column.
 
        For possible values and an explanation of each value, see
        :ref:`Proctoring Results Review Status Column PT`.
 
    * - Suspicious Count
-     - Number of incidents during the exam that Software Secure marked as
+     - Number of incidents during the exam that Proctortrack marked as
        "Suspicious".
    * - Suspicious Comments
-     - The comments that Software Secure entered for each "Suspicious"
+     - The comments that Proctortrack entered for each "Suspicious"
        incident, separated by semicolons (;).
    * - Rules Violation Count
-     - Number of incidents during the exam that Software Secure marked as
+     - Number of incidents during the exam that Proctortrack marked as
        "Rules Violation".
    * - Rules Violation Comments
-     - The comments that Software Secure entered for each "Rules Violation"
+     - The comments that Proctortrack entered for each "Rules Violation"
        incident, separated by semicolons (;).
 
 .. _Proctoring Results Status Column:
@@ -211,12 +212,15 @@ The following table describes the possible values in the ``status`` column.
        credit.
 
        This value results from a value of "Suspicious" in the
-       :ref:`review_status<Proctoring Results Review Status Column PT>` column.
+       :ref:`review_status<Proctoring Results Review Status Column PT>`
+       column after a member of the course team marks the exam session
+       a failure in the Proctortrack dashboard.
 
    * - second_review_required
      - The exam attempt has been reviewed and the review team has determined
-       that the exam requires additional evaluation. The review team will
-       perform the second review. Course teams do not need to take any action.
+       that the exam requires additional evaluation. Course teams
+       should perform this second round of review, as described
+       :ref:`above<pt Proctored Session Results>`
 
        This status results from a value of "Suspicious" in the
        :ref:`review_status<Proctoring Results Review Status Column PT>` column.
@@ -260,8 +264,9 @@ in the ``status`` column is "verified". On the learner exam page and in the
 email notification, the status of the exam is "Satisfactory".
 
 If the ``review_status`` column has a value of "Suspicious", the value
-in the ``status`` column is "rejected". On the learner exam page and in the
-email notification, the status of the exam is "Unsatisfactory".
+in the ``status`` column is "second_review_required" or "rejected". If
+the ``status`` is "rejected", then on the learner exam page and in the email
+notification, the status of the exam is "Unsatisfactory".
 
 The following table describes the possible values in the ``review_status``
 column.
@@ -299,10 +304,12 @@ column.
        example, cheating might have occurred. The learner has failed the
        proctoring review.
 
-       This value causes a value of "rejected" in the ``status`` column. The
-       learner receives a result of "Unsatisfactory" for the proctored exam.
-       The learner also receives a score of 0 on the exam. In most courses,
-       the learner is no longer eligible for academic credit.
+       This value causes a value of "second_review_required" or
+       "rejected" in the ``status`` column. The learner receives a
+       result of "Unsatisfactory" for the proctored exam in the latter
+       case.  The learner also receives a score of 0 on the exam. In
+       most courses, the learner is no longer eligible for academic
+       credit.
 
 
 .. _Determine if Learner Passed Proctoring Review:
