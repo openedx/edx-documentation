@@ -802,7 +802,7 @@ P
 
 **PAL**
 
-  Phrase alternating line. The PAL standard is a color encoding system for
+  Phase alternating line. The PAL standard is a color encoding system for
   analog videos. It is used in locations such as Brazil, Australia, south Asia,
   most of Africa, and western Europe.
 
