@@ -75,6 +75,9 @@ in the Open edX wiki.
    * - EMBARGO
      - Supported
      - FALSE
+   * - ENABLE_CHANGE_USER_PASSWORD_ADMIN
+     - Supported
+     - FALSE
    * - ENABLE_CORS_HEADERS
      - Supported
      - FALSE
