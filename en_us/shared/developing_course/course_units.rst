@@ -51,7 +51,9 @@ circles and text to show different areas and controls in the page.
 #. A component in the unit.
 #. Options for testing the unit.
 #. Status panel for the unit.
-#. Location of the unit in the course outline.
+#. A unit navigation bar that shows where in the subsection this unit is located, and provides easy navigation options to nearby unit pages.
+#. A way to add new units to a subsection through the unit navigation bar.
+#. Navigation tools to quickly get to other sections or subsections.
 
 ****************************
 Viewing Units as a Learner
@@ -297,11 +299,11 @@ To create a unit from the outline, follow these steps.
 
 To create a unit from a unit page, follow these steps.
 
-#. In the **Unit Location** panel, select **New Unit**.
+#. In the **Unit Navigation Bar** area, select **New Unit**.
 
    .. image:: ../../../shared/images/unit_location.png
-    :alt: The Unit Location panel in the Unit page.
-    :width: 200
+    :alt: The Unit Navigation Bar in the Unit page.
+    :width: 660
 
    The unit page for the new unit opens automatically.
 
