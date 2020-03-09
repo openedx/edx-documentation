@@ -34,7 +34,7 @@ Installing the Ironwood Release
 *******************************
 
 You can install the Open edX Ironwood release using either 
-:ref:`Devstack <Installing the Open edX Developer stack>` or the the `Open edX 
+`devstack`_ or the the `Open edX 
 Native Installation`_ instructions.
 
 Ironwood releases have git tag names like ``open-release/ironwood.1``.
@@ -136,7 +136,7 @@ Upgrading a Docker Installation
 ================================
 
 Devstack is installed using Docker. To upgrade from one Ironwood
-release to another, follow the instructions in :ref:`Updating Devstack`.
+release to another, follow the instructions in `devstack`_.
 
 ===============================
 Upgrading a Native Installation

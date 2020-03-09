@@ -154,8 +154,6 @@
 
 .. _The upgrade.sh script: https://github.com/edx/configuration/blob/master/util/vagrant/upgrade.sh
 
-.. _Devstack wiki: https://github.com/edx/configuration/wiki/edX-Developer-Stack
-
 .. _Developing on Devstack: https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Devstack
 
 .. _forum migration described on the Open edX wiki: https://openedx.atlassian.net/wiki/display/TNL/Migrating+the+Discussion+Forums+to+Support+Teams+Discussion+Filtering
@@ -241,7 +239,7 @@
 .. _django-compressor: http://django-compressor.readthedocs.io/
 .. _RequireJS: http://requirejs.org/
 .. _OpenID Connect: http://openid.net/specs/openid-connect-core-1_0.html
-.. _devstack: https://github.com/edx/configuration/wiki/edX-Developer-Stack
+.. _devstack: https://github.com/edx/devstack
 .. _Testing in Django: https://docs.djangoproject.com/en/1.8/topics/testing/
 .. _Django sites framework: https://docs.djangoproject.com/en/1.8/ref/contrib/sites
 .. _Jasmine: http://jasmine.github.io/2.3/introduction.html

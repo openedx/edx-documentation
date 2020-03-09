@@ -85,31 +85,4 @@ machine in a production-like configuration. Details are at the `Open edX
 Native Installation`_ page on the edX wiki.
 
 
-*******************
-Software Components
-*******************
-
-A Devstack installation includes the following Open edX components:
-
-* The Learning Management System (LMS)
-* Open edX Studio
-* Discussion Forums
-* Open Response Assessments (ORA)
-* E-Commerce
-* Credentials
-* Notes
-* Course Discovery
-* XQueue
-* Open edX Search
-* A demonstration Open edX course
-
-Analytics Devstack also includes the following Open edX components:
-
-* Open edX Analytics Data API
-* Open edX Insights
-* The components needed to run the Open edX Analytics Pipeline. This is the
-  primary extract, transform, and load (ETL) tool that extracts and analyzes
-  data from the other Open edX services.
-
-
 .. include:: ../../../links/links.rst

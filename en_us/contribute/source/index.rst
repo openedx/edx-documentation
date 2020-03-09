@@ -75,7 +75,7 @@ edX platform because the barrier to entry is low.
 Get to Work!
 ************
 
-Get started with the Open edX :ref:`Devstack <installation:Installing and Updating Devstack>`
+Get started with the Open edX `devstack`_
 environment.  Please note:
 
     * If you are at an event with experienced Open edX contributors present, they
