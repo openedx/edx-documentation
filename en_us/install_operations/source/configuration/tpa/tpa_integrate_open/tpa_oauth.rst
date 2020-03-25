@@ -222,14 +222,14 @@ Configuring Open edX is very similar for Google, Facebook, LinkedIn, and Azure.
      If the ``lms.env.json`` file contains the ``THIRD_PARTY_AUTH_BACKENDS``
      list, add the backend for the applicable IdP to the list.
 
-       * For Google, add ``"social.backends.google.GoogleOAuth2"``.
+       * For Google, add ``"social_core.backends.google.GoogleOAuth2"``.
 
-       * For Facebook, add ``"social.backends.facebook.FacebookOAuth2"``.
+       * For Facebook, add ``"social_core.backends.facebook.FacebookOAuth2"``.
 
-       * For LinkedIn, add ``"social.backends.linkedin.LinkedinOAuth2"``.
+       * For LinkedIn, add ``"social_core.backends.linkedin.LinkedinOAuth2"``.
 
        * For Azure Active Directory, add
-          ``"social.backends.azuread.AzureADOAuth2"``.
+          ``"social_core.backends.azuread.AzureADOAuth2"``.
 
    * If you are using a custom backend, add the applicable OAuth2 provider to
      the ``THIRD_PARTY_AUTH_BACKENDS`` list in the ``lms.env.json`` file. If
@@ -395,16 +395,16 @@ OAuth2 standard to the Open edX platform. To do this, follow these steps.
      To determine the python module path of the backend, locate the backend in
      the `list of python-social-auth backends`_, open the file for the backend,
      and locate the name of the class. The python module path is of the format
-     ``social.backends.<file name>.<class name>``.
+     ``social_core.backends.<file name>.<class name>``.
 
      For example, for GitHub, the file is ``github.py`` and the class in that
      file is ``GithubOAuth2``. The backend module path is therefore
-     ``social.backends.github.GithubOAuth2``.
+     ``social_core.backends.github.GithubOAuth2``.
 
    * If the provider is not a python-social-auth supported backend, you must
      create a new Python package that includes the code required to implement
      the backend. Your python package must contain a module with a class that
-     subclasses ``social.backends.oauth.BaseOAuth2``. For more information, see
+     subclasses ``social_core.backends.oauth.BaseOAuth2``. For more information, see
      the `python-social-auth documentation`_, or see the code of the fully
      supported backends (such as Google or Facebook) for examples.
 
