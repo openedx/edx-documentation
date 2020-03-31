@@ -120,18 +120,14 @@ How to Use Discussions
 The **How to use edX discussions** graphic appears in the main area of the
 **Discussion** page when you have not selected any topics or posts.
 
-This graphic shows the basic actions you can take with course discussions. You
-can select the **Receive updates** option in the graphic to receive a daily
-email digest of new activity from course discussions.
+This graphic shows the basic actions you can take with course discussions. 
 
 .. image:: ../../../shared/images/Discussion_HowToUse.png
    :width: 600
    :alt: The "How to use edX discussions" graphic on the Discussion page lists
        the basic actions you can take with course discussions, including
        filtering and sorting topics, voting on or following posts, and
-       reporting abuse. You can select the "Receive updates" option in the
-       graphic to receive a daily email digest of new activity from course
-       discussions.
+       reporting abuse. 
 
 When you browse topics and posts from the :ref:`Discussion Navigation Pane
 <discussion navigation pane>`, the **How to use edX discussions** graphic is

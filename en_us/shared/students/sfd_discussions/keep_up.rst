@@ -65,8 +65,7 @@ Receiving Notifications
 *****************************
 
 When you add a post to a discussion, you might receive an email notification
-about the first reply to the post. You can also receive a digest email message
-each day that summarizes activity for the posts that you are following.
+about the first reply to the post. 
 
 ==============================
 Receiving Email Notifications
@@ -87,45 +86,4 @@ Receiving Email Notifications
   By default, the first time another learner or member of the course team
   responds to a post that you have made, you receive an email notification.
 
-If you do not want to receive this email notification, clear the **Receive
-updates** checkbox before you add your post.
-
-You only receive an email notification for the first response. For additional
-responses and comments, you automatically receive information in a daily digest
-email message. For more information, see :ref:`Receiving Daily Digests`.
-
-.. _Receiving Daily Digests:
-
-=======================
-Receiving Daily Digests
-=======================
-
-You can subscribe to a daily digest to receive an email message each day that
-summarizes discussion activity for the posts you are following. To subscribe to
-the daily digest, follow these steps.
-
-#. In your course, select **Discussion**.
-#. In the **How to use edX discussions** graphic, select the **Receive
-   updates** checkbox.
-
-.. image:: ../../../shared/images/Discussion_ReceiveUpdates.png
-  :width: 600
-  :alt: "How to use edX discussions" graphic with the Receive Updates checkbox
-      circled.
-
-================================
-Unsubscribing from Notifications
-================================
-
-If you want to unsubscribe from notifications, complete either of the following
-actions.
-
-* If you received an email message, select **Unsubscribe** in the message.
-* On the **Discussion** page in your course, clear the **Receive updates**
-  checkbox in the **How to use edX discussions** graphic.
-
-.. note::
-    These actions unsubscribe you from daily digest email messages. If you
-    create a new post, you will still receive an email message the first time
-    that a learner responds to that post. To prevent an email notification for
-    a post, clear the **Receive updates** checkbox before you add the post.
+You only receive an email notification for the first response.
