@@ -46,11 +46,7 @@ of automatic email messages.
      next course "week", or section. Is not sent if the course team has not
      added highlights for the section in Studio. For more information, see
      :ref:`Set Section Highlights for Weekly Course Highlight Messages`.
- * - :ref:`Discussion Notification`
-   - Instructor-paced and self-paced
-   - Unspecified
-   - Notifications that a user has responded to a post on a :ref:`course
-     discussion<Managing Discussions Index>`.
+
 
 *****************************
 Automatic Email Message Text
@@ -168,19 +164,14 @@ Course Highlight Messages`.
 
 .. include:: ../../../shared/developing_course/course_highlight_message_text.rst
 
+
 .. _Discussion Notification:
 
 ================================
 Discussion Notification
 ================================
 
-.. Note: Any update to the **discussion notification** information should also
-.. be made to the manage_live_course/automatic_email.rst file in the Open edX
-.. course authors guide.
-
-After a learner or course team member creates a post in the course discussions,
-edX sends the following email message the first time a learner or course team
-member replies to the original post.
+After a learner or course team member creates a post in the course discussions, edX sends the following email message the first time a learner or course team member replies to the original post.
 
 ::
 
@@ -188,13 +179,6 @@ member replies to the original post.
 
   <edX username> replied to <title of post>:
 
-    <text of comment>
+  <text of comment>
 
-The message also contains a **View discussion** option that takes the learner
-to the discussion post.
-
-EdX does not send individual messages for any additional replies on the post.
-However, the learner automatically receives a daily digest email message that
-summarizes additional activity on the post. For more information, see
-:ref:`learners:Receiving Discussion Notifications` and
-:ref:`learners:Receiving Daily Digests`.
+The message also contains a View discussion option that takes the learner to the discussion post. EdX does not send individual messages for any additional replies on the post. 
