@@ -16,13 +16,14 @@ imagesize==1.2.0          # via -r requirements/base.txt, sphinx
 jinja2==2.11.1            # via -r requirements/base.txt, sphinx
 markupsafe==1.1.1         # via -r requirements/base.txt, jinja2
 pip-tools==4.5.1          # via -r requirements/dev.in
-pygments==2.6.1           # via -r requirements/base.txt, sphinx
+pygments==2.5.2           # via -r requirements/base.txt, sphinx
 pytz==2019.3              # via -r requirements/base.txt, babel
 requests==2.23.0          # via -r requirements/base.txt, sphinx
 six==1.14.0               # via -r requirements/base.txt, edx-sphinx-theme, pip-tools, sphinx
 snowballstemmer==2.0.0    # via -r requirements/base.txt, sphinx
 sphinx==1.6.5             # via -r requirements/base.txt, edx-sphinx-theme
-sphinxcontrib-websupport==1.2.0  # via -r requirements/base.txt, sphinx
+sphinxcontrib-websupport==1.1.2  # via -r requirements/base.txt, sphinx
+typing==3.7.4.1           # via -r requirements/base.txt, sphinx
 urllib3==1.25.8           # via -r requirements/base.txt, requests
 
 # The following packages are considered to be unsafe in a requirements file:
