@@ -11,7 +11,7 @@ release-note:
 requirements: ## install development environment requirements
 	pip install -r requirements/dev.txt
 
-upgrade: requirements ## update the pip requirements files to use the latest releases satisfying our constraints
+upgrade: ## update the pip requirements files to use the latest releases satisfying our constraints
 	# Make sure to compile files after any other files they include!
 	pip-compile --upgrade -o requirements/base.txt requirements/base.in
 	pip-compile --upgrade -o requirements/dev.txt requirements/dev.in
