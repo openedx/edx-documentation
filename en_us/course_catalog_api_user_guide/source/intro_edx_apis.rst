@@ -8,6 +8,12 @@ Welcome to the Course Catalog API user guide. This guide will help you get set
 up to use the edX Course Catalog API and give you the information you need to
 return the results you want.
 
+PLEASE NOTE: The edX Course Catalog API is purely informational in purpose,
+and should not be utilized for affiliate marketing efforts.  For those specifically
+interested in commission-based affiliate marketing opportunties, please refer to
+edX's `Global Affiliate Program <https://ui.awin.com/merchant-profile/6798>`_,
+which is managed through Awin.
+
 .. _EdX APIs:
 
 ******************************************
