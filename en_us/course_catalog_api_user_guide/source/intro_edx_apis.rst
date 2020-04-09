@@ -11,8 +11,8 @@ return the results you want.
 PLEASE NOTE: The edX Course Catalog API is purely informational in purpose,
 and should not be utilized for affiliate marketing efforts.  For those specifically
 interested in commission-based affiliate marketing opportunties, please refer to
-edX's `Global Affiliate Program <https://ui.awin.com/merchant-profile/6798>`_,
-which is managed through Awin.
+edX's `Global Affiliate Program <https://www.edx.org/affiliate-program>`_,
+which is managed through `Awin <https://ui.awin.com/merchant-profile/6798>`_.
 
 .. _EdX APIs:
 
