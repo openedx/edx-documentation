@@ -17,6 +17,28 @@ Endpoints
 
 The following endpoints are available in the Enterprise API.
 
+============
+V2 Endpoints
+============
+
+At the moment, these v2 endpoints are called in the same manner as the old endpoints, and simply
+use a new service to provide their data. Eventually many of the v1 endpoints will be deprecated and
+switched over to v2.
+
+* **/v2/enterprise-catalogs** - You can make GET calls to the
+  ``/enterprise-catalogs`` endpoint to get a list of all the enterprise course
+  catalogs. Note that this is not currently filtered to show only those available to your
+  organization. That functionality will be added in an upcoming release.
+
+* **/v2/enterprise-catalogs/{catalog_uuid}** - You can make GET calls to the
+  ``/enterprise-catalogs/{catalog_uuid}`` endpoint to get a list of all the
+  content in a specified course catalog.
+  For details, see :ref:`enterprise_catalogs_catalogID Endpoint`.
+
+============
+V1 Endpoints
+============
+
 * **/enterprise-catalogs** - You can make GET calls to the
   ``/enterprise-catalogs`` endpoint to get a list of all the course catalogs
   that are available to your organization.
@@ -931,5 +953,4 @@ request returns the following data.
    * - ``user_username``
      - string
      - The learner's username on edx.org.
-
 
