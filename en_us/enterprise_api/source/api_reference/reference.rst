@@ -27,13 +27,13 @@ switched over to v2.
 
 * **/v2/enterprise-catalogs** - You can make GET calls to the
   ``/enterprise-catalogs`` endpoint to get a list of all the enterprise course
-  catalogs. Note that this is not currently filtered to show only those available to your
-  organization. That functionality will be added in an upcoming release.
+  catalogs that are available to your organization.
 
 * **/v2/enterprise-catalogs/{catalog_uuid}** - You can make GET calls to the
   ``/enterprise-catalogs/{catalog_uuid}`` endpoint to get a list of all the
-  content in a specified course catalog.
-  For details, see :ref:`enterprise_catalogs_catalogID Endpoint`.
+  active courses in a specified course catalog. Active courses are courses that
+  are currently open for enrollment or that will open for enrollment in the
+  future. For details, see :ref:`enterprise_catalogs_catalogID Endpoint`.
 
 ============
 V1 Endpoints
