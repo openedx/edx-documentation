@@ -62,14 +62,3 @@ enterprise curate a list of courses and programs that are most relevant to the
 enterprise’s learning needs. The curated list of edX courses that a learning
 manager selects and makes available through the enterprise portal is called the
 course catalog.
-
-.. _Using Enrollment API:
-
-******************************
-Using the edX Enrollment API
-******************************
-
-The edX Enterprise API also includes an enrollment API, which you can use to
-directly enroll your learners in selected courses. For more information, see
-:ref:`course_enrollments Endpoint`.
-
