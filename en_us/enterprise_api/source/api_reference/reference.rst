@@ -4,12 +4,11 @@
 EdX Enterprise API Reference
 ################################
 
-This API reference includes detailed information about the ``/enterprise-
-catalogs`` and ``/course-enrollments`` endpoints of the edX Enterprise API,
-including the request, response data, and examples. You can use any technology
-to send REST API requests as HTTP messages to the edX API. The example API
-requests shown in this reference use the ``curl`` command-line program to show
-the syntax and data for a request in a way that is easy to read.
+This API reference includes detailed information about the endpoints of the edX
+Enterprise API, including the request, response data, and examples. You can use
+any technology to send REST API requests as HTTP messages to the edX API. The
+example API requests shown in this reference use the ``curl`` command-line program
+to show the syntax and data for a request in a way that is easy to read.
 
 *********
 Endpoints
@@ -22,14 +21,14 @@ The following endpoints are available in the Enterprise API.
   that are available to your organization.
 
 * **/enterprise-catalogs/{catalog_id}** - You can make GET calls to the
-  ``/enterprise-catalogs/{catalog_id}`` endpoint to get a list of all the 
-  active courses in a specified course catalog. Active courses are courses 
-  that are currently open for enrollment or that will open for enrollment in 
+  ``/enterprise-catalogs/{catalog_id}`` endpoint to get a list of all the
+  active courses in a specified course catalog. Active courses are courses
+  that are currently open for enrollment or that will open for enrollment in
   the future. For details, see :ref:`enterprise_catalogs_catalogID Endpoint`.
 
 * **/enterprise-catalogs/{catalogID}/courses/{course_key}** - You can make GET
-  calls to the ``/enterprise-catalogs/{catalog_id}/courses/{course_key}`` 
-  endpoint to get information about a single course. For details, see 
+  calls to the ``/enterprise-catalogs/{catalog_id}/courses/{course_key}``
+  endpoint to get information about a single course. For details, see
   :ref:`enterprise_catalogs_courses Endpoint`.
 
 * **/enterprise-catalogs/{catalogID}/course-runs/{course_run_ID}** -
@@ -43,10 +42,6 @@ The following endpoints are available in the Enterprise API.
   ``/enterprise-catalogs/{catalog_id}/programs/{program_ID}`` endpoint
   to get information about a single program. For details, see
   :ref:`enterprise_catalogs_programs Endpoint`.
-
-* **/course-enrollments** - You can make POST calls to the
-  ``/course-enrollments`` endpoint to enroll a single learner in a single
-  course run. For details, see :ref:`course_enrollments Endpoint`.
 
 * **/learner-summary** - You can make GET calls to the
   ``/learner-summary`` endpoint to get a list of information about your
@@ -79,8 +74,8 @@ enterprise-catalogs/{catalog_id} Endpoint
 *****************************************
 
 GET calls to the ``enterprise-catalogs/{catalog_id}`` endpoint return a list
-of all of the active courses in a specified course catalog. You can then make a 
-GET call to the ``/enterprise-catalogs/{catalog_id}/courses/{course_key}`` 
+of all of the active courses in a specified course catalog. You can then make a
+GET call to the ``/enterprise-catalogs/{catalog_id}/courses/{course_key}``
 endpoint to return details about a single course.
 
 ===================
@@ -158,7 +153,7 @@ returns the following response values.
      - A list of content items in the catalog.
 
 Each top-level object in the ``results`` array represents a course
-in the catalog. See :ref:`course<course Fields>` for information about the 
+in the catalog. See :ref:`course<course Fields>` for information about the
 fields in a course item in the ``results``.
 
 
@@ -422,11 +417,11 @@ Fields in a course_run Content Item
      - The end date of the course run.
    * - ``enrollment_end``
      - datetime
-     - The last date and time when this course run is open for learners to enroll. 
+     - The last date and time when this course run is open for learners to enroll.
        Learners cannot enroll after this date and time.
    * - ``enrollment_start``
      - datetime
-     - The first date and time when this course run is open for learners to enroll. 
+     - The first date and time when this course run is open for learners to enroll.
        Learners cannot enroll before this date and time.
    * - ``enrollment_url``
      - string
@@ -681,131 +676,6 @@ contain many course runs.
         ]
       }
 
-.. _course_enrollments Endpoint:
-
-*******************************
-course-enrollments Endpoint
-*******************************
-
-Calls to this endpoint require the enterprise's UUID, which is assigned to the
-enterprise by your edX account representatlve.
-
-==========
-POST Calls
-==========
-
-POST calls to the ``course-enrollments`` endpoint enroll learners in specified
-course runs.
-
-===================
-Method and Endpoint
-===================
-
-.. list-table::
-   :widths: 20 80
-   :header-rows: 1
-
-   * - Method
-     - Endpoint
-   * - POST
-     - ``/enterprise/v1/enterprise-customer/{enterprise_uuid}/course-enrollments``
-
-=====================
-Example Request
-=====================
-::
-
-   curl -X POST
-     https://api.edx.org/enterprise/v1/enterprise-customer/\
-     e1b2c4/course-enrollments \
-     -H "Authorization: JWT {access token}"
-     -H "Content-Type: application/json" \
-     -d "[{
-           "course_run_id":"course-v1:MyUniX+Writing101x+2T2018_2",
-           "course_mode":"audit",
-           "user_email":efraim.symbolist@example.com",
-           "email_students":"true"
-    }]"
-
-=================
-POST Data Values
-=================
-
-POST calls to the ``course-enrollments`` endpoint include the following fields
-in JSON format. For each learner, a call must include the ``course_run_id``
-field and the ``course_mode``, as well as one or more of the ``user_email``,
-``lms_user_id``, or ``tpa_user_id`` fields.
-
-.. list-table::
-   :widths: 25 20 80
-   :header-rows: 1
-
-   * - Field
-     - Data Type
-     - Description
-   * - ``course_run_id``
-     - string
-     - Required. The ID of a course run in your edX course catalog. Example:
-       ``course-v1:UMy+Intro_to_Education``.
-   * - ``course_mode``
-     - enum string
-     - Required. The enrollment mode in which the learner will be enrolled in
-       the course run. One of ``verified``, ``professional``, or ``audit``.
-   * - ``user_email``
-     - string
-     - The learner's email address.
-   * - ``lms_user_id``
-     - string
-     - The learner's ID on edx.org.
-   * - ``tpa_user_id``
-     - string
-     - The learner's ID on the enterprise's Identity Provider (IdP) system.
-   * - ``email_students``
-     - boolean
-     - Whether the learner has consented to be contacted by email. Default is
-       ``false``.
-   * - ``is_active``
-     - boolean
-     - Whether the enrollment is active. Setting to ``false`` unenrolls the learner.
-       If set, the user must already exist. Default is ``true``
-       (Optional field)
-
-POST Payload Example
-*********************
-
-Here is an example of the payload of a ``course-enrollments`` call. In this
-example, we enroll two learners in two different course runs and unenroll one
-learner from a third course.
-
-::
-
-  [
-    {
-      "course_run_id":"course-v1:edX+DemoX+Demo_Course",
-      "course_mode":"verified",
-      "user_email":"ephraim_symbolist@example.com",
-      "email_students":true
-    },
-    {
-      "course_run_id":"course-v1:UMy+Intro_to_Education`",
-      "course_mode":"audit",
-      "tpa_user_id":"abcdefg",
-    },
-    {
-      "course_run_id":"course-v1:UU+Advanced_Unenrollment",
-      "course_mode":"audit",
-      "tpa_user_id":"hijklmn",
-      "is_active":false
-    }
-  ]
-
-=====================
-Response Values
-=====================
-
-The
-``POST /enterprise/api/v1/enterprise-customer/{enterprise_uuid}/course_enrollments``
-request returns a ``details`` response with a success or error message.
 
 .. _learner_summary Endpoint:
 
@@ -865,7 +735,7 @@ request returns the following data.
      - The course duration in weeks.
    * - ``course_end``
      - date
-     - The date the course ends, in YYYY-MM-DD format. This is the last date on 
+     - The date the course ends, in YYYY-MM-DD format. This is the last date on
        which learners can submit answers or assessments, or otherwise be credited
        with completion of a course subsection.
    * - ``course_id``
@@ -882,8 +752,8 @@ request returns the following data.
      - Whether the course is self-paced or instructor-paced.
    * - ``course_start``
      - date
-     - The date when the course begins, in YYYY-MM-DD format. This is the date 
-       when course content is available for learners to interact with. In most 
+     - The date when the course begins, in YYYY-MM-DD format. This is the date
+       when course content is available for learners to interact with. In most
        cases, learners can enroll in the course before the ``course_start`` date.
    * - ``course_title``
      - string
