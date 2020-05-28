@@ -163,9 +163,10 @@ Overview of Course Pacing
 When you create an edX course, you can set the schedule of the course,
 including due dates for assignments or exams, or you can allow learners to work
 at their own pace. Courses that follow a schedule that you set are known as
-instructor- paced courses. Courses that allow learners to submit assignments at
-any time before the course ends, without internal due dates, are known as self-
-paced courses.
+instructor- paced courses. Courses that offer suggested due dates for
+assignment or exams based on the learner’s enrollment date and the expected
+course duration are known as self-paced courses. These courses offer learners
+flexibility to modify the assignment dates as needed.
 
 An indicator for the pacing for your course appears on the **Course Outline**
 page. By default, courses are instructor-paced.

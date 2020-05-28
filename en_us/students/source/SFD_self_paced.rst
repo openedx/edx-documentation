@@ -10,9 +10,11 @@ Differences Between Instructor- and Self-Paced Courses
 The pacing of a course refers to how course teams run the course, and how
 learners can interact with the course material. Many courses are instructor-
 paced: they follow a schedule that the instructor sets, with assignments and
-exams that have specific due dates. In contrast, self-paced courses contain
-assignments without due dates. You can progress through the course at your own
-speed.
+exams that have specific due dates. In contrast, self-paced courses set a
+personalized schedule for you based on your enrollment date and the expected
+course duration. The course contains suggested due dates for assignment
+and/or exams, and gives you the flexibility to modify the due dates should
+you miss any deadlines.
 
 On the edx.org home page, an indication below a course's start date and above
 the course's **Enroll Now** button lets you know if a course is self-paced. If
