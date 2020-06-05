@@ -46,7 +46,7 @@ Installing the Hawthorn Release
 *******************************
 
 You can install the Open edX Hawthorn release using either 
-`devstack`_ or the the `Open edX 
+`devstack`_ or the `Open edX 
 Native Installation`_ instructions.
 
 Hawthorn releases have git tag names like ``open-release/hawthorn.1``.

@@ -23,7 +23,7 @@ Updates to E-Commerce Checkout
 
 For installations running the latest version of Open edX, this release
 includes updates to the user interface on the **Checkout** page that is
-presented by the the edX e-commerce service. The functionality of this page
+presented by the edX e-commerce service. The functionality of this page
 has not changed, and learners can continue to check out using their credit
 cards or PayPal.
 

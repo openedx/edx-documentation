@@ -1728,7 +1728,7 @@ following Python code.
     __M_writer(filters.html_escape(filters.decode.utf8(data)))
 
 From the Python line above, you can see that the default ``decode.utf8`` filter
-is applied before the the ``h`` filter, which was supplied inside the
+is applied before the ``h`` filter, which was supplied inside the
 expression.
 
 The ``n`` filter can be used to turn off all default filters, including the

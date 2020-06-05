@@ -139,7 +139,7 @@ described below.
 The ``about`` directory contains the following files.
 
 * ``overview.html``, which contains the content for the course overview page
-  that students see in the the Learning Management System (LMS).
+  that students see in the Learning Management System (LMS).
 
 * ``short_description.html``, which contains the content for the course in the
   course list.

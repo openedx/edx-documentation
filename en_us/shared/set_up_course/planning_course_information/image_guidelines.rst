@@ -143,7 +143,7 @@ as your course content videos.
 
   * If you upload both a course image and a course About video, the course
     image appears on learner dashboards with a **play** icon superimposed on
-    it. If you upload only a course video, the first frame of the the video
+    it. If you upload only a course video, the first frame of the video
     file appears with the **play** icon.
 
   * The process for adding a course about video is different than the process

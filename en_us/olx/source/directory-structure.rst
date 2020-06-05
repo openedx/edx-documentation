@@ -91,7 +91,7 @@ files that specify course policies and non-courseware content.
 The ``about`` directory contains the following files.
 
 * ``overview.html``, which contains the content for the course overview page
-  that learners see in the the Learning Management System (LMS).
+  that learners see in the Learning Management System (LMS).
 
 * ``short_description.html``, which contains the content for the course in the
   course list.

@@ -56,7 +56,7 @@ Preferred Usage
   * - first person
     - Do not use "I" or "me" unless you are following the text of a user
       interface label or message. Avoid using "we". If edX or another entity
-      has established a best practice, identify the the entity that recommends
+      has established a best practice, identify the entity that recommends
       that practice by name.
   * - heading style
     - Use title case for all headings. For a top level section heading and for

@@ -129,7 +129,7 @@ optional fields on the **Add Provider Configuration (SAML IdP)** page.
   * **Email Attribute**: ``mail``, ``urn:oid:0.9.2342.19200300.100.1.3``
 
   If the identity provider sends a value that you do not want to be included on
-  the the registration form, you can enter a value such as "DISABLED" or
+  the registration form, you can enter a value such as "DISABLED" or
   "IGNORE" in that field.
 
 .. _Test an Enabled SAML Provider:

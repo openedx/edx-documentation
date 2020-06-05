@@ -13,6 +13,6 @@ Configure the Milestones Application
        # Milestones application flag
        'MILESTONES_APP': True,
 
-#. Save the the ``lms.env.json`` and ``cms.env.json`` files.
+#. Save the ``lms.env.json`` and ``cms.env.json`` files.
 
 #. Run database migrations.

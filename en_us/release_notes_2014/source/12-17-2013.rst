@@ -12,7 +12,7 @@ The following changes are included in this release:
 * The Terms of Service are now available from a link in edX Studio. (STUD-151)
 * When a course export fails due to a problem in the course XML, an error message is now displayed that points you to the source of the problem. (STUD-1013)
 * Studio Dashboard performance on Edge is improved. (STUD-1039)
-* In the Video component editor Advanced tab, the **Clear** button next the the **HTML 5 Transcript** field, shown below, now correctly removes the transcript. (BLD-438)
+* In the Video component editor Advanced tab, the **Clear** button next to the **HTML 5 Transcript** field, shown below, now correctly removes the transcript. (BLD-438)
 
   .. image::  Images/Video_Advanced_tab.png
     :alt: The Advanced tab of the Video component editor

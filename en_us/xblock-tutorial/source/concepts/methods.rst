@@ -43,7 +43,7 @@ student view.
 
 Although view methods typically produce HTML-based renderings, they can be used
 for other purposes. See the documentation for your runtime application to
-verify the the type of data the view must return and how it will be used.
+verify the type of data the view must return and how it will be used.
 
 .. _Handler Methods:
 
