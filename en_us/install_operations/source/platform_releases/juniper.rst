@@ -16,7 +16,9 @@ What's Included in Juniper
 
 The Open edX Juniper release contains several new features for learners,
 course teams, and developers. For more information, see the 
-`Open edX Release Notes`_.
+`Open edX Release Notes`__.
+
+__ http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/juniper.html
 
 
 ******************************
@@ -26,18 +28,18 @@ What Is the Juniper Git Tag?
 A git tag identifies the version of Open edX code that is the Juniper release.
 About three dozen repositories are tagged as part of an Open edX release. Many 
 other repositories are installed as dependencies of those repositories. You can 
-find the most up-to-date git tag for the current Open edX release on
-the `Open edX Releases Wiki page`_.
+find the most up-to-date git tag for Juniper on the
+`Open edX Named Releases page`_.
 
 *******************************
 Installing the Juniper Release
 *******************************
 
-You can install the Open edX Juniper release using either 
+You can install the Open edX Juniper release using either
 `devstack`_ or the `Open edX Native Installation`_ instructions.
 
 Juniper releases have git tag names like ``open-release/juniper.1``.
-The available names are detailed on the `Open edX Releases Wiki page`_.
+The available names are detailed on the `Open edX Named Releases page`_.
 
 ***********************************
 Upgrading from the Ironwood Release
