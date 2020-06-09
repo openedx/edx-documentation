@@ -16,7 +16,9 @@ What's Included in Ironwood
 
 The Open edX Ironwood release contains several new features for learners,
 course teams, and developers. For more information, see the 
-`Open edX Release Notes`_.
+`Open edX Release Notes`__.
+
+__ http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/ironwoood.html
 
 
 ******************************
@@ -26,8 +28,8 @@ What Is the Ironwood Git Tag?
 A git tag identifies the version of Open edX code that is the Ironwood release.
 About two dozen repositories are tagged as part of an Open edX release. Many 
 other repositories are installed as dependencies of those repositories. You can 
-find the most up-to-date git tag for the current Open edX release on
-the `Open edX Releases Wiki page`_.
+find the most up-to-date git tag for Ironwood on the
+`Open edX Named Releases page`_.
 
 *******************************
 Installing the Ironwood Release
@@ -38,7 +40,7 @@ You can install the Open edX Ironwood release using either
 Native Installation`_ instructions.
 
 Ironwood releases have git tag names like ``open-release/ironwood.1``.
-The available names are detailed on the `Open edX Releases Wiki page`_.
+The available names are detailed on the `Open edX Named Releases page`_.
 
 .. _upgrade_hawthorn:
 
