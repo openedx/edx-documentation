@@ -16,7 +16,9 @@ What's Included in Hawthorn
 
 The Open edX Hawthorn release contains several new features for learners,
 course teams, and developers. For more information, see the 
-`Open edX Release Notes`_.
+`Open edX Release Notes`__.
+
+__ http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/hawthorn.html
 
 =======================
 User Retirement Feature
@@ -38,8 +40,8 @@ What Is the Hawthorn Git Tag?
 A git tag identifies the version of Open edX code that is the Hawthorn release.
 About two dozen repositories are tagged as part of an Open edX release. Many 
 other repositories are installed as dependencies of those repositories. You can 
-find the most up-to-date git tag for the current Open edX release on
-the `Open edX Releases Wiki page`_.
+find the most up-to-date git tag for Hawthorn on the
+`Open edX Named Releases page`_.
 
 *******************************
 Installing the Hawthorn Release
@@ -50,7 +52,7 @@ You can install the Open edX Hawthorn release using either
 Native Installation`_ instructions.
 
 Hawthorn releases have git tag names like ``open-release/hawthorn.1``.
-The available names are detailed on the `Open edX Releases Wiki page`_.
+The available names are detailed on the `Open edX Named Releases page`_.
 
 .. _upgrade_ginkgo:
 
