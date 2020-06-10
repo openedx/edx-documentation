@@ -60,7 +60,7 @@ To set up Proctortrack onboarding for your course, follow these steps.
 #. Select the exam type to **Onboarding**.
 
    .. note::
-      Once the exam content has been released to students the special 
+      Once the exam content has been released to students, the special 
       exam type cannot be modified.
 
 #. Select **Save**.
@@ -90,7 +90,7 @@ Creating a Proctored Exam
 #. Select the exam type to **Proctored**.
 
    .. note::
-      Once the exam content has been released to students the special 
+      Once the exam content has been released to students, the special 
       exam type cannot be modified.
 
 #. In the **Time Allotted** field, enter the length of time that you want
