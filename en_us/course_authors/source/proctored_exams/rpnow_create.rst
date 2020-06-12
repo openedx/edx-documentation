@@ -42,6 +42,10 @@ steps.
    * For a proctored exam, select **Proctored**.
    * For a practice proctored exam, select **Practice Proctored**.
 
+   .. note::
+      Once the exam content has been released to students, the special 
+      exam type cannot be modified.
+
 #. In the **Time Allotted** field, enter the length of time that you want
    to allow for the exam as HH:MM, where HH is hours and MM is minutes.
 
