@@ -191,7 +191,7 @@ change.
 
   In case you can't find the **Other Course Settings** field in 
   the **Advanced Settings**, set ``ENABLE_OTHER_COURSE_SETTINGS`` to ``true`` 
-  under ``FEATURES`` in ``cms.env.json`` and restart Studio.
+  under ``FEATURES`` in ``/edx/etc/studio.yml`` and restart Studio.
 
 
 
