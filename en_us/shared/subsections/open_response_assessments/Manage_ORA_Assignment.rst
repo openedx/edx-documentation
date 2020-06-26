@@ -6,14 +6,14 @@ Managing Open Response Assessment Assignments
 
 After you publish an open response assessment (ORA) assignment and learners
 start to submit responses and perform assessments, members of the course team
-can take the following actions.
+can take the following actions:
 
 .. contents::
   :local:
   :depth: 1
 
 The following topics provide additional information about open response
-assessments.
+assessments:
 
 * :ref:`Best practices for ORA assignments<Best Practices for ORA>`
 
@@ -32,7 +32,7 @@ View a Specific Learner's Response and Assessments
 ****************************************************
 
 You can view the following information about an individual learner's open
-response assessment assignment.
+response assessment assignment:
 
 * The text of the learner's response, including any files that the learner
   uploaded.
@@ -67,7 +67,7 @@ In order to access information about a specific learner's assignment, you
 need that learner's username or email address. For more information, see
 :ref:`View and download student data`.
 
-To access information about a specific learner, follow these steps.
+To access information about a specific learner, follow these steps:
 
 #. View the live version of your course in the LMS, and then go to the ORA
    assignment.
@@ -104,7 +104,7 @@ the assignment in the course, and learners see a **Staff Assessment** step in
 their assignment. For information about the possible assessment steps in an
 ORA assignment, see :ref:`PA Assessment Steps`.
 
-Submitting a staff assessment has the following results.
+Submitting a staff assessment has the following results:
 
 * The score that you give a learner in a staff assessment overrides scores from
   any other assessment type in the assignment.
@@ -112,7 +112,7 @@ Submitting a staff assessment has the following results.
 * Peer assessments that are completed before or after your staff assessment
   have no effect on the learner's final assignment grade.
 
-To perform a staff assessment in an assignment, follow these steps.
+To perform a staff assessment in an assignment, follow these steps:
 
 #. View the live version of your course in the LMS, and then go to the ORA
    assignment.
@@ -142,12 +142,12 @@ course team members see a **Grade Available Responses** option at the end of
 the assignment in the course, and learners see a **Staff Assessment** step in
 their assignment.
 
-Submitting a staff assessment for a team ORA has the following results.
+Submitting a staff assessment for a team ORA has the following results:
 
-* The score that you give a team in a staff assessment assigns the stame score
+* The score that you give a team in a staff assessment assigns the same score
   to all members of the given team.
 
-To perform a staff assessment in a team assignment, follow these steps.
+To perform a staff assessment in a team assignment, follow these steps:
 
 #. View the live version of your course in the LMS, and then go to the ORA
    assignment.
@@ -164,9 +164,9 @@ To perform a staff assessment in a team assignment, follow these steps.
 
 #. Perform an evaluation of the response using the problem's rubric.
 
-#. Select **Submit assessment** to submit the assessment. The rubic will prompt
-   you that the grade will apply to all members of the team and ask if you want
-   to continue. Confirm to apply the grade and and close the grading dialog.
+#. Select **Submit assessment** to submit the assessment. You will receive an
+   alert to notify you that the grade selected will apply to all members of the
+   team. Click **Ok** to apply the grade and and close the grading dialog.
 
 #. Alternatively, select **Submit assessment and continue grading**. Confirming
    the "grade will be applied to all members" prompt will submit the assessment
@@ -184,7 +184,7 @@ ability to override the final grade can be useful if, for example, a learner's
 submission was inappropriately or inadequately graded by peers, or if there are
 not enough peer reviewers to complete the required number of peer assessments.
 
-Submitting an override assessment has the following results.
+Submitting an override assessment has the following results:
 
 * The score that you give a learner in an override assessment overrides scores
   from any other assessment type in the assignment.
@@ -212,7 +212,7 @@ In order to perform an override assessment for a learner, you need that
 learner's username or email address. For more information, see
 :ref:`View and download student data`.
 
-To perform an override assessment, follow these steps.
+To perform an override assessment, follow these steps:
 
 #. View the live version of your course in the LMS, and then go to the ORA
    assignment.
@@ -277,7 +277,7 @@ response, it is counted as one of the submissions they have graded.
    To allow the learner to resubmit a response for a cancelled submission, you
    must :ref:`delete the learner's state<delete_state>` for the problem.
 
-To remove a submitted response, follow these steps.
+To remove a submitted response, follow these steps:
 
 #. Identify the learner who submitted the inappropriate response by following
    the steps in the :ref:`Locate a specific ORA submission` topic.
