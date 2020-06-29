@@ -137,40 +137,18 @@ To perform a staff assessment in an assignment, follow these steps:
 For Team Open Assessments
 =======================================
 
-Since team-based open response assessments can only be assessed by staff,
-course team members see a **Grade Available Responses** option at the end of
-the assignment in the course, and learners see a **Staff Assessment** step in
-their assignment.
+Team-based open response assessments can only be assessed by staff. Learners
+will see this as a **Staff Assessment** step in their assignment. Course team
+members will see a **Grade Available Responses** option at the end of the
+assignment.
 
-Submitting a staff assessment for a team ORA has the following results:
+.. note:: Staff assessments for team ORAs follow the same process as for individual ORAs
+   except that scores are applied to all members of the submitting team.
 
-* The score that you give a team in a staff assessment assigns the same score
-  to all members of the given team.
-
-To perform a staff assessment in a team assignment, follow these steps:
-
-#. View the live version of your course in the LMS, and then go to the ORA
-   assignment.
-
-#. Scroll to the end of the problem, and then select **Grade Available
-   Responses**.
-
-   In the dialog that opens, the number of available and checked out responses
-   is shown. Checked out responses are responses that are currently being
-   graded by you or another course team member.
-
-#. Select the **Staff Assessment** heading to open a response that is
-   available for grading.
-
-#. Perform an evaluation of the response using the problem's rubric.
-
-#. Select **Submit assessment** to submit the assessment. You will receive an
-   alert to notify you that the grade selected will apply to all members of the
-   team. Click **Ok** to apply the grade and and close the grading dialog.
-
-#. Alternatively, select **Submit assessment and continue grading**. Confirming
-   the "grade will be applied to all members" prompt will submit the assessment
-   and immediately open another submission for review.
+To perform a staff assessment in a team assignment, follow the steps outlined
+in :ref:`Perform a Staff Assessment`. Before submitting, you will receive an
+alert to notify you that the grade will apply to all members of the team. Click
+**Ok** to apply the grade and and close the grading dialog.
 
 .. _Override a learner assessment grade:
 
