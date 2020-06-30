@@ -149,7 +149,7 @@ assignment.
 To perform a staff assessment in a team assignment, follow the steps outlined
 in :ref:`Perform a Staff Assessment`. Before submitting, you will receive an
 alert to notify you that the grade will apply to all members of the team. Click
-**Ok** to apply the grade and and close the grading dialog.
+**Ok** to apply the grade and close the grading dialog.
 
 .. _Override a learner assessment grade:
 
