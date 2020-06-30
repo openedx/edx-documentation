@@ -142,8 +142,9 @@ will see this as a **Staff Assessment** step in their assignment. Course team
 members will see a **Grade Available Responses** option at the end of the
 assignment.
 
-.. note:: Staff assessments for team ORAs follow the same process as for individual ORAs
-   except that scores are applied to all members of the submitting team.
+.. note:: Staff assessments for team ORAs follow the same process as for
+   individual ORAs except that the same score will be applied to all members of
+   the submitting team.
 
 To perform a staff assessment in a team assignment, follow the steps outlined
 in :ref:`Perform a Staff Assessment`. Before submitting, you will receive an
