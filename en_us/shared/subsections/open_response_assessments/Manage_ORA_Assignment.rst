@@ -149,7 +149,7 @@ assignment.
 To perform a staff assessment in a team assignment, follow the steps outlined
 in :ref:`Perform a Staff Assessment`. Before submitting, you will receive an
 alert to notify you that the grade will apply to all members of the team. Click
-**Ok** to apply the grade and and close the grading dialog.
+**Ok** to apply the grade and close the grading dialog.
 
 .. _Override a learner assessment grade:
 
@@ -224,6 +224,47 @@ To perform an override assessment, follow these steps:
    response, regardless of the due date of the assignment. The learner's
    final grade on the assessment is updated to reflect the most recent staff
    override assessment grade.
+
+=======================================
+For Team Open Assessments
+=======================================
+
+As with individual open response assessments, you can override a team's final
+grade for a team assignment if it has already been graded. Although only staff
+may grade team assignments, this ability to override a grade can be useful for
+fixing imporperly submitted grades or amending grades after-the-fact.
+
+.. note:: Like individual open response assessments, overrides can be performed
+   more than once on the same team open response assessment.
+
+In order to perform an override assessment for a team, you need the username or
+email address of a learner on the team. For more information, see
+:ref:`View and download student data`.
+
+To perform an override assessment, follow these steps:
+
+#. View the live version of your course in the LMS and navigate to the team ORA
+   assignment.
+
+#. Scroll to the end of the problem, then select **Manage Individual
+   Learners**.
+
+#. Enter the learner's username or email, then select **Submit**.
+
+   The **Manage Individual Learners** dialog updates with expandable sections
+   for each of the assessment steps in the assignment and other actions you
+   can take on the learner's response.
+
+#. Select **Submit Assessment Grade Override**.
+
+#. Perform an assessment of the learner's response using the problem's rubric.
+
+#. When you have finished the assessment, select **Submit assessment**.
+
+   The grade that you have given this learner's response becomes the learner's
+   final grade on the assignment. Peer assessments are not taken into account
+   in calculating the learner's final assignment grade when a staff override
+   grade exists.
 
 .. _Remove a learner response from peer grading:
 
