@@ -62,7 +62,7 @@ Additionally, a message is shown to learners when they have reached the end of
 the course rather than show the next button at the bottom of the page.
 
 .. image:: ../images/juniper/NewExperience2.png
-   :alt: Screenshot of the new learner experience. 
+    :alt: Screenshot of the new learner experience. 
 
 
 Visual Course Progress
@@ -93,9 +93,9 @@ But we’ve also retained the advantages of flexibility --- should a learner fal
 behind, they are able to adjust their schedule. 
 
 .. image:: ../images/juniper/important_dates.png
-   :alt: Screenshot of the Important Dates panel that says, "We've built a
-   suggested schedule to help you stay on track. But don't worry: it's flexible
-   so you can learn at your own pace."
+    :alt: Screenshot of the Important Dates panel that says, "We've built a
+        suggested schedule to help you stay on track. But don't worry: it's flexible
+        so you can learn at your own pace."
 
 
 Content Search Tools
@@ -180,7 +180,7 @@ update our credentials infrastructure which will enable us to add these back in
 to the updated learner profile in the future. 
 
 .. image:: ../images/juniper/learner_profile.png
-   :alt: A screenshot of the updated learner profile page.
+    :alt: A screenshot of the updated learner profile page.
 
 
 Account Settings
@@ -194,7 +194,7 @@ previous account settings page were migrated over to this updated experience.
 .. __: https://github.com/edx/frontend-app-account
 
 .. image:: ../images/juniper/account_settings.png
-   :alt: Screenshot of the new account settings page.
+    :alt: Screenshot of the new account settings page.
 
 **Beta Language Support:** Learners can now go to their account settings to see
 a longer list of languages including both fully supported languages and any
@@ -207,8 +207,8 @@ below are visuals of the language dropdown as well as an example message shown
 for partially supported languages. 
 
 .. image:: ../images/juniper/beta_language.png
-   :alt: Screenshot of the Site Preferences panel, showing the language set to
-   Bahasa Indonesia, saying it is not fully translated.
+    :alt: Screenshot of the Site Preferences panel, showing the language set to
+        Bahasa Indonesia, saying it is not fully translated.
 
 **Recovery Email Address:** A new field was added to the account settings
 allowing learners to specify a recovery email address, which also needs to be
@@ -235,7 +235,7 @@ all ecommerce orders with links to the order detail pages.
 .. __: https://github.com/edx/frontend-app-ecommerce
 
 .. image:: ../images/juniper/order_history.png
-   :alt: Screenshot of the new Order History page.
+    :alt: Screenshot of the new Order History page.
 
 
 ===========
@@ -373,8 +373,8 @@ across both the iOS and Android applications. You can cast your videos now to
 other displays that support chromecast, including many Smart TVs. 
 
 .. image:: ../images/juniper/chromecast.png
-   :alt: A highlighted phone screen showing the Chromecast icon in the
-   upper-right.
+    :alt: A highlighted phone screen showing the Chromecast icon in the
+        upper-right.
 
 **In-App Youtube Player:** We also now have the ability to render Youtube
 videos within the application experience thanks to a major contribution.
@@ -395,7 +395,7 @@ play pause and video settings actions. A rewind action takes learners back 10
 seconds and they can also jump forward 15 seconds at a time. 
 
 .. image:: ../images/juniper/video_controls.png
-   :alt: Two phone images, showing improved video controls.
+    :alt: Two phone images, showing improved video controls.
 
 **Offline SD Card Storage Support:** You can now choose to have your videos
 stored on an SD card if you have one, with a new setting shown in the settings
