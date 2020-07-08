@@ -14,9 +14,9 @@ Primary Content Experience
 Course Home Experience
 ......................
 
-**Course Outline Depth:** For some time the course outline was shifted to rendering
-sections, subsections, and units. The resulting outline was long and provided
-detail that learners could navigate once in a subsection (aka learning
+**Course Outline Depth:** For some time the course outline was shifted to
+rendering sections, subsections, and units. The resulting outline was long and
+provided detail that learners could navigate once in a subsection (aka learning
 sequence). The course outline has been updated to once again show only sections
 and subsections. As a part of this change we have made sure graded subsections
 show an icon to better highlight that they are graded. 
@@ -33,7 +33,7 @@ learning experience. The primary Juniper focus of this application is an
 overhaul of the learning sequence experience, though we anticipate other views
 like Course Home will eventually also make their way into this new application. 
 
-__: https://github.com/edx/frontend-app-learning
+.. __: https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/juniper.html
 
 **Content iFrames & Security:** This new micro front end is easier to update
 and configure than our previous experience, helping support lower development
@@ -170,8 +170,9 @@ version of our `Paragon component library`_. If configured, this new experience
 provides improved visibility controls and new optional fields that can be shown
 on the profile. 
 
-__: https://github.com/edx/frontend-app-profile
-_Paragon component library: https://edx.github.io/paragon/
+.. __: https://github.com/edx/frontend-app-profile
+
+.. _Paragon component library: https://edx.github.io/paragon/
 
 One aspect of the earlier learner profiles that was not migrated to the new
 experience is the  badges experience section of the profile. We are hoping to
@@ -190,7 +191,7 @@ updated account settings experience on the platform. The account settings page
 can now be more easily extended with plugins, and all features available on the
 previous account settings page were migrated over to this updated experience. 
 
-__: https://github.com/edx/frontend-app-account
+.. __: https://github.com/edx/frontend-app-account
 
 .. image:: ../images/juniper/account_settings.png
    :alt: Screenshot of the new account settings page.
@@ -231,7 +232,7 @@ A `new micro frontend`__ was created for ecommerce related views, and the Order
 History page experience was added to this new tool. The new experience shows
 all ecommerce orders with links to the order detail pages. 
 
-__: https://github.com/edx/frontend-app-ecommerce
+.. __: https://github.com/edx/frontend-app-ecommerce
 
 .. image:: ../images/juniper/order_history.png
    :alt: Screenshot of the new Order History page.
@@ -291,7 +292,7 @@ Cybersource credit card payment types. The improved checkout flow should
 improve checkout conversion rates and provide avenues for other plugins or
 integrations as well. 
 
-__: https://github.com/edx/frontend-app-payment
+.. __: https://github.com/edx/frontend-app-payment
 
 ..
     Internal Notes on v1.1 Content: 
@@ -316,7 +317,7 @@ was cut. Additional details about Mobile App changes can also be found in the
 
 .. _version 2.18: https://openedx.atlassian.net/wiki/spaces/LEARNER/pages/931693785/Mobile+Release%3A+2.18
 .. _version 2.22: https://openedx.atlassian.net/wiki/spaces/LEARNER/pages/1373306918/Mobile+Release+2.22
-__: https://openedx.atlassian.net/wiki/spaces/LEARNER/pages/129335440/Mobile%2BVersions%2BReleases
+.. __: https://openedx.atlassian.net/wiki/spaces/LEARNER/pages/129335440/Mobile%2BVersions%2BReleases
 
 
 Mobile App Discovery
@@ -331,8 +332,8 @@ users.
 .. _deep-link: https://branch.io/what-is-deep-linking/
 
 **Journeys Integration with Branch.io:** Additionally through Branch.io, we are
-using their `Journey banners`_ to let learners on mobile web browsers quickly jump
-into the application or discover that mobile apps are an option for new
+using their `Journey banners`_ to let learners on mobile web browsers quickly
+jump into the application or discover that mobile apps are an option for new
 learners. 
 
 .. _Journey banners: https://branch.io/journeys/
