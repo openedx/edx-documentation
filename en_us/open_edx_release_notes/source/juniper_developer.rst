@@ -31,16 +31,16 @@ Front End Pipeline
 ------------------
 
 **Shared Frontend Platform Services:** In support of centralized configuration
-of baseline micro front end requirements, we have created the `Frontend
+of baseline micro-frontend requirements, we have created the `Frontend
 Platform`_ repository. As part of this work various services (previously also
 described as "runways") were built to speed up configuration of analytics,
 logging, authentication, internationalization, as well as a set of other
-miscellaneous utilities and configuration details that affect all micro front
-ends.
+miscellaneous utilities and configuration details that affect all 
+micro-frontends.
 
 .. _Frontend Platform: https://github.com/edx/frontend-platform
 
-**MFE Template Application:** For new micro front ends, you can start from the
+**MFE Template Application:** For new micro-frontends, you can start from the
 `Frontend Template Application`_ GitHub repository, a way to quickly spin up a
 new MFE using consistent tools and configuration details employed by other open
 edx platform MFEs. It is flagged as a template repository, meaning it can be
@@ -56,14 +56,14 @@ or overridden where needed.
 
 .. _Frontend Build: https://github.com/edx/frontend-build
 
-**MFE Service - Logging:** In support of expanded use of micro front ends, a
+**MFE Service - Logging:** In support of expanded use of micro-frontends, a
 foundational service focused on logging and reporting was built into the
 `Frontend Platform repository`__, with an out-of-the-box concrete
 implementation for NewRelic.
 
 .. __: https://github.com/edx/frontend-platform/blob/master/src/logging/interface.js
 
-**MFE Service - Analytics:** In support of expanded use of micro front ends, a
+**MFE Service - Analytics:** In support of expanded use of micro-frontends, a
 foundational service focused on eventing and analytics was built into the
 `Frontend Platform repository`__, with an out-of-the-box concrete implementation
 for Segment.
@@ -82,10 +82,10 @@ enabling improved mobile app test suite automation and builds.
 Authentication & Account Services
 ---------------------------------
 
-**MFE Service - Authentication:** In support of expanded use of micro front
-ends, a foundational service focused on configuring authentication access and
-maintaining JSON web tokens through to the MFE was built into the `Frontend
-Platform repository`__.
+**MFE Service - Authentication:** In support of expanded use of
+micro-frontends, a foundational service focused on configuring authentication
+access and maintaining JSON web tokens through to the MFE was built into the
+`Frontend Platform repository`__.
 
 .. __: https://github.com/edx/frontend-platform
 
@@ -100,11 +100,11 @@ and removed in favor of a single secure implementation. Details are in the
 Internationalization Pipeline
 -----------------------------
 
-**MFE Service - Internationalization:** In support of expanded use of micro
-front ends, a foundational service focused on internationalization support was
-built into the `Frontend Platform repository`__. The goal of this service is to
-standardize the way micro front ends reference and update their text strings
-from Transifex, our crowdsource platform text translation community.
+**MFE Service - Internationalization:** In support of expanded use of
+micro-frontends, a foundational service focused on internationalization support
+was built into the `Frontend Platform repository`__. The goal of this service
+is to standardize the way micro-frontends reference and update their text
+strings from Transifex, our crowdsource platform text translation community.
 
 .. __: https://github.com/edx/frontend-platform
 
