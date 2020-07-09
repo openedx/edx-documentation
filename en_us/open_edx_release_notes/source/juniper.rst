@@ -27,7 +27,7 @@ Learner Experiences
 ===================
 
 Many areas of the learner experience have started their necessary transitions
-to modern micro front ends, including the Learner Profile, Account Settings,
+to modern micro-frontends, including the Learner Profile, Account Settings,
 Order History, Checkout Page, and even the Course Experience. Additionally,
 advancements to our platform’s commerce capabilities enable feature based
 enrollments for more configurable content access gating. Improvements have also
@@ -58,7 +58,7 @@ Developer Experiences
 
 Many things have changed in our largest release yet, but a few key highlights
 include major core requirement upgrades to support Python 3 and Django 2.
-Additionally, a major shift toward micro front ends and a component pattern
+Additionally, a major shift toward micro-frontends and a component pattern
 library (Paragon) has led many platform areas to be marked for deprecation in
 favor of their future MFE replacements. On a related note, the deprecation
 process (DEPR project in Jira) has been a source of increased cleanup and

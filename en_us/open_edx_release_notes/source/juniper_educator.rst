@@ -56,7 +56,7 @@ you no longer have to go to the Settings tab to update the display name.
 Course Enrollment Page Publishing
 .................................
 
-**Publisher Tool:**  A `new micro front end`__ was built which integrates with
+**Publisher Tool:**  A `new micro-frontend`__ was built which integrates with
 the course discovery and ecommerce services as a new catalog publishing and
 configuration tool. Publisher can be used to manage ecommerce products,
 marketing information, and the creation of new course runs within a course.

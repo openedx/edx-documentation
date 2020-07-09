@@ -31,14 +31,14 @@ Learning Sequence Experience
 ............................
 
 **New Course MFE:** A major platform change for the learner experiences comes
-in the form of a new `micro front end application`__ to modernize the course
+in the form of a new `micro-frontend application`__ to modernize the course
 learning experience. The primary Juniper focus of this application is an
 overhaul of the learning sequence experience, though we anticipate other views
 like Course Home will eventually also make their way into this new application. 
 
 .. __: https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/juniper.html
 
-**Content iFrames & Security:** This new micro front end is easier to update
+**Content iFrames & Security:** This new micro-frontend is easier to update
 and configure than our previous experience, helping support lower development
 times and easier configuration and extension. The new experience uses iframes
 to render content into the application, as a side-effect does limit the ability
@@ -133,10 +133,10 @@ Learning Apps: Individual Support
 experience. 
 
 **Notes App:** The Notes tool that enables / disables notes in a learning
-sequence was updated to work for the new course micro frontend.
+sequence was updated to work for the new course micro-frontend.
 
 **Calculator:** The Calculator experience has been updated to work in the new
-course micro frontend, making the markdown help tools easier to use and read as
+course micro-frontend, making the markdown help tools easier to use and read as
 well. 
 
 
@@ -176,7 +176,7 @@ Learner Profile
 ---------------
 
 A complete rewrite of the learner profile experience was completed during this
-time. The new experience is powered by a `new micro frontend`__ and the latest
+time. The new experience is powered by a `new micro-frontend`__ and the latest
 version of our `Paragon component library`_. If configured, this new experience
 provides improved visibility controls and new optional fields that can be shown
 on the profile. 
@@ -197,7 +197,7 @@ into the updated learner profile in the future.
 Account Settings
 ----------------
 
-**New Account Experience:** A new `Account micro frontend`__ now also powers an
+**New Account Experience:** A new `Account micro-frontend`__ now also powers an
 updated account settings experience on the platform. The account settings page
 can now be more easily extended with plugins, and all features available on the
 previous account settings page were migrated over to this updated experience. 
@@ -239,7 +239,7 @@ address has not been set or fully activated yet.
 Order History
 .............
 
-A `new micro frontend`__ was created for ecommerce related views, and the Order
+A `new micro-frontend`__ was created for ecommerce related views, and the Order
 History page experience was added to this new tool. The new experience shows
 all ecommerce orders with links to the order detail pages. 
 
@@ -296,7 +296,7 @@ Upgrade Messaging & Payment
 Course Upsell Messaging and Payment
 -----------------------------------
 
-**New Payment MFE:** A `new micro frontend`__ has been created and scoped just
+**New Payment MFE:** A `new micro-frontend`__ has been created and scoped just
 to the checkout experience for those using the ecommerce tools and services
 built into the platform. This application supports Apple Pay, PayPal, and
 Cybersource credit card payment types. The improved checkout flow should
