@@ -15,7 +15,7 @@ areas, along with a way to jump down to each section of the release notes.
 .. _Open edX Platform: https://open.edx.org
 
 .. toctree::
-   :numbered:
+   :numbered: 3
    :hidden:
 
    juniper_learner
