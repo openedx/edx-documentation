@@ -36,9 +36,6 @@ dashboard. You can use this report to view proctoring results for all learners,
 or :ref:`determine whether a specific learner has passed the proctoring
 review<Determine if Learner Passed Proctoring Review>`.
 
-For information about the learner view of proctoring results, see
-:ref:`learners:Proctoring Session Review Results`.
-
 .. note::
  The Proctored Exam Results report contains information about the proctoring
  review. The report does not include information about the learner's score on
@@ -344,6 +341,3 @@ View the Course as the Learner
 
 On the page, the learner's status is visible as "Pending", "Satisfactory", or
 "Unsatisfactory".
-
-For information about the learner view of proctoring results, see
-:ref:`learners:Proctoring Session Review Results`.
