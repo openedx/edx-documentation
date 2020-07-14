@@ -46,6 +46,7 @@ then
         "en_us/open_edx_students"
         "en_us/ORA2"
         "en_us/students"
+        "en_us/students_redirect"
         "en_us/user_retirement"
     )
 fi
