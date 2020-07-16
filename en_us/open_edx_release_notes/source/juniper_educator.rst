@@ -31,12 +31,12 @@ subsections.  Read more about this at `Viewing the Unit Page`__.
 .. image:: ../images/juniper/breadcrumbs.png
     :alt: New navigation with dropdowns in the breadcrumbs.
 
-**Educator Sequence Bar Navigation:** We introduced to the unit page a
+**Educator Sequence Bar Navigation:** On the unit page we introduced a
 representation of the learner-facing sequence bar, helping authors more quickly
 jump to the unit pages before or after the one they are currently authoring.
-Additionally educators can create new units within this learning sequence bar
-as well within this area.  This update replaces the navigation links that were
-further down the page on the right sidebar of Unit pages.
+Additionally educators can create new units within this learning sequence bar.
+This update replaces the navigation links that were further down the page on
+the right sidebar of Unit pages.
 
 .. image:: ../images/juniper/studio_sequence.png
     :alt: Screenshot of Studio showing the learner-facing sequence bar.
@@ -66,6 +66,10 @@ provided with the authoring experience.
 
 .. __: https://github.com/edx/frontend-app-publisher
 
+.. image:: ../images/juniper/publisher.png
+   :alt: Screenshot of the new Publisher tool.
+
+
 Weekly Highlights
 .................
 
@@ -84,9 +88,6 @@ learner.
     Group Configuration & Visibility Rules
     Internal Notes on v1.1 Content: 
     Feature Based Enrollment Overrides?
-    Content Release & Assignment Dates
-    Internal Notes on v1.1 Content: 
-    Shelby / Kaitlin have updates here I think 
     Special Exams: Proctored
     Internal Notes on v1.1 Content: 
     Deen - Streamlined proctoring integration
@@ -147,13 +148,15 @@ Content Blocks & Interactives
 Core Course Content Blocks
 --------------------------
 
-Video Block
-...........
+..
+    Video Block
+    ...........
 
-**HLS Support and Delivery:** Through our video pipeline, videos now support
-HTTP Live Streaming (HLS), enabling learners to view videos at the quality
-level that fits their current network bandwidth for both the web and mobile
-application video experiences. 
+    **HLS Support and Delivery:** Through our video pipeline, videos now support
+    HTTP Live Streaming (HLS), enabling learners to view videos at the quality
+    level that fits their current network bandwidth for both the web and mobile
+    application video experiences. 
+
 
 Common Problem Blocks
 .....................
@@ -204,7 +207,23 @@ External Content Blocks
 LTI Content Block
 .................
 
-Summary of changes TBD
+**Interactive Content Icon:** Previously LTI blocks were not recognized as
+graded content, meaning that in the learning sequence bar LTI unit pages were
+represented as text. The icon is now the problem / assessment icon which makes
+it clear that this page in the sequence bar has interactive content. 
+
+**LTI v1.3 Base Implementation:** Initial support behind the scenes for LTI
+v1.3 was merged in March, though the full functionality requires updating the
+LTI consumer xblock to its June release to fully support this additional
+specification option. Once enabled educators will be able to configure LTI
+ungraded components relying on the LTI v1.3 specification. Koa will include
+full LTI v1.3 support including graded passback support. 
+
+**LTI Plugin Parameters:** A community contribution added the ability to pass
+extra parameters such as the team and cohort of a student to the LTI provider,
+enabling rich integrations that take into this metadata in their embedded
+learning content.
+
 
 Custom External Graders
 .......................

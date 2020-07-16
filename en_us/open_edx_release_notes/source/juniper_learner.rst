@@ -21,8 +21,11 @@ sequence). The course outline has been updated to once again show only sections
 and subsections. As a part of this change we have made sure graded subsections
 show an icon to better highlight that they are graded. 
 
-..
-    Graded Question Count: … 
+**Graded Question Count:** The course outline now highlights the number of
+graded questions included in a subsection. The additional information added to
+the outline will allow learners to understand at-a-glance, and better plan for,
+the effort of a given graded assignment or exam.
+
 
 Learning Sequence Experience
 ............................
@@ -89,8 +92,16 @@ advantage of being available on-demand when a learner wants them, they lack the
 supporting structure of schedules and timelines. We’ve introduced some of this
 structure and accountability by creating personalized schedules for each
 learner, and clearly showing the suggested dates and timeline in the course.
-But we’ve also retained the advantages of flexibility --- should a learner fall
-behind, they are able to adjust their schedule. 
+These schedules are based off of the course’s expected duration, and customized
+for each learner’s unique start date. We’ve also retained the advantages of
+flexibility --- should a learner fall behind, they are able to adjust their
+schedule. 
+
+**Full Page Dates View:** To improve visibility into dates for both
+instructor-paced and self-paced courses, we have also introduced a dedicated
+full page view of critical course dates. Each relevant milestone will also link
+directly to the subsection, to provide easy and quick access. In the future, we
+will also add the ability for learners to add these dates to their calendars.
 
 .. image:: ../images/juniper/important_dates.png
     :alt: Screenshot of the Important Dates panel that says, "We've built a
@@ -176,8 +187,8 @@ on the profile.
 
 One aspect of the earlier learner profiles that was not migrated to the new
 experience is the  badges experience section of the profile. We are hoping to
-update our credentials infrastructure which will enable us to add these back in
-to the updated learner profile in the future. 
+update our credentials infrastructure which will enable us to add these back
+into the updated learner profile in the future. 
 
 .. image:: ../images/juniper/learner_profile.png
     :alt: A screenshot of the updated learner profile page.
@@ -214,7 +225,7 @@ for partially supported languages.
 allowing learners to specify a recovery email address, which also needs to be
 activated to be set fully. When this feature is enabled, learners also see a
 message on their learner dashboard notifying them that their recovery email
-address have not been set or fully activated yet. 
+address has not been set or fully activated yet. 
 
 
 ..
@@ -294,6 +305,10 @@ integrations as well.
 
 .. __: https://github.com/edx/frontend-app-payment
 
+**First Purchase Discount** is a configurable time-limited offer to extend to
+first time purchasers. In our experimentation, we have found a meaningful
+impact to initial purchase rate.
+
 ..
     Internal Notes on v1.1 Content: 
     Cut FBE + First Purchase Discount, can add back in if details are ready for support / use
@@ -357,9 +372,8 @@ screen size in both portrait and landscape viewing modes.
 Mobile App Upgrade Experience
 .............................
 
-We have added the ability on the Android experience to expose web based upgrade
-& checkout for paid enrollment tracks. Subsections and components within the
-content experience now also provide clarity on when certain content is not
+Subsections and components within the
+content experience now provide clarity on when certain content is not
 visible in the currently active learner enrollment track.  Similarly for
 courses that use feature based enrollments where content access is set to
 expire some time after enrollment, this date is now more clear for learners
@@ -400,6 +414,11 @@ seconds and they can also jump forward 15 seconds at a time.
 **Offline SD Card Storage Support:** You can now choose to have your videos
 stored on an SD card if you have one, with a new setting shown in the settings
 area if an SD card is detected on your Android device. 
+
+**Mobile App Video HLS Delivery:** Through our video pipeline, mobile app
+videos now support HTTP Live Streaming (HLS), enabling learners to view videos
+at the quality level that fits their current network bandwidth for the and
+mobile application video experiences. 
 
 Mobile Content Discovery
 ------------------------

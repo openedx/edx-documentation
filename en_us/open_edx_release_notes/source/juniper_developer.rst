@@ -49,7 +49,7 @@ used as a basis for new GitHub repositories via the "Use this Template" action.
 .. _Frontend Template Application: https://github.com/edx/frontend-template-application
 
 **MFE Service - Build:**  In order to standardize MFE configuration of styles,
-tests, and builds,  a GitHub repository was created called `Frontend Build`_ to
+tests, and builds, a GitHub repository was created called `Frontend Build`_ to
 package as a single dev dependency. It aims to provide common sense defaults
 that should be good for most edX projects out of the box, but can be extended
 or overridden where needed.
@@ -163,17 +163,29 @@ Pattern Library & Components
 Paragon
 -------
 
-- Component Library Usage
-- Paragon Updates
-- Revamped and UX-approved version of edX's Component Library (Paragon) published
-- Dev speed replatforming and shared components (profile, account, payment, etc.)
+We have updated the Paragon Component Library. Paragon now includes Bootstrap
+SCSS directly and contains Paragon extensions. It should now be considered the
+Paragon Pattern Library. Theming for Paragon works the same as themes for
+Bootstrap and any Bootstrap-compatible theme should be compatible with Paragon.
+This was done to help streamline the evolution of Paragon into a full-featured
+pattern library that supports all micro frontend applications and increasingly
+all areas of the platform. The effort to grow Paragon’s capabilities is
+ongoing. 
+
+We intend to consolidate styling throughout the platform onto Paragon SCSS. To
+that end, a parallel effort has begun to remove legacy pattern library styling
+from the platform though this work was not fully completed in Juniper.
 
 Site Headers & Footers
 ----------------------
 
-Other Components TBD
+For each MFE, the header and footer must be configured to echo the rest of the
+site or product experience to which it is connected. We have published various
+components, including the commonly `configured header and footer elements, a
+cookie message banner, and others`__.
 
-Could link to the relevant component Repos? Paragon as well above...
+.. __: https://github.com/edx?q=frontend-component&type=&language=
+
 
 ==========================
 Core Platform Requirements
@@ -253,4 +265,11 @@ Feature & Update Documentation
 Deprecation Process
 -------------------
 
-.... Links ...
+Building on the deprecation process defined in OEP-21 (`Open edX Proposal
+21`_), we have flagged many areas for deprecation, including areas mentioned
+above that have been replaced by new MFE experiences. A full listing of the
+areas marked for deprecation during Juniper’s time frame can be seen in
+`Confluence on the developer details and notes page for Juniper`__.
+
+.. _Open edX Proposal 21: https://open-edx-proposals.readthedocs.io/en/latest/oep-0021-proc-deprecation.html
+.. __: https://openedx.atlassian.net/wiki/spaces/COMM/pages/940048716/Juniper#Juniper-DeprecationsandRemovals
