@@ -101,7 +101,7 @@ Prevent Learners from Opting Out of Proctored Exams
   ineligible for course credit.
 
   If you do not want to allow verified learners to take proctored exams without
-  proctoring, you can change a setting on the **Advanced Settings** page in
+  proctoring, you can change a setting on the **Proctored Exam Settings** page in
   Studio.
 
 .. note::
@@ -114,7 +114,7 @@ Prevent Learners from Opting Out of Proctored Exams
 To remove the option for learners to opt out of proctored exams in your course,
 follow these steps.
 
-#. In Studio, select **Settings**, then select **Advanced Settings**.
+#. In Studio, select **Settings**, then select **Proctored Exam Settings**.
 
 #. Locate the **Allow Opting Out of Proctored Exams** policy key. The default
    value is ``true``, which gives verified learners the option of taking

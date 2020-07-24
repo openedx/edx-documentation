@@ -4,13 +4,13 @@
 Enable Proctored Exams
 ########################################
 
-To create a proctored exam, you modify the course advanced settings in Studio
+To create a proctored exam, you modify the Proctored Exam Settings in Studio
 to enable proctored exams, and then you modify the settings of a subsection to
 specify that the subsection is a proctored exam.
 
 To enable proctored exams in your course, follow these steps.
 
-#. In Studio, select **Settings**, then select **Advanced Settings**.
+#. In Studio, select **Settings**, then select **Proctored Exam Settings**.
 
 #. Locate the **Enable Proctored Exams** policy key. The default value is
    ``false``.
@@ -37,7 +37,7 @@ manager to enable the option to change from the default.
 Once the option is made available, follow these steps to change the
 proctoring backend:
 
-#. In Studio, select **Settings**, then select **Advanced Settings**.
+#. In Studio, select **Settings**, then select **Proctored Exam Settings**.
 
 #. Locate the **Proctoring Provider** policy key.
 
