@@ -134,7 +134,7 @@ To perform a staff assessment in an assignment, follow these steps:
    submit the assessment and immediately grade another submission.
 
 =======================================
-For Team Open Assessments
+For Team Open Response Assessments
 =======================================
 
 Team-based open response assessments can only be assessed by staff. Learners
