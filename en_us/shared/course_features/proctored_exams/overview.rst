@@ -29,8 +29,8 @@ Learners must satisfy the following criteria to pass a proctored exam.
 * Take the exam as a proctored exam.
 
   By default, learners are required to take the exam as a proctored exam.
-  To allow learners the option to take an exam as a proctored exam or as a regular
-  exam, see :ref:`Allow Opting Out of Proctored Exams`.
+  To allow learners the option to take an exam as a proctored exam or as an
+  unproctored exam, see :ref:`Allow Opting Out of Proctored Exams`.
 
   .. only:: Partners
 

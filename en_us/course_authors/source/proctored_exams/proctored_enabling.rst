@@ -21,7 +21,7 @@ To enable proctored exams in your course, follow these steps.
 
 
 ******************************
-Configuring Proctoring Backend
+Configuring Proctoring Provider
 ******************************
 
 The choice of proctoring provider can be configured. Since Fall 2019,
