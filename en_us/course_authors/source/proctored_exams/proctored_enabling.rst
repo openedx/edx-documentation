@@ -12,10 +12,10 @@ To enable proctored exams in your course, follow these steps.
 
 #. In Studio, select **Settings**, then select **Proctored Exam Settings**.
 
-#. Locate the **Enable Proctored Exams** policy key. The default value is
-   ``false``.
+#. Locate the **Enable Proctored Exams** policy key. The default for this field
+   is to be unchecked, meaning that proctored exams are not enabled.
 
-#. Change the value of the setting to ``true``.
+#. Check the setting to enable proctored exams.
 
 #. Select **Submit**. You can now create proctored exams in your course.
 
@@ -24,12 +24,12 @@ To enable proctored exams in your course, follow these steps.
 Configuring Proctoring Backend
 ******************************
 
-The choice of proctoring backend can be configured. Since Fall 2019,
+The choice of proctoring provider can be configured. Since Fall 2019,
 the default proctoring provider is **RPNow** by PSI.  To use
 **Proctortrack** by Verificient, please follow these steps to change
-the proctoring backend:
+the proctoring provider:
 
-.. warning:: Changing the proctoring backend for a course after
+.. warning:: Changing the proctoring provider for a course after
    proctored exams have been created in course content is not
    supported. Please create proctored exams only after making a final
    decision of which proctoring backend your course will use.
@@ -39,10 +39,10 @@ the proctoring backend:
 
 #. Locate the **Proctoring Provider** policy key.
 
-#. Change the value to the desired backend.
+#. Select the drop down, and change the value to the desired proctoring provider.
 
 #. Select **Submit**.
 
 After you enable proctored exams for your course and choose the
-proctoring backend, you can create a proctored exam or a practice
+proctoring provider, you can create a proctored exam or a practice
 proctored/onboarding exam.

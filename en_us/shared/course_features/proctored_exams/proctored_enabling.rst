@@ -4,7 +4,7 @@
 Creating Proctored Exams
 ########################################
 
-To create a proctored exam, you modify the course advanced settings in Studio
+To create a proctored exam, you modify the course proctored exam settings in Studio
 to enable proctored exams, and then you modify the settings of a subsection to
 specify that the subsection is a proctored exam.
 
@@ -15,14 +15,14 @@ Enable Proctored Exams
 
 To enable proctored exams in your course, follow these steps.
 
-#. In Studio, select **Settings**, then select **Advanced Settings**.
+#. In Studio, select **Settings**, then select **Proctored Exam Settings**.
 
-#. Locate the **Enable Proctored Exams** policy key. The default value is
-   ``false``.
+#. Locate the **Enable Proctored Exams** policy key. The default for this field
+   is to be unchecked, meaning that proctored exams are not enabled.
 
-#. Change the value of the setting to ``true``.
+#. Check the setting to enable proctored exams.
 
-#. Select **Save Changes**. You can now create proctored exams in your course.
+#. Select **Submit**. You can now create proctored exams in your course.
 
 After you enable this setting for your course, you can create a proctored exam
 or a practice proctored exam.
@@ -139,25 +139,23 @@ To specify custom proctored exam rules, follow these steps.
 .. _Allow Opting Out of Proctored Exams:
 
 ***************************************************
-Prevent Learners from Opting Out of Proctored Exams
+Allow Opting Out of Proctored Exams
 ***************************************************
 
 .. only:: Partners
 
-  When a proctored exam opens, by default, verified learners have an option to
-  take the exam without proctoring, and acknowledge that this option makes them
-  ineligible for course credit.
+  When a proctored exam opens, by default, verified learners are required to take
+  the exam as a proctored exam.
 
-  If you do not want to allow verified learners to take proctored exams without
-  proctoring, you can change a setting on the **Advanced Settings** page in
-  Studio.
+  If you want to allow verified learners to take proctored exams without
+  proctoring, please contact your edX partner manager to enable this option.
 
 .. only:: Open_edX
 
-  When a proctored exam opens, by default, learners have an option to
-  take the exam without proctoring. If you do not want to allow learners
-  to take proctored exams without proctoring, you can change a setting on the
-  **Advanced Settings** page in Studio.
+  When a proctored exam opens, by default, learners are required to take the exam
+  as a proctored exam. If you want to allow learners to take proctored exams without
+  proctoring, you can change a setting on the **Proctored Exam Settings** page
+  in Studio.
 
 .. note::
    If a learner opts to take an exam without proctoring, the exam will not be 
@@ -166,18 +164,20 @@ Prevent Learners from Opting Out of Proctored Exams
    any time. You can reduce the ability to view the exam by selecting a due 
    date for the exam.
 
-To remove the option for learners to opt out of proctored exams in your course,
-follow these steps.
+.. only:: Open_edX
 
-#. In Studio, select **Settings**, then select **Advanced Settings**.
+    To enable the option for learners to opt out of proctored exams for a course,
+    follow these steps.
 
-#. Locate the **Allow Opting Out of Proctored Exams** policy key. The default
-   value is ``true``, which gives verified learners the option of taking
-   proctored exams without proctoring.
+    #. In Studio, select **Settings**, then select **Proctored Exam Settings**.
 
-#. Change the value of the setting to ``false``.
+    #. Locate the **Allow Opting Out of Proctored Exams** policy key. The default
+       value is ``No``, which requires verified learners to take
+       proctored exams with proctoring.
 
-#. Select **Save Changes**.
+    #. Change the value of the setting to ``Yes``.
+
+    #. Select **Submit**.
 
 
 
