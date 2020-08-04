@@ -20,9 +20,49 @@ users who log  in to the LMS or Studio. Under the default password complexity
 policy, passwords must contain 2 to 75 characters and cannot be similar to the
 user's username or email address.
 
-You can substitute your own password policy for the default policy. To configure 
-a password policy in replacement of the default password policy, follow these 
-steps.
+.. note:: Open edX does not store plain-text passwords, only
+   hashes. Since the length of a hash is independent of the length of
+   the original password, passwords can effectively be of unlimited
+   length. The 75-character default limit is rather arbitrary. Open
+   edX does impose an upper limit of 5,000 characters on a password,
+   but this should be well beyond the practical limit of password
+   length.
+
+This password policy is defined in the ``lms.yml`` configuration file,
+under the ``AUTH_PASSWORD_VALIDATORS`` setting::
+
+  AUTH_PASSWORD_VALIDATORS:
+  -   NAME: django.contrib.auth.password_validation.UserAttributeSimilarityValidator
+  -   NAME: util.password_policy_validators.MinimumLengthValidator
+        OPTIONS:
+          min_length: 2
+  -   NAME: util.password_policy_validators.MaximumLengthValidator
+        OPTIONS:
+          max_length: 75
+
+You can override these settings by modifying one of the existing
+``OPTIONS``. For example, if you want to enforce a minimum password
+length of 16 characters, and a maximum length of 256,
+you would set::
+
+  AUTH_PASSWORD_VALIDATORS:
+  -   NAME: django.contrib.auth.password_validation.UserAttributeSimilarityValidator
+  -   NAME: util.password_policy_validators.MinimumLengthValidator
+        OPTIONS:
+          min_length: 16
+  -   NAME: util.password_policy_validators.MaximumLengthValidator
+        OPTIONS:
+          max_length: 256
+
+
+.. warning:: If your Open edX configuration :ref:`enables third-party
+   authentication <Enabling Third Party Authentication>`, the *maximum*
+   value you can specify for the ``MinimumLengthValidator``'s
+   ``min_length`` option is 25.
+
+You can also substitute your own password policy for the default
+policy. To configure a password policy in replacement of the default
+password policy, follow these steps.
 
 #. Create or import a new password validator. This is a Python class that defines how a 
    password is validated. For details about writing a password validator class, 
@@ -58,14 +98,10 @@ To configure your Open edX instance to use a particular password validator,
 add your password validator to the list in the ``AUTH_PASSWORD_VALIDATORS`` 
 configuration key in the ``lms.env.json`` configuration file. For example, to
 add a password validator named ``MyPasswordValidator``, add a line like this 
-to the ``lms.env.json`` configuration file.
+to the ``lms.yml`` configuration file.
 ::
  
-  "AUTH_PASSWORD_VALIDATORS": [
-      {
-           "NAME": "path.to.file.MyPasswordValidatorClass",
-
-      },
-  ]
+  AUTH_PASSWORD_VALIDATORS:
+  -   NAME: path.to.module.MyPasswordValidatorClass
 
 .. include:: ../../../links/links.rst
