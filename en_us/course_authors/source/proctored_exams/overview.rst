@@ -95,11 +95,11 @@ see `Taking Timed and Proctored Exams` in the edX Help Center.
 Allow Opting Out of Proctored Exams
 ***************************************************
 
-  When a proctored exam opens, by default, verified learners must take the exam
-  with proctoring.
+When a proctored exam opens, by default, verified learners must take the exam
+with proctoring.
 
-  If you want to allow Verified or Master's learners the option to take proctored exams
-  without proctoring, please contact your edX partner manager to enable this option.
+If you want to allow Verified or Master's learners the option to take proctored exams
+without proctoring, please contact your edX partner manager to enable this option.
 
 .. note::
    If a learner opts to take an exam without proctoring, the exam will not be 
