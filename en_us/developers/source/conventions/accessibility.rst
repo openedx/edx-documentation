@@ -4,16 +4,16 @@
 edX Accessibility Guidelines
 #############################
 
-EdX measures and evaluates accessibility using the World Wide Web Consortium's
-`Web Content Accessibility Guidelines (WCAG) 2.0 <http://www.w3.org/TR/WCAG/>`_
-(Dec. 11, 2008). All features that you merge into edX repositories are expected
-to `conform <http://www.w3.org/TR/WCAG20/#conformance>`_ to `Level AA
-<http://www.w3.org/TR/WCAG20/#cc1>`_ of this specification and to satisfy the
+edX measures and evaluates accessibility using the World Wide Web Consortium's
+`Web Content Accessibility Guidelines (WCAG) 2.1 <http://www.w3.org/TR/WCAG/>`_
+(05 June 2018). All features that you merge into edX repositories are expected
+to `conform <http://www.w3.org/TR/WCAG21/#conformance>`_ to `Level AA
+<http://www.w3.org/TR/WCAG21/#cc1>`_ of this specification and to satisfy the
 requirements outlined in the edX `Website Accessibility Policy
 <http://www.edx.org/accessibility>`_.
 
 The **edX Accessibility Guidelines** are intended to extend the guidance
-available in WCAG 2.0, with a focus on features frequently found in the Open edX
+available in WCAG 2.1, with a focus on features frequently found in the Open edX
 platform, as well as in Learning and Content Management Systems in general.
 
 .. contents::
@@ -36,29 +36,32 @@ and web applications should give you more context for applying the guidance in
 this document.
 
 * People without vision, as well as those with neurological conditions that
-  prevent precise hand-eye coordination, cannot use a mouse.
+  prevent precise hand-eye coordination, cannot use a mouse. Therefore, all interactive content must be usable by keyboard alone.
 
-* People with mobility impairments might use custom keyboards or keyboard
-  emulators.
+* People with mobility impairments might use custom keyboards, keyboard
+  emulators, or voice input programs.
 
 * Some people rely on speech to interact with web applications and need to be
-  able to address interactive elements by speaking their accessible names.
+  able to address interactive elements by speaking their accessible names. Any visible labels should be a part of the control's accessible name.
 
 * People who cannot hear or hear well require visible text captions, or an
-  equivalent visual cue, for any audible content.
+  equivalent visual cue, for any audible content.  This includes recorded audio and video, but also includes audible UI feedback.
 
 * Many people with disabilities use "`assistive technologies
   <http://www.w3.org/TR/WCAG20/#atdef>`_" (such as screen readers) to interact
-  with their computers, web browsers, and web applications. Computer users might
-  customize their operating system, browser, or web page display properties to make
+  with their computers, web browsers, and web applications. 
+  
+* Some of the most commonly used assistive technologies are browser plugins.  Common examples include Reader Mode (for text reflow), Speech output for text when selected or on mouse hover, and thesaurus and grammar checkers for people with dyslexia.
+
+* Learners might customize their operating system, browser, or web page display properties to make
   web applications easier for them to use. For example, they might increase the
   font size in their displays, reverse or increase contrast, or remove images.
 
 * To allow assistive technologies to provide the maximum information to users,
   anything in a user interface that is conveyed visually (such as the element
   with focus, an element's role, its current state, and other properties) must
-  also be conveyed programmatically. This information is often included when you
-  use native HTML5 elements.
+  also be conveyed programmatically. This information is often included automatically when you
+  use native HTML5 elements, or added when you use.
 
 Keep these core concepts in mind when you develop user interfaces, so that they
 can truly be used by everyone. More information is available from the W3C's Web
@@ -135,6 +138,12 @@ Headings
 Use the appropriate levels of headings (``<h1>`` - ``h6>``) to denote a logical
 hierarchical order of content. Do not use headings as stylistic markup (for
 their physical size or appearance).
+
+Generally there should be only one H1 on a page (though HTML5 allows restarting the heading hierarchy within Section and Article elements, it is best to avoid this).
+
+Headings should not skip levels.
+
+Visual hierarchy should match the semantic hierarchy.
 
 
 Lists
@@ -439,12 +448,11 @@ Additional considerations for developing custom widgets are covered in `General
 steps for building an accessible widget <http://www.w3.org/TR/wai-aria-
 practices/#accessiblewidget>`_.
 
-Specific considerations for common widgets are covered in `WAI-ARIA 1.0
-Authoring Practices - Design Patterns <http://www.w3.org/TR/2013/WD-wai-aria-
-practices-20130307/#aria_ex>`_.
+Specific considerations for common widgets are covered in `WAI-ARIA 1.2
+Authoring Practices <https://www.w3.org/TR/wai-aria-practices-1.2/>`_ and `examples <https://www.w3.org/TR/wai-aria-practices-1.1/examples/>`_.
 
 A quick reference list of Required and Supported ARIA attributes by role is
-available in the `ARIA Role, State, and Property Quick Reference
+available in the `Using ARIA 
 <http://www.w3.org/TR/aria-in-html/#aria-role-state-and-property-quick-
 reference>`_
 
@@ -464,7 +472,7 @@ it.
 
 Note that ``<div>`` and other container elements are not natively focusable. If
 you want to move focus to a container you must set a ``tabindex="-1"`` attribute
-for that container. You should also define an ``aria-label`` or ``aria-
+for that container. You should also define a ``role`` and an ``aria-label`` or ``aria-
 labelledby`` attribute that identifies the purpose of the container.
 
 
@@ -566,7 +574,7 @@ appropriate to hide content from screen readers or display it offscreen.
 .. _Choose colors that meet minimum contrast ratios:
 
 ==========================================================
-Choose colors that meet WCAG 2.0's minimum contrast ratios
+Choose colors that meet WCAG 2.1's minimum contrast ratios
 ==========================================================
 
 A minimum contrast ratio between foreground and background colors is critical
@@ -589,24 +597,26 @@ quick and easy way to detect the most common mistakes.
 
 These are some automated tools for accessibility testing.
 
+* Your keyboard. For information about using your keyboard to test for
+  accessibility, see `<http://webaim.org/techniques/keyboard/>`_.
+  
+* `Accessibility features in Chrome's Developer Tools <https://developers.google.com/web/updates/2018/01/devtools#a11y-pane>`_ allow you to see the Accessibilty Tree, ARIA attributes, and computed properties
+
+* `Lighthouse auditing tools <https://developers.google.com/web/tools/lighthouse>`_ built into Chrome's Developer Tools offer automated accessibility testing.
+  
+* `Accessibility Insights for Web <https://chrome.google.com/webstore/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni>`_.
+  
 * `WAVE Accessibility Toolbar <http://wave.webaim.org/toolbar/>`_. This toolbar
   provides access to web accessibility evaluation tools that you can run in
   Firefox. A Chrome extension is available.
 
-* `Web Developer Toolbar <https://addons.mozilla.org/en-US/firefox/addon/web-developer/>`_. This toolbar provides various web developer tools for Firefox.
-
-* `Chrome Accessibility Developer Tools <https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb>`_. This extension adds an accessibility audit and tools to Chrome Developer Tools.
-
-* Your keyboard. For information about using your keyboard to test for
-  accessibility, see `<http://webaim.org/techniques/keyboard/>`_.
 
 .. note:: By default, the Mac OSX operating system is configured to move keyboard
    focus to **Text boxes and lists only**.  This setting also applies to browsing web
    pages using Safari or Firefox with a keyboard.  To effectively test
    keyboard accessibility using a Mac, you should configure your computer
    to focus on **All controls**.  Open **System Preferences**, and then select **Keyboard**.
-   On the **Shortcuts** tab, for Full Keyboard Access select **All controls**. You can also
-   toggle this setting with Control+F7.
+   On the **Shortcuts** tab, check **Use keyboard navigation to move focus between controls**.
 
    If you are a Chrome user, this behavior is controlled in a browser setting and is
    enabled by default.  However, if you find that you cannot move focus to links while
@@ -617,9 +627,9 @@ These are some automated tools for accessibility testing.
 To test your feature using a screen reader, you can use the following
 options.
 
-* `Voiceover <https://www.apple.com/accessibility/osx/voiceover>`_ is a free, built-in screen reader for Mac.
+* `VoiceOver <https://www.apple.com/accessibility/osx/voiceover>`_ is a free, built-in screen reader for Mac and iOS.
 
-* `ChromeVox <http://www.chromevox.com>`_ is a free screen reader for Chrome.
+* `ChromeVox <http://www.chromevox.com>`_ is a free screen reader (browser extension) for Chrome.
 
 * `NVDA <http://www.nvaccess.org/download/>`_ is a free screen reader for
   Windows.
@@ -627,4 +637,8 @@ options.
 * `JAWS <http://www.freedomscientific.com/Downloads/ProductDemos>`_ is a screen
   reader for Windows. It is a commercial product but free to use in a limited-time
   demo mode.
-
+  
+* `Narrator <https://support.microsoft.com/en-us/help/22798/windows-10-complete-guide-to-narrator>`_ is a free, built-in screen
+  reader for Windows.
+  
+.. note:: VoiceOver, NVDA, and Narrator can be configured to speak any text on screen on mouse hover.
