@@ -181,7 +181,7 @@ the authoring space was not reduced with the addition of the reference sheet.
 Open Response Assessments
 .........................
 
-**Improved File Management:** It is not possible to incrementally add and
+**Improved File Management:** It is now possible to incrementally add and
 delete individual files while submitting an ORA problem that has file upload
 enabled. Learners also can see the file name for their uploads as well. As part
 of this work the file size limit was increased to 500MB (from 20MB). 
