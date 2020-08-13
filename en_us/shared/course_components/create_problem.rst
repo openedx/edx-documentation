@@ -510,6 +510,21 @@ options define when the answer is shown to learners.
 .. list-table::
    :widths: 15 70
 
+   * - **After All Attempts**
+     - Learners will be able to **Show Answer** after they have used all of
+       their attempts. Requires max attempts to be set on the problem.
+
+   * - **After All Attempts or Correct**
+     - Learners will be able to **Show Answer** after they have used all of
+       their attempts or have correctly answered the question. If max attempts
+       are not set, the learner will need to answer correctly before they can
+       **Show Answer**.
+
+   * - **After Some Number of Attempts**
+     - Learners will be able to **Show Answer** after they have attempted the
+       problem a minimum number of times (this value is set by the course team
+       in Studio).
+
    * - **Always**
      - Always present the **Show Answer** option.
 
@@ -517,16 +532,12 @@ options define when the answer is shown to learners.
        after they select **Show Answer** to see the correct answer.
 
    * - **Answered**
-     - Show the answer only after the learner answers the problem correctly.
-
-       If the problem can be, and is, reset, the answer is not shown until the
-       learner tries the problem again after resetting. (When a learner
-       answers a problem, the problem is considered to be both attempted and
-       answered. When the problem is reset, the problem is still considered to
-       have been attempted, but is not considered to be answered.)
+     - Learners will be able to **Show Answer** after they have correctly
+       answered the problem.
 
    * - **Attempted**
-     - Show the answer only after the learner tries to answer the problem.
+     - Learners will be able to **Show Answer** after they have made at least
+       1 attempt on the problem.
 
        If the problem can be, and is, reset, the answer continues to show.
        (When a learner answers a problem, the problem is considered to be both
@@ -534,23 +545,30 @@ options define when the answer is shown to learners.
        considered to have been attempted, but is not considered to be
        answered.)
 
+   * - **Attempted or Past Due**
+     - Learners will be able to **Show Answer** after they have made at least
+       1 attempt on the problem or the problem’s due date is in the past.
+
    * - **Closed**
-     - Show the answer only after the learner has used up all his attempts to answer
-       the problem or if the due date has passed.
-   * - **Finished**
-     - Show the answer after the learner has answered the problem correctly,
-       if the learner has no attempts remaining, or if the problem due date has
-       passed.
+     - Learners will be able to **Show Answer** after they have used all
+       attempts on the problem or the due date for the problem is in the past.
+
    * - **Correct or Past Due**
-     - Show the answer only after the learner has answered the problem
-       correctly or if the problem due date has passed.
-   * - **Past Due**
-     - Show the answer only after the due date for the problem has passed.
+     - Learners will be able to **Show Answer** after they have correctly
+       answered the problem or the due date for the problem is in the past.
+
+   * - **Finished**
+     - Learners will be able to **Show Answer** after they have used all
+       attempts on the problem or the due date for the problem is in the past
+       or they have correctly answered the problem.
+
    * - **Never**
-     - Never show the answer. In this case, the **Show Answer** option does
-       not appear next to the problem in Studio or in the LMS. If your problem
-       does not include a correct answer to show to learners, make sure you
-       select **Never**.
+     - Learners and Staff will never be able to **Show Answer**.
+
+   * - **Past Due**
+     - Learners will be able to **Show Answer** after the due date for the
+       problem is in the past.
+
 
 .. _Show Answer Number of Attempts:
 
