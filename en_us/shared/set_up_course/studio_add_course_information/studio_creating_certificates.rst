@@ -90,6 +90,29 @@ Certificates`.
 
     #. At the bottom of the page, select **Save Changes**.
 
+    .. note:: The **Certificate Web/HTML View Enabled** settings is set to
+       ``true`` by default.
+       
+       You can still find it among the **Deprecated Settings** in
+       **Advanced Settings**
+
+    In addition to enabling certificates for your course, you have to add
+    a course mode for the course you wish to create a certificate for.
+
+    #. Access the LMS Django Administration website for your instance of
+       Open edX. To do this, go to 
+       ``https://<host name of your Open edX instance>/admin``. For example,
+       this might be ``https://courses.YourOrganization.com/admin``.
+
+    #. Under **Course Modes** > **Course modes**, add a new course mode for
+       course you want to create a certificate for.
+
+    .. note:: Different certificate types are available with the different
+       course modes. 
+
+       See :ref:`enrollment track<enrollment_track_g>` for more information
+       about different course modes or certificate types.
+
 .. Confirmed March 9, 2017: On edx.org, the Certificate Web/HTML View Enabled
 .. setting is true by default, so the "Enable" procedure isn't necessary for
 .. partners.
