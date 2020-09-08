@@ -157,6 +157,8 @@
 
 .. _Developing on Devstack: https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Devstack
 
+.. _Getting Started on Analytics: https://github.com/edx/devstack/blob/master/docs/analytics.rst
+
 .. _forum migration described on the Open edX wiki: https://openedx.atlassian.net/wiki/display/TNL/Migrating+the+Discussion+Forums+to+Support+Teams+Discussion+Filtering
 
 .. _Google Drive XBlock: https://github.com/edx-solutions/xblock-google-drive

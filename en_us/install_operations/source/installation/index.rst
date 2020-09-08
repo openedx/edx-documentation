@@ -52,7 +52,7 @@ convenient. For example, `nginx`_ and `gunicorn`_ are disabled in Devstack;
 Devstack uses Django's ``runserver`` instead.
 
 You can install the Open edX developer stack (just known as **Devstack**)
-or the Open edX analytics developer stack (**Analytics Devstack**).
+or the Open edX analytics developer stack (**Analytics Devstack** or just **Analyticstack**).
 
 =====================
 Devstack Installation
@@ -73,16 +73,14 @@ Analytics Devstack
 
 Some users might want to develop Analytics features on their instance of the
 Open edX platform. Because of the large number of dependencies needed to
-develop extensions to Analytics, edX has created a separate developer stack,
-known as Analytics Devstack. We strongly recommend that you install the
-Analytics Devstack instead of adding Analytics extensions to an instance of
-devstack.
+develop extensions to Analytics, edX has created a modified version of Devstack
+that provides the services and tools needed to modify the
+Open edX Analytics Pipeline.
 
-Analytics Devstack is a modified version of Devstack.
-This development environment provides all of the
-services and tools needed to modify the Open edX Analytics Pipeline, Data API,
-and Insights projects.
+For information on running Analytics Stack,
+see the `Getting Started on Analytics`_ document in the devstack repository.
 
-See the `devstack`_ repository for information on running Analytics Devstack.
+Insights and the Analytics Data API are currently not included in
+Analytics Devstack.
 
 .. include:: ../../../links/links.rst
