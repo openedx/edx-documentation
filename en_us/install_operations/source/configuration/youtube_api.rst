@@ -103,10 +103,10 @@ steps.
    ``/edx/app/edxapp/edx-platform``.
 
 #. In the directory *above* your repository, there should be several JSON
-   files, including ``lms.auth.json`` and ``cms.auth.json``. If you are running
+   files, including ``lms.yaml`` and ``studio.yaml``. If you are running
    devstack or fullstack, the directory is ``/edx/app/edxapp``.
 
-#. Open the ``lms.auth.json`` file in your text editor.
+#. Open the ``lms.yaml`` file in your text editor.
 
 #. Find the line for the YouTube API key.
 
@@ -117,7 +117,7 @@ steps.
 
 #. Save and close the file.
 
-#. Open the ``cms.auth.json`` file and make the same change. If that line does
+#. Open the ``studio.yaml`` file and make the same change. If that line does
    not exist in this file, create it.
 
 #. Save and close the file.

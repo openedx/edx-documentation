@@ -258,6 +258,22 @@ The aggregated data for many files is output as a csv.
 
 .. _pytest-repo-health: https://github.com/edx/pytest-repo-health
 
+
+==========================
+LMS / Studio Configuration
+==========================
+
+JSON to YAML
+--------------------
+
+Most edx applications read a single YAML file.  However the lms and studio historically
+read multiple JSON ones. We are making the lms and studio behave the same as the other applications
+by having them read a single YAML file instead of multiple JSON ones. Below is a link to assist if you have difficulty
+with that transition. 
+
+.. __: https://openedx.atlassian.net/wiki/spaces/AC/pages/1822916664/How+to+convert+your+lms+and+studio+json+configuration+files+to+yaml
+
+
 ==============================
 Feature & Update Documentation
 ==============================

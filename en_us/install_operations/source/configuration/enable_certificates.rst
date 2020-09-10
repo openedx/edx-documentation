@@ -38,10 +38,10 @@ configuration tasks described in this topic.
 Enable Course Certificates in Studio and the LMS
 *************************************************
 
-To enable certificates, you modify the ``lms.env.json`` and ``cms.env.json``
+To enable certificates, you modify the ``lms.yaml`` and ``studio.yaml``
 files, which are located one level above the ``edx-platform`` directory.
 
-#. In the ``lms.env.json`` and ``cms.env.json`` files, set the value of
+#. In the ``lms.yaml`` and ``studio.yaml`` files, set the value of
    ``CERTIFICATES_HTML_VIEW`` within the ``FEATURES`` object  to ``true``.
 
    .. code-block:: none
@@ -52,7 +52,7 @@ files, which are located one level above the ``edx-platform`` directory.
          ...
      }
 
-#. Save the ``lms.env.json`` and ``cms.env.json`` files.
+#. Save the ``lms.yaml`` and ``studio.yaml`` files.
 
 #. If it does not exist already, create the folder ``/tmp/certificates`` owned
    by the user and group ``www-data``. Depending on your configuration, this

@@ -34,19 +34,19 @@ Course*. For information about the learner experience, see
 Enable Timed Exams in Studio and the Learning Management System
 *************************************************************************
 
-To enable timed exams, you modify the ``lms.env.json`` and
-``cms.env.json`` files, which are located one level above the ``edx-platform``
+To enable timed exams, you modify the ``lms.yaml`` and
+``studio.yaml`` files, which are located one level above the ``edx-platform``
 directory.
 
 #. Set the value of ``ENABLE_SPECIAL_EXAMS`` in the
-   ``lms.env.json`` and ``cms.env.json`` files to ``true``.
+   ``lms.yaml`` and ``studio.yaml`` files to ``true``.
 
    .. code-block:: none
 
        # Timed exams feature flag
        'ENABLE_SPECIAL_EXAMS': true,
 
-#. Save the  ``lms.env.json`` and ``cms.env.json`` files.
+#. Save the  ``lms.yaml`` and ``studio.yaml`` files.
 
 #. Restart the Studio (CMS) and Learning Management System (LMS) processes so
    that your updates are loaded.

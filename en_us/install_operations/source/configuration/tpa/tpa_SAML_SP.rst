@@ -40,13 +40,13 @@ you ran the command.
 Add Keys to the LMS Configuration File
 **************************************************
 
-.. note:: Configuration settings added to the ``lms.auth.json`` file are reset
+.. note:: Configuration settings added to the ``lms.yaml`` file are reset
  to their default values when you use Ansible to update edx-platform.
 
 To configure an Open edX site with your public and private SAML keys, follow
 these steps.
 
-#. Open the ``edx/app/edxapp/lms.auth.json`` file in your text editor.
+#. Open the ``edx/app/edxapp/lms.yaml`` file in your text editor.
 
 #. In the root of the JSON, add the ``SOCIAL_AUTH_SAML_SP_PUBLIC_CERT`` key
    followed by a colon (:), a space, and an empty string where you'll paste the
@@ -81,7 +81,7 @@ these steps.
     "SOCIAL_AUTH_SAML_SP_PUBLIC_CERT": "-----BEGIN CERTIFICATE-----\nSWP6P/C1ypaYkmS...j9+hjvbBf3szk=\n-----END CERTIFICATE-----\n"
     "SOCIAL_AUTH_SAML_SP_PRIVATE_KEY": "-----BEGIN RSA PRIVATE KEY-----\nW1icmlkZN+FtM5h...s/psgLDn38Q==\n-----END RSA PRIVATE KEY-----\n"
 
-#. Save and close the ``lms.auth.json`` file.
+#. Save and close the ``lms.yaml`` file.
 
 
 **************************************************
@@ -143,7 +143,7 @@ these steps.
 
 #. Optionally, you can save your public and private keys in the Django
    administration console. Because this procedure saves your credentials in the
-   database, edX recommends that you use the ``lms.auth.json`` file instead.
+   database, edX recommends that you use the ``lms.yaml`` file instead.
    For more information, see :ref:`Add Keys to the LMS Configuration File`.
 
 #. Select **Save**. You can direct identity providers to
@@ -154,7 +154,7 @@ Ensure that the SAML Authentication Backend is Loaded
 *******************************************************
 
 By default, SAML is included as an approved data format for identity providers.
-The default configuration of the ``/edx/app/edxapp/lms.env.json`` file does not
+The default configuration of the ``/edx/app/edxapp/lms.yaml`` file does not
 explicitly include the ``THIRD_PARTY_AUTH_BACKENDS`` setting.
 
 If you have customized this file and added the ``THIRD_PARTY_AUTH_BACKENDS``
@@ -163,6 +163,6 @@ setting to it, you might need to verify that the
 specified for it. That backend is required before you can add SAML IdPs.
 
 To verify that the SAML authentication backend is loaded on a devstack or
-fullstack installation, review the ``/edx/app/edxapp/lms.env.json`` file.
+fullstack installation, review the ``/edx/app/edxapp/lms.yaml`` file.
 
 .. include:: ../../../../links/links.rst
