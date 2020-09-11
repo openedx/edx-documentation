@@ -214,7 +214,7 @@ for ordered lists and two spaces for unordered lists.
 
 ::
 
-  #. In the ``lms.env.json`` and ``cms.env.json`` files, set the value of
+  #. In the ``lms.yaml`` and ``studio.yaml`` files, set the value of
      ``CERTIFICATES_HTML_VIEW`` within the ``FEATURES`` object  to ``true``.
 
      .. code-block:: bash
@@ -225,7 +225,7 @@ for ordered lists and two spaces for unordered lists.
            ...
        }
 
-  #. Save the ``lms.env.json`` and ``cms.env.json`` files.
+  #. Save the ``lms.yaml`` and ``studio.yaml`` files.
 
 
 ***************************************

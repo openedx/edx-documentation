@@ -61,7 +61,7 @@ Python module, follow these steps.
         pip install /path/to/my/module
 
 
-#. Edit the ``lms.env.json`` file for your LMS server. Add the ``drag-and-
+#. Edit the ``lms.yaml`` file for your LMS server. Add the ``drag-and-
    drop-v2`` object to the ``XBLOCK_SETTINGS`` object. Include the content
    shown in the following example.
 

@@ -27,7 +27,7 @@ Add Custom Fields to the Registration Page
 
 Before you add a custom field to the registration page, you must make sure that
 the combined sign-in and registration form is enabled for your Open edX
-instance. To do this, open the ``lms.env.json`` and ``cms.env.json`` files, and
+instance. To do this, open the ``lms.yaml`` and ``studio.yaml`` files, and
 set the ``ENABLE_COMBINED_LOGIN_REGISTRATION`` feature flag to True. These
 files are located one level above the ``edx- platform`` directory.
 
@@ -42,10 +42,10 @@ To add custom fields to the registration page, follow these steps.
    For more information about how to create Django forms, see `Django Forms`_
    on the `Django website`_.
 
-#. In the ``lms.env.json`` file, add the app for your model to the
+#. In the ``lms.yaml`` file, add the app for your model to the
    ``ADDL_INSTALLED_APPS`` array.
 
-#. In the ``lms.env.json`` file, set the ``REGISTRATION_EXTENSION_FORM``
+#. In the ``lms.yaml`` file, set the ``REGISTRATION_EXTENSION_FORM``
    setting to the path of the Django form that you just created, as a dot-
    separated Python string.
 

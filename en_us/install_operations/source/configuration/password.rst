@@ -29,7 +29,7 @@ steps.
    see :ref:`Creating a Password Validator`.
 
 #. Add your password validator to the list in the ``AUTH_PASSWORD_VALIDATORS`` 
-   configuration key in the ``lms.env.json`` configuration file. For details, 
+   configuration key in the ``lms.yaml`` configuration file. For details, 
    see :ref:`Configuring a Password Validator`.
 
 .. _Creating a Password Validator:
@@ -56,7 +56,7 @@ Configuring a Password Validator
 
 To configure your Open edX instance to use a particular password validator, 
 add your password validator to the list in the ``AUTH_PASSWORD_VALIDATORS`` 
-configuration key in the ``lms.env.json`` configuration file. For example, to
+configuration key in the ``lms.yaml`` configuration file. For example, to
 add a password validator named ``MyPasswordValidator``, add a line like this 
 to the ``lms.env.json`` configuration file.
 ::

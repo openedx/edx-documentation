@@ -34,17 +34,17 @@ Open edX Course* and *Open edX Learner's* guides.
 Enable Entrance Exams in Studio and the Learning Management System
 *************************************************************************
 
-To enable entrance exams, you modify the ``lms.env.json`` and ``cms.env.json``
+To enable entrance exams, you modify the ``lms.yaml`` and ``studio.yaml``
 files, which are located one level above the ``edx-platform`` directory.
 
-#. Set the value of ``ENTRANCE_EXAMS`` in the ``lms.env.json`` and
-   ``cms.env.json`` files to ``True``.
+#. Set the value of ``ENTRANCE_EXAMS`` in the ``lms.yaml`` and
+   ``studio.yaml`` files to ``True``.
 
    .. code-block:: none
 
      # Entrance exams feature flag
      'ENTRANCE_EXAMS': True,
 
-#. Save the ``lms.env.json`` and ``cms.env.json`` files.
+#. Save the ``lms.yaml`` and ``studio.yaml`` files.
 
 .. include:: ../../../links/links.rst
