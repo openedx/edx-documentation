@@ -33,11 +33,11 @@ Configure Allowed Email Patterns
 
 To specify the email patterns that are allowed for registration, follow these steps.
 
-#. Locate the ``lms.env.json`` and ``cms.env.json`` files, which are located
+#. Locate the ``lms.yaml`` and ``studio.yaml`` files, which are located
    one level above the ``edx-platform`` directory. You make the same changes
    to both files.
 
-#. In the ``lms.env.json`` and ``cms.env.json`` files add the
+#. In the ``lms.yaml`` and ``studio.yaml`` files add the
    ``REGISTRATION_EMAIL_PATTERNS_ALLOWED`` setting.
 
    .. code-block:: none
@@ -64,6 +64,6 @@ To specify the email patterns that are allowed for registration, follow these st
         "(^\\w+\\.\\w+)@school\\.tld$"
      ]
 
-#. Save the ``lms.env.json`` and ``cms.env.json`` files.
+#. Save the ``lms.yaml`` and ``studio.yaml`` files.
 
 #. Restart your ``edxapp`` instances.
