@@ -54,7 +54,7 @@ To enable the use of themes for your Open edX installation, follow these steps.
    * For the LMS, you edit ``/edx/app/edxapp/lms.yml`` to set
      ``"ENABLE_COMPREHENSIVE_THEMING": true``.
 
-   * For Studio, you edit ``/edx/app/edxapp/studio.yaml`` to set
+   * For Studio, you edit ``/edx/app/edxapp/studio.yml`` to set
      ``"ENABLE_COMPREHENSIVE_THEMING": true``.
 
    * For the E-commerce service, you edit ``/edx/etc/ecommerce.yml`` to set
@@ -72,7 +72,7 @@ To enable the use of themes for your Open edX installation, follow these steps.
    configuration property in the following files.
 
    * For Studio, add the path to ``COMPREHENSIVE_THEME_DIRS`` in
-     ``/edx/app/edxapp/studio.yaml``.
+     ``/edx/app/edxapp/studio.yml``.
 
      .. code-block:: none
 
@@ -129,7 +129,7 @@ For the following file structure:
                └── static
                └── templates
 
-set these in lms.yml and studio.yaml:
+set these in lms.yml and studio.yml:
 
 .. code:: json
 

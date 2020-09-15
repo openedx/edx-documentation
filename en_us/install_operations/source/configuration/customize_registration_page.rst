@@ -27,7 +27,7 @@ Add Custom Fields to the Registration Page
 
 Before you add a custom field to the registration page, you must make sure that
 the combined sign-in and registration form is enabled for your Open edX
-instance. To do this, open the ``lms.yml`` and ``studio.yaml`` files, and
+instance. To do this, open the ``lms.yml`` and ``studio.yml`` files, and
 set the ``ENABLE_COMBINED_LOGIN_REGISTRATION`` feature flag to True. These
 files are located one level above the ``edx- platform`` directory.
 

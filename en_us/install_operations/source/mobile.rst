@@ -211,7 +211,7 @@ Enable Push Notification on the Server
 
 To enable the push notification feature, follow these steps.
 
-#. In the ``edx/app/edxapp/studio.yaml`` file, add the following lines.
+#. In the ``edx/app/edxapp/studio.yml`` file, add the following lines.
 
    .. code-block:: none
 
@@ -220,7 +220,7 @@ To enable the push notification feature, follow these steps.
       "REST_API_KEY": "{API_key}" 
     }
 
-2. Save the ``edx/app/edxapp/studio.yaml`` file.
+2. Save the ``edx/app/edxapp/studio.yml`` file.
 
 #. Restart the server.
 

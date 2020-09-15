@@ -192,7 +192,7 @@ To specify a different badge generator, follow these steps.
         image_url = models.URLField()
         assertion_url = models.URLField(
 
-#. In the ``lms.yml`` and ``studio.yaml`` files, set the value of
+#. In the ``lms.yml`` and ``studio.yml`` files, set the value of
    ``BADGING_BACKEND`` as a dot-separated python path specification to the
    object that you use to create and assign badges.
 
@@ -207,10 +207,10 @@ To specify a different badge generator, follow these steps.
 Enable Badges in Studio and the Learning Management System
 *****************************************************************
 
-To enable badges, you modify the ``lms.yml`` and ``studio.yaml`` files,
+To enable badges, you modify the ``lms.yml`` and ``studio.yml`` files,
 which are located one level above the ``edx-platform`` directory.
 
-#. In the ``lms.yml`` and ``studio.yaml`` files, in the FEATURES
+#. In the ``lms.yml`` and ``studio.yml`` files, in the FEATURES
    section, set the value of ``ENABLE_OPENBADGES``  to ``True``.
 
    .. code-block:: none
@@ -242,7 +242,7 @@ which are located one level above the ``edx-platform`` directory.
        BADGR_BASE_URL = "http://localhost:8005"
        BADGR_ISSUER_SLUG = "test-issuer"
 
-#. Save the ``lms.yml`` and ``studio.yaml`` files.
+#. Save the ``lms.yml`` and ``studio.yml`` files.
 
 #. Run database migrations.
 

@@ -5,7 +5,7 @@ Enabling Custom Course Settings
 ####################################
 
 To enable course developers to add custom fields to a course on your instance 
-of Open edX, you must configure the ``studio.yaml`` file in the edX platform.
+of Open edX, you must configure the ``studio.yml`` file in the edX platform.
 
 .. Note::
   Before proceeding, review :ref:`Guidelines for Updating the Open edX
@@ -13,7 +13,7 @@ of Open edX, you must configure the ``studio.yaml`` file in the edX platform.
 
 #. Stop the LMS server.
 
-#. Create or update the file ``studio.yaml`` to include the custom course 
+#. Create or update the file ``studio.yml`` to include the custom course 
    settings feature flag.
 
    .. code-block:: yaml
