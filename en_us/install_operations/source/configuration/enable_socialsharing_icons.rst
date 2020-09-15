@@ -115,7 +115,7 @@ In addition to enabling the social sharing icons, you can allow course
 teams to provide a custom URL for social sharing sites to link back to.
 
 You must set the ``CUSTOM_COURSE_URLS`` parameter to ``True`` in both the
-``lms.yml`` and ``studio.yaml`` files. In the ``studio.yaml`` file, this
+``lms.yml`` and ``studio.yml`` files. In the ``studio.yml`` file, this
 parameter is the only social sharing setting.
 
 .. code-block:: none
@@ -124,7 +124,7 @@ parameter is the only social sharing setting.
         'CUSTOM_COURSE_URLS': True
     }
 
-When finished, save the ``lms.yml`` and ``studio.yaml`` files.
+When finished, save the ``lms.yml`` and ``studio.yml`` files.
 
 =================================
 Set a Custom URL for a Course

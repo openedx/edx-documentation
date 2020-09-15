@@ -369,7 +369,7 @@ file can be used to specify event names that should be emitted to Segment
 from normal ``tracker.emit()`` calls. Events specified in this whitelist will be
 sent to both the tracking logs and Segment.  Similarly, it is enabled in Studio
 if the ``SEGMENT_KEY`` key is set to a valid Segment API key in the
-``studio.yaml`` file.
+``studio.yml`` file.
 
 
 Google Analytics
