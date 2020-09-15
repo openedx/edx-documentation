@@ -36,10 +36,10 @@ in both Studio and the Learning Management System.
 Enable Licensing in Studio
 *****************************
 
-To enable licensing, you modify the ``lms.yaml`` and ``studio.yaml``
+To enable licensing, you modify the ``lms.yml`` and ``studio.yaml``
 files, which are located one level above the ``edx-platform`` directory.
 
-#. In the ``lms.yaml`` and ``studio.yaml`` files, in the ``FEATURES``
+#. In the ``lms.yml`` and ``studio.yaml`` files, in the ``FEATURES``
    dictionary, add ``'LICENSING':True``:
 
    .. code-block:: none
@@ -48,6 +48,6 @@ files, which are located one level above the ``edx-platform`` directory.
           'LICENSING': True,
           . . .
 
-#. Save the ``lms.yaml`` and ``studio.yaml`` files.
+#. Save the ``lms.yml`` and ``studio.yaml`` files.
 
 .. include:: ../../../links/links.rst

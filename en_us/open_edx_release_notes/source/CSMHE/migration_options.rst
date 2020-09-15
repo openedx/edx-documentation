@@ -30,9 +30,9 @@ data. An outline of the steps you need to complete follows.
 
 #. Create the ``edxapp_csmh`` database.
 
-#. Update ``lms.yaml`` with a new entry in the DATABASES section.
+#. Update ``lms.yml`` with a new entry in the DATABASES section.
 
-#. Update ``lms.yaml`` to set ``"ENABLE_CSMH_EXTENDED": true``. Leave
+#. Update ``lms.yml`` to set ``"ENABLE_CSMH_EXTENDED": true``. Leave
    ``"ENABLE_READING_FROM_MULTIPLE_HISTORY_TABLES": true``.
 
 #. Run django migrations to generate the new table.
@@ -67,7 +67,7 @@ be running the release branch of edx-platform.
 
 Reprovisioning adds the ``edxapp_csmh`` database and its
 ``coursewarehistoryextended_studentmodulehistoryextended`` table. The
-``lms.yaml`` feature flags that control use of the
+``lms.yml`` feature flags that control use of the
 ``coursewarehistoryextended_studentmodulehistoryextended`` table have the
 following settings.
 
@@ -120,13 +120,13 @@ An outline of the steps you complete follows.
 
 #. Create the ``edxapp_csmh`` database.
 
-#. Update ``lms.yaml`` with a new entry in the DATABASES section.
+#. Update ``lms.yml`` with a new entry in the DATABASES section.
 
-   If you use the edxapp Ansible role to update ``lms.yaml``, the system
+   If you use the edxapp Ansible role to update ``lms.yml``, the system
    automatically merges an update to the ``edxapp_databases`` dictionary in
    `edxapp/defaults/main.yml`_.
 
-#. Update ``lms.yaml`` to set ``"ENABLE_CSMH_EXTENDED": true``.
+#. Update ``lms.yml`` to set ``"ENABLE_CSMH_EXTENDED": true``.
 
 #. Run migrations to create the new database table.
 
@@ -136,7 +136,7 @@ An outline of the steps you complete follows.
 #. Migrate all data from ``courseware_studentmodulehistory`` to
    ``coursewarehistoryextended_studentmodulehistoryextended``.
 
-#. Update ``lms.yaml`` to set
+#. Update ``lms.yml`` to set
    ``"ENABLE_READING_FROM_MULTIPLE_HISTORY_TABLES": false``.
 
 #. Truncate ``courseware_studentmodulehistory``.

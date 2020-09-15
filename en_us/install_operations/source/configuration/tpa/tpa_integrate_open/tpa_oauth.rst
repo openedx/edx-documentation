@@ -206,20 +206,20 @@ Configure Open edX
 
 Configuring Open edX is very similar for Google, Facebook, LinkedIn, and Azure.
 
-#. In the ``lms.yaml`` file, change the value of ``FEATURES`` >
+#. In the ``lms.yml`` file, change the value of ``FEATURES`` >
    ``ENABLE_THIRD_PARTY_AUTH`` to ``true`` (it is ``false`` by default).
 
 #. If necessary, make sure that the correct backend is specified.
 
    * If you are using Google, Facebook, LinkedIn, or Active Directory, open the
-     ``lms.yaml`` file and look for the ``THIRD_PARTY_AUTH_BACKENDS`` list.
+     ``lms.yml`` file and look for the ``THIRD_PARTY_AUTH_BACKENDS`` list.
      By default, the file does not contain this list.
 
-     If the ``lms.yaml`` file does not contain the
+     If the ``lms.yml`` file does not contain the
      ``THIRD_PARTY_AUTH_BACKENDS`` list, you do not have to complete any
      additional steps.
 
-     If the ``lms.yaml`` file contains the ``THIRD_PARTY_AUTH_BACKENDS``
+     If the ``lms.yml`` file contains the ``THIRD_PARTY_AUTH_BACKENDS``
      list, add the backend for the applicable IdP to the list.
 
        * For Google, add ``"social_core.backends.google.GoogleOAuth2"``.
@@ -232,13 +232,13 @@ Configuring Open edX is very similar for Google, Facebook, LinkedIn, and Azure.
           ``"social_core.backends.azuread.AzureADOAuth2"``.
 
    * If you are using a custom backend, add the applicable OAuth2 provider to
-     the ``THIRD_PARTY_AUTH_BACKENDS`` list in the ``lms.yaml`` file. If
+     the ``THIRD_PARTY_AUTH_BACKENDS`` list in the ``lms.yml`` file. If
      the file does not contain the ``THIRD_PARTY_AUTH_BACKENDS`` list, create
      the list, and then add the OAuth2 provider.
 
    For more information, see the `AWS template file`_ file in GitHub.
 
-#. In the ``lms.yaml`` file, add the client secret. To do this, create the
+#. In the ``lms.yml`` file, add the client secret. To do this, create the
    ``SOCIAL_AUTH_OAUTH_SECRETS`` key if the key does not already exist, and
    then add the appropriate value for your IdP.
 
@@ -330,7 +330,7 @@ Add the Provider Configuration
 #. For **Client ID**, enter the client ID that you noted earlier.
 
 #. Leave **Client Secret** blank. Open edX sets the secret through
-   ``lms.yaml``, which is more secure.
+   ``lms.yml``, which is more secure.
 
 #. (Optional) If you want Facebook or LinkedIn to provide the user's email
    address during registration, enter the following code into **Other
@@ -368,7 +368,7 @@ in.
    ``'unicode' object has no attribute 'get'``
 
   To resolve this problem, make sure that this setting does not appear multiple
-  times in the ``lms.yaml`` file.
+  times in the ``lms.yml`` file.
 
 .. _Additional Providers:
 
@@ -383,7 +383,7 @@ OAuth2 standard to the Open edX platform. To do this, follow these steps.
  OAuth1 providers are also supported and can be configured using these same
  steps. However, OAuth2 is preferred over OAuth1 wherever possible.
 
-#. In ``lms.yaml``, change the value of ``FEATURES`` >
+#. In ``lms.yml``, change the value of ``FEATURES`` >
    ``ENABLE_THIRD_PARTY_AUTH`` to ``true`` (it is ``false`` by default).
 
 #. Install the python-social-auth authentication backend specific to
@@ -411,7 +411,7 @@ OAuth2 standard to the Open edX platform. To do this, follow these steps.
 #. Enable the python-social-auth authentication backend specific to that
    provider:
 
-   #. In the ``THIRD_PARTY_AUTH_BACKENDS`` setting in ``lms.yaml``, add the
+   #. In the ``THIRD_PARTY_AUTH_BACKENDS`` setting in ``lms.yml``, add the
       full path of the module to the list.
 
    #. (optional) Set the value of ``THIRD_PARTY_AUTH_BACKENDS`` to match `the
@@ -420,7 +420,7 @@ OAuth2 standard to the Open edX platform. To do this, follow these steps.
 
 #. Obtain a client ID and client secret from the provider.
 
-#. Add the client secret to ``lms.yaml``. To do this, create a new key
+#. Add the client secret to ``lms.yml``. To do this, create a new key
    called ``SOCIAL_AUTH_OAUTH_SECRETS`` if it doesn't already exist, and then
    add the backend name to that key as follows.
 
@@ -460,7 +460,7 @@ OAuth2 standard to the Open edX platform. To do this, follow these steps.
 #. For **Client ID**, enter the client ID that you noted earlier.
 
 #. Leave **Client Secret** blank. Open edX sets the secret through
-   ``lms.yaml``, which is more secure.
+   ``lms.yml``, which is more secure.
 
 #. Select **Save**.
 

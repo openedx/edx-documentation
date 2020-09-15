@@ -136,7 +136,7 @@ Configure the LMS
 
 To configure the LMS, follow these steps.
 
-#. Verify that the following settings in ``/edx/app/edxapp/lms.yaml`` are
+#. Verify that the following settings in ``/edx/app/edxapp/lms.yml`` are
    correct. ::
 
        "ECOMMERCE_API_URL": "http://localhost:8002/api/v2/"
@@ -145,7 +145,7 @@ To configure the LMS, follow these steps.
        "OAUTH_ENFORCE_SECURE": false
        "OAUTH_OIDC_ISSUER": "http://127.0.0.1:8000/oauth2"
 
-#. Verify that the following settings in ``/edx/app/edxapp/lms.yaml`` are
+#. Verify that the following settings in ``/edx/app/edxapp/lms.yml`` are
    correct. ::
 
        "ECOMMERCE_API_SIGNING_KEY": "insecure-secret-key" // Must match the E-Commerce JWT_SECRET_KEY setting
@@ -224,17 +224,17 @@ configuring the two courses in your LMS instance.
        sudo su ecommerce
 
 #. Verify that the following keys in ``/edx/etc/ecommerce.yml`` match your
-   settings in ``/edx/app/edxapp/lms.yaml`` and
-   ``/edx/app/edxapp/lms.yaml``.
+   settings in ``/edx/app/edxapp/lms.yml`` and
+   ``/edx/app/edxapp/lms.yml``.
 
    * One of the ``JWT_AUTH:JWT_ISSUERS`` entries should match
-     ``/edx/app/edxapp/lms.yaml:JWT_ISSUER``. The default value is
+     ``/edx/app/edxapp/lms.yml:JWT_ISSUER``. The default value is
      ``http://127.0.0.1:8000/oauth2``.
    * ``JWT_AUTH:JWT_SECRET_KEY`` should match
-     ``/edx/app/edxapp/lms.yaml:ECOMMERCE_API_SIGNING_KEY``. The default
+     ``/edx/app/edxapp/lms.yml:ECOMMERCE_API_SIGNING_KEY``. The default
      value is ``lms-secret``.
    * ``EDX_API_KEY`` should match
-     ``/edx/app/edxapp/lms.yaml:EDX_API_KEY``. The default value is
+     ``/edx/app/edxapp/lms.yml:EDX_API_KEY``. The default value is
      ``PUT_YOUR_API_KEY_HERE``.
 
 #. Set up the E-Commerce environment.

@@ -22,7 +22,7 @@ minutes.
 
 To change the interval for returning aggregated grades, follow these steps.
 
-#. In ``edx/app/edxapp/lms.yaml``, change the value for the following
+#. In ``edx/app/edxapp/lms.yml``, change the value for the following
    parameter.
 
    ``LTI_AGGREGATE_SCORE_PASSBACK_DELAY = 15 * 60``

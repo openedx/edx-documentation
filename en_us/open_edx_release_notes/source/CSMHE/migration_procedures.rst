@@ -91,12 +91,12 @@ Options for Configuring the Database
 =====================================
 
 After you create the MySQL database and set users up, you update
-``lms.yaml`` to add configuration settings to the DATABASES section. To do
+``lms.yml`` to add configuration settings to the DATABASES section. To do
 so, you can use one of these options.
 
 * Use the `edxapp.yml playbook`_ to update your edxapp instances. If you
   choose to use this playbook, then master after 5 May 2016 will update
-  ``lms.yaml`` to set ``edxapp_databases`` in the DATABASES section for
+  ``lms.yml`` to set ``edxapp_databases`` in the DATABASES section for
   you.
 
   The playbook requires ``EDXAPP_MYSQL_CSMH_DB_NAME``,
@@ -105,7 +105,7 @@ so, you can use one of these options.
   same way that the ``EDXAPP_MYSQL_...`` variables are populated in your
   Ansible overrides.
 
-* Update the DATABASES section in ``lms.yaml`` manually. If you create the
+* Update the DATABASES section in ``lms.yml`` manually. If you create the
   MySQL database yourself, you must use this option. For more information, see
   :ref:`Update DATABASES Manually`.
 
@@ -115,9 +115,9 @@ Update DATABASES Manually
 **************************
 
 If you create the MySQL database yourself, you configure the database by adding
-a clause to the ``lms.yaml`` file.
+a clause to the ``lms.yml`` file.
 
-#. Open the ``edx/app/edxapp/lms.yaml`` file in your text editor.
+#. Open the ``edx/app/edxapp/lms.yml`` file in your text editor.
 
 #. In the DATABASES section, add configuration details for your new database.
    An example follows.
@@ -137,7 +137,7 @@ a clause to the ``lms.yaml`` file.
 Step 3: Enable Writes to the New Table
 *****************************************
 
-Edit the ``lms.yaml`` file to set the ``ENABLE_CSMH_EXTENDED`` feature
+Edit the ``lms.yml`` file to set the ``ENABLE_CSMH_EXTENDED`` feature
 flag.
 
    .. code-block:: bash
@@ -288,7 +288,7 @@ You can then rerun with MINID set to the result of this query.
 Disable Reads from the Old Table
 ====================================
 
-Edit the ``lms.yaml`` file to set the
+Edit the ``lms.yml`` file to set the
 ``ENABLE_READING_FROM_MULTIPLE_HISTORY_TABLES`` feature flag.
 
    .. code-block:: bash

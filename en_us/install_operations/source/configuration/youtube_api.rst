@@ -103,10 +103,10 @@ steps.
    ``/edx/app/edxapp/edx-platform``.
 
 #. In the directory *above* your repository, there should be several JSON
-   files, including ``lms.yaml`` and ``studio.yaml``. If you are running
+   files, including ``lms.yml`` and ``studio.yaml``. If you are running
    devstack or fullstack, the directory is ``/edx/app/edxapp``.
 
-#. Open the ``lms.yaml`` file in your text editor.
+#. Open the ``lms.yml`` file in your text editor.
 
 #. Find the line for the YouTube API key.
 
