@@ -80,7 +80,7 @@ at the end of the list.  Also, for every ``RETIRING_foo`` state, there must be
 a corresponding ``foo_COMPLETE`` state.
 
 Override these states if you need to add any states.  Typically, these 
-settings are set in ``lms.envs.json``.
+settings are set in ``lms.yml``.
 
 After you have defined any custom states, populate the states table with the 
 following management command:
