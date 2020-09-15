@@ -363,8 +363,8 @@ Segment
 A selection of events can be transmitted to `Segment`_ in order to take
 advantage of a wide variety of analytics-related third party services such as
 Mixpanel and Chartbeat. It is enabled in the LMS if the ``SEGMENT_KEY``
-key is set to a valid Segment API key in the ``lms.yaml`` file. Additionally,
-the setting ``EVENT_TRACKING_SEGMENTIO_EMIT_WHITELIST`` in the ``lms.yaml``
+key is set to a valid Segment API key in the ``lms.yml`` file. Additionally,
+the setting ``EVENT_TRACKING_SEGMENTIO_EMIT_WHITELIST`` in the ``lms.yml``
 file can be used to specify event names that should be emitted to Segment
 from normal ``tracker.emit()`` calls. Events specified in this whitelist will be
 sent to both the tracking logs and Segment.  Similarly, it is enabled in Studio
