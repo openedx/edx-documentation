@@ -6,7 +6,7 @@ Configuring Sites Independently
 
 You can set configuration properties independently for individual sites. The
 values that you define for individual sites override the default values that
-are present in the ``studio.yaml`` or ``lms.yaml`` files. For example, you
+are present in the ``studio.yml`` or ``lms.yml`` files. For example, you
 can set the ``PLATFORM_NAME`` property to a different value for each of your
 sites to indicate that the sites present courses for different organizations or
 audiences.

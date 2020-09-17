@@ -35,10 +35,10 @@ URLS, a link to the course About page in the LMS is used.
 Configure Social Sharing
 *******************************
 
-To enable social sharing icons for courses, you modify the ``lms.yaml``
+To enable social sharing icons for courses, you modify the ``lms.yml``
 file, which is located one level above the ``edx-platform`` directory.
 
-#. In the ``lms.yaml`` file, modify the ``SOCIAL_SHARING_SETTINGS``
+#. In the ``lms.yml`` file, modify the ``SOCIAL_SHARING_SETTINGS``
    dictionary as needed.
 
    .. code-block:: none
@@ -67,7 +67,7 @@ file, which is located one level above the ``edx-platform`` directory.
    c. If you set ``CUSTOM_COURSE_URLS`` to ``True``, you must `Enable Custom
       Course URLs`_.
 
-#. Configure the ``SOCIAL_MEDIA_FOOTER_NAMES`` array in the ``lms.yaml``
+#. Configure the ``SOCIAL_MEDIA_FOOTER_NAMES`` array in the ``lms.yml``
    file to set the order of links you want learners to see in the footer.
 
    .. code-block:: none
@@ -82,7 +82,7 @@ file, which is located one level above the ``edx-platform`` directory.
         ]
 
 #. Configure the ``SOCIAL_MEDIA_FOOTER_DISPLAY`` dictionary in the
-   ``lms.yaml`` file  to define how you want social media icons to be
+   ``lms.yml`` file  to define how you want social media icons to be
    displayed. For each social media icon you enable, you define a ``title``,
    ``icon``, and ``action``.
 
@@ -105,7 +105,7 @@ file, which is located one level above the ``edx-platform`` directory.
         }
      }
 
-#. Save the ``lms.yaml`` file.
+#. Save the ``lms.yml`` file.
 
 *****************************************
 Enable Custom Course URLs
@@ -115,7 +115,7 @@ In addition to enabling the social sharing icons, you can allow course
 teams to provide a custom URL for social sharing sites to link back to.
 
 You must set the ``CUSTOM_COURSE_URLS`` parameter to ``True`` in both the
-``lms.yaml`` and ``studio.yaml`` files. In the ``studio.yaml`` file, this
+``lms.yml`` and ``studio.yml`` files. In the ``studio.yml`` file, this
 parameter is the only social sharing setting.
 
 .. code-block:: none
@@ -124,7 +124,7 @@ parameter is the only social sharing setting.
         'CUSTOM_COURSE_URLS': True
     }
 
-When finished, save the ``lms.yaml`` and ``studio.yaml`` files.
+When finished, save the ``lms.yml`` and ``studio.yml`` files.
 
 =================================
 Set a Custom URL for a Course

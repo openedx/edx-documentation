@@ -5,14 +5,14 @@
 Configure the Milestones Application
 ************************************
 
-#. Set the value of ``MILESTONES_APP`` in the ``lms.yaml`` and
-   ``studio.yaml`` files to ``True``.
+#. Set the value of ``MILESTONES_APP`` in the ``lms.yml`` and
+   ``studio.yml`` files to ``True``.
 
    .. code-block:: none
 
        # Milestones application flag
        'MILESTONES_APP': True,
 
-#. Save the ``lms.yaml`` and ``studio.yaml`` files.
+#. Save the ``lms.yml`` and ``studio.yml`` files.
 
 #. Run database migrations.

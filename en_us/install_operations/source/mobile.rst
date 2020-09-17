@@ -28,7 +28,7 @@ Configuring Mobile Application Features
 *****************************************
 
 For the mobile API and authentication to work correctly with the edX mobile
-applications, you enable them in the ``edx/app/edxapp/lms.yaml`` file. You
+applications, you enable them in the ``edx/app/edxapp/lms.yml`` file. You
 then complete the setup for authentication by creating OAuth clients and
 adding their IDs to the custom configuration file of each mobile application.
 
@@ -36,12 +36,12 @@ adding their IDs to the custom configuration file of each mobile application.
 Enable Mobile Application Features
 ====================================
 
-.. note:: Configuration settings added to the ``lms.yaml`` file are reset
+.. note:: Configuration settings added to the ``lms.yml`` file are reset
  to their default values when you use Ansible to update edx-platform.
 
 To enable the mobile application features, follow these steps.
 
-#. In the ``edx/app/edxapp/lms.yaml`` file, add the following lines to the
+#. In the ``edx/app/edxapp/lms.yml`` file, add the following lines to the
    features section.
 
    .. code-block:: none
@@ -57,7 +57,7 @@ To enable the mobile application features, follow these steps.
   ``"OAUTH_ENFORCE_SECURE": false``. This configuration setting should never be
   set to ``false`` in anything other than a development environment.
 
-#. Save the ``edx/app/edxapp/lms.yaml`` file.
+#. Save the ``edx/app/edxapp/lms.yml`` file.
 
 #. Restart the server.
 
@@ -145,12 +145,12 @@ must log in again.
 The ``lms/envs/common.py`` file includes the default configuration settings for
 the number of days before OAuth tokens expire for confidential clients and
 public clients. Instead of modifying the defaults in ``lms/envs/common.py``, add
-the configuration settings to the ``lms.yaml`` file and set values that will
+the configuration settings to the ``lms.yml`` file and set values that will
 override the default settings.
 
 To configure the number of days before OAuth tokens expire, follow these steps.
 
-#. In the ``edx/app/edxapp/lms.yaml`` file, add the following lines to
+#. In the ``edx/app/edxapp/lms.yml`` file, add the following lines to
    specify the number of days that OAuth tokens remain valid for confidential
    or public clients.
 
@@ -163,9 +163,9 @@ To configure the number of days before OAuth tokens expire, follow these steps.
       "OAUTH_EXPIRE_CONFIDENTIAL_CLIENT_DAYS" : 365
       "OAUTH_EXPIRE_PUBLIC_CLIENT_DAYS" : 30
 
-#. Save the ``lms.yaml`` file, then restart the edxapp app.
+#. Save the ``lms.yml`` file, then restart the edxapp app.
 
-   The values that you defined in ``lms.yaml`` override the default
+   The values that you defined in ``lms.yml`` override the default
    values defined in ``lms/envs/common.py``.
 
 
@@ -211,7 +211,7 @@ Enable Push Notification on the Server
 
 To enable the push notification feature, follow these steps.
 
-#. In the ``edx/app/edxapp/studio.yaml`` file, add the following lines.
+#. In the ``edx/app/edxapp/studio.yml`` file, add the following lines.
 
    .. code-block:: none
 
@@ -220,7 +220,7 @@ To enable the push notification feature, follow these steps.
       "REST_API_KEY": "{API_key}" 
     }
 
-2. Save the ``edx/app/edxapp/studio.yaml`` file.
+2. Save the ``edx/app/edxapp/studio.yml`` file.
 
 #. Restart the server.
 

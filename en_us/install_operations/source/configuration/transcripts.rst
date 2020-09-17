@@ -28,13 +28,13 @@ Configuring the Transcript Feature Flag
   Platform`.
 
 To set the ``FALLBACK_TO_ENGLISH_TRANSCRIPTS`` feature flag, you modify the
-``lms.yaml`` and ``studio.yaml`` files, which are located one level above 
+``lms.yml`` and ``studio.yml`` files, which are located one level above 
 the ``edx-platform`` directory.
 
-#. In the ``lms.yaml`` and ``studio.yaml`` files, in the ``FEATURES``
+#. In the ``lms.yml`` and ``studio.yml`` files, in the ``FEATURES``
    dictionary, change the value of ``FALLBACK_TO_ENGLISH_TRANSCRIPTS`` to
    ``FALSE``.
 
-#. Save the ``lms.yaml`` and ``studio.yaml`` files.
+#. Save the ``lms.yml`` and ``studio.yml`` files.
 
 .. include:: ../../../links/links.rst
