@@ -202,7 +202,7 @@ side of the page, and **Upload Files** on the other side of the page.
 
 .. note::
 
-   * The cumulative size of the files that you upload must be less than 10 MB.
+   * The cumulative size of the files that you upload must be less than 500 MB.
 
    * Image files can be in .jpg, .gif, or .png format.
 
