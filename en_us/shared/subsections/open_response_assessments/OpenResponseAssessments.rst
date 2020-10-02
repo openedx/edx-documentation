@@ -650,7 +650,7 @@ responses, however, be aware of the following limitations and best practices.
   that are available from the instructor dashboard, and course data packages do
   not include any of the uploaded files.
 
-* The cumulative size of all uploaded files must be less than 10 MB.
+* The cumulative size of all uploaded files must be less than 500 MB.
 
 * Image files must be in .jpg, .gif, or .png format.
 
