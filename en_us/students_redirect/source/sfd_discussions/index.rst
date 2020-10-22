@@ -1,1 +1,7 @@
-.. include:: ../moved.rst
+.. _Course Discussions Index:
+
+######################################
+Participating in Course Discussions
+######################################
+
+.. include:: ../../../shared/learner_moved.rst

@@ -1,1 +1,1 @@
-.. include:: ../moved.rst
+.. include:: ../../../shared/learner_moved.rst
