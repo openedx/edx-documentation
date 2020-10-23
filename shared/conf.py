@@ -153,7 +153,7 @@ intersphinx_mapping = {
     'xblocktutorial' : ('https://edx.readthedocs.io/projects/xblock-tutorial/en/latest/', None),
     'installation' : ('https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/', None),
     'olx' : ('https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/', None),
-    'learners' : ('https://edx.readthedocs.io/projects/edx-guide-for-students/en/nedbat-fix-learner-links/', None),
+    'learners' : ('https://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/', None),
     'openlearners' : ('https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/', None),
     'opendevelopers' : ('https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/', None),
     'opendataapi' : ('https://edx.readthedocs.io/projects/edx-data-analytics-api/en/latest/', None),
