@@ -153,15 +153,14 @@ intersphinx_mapping = {
     'xblocktutorial' : ('https://edx.readthedocs.io/projects/xblock-tutorial/en/latest/', None),
     'installation' : ('https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/', None),
     'olx' : ('https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/', None),
-    'learners' : ('https://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/', None),
+    'learners' : ('https://edx.readthedocs.io/projects/edx-guide-for-students/en/nedbat-fix-learner-links/', None),
     'openlearners' : ('https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/', None),
     'opendevelopers' : ('https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/', None),
     'opendataapi' : ('https://edx.readthedocs.io/projects/edx-data-analytics-api/en/latest/', None),
     'openreleasenotes' : ('https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/', None),
     'partnerreleasenotes': ('https://edx.readthedocs.io/projects/edx-release-notes/en/latest/', None),
     '2014releasenotes' : ('https://edx.readthedocs.io/projects/edx-2013-2014-release-notes/en/latest/', None),
-    'retirement' : ('https://user-retirement-guide.readthedocs.io/en/latest/', None)
-
+    'retirement' : ('https://user-retirement-guide.readthedocs.io/en/latest/', None),
 }
 
 extlinks = {
