@@ -21,8 +21,4 @@ database.
 
 #. Enter ``no``.
 
-   .. code-block:: none
-
-      (venv) $ python no
-
 .. confirm ^^

@@ -29,7 +29,7 @@ Note the following details about the JavaScript file.
 * The function ``ThumbsBlock`` initializes the XBlock. A JavaScript function to
   initialize the XBlock is required.
 
-  The ``ThumbsBlock`` function maps to the contstructor in the :ref:`XBlock
+* The ``ThumbsBlock`` function maps to the contstructor in the :ref:`XBlock
   Python file <The XBlock Python File>` and provides access to its methods and
   fields.
 
