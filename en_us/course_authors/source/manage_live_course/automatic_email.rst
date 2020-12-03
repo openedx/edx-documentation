@@ -30,22 +30,22 @@ of automatic email messages.
    - 10 days after enrollment
    - Single message that encourages the learner to return to the course.
      Includes an upsell message if the learner has not enrolled in the verified
-     track. Is not sent if the learner receives a :ref:`weekly course
-     highlight message <Weekly Course Highlight Message>` on day 7.
+     track. Is not sent if the learner receives a :ref:`course
+     highlight message <Course Highlight Message>` on day 7.
  * - :ref:`Day 19 Upgrade Reminder`
    - Self-paced
    - 19 days after enrollment or 2 days before upgrade
      deadline
    - Reminder to upgrade if the learner hasn't enrolled in the verified track.
-     Is not sent if the learner receives :ref:`weekly course highlight messages
-     <Weekly Course Highlight Message>`.
- * - :ref:`Weekly Course Highlight Message<Weekly Course Highlight Message>`
-   - Self-paced
-   - Every 7 days after enrollment
-   - Weekly message that lists 3-5 highlights for the
-     next course "week", or section. Is not sent if the course team has not
-     added highlights for the section in Studio. For more information, see
-     :ref:`Set Section Highlights for Weekly Course Highlight Messages`.
+     Is not sent if the learner receives :ref:`course highlight messages
+     <Course Highlight Message>`.
+ * - :ref:`Course Highlight Message`
+   - Instructor-paced and Self-paced
+   - See :ref:`Course Highlight Message` for message send dates.
+   - Message that lists 3-5 highlights for the next course "week", or section.
+     Is not sent if the course team has not added highlights for the section
+     in Studio. For more information, see :ref:`Set Section Highlights for
+     Course Highlight Messages`.
 
 
 *****************************
@@ -91,8 +91,8 @@ Day 10 Nudge Message
 ====================
 
 .. note::
- If learners receive a weekly course highlight message on day 7, they do not
- receive this day 10 nudge message.
+ If learners receive a :ref:`course highlight message <Course Highlight
+ Message>` on day 7, they do not receive this day 10 nudge message.
 
 EdX sends the following message 10 days after a learner enrolls in a course.
 
@@ -121,7 +121,7 @@ Day 19 Upgrade Reminder
 ========================
 
 .. note::
- If learners receive :ref:`weekly course highlight messages<Weekly Course
+ If learners receive :ref:`course highlight messages <Course
  Highlight Message>`, they do not receive this upgrade reminder.
 
 EdX sends the following message 19 days after a learner enrolls in a course or
@@ -152,15 +152,27 @@ courses.
 
   Upgrade by November 25, 2017.
 
-.. _Weekly Course Highlight Message:
+.. _Course Highlight Message:
 
 ================================
-Weekly Highlight Email
+Course Highlight Email
 ================================
 
-EdX sends the following message every seven days after a learner enrolls in a
-course. For more information, see :ref:`Set Section Highlights for Weekly
-Course Highlight Messages`.
+EdX sends Course Highlight messages for both Instructor-paced and Self-paced
+courses. The logic for when the message is sent depends on the Course pacing.
+
+* Instructor-paced:
+
+  * Highlights are sent every seven days after a learner enrolls in a course.
+
+* Self-paced:
+
+  * Highlights are sent based on the due dates calculated from the learner's enrollment date, the number of sections in the course, and the expected duration of the course (known as a Personalized Learner Schedule). Once the calculated due date for a section has passed, the highlights for the next section are sent out.
+  * Example: Section 2 ends on December 3, 2020 for a specific learner based on their Schedule. Section 3 highlights will be sent out on December 4, 2020 for that learner.
+  * **Note**: This could result in highlights being sent out every few days (3/4 days) in shorter expected duration courses with many sections or longer than a week (10+ days) in longer expected duration courses with few sections.
+
+For more information, see :ref:`Set Section Highlights for Course Highlight
+Messages`.
 
 .. include:: ../../../shared/developing_course/course_highlight_message_text.rst
 
@@ -181,4 +193,4 @@ After a learner or course team member creates a post in the course discussions, 
 
   <text of comment>
 
-The message also contains a View discussion option that takes the learner to the discussion post. EdX does not send individual messages for any additional replies on the post. 
+The message also contains a View discussion option that takes the learner to the discussion post. EdX does not send individual messages for any additional replies on the post.

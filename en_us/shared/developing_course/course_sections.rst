@@ -181,22 +181,21 @@ To set the section release date, follow these steps.
 
 For more information, see :ref:`Release Dates`.
 
-.. _Set Section Highlights for Weekly Course Highlight Messages:
+.. _Set Section Highlights for Course Highlight Messages:
 
 ***********************************************************
-Set Section Highlights for Weekly Highlight Emails
+Set Section Highlights for Highlight Emails
 ***********************************************************
 
 .. only:: Partners
 
-  To improve learner engagement, edX can send an automatic weekly email message
-  to learners who enroll in self-paced courses. These weekly messages
-  correspond to course sections in Studio, and contain three to five
-  "highlights" for each upcoming course section. A highlight is a brief
-  description of an important concept, idea, or activity. EdX provides most of
-  the text for this weekly course highlight email in a template, and you enter
-  the highlights for the email in Studio. For an example email, see
-  :ref:`Weekly Course Highlight Message Text`.
+  To improve learner engagement, edX can send an automatic email message to
+  enrolled learners. These messages correspond to course sections
+  in Studio, and contain three to five "highlights" for each upcoming course
+  section. A highlight is a brief description of an important concept, idea,
+  or activity. EdX provides most of the text for this course highlight email
+  in a template, and you enter the highlights for the email in Studio. For an
+  example email, see :ref:`Course Highlight Message Text`.
 
   For more information about email messages that edX sends to learners
   automatically, see :ref:`Automatic Email`.
@@ -204,8 +203,6 @@ Set Section Highlights for Weekly Highlight Emails
   When you add highlights for a section, keep the following information in
   mind.
 
-  * EdX sends the first highlight email seven days after the learner enrolls in
-    a course, and sends additional highlight emails every seven days.
   * Each highlight has a limit of 250 characters.
   * If you include a hyperlink in your highlights, we recommend that you use a
     URL shortener to shorten any long URLs, and then enter the shortened URL in
@@ -214,6 +211,19 @@ Set Section Highlights for Weekly Highlight Emails
   * **If you do not add highlights for a section, edX does not send learners a
     message for that section.** We strongly encourage you to add highlights for
     all course sections.
+  * Learners who enroll in the course before you :ref:`enable highlights
+    <Enable Course Highlight Messages>` do not receive any course
+    highlight messages for the duration of the course. To make sure that all
+    of your learners receive course highlight messages, :ref:`enable
+    highlights<Enable Course Highlight Messages>` for each section
+    before any learners enroll in your course.
+
+  * If you update a highlight for a section, the change takes effect
+    immediately for all subsequent messages that contain that highlight.
+
+  * In Instructor-paced Courses:
+    * EdX sends the first highlight email seven days after the learner enrolls
+    in a course, and sends additional highlight emails every seven days.
 
     Additionally, edX uses consecutive numbers for each message, even if some
     sections do not have highlights. For example, if you add highlights for
@@ -221,15 +231,19 @@ Set Section Highlights for Weekly Highlight Emails
     learners receive a message on day 14 that contains the highlights for
     section 3.
 
-  * Learners who enroll in the course before you :ref:`enable highlights
-    <Enable Weekly Course Highlight Messages>` do not receive any course
-    highlight messages for the duration of the course. To make sure that all
-    of your learners receive weekly course highlight messages, :ref:`enable
-    highlights<Enable Weekly Course Highlight Messages>` for each section
-    before any learners enroll in your course.
-
-  * If you update a highlight for a section, the change takes effect
-    immediately for all subsequent messages that contain that highlight.
+  * In Self-paced Courses:
+    * Highlights are sent based on the due dates calculated from the learner's
+    enrollment date, the number of sections in the course, and the expected
+    duration of the course (known as a Personalized Learner Schedule). Once
+    the calculated due date for a section has passed, the highlights for the
+    next section are sent out.
+    * Example: Section 2 ends on December 3, 2020 for a specific learner based
+    on their Schedule. Section 3 highlights will be sent out on December 4,
+    2020 for that learner.
+    * **Note**: This could result in highlights being sent out every few days
+    (3/4 days) in shorter expected duration courses with many sections or
+    longer than a week (10+ days) in longer expected duration courses with few
+    sections.
 
 .. only:: Open_edX
 
@@ -248,10 +262,10 @@ Set Section Highlights for Weekly Highlight Emails
 
 .. only:: Partners
 
-  .. _Weekly Course Highlight Message Text:
+  .. _Course Highlight Message Text:
 
   ====================================
-  Weekly Highlight Email Text
+  Highlight Email Text
   ====================================
 
   The following example shows the edX email template with three example
@@ -262,12 +276,12 @@ Set Section Highlights for Weekly Highlight Emails
 .. _Set Section Highlights:
 
 =========================================
-Send Weekly Highlight Emails
+Send Highlight Emails
 =========================================
 
-To send weekly highlight emails to your learners, you must first set highlights
+To send highlight emails to your learners, you must first set highlights
 for each section. When you have set section highlights, you then enable the
-**Weekly Highlight Emails** setting.
+**Course Highlight Emails** setting.
 
 The number of highlights that you have set for a section is
 visible in the course outline, below the name of the section.
@@ -291,7 +305,7 @@ Set Course Section Highlights
 
   .. note::
     If your Open edX system adminstrator has not configured your instance of
-    the Open edX platform to send weekly course highlight messages, learners do
+    the Open edX platform to send course highlight messages, learners do
     not receive messages even if you enable highlights and enter highlights for
     each section.
 
@@ -309,28 +323,28 @@ To set highlights for a course section, follow these steps.
   .. note::
     You can also enter course highlights in OLX.
 
-.. _Enable Weekly Course Highlight Messages:
+.. _Enable Course Highlight Messages:
 
-Enable Weekly Highlight Emails
+Enable Highlight Emails
 ********************************************
 
 .. only:: Partners
 
-After you have set and reviewed the highlights for each course section, you enable weekly highlight emails.
+After you have set and reviewed the highlights for each course section, you enable highlight emails.
 
-To enable weekly highlight emails, follow these steps.
+To enable highlight emails, follow these steps.
 
-#. On the **Course Outline** page, locate the **Weekly Highlight
+#. On the **Course Outline** page, locate the **Course Highlight
    Emails** setting, and then select **Enable Now**.
 #. In the dialog box that opens, select **Enable**.
 
 .. note::
-   If you do not enable highlights, the edX platform does not send weekly
+   If you do not enable highlights, the edX platform does not send
    course highlight emails, even if you enter highlights for one or more
    sections.
 
-   You cannot disable weekly highlight emails after you enable them. If you do
-   not want to send weekly highlight emails after you enable them, you can
+   You cannot disable highlight emails after you enable them. If you do
+   not want to send highlight emails after you enable them, you can
    delete highlights in all sections.
 
 .. _Publish all Units in a Section:
