@@ -14,4 +14,4 @@ product = 'Open_edX'
 def setup(app):
     app.add_config_value('product', '', True)
 
-project = u'Building and Running an Open edX Course: Ironwood Release'
+project = u'Building and Running an Open edX Course: Koa Release'
