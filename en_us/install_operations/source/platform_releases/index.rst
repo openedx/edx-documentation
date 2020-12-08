@@ -1,21 +1,22 @@
 .. _Open edX Platform Releases:
 
-##############################
+##########################
 Open edX Platform Releases
-##############################
+##########################
 
 The following sections provide information about releases of the Open edX
-platform.
+platform:
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 2
 
-   juniper
-   ironwood
-   hawthorn
-   ginkgo
-   ficus
-   eucalyptus
-   dogwood
-   cypress
-   birch
+    koa
+    juniper
+    ironwood
+    hawthorn
+    ginkgo
+    ficus
+    eucalyptus
+    dogwood
+    cypress
+    birch
