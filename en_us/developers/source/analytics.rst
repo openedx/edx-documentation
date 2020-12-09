@@ -193,7 +193,7 @@ Here is an example of a subclass.
 
 ::
 
-    from track.tests import EventTrackingTestCase
+    from common.djangoapps.track.tests import EventTrackingTestCase
     from openedx.core.lib.tests.assertions.events import assert_event_matches
 
     class MyTestClass(EventTrackingTestCase):
