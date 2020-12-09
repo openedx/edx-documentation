@@ -778,7 +778,7 @@ O
   members of course staff evaluate learner responses using the same rubric.
 
   For more information, see :ref:`partnercoursestaff:Open Response Assessments
-  2`.
+  Two`.
 
 .. _P:
 
@@ -921,7 +921,7 @@ R
   A list of the items that a learner's response should cover in an open
   response assessment. For more information, see the
   :ref:`partnercoursestaff:PA Rubric` topic in :ref:`partnercoursestaff:Open
-  Response Assessments 2`.
+  Response Assessments Two`.
 
   See also :ref:`Open Response Assessment<Open Response Assessment_g>`.
 

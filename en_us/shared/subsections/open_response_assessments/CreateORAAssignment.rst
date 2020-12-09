@@ -5,7 +5,7 @@ Create an Open Response Assessment Assignment
 #############################################
 
 Creating an :ref:`open response assessment (ORA) assignment <Open Response
-Assessments 2>` is a multi-step process. This section covers each step in
+Assessments Two>` is a multi-step process. This section covers each step in
 detail.
 
 .. contents::
@@ -15,7 +15,8 @@ detail.
 In addition, see these other topics about different aspects of open response
 assessments.
 
-* Components of an open response assessment: :ref:`Open Response Assessments 2`
+* Components of an open response assessment: :ref:`Open Response Assessments
+  Two`
 
 * Viewing metrics and learner responses for released open response assessments:
   :ref:`Accessing ORA Assignment Information`

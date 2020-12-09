@@ -1,4 +1,4 @@
-.. _Open Response Assessments 2:
+.. _Open Response Assessments Two:
 
 ###########################################
 Introduction to Open Response Assessments

@@ -2525,7 +2525,7 @@ use a scoring rubric designed by the course team. Course team members with
 staff privileges can also evaluate learners' responses, either in a staff
 assessment step included in the assignment, or by overriding an existing
 assignment score. For more information about open response assessments, see
-:ref:`partnercoursestaff:Open Response Assessments 2`.
+:ref:`partnercoursestaff:Open Response Assessments Two`.
 
 For more information about the SQL tables that store data for open assessment
 problems, see :ref:`ORA2 Data`.
