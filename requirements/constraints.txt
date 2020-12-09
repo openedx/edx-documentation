@@ -1,2 +1,1 @@
-pygments==2.5.2			    # pinned until we upgrade to Python 3
-sphinxcontrib-websupport==1.1.2     # pinned until we upgrade to Python 3
+# None at the moment

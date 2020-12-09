@@ -11,12 +11,13 @@ release-note:
 requirements: ## install development environment requirements
 	pip install -r requirements/dev.txt
 
+# Define PIP_COMPILE_OPTS=-v to get more information during make upgrade.
+PIP_COMPILE = pip-compile --rebuild --upgrade $(PIP_COMPILE_OPTS)
+
+upgrade: export CUSTOM_COMPILE_COMMAND=make upgrade
 upgrade: ## update the pip requirements files to use the latest releases satisfying our constraints
+	pip install -qr requirements/pip-tools.txt
 	# Make sure to compile files after any other files they include!
-	pip-compile --upgrade -o requirements/base.txt requirements/base.in
-	pip-compile --upgrade -o requirements/dev.txt requirements/dev.in
-	# Post process all of the files generated above to replace the instructions for recreating them
-	sed 's/pip-compile .*/make upgrade/' requirements/base.txt > requirements/base.tmp
-	mv requirements/base.tmp requirements/base.txt
-	sed 's/pip-compile .*/make upgrade/' requirements/dev.txt > requirements/dev.tmp
-	mv requirements/dev.tmp requirements/dev.txt
+	$(PIP_COMPILE) -o requirements/pip-tools.txt requirements/pip-tools.in
+	$(PIP_COMPILE) -o requirements/base.txt requirements/base.in
+	$(PIP_COMPILE) -o requirements/dev.txt requirements/dev.in
