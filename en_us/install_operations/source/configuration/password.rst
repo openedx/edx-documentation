@@ -33,10 +33,10 @@ under the ``AUTH_PASSWORD_VALIDATORS`` setting::
 
   AUTH_PASSWORD_VALIDATORS:
   -   NAME: django.contrib.auth.password_validation.UserAttributeSimilarityValidator
-  -   NAME: util.password_policy_validators.MinimumLengthValidator
+  -   NAME: common.djangoapps.util.password_policy_validators.MinimumLengthValidator
         OPTIONS:
           min_length: 2
-  -   NAME: util.password_policy_validators.MaximumLengthValidator
+  -   NAME: common.djangoapps.util.password_policy_validators.MaximumLengthValidator
         OPTIONS:
           max_length: 75
 
@@ -47,10 +47,10 @@ you would set::
 
   AUTH_PASSWORD_VALIDATORS:
   -   NAME: django.contrib.auth.password_validation.UserAttributeSimilarityValidator
-  -   NAME: util.password_policy_validators.MinimumLengthValidator
+  -   NAME: common.djangoapps.util.password_policy_validators.MinimumLengthValidator
         OPTIONS:
           min_length: 16
-  -   NAME: util.password_policy_validators.MaximumLengthValidator
+  -   NAME: common.djangoapps.util.password_policy_validators.MaximumLengthValidator
         OPTIONS:
           max_length: 256
 

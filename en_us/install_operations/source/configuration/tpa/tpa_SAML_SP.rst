@@ -159,7 +159,7 @@ explicitly include the ``THIRD_PARTY_AUTH_BACKENDS`` setting.
 
 If you have customized this file and added the ``THIRD_PARTY_AUTH_BACKENDS``
 setting to it, you might need to verify that the
-``third_party_auth.saml.SAMLAuthBackend`` python-social-auth backend class is
+``common.djangoapps.third_party_auth.saml.SAMLAuthBackend`` python-social-auth backend class is
 specified for it. That backend is required before you can add SAML IdPs.
 
 To verify that the SAML authentication backend is loaded on a devstack or
