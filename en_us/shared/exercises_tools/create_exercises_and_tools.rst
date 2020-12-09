@@ -222,7 +222,7 @@ editor<Advanced Editor>` opens.
        expressions. You can specify a correct answer either explicitly or by
        using a Python script.
      - Full support; mobile-ready
-   * - :ref:`Open Response Assessment<Open Response Assessments 2>`
+   * - :ref:`Open Response Assessment<Open Response Assessments Two>`
      - Learners receive feedback on responses that they submit and give
        feedback to other course participants. Open response assessments include
        self assessment, peer assessment, and optionally, staff assessment.
