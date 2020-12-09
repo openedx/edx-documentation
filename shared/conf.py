@@ -141,26 +141,51 @@ if the_builder != "json":
 
 copyright = '{year}, edX Inc.'.format(year=datetime.datetime.now().year)
 
+# Intersphinx manages the connections between books.
+# Normally the references in a book are downloaded from readthedocs.  But you
+# can also provide a local file to look in.  It's easier to fix broken
+# references betweeen books if you can do a local build and use the local
+# reference files.  These helper functions are for both reducing the repetition
+# in the mapping dictionary, and for optionally specifying a local file to look
+# in if it exists.
+#
+# We often use the same directory to build two books (edX vs Open edX).  In
+# those cases, only use ism_location for one book, not both, or we'll be
+# looking for A's references in an index built for B.
 
+def edx_rtd_url(slug):
+    """Use this with the readthedoc project slug to create the full URL."""
+    return f"https://edx.readthedocs.io/projects/{slug}/en/latest/"
 
-# Example configuration for intersphinx: refer to the Python standard library.
+def ism_location(dir_name):
+    """Calculate the intersphinx_mapping location to use for a book.
+
+    `dir_name` is the directory name under edx-documentation/en_us for the book.
+
+    """
+    objects_inv = f"../../{dir_name}/build/html/objects.inv"
+    if os.path.exists(objects_inv):
+        return (objects_inv, None)
+    else:
+        return None
+
 intersphinx_mapping = {
-    'opencoursestaff' : ('https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/', None),
-    'data' : ('https://edx.readthedocs.io/projects/devdata/en/latest/', None),
-    'partnercoursestaff': ('https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/', None),
-    'insights' : ('https://edx.readthedocs.io/projects/edx-insights/en/latest/', None),
-    'xblockapi' : ('https://edx.readthedocs.io/projects/xblock/en/latest/', None),
-    'xblocktutorial' : ('https://edx.readthedocs.io/projects/xblock-tutorial/en/latest/', None),
-    'installation' : ('https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/', None),
-    'olx' : ('https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/', None),
-    'learners' : ('https://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/', None),
-    'openlearners' : ('https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/', None),
-    'opendevelopers' : ('https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/', None),
-    'opendataapi' : ('https://edx.readthedocs.io/projects/edx-data-analytics-api/en/latest/', None),
-    'openreleasenotes' : ('https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/', None),
-    'partnerreleasenotes': ('https://edx.readthedocs.io/projects/edx-release-notes/en/latest/', None),
-    '2014releasenotes' : ('https://edx.readthedocs.io/projects/edx-2013-2014-release-notes/en/latest/', None),
-    'retirement' : ('https://user-retirement-guide.readthedocs.io/en/latest/', None),
+    "opencoursestaff" : (edx_rtd_url("open-edx-building-and-running-a-course"), None),
+    "data" : (edx_rtd_url("devdata"), ism_location("data")),
+    "partnercoursestaff": (edx_rtd_url("edx-partner-course-staff"), ism_location("course_authors")),
+    "insights" : (edx_rtd_url("edx-insights"), None),
+    "xblockapi" : (edx_rtd_url("xblock"), None),
+    "xblocktutorial" : (edx_rtd_url("xblock-tutorial"), ism_location("xblock-tutorial")),
+    "installation" : (edx_rtd_url("edx-installing-configuring-and-running"), ism_location("install_operations")),
+    "olx" : (edx_rtd_url("edx-open-learning-xml"), ism_location("olx")),
+    "learners" : (edx_rtd_url("edx-guide-for-students"), None),
+    "openlearners" : (edx_rtd_url("open-edx-learner-guide"), None),
+    "opendevelopers" : (edx_rtd_url("edx-developer-guide"), None),
+    "opendataapi" : (edx_rtd_url("edx-data-analytics-api"), None),
+    "openreleasenotes" : (edx_rtd_url("open-edx-release-notes"), None),
+    "partnerreleasenotes": (edx_rtd_url("edx-release-notes"), None),
+    "2014releasenotes" : (edx_rtd_url("edx-2013-2014-release-notes"), None),
+    "retirement" : ("https://user-retirement-guide.readthedocs.io/en/latest/", None),
 }
 
 extlinks = {
