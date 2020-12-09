@@ -17,7 +17,7 @@ assessments.
 
 * :ref:`Best practices for ORA assignments<Best Practices for ORA>`
 
-* :ref:`Components of an ORA assignment<Open Response Assessments 2>`
+* :ref:`Components of an ORA assignment<Open Response Assessments Two>`
 
 * :ref:`Instructions for creating an ORA assignment<PA Create an ORA Assignment>`
 
