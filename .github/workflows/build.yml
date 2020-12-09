@@ -4,7 +4,9 @@ name: "Build Docs"
 
 on:
   push:
-    branches: ["master"]
+    branches:
+      - "master"
+      - "open-release/*.master"
   pull_request:
   workflow_dispatch:
 
