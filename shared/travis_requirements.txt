@@ -1,4 +1,0 @@
-# Old requirements file location.  Leave this reference to the new one in
-# place until we update all Read the Docs projects, etc. to use the new file
-
--r ../requirements/base.txt
