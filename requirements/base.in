@@ -2,4 +2,4 @@
 -c constraints.txt
 
 edx-sphinx-theme                    # edX theme for the generated documentation
-sphinx==1.6.5                       # Documentation builder
+sphinx                              # Documentation builder
