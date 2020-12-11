@@ -964,7 +964,7 @@ example of how to lint a single file.
 
 .. code-block:: bash
 
-    ./scripts/xss_linter.py cms/templates/base.html
+    ./scripts/xsslint/xss_linter.py cms/templates/base.html
 
 For additional options that you can use to run the linter, use the following
 command.
