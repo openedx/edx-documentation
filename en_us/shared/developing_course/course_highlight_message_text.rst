@@ -15,7 +15,7 @@
     to spend time with the course each week. Your focused attention will pay
     off in the end!
 
-In addition, edX appends the following message to the end of the weekly course
+In addition, edX appends the following message to the end of the course
 highlight message for weeks 2 and 3 if the learner hasn't upgraded to the
 verified enrollment track.
 
