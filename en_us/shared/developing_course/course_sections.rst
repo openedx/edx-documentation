@@ -222,8 +222,8 @@ Set Section Highlights for Highlight Emails
     immediately for all subsequent messages that contain that highlight.
 
   * In Instructor-paced Courses:
-    * EdX sends the first highlight email seven days after the learner enrolls
-    in a course, and sends additional highlight emails every seven days.
+
+    * EdX sends the first highlight email seven days after the learner enrolls in a course, and sends additional highlight emails every seven days.
 
     Additionally, edX uses consecutive numbers for each message, even if some
     sections do not have highlights. For example, if you add highlights for
@@ -232,18 +232,10 @@ Set Section Highlights for Highlight Emails
     section 3.
 
   * In Self-paced Courses:
-    * Highlights are sent based on the due dates calculated from the learner's
-    enrollment date, the number of sections in the course, and the expected
-    duration of the course (known as a Personalized Learner Schedule). Once
-    the calculated due date for a section has passed, the highlights for the
-    next section are sent out.
-    * Example: Section 2 ends on December 3, 2020 for a specific learner based
-    on their Schedule. Section 3 highlights will be sent out on December 4,
-    2020 for that learner.
-    * **Note**: This could result in highlights being sent out every few days
-    (3/4 days) in shorter expected duration courses with many sections or
-    longer than a week (10+ days) in longer expected duration courses with few
-    sections.
+
+    * Highlights are sent based on the due dates calculated from the learner's enrollment date, the number of sections in the course, and the expected duration of the course (known as a Personalized Learner Schedule). Once the calculated due date for a section has passed, the highlights for the next section are sent out.
+    * Example: Section 2 ends on December 3, 2020 for a specific learner based on their Schedule. Section 3 highlights will be sent out on December 4, 2020 for that learner.
+    * **Note**: This could result in highlights being sent out every few days (3/4 days) in shorter expected duration courses with many sections or longer than a week (10+ days) in longer expected duration courses with few sections.
 
 .. only:: Open_edX
 
