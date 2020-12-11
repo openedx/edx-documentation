@@ -915,7 +915,7 @@ with the following command.
 
 .. code-block:: bash
 
-    ./scripts/xss_linter.py
+    ./scripts/xsslint/xss_linter.py
 
 Accuracy and completeness of the linter are not guaranteed, so test your work
 after fixing all violations.
@@ -957,21 +957,21 @@ command.
 
 .. code-block:: bash
 
-    ./scripts/xss_linter.py
+    ./scripts/xsslint/xss_linter.py
 
 You can also lint an individual file or recursively lint a directory. Here is an
 example of how to lint a single file.
 
 .. code-block:: bash
 
-    ./scripts/xss_linter.py cms/templates/base.html
+    ./scripts/xsslint/xss_linter.py cms/templates/base.html
 
 For additional options that you can use to run the linter, use the following
 command.
 
 .. code-block:: bash
 
-    ./scripts/xss_linter.py --help
+    ./scripts/xsslint/xss_linter.py --help
 
 The following code block shows sample output from the linter.
 
