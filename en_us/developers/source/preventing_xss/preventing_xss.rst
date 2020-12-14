@@ -1411,6 +1411,8 @@ The correct way is to use a variable to store the translation string and use the
     {% trans "Some text {start_link}link text to display{end_link}." as tmsg %}
     {% interpolate_html tmsg start_link='<a href='some-path'>'|safe end_link='</a>'|safe %}
 
+.. Important:: Add ``{% load django_markup %}`` to the top of the file to be able to use ``interpolate_html`` in the file.
+
 In the case of a ``blocktrans`` tag::
 
     ## DO NOT do this
