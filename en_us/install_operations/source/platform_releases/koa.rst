@@ -36,7 +36,7 @@ Installing the Koa Release
 **************************
 
 You can install the Open edX Koa release using either
-`devstack`_ or the `Open edX Native Installation`_ instructions.
+`devstack`_ or the `Open edX Native 20.04 Installation`_ instructions.
 
 Koa releases have git tag names like ``open-release/koa.1``.
 The available names are detailed on the `Open edX Named Releases page`_.
