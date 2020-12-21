@@ -161,6 +161,9 @@ Submitting an override assessment has the following results.
    final grade on the assessment is updated to reflect the most recent staff
    override assessment grade.
 
+   Once grades are frozen 30 days after the course end date, you will no longer
+   be able to perform override assessments for learners.
+
 Learners who receive override grades for their submissions see a **Staff
 Assessment** step in their assignments, where they can view the rubric and any
 comments provided in the staff assessments.
