@@ -53,7 +53,7 @@ To move and upgrade your Juniper data onto a Koa installation, follow these
 steps.
 
 #. Be sure that your Juniper installation is on the latest commit from
-   ``open-release/ironwood.master``. This ensures that your database is fully 
+   ``open-release/juniper.master``. This ensures that your database is fully 
    migrated and ready for upgrade to Koa.
 
 #. Stop all services on the Juniper machine.
