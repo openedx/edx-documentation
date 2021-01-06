@@ -1,5 +1,5 @@
 # Do things in edx-documentation
-.PHONY: release-note requirements upgrade
+.PHONY: help release-note requirements upgrade clean
 
 help: ## display this help message
 	@echo "Please use \`make <target>' where <target> is one of"
@@ -21,3 +21,6 @@ upgrade: ## update the pip requirements files to use the latest releases satisfy
 	$(PIP_COMPILE) -o requirements/pip-tools.txt requirements/pip-tools.in
 	$(PIP_COMPILE) -o requirements/base.txt requirements/base.in
 	$(PIP_COMPILE) -o requirements/dev.txt requirements/dev.in
+
+clean:
+	find . -name build -print -exec rm -rf \{\} \; -prune
