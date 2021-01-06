@@ -319,7 +319,7 @@ Feedback Options
 By default, in peer assessment steps, learners can provide text feedback for
 the entire response, using a single comment field below the entire rubric. You
 can also add a comment field to an individual criterion or to several
-individual criteria. This comment field can contain up to 300 characters.
+individual criteria. This comment field can contain up to 1000 characters.
 
 Comment fields for individual criterion appear below the options for the
 criterion.
