@@ -7,38 +7,18 @@ ifeq ($(quiet), true)
 Q_FLAG = quiet=true
 endif
 
+# Directories beneath us with Makefiles
+SUBMAKES   = $(dir $(shell find . -mindepth 2 -maxdepth 2 -type f -name Makefile))
 
 all: clean html
 
 clean:
-	@cd $(CURDIR)/course_authors && make clean $(Q_FLAG)
-	@cd $(CURDIR)/data && make clean $(Q_FLAG)
-	@cd $(CURDIR)/developers && make clean $(Q_FLAG)
-	@cd $(CURDIR)/edx_style_guide && make clean $(Q_FLAG)
-	@cd $(CURDIR)/install_operations && make clean $(Q_FLAG)
-	@cd $(CURDIR)/olx && make clean $(Q_FLAG)
-	@cd $(CURDIR)/open_edx_course_authors && make clean $(Q_FLAG)
-	@cd $(CURDIR)/open_edx_release_notes && make clean $(Q_FLAG)
-	@cd $(CURDIR)/open_edx_students && make clean $(Q_FLAG)
-	@cd $(CURDIR)/students && make clean $(Q_FLAG)
-	@cd $(CURDIR)/xblock-tutorial && make clean $(Q_FLAG)
-	$(MAKE html)
-
+	@for dir in $(SUBMAKES); do \
+		echo ==== $$dir; \
+		make -C $$dir clean; \
+	done
 
 html:
-	@cd $(CURDIR)/course_authors && make clean $(Q_FLAG)
-	@cd $(CURDIR)/data && make clean $(Q_FLAG)
-	@cd $(CURDIR)/developers && make clean $(Q_FLAG)
-	@cd $(CURDIR)/edx_style_guide && make clean $(Q_FLAG)
-	@cd $(CURDIR)/install_operations && make clean $(Q_FLAG)
-	@cd $(CURDIR)/olx && make clean $(Q_FLAG)
-	@cd $(CURDIR)/open_edx_course_authors && make clean $(Q_FLAG)
-	@cd $(CURDIR)/open_edx_release_notes && make clean $(Q_FLAG)
-	@cd $(CURDIR)/open_edx_students && make clean $(Q_FLAG)
-	@cd $(CURDIR)/release_notes && make clean $(Q_FLAG)
-	@cd $(CURDIR)/release_notes_2014 && make clean $(Q_FLAG)
-	@cd $(CURDIR)/students && make clean $(Q_FLAG)
-	@cd $(CURDIR)/xblock-tutorial && make clean $(Q_FLAG)
 	@echo Building and Running an edX Course
 	@cd $(CURDIR)/course_authors && make html $(Q_FLAG)
 	@echo Researchers Guide

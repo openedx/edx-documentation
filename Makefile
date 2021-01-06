@@ -23,4 +23,4 @@ upgrade: ## update the pip requirements files to use the latest releases satisfy
 	$(PIP_COMPILE) -o requirements/dev.txt requirements/dev.in
 
 clean:
-	find . -name build -print -exec rm -rf \{\} \; -prune
+	make -C en_us clean
