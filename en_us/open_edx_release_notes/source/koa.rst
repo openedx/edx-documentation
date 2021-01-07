@@ -83,6 +83,17 @@ Library Authoring
 Administrator Experiences
 =========================
 
+Dependency updates
+------------------
+
+These dependencies were upgraded for the `Open edX Koa Installation`_:
+
+- Ubuntu was upgraded from 16.04 to 20.04.
+
+- MySQL was upgraded from 5.6 to 5.7.
+
+- Python was upgraded from 3.5 to 3.8.
+
 
 =============================
 Researcher & Data Experiences
