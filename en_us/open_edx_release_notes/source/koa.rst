@@ -60,7 +60,7 @@ Authoring Experiences
 Core Course Content Blocks
 --------------------------
 
-xModule to xBlock Conversions - Discussions, HTML, Video, Problems. 
+**xModule to xBlock Conversions**:  We have continued our migration away from the legacy xModule format in support of its eventual deprecation. The Conditional, Library Content Descriptor, Randomize Descriptor, Split Test Descriptor, Annotatable Descriptor, and Word Cloud Descriptor have all been converted to XBlocks as part of this work.
 
 
 External Content Blocks
