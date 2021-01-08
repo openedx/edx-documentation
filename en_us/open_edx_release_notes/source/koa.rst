@@ -172,6 +172,17 @@ __ https://edx.github.io/paragon/components/toast
 .. _OEP-48 Brand Customization: https://open-edx-proposals.readthedocs.io/en/latest/oep-0048-brand-customization.html
 .. _v12.1.0 release notes: https://github.com/edx/paragon/releases/tag/v12.1.0
 
+Deprecations
+------------
+
+These components have been removed:
+
+- `ShoppingCart removal <https://openedx.atlassian.net/browse/DEPR-43>`_
+- `track.backends.TrackingLog <https://openedx.atlassian.net/browse/DEPR-57>`_
+- `Notifier removal <https://openedx.atlassian.net/browse/DEPR-106>`_
+- `Edx-pattern-library <https://openedx.atlassian.net/browse/DEPR-62>`_
+- `ChordableDjangoBackend in edx-celeryutils <https://openedx.atlassian.net/browse/DEPR-89>`_
+
 
 .. include:: links.rst
 .. include:: ../../links/links.rst
