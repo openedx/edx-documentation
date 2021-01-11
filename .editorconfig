@@ -1,0 +1,27 @@
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+indent_style = space
+indent_size = 4
+max_line_length = 120
+trim_trailing_whitespace = true
+
+[{Makefile, *.mk}]
+indent_style = tab
+indent_size = 8
+
+[*.{yml,yaml,json}]
+indent_size = 2
+
+[*.js]
+indent_size = 2
+
+[*.diff]
+trim_trailing_whitespace = false
+
+[.git/*]
+trim_trailing_whitespace = false
+
+[*.rst]
+max_line_length = 0
