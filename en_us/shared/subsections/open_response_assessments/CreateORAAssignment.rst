@@ -258,7 +258,7 @@ these steps.
    If you select **Required** or **Optional**, **Allow Multiple Files** and **File Upload Types** will
    appear.
 
-   For **Allow Multiple Files** , select either **True** or **False**. If **Allow Multiple Files** is
+   For **Allow Multiple Files**, select either **True** or **False**. If **Allow Multiple Files** is
    **True**, learners will be able to upload multiple files in their response. If you would like to
    restrict learner responses to a single file, set **Allow Multiple Files** to **False**.
 
@@ -473,4 +473,3 @@ can then let you know if they found the question and the rubric easy to
 understand or if they had any problems with the assignment.
 
 For more information about beta testing, see :ref:`Beta_Testing`.
-
