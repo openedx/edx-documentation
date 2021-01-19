@@ -43,15 +43,21 @@ Content Search Tools
 Mobile Application Experiences
 ------------------------------
 
-**Mobile Log In & Registration**: A few updates to the iOS and Android registration experiences are important to call out with the aim of improving ease of use. Instead of scrolling and selecting a country now a user can write into the spinner view and this will filter accordingly. Input fields are now validated once a user's focus changes to the next field (previously the validation used to happen on the fly as the user typed into a field). A new API is now used to validate the registration prior to submission. (Please see details in the full API list here.)
+**Mobile Log In & Registration**: A few updates to the iOS and Android registration experiences are important to call out with the aim of improving ease of use. Instead of scrolling and selecting a country now a user can write into the spinner view and this will filter accordingly. Input fields are now validated once a user's focus changes to the next field (previously the validation used to happen on the fly as the user typed into a field). A new API is now used to validate the registration prior to submission. Please see details in the `full API list`__.
+
+__ https://openedx.atlassian.net/wiki/spaces/LEARNER/pages/17727783/Endpoints+Mobile+Talks+To
 
 Mobile Course Experience
 ........................
 
-**Native Dates Area**: Previously we used to display a webview on the Dates screen which loaded a course's important dates. This has now been implemented in a native view fully built on mobile (More implementation details of the native dates tab can be found here.
+**Native Dates Area**: Previously we used to display a webview on the Dates screen which loaded a course's important dates. This has now been implemented in a native view fully built on mobile. More implementation details of the native dates tab can be found `here`__.
+
+__ https://openedx.atlassian.net/wiki/spaces/LEARNER/pages/2043118110/Full+Page+Dates+View+implementation+on+Mobile
 
 **Personalized Learning Schedules on Mobile**: As in the desktop experience, our mobile users will also have the ability to shift their courses' due dates!
-The API details for updated course experience can be found in the 'course' section of the full API list here.
+The API details for updated course experience can be found in the 'course' section of the `full API list`__.
+
+__ https://openedx.atlassian.net/wiki/spaces/LEARNER/pages/17727783/Endpoints+Mobile+Talks+To
 
 =====================
 Authoring Experiences
@@ -124,7 +130,7 @@ Developer Experiences
 Pattern Library & Components: Paragon
 -------------------------------------
 
-Beyond the technical improvements noted below, people and processes supporting Paragon have undergone significant changes. Originally conceived as a React component library, Paragon has been expanded to serve as a design system for Open edX. To this end, the new `Design System Documentation` on Confluence is now the source of truth for all things Paragon. https://edx.github.io/paragon will continue to serve its critical function as technical documentation, but will not be expanded to include design documentation in the near term.
+Beyond the technical improvements noted below, people and processes supporting Paragon have undergone significant changes. Originally conceived as a React component library, Paragon has been expanded to serve as a design system for Open edX. To this end, the new `Design System Documentation`_ on Confluence is now the source of truth for all things Paragon. https://edx.github.io/paragon will continue to serve its critical function as technical documentation, but will not be expanded to include design documentation in the near term.
 
 .. _Design System Documentation: https://openedx.atlassian.net/wiki/spaces/BPL/overview
 
@@ -159,7 +165,7 @@ __ https://edx.github.io/paragon/components/toast
 
 - **Augmented component offering via React Bootstrap**
 
-  - The component offering in Paragon has been expanded by offering pathrough exports to React Bootstrap components (`10.0.0`_, `12.0.0`_). These include: Alert, Badge, Button, ButtonGroup, Card,  Carousel, Dropdown, Figure, Form, InputGroup, Image, Nav, Navbar, Overlay, Popover, ProgressBar, Spinner, Tabs, Tooltip
+  - The component offering in Paragon has been expanded by offering pass-through exports to React Bootstrap components (`10.0.0`_, `12.0.0`_). These include: Alert, Badge, Button, ButtonGroup, Card,  Carousel, Dropdown, Figure, Form, InputGroup, Image, Nav, Navbar, Overlay, Popover, ProgressBar, Spinner, Tabs, Tooltip
 
 .. _10.0.0: https://github.com/edx/paragon/releases/tag/v10.0.0
 .. _12.0.0: https://github.com/edx/paragon/releases/tag/v12.0.0
