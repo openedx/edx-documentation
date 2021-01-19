@@ -229,7 +229,7 @@
 
 .. _Open edX Native Installation: https://openedx.atlassian.net/wiki/x/g4G6C
 
-.. _Open edX Native 20.04 Installation: https://openedx.atlassian.net/l/c/L4sgQNbj
+.. _Open edX Koa Installation: https://openedx.atlassian.net/l/c/L4sgQNbj
 
 .. _edX Feature Flags: https://openedx.atlassian.net/wiki/spaces/OpenDev/pages/34734726/edX+Feature+Flags
 
