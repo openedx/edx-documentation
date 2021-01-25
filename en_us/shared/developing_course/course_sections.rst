@@ -75,7 +75,7 @@ Scheduled
 
 A section that is scheduled for release on a future date will not be visible to
 learners until after the release date. Regardless of the publishing status of
-content within the section, the entire section will not visible to learners.
+content within the section, the entire section will not be visible to learners.
 
 The scheduled date must pass for the section to be visible to learners.
 
