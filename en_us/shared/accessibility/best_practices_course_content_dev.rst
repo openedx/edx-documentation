@@ -1060,6 +1060,7 @@ guidelines.
 Universal Design for Learning Resources
 =======================================
 
-* `The National Center on Universal Design for Learning <http://www.udlcenter.org/implementation/postsecondary>`_ provides a helpful overview on Universal Design for Learning.
+* `The National Center on Universal Design for Learning`__ provides a helpful
+  overview on Universal Design for Learning.
 
-
+__ https://udlguidelines.cast.org/
