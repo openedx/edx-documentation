@@ -32,3 +32,6 @@ autodeploy.properties
 
 *.log
 *.swp
+
+### Doc health data
+health.csv
