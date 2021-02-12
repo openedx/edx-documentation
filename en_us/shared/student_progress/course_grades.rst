@@ -433,7 +433,7 @@ To override grades in bulk, follow these steps.
    * **username**: The user's username
    * **student_key**: The user's external university id, if configured
    * **course_id**: The course id
-   * **track**: The user's enrollment track (i.e. audit, verified, etc.)
+   * **track**: The user's enrollment track (e.g. audit, verified, etc.)
    * **cohort**: The user's assigned cohort, if any
    
    In addition, there are five columns per graded subsection. **<id>** is a unique internal identifier for each graded subsection.
