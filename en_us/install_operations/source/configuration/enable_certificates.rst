@@ -388,4 +388,49 @@ for eligible learners.
 
    ``./manage.py lms --settings=production gen_cert_report -c course-v1:edX+demoX_Demo_2015``.
 
+
+.. _Enable Automatic Certificate Generation:
+
+*****************************************
+Enable Automatic Certificate Generation
+*****************************************
+
+Particularly in self-paced courses (see :ref:`Enable Self Paced
+Courses`), your learners might not want to wait until an instructor
+initiates certificate generation. Instead, they would typically expect
+to be able to download their certificates as soon as they achieve a
+passing grade.
+
+To globally enable this functionality, you must set a `Waffle switch
+<https://waffle.readthedocs.io/en/latest/types/switch.html>`_:
+
+#. In the LMS Django Administration site for your instance of Open
+   edX, under **Django-Waffle** > **Switches**, select **Add Switch**.
+
+#. Name the switch ``certificates.auto_certificate_generation``.
+
+#. Tick the **Active** checkbox.
+
+#. Optionally, add a **Note** describing that the switch enables
+   certificate auto-generation for self-paced courses, or any other
+   information you consider necessary. The **Note** contents are never
+   shown to learners.
+
+#. Click **Save** to activate the switch.
+
+Open edX caches the value of this Waffle switch, thus the changed
+setting may take several minutes to propagate in a large installation.
+
+In addition to this Waffle switch, automatic certificate generation
+requires certain settings to be defined for the course, by a member of
+the course staff. For more details, see :ref:`opencoursestaff:Allow
+Learners to Receive Early Certificates` and
+:ref:`opencoursestaff:Allow Learners to Download Certificates` in
+*Building and Running an Open edX Course*.
+
+.. note::
+  Even with the Waffle switch set to **Active** and all per-course
+  prerequisites met, automatic certificate generation does not apply
+  to enrollments in honor and audit mode.
+
 .. include:: ../../../links/links.rst

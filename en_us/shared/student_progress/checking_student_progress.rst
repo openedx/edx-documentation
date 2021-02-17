@@ -104,9 +104,13 @@ they have completed the course, you use the **Enable Student-Generated
 Certificates** setting on the instructor dashboard.
 
 .. note::
-  By default, self-paced courses issue certificates to learners as soon as
-  learners have completed enough of the course, with a high enough grade, to
-  earn a certificate. You do not have to change any settings.
+  If the administrator has configured the site correctly (see
+  :ref:`installation:Enable Automatic Certificate Generation` in
+  *Installing, Configuring, and Running the Open edX Platform*),
+  self-paced courses issue certificates to learners as soon as
+  learners have completed enough of the course, with a high enough
+  grade, to earn a certificate. You do not have to change any
+  settings.
 
 #. View the live version of your course.
 
