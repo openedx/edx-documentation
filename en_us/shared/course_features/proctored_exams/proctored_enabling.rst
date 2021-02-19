@@ -39,8 +39,10 @@ To create a proctored exam or a practice proctored exam, follow these steps.
 .. only:: Partners
 
   .. note::
-    Practice proctored exams are visible to all learners, regardless of
-    enrollment track.
+    The content of practice proctored exams is visible to all learners, regardless of
+    enrollment track. Only learners in a paid enrollment track (e.g. verified,
+    Master's, Professional Certificate) will be able to use proctoring software
+    when viewing a practice proctored exam.
 
 #. Add and :ref:`develop a subsection <Developing Course Subsections>` as you
    would any other subsection.
