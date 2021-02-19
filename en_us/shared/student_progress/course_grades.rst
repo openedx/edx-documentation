@@ -431,8 +431,8 @@ To override grades in bulk, follow these steps.
    The CSV contains one row per learner, and the following columns:
 
    * **username**: The user's username
-   * **student_key**: The user's external university id, if configured
-   * **course_id**: The course id
+   * **student_key**: The user's external university ID, if configured
+   * **course_id**: The course ID
    * **track**: The user's enrollment track (e.g. audit, verified, etc.)
    * **cohort**: The user's assigned cohort, if any
    
