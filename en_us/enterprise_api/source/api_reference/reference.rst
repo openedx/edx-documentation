@@ -98,37 +98,37 @@ Example Request
 ::
 
    curl -X GET \
-   https://api.edx.org/enterprise/v1/enterprise-catalogs/1/4g1BB0us321/ \
+   https://api.edx.org/enterprise/v2/enterprise-catalogs/3f56a21c-76c8-47c0-add8-a99714d40d94/ \
    -H "Authorization: JWT {access token}"
 
 =====================
 Parameters
 =====================
 
-You can use an optional ``page_size`` parameter to specify the number of
+You can use an optional ``limit`` parameter to specify the number of
 courses that ``enterprise-catalogs/{catalog_id}`` calls return
-on each page of the response. If you do not supply the ``page_size``
+on each page of the response. If you do not supply the ``limit``
 parameter, the ``enterprise-catalogs/{catalog_id}`` call returns the default
 value of 20 courses per page. For example:
 
 ::
 
-   curl -X GET https://api.edx.org/enterprise/v1/\
-   enterprise-catalogs/1/4g1BB0us321?page_size=250 \
+   curl -X GET https://api.edx.org/enterprise/v2/\
+   enterprise-catalogs/3f56a21c-76c8-47c0-add8-a99714d40d94?limit=250 \
    -H "Authorization: JWT {access token}"
 
 =====================
 Response Values
 =====================
 
-The ``GET /enterprise/v1/enterprise-catalogs/{catalog_id}`` request
+The ``GET /enterprise/v2/enterprise-catalogs/{catalog_id}`` request
 returns the following response values.
 
 .. note::
   Responses to GET requests for the edX Enterprise API frequently contain
   the ``results`` response value. The ``results`` response value is a variable
   that represents the intended object from the GET request. For the
-  ``/enterprise/api/v1/enterprise-catalogs/{catalog_id}`` endpoint, the
+  ``/enterprise/api/v2/enterprise-catalogs/{catalog_id}`` endpoint, the
   ``results`` object holds an array of objects that list information about
   each individual course in the catalog.
 
@@ -183,7 +183,7 @@ Method and Endpoint
    * - Method
      - Endpoint
    * - GET
-     - ``/enterprise/v1/enterprise-catalogs/{catalog_id}/courses/{course_key}``
+     - ``/enterprise/v2/enterprise-catalogs/{catalog_id}/courses/{course_key}``
 
 =====================
 Example Request
@@ -191,14 +191,14 @@ Example Request
 ::
 
    curl -X GET \
-   https://api.edx.org/enterprise/v1/enterprise-catalogs/1/4g1BB0us321/courses/MyUni+Sport101x \
+   https://api.edx.org/enterprise/v2/enterprise-catalogs/3f56a21c-76c8-47c0-add8-a99714d40d94/courses/MyUni+Sport101x \
    -H "Authorization: JWT {access token}"
 
 =====================
 Response Values
 =====================
 
-The ``GET /enterprise/v1/enterprise-catalogs/{catalog_id}/courses/{course_key}``
+The ``GET /enterprise/v2/enterprise-catalogs/{catalog_id}/courses/{course_key}``
 request returns the response values described in :ref:`course Fields`.
 
 .. _enterprise_catalogs_courserun Endpoint:
@@ -225,7 +225,7 @@ Method and Endpoint
    * - Method
      - Endpoint
    * - GET
-     - ``/enterprise/v1/enterprise-catalogs/{catalog_id}/course-runs/{course_run_ID}``
+     - ``/enterprise/v2/enterprise-catalogs/{catalog_id}/course-runs/{course_run_ID}``
 
 =====================
 Example Request
@@ -233,14 +233,14 @@ Example Request
 ::
 
    curl -X GET \
-   https://api.edx.org/enterprise/v1/enterprise-catalogs/1/4g1BB0us321/course-runs/course-v1:MyUni+Sport101x \
+   https://api.edx.org/enterprise/v2/enterprise-catalogs/3f56a21c-76c8-47c0-add8-a99714d40d94/course-runs/course-v1:MyUni+Sport101x \
    -H "Authorization: JWT {access token}"
 
 =====================
 Response Values
 =====================
 
-The ``GET /enterprise/v1/enterprise-catalogs/{catalog_id}/course-runs/{course_run_ID}``
+The ``GET /enterprise/v2/enterprise-catalogs/{catalog_id}/course-runs/{course_run_ID}``
 request returns the response values described in :ref:`course_run Fields`.
 
 .. _enterprise_catalogs_programs Endpoint:
@@ -267,7 +267,7 @@ Method and Endpoint
    * - Method
      - Endpoint
    * - GET
-     - ``/enterprise/v1/enterprise-catalogs/{catalog_id}/programs/{program_ID}``
+     - ``/enterprise/v2/enterprise-catalogs/{catalog_id}/programs/{program_ID}``
 
 =====================
 Example Request
@@ -275,7 +275,7 @@ Example Request
 ::
 
    curl -X GET /oauth2/v1/access_token/ \
-   https://api.edx.org/enterprise/v1/enterprise-catalogs/4g1BB0us321/programs/21g1bB0us545 \
+   https://api.edx.org/enterprise/v1/enterprise-catalogs/3f56a21c-76c8-47c0-add8-a99714d40d94/programs/7b24a21c-98c8-47c0-b9c8-g54714d40d94 \
    -H "Authorization: JWT {access token}"
 
 
