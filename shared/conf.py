@@ -192,3 +192,4 @@ extlinks = {
     # :jira:`TNL-4904` becomes: <a href='https://openedx.atlassian.net/browse/TNL-4904'>TNL-4904</a>
     'jira': ('https://openedx.atlassian.net/browse/%s', ''),
 }
+
