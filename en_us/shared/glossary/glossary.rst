@@ -569,6 +569,11 @@ H
 I
 ****
 
+.. _IDA:
+
+**IDA**
+
+  Independently Deployed Application. An automomous web service.
 
 .. _Image Mapped_g:
 
