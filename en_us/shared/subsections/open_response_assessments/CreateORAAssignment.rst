@@ -143,6 +143,8 @@ To add the rubric, follow these steps.
    corrections. However, you can modify due dates and the weight of the ORA
    assignment after you publish an ORA assignment.
 
+.. note:: If you wish to allow learners to view the rubric as they work on their
+   response, see  :ref:`Show Rubric During Response<PA Show Rubric During Response>`
 
 .. _PA Criteria Comment Field Only:
 
@@ -277,6 +279,28 @@ these steps.
     see :ref:`Prohibited File Extensions`.
 
 #. For **Allow LaTeX Responses**, select **True** or **False**.
+
+.. _PA Show Rubric During Response:
+ 
+==============================================
+Allow Learners to View Rubric While Responding
+==============================================
+
+By default, learners cannot see the rubric while they are working on their response.
+However, you may decide that it would be helpful for learners to be able to view the
+rubric while they work on their response so they know how they will be evaluated. To
+enable this functionality:
+
+#. In the ORA component editor, select **Settings**.
+
+#. Set **Show Rubric During Response** to **True**.
+
+When this setting is enabled, a collapsable section will appear in the Response step,
+above the first prompt, that shows learners a detailed breakdown of how their response
+will be graded.
+
+.. note:: This is the rubric you set up in :ref:`Add Rubric<PA Add Rubric>`. For each Criterion, learners
+   will see all Option names, descriptions, and point values.
 
 .. _PA Show Top Responses:
 
