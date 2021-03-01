@@ -98,9 +98,9 @@ Configure Course Certificates for Your Open edX Instance
    For each course mode for which you want to offer certificates (such as
    "honor" or "verified"), define these parameters.
 
-   * ``certificate_type`` 
+   * ``certificate_type``
    * ``certificate_title``
-   * ``document_body_class_append``. 
+   * ``document_body_class_append``.
 
    Make sure the mode name matches your course mode name exactly. An example
    follows.
@@ -244,7 +244,7 @@ default language of your platform, follow these steps.
 #. Add the language in which you want to generate certificates to
    ``EDXAPP_CERTIFICATE_TEMPLATE_LANGUAGES``
    (``edx/configuration/playbooks/roles/edxapp/defaults/main.yml``), where the
-   key is the language code and the value is the name of the language. 
+   key is the language code and the value is the name of the language.
 
    For example,    ``'fr':'français'``.
 
@@ -278,7 +278,7 @@ default language of your platform, follow these steps.
       * - ``Course Key``
         - Leave empty.
         - Enter the course key for the course run which should use this
-          certificate template.   
+          certificate template.
       * - ``Mode``
         - (Optional) Specify the course mode for which certificates will be
           generated using this template. If no mode is specified, this template
@@ -345,7 +345,7 @@ these steps.
    template.
 
 #. In the certificate template, ensure that a ``div`` element exists that
-   includes the context variable ``hours_of_effort``. 
+   includes the context variable ``hours_of_effort``.
 
 #. Save your edits to the certificate template.
 
@@ -383,10 +383,7 @@ for eligible learners.
      ``--insecure`` flag so that the certificate generation service contacts
      the LMS on http instead of on https.
 
-#. View the certificate generation status for a course using
-   ``gen_cert_report``. An example follows.
-
-   ``./manage.py lms --settings=production gen_cert_report -c course-v1:edX+demoX_Demo_2015``.
+#. You can then view the certificates in the ``certificates_generatedcertificate`` database table.
 
 
 .. _Enable Automatic Certificate Generation:
