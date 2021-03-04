@@ -1,4 +1,8 @@
-.. _Add CourseTalk:
+.. _Add CourseTalk (Deprecated):
+
+################################################
+DEPRECATED: This Is Unavailable in Lilac onwards
+################################################
 
 #############################################
 Adding the CourseTalk Widget
