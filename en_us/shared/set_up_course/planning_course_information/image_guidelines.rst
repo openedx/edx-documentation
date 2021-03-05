@@ -38,8 +38,7 @@ locations.
 
 .. only:: Partners
 
-  * The course card on edx.org.
-  * The program page, if the course is part of a program.
+  * The course or program card on edx.org.
 
 * The About page.
 * The learner dashboard.
@@ -48,7 +47,7 @@ locations.
 When you create a course or program image, keep the following guidelines in
 mind.
 
-* The image should not include text or headlines.
+* The image must not include text or headlines.
 * You must have permission to use the image. Possible image sources include
   Flickr creative commons, Stock Vault, Stock XCHNG, and iStock Photo.
 * Each course in a sequence or program must have a unique image.
@@ -95,25 +94,6 @@ Course Image Size
   width by 225 pixels in height, and in .jpg or .png format. Make sure the
   image that you upload maintains the aspect ratio of those dimensions so that
   the image appears correctly on the dashboard.
-
-.. only:: Partners
-
-  Program Image Size
-  ******************
-
-  The program image size must be 1440 x 260 pixels. However, only part of this
-  image may be visible. The viewable area varies according to the web page
-  where the viewer sees the image.
-
-  The following example program image is 1440 x 260 pixels. The image shows the
-  area of a program image that is always visible, as well as the areas that are
-  also visible on different pages. You can click to enlarge the image.
-
-  .. image:: ../../../../shared/images/program_image.png
-     :width: 600
-     :alt: An example program image, showing the area that is always visible,
-         the additional area visible for program pages and the learner
-         dashboard, and the area that may be hidden in search results.
 
 
 .. _Course About Video Guidelines:
