@@ -593,6 +593,8 @@
 
 .. _Technical problems during a proctored exam: https://support.edx.org/hc/en-us/articles/360000205167
 
+.. _Checking Your Onboarding Status and Resetting Your Onboarding Exam: https://support.edx.org/hc/en-us/articles/1500002350902
+
 .. _XQueue: https://github.com/edx/xqueue
 
 .. _edX XQueue repository: https://github.com/edx/xqueue/blob/master/queue
