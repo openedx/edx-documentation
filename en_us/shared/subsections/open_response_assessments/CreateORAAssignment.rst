@@ -110,7 +110,7 @@ To add the rubric, follow these steps.
 #. In the ORA component editor, select the **Rubric** tab.
 
 #. In the first **Criterion** section, enter the name and prompt text of your
-   first criterion.
+   first criterion (100 character limit).
 
 #. In the **Option** sections for this criterion, for each option that you
    provide for the criterion enter a name, explanation, and point value.
