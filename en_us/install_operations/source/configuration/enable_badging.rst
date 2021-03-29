@@ -79,8 +79,8 @@ Specify a Badge Generator
 By default, Open edX uses Badgr Server as the badge generator. If you do not use
 Badgr Server, you can configure a different badge generator.
 
-* To use Badgr Server, see :ref:`Install Badgr Server` and :ref:`Specify a
-  Badge Issuer`.
+* To use Badgr Server register an Issuer App at https://badgr.org/app-developers/#issuer-apps
+  or :ref:`Install Badgr Server` and :ref:`Specify a Badge Issuer`.
 
 * To use a different badge generator, see :ref:`Specify a Badge Generator
   Other Than Badgr Server`.
@@ -220,12 +220,19 @@ which are located one level above the ``edx-platform`` directory.
 
 #. In ``lms.yml``, set the values for the following parameters.
 
-   * ``BADGR_API_TOKEN``: A string containing the API token for the Badgr
-     superuser account. Obtain the token from the /v1/user/auth-token page while
-     logged in to the API as the superuser.
+   * ``BADGR_USERNAME``: The username connected to your Issuer App in Badgr.org
+     or in your installation of Badgr Server. This will be used to create OAuth2 tokens.
 
-   * ``BADGR_BASE_URL``: A string containing the base URL for Badgr Server. The
-     Badgr Server must be installed at a publicly accessible IP address.
+   * ``BADGR_PASSWORD``: The password connected to your Issuer App in Badgr.org
+     or in your installation of Badgr Server. This will be used to create OAuth2 tokens.
+
+   * ``BADGR_TOKENS_CACHE_KEY``: The cache key for Badgr API tokens. Once created,
+     the tokens will be stored in cache and can be retrieved using this key.
+
+   * ``BADGR_BASE_URL``: A string containing the base URL for Badgr Server.
+     If you are running your own installation, the Badgr Server must be installed
+     at a publicly accessible IP address. If you have registered an Issuer App
+     with Badgr.org, this will be provided for you.
 
    * ``BADGR_ISSUER_SLUG``: A string that is the slug for the Badgr issuer.
      The slug can be obtained from the URL of the Badgr Server page that
@@ -237,7 +244,9 @@ which are located one level above the ``edx-platform`` directory.
 
        ############## Badgr OpenBadges generation ##############
 
-       BADGR_API_TOKEN = None
+       BADGR_USERNAME = "example@example.com"
+       BADGR_PASSWORD = "password"
+       BADGR_TOKENS_CACHE_KEY = "secret-test-cache-key"
        # Do not add the trailing slash here.
        BADGR_BASE_URL = "http://localhost:8005"
        BADGR_ISSUER_SLUG = "test-issuer"
