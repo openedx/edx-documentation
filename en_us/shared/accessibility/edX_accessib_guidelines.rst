@@ -7,8 +7,8 @@ What Is The edX Accessibility Best Practices Guidance Based On?
 edX measures and evaluates accessibility primarily using the World Wide Web Consortium's
 `Web Content Accessibility Guidelines (WCAG) 2.1 <https://www.w3.org/TR/WCAG/>`_
 (05 June 2018). All features that are merged into edX repositories are
-expected to `conform <https://www.w3.org/TR/WCAG20/#conformance>`_ to `Level AA
-<https://www.w3.org/TR/WCAG20/#cc1>`_ of this specification and satisfy the
+expected to `conform <https://www.w3.org/TR/WCAG21/#conformance>`_ to `Level AA
+<https://www.w3.org/TR/WCAG21/#cc1>`_ of this specification and satisfy the
 requirements outlined in the edX `Website Accessibility Policy
 <https://www.edx.org/accessibility>`_.
 
