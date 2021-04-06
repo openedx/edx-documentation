@@ -4,33 +4,109 @@
 #
 #    make upgrade
 #
-alabaster==0.7.12         # via -r requirements/base.txt, sphinx
-babel==2.9.0              # via -r requirements/base.txt, sphinx
-certifi==2020.12.5        # via -r requirements/base.txt, requests
-chardet==4.0.0            # via -r requirements/base.txt, requests
-click==7.1.2              # via pip-tools
-docutils==0.16            # via -r requirements/base.txt, sphinx
-edx-sphinx-theme==1.6.0   # via -r requirements/base.txt
-idna==2.10                # via -r requirements/base.txt, requests
-imagesize==1.2.0          # via -r requirements/base.txt, sphinx
-jinja2==2.11.2            # via -r requirements/base.txt, sphinx
-markupsafe==1.1.1         # via -r requirements/base.txt, jinja2
-packaging==20.8           # via -r requirements/base.txt, sphinx
-pip-tools==5.4.0          # via -r requirements/dev.in
-pygments==2.7.3           # via -r requirements/base.txt, sphinx
-pyparsing==2.4.7          # via -r requirements/base.txt, packaging
-pytz==2020.4              # via -r requirements/base.txt, babel
-requests==2.25.1          # via -r requirements/base.txt, sphinx
-six==1.15.0               # via -r requirements/base.txt, edx-sphinx-theme, pip-tools
-snowballstemmer==2.0.0    # via -r requirements/base.txt, sphinx
-sphinx==3.3.1             # via -r requirements/base.txt, edx-sphinx-theme
-sphinxcontrib-applehelp==1.0.2  # via -r requirements/base.txt, sphinx
-sphinxcontrib-devhelp==1.0.2  # via -r requirements/base.txt, sphinx
-sphinxcontrib-htmlhelp==1.0.3  # via -r requirements/base.txt, sphinx
-sphinxcontrib-jsmath==1.0.1  # via -r requirements/base.txt, sphinx
-sphinxcontrib-qthelp==1.0.3  # via -r requirements/base.txt, sphinx
-sphinxcontrib-serializinghtml==1.1.4  # via -r requirements/base.txt, sphinx
-urllib3==1.26.2           # via -r requirements/base.txt, requests
+alabaster==0.7.12
+    # via
+    #   -r base.txt
+    #   sphinx
+babel==2.9.0
+    # via
+    #   -r base.txt
+    #   sphinx
+certifi==2020.12.5
+    # via
+    #   -r base.txt
+    #   requests
+chardet==4.0.0
+    # via
+    #   -r base.txt
+    #   requests
+click==7.1.2
+    # via pip-tools
+docutils==0.16
+    # via
+    #   -r base.txt
+    #   sphinx
+edx-sphinx-theme==1.6.0
+    # via -r base.txt
+idna==2.10
+    # via
+    #   -r base.txt
+    #   requests
+imagesize==1.2.0
+    # via
+    #   -r base.txt
+    #   sphinx
+jinja2==2.11.2
+    # via
+    #   -r base.txt
+    #   sphinx
+markupsafe==1.1.1
+    # via
+    #   -r base.txt
+    #   jinja2
+packaging==20.8
+    # via
+    #   -r base.txt
+    #   sphinx
+pip-tools==5.4.0
+    # via -r dev.in
+pygments==2.7.3
+    # via
+    #   -r base.txt
+    #   sphinx
+pyparsing==2.4.7
+    # via
+    #   -r base.txt
+    #   packaging
+pytz==2020.4
+    # via
+    #   -r base.txt
+    #   babel
+requests==2.25.1
+    # via
+    #   -r base.txt
+    #   sphinx
+six==1.15.0
+    # via
+    #   -r base.txt
+    #   edx-sphinx-theme
+    #   pip-tools
+snowballstemmer==2.0.0
+    # via
+    #   -r base.txt
+    #   sphinx
+sphinx==3.3.1
+    # via
+    #   -r base.txt
+    #   edx-sphinx-theme
+sphinxcontrib-applehelp==1.0.2
+    # via
+    #   -r base.txt
+    #   sphinx
+sphinxcontrib-devhelp==1.0.2
+    # via
+    #   -r base.txt
+    #   sphinx
+sphinxcontrib-htmlhelp==1.0.3
+    # via
+    #   -r base.txt
+    #   sphinx
+sphinxcontrib-jsmath==1.0.1
+    # via
+    #   -r base.txt
+    #   sphinx
+sphinxcontrib-qthelp==1.0.3
+    # via
+    #   -r base.txt
+    #   sphinx
+sphinxcontrib-serializinghtml==1.1.4
+    # via
+    #   -r base.txt
+    #   sphinx
+urllib3==1.26.4
+    # via
+    #   -r base.txt
+    #   requests
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
