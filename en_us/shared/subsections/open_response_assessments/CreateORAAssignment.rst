@@ -215,6 +215,8 @@ learner responses, follow these steps.
 
 #. Next to **Display Name**, enter the name you want to give the assignment.
 
+#. Select **Schedule** at the top of the ORA component editor.
+
 #. Next to **Response Start Date** and **Response Start Time**, enter the date
    and time when you want learners to be able to begin submitting responses.
 
@@ -251,6 +253,12 @@ these steps.
    * **Required**
    * **Optional**
 
+#. The **Response Editor** field allows you to select an editor that the students
+   will use to format their responses. Select one of the following options:
+
+   * **Simple text editor**: a simple text field without formatting options.
+   * **WYSIWYG Editor**: a visual text editor that allows text formatting.
+
 #. For **File Uploads Response**, select one of the following options.
 
    * **None**
@@ -281,7 +289,7 @@ these steps.
 #. For **Allow LaTeX Responses**, select **True** or **False**.
 
 .. _PA Show Rubric During Response:
- 
+
 ==============================================
 Allow Learners to View Rubric While Responding
 ==============================================
@@ -336,10 +344,11 @@ Step 5. Select Assignment Steps
 Open response assessment assignments can include learner training, peer
 assessment, self assessment, and staff assessment steps.
 
-The component editor provides the :ref:`steps<PA Assessment Steps>` in a
-sequence that works well for most courses. While you can change the order of
-the peer, self, and staff assessment steps, edX recommends that you include
-them in this order.
+When adding a ORA problem, component editor provides some predefined ORA
+problem templates with different :ref:`steps<PA Assessment Steps>` set up
+in a sequence that works well for most courses. While you can change the
+order of the peer, self, and staff assessment steps, edX recommends that
+you include them in this order.
 
 .. note:: If you include a learner training step, you must also include a peer
    assessment step. The learner training step must come before peer or self
@@ -353,9 +362,7 @@ them in this order.
 
 To add steps to the open response assignment, complete these actions.
 
-#. In the ORA component editor, select the **Settings** tab.
-
-#. Scroll below the **Top Responses** field.
+#. In the ORA component editor, select the **Assessment Steps** tab.
 
 #. Locate the following headings.
 
@@ -368,7 +375,7 @@ To add steps to the open response assignment, complete these actions.
    include.
 
 #. (optional) To change the order of the steps, drag the steps into the order
-   that you want.
+   that you want using the bar at the left side of the steps.
 
 
 .. _PA Specify Step Settings:
@@ -405,8 +412,9 @@ option for each criterion in your rubric.
 
 To add and score learner training responses, follow these steps.
 
-#. Under **Step: Learner Training**, locate the first **Scored Response**
-   section.
+#. Under **Step: Learner Training**, select **View / Add Sample Responses**.
+   The section will expand and display the sample responses already set up.
+#. Select **Add sample reponse**.
 #. In the **Response** field, enter the text of your example response.
 #. Under **Response Score**, for each criterion, select the option that you
    want.
@@ -423,11 +431,20 @@ To specify peer assessment settings, follow these steps.
 
 #. Locate the **Step: Peer Assessment** heading.
 
+#. Select **View Options & configuration** to display the step settings.
+
 #. Next to **Must Grade**, enter the number of responses that each learner
    must grade.
 
 #. Next to **Graded By**, enter the number of learners that must grade each
    response.
+
+#. Next to **Enable Flexible Peer Grade Averaging**, select **True** if you
+   want to enable :ref:`Flexible Peer Grade Averaging`.
+
+#. Switch to the **Schedule** tab.
+
+#. Locate the **Peer Assessment Deadlines** heading.
 
 #. Next to **Start Date** and **Start Time**, enter the date and time when
    learners can begin assessing their peers' responses.
@@ -456,7 +473,11 @@ Self Assessment
 For the :ref:`self assessment step<Self Assessment Step>`, you specify when
 the step starts and ends.
 
-#. Locate the **Step: Self Assessment** heading.
+#. Locate the **Step: Self Assessment** heading and enable it.
+
+#. Switch to the **Schedule** tab.
+
+#. Locate the **Self Assessment Deadlines** heading.
 
 #. Next to **Start Date** and **Start Time**, enter the date and time when
    learners can begin assessing their peers' responses.
