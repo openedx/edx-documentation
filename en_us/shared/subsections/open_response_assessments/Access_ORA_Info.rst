@@ -151,7 +151,11 @@ The .csv file contains one row of data for each response from a learner.
 
 * The IDs in the **Submission ID** and **Item ID** columns uniquely identify the
   problem within the course content and the learner's submission for that
-  problem.
+  problem. The **Problem Name** column is also available to help identify a
+  problem by its display name.
+
+* The **Username** column helps identify impacted learner submissions for further
+  platform review if applicable.
 
 * The **Anonymized Student ID** column lists an ID for each learner without
   revealing confidential, personally identifiable data such as email addresses
