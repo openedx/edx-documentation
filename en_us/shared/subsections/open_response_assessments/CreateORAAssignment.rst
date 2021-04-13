@@ -40,9 +40,9 @@ steps.
 #. In Studio, open the unit where you want to create the open response
    assessment.
 
-#. Under **Add New Component**, select **Problem**.
+#. Under **Add New Component**, select **Open Response**.
 
-#. Select **Advanced**, and then select **Open Response Assessment**.
+#. Select one of the the Open Response Assessment templates listed.
 
 #. In the problem component that appears, select **Edit**.
 
