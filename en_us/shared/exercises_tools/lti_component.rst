@@ -10,8 +10,9 @@ LTI Component
 
 You can integrate remote learning tools, such as applications and textbooks,
 into your course with the learning tools interoperability (LTI) component. The
-LTI component is based on the `IMS Global Learning Tools Interoperability`_
-version 1.1.1 specifications.
+LTI component supports tools with the `LTI 1.1`_ and `LTI 1.3`_ specifications.
+Additionally, the LTI 1.3 tools can use the following LTI Advantage extensions:
+`Deep Linking`_ and `Assignments and Grades services`_.
 
 .. contents::
    :local:
@@ -71,13 +72,37 @@ system such as Canvas or Blackboard.
 
 .. note the slightly different destination links ^. Alison 23 Nov 2015
 
-.. _LTI Information:
+.. _enable_lti_components:
 
-******************************
-LTI Authentication Information
-******************************
+******************************************
+Enabling LTI Components for a Course
+******************************************
 
-Some LTI tools require users to provide authentication credentials. If the LTI
+Before you can add LTI components to your course, you must enable the LTI tool
+in Studio.
+
+To enable the LTI tool in Studio, add the ``"lti_consumer"`` module to the
+**Advanced Module List** on the **Advanced Settings** page. For more
+information, see :ref:`Enable Additional Exercises and Tools`.
+
+.. note::
+  The ``lti_consumer`` module replaces a previous version of the LTI component.
+  The name of the module for the previous LTI component is ``lti`` and it may
+  appear in the **Advanced Module List** for older courses.
+
+  The ``lti_consumer`` module includes all of the functionality of the previous
+  LTI component and it should be used for all new courses. Courses that include
+  the previous LTI component will continue to work correctly, even if the
+  ``lti`` module is no longer present in the **Advanced Module List**.
+
+
+.. _Setting up a LTI 1.1 component:
+
+*******************************
+Setting up an LTI 1.1 component
+*******************************
+
+Some LTI 1.1 tools require users to provide authentication credentials. If the LTI
 tool you are including in your course requires authentication, you must add an
 LTI passport for that tool to your course configuration.
 
@@ -155,7 +180,7 @@ To add an LTI passport for an LTI tool to the configuration for your course, fol
 
    ``"test_lti_id:b289378-f88d-2929-ctools.umich.edu:secret"``
 
-   For more information about creating your key, see :ref:`LTI Information`.
+   For more information about creating your key, see :ref:`Setting up a LTI 1.1 component`.
 
 #. If you use more than one LTI provider in your course, separate each LTI
    passport string with commas. Make sure to surround each entry with quotation
@@ -175,38 +200,17 @@ To add an LTI passport for an LTI tool to the configuration for your course, fol
 The page refreshes automatically, reformats your entry in the **LTI Passports**
 field, and displays a notification that your changes have been saved.
 
-.. _enable_lti_components:
 
-******************************************
-Enabling LTI Components for a Course
-******************************************
-
-Before you can add LTI components to your course, you must enable the LTI tool
-in Studio.
-
-To enable the LTI tool in Studio, add the ``"lti_consumer"`` module to the
-**Advanced Module List** on the **Advanced Settings** page. For more
-information, see :ref:`Enable Additional Exercises and Tools`.
-
-.. note::
-  The ``lti_consumer`` module replaces a previous version of the LTI component.
-  The name of the module for the previous LTI component is ``lti`` and it may
-  appear in the **Advanced Module List** for older courses.
-
-  The ``lti_consumer`` module includes all of the functionality of the previous
-  LTI component and it should be used for all new courses. Courses that include
-  the previous LTI component will continue to work correctly, even if the
-  ``lti`` module is no longer present in the **Advanced Module List**.
-
-******************************************
+=========================================
 Adding an LTI Component to a Course Unit
-******************************************
+=========================================
 
 To add an LTI component to a course unit, follow these steps.
 
 #. If the LTI tool requires authentication, register the key and shared secret
    for the LTI tool in the configuration for your course. For more information
-   about registering authentication credentials, see :ref:`LTI Information`.
+   about registering authentication credentials, see
+   :ref:`Setting up a LTI 1.1 component`.
 
 #. Edit the unit in which you want to add the remote LTI tool and select
    **Advanced** from the **Add New Component** section. Select **LTI
@@ -217,6 +221,8 @@ To add an LTI component to a course unit, follow these steps.
 
 #. Select **Edit** in the component that appears.
 
+#. In the **LTI Version** field, select **LTI 1.1/1.2**.
+
 #. Configure the LTI component in the component editor. For more information
    about each setting, see :ref:`LTI Component settings`.
 
@@ -224,6 +230,46 @@ To add an LTI component to a course unit, follow these steps.
 
 To test an LTI component, use the **Preview** feature or view the live version
 in the LMS. For more information, see :ref:`Testing Your Course Content`.
+
+.. _Setting up a LTI 1.3 component:
+
+*******************************
+Setting up an LTI 1.3 component
+*******************************
+
+
+
+.. _Enabling and using LTI Advantage features:
+
+*****************************************
+Enabling and using LTI Advantage features
+*****************************************
+
+LTI Advantage is an extension of the LTI 1.3 specification that enables additional
+features in LTI components. See `LTI Advantage`_ for more imformation.
+
+Currently, Open edX supports the following LTI Advantage extensions:
+
+* `Assignments and Grades services`_
+* `Deep Linking`_
+
+
+.. _Enabling LTI Assignments and Grades services:
+
+============================================
+Enabling LTI Assignments and Grades services
+============================================
+
+TBD LTI AGS setup and usage
+
+
+.. _Enabling and using LTI Deep Linking:
+
+===================================
+Enabling and using LTI Deep Linking
+===================================
+
+TBD LTI DL setup and usage
 
 .. _LTI Component settings:
 
@@ -248,14 +294,58 @@ LTI Component Settings
        requires a username or email address, use this field to inform learners
        that their information will be forwarded to the external application.
 
-   * - LTI ID
+   * - LTI Version
+     - Used to select the LTI version used in for the current LTI component.
+
+   * - LTI ID (LTI 1.1 only)
      - Specifies the LTI ID for the remote LTI tool provider. This value must
        match the LTI ID that you entered as part of the LTI passport string for
        the LTI tool. For more information about LTI passports, see :ref:`LTI
        Information`.
 
-   * - LTI URL
+   * - LTI URL (LTI 1.1 only)
      - Specifies the URL of the remote LTI tool that this component launches.
+
+   * - LTI 1.3 Tool Launch URL (LTI 1.3 only)
+     - Specifies the URL of the remote LTI tool that this component launches.
+       This is sometimes called *redirect* url in some tools.
+
+   * - LTI 1.3 OIDC URL (LTI 1.3 only)
+     - Specifies the URL of the login URL for the remote LTI tool for the
+       authentication flow. This can also be called *Login URL* on some tools.
+
+   * - LTI 1.3 Tool Public Key (LTI 1.3 only)
+     - The LTI 1.3 Tool's public key. This is a string that starts with
+       '-----BEGIN PUBLIC KEY-----' and is required so that the LMS can check if
+       the messages and launch requests received have the signature from the tool.
+       This is not required when doing LTI 1.3 Launches without LTI Advantage.
+
+   * - Deep linking (LTI 1.3 only)
+     - Toggle to enable or disable LTI Advantage Deep Linking. Select **True** if
+       the tool supports this feature and you want to use it in this component.
+
+   * - LTI Advantage Deep Linking Launch URL (LTI 1.3 only)
+     - Specifies the URL of the remote LTI tool that this component uses to perform
+       deep linking launches. If not specified by the tool, use the same URL as
+       in **LTI 1.3 Tool Launch URL**.
+
+   * - LTI Assignment and Grades Service (LTI 1.3 only)
+     - Toggle to enable LTI Advantage Assignment and Grades services and set the
+       grading model.
+
+        Options are:
+
+       * **Disabled** - LTI AGS service will be disabled. Use this for tools that
+         don't send any grades back to the platform.
+
+       * **Allow tools to submit grades only (declarative) (Default)** - the platform
+         will enable LTI AGS and prepare a single grade container for problems to
+         send grades back to. Use this for simple LTI problems.
+
+       * **Allow tools to manage and submit grade (programmatic)** - LTI AGS is enabled
+         and the tool will have full control over the grading process, enabling it to
+         create and edit one or more grade containers and manage the learner scores that
+         will be linked to the LMS.
 
    * - Custom Parameters
      - Sends additional parameters that are required by the remote LTI tool.

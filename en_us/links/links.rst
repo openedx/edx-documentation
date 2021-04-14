@@ -373,10 +373,17 @@
 
 .. _python-social-auth backend documentation: http://python-social-auth.readthedocs.io/en/latest/backends/index.html#social-backends
 
-.. _IMS LTI 1.1 Consumer Launch: http://www.imsglobal.org/developers/LTI/test/v1p1/lms.php
+.. _IMS LTI 1.1 Consumer Launch: https://www.imsglobal.org/developers/LTI/test/v1p1/lms.php
 
-.. _IMS Global Learning Tools Interoperability: http://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html
+.. _LTI 1.1: https://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html
 
+.. _LTI 1.3: https://www.imsglobal.org/spec/lti/v1p3
+
+.. _LTI Advantage: https://www.imsglobal.org/lti-advantage-overview
+
+.. _Deep Linking: https://www.imsglobal.org/spec/lti-dl/v2p0
+
+.. _Assignments and Grades services: https://www.imsglobal.org/spec/lti-ags/v2p0
 
 .. _Issuing Badges: https://wiki.mozilla.org/Badges/Onboarding-Issuer#Issuing_Badges
 
@@ -606,4 +613,3 @@
 .. _Stanford Online xqueue_pull_ref: https://github.com/Stanford-Online/xqueue_pull_ref
 
 .. _Mozilla Firefox: https://www.mozilla.org/en-US/firefox/new/
-
