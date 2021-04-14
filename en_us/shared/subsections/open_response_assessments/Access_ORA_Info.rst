@@ -48,6 +48,45 @@ The **Open Responses** tab also displays the same information for each separate
 ORA assignment in the course, grouped by the course units that include ORA
 assignments.
 
+
+.. _List and manage students waiting in peer step:
+
+*********************************************
+List and manage students waiting in peer step
+*********************************************
+
+On ORA problems with the peer assessment step, sometimes learners might get stuck
+waiting peer reponses to evaluate or peer reviews from other learners indefinitely.
+There's a tool in the instructor dashboard that allows listing and managing those
+learners.
+
+To view a list of students in the waiting step of an ORA problem in a course, follow
+these steps.
+
+#. View the live version of the course.
+#. Select **Instructor** to open the instructor dashboard.
+#. On the instructor dashboard, select **Open Responses**.
+#. In the table listing the ORA problems, locate the waiting column corresponding to
+   the problem you want to see users waiting on.
+#. If there are any students in the waiting step, the column will become clicable.
+#. Select it to open the **Waiting step details** page.
+
+The **Waiting step details** page displays some information related to the peer step
+configuration and a table listing users in the waiting step with the
+following attributes:
+
+* Usernames
+* Number of peers assessed
+* Number of peer reviews received
+* Time spent on the waiting step so far
+* Status from staff assessment step, if available in problem
+* Final grade status (waiting or overwritten).
+
+The **Waiting step details** page also allows managing student grades through the
+**Manage individual learners** button near the bottom of the page, which works in
+the same manner as :ref:`partnercoursestaff:Access Information for a Specific Learner`.
+
+
 .. _PA View Metrics for Individual Steps:
 
 ************************************************
