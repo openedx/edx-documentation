@@ -68,7 +68,7 @@ these steps.
 #. On the instructor dashboard, select **Open Responses**.
 #. In the table listing the ORA problems, locate the waiting column corresponding to
    the problem you want to see users waiting on.
-#. If there are any students in the waiting step, the column will become clicable.
+#. If there are any students in the waiting step, the column will become clickable.
 #. Select it to open the **Waiting step details** page.
 
 The **Waiting step details** page displays some information related to the peer step
@@ -302,4 +302,4 @@ in .txt format along with any attached files in that submission if applicable. T
 filename indicates the ORA index, username (or partner ID if availabel) and
 prompt index for a given ORA. When responses are file uploads, the name will also
 include the original filename.
-Example: ``[1] - jonh_doe - prompt_0.txt``.
+Example: ``[1] - john_doe - prompt_0.txt``.

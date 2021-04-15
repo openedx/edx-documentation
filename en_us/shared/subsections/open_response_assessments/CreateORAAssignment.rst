@@ -344,7 +344,7 @@ Step 5. Select Assignment Steps
 Open response assessment assignments can include learner training, peer
 assessment, self assessment, and staff assessment steps.
 
-When adding a ORA problem, component editor provides some predefined ORA
+When adding an ORA problem, the component editor provides some predefined ORA
 problem templates with different :ref:`steps<PA Assessment Steps>` set up
 in a sequence that works well for most courses. While you can change the
 order of the peer, self, and staff assessment steps, edX recommends that
