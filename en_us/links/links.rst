@@ -231,6 +231,8 @@
 
 .. _Open edX Koa Installation: https://openedx.atlassian.net/l/c/L4sgQNbj
 
+.. _Open edX Lilac Installation: https://openedx.atlassian.net/l/c/L4sgQNbj
+
 .. _edX Feature Flags: https://openedx.atlassian.net/wiki/spaces/OpenDev/pages/34734726/edX+Feature+Flags
 
 .. THIRD PARTY LINKS
