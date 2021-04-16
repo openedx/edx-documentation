@@ -376,23 +376,40 @@ review grades for a course, follow these steps.
    .. image:: ../../../shared/images/Learner_Gradebook.png
      :alt: Course gradebook with rows for learners and columns for assignments.
 
-The gradebook displays a table, with a row for each learner enrolled in the
+The gradebook displays a table, with a row for each learner (\*see note) enrolled in the
 course, listed by user name, and a column for each assignment in the course. 
-The gradebook includes the following features.
 
-* You can choose whether to view grades as a percent, from 0% to 100%, or as an
-  absolute score (for example, 10 out of 14).
+.. note:: By default, the gradebook will not include any user enrolled in the course who also has a
+   "Course Access Role". This includes course staff, course administrators, course data researchers,
+   and beta testers. To see a listing of users who fall into this category, navigate to the Insurector
+   Dashboard and refer to the Course Team Management section of the Membership tab.
 
-* You can filter the columns displayed in the gradebook by assignment type.
+The gradebook includes the following features:
 
-* You can filter the learners displayed in the gradebook by enrollment type 
-  (for example, verified, audit, or all learners) or by cohort. 
+* **Filtering:** There are several options for filtering the data shown on the gradebook.
 
-* You can search for individual learners by their username, using the search
-  field. Searches are case-insensitive.
+  * *Assignment Type:* only show grades for a certain Assignment Type.
 
-* You can change, or override, the grade that a learner has received for a 
-  specific subsection. For information about how to do this, see 
+  * *Assignment:* only show grades for a single Assignment.
+
+  * *Assignemnt Grade:* when filtering by *Assignment*, only show users with a grade for that
+    assignment within a certain range.
+
+  * *Overall Grade:* only show learners whose total course grade is within a certain range.
+
+  * *Track:* only show learners of a certain enrollment mode (e.g. verified, audit, masters).
+
+  * *Cohort:* only show learners in a certain cohort.
+
+  * *Include Course Team Members:* By default, users with certain course roles 
+    (Staff, Admin, Beta Tester, Course Data Researcher) will be excluded from gradebook results.
+    To include those users, you can select this option, which will include those excluded users
+    in the gradebook.
+
+* **Searching:** You can search for individual learners by their username, using the search field. Searches are case-insensitive.
+
+* **Grade Override:** You can override the grade that a learner has received for a 
+  specific graded subsection. For information about how to do this, see 
   :ref:`Override in Gradebook`.
 
 * **Master’s courses:** The edX gradebook has several features for high-touch courses. For learners in the Master’s track: 
@@ -426,7 +443,7 @@ To override grades in bulk, follow these steps.
 
 #. Set up the filters to identify the segment of learners you want to grade.
 
-#. Click the **Download Bulk Management** button to download a CSV of subsection assignment grades for this segment of learners.
+#. Click the **Download Bulk Management** button to download a CSV of subsection assignment grades for learners matching the currently specified filters.
 
    The CSV contains one row per learner, and the following columns:
 
