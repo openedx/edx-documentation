@@ -1,8 +1,8 @@
 .. _Open edX Learner's Guide:
 
-########################
-Open edX Learner's Guide
-########################
+#######################################
+Open edX Learner's Guide: Lilac Release
+#######################################
 
 .. toctree::
    :numbered:
