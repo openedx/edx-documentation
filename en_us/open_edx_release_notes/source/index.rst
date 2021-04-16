@@ -11,6 +11,7 @@ The *Open edX Platform Release Notes* provide information about releases, migrat
 
     front_matter/index
     os_documentation
+    lilac
     koa
     juniper
     ironwood
