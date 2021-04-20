@@ -205,7 +205,7 @@ field, and displays a notification that your changes have been saved.
 Adding an LTI Component to a Course Unit
 =========================================
 
-To add an LTI component to a course unit, follow these steps.
+To add an LTI 1.1 component to a course unit, follow these steps.
 
 #. If the LTI tool requires authentication, register the key and shared secret
    for the LTI tool in the configuration for your course. For more information
@@ -237,7 +237,62 @@ in the LMS. For more information, see :ref:`Testing Your Course Content`.
 Setting up an LTI 1.3 component
 *******************************
 
+To add an LTI 1.3 component to a course unit, follow these steps.
 
+#. Edit the unit in which you want to add the remote LTI tool and select
+   **Advanced** from the **Add New Component** section. Select **LTI
+   Consumer**.
+
+   If the **Advanced** component type is not available, make sure you have
+   enabled LTI components. To do this, see :ref:`enable_lti_components`.
+
+#. Select **Edit** in the component that appears.
+
+#. In the **LTI Version** field, select **LTI 1.3**.
+
+#. Enter the LTI 1.3 settings provided from your tool. For basic LTI 1.3
+   tools, without LTI Advantage, you need to set the following settings:
+
+   * **LTI 1.3 Tool Launch URL** (can also be called redirect url)
+   * **LTI 1.3 OIDC URL** (can also be called login url)
+
+   To enable *LTI Advantage* features, such as grades pass back and Deep Linking,
+   You also see to set **LTI 1.3 Tool Public Key** with a key provided by the
+   LTI tool. An example key is shown below, and should be pasted directly in
+   the configuration field.
+
+   .. code-block:: bash
+
+        -----BEGIN PUBLIC KEY-----
+        MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApAbQVx8FLXOflwvmV4dE
+        merOO/C+syqDG7MniysYzbMm+egZ8Z3Dq0e2YuggZlRSHVtT9TpTu6BrP7GyWrhH
+        7nOgCx5Rz+9g/B+KsasZ9x35bPjMeqNAu5aP3b0xgaRtnWec0h0a6T1L2xaQLuPS
+        bDTJhABs0d22OYmdlMNN0+fWPmqxxAz8t7DBmjMMAmPLG4tjyEOwKCBlYCx0WELP
+        Izg9bYA7MhCpHyD6+kTB51dbOA6lBbrIszCO9PBV4RD96LQWPs3YQ+DTqvPfLeTQ
+        Q9XwiOe7yzsG1Ml+dkUODpZbuBk5Z9X486l36WbRWGBDWIWlsNE7M9Nl3eS42oS4
+        IQIDAQAB
+        -----END PUBLIC KEY-----
+
+   For more information about each setting, see :ref:`LTI Component settings`.
+
+#. Select **Save**.
+
+#. The studio page will refresh and display LTI configuration required by the
+   tool. Copy each of those values and follow the instructions provided by the
+   tool to set them up.
+
+   For basic LTI 1.3 launches, the following variables are required:
+
+   * **Client**
+   * **Deployment ID**
+   * **Keyset URL**
+   * **OIDC Callback URL** (some tools refer to this as launch or redirect urls).
+
+   For LTI Advantage, you'll also need to set **OAuth Token URL** (token/login url)
+   in the tool.
+
+.. note:: LTI 1.3 launches only work with published blocks, make sure the block is
+          published before doing a launch.
 
 .. _Enabling and using LTI Advantage features:
 
@@ -260,8 +315,20 @@ Currently, Open edX supports the following LTI Advantage extensions:
 Enabling LTI Assignments and Grades services
 ============================================
 
-TBD LTI AGS setup and usage
+To set up LTI Assignments and Grades (LTI-AGS) services on a component, follow these steps.
 
+#. Locate the unit and LTI component in which you want to enable LTI-AGS functionality.
+
+#. Select **Edit** in the component that appears.
+
+#. Locate the **LTI Assignment and Grades Service** setting.
+
+#. Select the operation mode of the Assignments and Grades services. You can disable
+   the LTI-AGS service by selecting **Disabled** or pick one of the tho operation
+   modes available. For more information about each mode, read the corresponding
+   entry on :ref:`LTI Component settings`.
+
+#. Select **Save**.
 
 .. _Enabling and using LTI Deep Linking:
 
@@ -269,7 +336,39 @@ TBD LTI AGS setup and usage
 Enabling and using LTI Deep Linking
 ===================================
 
-TBD LTI DL setup and usage
+To set up LTI Deep Linking (LTI-DL) services on a component, follow these steps.
+
+#. Locate the unit and LTI component in which you want to enable LTI-DL functionality.
+
+#. Select **Edit** in the component that appears.
+
+#. Locate the **Deep linking** setting and set it to **True** (enabled).
+
+#. Locate the **LTI Advantage Deep Linking Launch URL** setting.
+
+#. Retrieve the Deep Linking Launch url from the tool you're integrating with. If it's not
+   provided, try using the same value as in the **LTI 1.3 Tool Launch URL**.
+
+#. Select **Save**. The Studio page will refresh and show the updated details page.
+
+To use LTI Deep Linking, follow these steps:
+
+#. Ensure that LTI-DL is enabled by following the steps above.
+
+#. Locate the unit and LTI component in Studio.
+
+#. In the LTI component page in Studio, locate the **Deep Linking Launch - Configure tool**
+   link and select it.
+
+#. You'll be redirected to the Tool and presented with a page to select the options.
+
+#. Once the configuration is complete, you'll be redirected back to the LMS and the
+   Deep Linking setup will be complete.
+
+#. The content you selected in the tool will be presented to your students in the LMS.
+
+.. note:: LTI 1.3 launches only work with published blocks, make sure the block is
+          published before doing a Deep Link Launch.
 
 .. _LTI Component settings:
 
@@ -333,7 +432,7 @@ LTI Component Settings
      - Toggle to enable LTI Advantage Assignment and Grades services and set the
        grading model.
 
-        Options are:
+       Options are:
 
        * **Disabled** - LTI AGS service will be disabled. Use this for tools that
          don't send any grades back to the platform.
