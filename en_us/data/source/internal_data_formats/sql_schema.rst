@@ -372,14 +372,14 @@ follows.
 .. code-block:: none
 
     id  user_id name  language  location  meta  courseware  gender
-    mailing_address year_of_birth level_of_education  goals allow_certificate
+    mailing_address year_of_birth level_of_education  goals
     country  city  bio   profile_image_uploaded_at
 
     9999999  AAAAAAAA  AAAAAAAAA English MIT {"old_emails":
     [["aaaaa@xxxxx.xxx", "2012-11-16T10:28:10.096489"]], "old_names":
     [["BBBBBBBBBBBBB", "I wanted to test out the name-change functionality",
     "2012-10-22T12:23:10.598444"]]} course.xml  NULL  NULL  NULL  NULL  NULL
-    1      NULL   Hi! I'm from the US and I've taken 4 edX courses so far. I
+         NULL   Hi! I'm from the US and I've taken 4 edX courses so far. I
     want to learn how to confront problems of wealth inequality. 2016-04-19 16:41:27
 
 The ``auth_userprofile`` table has the following columns.
@@ -454,11 +454,6 @@ The ``auth_userprofile`` table has the following columns.
      - YES
      -
      - Only users signed up after prototype.
-   * - allow_certificate
-     - tinyint(1)
-     - NO
-     -
-     -
    * - country
      - varchar(2)
      - NO
@@ -743,16 +738,6 @@ goals
 
   **History**: This information began to be collected after the transition
   from MITx to edX; learners in the prototype course have NULL for this field.
-
--------------------
-allow_certificate
--------------------
-  Set to 1 (true).
-
-  **History**: Prior to 10 Feb 2014, this field was set to 0 (false) if log
-  analysis revealed that the learner was accessing the edX site from a country
-  that the U.S. had embargoed. This restriction is no longer in effect, and on
-  10 Feb 2014 this value was changed to 1 for all users.
 
 ----------------------
 country
@@ -2051,7 +2036,7 @@ learners' course grades.
 course_id
 ------------
   Course key of the containing course. In the format
-  ``course-v1:org+course+run`` for most courses created in or after Oct 2014 
+  ``course-v1:org+course+run`` for most courses created in or after Oct 2014
   and in the format ``org/course/run`` for older courses.
 
 ------------
@@ -2377,7 +2362,7 @@ status
        * - audit_passing
          - Applies to learners who earned a passing grade and who have a value
            of "audit" in ``student_courseenrollment.mode``. These learners
-           completed the course succesfully, but no certificate is generated
+           completed the course successfully, but no certificate is generated
            for these learners.
 
            **History**: Added 26 Jan 2016 for audit enrollments created after 1
@@ -2394,7 +2379,7 @@ status
            certificate-bearing value in ``student_courseenrollment.mode``.
 
        * - error
-         - An error ocurred during certificate generation.
+         - An error occurred during certificate generation.
        * - generating
          - A request has been made to generate a certificate but it has not yet
            been generated.
@@ -2410,11 +2395,6 @@ status
            yet been generated.
        * - restricted
          - No longer used.
-
-           **History**: Specified when ``userprofile.allow_certificate`` was
-           set to false to indicate that the learner was on the restricted
-           embargo list.
-
        * - unavailable
          - No entry, typically because the learner has not yet been graded for
            certificate generation.
