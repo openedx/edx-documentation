@@ -2206,9 +2206,9 @@ modified
 
 .. _Certificates:
 
-******************
-Certificate Data
-******************
+***********************
+Course Certificate Data
+***********************
 
 .. _certificates_generatedcertificate:
 
@@ -2220,25 +2220,9 @@ The ``certificates_generatedcertificate`` table tracks the state of
 certificates that have been issued for a course. You can use this table to
 understand which of your learners received a certificate.
 
-This table stores a "snapshot" of the grade that the learner earned at the time
-of certificate generation. This table does not include a complete record of
-course grades or records for audit learners in courses that have on-demand
-certificates. For more information about how to view grades and passing
-learners, see the :ref:`grades_persistentcoursegrade` table or the
-:ref:`grades_persistentsubsectiongrade` table, or view the
-:ref:`grade report <partnercoursestaff:Access_grades>` that is available
-on the instructor dashboard.
+For the latest information course certificates, see the `certificate models`_.
 
-The ``certificates_generatedcertificate`` table is populated in two ways.
-
-* For courses that offer on-demand certificates, rows are updated when a
-  learner requests a certificate or when edX staff triggers a regrade. In these
-  courses, most entries are for learners who are in a certificate eligible
-  track and have passed the course.
-* For other courses, edX runs a script that generates grades for all learners
-  who are enrolled in the course at that time, creates a row for each of these
-  learners, and issues certificates. If edX runs the script again, the script
-  updates the table automatically.
+.. _`certificate models`: https://github.com/edx/edx-platform/blob/master/lms/djangoapps/certificates/models.py
 
 A sample of the heading row and two data rows in the
 ``certificates_generatedcertificate`` table follows.
@@ -2306,44 +2290,30 @@ user_id, course_id
 --------------
 download_url
 --------------
-  The ``download_url`` contains the full URL to the certificate.
+  Used internally only.
 
 -------
 grade
 -------
-  The grade computed the last time certificate generation ran. If the
-  courseware, learner state, or grading policy change, the value in this
-  column can be different than the grade shown on a learner's **Progress**
-  page.
+  The grade computed the at the time of certificate generation. It is
+  suggested that the ``grades_persistentcoursegrade`` table be used instead of this
+  grade.
 
 ---------
 key
 ---------
-  Used internally only. A random string that is used to match server requests
-  to responses sent to the LMS.
+  Used internally only.
 
 -----------------
 distinction
 -----------------
   Not used.
 
-  **History**: This was used for letters of distinction for 188.1x, but is not
-  being used for any current courses.
-
 --------
 status
 --------
 
-  After a course has been graded and certificates have been issued, the status
-  is one of these string values.
-
-  * downloadable
-  * audit_passing
-  * notpassing
-  * audit_notpassing
-
-  The table that follows describes these values and the other workflow states
-  that can apply during certificate generation process.
+  After certificates have been issued, the status will be one of the following values:
 
   .. list-table::
        :widths: 15 80
@@ -2352,52 +2322,27 @@ status
        * - Value
          - Description
        * - audit_notpassing
-         - Applies to learners who did not earn a passing grade and who have a
-           value of "audit" in ``student_courseenrollment.mode``. No
-           certificate is generated for these learners.
-
-           **History**: Added 26 Jan 2016 for audit enrollments created after 1
-           Dec 2015.
-
+         - User is in the audit track and has not achieved a passing grade
        * - audit_passing
-         - Applies to learners who earned a passing grade and who have a value
-           of "audit" in ``student_courseenrollment.mode``. These learners
-           completed the course successfully, but no certificate is generated
-           for these learners.
-
-           **History**: Added 26 Jan 2016 for audit enrollments created after 1
-           Dec 2015.
-
+         - User is in the audit track and has achieved a passing grade
        * - deleted
-         - The certificate has been deleted.
+         - The certificate has been deleted
        * - deleting
-         - A request has been made to delete a certificate.
+         - A request has been made to delete a certificate
        * - downloadable
-         - A certificate is available for download.
-
-           Applies to learners who earned a passing grade and who have a
-           certificate-bearing value in ``student_courseenrollment.mode``.
-
+         - The user has been granted this certificate and the certificate is ready and available
        * - error
-         - An error occurred during certificate generation.
+         - An error occurred during certificate generation
        * - generating
-         - A request has been made to generate a certificate but it has not yet
-           been generated.
+         - A request has been made to generate a certificate but it has not yet been generated
        * - notpassing
-         - The learner did not earn a passing grade.
-
-           Applies to learners who have a certificate-bearing value in
-           ``student_courseenrollment.mode``. No certificate is generated for
-           these learners.
-
-       * - regenerating
-         - A request has been made to regenerate a certificate but it has not
-           yet been generated.
+         - The user has not achieved a passing grade
        * - restricted
-         - No longer used.
+         - No longer used
        * - unavailable
-         - No entry, typically because the learner has not yet been graded for
-           certificate generation.
+         - Certificate has been invalidated
+       * - unverified
+         - The user does not have an approved, unexpired identity verification
 
 
 -------------
@@ -2409,14 +2354,12 @@ verify_uuid
 -------------
 download_uuid
 -------------
-  A hash code that identifies this learner's certificate. Included as part of
-  the ``download_url``.
+  Used internally only.
 
 ------
 name
 ------
-  This column records the name of the learner that was set at the time the
-  learner was graded and the certificate was generated.
+  This column records the name of the learner that was set at the time the certificate was generated.
 
 ---------------
 created_date
@@ -2431,16 +2374,13 @@ modified_date
 ---------------
 error_reason
 ---------------
-  Used internally only. Logs messages that are used for debugging if the
-  certificate generation process fails.
+  Used internally only.
 
 ---------------
 mode
 ---------------
   Contains the value found in the ``student_courseenrollment.mode`` field for a
-  learner and course at the time the certificate was generated: audit, honor,
-  verified, or blank. This value is not updated if the value of the learner's
-  ``student_courseenrollment.mode`` changes after certificates are generated.
+  learner and course at the time the certificate was generated.
 
 
 .. _Credit Eligibility:
