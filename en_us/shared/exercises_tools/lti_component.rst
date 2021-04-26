@@ -81,7 +81,7 @@ Enabling LTI Components for a Course
 Before you can add LTI components to your course, you must enable the LTI tool
 in Studio.
 
-To enable the LTI tool in Studio, add the ``"lti_consumer"`` module to the
+To enable the LTI tool in Studio, add ``"lti_consumer"`` to the
 **Advanced Module List** on the **Advanced Settings** page. For more
 information, see :ref:`Enable Additional Exercises and Tools`.
 
@@ -158,8 +158,7 @@ passport string.
 
 ``id_21441:b289378-f88d-2929-ctools.school.edu:23746387264``
 
-``book_lti_provider_from_new_york:b289378-f88d-2929-ctools.company.com:yt4984yr
-8``
+``book_lti_provider_from_new_york:b289378-f88d-2929-ctools.company.com:yt4984yr8``
 
 .. _adding_an_lti_passport:
 
@@ -257,9 +256,8 @@ To add an LTI 1.3 component to a course unit, follow these steps.
    * **LTI 1.3 OIDC URL** (can also be called login url)
 
    To enable *LTI Advantage* features, such as grades pass back and Deep Linking,
-   You also see to set **LTI 1.3 Tool Public Key** with a key provided by the
-   LTI tool. An example key is shown below, and should be pasted directly in
-   the configuration field.
+   you also need to set **LTI 1.3 Tool Public Key** with a key provided by the
+   LTI tool. The key will look similar to this example:
 
    .. code-block:: bash
 
@@ -273,15 +271,17 @@ To add an LTI 1.3 component to a course unit, follow these steps.
         IQIDAQAB
         -----END PUBLIC KEY-----
 
+   You should paste the key from the tool directly into the configuration field.
    For more information about each setting, see :ref:`LTI Component settings`.
 
 #. Select **Save**.
 
-#. The studio page will refresh and display LTI configuration required by the
+#. The Studio page will refresh and display LTI configuration required by the
    tool. Copy each of those values and follow the instructions provided by the
    tool to set them up.
 
-   For basic LTI 1.3 launches, the following variables are required:
+   For basic LTI 1.3 launches, the following configuration values are required
+   (they are provided by the LTI tool being set up):
 
    * **Client**
    * **Deployment ID**
@@ -303,7 +303,7 @@ Enabling and using LTI Advantage features
 LTI Advantage is an extension of the LTI 1.3 specification that enables additional
 features in LTI components. See `LTI Advantage`_ for more imformation.
 
-Currently, Open edX supports the following LTI Advantage extensions:
+Currently, the platform supports the following LTI Advantage extensions:
 
 * `Assignments and Grades services`_
 * `Deep Linking`_
@@ -324,9 +324,10 @@ To set up LTI Assignments and Grades (LTI-AGS) services on a component, follow t
 #. Locate the **LTI Assignment and Grades Service** setting.
 
 #. Select the operation mode of the Assignments and Grades services. You can disable
-   the LTI-AGS service by selecting **Disabled** or pick one of the tho operation
-   modes available. For more information about each mode, read the corresponding
-   entry on :ref:`LTI Component settings`.
+   the LTI-AGS service by selecting **Disabled** or pick one of the operation
+   modes available: *declarative* to allow only one grade per problem, or *programmatic*
+   to let the tool create many grades. For more information about each mode, read the
+   corresponding entry on :ref:`LTI Component settings`.
 
 #. Select **Save**.
 
@@ -362,7 +363,7 @@ To use LTI Deep Linking, follow these steps:
 
 #. You'll be redirected to the Tool and presented with a page to select the options.
 
-#. Once the configuration is complete, you'll be redirected back to the LMS and the
+#. Once the configuration is complete, you'll be redirected back to the Studio and the
    Deep Linking setup will be complete.
 
 #. The content you selected in the tool will be presented to your students in the LMS.
@@ -407,7 +408,7 @@ LTI Component Settings
 
    * - LTI 1.3 Tool Launch URL (LTI 1.3 only)
      - Specifies the URL of the remote LTI tool that this component launches.
-       This is sometimes called *redirect* url in some tools.
+       This is sometimes called *Redirect URL* in some tools.
 
    * - LTI 1.3 OIDC URL (LTI 1.3 only)
      - Specifies the URL of the login URL for the remote LTI tool for the
@@ -441,10 +442,10 @@ LTI Component Settings
          will enable LTI AGS and prepare a single grade container for problems to
          send grades back to. Use this for simple LTI problems.
 
-       * **Allow tools to manage and submit grade (programmatic)** - LTI AGS is enabled
-         and the tool will have full control over the grading process, enabling it to
-         create and edit one or more grade containers and manage the learner scores that
-         will be linked to the LMS.
+       * **Allow tools to manage and submit grade (programmatic)** - The tool will have
+         full control over the grading process, enabling it to create and edit one or
+         more grade containers and manage the learner scores that will be reported
+          to the LMS.
 
    * - Custom Parameters
      - Sends additional parameters that are required by the remote LTI tool.
