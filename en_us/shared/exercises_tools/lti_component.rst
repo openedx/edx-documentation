@@ -445,7 +445,7 @@ LTI Component Settings
        * **Allow tools to manage and submit grade (programmatic)** - The tool will have
          full control over the grading process, enabling it to create and edit one or
          more grade containers and manage the learner scores that will be reported
-          to the LMS.
+         to the LMS.
 
    * - Custom Parameters
      - Sends additional parameters that are required by the remote LTI tool.
