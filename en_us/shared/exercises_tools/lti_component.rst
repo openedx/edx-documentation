@@ -301,7 +301,7 @@ Enabling and using LTI Advantage features
 *****************************************
 
 LTI Advantage is an extension of the LTI 1.3 specification that enables additional
-features in LTI components. See `LTI Advantage`_ for more imformation.
+features in LTI components. See `LTI Advantage`_ for more information.
 
 Currently, the platform supports the following LTI Advantage extensions:
 
