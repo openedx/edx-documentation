@@ -373,7 +373,7 @@
 
 .. _python-social-auth backend documentation: http://python-social-auth.readthedocs.io/en/latest/backends/index.html#social-backends
 
-.. _IMS LTI 1.1 Consumer Launch: https://www.imsglobal.org/developers/LTI/test/v1p1/lms.php
+.. _IMS LTI 1.1 Consumer Launch: http://www.imsglobal.org/developers/LTI/test/v1p1/lms.php
 
 .. _LTI 1.1: https://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html
 
