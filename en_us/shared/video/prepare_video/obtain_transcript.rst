@@ -117,6 +117,10 @@ Obtaining a Video Transcript
        #. In the **API Key** and **API Secret** fields, enter the credentials
           that you received from 3Play Media.
 
+          .. note::
+            edX currently supports 3PlayMedia API **v1** credentials only. Using v3 credentials
+            will result in a failure when attempting to submit a transcription or translation job.
+
        #. Select **Update Settings**.
 
      * If your organization uses cielo24, follow these steps.

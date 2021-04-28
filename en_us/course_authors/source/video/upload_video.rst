@@ -223,7 +223,10 @@ The encoding and hosting process assigns the following statuses to video files.
          "Remove this video" icon for the video.
       #. Upload the original file again, or upload a replacement file.
 
-      If processing fails more than one time for a file, contact edX partner
+      There might be failure instances where a small error message will be displayed
+      under the **Failed** status. In most of the cases when the error message is displayed, there
+      is a possibility of corruption in the uploaded file(either during the upload or the original
+      video file itself). However, if processing fails more than one time for a file, contact edX partner
       support at ``partner-support@edx.org``.
 
   * - **Failed Duplicate**
@@ -274,6 +277,15 @@ The encoding and hosting process assigns the following statuses to video files.
     - Both the video encoding and transcript creation processes are complete.
       The video and transcripts are ready to add to your course and for
       learners to view.
+
+  * - **Partial Failure**
+    - This status appears when the transcription process has been started for more than one languages
+      and either one or more processes fail. This indicate a combination of successful and unsuccessful
+      transcription processes.
+
+  * - **Transcript Failed**
+    - All the transcription processes have failed.
+
   * - **Unknown**
     - A configuration problem has occurred. If this status appears, contact edX
       partner support at ``partner-support@edx.org``.
