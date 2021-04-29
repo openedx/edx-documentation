@@ -225,7 +225,7 @@ The encoding and hosting process assigns the following statuses to video files.
 
       There might be failure instances where a small error message will be displayed
       under the **Failed** status. In most of the cases when the error message is displayed, there
-      is a possibility of corruption in the uploaded file(either during the upload or the original
+      is a possibility of corruption in the uploaded file (either during the upload or the original
       video file itself). However, if processing fails more than one time for a file, contact edX partner
       support at ``partner-support@edx.org``.
 
