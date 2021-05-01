@@ -139,9 +139,5 @@ Developer Experiences
 
 - In common.djangoapps.student.models, the save parameter is deprecated for functions anonymous_id_for_user and unique_id_for_user, and these functions will always save generated IDs to the database. This allows future decoupling of ID generation from SECRET_KEY. Including the parameter will result in a DeprecationWarning; after Lilac we plan to remove the parameter (which will be a separate breaking change – DEPR-148).
 
-Checkout MFE
-------------
-To view the API documentation, navigate to `http://localhost:18130/api-docs`_ and log in with a staff account.
-
 .. include:: links.rst
 .. include:: ../../links/links.rst
