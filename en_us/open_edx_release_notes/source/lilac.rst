@@ -19,24 +19,48 @@ Learner Experiences
 
 Account MFE
 -----------
+The Account MFE is enabled by default and provides private user settings UIs, including:
+
+- Account settings page
+- Demographics collection
+- IDV (Identity Verification)
 
 Checkout MFE
 ------------
+The Checkout MFE is enabled by default. Prior checkout UIs are not PCI compliant.
 
 Learning MFE
 ------------
+The Learning MFE is *not* enabled by default, because theming and internationalizations support is incomplete. However, we expect that this is the last named release to support the Legacy courseware frontend.
 
-The Learning MFE is not enabled by default, because theming and internationalizations support is incomplete. We expect that this is the last named release to support Legacy courseware frontend.
+Course Completion Milestone
+---------------------------
+
+Mobile Experience
+-----------------
+
+- Improved mobile support for Open Response Assessment (ORA)
+- Mobile support for drag-and-drop xBlock
+
 
 =====================
 Authoring Experiences
 =====================
 
+Proctortrack Onboarding Status Menu
+-----------------------------------
+
+Gradebook MFE
+-------------
+The Gradebook MFE is *not* enabled by default because theming and internationalizations support is incomplete. It allows editing of individual learners' grades. Also supports bulk uploads of grades, but requires additional configuration. See https://github.com/edx/frontend-app-gradebook/blob/open-release/lilac.master/README.md for more information.
 
 
 =========================
 Administrator Experiences
 =========================
+
+Settings and Toggles Documentation
+----------------------------------
 
 Dependency updates
 ------------------
@@ -79,7 +103,7 @@ Changes to edx-organizations
 Changes to certificates
 -----------------------
 
-- Various bug fixes and updates around course certificate generation (@crice)
+- Various bug fixes and updates around course certificate generation
   - In an effort to be more inclusive, code referencing the course CertificateWhitelist model is being updated to instead refer to a Certificate Allowlist. The model itself has not yet been renamed.
   - Temporary CourseWaffleFlag added to control access to updated behavior of the CertificateWhitelist (aka Certificate Allowlist)
   - Temporary CourseWaffleFlag added to control access to updated behavior of the course certificates
@@ -93,7 +117,7 @@ Changes to certificates
 Deprecations
 ------------
 
-- The sysadmin dashboard is no longer supported (point-of-contact @Hamza Farooq).
+- The sysadmin dashboard is no longer supported.
   - The feature has been deprecated according to DEPR-118, Its ADR can be found at ADR-DEPR-118 and related discussions at Discussion-DEPR-118.
   - The related feature flag FEATURES['ENABLE_SYSADMIN_DASHBOARD'] is also removed.
   - A separate pluggable app named edx-sysadmin has been developed at and can be used as an alternative to sysadmin dashboard.
@@ -105,7 +129,7 @@ Deprecations
 Researcher & Data Experiences
 =============================
 
-  - Tracking metrics based on the anonymized session ID will experience a discontinuity or other anomaly at the time of deployment, as the anonymized IDs will change. [PR] This will likely appear as if everyone logged out and back in again, although only from a metrics perspective. In a green-blue deployment scenario, it may briefly appear as if there are twice as many sessions active. (@Tim McCormack)
+  - Tracking metrics based on the anonymized session ID will experience a discontinuity or other anomaly at the time of deployment, as the anonymized IDs will change. [PR] This will likely appear as if everyone logged out and back in again, although only from a metrics perspective. In a green-blue deployment scenario, it may briefly appear as if there are twice as many sessions active.
 
 =====================
 Developer Experiences
@@ -114,6 +138,10 @@ Developer Experiences
 - Import unqualified packages from lms/djangoapps, cms/djangoapps, or common/djangoapps is no longer supported. Doing so will cause instances of import_shims.warn.DeprecatedEdxPlatformImportError to be raised. See https://github.com/edx/edx-platform/blob/master/docs/decisions/0007-sys-path-modification-removal.rst  for details and context.
 
 - In common.djangoapps.student.models, the save parameter is deprecated for functions anonymous_id_for_user and unique_id_for_user, and these functions will always save generated IDs to the database. This allows future decoupling of ID generation from SECRET_KEY. Including the parameter will result in a DeprecationWarning; after Lilac we plan to remove the parameter (which will be a separate breaking change – DEPR-148).
+
+Checkout MFE
+------------
+To view the API documentation, navigate to `http://localhost:18130/api-docs`_ and log in with a staff account.
 
 .. include:: links.rst
 .. include:: ../../links/links.rst
