@@ -33,6 +33,16 @@ Learning MFE
 ------------
 The Learning MFE is *not* enabled by default, because theming and internationalizations support is incomplete. However, we expect that this is the last named release to support the Legacy courseware frontend.
 
+If the Learning MFE is installed using the MFE Deployer Ansible role then certain features can be opted in to the Micro-Frontend. These LMS CourseWaffleFlags can be toggled on (globally, per-user, or per-course) to switch certain features over the Learning MFE:
+
+- courseware.courseware_mfe : Enable to host courseware (ie, the learning sequence experience) in the MFE.
+- courseware.microfrontend_course_team_preview : Enable to show global and course-level staff members the ability to preview courseware in the MFE. Does not affect learners.
+- course_home.course_home_mfe : Enable in conjunction with one or more of the following:
+
+  - course_home.course_home_mfe_dates_tab : Display the “Dates” course tab in the MFE.
+  - course_home.course_home_mfe_outline_tab : Display the course outline (the target of the “Course” course tab) in the MFE.
+  - course_home.course_home_mfe_progress_tab: Display the “Progress” course tab in the MFE.
+
 Course Completion Milestone
 ---------------------------
 
