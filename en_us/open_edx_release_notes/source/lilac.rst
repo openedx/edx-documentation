@@ -72,6 +72,7 @@ Administrator Experiences
 Settings and Toggles Documentation
 ----------------------------------
 
+
 Dependency updates
 ------------------
 
@@ -132,6 +133,7 @@ Deprecations
   - The related feature flag FEATURES['ENABLE_SYSADMIN_DASHBOARD'] is also removed.
   - A separate pluggable app named edx-sysadmin has been developed at and can be used as an alternative to sysadmin dashboard.
 
+- CourseTalk integration has been removed.
 
 - Xblock URL token signing can now be migrated to use a new multi-key mechanism rather than being tied to SECRET_KEY. It is recommended that you perform this migration, as it permits easier rotation of SECRET_KEY.
 
