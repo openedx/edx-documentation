@@ -9,7 +9,7 @@ courses can reduce many barriers to education for these learners by providing
 access to courses from any location, at any time, and through the use of
 assistive technologies.
 
-EdX is dedicated to creating a platform that is not only itself accessible,
+edX is dedicated to creating a platform that is not only itself accessible,
 but also enables course content creators to create accessible content. If you
 encounter platform issues that you believe might affect your ability to
 provide accessible course content, please contact us at accessibility@edx.org.
@@ -60,7 +60,7 @@ diverse needs, such as those in the following list.
 Removing Barriers to Learning
 *****************************
 
-EdX highly recommends that you implement the best practices in this document
+edX highly recommends that you implement the best practices in this document
 and in other resources. If you cannot easily address any of these barriers to
 providing accessible course content, edX recommends that you consult with
 resources at your organization such as Disability Services, or assistive
@@ -69,14 +69,14 @@ technology and accessibility specialists.
 The following resources might also assist you in producing accessible course
 content.
 
-* `User Agent Accessibility Guidelines (UAAG) <https://www.w3.org/WAI/standards-guidelines/uaag/#user-agent-accessibility-guidelines-uaag>`_
-* `Authoring Tool Accessibility Guidelines (ATAG) <https://www.w3.org/WAI/standards-guidelines/atag/#atag>`_
-* `WAI-ARIA (Accessible Rich Internet Applications) <https://www.w3.org/WAI/standards-guidelines/aria/#introduction>`_
-* `WCAT2ICT <http://www.w3.org/WAI/standards-guidelines/wcag/non-web-ict/>`_
-* `EPUB 3.0 <http://idpf.org/epub/30>`_
-* `DAISY Consortium <http://www.daisy.org/>`_
-* `MathJax <https://www.mathjax.org>`_
-* `MathML <http://www.w3.org/Math/>`_
+* `User Agent Accessibility Guidelines (UAAG) <https://www.w3.org/WAI/standards-guidelines/uaag/#user-agent-accessibility-guidelines-uaag>`_ may be useful if you're intending to implement a browser or browser extension that will be compatible with the edX platform.
+* `Authoring Tool Accessibility Guidelines (ATAG) <https://www.w3.org/WAI/standards-guidelines/atag/#atag>`_ guides our efforts to make edX Studio more accessible.
+* `HTML5 <https://html.spec.whatwg.org/>`_ and `WAI-ARIA (Accessible Rich Internet Applications) <https://www.w3.org/WAI/standards-guidelines/aria/#introduction>`_ are the standards we follow to ensure that the edX platform is accessible. You should follow the same standards to ensure that learner content inside `xBlocks <https://github.com/edx/xblock-sdk>`_ (learning units) is accessible.
+* `EPUB 3.0 <http://idpf.org/epub/30>`_ is edX's preferred document format for ensuring that redistributable learning materials are accessible, though `Adobe PDF <https://www.adobe.com/accessibility/pdf/pdf-accessibility-overview.html>`_, `Microsoft Office <https://www.microsoft.com/en-us/accessibility/microsoft-365?activetab=pivot_1%3aprimaryr2>`_, and `Google Docs <https://support.google.com/docs/answer/6199477?hl=en>`_ may also be made accessible.
+* The `DAISY Consortium <http://www.daisy.org/>`_ contributes to EPUB accessibility standards and has a tool for che checking EPUB document accessibility. 
+* `MathML <http://www.w3.org/Math/>`_ is edX's preferred markup format for all math content.
+* `MathJax <https://www.mathjax.org>`_ is the system we use for rendering MathML content.
+* `WCAG2ICT <http://www.w3.org/WAI/standards-guidelines/wcag/non-web-ict/>`_ covers non-web Information and Communications Technologies.
 
 While your ability to support students in the MOOC context might be different
 from supporting on-campus students, we encourage you to develop a plan to

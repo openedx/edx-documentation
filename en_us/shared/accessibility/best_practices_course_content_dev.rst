@@ -4,7 +4,7 @@
 Accessibility Best Practices for Developing Course Content
 ############################################################
 
-EdX is dedicated to creating a platform that is not only itself accessible, but
+edX is dedicated to creating a platform that is not only itself accessible, but
 also enables course content creators to create accessible content. If you
 encounter platform issues that you believe might affect your ability to provide
 accessible course content, please contact us using one of the following
@@ -32,7 +32,7 @@ methods. We welcome any comments and questions.
 Make Sure Your Course Content is Perceivable
 ************************************************
 
-The `WCAG 2.0 <http://www.w3.org/TR/WCAG20/#cc1>`_ guidelines are organized
+The `WCAG <http://www.w3.org/TR/WCAG>`_ guidelines are organized
 around several principles, one of which is that web content must be
 perceivable. That is, information and user interface components must be
 presentable to users in ways they can perceive; it cannot be invisible to all
@@ -76,7 +76,7 @@ information, structure, and relationships (such as sequence) that is conveyed
 through presentation, make sure the same information, structure, and
 relationships can be programmatically determined or are available in text. HTML
 is an ideal format in which to publish course content, because it provides
-semantic elements with implied roles, states, and properties. Users of
+semantic elements with stadardized roles, states, and properties. Users of
 assistive technologies rely on such semantic elements to effectively and
 efficiently consume and navigate content. Publish your content in HTML whenever
 possible.
@@ -97,11 +97,8 @@ For visual elements, techniques include making sure the fonts you use are
 readable, and that there is sufficient contrast between the foreground and
 background. Do not use color as the sole means of visually distinguishing an
 element or conveying critical information. If you must create images that
-contain text, make sure that the text has a font size of at least 14 points and
-has good contrast with the background. Images of text cannot be scaled or
-color corrected as effectively as HTML text. Whenever possible, use the default
-font and color defined in the edX platform, which was designed to be easy to
-read. If you choose to override default font colors, make sure that the
+contain text, make sure that the text has good contrast with the background. Images of text cannot be scaled or
+color corrected as effectively as HTML text. If you choose to override edX platform's default font colors, make sure that the
 foreground and background colors have `sufficient contrast
 <https://contrast-ratio.com/>`_.
 
@@ -134,6 +131,8 @@ first time it appears. For example, "World Health Organization (WHO)."
 The Center for Plain Language provides `detailed resources on writing clearly
 and concisely <http://centerforplainlanguage.org/5-steps-to-plain-language/>`_,
 in language appropriate for your content and target audience.
+
+See also the W3C's new Working Group Note on `Making Content Usable for People with Cognitive and Learning Disabilities <https://www.w3.org/TR/coga-usable/>`_.
 
 =========================================
 Make Your Course Easy to Navigate
@@ -195,6 +194,9 @@ users hear when they encounter the image in your content.
    cases, noted below, when an empty ``alt`` attribute (``alt=""``) is
    desirable. However, the ``alt`` attribute must never be omitted.
 
+.. note:: For SVG elements, use ``aria-label`` instead of ``alt`` attributes.  Non-interactive SVGs should also have ``role="img"`` and  ``focusable="false"``.
+
+If an image description that captures the essential information in an image does not fit in 200 characters, you can instead add a 
 Create useful and meaningful text alternatives for images in your course by
 following these guidelines for particular situations.
 
@@ -276,6 +278,8 @@ line graph that represents the price of a stock over time might be "The price
 of the stock rises from $45 in January of 2015 to over $76 in June of 2015 with
 a significant drop of 30% during the month of March."
 
+.. note:: For most charts, all of the data in the chart should be accessible. Summarization is not always appropriate. In some cases this means making a table available (visibly, as screen-reader-only text, or as a downloadable spreadsheet file).
+
 Consider using a caption to display long descriptions so that the information
 is available to all learners. In the following example, the image element
 includes the short description as the ``alt`` attribute and the paragraph
@@ -317,7 +321,7 @@ NULL ``alt`` attribute).
   not include an ``alt`` attribute at all, a screen reader will read the path
   to the image, or, in the case of a linked image, announce the linked URL.
   This is rarely helpful to the user and often results in a poor user
-  experience.
+  experience. Don't make blind learners guess what information an image conveys!
 
 .. _Information Graphics:
 
@@ -331,12 +335,14 @@ that requires color perception or a diagram with tiny labels and annotations
 will likely be difficult to comprehend for learners with color blindness or low
 vision. All images present a barrier to learners who are blind.
 
-EdX recommends that you follow these best practices for making information
+edX recommends that you follow these best practices for making information
 graphics accessible to visually impaired learners.
 
 * Avoid using only color to distinguish important features of an image. For
   example, on a line graph, use a different symbol or line style as well as
   color to distinguish the data elements.
+  
+* Use colors that have a minimum 3:1 luminance contrast vs. the background color.
 
 * Whenever possible, use an image format that supports scaling, such as .svg,
   so that learners can employ zooming or view the image larger. Consider
@@ -367,6 +373,9 @@ Accessible Images Resources
   established by the US Department of Education (Office of Special Education
   Programs), provides guidance on ways to make it easier, faster, and more
   cost effective to create and use accessible images.
+  
+* `DataViz Accessibility working group <https://github.com/dataviza11y/resources>`_
+  
 
 .. _Creating Accessible Course Materials:
 
@@ -384,15 +393,15 @@ Carefully consider the document format you choose for publishing your course
 materials, because some formats support accessibility better than others.
 Whenever possible, create course materials in HTML format, using the tools
 available to you in edX Studio. When you make digital textbooks (ebooks)
-available within your course, ask digital book publishers for books in either
-`DAISY <https://en.wikipedia.org/wiki/DAISY_Digital_Talking_Book>`_ or `EPUB 3
+available within your course, ask digital book publishers for books in `EPUB 3
 <https://en.wikipedia.org/wiki/EPUB#Version_3.0.1>`_
-format, or both. Both of these digital book formats include unparalleled
+format. This digital book format includes unparalleled
 support for accessibility. However, simply supporting accessibility does not
 always mean a document will be accessible. When you source ebooks from third
 parties, it helps to ask the right questions about accessibility.
 
 * Can screen readers read the document text?
+* For low-vision readers, can the text size, font, and spacing be changed (called "reflow")?
 * Do images in the document include alternative text descriptions?
 * Are all tables, charts, and math provided in an accessible format?
 * Does all media include text equivalents?
@@ -410,7 +419,7 @@ apply to these document formats as well.
 * Information should be presented in a logical order.
 * Hyperlinks should be meaningful and describe the destination.
 * Tables should include properly defined column and row headers.
-* Color combinations should be high contrast.
+* Color combinations should be sufficiently high contrast (as with websites).
 
 The information that follows provides some practical guidance to publishing
 accessible course materials in popular formats.
@@ -427,8 +436,10 @@ Accessible Course Materials Resources
   organizations that supports and helps to develop inclusive publishing
   standards.
 
-* `The EPUB 3 format <http://www.idpf.org/epub/30/spec/epub30-overview.html>`_
-  is widely adopted as the format for digital books.
+* `The EPUB 3 format <https://w3c.github.io/publishing/>`_, widely adopted as the premier format for accessible digital books, is now managed by the W3C.
+
+* The EPUB 3 working group has an `automated EPUB 3 accessibility checker <https://github.com/w3c/epubcheck/>`_.
+
 
 .. _Creating Accessible PDFs:
 
@@ -523,9 +534,6 @@ Accessible PDF Resources
 * The National Center of Disability and Access to Education has a collection
   of one-page `"cheat sheets" on accessible document authoring <http://ncdae.org/resources/cheatsheets/>`_.
 
-* The Accessible Digital Office Document (ADOD) Project provides guidance on
-  `creating accessible Office documents <https://adod.idrc.ocad.ca/>`_.
-
 =====================================================
 Creating Accessible Word Documents
 =====================================================
@@ -541,17 +549,11 @@ authoring web content also apply to creating Word documents.
 
 * Tables should include `properly defined column and row headers <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc271197283>`_.
 
-* Color combinations should be high contrast.
+* Color combinations should be sufficiently high contrast.
 
 * Verify the accessibility of your document using `Microsoft's Accessibility
   Checker <https://support.office.com/en-us/article/Check-for-accessibility-
   issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
-
-In addition, follow these guidelines when you format Word documents.
-
-* Keep formatting simple. Use headings, paragraphs, lists, images, and
-  captions. Use tables for tabular data. Do not add unnecessary indents,
-  rules, columns, blank lines, or typographic variation.
 
 * Use standardized styles for formatting your text, such as Normal, Heading 1,
   and Heading 2, rather than manually formatting text using text styles and
@@ -629,7 +631,7 @@ authoring web content also apply to creating PowerPoint presentations.
   <https://support.office.com/en-us/article/Creating-accessible-PowerPoint-
   presentations-6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131984>`_
 
-* Color combinations should be high contrast.
+* Color combinations should be sufficiently high contrast.
 
 * Verify the accessibility of your presentation using `Microsoft's
   Accessibility Checker <https://support.office.com/en-us/article/Check-for-
@@ -672,32 +674,17 @@ accessible to people with vision impairments. Non-scalable images of
 mathematical content cannot be sufficiently enlarged or navigated by low-vision
 users and are not accessible to blind users at all.
 
-EdX uses `MathJax <https://www.mathjax.org>`_ to render math content in a
+edX uses `MathJax <https://www.mathjax.org>`_ to render math content in a
 format that is clear, readable, and accessible to people who use screen
 readers. MathJax works together with math notation such as LaTeX and MathML to
-render mathematical equations as text instead of images. EdX recommends that
-you use MathJax to author your math content. MathJax renders math in a variety
+render mathematical equations as text instead of images. edX recommends that
+you use MathML to author your math content. MathJax renders MathML in a variety
 of formats on the client side, offering the end user the ability to consume
-math content in their preferred format. EdX Studio supports authoring math
-directly in LaTeX using the `LaTeX Source Compiler
-<https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_components/create_html_component.html#import-latex-code>`_ to transform LaTeX into MathJax.
+math content in their preferred format. 
 
-.. note::
-  EdX has carefully designed an assessment workflow that is flexible enough to
-  meet the needs of course authors, and accessible enough to be used by all
-  learners. However, because of limitations with HTML and screen reader
-  technology, screen readers may not be able to read math problems in edX
-  courses by default. To work around this limitation, edX recommends that
-  learners who use screen readers use one of the following methods.
+edX Studio also supports authoring math directly in LaTeX using the `LaTeX Source Compiler
+<https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_components/create_html_component.html#import-latex-code>`_ to transform LaTeX into MathML.
 
-  * If the browser and screen reader both support MathML, the learner can
-    specify MathML as the preferred math renderer in MathJax.
-  * On the screen reader, switch from Interactive mode to Reading mode. In
-    Reading mode, screen readers can present math to learners in an accessible
-    format.
-
-  Course authors do not need to make any changes to the way they create math
-  content to work around this problem.
 
 ======================================================
 Accessible Mathematical Content Resources
@@ -753,7 +740,7 @@ learners who are affected. Keep in mind that attempted workarounds for
 simulations supplied by third parties might require the supplier's consent if
 copyrighted material is involved. If you consider third party solutions, we
 encourage you to evaluate them for accessibility. The easiest way to do this is
-to contact the vendor and ask them about the accessibility of their product.
+to contact the vendor and ask them about the accessibility of their product. Specifically, ask for their `VPAT/ACR <https://www.section508.gov/buy/request-accessibility-information>`_.
 
 Consider the following questions when creating simulations, keeping in mind
 that as the course creator, you enjoy considerable freedom in selecting course
@@ -818,7 +805,7 @@ Third-Party Content
 ======================================================
 
 If you include links to third-party content in your course, be mindful of the
-accessibility of such resources. EdX recommends that you evaluate third-party
+accessibility of such resources. edX recommends that you evaluate third-party
 content prior to sharing it with learners.
 
 You can use the eReader tool or :ref:`Add Files to a Course` to incorporate
@@ -882,10 +869,15 @@ video, such as [BUZZER], [LAUGHTER], or [THUNDER]. If you created your video
 using a script, you have a great start on creating the text caption file.
 Simply review the recorded video and update the script as needed. Proper
 editing should maintain both the original meaning, content, and essential
-vocabulary. Text captions can be uploaded to YouTube along with the video to
+vocabulary. 
+
+For situations where the video content includes a lot of information that cannot be eaisly described in audio, you can include references to an annotations file in the SRT file.  Example: [See Note 5a].
+
+Text captions can be uploaded to YouTube along with the video to
 create a timed text file in `SubRip (SRT) format
-<https://en.wikipedia.org/wiki/SubRip>`_. Otherwise,
-you will need to create the timed text caption file yourself or engage someone
+<https://en.wikipedia.org/wiki/SubRip>`_. `YouTube can also automatically create caption files <https://support.google.com/youtube/answer/6373554>`_. Though you'll need to copy-edit the auto-generated captions to correct the inevitable errors, this feature can still be a big time saver because the auto-generated timestamps are generally quite accurate.
+
+Otherwise, you will need to create the timed text caption file yourself or engage someone
 to do it. There are many companies that will create timed text captions
 (captions that synchronize the text with the video using time codes) for a fee.
 SRT files should be associated with video components in Studio. See
@@ -929,7 +921,7 @@ Downloadable Transcripts
 
 For both audio and video transcripts, consider including a text file that
 learners can download and review using tools such as word processing, screen
-reader, or literacy software. All learners can use transcripts of media-based
+reader, magnifier/reflow, or literacy supprt software. All learners can use transcripts of media-based
 learning materials for study and review.
 
 =====================================================
@@ -975,10 +967,10 @@ Keep the following guidelines in mind when you create HTML content.
 
   In your :ref:`HTML<Working with HTML Components>` and
   :ref:`problem<Working with Problem Components>` components, be sure to apply
-  only heading levels 3 through 6 to your content. Because the components
-  that you add are part of a complete page, and heading levels 1 and 2 are
+  only heading levels 2 through 6 to your content. Because the components
+  that you add are part of a complete page, and heading level 1 is
   already in use by other elements on the page, any text with a heading 1
-  or 2 style within an HTML or problem component can interfere with the
+  style within an HTML or problem component can interfere with the
   functionality of tools such as screen readers.
 
 * Use HTML list elements to group related items and make content easier to skim
@@ -996,7 +988,7 @@ Keep the following guidelines in mind when you create HTML content.
 * Use table elements to format information that works best in a grid format,
   and include descriptive row and column headings. Tag row and column headers
   with the ``<th>`` element so screen readers can effectively describe the
-  content in the table.
+  content in the table, and include the appropriate ``scope`` attribute on the ``<th>`` element.
 
 .. _HTML Markup Resources:
 
@@ -1060,7 +1052,4 @@ guidelines.
 Universal Design for Learning Resources
 =======================================
 
-* `The National Center on Universal Design for Learning`__ provides a helpful
-  overview on Universal Design for Learning.
-
-__ https://udlguidelines.cast.org/
+* `The National Center on Universal Design for Learning <https://udlguidelines.cast.org/>`_ provides a helpful overview on Universal Design for Learning.
