@@ -288,9 +288,11 @@ both a time-stamped .csv file listing out all included submissions as well as
 folder directories with the contents of these submissions for each ORA problem
 contained in your course.
 
-This zipped directory contains a downloads.csv file which lists all submissions,
+This zipped directory contains a ``downloads.csv`` file which lists all available submissions,
 their location, the content of any text submissions and file IDs for any attached
-files included in the submission.
+files included in the submission. Missing or corrupted files will be annotated with 
+``False`` in the ``file_found`` column of this document but will not be included in the 
+zipped file archive.
 
 Inside the zipped directory there's a folder for each unit that contains an ORA
 problem in the course named using the following format: ``[section_index] Section
