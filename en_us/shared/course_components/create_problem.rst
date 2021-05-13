@@ -76,7 +76,7 @@ The editing interface that opens depends on the type of problem you choose.
   answer options.
 
 * For advanced problem types (with the exception of :ref:`open response
-  assessment<Open Response Assessments 2>`), the :ref:`advanced editor<Advanced
+  assessment<Open Response Assessments Two>`), the :ref:`advanced editor<Advanced
   Editor>` opens. In this editor you use open learning XML (OLX) elements and
   attributes to identify the elements of the problem.
 
@@ -249,7 +249,7 @@ problem types in the advanced editor.
 
 * :ref:`Molecular Structure<Molecule Editor>`
 
-For the :ref:`Open Response Assessment<Open Response Assessments 2>` advanced
+For the :ref:`Open Response Assessment<Open Response Assessments Two>` advanced
 problem type, a dialog box opens for problem setup.
 
 Blank advanced problems do not provide an example problem, but they also open

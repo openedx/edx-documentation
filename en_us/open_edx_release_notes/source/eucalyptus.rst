@@ -110,7 +110,7 @@ CourseTalk for Course Reviews
 The CourseTalk widget allows learners to post course ratings and reviews that
 then appear on the course's **About** page. When you add the CourseTalk widget
 to an Open edX instance, the widget is enabled for every course on that
-instance. For more information, see :ref:`installation:Add CourseTalk`.
+instance. For more information, see :ref:`installation:Add CourseTalk (Deprecated)`.
 
 ==================================
 Configurable Data Storage Services

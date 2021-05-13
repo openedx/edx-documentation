@@ -22,8 +22,10 @@ possible learner interactions.
 * For more information about how learners respond to these assessments, see
   :ref:`learners:SFD_ORA`.
 
-* For more information about setting up a devstack Vagrant instance, see
-  :ref:`installation:Installing the Open edX Developer Stack`.
+* For more information about setting up an Open edX devstack instance, see
+  `Installing the Open edX Developer Stack`__.
+
+__ devstack_
 
 **History**:  These tables were added to the ``ora`` subdirectory of the
 ``{org}-{date}.zip`` database data file in data packages beginning with the 13

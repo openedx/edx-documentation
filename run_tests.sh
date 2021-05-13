@@ -39,6 +39,7 @@ then
         "en_us/data"
         "en_us/developers"
         "en_us/edx_style_guide"
+        "en_us/enterprise_api"
         "en_us/install_operations"
         "en_us/landing_page"
         "en_us/open_edx_course_authors"

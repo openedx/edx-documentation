@@ -1053,5 +1053,3 @@ Universal Design for Learning Resources
 =======================================
 
 * `The National Center on Universal Design for Learning <https://udlguidelines.cast.org/>`_ provides a helpful overview on Universal Design for Learning.
-
-

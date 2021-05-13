@@ -15,7 +15,7 @@ configuration options.
    changing_appearance/index
    customize_registration_page
    config_allowed_regis_emails
-   add_coursetalk_widget
+   deprecated_add_course_talk_widget
    edx_search
    enable_badging
    enable_certificates

@@ -58,7 +58,7 @@ The edX Platform currently has a large suite of XBlocks built into its primary
 repository that are available to course developers. Those XBlocks include HTML
 content, videos, and interactive problems. The edX Platform also includes many
 specialized XBlocks such as the :ref:`opencoursestaff:Google Drive Files Tool`
-and :ref:`opencoursestaff:Open Response Assessments 2`. For more information,
+and :ref:`opencoursestaff:Open Response Assessments Two`. For more information,
 see :ref:`XBlocks and the edX Platform`.
 
 ***********************

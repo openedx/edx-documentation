@@ -1,0 +1,40 @@
+# GitHub Action for building the docs
+
+name: "Build Docs"
+
+on:
+  push:
+    branches:
+      - "master"
+      - "open-release/*.master"
+  pull_request:
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    name: "Build Docs"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - name: "Check out the repo"
+        uses: "actions/checkout@v2"
+
+      - name: "Set up Python"
+        uses: "actions/setup-python@v2"
+        with:
+          python-version: "3.8"
+
+      - name: "Install Graphviz"
+        uses: "kamiazya/setup-graphviz@v1"
+
+      - name: "Install dependencies"
+        run: |
+          python -m pip install -r requirements/base.txt
+
+      - name: "Build docs"
+        run: |
+          ./run_tests.sh

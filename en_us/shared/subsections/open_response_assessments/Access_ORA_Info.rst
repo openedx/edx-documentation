@@ -48,6 +48,45 @@ The **Open Responses** tab also displays the same information for each separate
 ORA assignment in the course, grouped by the course units that include ORA
 assignments.
 
+
+.. _List and manage students waiting in peer step:
+
+*********************************************
+List and manage students waiting in peer step
+*********************************************
+
+On ORA problems with the peer assessment step, sometimes learners might get stuck
+waiting peer reponses to evaluate or peer reviews from other learners indefinitely.
+There's a tool in the instructor dashboard that allows listing and managing those
+learners.
+
+To view a list of students in the waiting step of an ORA problem in a course, follow
+these steps.
+
+#. View the live version of the course.
+#. Select **Instructor** to open the instructor dashboard.
+#. On the instructor dashboard, select **Open Responses**.
+#. In the table listing the ORA problems, locate the waiting column corresponding to
+   the problem you want to see users waiting on.
+#. If there are any students in the waiting step, the column will become clickable.
+#. Select it to open the **Waiting step details** page.
+
+The **Waiting step details** page displays some information related to the peer step
+configuration and a table listing users in the waiting step with the
+following attributes:
+
+* Usernames
+* Number of peers assessed
+* Number of peer reviews received
+* Time spent on the waiting step so far
+* Status from staff assessment step, if available in problem
+* Final grade status (waiting or overwritten).
+
+The **Waiting step details** page also allows managing student grades through the
+**Manage individual learners** button near the bottom of the page, which works in
+the same manner as :ref:`partnercoursestaff:Access Information for a Specific Learner`.
+
+
 .. _PA View Metrics for Individual Steps:
 
 ************************************************
@@ -151,7 +190,11 @@ The .csv file contains one row of data for each response from a learner.
 
 * The IDs in the **Submission ID** and **Item ID** columns uniquely identify the
   problem within the course content and the learner's submission for that
-  problem.
+  problem. The **Problem Name** column is also available to help identify a
+  problem by its display name.
+
+* The **Username** column helps identify impacted learner submissions for further
+  platform review if applicable.
 
 * The **Anonymized Student ID** column lists an ID for each learner without
   revealing confidential, personally identifiable data such as email addresses
@@ -197,3 +240,66 @@ The .csv file contains one row of data for each response from a learner.
   If a learner also provided a free-form comment in the text field below the
   selectable feedback statements, the text appears in the **Feedback on Peer
   Assessments** column.
+
+
+.. _Generate a Report for ORA File Submissions and Attachments:
+
+***********************************************************
+Generate a Report for ORA File Submissions and Attachments
+***********************************************************
+
+To generate a report containing details of the ORA assignments in the course,
+follow these steps.
+
+#. View the live version of your course.
+
+#. Select **Instructor**, and then select **Data Download**.
+
+#. In the **Reports** section, select **Generate ORA Submission Files Archive**.
+
+   A status message indicates that the ORA data report is being generated. This
+   process might take some time to complete, but you can navigate away from this
+   page and do other work while it runs.
+
+   To check the progress of the report generation, reload the page in your
+   browser and scroll down to the **Pending Tasks** section. The table shows
+   the status of active tasks.
+
+   When the report is complete, a linked .zip file name becomes available above
+   the **Pending Tasks** section. File names are in the format
+   ``{course_id}_submission_files_{datetime}.csv``. The most recently generated
+   reports appear at the top of the list.
+
+#. To open or save the generated ORA submission files archive, locate and select
+   the link for the archive you requested.
+
+   You can open .zip files using your computer and navigate the student's
+   submissions from your file explorer.
+
+
+.. _Interpret the ORA Submission Files Archive:
+
+==========================================
+Interpret the ORA Submission Files Archive
+==========================================
+
+The ORA submission files archive for your course is a zipped folder that contains
+both a time-stamped .csv file listing out all included submissions as well as
+folder directories with the contents of these submissions for each ORA problem
+contained in your course.
+
+This zipped directory contains a downloads.csv file which lists all submissions,
+their location, the content of any text submissions and file IDs for any attached
+files included in the submission.
+
+Inside the zipped directory there's a folder for each unit that contains an ORA
+problem in the course named using the following format: ``[section_index] Section
+title, [subsection_index] Subsection name, [unit_index] Unit name``.
+Example: ``[1] First section, [2] Second subsection, [3] Unit name``.
+
+Each of the folders mentioned above contain the text submissions for all students
+in .txt format along with any attached files in that submission if applicable. The
+filename indicates the ORA index, username (or partner ID if availabel) and
+prompt index for a given ORA. When responses are file uploads, the name will also
+include the original filename.
+Example: ``[1] - john_doe - prompt_0.txt``.

@@ -1,1 +1,7 @@
-.. include:: ../../moved.rst
+.. _SFD Taking a Proctored Exam:
+
+#####################
+Take a Proctored Exam
+#####################
+
+.. include:: ../../../../shared/learner_moved.rst

@@ -1,1 +1,7 @@
-.. include:: moved.rst
+.. _Certificates:
+
+######################################
+Receiving and Sharing edX Certificates
+######################################
+
+.. include:: ../../shared/learner_moved.rst

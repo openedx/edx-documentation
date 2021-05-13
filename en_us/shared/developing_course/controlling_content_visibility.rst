@@ -245,8 +245,9 @@ subsection, follow these steps.
     learners.
 
 .. note::
-    You cannot use :ref:`open response assessments<Open Response Assessments 2>`
-    that have a point value of 0 as the prerequisite for other course subsections. 
+    You cannot use :ref:`open response assessments<Open Response Assessments
+    Two>` that have a point value of 0 as the prerequisite for other course
+    subsections.
 
 #. Enable subsection prerequisites for your course. For more information, see
    :ref:`enabling_subsection_gating`.

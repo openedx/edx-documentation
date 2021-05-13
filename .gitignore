@@ -8,6 +8,7 @@
 .project
 .pycharm_helpers/
 .pydevproject
+.vscode
 venv/
 
 ### NFS artifacts
@@ -31,3 +32,6 @@ autodeploy.properties
 
 *.log
 *.swp
+
+### Doc health data
+health.csv

@@ -20,9 +20,3 @@ database.
       superusers defined. Would you like to create one now? (yes/no):
 
 #. Enter ``no``.
-
-   .. code-block:: none
-
-      (venv) $ python no
-
-.. confirm ^^

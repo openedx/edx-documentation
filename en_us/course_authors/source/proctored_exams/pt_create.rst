@@ -40,11 +40,11 @@ To set up Proctortrack onboarding for your course, follow these steps.
 #. Add and :ref:`develop a subsection <Developing Course Subsections>` as you
    would any other subsection.
 
-##. Change the name to something clear to learners, like “Proctortrack Onboarding”.
+   #. Change the name to something clear to learners, like “Proctortrack Onboarding”.
 
-##. As in the note above, add instructions to learners, explaining why it is important to complete Onboarding early
+   #. As in the note above, add instructions to learners, explaining why it is important to complete Onboarding early.
 
-##. Position the Onboarding subsection at an early stage in your course - we recommend positioning it in the first section.
+   #. Position the Onboarding subsection at an early stage in your course - we recommend positioning it in the first section.
 
 
 #. Select the **Configure** icon for the subsection.

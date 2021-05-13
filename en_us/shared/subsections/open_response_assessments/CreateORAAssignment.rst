@@ -5,7 +5,7 @@ Create an Open Response Assessment Assignment
 #############################################
 
 Creating an :ref:`open response assessment (ORA) assignment <Open Response
-Assessments 2>` is a multi-step process. This section covers each step in
+Assessments Two>` is a multi-step process. This section covers each step in
 detail.
 
 .. contents::
@@ -15,7 +15,8 @@ detail.
 In addition, see these other topics about different aspects of open response
 assessments.
 
-* Components of an open response assessment: :ref:`Open Response Assessments 2`
+* Components of an open response assessment: :ref:`Open Response Assessments
+  Two`
 
 * Viewing metrics and learner responses for released open response assessments:
   :ref:`Accessing ORA Assignment Information`
@@ -39,9 +40,9 @@ steps.
 #. In Studio, open the unit where you want to create the open response
    assessment.
 
-#. Under **Add New Component**, select **Problem**.
+#. Under **Add New Component**, select **Open Response**.
 
-#. Select **Advanced**, and then select **Open Response Assessment**.
+#. Select one of the the Open Response Assessment templates listed.
 
 #. In the problem component that appears, select **Edit**.
 
@@ -109,7 +110,7 @@ To add the rubric, follow these steps.
 #. In the ORA component editor, select the **Rubric** tab.
 
 #. In the first **Criterion** section, enter the name and prompt text of your
-   first criterion.
+   first criterion (100 character limit).
 
 #. In the **Option** sections for this criterion, for each option that you
    provide for the criterion enter a name, explanation, and point value.
@@ -142,6 +143,8 @@ To add the rubric, follow these steps.
    corrections. However, you can modify due dates and the weight of the ORA
    assignment after you publish an ORA assignment.
 
+.. note:: If you wish to allow learners to view the rubric as they work on their
+   response, see  :ref:`Show Rubric During Response<PA Show Rubric During Response>`
 
 .. _PA Criteria Comment Field Only:
 
@@ -212,6 +215,8 @@ learner responses, follow these steps.
 
 #. Next to **Display Name**, enter the name you want to give the assignment.
 
+#. Select **Schedule** at the top of the ORA component editor.
+
 #. Next to **Response Start Date** and **Response Start Time**, enter the date
    and time when you want learners to be able to begin submitting responses.
 
@@ -248,14 +253,26 @@ these steps.
    * **Required**
    * **Optional**
 
+#. The **Response Editor** field allows you to select an editor that the students
+   will use to format their responses. Select one of the following options:
+
+   * **Simple text editor**: a simple text field without formatting options.
+   * **WYSIWYG Editor**: a visual text editor that allows text formatting.
+
 #. For **File Uploads Response**, select one of the following options.
 
    * **None**
    * **Required**
    * **Optional**
 
-   If you select **Required** or **Optional**, the **File Upload Types** list
-   appears. Select one of the following options.
+   If you select **Required** or **Optional**, **Allow Multiple Files** and **File Upload Types** will
+   appear.
+
+   For **Allow Multiple Files**, select either **True** or **False**. If **Allow Multiple Files** is
+   **True**, learners will be able to upload multiple files in their response. If you would like to
+   restrict learner responses to a single file, set **Allow Multiple Files** to **False**.
+
+   For **File Upload Types**, select one of the following options.
 
    * **PDF or Image Files**
    * **Image Files**
@@ -270,6 +287,28 @@ these steps.
     see :ref:`Prohibited File Extensions`.
 
 #. For **Allow LaTeX Responses**, select **True** or **False**.
+
+.. _PA Show Rubric During Response:
+
+==============================================
+Allow Learners to View Rubric While Responding
+==============================================
+
+By default, learners cannot see the rubric while they are working on their response.
+However, you may decide that it would be helpful for learners to be able to view the
+rubric while they work on their response so they know how they will be evaluated. To
+enable this functionality:
+
+#. In the ORA component editor, select **Settings**.
+
+#. Set **Show Rubric During Response** to **True**.
+
+When this setting is enabled, a collapsable section will appear in the Response step,
+above the first prompt, that shows learners a detailed breakdown of how their response
+will be graded.
+
+.. note:: This is the rubric you set up in :ref:`Add Rubric<PA Add Rubric>`. For each Criterion, learners
+   will see all Option names, descriptions, and point values.
 
 .. _PA Show Top Responses:
 
@@ -305,10 +344,11 @@ Step 5. Select Assignment Steps
 Open response assessment assignments can include learner training, peer
 assessment, self assessment, and staff assessment steps.
 
-The component editor provides the :ref:`steps<PA Assessment Steps>` in a
-sequence that works well for most courses. While you can change the order of
-the peer, self, and staff assessment steps, edX recommends that you include
-them in this order.
+When adding an ORA problem, the component editor provides some predefined ORA
+problem templates with different :ref:`steps<PA Assessment Steps>` set up
+in a sequence that works well for most courses. While you can change the
+order of the peer, self, and staff assessment steps, edX recommends that
+you include them in this order.
 
 .. note:: If you include a learner training step, you must also include a peer
    assessment step. The learner training step must come before peer or self
@@ -322,9 +362,7 @@ them in this order.
 
 To add steps to the open response assignment, complete these actions.
 
-#. In the ORA component editor, select the **Settings** tab.
-
-#. Scroll below the **Top Responses** field.
+#. In the ORA component editor, select the **Assessment Steps** tab.
 
 #. Locate the following headings.
 
@@ -337,7 +375,7 @@ To add steps to the open response assignment, complete these actions.
    include.
 
 #. (optional) To change the order of the steps, drag the steps into the order
-   that you want.
+   that you want using the bar at the left side of the steps.
 
 
 .. _PA Specify Step Settings:
@@ -374,8 +412,9 @@ option for each criterion in your rubric.
 
 To add and score learner training responses, follow these steps.
 
-#. Under **Step: Learner Training**, locate the first **Scored Response**
-   section.
+#. Under **Step: Learner Training**, select **View / Add Sample Responses**.
+   The section will expand and display the sample responses already set up.
+#. Select **Add sample reponse**.
 #. In the **Response** field, enter the text of your example response.
 #. Under **Response Score**, for each criterion, select the option that you
    want.
@@ -392,11 +431,20 @@ To specify peer assessment settings, follow these steps.
 
 #. Locate the **Step: Peer Assessment** heading.
 
+#. Select **View Options & configuration** to display the step settings.
+
 #. Next to **Must Grade**, enter the number of responses that each learner
    must grade.
 
 #. Next to **Graded By**, enter the number of learners that must grade each
    response.
+
+#. Next to **Enable Flexible Peer Grade Averaging**, select **True** if you
+   want to enable :ref:`Flexible Peer Grade Averaging`.
+
+#. Switch to the **Schedule** tab.
+
+#. Locate the **Peer Assessment Deadlines** heading.
 
 #. Next to **Start Date** and **Start Time**, enter the date and time when
    learners can begin assessing their peers' responses.
@@ -425,7 +473,11 @@ Self Assessment
 For the :ref:`self assessment step<Self Assessment Step>`, you specify when
 the step starts and ends.
 
-#. Locate the **Step: Self Assessment** heading.
+#. Locate the **Step: Self Assessment** heading and enable it.
+
+#. Switch to the **Schedule** tab.
+
+#. Locate the **Self Assessment Deadlines** heading.
 
 #. Next to **Start Date** and **Start Time**, enter the date and time when
    learners can begin assessing their peers' responses.
@@ -466,4 +518,3 @@ can then let you know if they found the question and the rubric easy to
 understand or if they had any problems with the assignment.
 
 For more information about beta testing, see :ref:`Beta_Testing`.
-

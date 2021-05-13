@@ -80,7 +80,7 @@ Create and Register a Client
 
 To create and register a new OIDC client, follow these steps.
 
-#. :ref:`Start Devstack<Starting Devstack>`.
+#. Install and start the Open edX `devstack`_.
 #. In your browser, go to ``http://127.0.0.1:8000/admin/oauth2/client/``.
 #. Select **Add client**.
 #. Leave the **User** field blank.

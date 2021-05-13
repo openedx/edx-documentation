@@ -72,7 +72,8 @@ open source.
 Course Structure
 ****************
 
-Open edX courses are composed of units called `XBlocks`_. Anyone can write new
+Open edX courses are composed of units called
+:ref:`XBlocks<xblocktutorial:Open edX XBlock Tutorial>`. Anyone can write new
 XBlocks, allowing educators and technologists to extend the set of components
 for their courses. The edX platform also still contains several XModules, the
 precursors to XBlocks. EdX is working to rewrite the existing XModules as
@@ -80,14 +81,16 @@ XBlocks and remove XModules from our code base.
 
 In addition to XBlocks, there are a few ways to extend course behavior:
 
-* The LMS is an `LTI`_ tool consumer. Course authors can embed LTI tools to
-  integrate other learning tools into an Open edX course.
+* The LMS is an :ref:`LTI<partnercoursestaff:LTI Component>` tool consumer.
+  Course authors can embed LTI tools to integrate other learning tools into an
+  Open edX course.
 
 * Problems can use embedded Python code to either present the problem or assess
   the learner’s response. Instructor-written Python code is executed in a
   secure environment called CodeJail.
 
-* JavaScript components can be integrated using `JS Input`_.
+* JavaScript components can be integrated using
+  :ref:`JS Input<Custom JavaScript Applications>`.
 
 * Courses can be exported and imported using OLX (open learning XML), an XML-
   based format for courses.
@@ -179,9 +182,6 @@ like order work flows and coupons.
 .. _Sass: http://sass-lang.com/
 .. _Bourbon framework: http://bourbon.io/
 .. _edx.org: http://edx.org/
-.. _XBlocks: https://open.edx.org/xblocks
-.. _LTI: https://open.edx.org/learning-tools-interoperability
-.. _JS Input: https://open.edx.org/js-input
 .. _Ruby: https://www.ruby-lang.org/en/
 .. _Sinatra: http://www.sinatrarb.com/
 .. _Celery: http://www.celeryproject.org/

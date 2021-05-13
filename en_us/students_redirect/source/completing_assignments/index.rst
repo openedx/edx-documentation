@@ -1,1 +1,7 @@
-.. include:: ../moved.rst
+.. _Completing Assignments Index:
+
+###################################################
+Completing Different Types of Assignments
+###################################################
+
+.. include:: ../../../shared/learner_moved.rst

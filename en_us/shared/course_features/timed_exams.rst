@@ -148,6 +148,41 @@ For proctored exams, the reviewer takes the special allowance for extra time
 into account when the proctoring service reviews the learner’s proctored exam
 results.
 
+.. _Resuming an Exam in an Error State:
+
+**********************************
+Resuming an Exam in an Error State
+**********************************
+
+If a learner encounters an error while taking a timed or proctored exam, you
+can allow them to resume the exam with their answers and time remaining saved.
+
+.. note::
+   This option is only available if a learner's exam attempt is in an **Error**
+   state. This can be seen by following the directions below.
+
+.. note::
+   Onboarding and practice exams can be self-service reset by the learner. See
+   `Checking Your Onboarding Status and Resetting Your Onboarding Exam`_ in the
+   edX Help Center.
+
+To allow a learner to resume a timed or proctored exam attempt, follow these
+steps.
+
+#. View the live version of your course.
+#. Select **Instructor**, and then select **Special Exam**.
+#. Expand **Student Special Exam Attempts**. A list of timed and proctored exam
+   attempts appears.
+#. Search for the learner's username to locate their exam attempts.
+#. In the **Exam Name** column, locate the name of the specific exam for which
+   you are resuming the learner's exam attempt.
+#. In the **Actions** column, click the gear icon (⚙) and select **Resume**.
+   A message displays asking you to confirm that you want to resume the learner's
+   exam attempt.
+#. Select **OK**. The learner's exam attempt status will change from **Error**
+   to **Ready to Resume**, and they will be able to access the exam again.
+
+
 .. _Allow Learners to Retake a Timed Exam:
 
 **************************************************
@@ -171,8 +206,14 @@ To clear a timed or proctored exam attempt, follow these steps.
 #. Search for the learner's username to locate their exam attempts.
 #. In the **Exam Name** column, locate the name of the specific exam for which
    you are cleaning the learner's exam attempt.
-#. In the **Actions** column, select **X**. A message displays asking you
+#. In the **Actions** column, select **Reset**. A message displays asking you
    to confirm that you want to remove the learner's exam attempt.
+
+   .. note::
+      If the learner's exam attempt is in an error state, there will be a gear
+      icon (⚙) in place of the **Reset** button. Click this icon in order
+      to display the **Reset** and **Resume** options. For more information on
+      resuming an exam attempt, see :ref:`Resuming an Exam in an Error State`.
 #. Select **OK**. The learner's exam attempt is removed from the list.
 
 
@@ -203,4 +244,7 @@ affected, and their scores for the exam remain visible on the **Progress** page.
 #. In the **Subsection Visibility** section, select **Hide content after due date**.
 
 #. Select **Save**.
+
+
+.. include:: ../../../links/links.rst
 

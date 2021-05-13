@@ -229,6 +229,10 @@
 
 .. _Open edX Native Installation: https://openedx.atlassian.net/wiki/x/g4G6C
 
+.. _Open edX Koa Installation: https://openedx.atlassian.net/l/c/L4sgQNbj
+
+.. _Open edX Lilac Installation: https://openedx.atlassian.net/l/c/L4sgQNbj
+
 .. _edX Feature Flags: https://openedx.atlassian.net/wiki/spaces/OpenDev/pages/34734726/edX+Feature+Flags
 
 .. THIRD PARTY LINKS
@@ -373,8 +377,15 @@
 
 .. _IMS LTI 1.1 Consumer Launch: http://www.imsglobal.org/developers/LTI/test/v1p1/lms.php
 
-.. _IMS Global Learning Tools Interoperability: http://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html
+.. _LTI 1.1: https://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html
 
+.. _LTI 1.3: https://www.imsglobal.org/spec/lti/v1p3
+
+.. _LTI Advantage: https://www.imsglobal.org/lti-advantage-overview
+
+.. _Deep Linking: https://www.imsglobal.org/spec/lti-dl/v2p0
+
+.. _Assignments and Grades services: https://www.imsglobal.org/spec/lti-ags/v2p0
 
 .. _Issuing Badges: https://wiki.mozilla.org/Badges/Onboarding-Issuer#Issuing_Badges
 
@@ -591,6 +602,8 @@
 
 .. _Technical problems during a proctored exam: https://support.edx.org/hc/en-us/articles/360000205167
 
+.. _Checking Your Onboarding Status and Resetting Your Onboarding Exam: https://support.edx.org/hc/en-us/articles/1500002350902
+
 .. _XQueue: https://github.com/edx/xqueue
 
 .. _edX XQueue repository: https://github.com/edx/xqueue/blob/master/queue
@@ -602,4 +615,3 @@
 .. _Stanford Online xqueue_pull_ref: https://github.com/Stanford-Online/xqueue_pull_ref
 
 .. _Mozilla Firefox: https://www.mozilla.org/en-US/firefox/new/
-

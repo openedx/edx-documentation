@@ -17,7 +17,7 @@ assessments.
 
 * :ref:`Best practices for ORA assignments<Best Practices for ORA>`
 
-* :ref:`Components of an ORA assignment<Open Response Assessments 2>`
+* :ref:`Components of an ORA assignment<Open Response Assessments Two>`
 
 * :ref:`Instructions for creating an ORA assignment<PA Create an ORA Assignment>`
 
@@ -160,6 +160,9 @@ Submitting an override assessment has the following results.
    response, regardless of the due date of the assignment. The learner's
    final grade on the assessment is updated to reflect the most recent staff
    override assessment grade.
+
+   Once grades are frozen 30 days after the course end date, you will no longer
+   be able to perform override assessments for learners.
 
 Learners who receive override grades for their submissions see a **Staff
 Assessment** step in their assignments, where they can view the rubric and any

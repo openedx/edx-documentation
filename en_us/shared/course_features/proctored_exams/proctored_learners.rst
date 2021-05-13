@@ -79,7 +79,10 @@ Practice Proctored Exams
   When you create a practice proctored exam, keep the following information in
   mind.
 
-  * Practice proctored exams are visible to all learners, regardless of
+  * Proctoring software in practice proctored exams is available only to learners
+    in a paid enrollment track (e.g. verified, Master's, Professional Certificate).
+    Learners in other enrollment tracks will only see practice proctored exam content.
+  * Practice proctored exam content is visible to all learners, regardless of
     enrollment track.
   * Practice exams do not affect credit eligibility and do not include
     monitoring by the proctoring software.

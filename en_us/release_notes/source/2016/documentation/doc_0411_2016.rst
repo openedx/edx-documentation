@@ -5,7 +5,10 @@ Configuring the CourseTalk Widget
 
 The *Installing, Configuring, and Running the Open edX Platform* guide now
 includes information about the CourseTalk widget. For more information, see
-:ref:`installation:Add CourseTalk`.
+:ref:`installation:Add CourseTalk (Deprecated)`.
+
+     .. note::
+        The CourseTalk widget is deprecated as of the Open edX Lilac release.
 
 ===============
 Enabling Badges

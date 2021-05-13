@@ -1,4 +1,4 @@
-.. _Open Response Assessments 2:
+.. _Open Response Assessments Two:
 
 ###########################################
 Introduction to Open Response Assessments
@@ -9,7 +9,7 @@ through a series of assessment steps (such as peer assessment and self
 assessment) to complete the assignment.
 
 
-.. note:: 
+.. note::
 
    Open response assessments that are visible to all learners do not respect
    cohorts. In other words, it is possible for learners in one cohort to be
@@ -319,7 +319,7 @@ Feedback Options
 By default, in peer assessment steps, learners can provide text feedback for
 the entire response, using a single comment field below the entire rubric. You
 can also add a comment field to an individual criterion or to several
-individual criteria. This comment field can contain up to 300 characters.
+individual criteria. This comment field can contain up to 1000 characters.
 
 Comment fields for individual criterion appear below the options for the
 criterion.
@@ -472,6 +472,18 @@ given for each criterion, as follows.
 For information on scores for learner submissions that you have canceled and
 removed from peer assessment, refer to :ref:`Remove a learner response from
 peer grading`.
+
+.. _Flexible Peer Grade Averaging:
+
+Flexible Peer Grade Averaging
+*****************************
+
+To reduce the change of users getting "stuck" in the waiting step, you can enable
+this feature to lower the requirements for a grade in the peer assessment step.
+
+Learners who have received at least 70% of required peer-reviews who have waited
+longer than 7 days will be given their grade instead of having to wait longer
+for more peer reviews.
 
 =======================
 Self Assessment Scoring

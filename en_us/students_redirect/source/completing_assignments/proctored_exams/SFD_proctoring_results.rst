@@ -1,1 +1,7 @@
-.. include:: ../../moved.rst
+.. _Proctoring Session Review Results:
+
+########################
+Check Proctoring Results
+########################
+
+.. include:: ../../../../shared/learner_moved.rst
