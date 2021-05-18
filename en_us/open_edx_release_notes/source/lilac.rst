@@ -71,6 +71,11 @@ Administrator Experiences
 
 Settings and Toggles Documentation
 ----------------------------------
+Documentation for settings and toggles is much improved, but still incomplete. See https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/index.html
+
+New settings introduced in Lilac include:
+
+TBD
 
 
 Dependency updates
