@@ -18,7 +18,7 @@ Learner Experiences
 ===================
 
 Account Micro FrontEnd
------------
+----------------------
 The Account MFE is enabled by default and provides private user settings UIs, including:
 
 - Account settings page
@@ -26,11 +26,11 @@ The Account MFE is enabled by default and provides private user settings UIs, in
 - IDV (Identity Verification)
 
 Checkout Micro FrontEnd
-------------
+-----------------------
 The Checkout MFE is enabled by default. Prior checkout UIs are not PCI compliant.
 
 Learning Micro FrontEnd
-------------
+-----------------------
 The Learning MFE is *not* enabled by default, because theming and internationalizations support is incomplete. However, we expect that this is the last named release to support the Legacy courseware frontend.
 
 If the Learning MFE is installed using the MFE Deployer Ansible role then certain features can be opted in to the Micro-Frontend. These LMS CourseWaffleFlags can be toggled on (globally, per-user, or per-course) to switch certain features over the Learning MFE:
