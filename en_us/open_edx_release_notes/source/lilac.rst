@@ -17,7 +17,7 @@ These are the release notes for the Lilac release, the 12th community release of
 Learner Experiences
 ===================
 
-Account MFE
+Account Micro FrontEnd
 -----------
 The Account MFE is enabled by default and provides private user settings UIs, including:
 
@@ -25,11 +25,11 @@ The Account MFE is enabled by default and provides private user settings UIs, in
 - Demographics collection
 - IDV (Identity Verification)
 
-Checkout MFE
+Checkout Micro FrontEnd
 ------------
 The Checkout MFE is enabled by default. Prior checkout UIs are not PCI compliant.
 
-Learning MFE
+Learning Micro FrontEnd
 ------------
 The Learning MFE is *not* enabled by default, because theming and internationalizations support is incomplete. However, we expect that this is the last named release to support the Legacy courseware frontend.
 
