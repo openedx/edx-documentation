@@ -461,7 +461,7 @@ To override grades in bulk, follow these steps.
    * **previous_override-<id>**: The overridden grade (if any) that the learner has received through gradebook grade overrides
    * **new_override-<id>**: This column will always be blank. This is where you will enter the user's new grade for the subsection
 
-#. Fill in the new_override column for the assignment(s) you want to override grades for and save the file.
+#. Fill in the points to award in the new_override column for the assignment(s) you want to override grades for and save the file.
 
 #. Return to the Gradebook and click on the **Bulk Management** tab.
 
