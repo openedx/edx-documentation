@@ -213,6 +213,13 @@ When a certificate is generated, a record is created in the
 ``edx.certificate.created`` event. For details, see
 :ref:`certificates_generatedcertificate`.
 
+It may be important to note that it is possible for this event to be fired when
+an existing certificate record in the ``certificates_generatedcertificate``
+table is updated. For example, if a certificate was revoked from a learner due
+to them no longer passing the course, and then they earned a passing grade at a
+later time, an ``edx.certificate.created`` event will be fired again (even
+though the record for this learner already exists in the database).
+
 **History** Added 2 September 2015.
 
 **Event Source**: Server
@@ -229,7 +236,7 @@ When a certificate is generated, a record is created in the
 
    * - ``certificate_id``
      - string
-     - The ``verify.uuid`` value from the
+     - The ``verify_uuid`` value from the
        ``certificates_generatedcertificate`` table. This string appears at the
        bottom of each certificate.
    * - ``certificate_url``
@@ -243,8 +250,8 @@ When a certificate is generated, a record is created in the
      - The course enrollment mode associated with this certificate.
    * - ``generation_mode``
      - string
-     - Indicates whether this certificate was generated for all learners in a
-       course by a batch command, or whether a learner generated her own
+     - Indicates whether this certificate was generated automatically for a
+       learner in a course or whether a learner generated their own
        certificate. Possible values are "batch" and "self".
    * - ``user_id``
      - number
@@ -254,12 +261,12 @@ When a certificate is generated, a record is created in the
 ``edx.certificate.shared``
 =================================
 
-When a learner shares the URL for her certificate on a social media web site,
+When a learner shares the URL for their certificate on a social media web site,
 the server emits an ``edx.certificate.shared`` event.
 
 **History**: Added 2 September 2015.
 
-**Event Source**: Browser
+**Event Source**: Server
 
 ``event`` **Member Fields**:
 
@@ -293,7 +300,7 @@ The following additional ``event`` member field applies specifically to
 ``edx.certificate.evidence_visited``
 ======================================
 
-When a learner shares her certificates on social network sites such as
+When a learner shares their certificates on social network sites such as
 LinkedIn, and the link back to the certificate is followed by some visitor to
 that social network site, the server emits an
 ``edx.certificate.evidence_visited`` event.
@@ -2677,8 +2684,8 @@ peer's response.
 ``openassessmentblock.self_assess``
 =====================================================
 
-The server emits this event when a learner submits a self-assessment of her own
-response.
+The server emits this event when a learner submits a self-assessment of their
+own response.
 
 **History**: Added 3 April 2014.
 
