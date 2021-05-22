@@ -17,6 +17,13 @@ These are the release notes for the Lilac release, the 12th community release of
 Learner Experiences
 ===================
 
+Open-Response Assessments
+-------------------------
+- Learners can submit rich text responses
+- Grading status message
+- Allow viewing ORA steps after peer review
+- See the Authoring Experience section below for more ORA enhancements
+
 Account Micro FrontEnd
 ----------------------
 The Account MFE is enabled by default and provides private user settings UIs, including:
@@ -58,6 +65,17 @@ Mobile Experience
 =====================
 Authoring Experiences
 =====================
+
+Open-Response Assessments
+-------------------------
+
+- Added username details to ORA report download
+- Added problem name and location to ORA report download
+- Added ORA zipped file download for submission text + attached files
+- Open response assessment problems as a component category
+- Separate assessment steps & schedule authoring areas in Studio
+- See the Learner Experience section above for more ORA enhancements
+
 
 LTI 1.3 and LTI Advantage Support
 ---------------------------------
