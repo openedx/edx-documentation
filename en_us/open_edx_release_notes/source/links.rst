@@ -39,6 +39,10 @@
 
 .. _Profile Images API Version 1.0: http://edx.readthedocs.io/projects/edx-platform-api/en/latest/profile_images/index.html
 
+.. Lilac doc links:
+
+.. _ProctorTrack Service from Verificient: https://www.verificient.com/proctortrack/
+
 .. Ginkgo doc links:
 
 .. _Installing, Configuring, and Running the Open edX Platform\: Ginkgo Release: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/open-release-ginkgo.master

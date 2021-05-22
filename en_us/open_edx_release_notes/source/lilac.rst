@@ -64,6 +64,9 @@ Gradebook MFE
 -------------
 The Gradebook MFE is *not* enabled by default because theming and internationalizations support is incomplete. It allows editing of individual learners' grades. Also supports bulk uploads of grades, but requires additional configuration. See https://github.com/edx/frontend-app-gradebook/blob/open-release/lilac.master/README.md for more information.
 
+Proctortrack Onboarding Status Menu
+-----------------------------------
+Helps course teams better identify which learners have been onboarded and which have not. See https://partners.edx.org/announcements/proctortrack-onboarding-status-menu for more information. Requires integration with the `ProctorTrack Service from Verificient`_.
 
 =========================
 Administrator Experiences
