@@ -149,6 +149,10 @@ Deprecations
 
 - Xblock URL token signing can now be migrated to use a new multi-key mechanism rather than being tied to SECRET_KEY. It is recommended that you perform this migration, as it permits easier rotation of SECRET_KEY.
 
+Branding Update
+---------------
+Open edX logos, colors and fonts have been updated.
+
 =============================
 Researcher & Data Experiences
 =============================
