@@ -27,7 +27,7 @@ The Account MFE is enabled by default and provides private user settings UIs, in
 
 Checkout Micro FrontEnd
 -----------------------
-The Checkout MFE is enabled by default. Prior checkout UIs are not PCI compliant.
+The Checkout MFE is enabled by default. Prior checkout UIs may not be PCI compliant.
 
 Learning Micro FrontEnd
 -----------------------
