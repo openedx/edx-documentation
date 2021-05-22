@@ -46,6 +46,8 @@ If the Learning MFE is installed using the MFE Deployer Ansible role then certai
 Course Completion Milestone
 ---------------------------
 
+When a learner reaches the end of the course, they will see a new navigation button directing them to “Complete the course” if they’ve passed or completed an audit course. The new Course Completion page also provides clarity for common learner questions - Did I complete the course? Did I achieve a certificate? Am I still eligible to upgrade? See https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_MILESTONES_APP'] for information on how to turn on and configure this feature.
+
 Mobile Experience
 -----------------
 
