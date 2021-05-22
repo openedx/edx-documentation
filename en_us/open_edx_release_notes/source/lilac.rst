@@ -68,6 +68,10 @@ Proctortrack Onboarding Status Menu
 -----------------------------------
 Helps course teams better identify which learners have been onboarded and which have not. See https://partners.edx.org/announcements/proctortrack-onboarding-status-menu for more information. Requires integration with the `ProctorTrack Service from Verificient`_.
 
+LTI 1.3 and LTI Advantage Support
+---------------------------------
+The optional xBlock xblock-lti-consumer has been updated to support LTI 1.3, as well as the Deep Linking (LTI-DL) and Assignments and Grades services (LTI-AGS) features of LTI Advantage. Note that this xBlock is not installed in Lilac by default. Information on installing and configuring xlblock-list-consumer can be found at https://github.com/edx/xblock-lti-consumer/blob/master/README.rst
+
 =========================
 Administrator Experiences
 =========================
