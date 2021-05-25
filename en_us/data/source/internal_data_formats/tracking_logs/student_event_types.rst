@@ -258,6 +258,49 @@ though the record for this learner already exists in the database).
      - The numeric ID of the learner who earned this certificate.
 
 =================================
+``edx.certificate.revoked``
+=================================
+
+There may be times where it is appropriate to remove a learner's access to their
+course certificate. Some (non-exhaustive) examples include:
+* The learner is no longer passing the course.
+* The course team has requested the learner be added to the certificate
+invalidation list.
+* The learner has been flagged as suspicious during a proctored exam.
+
+**History**: Added 27 May 2021.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+The ``edx.certificate.revoked`` event includes many of the same ``event``
+member fields that are described for the ``edx.certificate.created`` event.
+The following member fields serve the same purpose for
+``edx.certificate.revoked`` as they do for `edx.certificate.created`_.
+
+* ``certificate_id``
+* ``certificate_url``
+* ``course_id``
+* ``enrollment_mode``
+* ``user_id``
+
+The following additional ``event`` member field applies specifically to
+``edx.certificate.revoked`` events.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``source``
+     - string
+     - The source requesting revocation of the course certificate (e.g., the
+       Instructor Dashboard's certificate invalidation tool).
+
+=================================
 ``edx.certificate.shared``
 =================================
 
@@ -5266,11 +5309,11 @@ exploration.
 Microsoft Office Mix Events
 ===========================
 
-Course teams could formerly use Office Mix to turn Microsoft PowerPoint 
-presentations in to interactive online lessons, called mixes. They can 
-then use the Office Mix tool in Studio to include mixes in a course. 
-Microsoft has discontinued Office Mix, so this tool is no longer available. 
-When users interacted with the Office Mix player in the LMS, the server would 
+Course teams could formerly use Office Mix to turn Microsoft PowerPoint
+presentations in to interactive online lessons, called mixes. They can
+then use the Office Mix tool in Studio to include mixes in a course.
+Microsoft has discontinued Office Mix, so this tool is no longer available.
+When users interacted with the Office Mix player in the LMS, the server would
 emit the following events.
 
 .. contents::
