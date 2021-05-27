@@ -79,7 +79,7 @@ Open-Response Assessments
 
 LTI 1.3 and LTI Advantage Support
 ---------------------------------
-The optional xBlock xblock-lti-consumer has been updated to support LTI 1.3, as well as the Deep Linking (LTI-DL) and Assignments and Grades services (LTI-AGS) features of LTI Advantage. Note that this xBlock is not installed in Lilac by default. Information on installing and configuring xlblock-list-consumer can be found at https://github.com/edx/xblock-lti-consumer/blob/master/README.rst
+lti-consumer-xblock (also known as xblock-lti-consumer) has been updated to support LTI 1.3, as well as the Deep Linking (LTI-DL) and Assignments and Grades services (LTI-AGS) features of LTI Advantage. Note that this xBlock is not installed in Lilac by default. Information on configuring lti-consumer-xblock can be found at https://github.com/edx/xblock-lti-consumer/blob/master/README.rst
 
 Gradebook MFE
 -------------
