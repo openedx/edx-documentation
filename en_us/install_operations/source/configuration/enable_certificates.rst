@@ -1,22 +1,22 @@
 .. _Enable Certificates:
 
-##############################
+############################
 Enabling Course Certificates
-##############################
+############################
 
 This topic describes how to enable and configure course certificates in your
 instance of Open edX.
 
 For information about configuring program certificates, refer to documentation
-in the edx/credentials GitHub repository.
+in the `edx/credentials`_ GitHub repository.
 
 .. contents::
    :local:
    :depth: 1
 
-*********************************
+****************************
 Course Certificates Overview
-*********************************
+****************************
 
 Organizations and course teams can choose to generate certificates for learners
 who pass a course. Learners can view, print, or share their certificates.
@@ -34,11 +34,11 @@ configuration tasks described in this topic.
   Before proceeding, review :ref:`Guidelines for Updating the Open edX
   Platform`.
 
-*************************************************
+************************************************
 Enable Course Certificates in Studio and the LMS
-*************************************************
+************************************************
 
-To enable certificates, you modify the ``lms.yml`` and ``studio.yml``
+To enable certificates, modify the ``lms.yml`` and ``studio.yml``
 files, which are located one level above the ``edx-platform`` directory.
 
 #. In the ``lms.yml`` and ``studio.yml`` files, set the value of
@@ -73,9 +73,9 @@ signature images for signatories. For details, :ref:`opencoursestaff:Setting Up
 Certificates` in *Building and Running an Open edX Course*.
 
 
-**********************************************************
+********************************************************
 Configure Course Certificates for Your Open edX Instance
-**********************************************************
+********************************************************
 
 #. Access the LMS Django Administration website for your instance of Open edX.
    To do this, go to ``https://<host name of your Open edX instance>/admin``.
@@ -114,10 +114,10 @@ Configure Course Certificates for Your Open edX Instance
         "default": {
             "accomplishment_class_append": "accomplishment-certificate",
             "platform_name": "YourPlatformName",
-            "company_about_url":"http://www.YourOrganization.com/about-us",
-            "company_privacy_url": "http://www.YourOrganization.com/our-privacy-policy",
-            "company_tos_url": "http://www.YourOrganization.com/our-terms-service",
-            "company_verified_certificate_url": "http://www.YourOrganization.com/about_verified_certificates",
+            "company_about_url":"https://www.YourOrganization.com/about-us",
+            "company_privacy_url": "https://www.YourOrganization.com/our-privacy-policy",
+            "company_tos_url": "https://www.YourOrganization.com/our-terms-service",
+            "company_verified_certificate_url": "https://www.YourOrganization.com/about_verified_certificates",
             "logo_src": "/static/certificates/images/our_logo.svg",
             "logo_url": "www.YourOrganization.com"
         },
@@ -135,11 +135,6 @@ Configure Course Certificates for Your Open edX Instance
             "certificate_type": "base",
             "certificate_title": "Certificate of Achievement",
             "document_body_class_append": "is-base"
-        },
-        "distinguished": {
-            "certificate_type": "distinguished",
-            "certificate_title": "Distinguished Certificate of Achievement",
-            "document_body_class_append": "is-distinguished"
         }
     }
 
@@ -151,15 +146,15 @@ Configure Course Certificates for Your Open edX Instance
 
 .. _Discontinue Audit Certificates:
 
-=====================================
+====================================
 Discontinue Audit Track Certificates
-=====================================
+====================================
 
-Organizations that offer certificates to audit track learners who pass a
+Organizations that previously offered certificates to audit track learners who pass a
 course can discontinue generation of this type of certificate. For example,
-your organization makes a strategic decision to offer certificates only to
-learners who select an enrollment track other than "audit". Learners can
-continue to audit courses, but they no longer receive certificates.
+your organization may make a strategic decision to offer certificates only to
+learners who select an enrollment track other than "audit". In this case, learners can
+continue to audit courses, but they no will longer receive certificates.
 
 For more information about course tracks, also called enrollment modes or
 enrollment tracks, see :ref:`enrollment track<enrollment_track_g>`.
@@ -184,9 +179,9 @@ audit certificates. Learners who audit courses continue to receive grades,
 which are shown on the course **Progress** page.
 
 
-******************************************************
+*****************************************************
 Customize Certificate Templates For Your Organization
-******************************************************
+*****************************************************
 
 Set up the templates for certificates that your organization will issue. Base
 templates are included, but you must ensure that they are customized for your
@@ -219,9 +214,9 @@ Assets for HTML certificates exist in the following locations.
 
 .. _Certificates in Additional Languages:
 
-************************************************************
+*******************************************
 Enable Certificates in Additional Languages
-************************************************************
+*******************************************
 
 You can configure course certificates to render in a specific language.
 
@@ -352,9 +347,9 @@ these steps.
 
 .. _Generate Certificates for a Course:
 
-*****************************************
+**********************************
 Generate Certificates For a Course
-*****************************************
+**********************************
 
 To generate certificates for a course, run the ``manage.py`` script with the
 following settings. When the script finishes running, grades are calculated
@@ -388,9 +383,9 @@ for eligible learners.
 
 .. _Enable Automatic Certificate Generation:
 
-*****************************************
+***************************************
 Enable Automatic Certificate Generation
-*****************************************
+***************************************
 
 Particularly in self-paced courses (see :ref:`Enable Self Paced
 Courses`), your learners might not want to wait until an instructor
@@ -425,9 +420,6 @@ Learners to Receive Early Certificates` and
 :ref:`opencoursestaff:Allow Learners to Download Certificates` in
 *Building and Running an Open edX Course*.
 
-.. note::
-  Even with the Waffle switch set to **Active** and all per-course
-  prerequisites met, automatic certificate generation does not apply
-  to enrollments in honor and audit mode.
-
 .. include:: ../../../links/links.rst
+
+.. _edx/credentials: https://github.com/edx/credentials

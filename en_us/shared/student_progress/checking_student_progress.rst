@@ -15,9 +15,9 @@ For more information, see the following other topics about certificates.
 * :ref:`Setting Up Certificates`
 * :ref:`Reporting Certificate Data`
 
-****************************************
+**************************
 Sending a Farewell Message
-****************************************
+**************************
 
 As you prepare for the end of your course, you can send learners a :ref:`course
 farewell<Course Farewell and Certificates>` email message.
@@ -50,18 +50,18 @@ Issuing Certificates
    :ref:`installation:Enable Certificates` in *Installing, Configuring, and
    Running the Open edX Platform*.
 
-Studio automatically generates certificates for both self-paced courses and
+The platform can automatically generate certificates for both self-paced courses and
 instructor-paced courses. When certificates become available, options for
 learners to view their certificates are available on the learner dashboard,
 the learner **Profile** page, and the course **Progress** page.
 
 You can specify when you want to make certificates available.
 
-* For self-paced courses, by default, Studio generates certificates for
+* For self-paced courses, by default, certificates are generated for
   learners when they have completed enough of the course, and with a high
   enough grade, to qualify for a certificate.
 
-  If you want Studio to generate certificates only after learners have
+  If you want to generate certificates only after learners have
   completed the course, you can disable this feature. For more information,
   see :ref:`Allow Learners to Receive Early Certificates`.
 
@@ -86,8 +86,8 @@ You can specify when you want to make certificates available.
 Issue Certificates on a Specified Date
 ======================================
 
-If you do not want Studio to generate certificates 48 hours after the course
-end date, you can specify the date when you want Studio to generate
+If you do not want to generate certificates 48 hours after the course
+end date, you can specify the date when you want the platform to generate
 certificates. You can change this date at any time.
 
 For more information about how to specify a day to issue certificates, see
@@ -95,9 +95,9 @@ For more information about how to specify a day to issue certificates, see
 
 .. _Allow Learners to Receive Early Certificates:
 
-================================================
+============================================
 Allow Learners to Receive Early Certificates
-================================================
+============================================
 
 To allow learners to receive certificates before the course end date or before
 they have completed the course, you use the **Enable Student-Generated
@@ -124,7 +124,7 @@ Certificates** setting on the instructor dashboard.
 .. _Allow Learners to Download Certificates:
 
 Allow Learners to Download Early Certificates
-*********************************************************
+*********************************************
 
 To allow learners to download early certificates, you modify the
 **Certificates Display Behavior** advanced setting in Studio.

@@ -1,14 +1,23 @@
 .. _Setting Up Certificates:
 
-##################################
+#################################
 Setting Up Certificates in Studio
-##################################
+#################################
 
 This section describes how to create and manage certificates for your course.
 
 .. contents::
    :local:
    :depth: 1
+
+.. only:: Open_edX
+
+  .. note::
+   Before you can issue certificates, the administrator for your instance of
+   Open edX must configure the platform to allow course teams to generate and
+   issue certificates. For more information, see
+   :ref:`installation:Enable Certificates` in *Installing, Configuring, and
+   Running the Open edX Platform*.
 
 For more information about certificates, see these additional topics.
 
@@ -22,29 +31,26 @@ For more information about certificates, see these additional topics.
 
 .. _Overview:
 
-***********
+********
 Overview
-***********
+********
 
 Using Studio, you create and manage the certificates that learners can earn in
 your course.
 
-By default, Studio automatically generates certificates as each learner
+The platform can automatically generate certificates as each learner
 passes the course for both self-paced and instructor-paced courses.
 
-* For self-paced courses, certificates are available immediately after Studio
-  generates them.
+* For self-paced courses, certificates are available immediately after they
+  are generated.
 * For instructor-paced courses, certificates become available 48 hours after
   your course end date by default. You can also specify a different date to
   make certificates available. For more information, see :ref:`Specify an
   Alternative Certificates Available Date`.
 
-.. After EDUCATOR-1101 merges (around 8/25), change "the learner dashboard and
-.. the **Progress** page" to "the learner dashboard, the **Course** page, and
-.. the **Progress** page".
-
-When certificates become available to learners, a link to the certificate is
-visible on the learner dashboard and the **Progress** page.
+When certificates become available, options for learners to view their
+certificates are available on the learner dashboard,
+the learner **Profile** page, and the course **Progress** page.
 
 For more information about issuing certificates, see :ref:`Issuing
 Certificates`.
@@ -77,52 +83,47 @@ Certificates`.
        For information about starting the course, see :ref:`Guidelines for
        Start and End Dates`.
 
-    ===================
-    Enable Certificates
-    ===================
+.. _Enable a Certificate:
 
-    Before you can create certificates, you must enable certificates for your
-    course.
+********************
+Enable a Certificate
+********************
 
-    #. From the **Settings** menu, select **Advanced Settings**.
+Before you can create certificates, you must ensure web certificates are enabled
+for your course. Web certificates are enabled by default for new courses, however
+older courses may need to have them enabled.
 
-    #. In the **Certificate Web/HTML View Enabled** field, enter ``true``.
+#. From the **Settings** menu, select **Advanced Settings**.
 
-    #. At the bottom of the page, select **Save Changes**.
+#. Click **Show Deprecated Settings**.
 
-    .. note:: The **Certificate Web/HTML View Enabled** settings is set to
-       ``true`` by default.
-       
-       You can still find it among the **Deprecated Settings** in
-       **Advanced Settings**
+#. In the **Certificate Web/HTML View Enabled** field, enter ``true``.
 
-    In addition to enabling certificates for your course, you have to add
-    a course mode for the course you wish to create a certificate for.
+#. At the bottom of the page, select **Save Changes**.
 
-    #. Access the LMS Django Administration website for your instance of
-       Open edX. To do this, go to 
-       ``https://<host name of your Open edX instance>/admin``. For example,
-       this might be ``https://courses.YourOrganization.com/admin``.
+In addition to enabling web certificates for your course, you have to add
+a course mode for the course you wish to create a certificate for.
 
-    #. Under **Course Modes** > **Course modes**, add a new course mode for
-       course you want to create a certificate for.
+#. Access the LMS Django Administration website for your instance of
+   Open edX. To do this, go to
+   ``https://<host name of your Open edX instance>/admin``. For example,
+   this might be ``https://courses.YourOrganization.com/admin``.
 
-    .. note:: Different certificate types are available with the different
-       course modes. 
+#. Under **Course Modes** > **Course modes**, add a new course mode for
+   course you want to create a certificate for.
 
-       See :ref:`enrollment track<enrollment_track_g>` for more information
-       about different course modes or certificate types.
+.. note:: Different certificate types are available with the different
+   course modes.
 
-.. Confirmed March 9, 2017: On edx.org, the Certificate Web/HTML View Enabled
-.. setting is true by default, so the "Enable" procedure isn't necessary for
-.. partners.
+   See :ref:`enrollment track<enrollment_track_g>` for more information
+   about different course modes or certificate types.
 
 
 .. _Create a Certificate:
 
-*********************
+********************
 Create a Certificate
-*********************
+********************
 
 To create a certificate for your course, follow these steps.
 
@@ -159,9 +160,9 @@ To create a certificate for your course, follow these steps.
 
 .. _Edit a Certificate:
 
-********************
+******************
 Edit a Certificate
-********************
+******************
 
 You can edit certificates before and after they are activated.
 
@@ -193,9 +194,9 @@ To edit a certificate, follow these steps.
 
 .. _Specify an Alternative Course Title:
 
-************************************
+********************************
 Specify a Different Course Title
-************************************
+********************************
 
 Optionally, you can specify an alternative course title to use on the
 certificate. You might want to use a different title on your course
@@ -217,9 +218,9 @@ Course Number Override`_.
 
 .. _Set a Course Number Override:
 
-************************************
+*********************************
 Specify a Different Course Number
-************************************
+*********************************
 
 Optionally, you can specify an alternative course number to use on the
 certificate.
@@ -242,9 +243,9 @@ example, the official course number is meaningful only within your institution.
 
 .. _Specify an Alternative Certificates Available Date:
 
-****************************************************
+***********************************************
 Specify a Different Certificates Available Date
-****************************************************
+***********************************************
 
 By default, certificates become available to learners 48 hours after your
 course ends. You can also specify a different date to make certificates
@@ -258,9 +259,9 @@ available.
 
 .. _Delete a Certificate:
 
-***********************************
+********************
 Delete a Certificate
-***********************************
+********************
 
 You can delete a certificate that is not activated.
 
@@ -286,9 +287,9 @@ To delete a certificate, follow these steps.
 
 .. _Preview a Certificate:
 
-************************
+********************
 Preview Certificates
-************************
+********************
 
 After you have finished editing your certificate, you can preview a certificate
 for verification purposes. You select from the available course modes (such as
@@ -310,9 +311,9 @@ Certificate>`.
 
 .. _Activate a Certificate:
 
-***********************
+**********************
 Activate a Certificate
-***********************
+**********************
 
 When you have verified your certificate, a course team member with the Admin or
 Staff role can activate the certificate.
@@ -336,9 +337,9 @@ grade or otherwise qualify receive certificates.
 
 .. _Deactivate a Certificate:
 
-********************************************
+************************
 Deactivate a Certificate
-********************************************
+************************
 
 In some situations, after you have activated a certificate, you might need to
 deactivate the certificate to make changes.
@@ -366,9 +367,9 @@ have already been issued certificates can continue to access them.
 
 .. _Manage Certificate Images:
 
-**************************
+*************************
 Manage Certificate Images
-**************************
+*************************
 
 When you add signatory image files to a certificate, the uploaded files are
 listed in Studio on the **Files & Uploads** page.
@@ -384,9 +385,9 @@ manually remove unused images. For information, see
 
  .. _Enable Badges in Course:
 
- *****************************************
+ ****************************************
  Enable or Disable Badges for Your Course
- *****************************************
+ ****************************************
 
  Badges provide a way for learners to share their course achievements. For
  courses that have course completion badges enabled, learners receive a badge
