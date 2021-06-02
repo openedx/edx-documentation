@@ -56,6 +56,10 @@
 
 .. _La Tierra Centroamericana: https://studio.edge.edx.org/course/edX/GEO101/2014_T1>
 
+.. _edX Trademark Policy: https://www.edx.org/trademarks
+
+.. _Edx Proxy Instructions: https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/60228028/EdX+Proxy+Instructions
+
 .. _edX Edge: http://edge.edx.org
 
 .. _Studio: https://studio.edge.edx.org
@@ -177,6 +181,8 @@
 
 .. _edx-ui-toolkit GitHub repository: https://github.com/edx/edx-ui-toolkit
 
+.. _Re install Open edX in Ubuntu 12.04: https://github.com/edx/configuration/wiki/Re-install-Open-edX-in-Ubuntu-12.04
+
 .. EDX VMs
 
 .. _iOS: http://github.com/edx/edx-app-ios
@@ -229,11 +235,15 @@
 
 .. _Open edX Native Installation: https://openedx.atlassian.net/wiki/x/g4G6C
 
-.. _Open edX Koa Installation: https://openedx.atlassian.net/l/c/L4sgQNbj
+.. _Open edX Koa Installation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/native_installation.html
 
-.. _Open edX Lilac Installation: https://openedx.atlassian.net/l/c/L4sgQNbj
+.. _Open edX Lilac Installation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/native_installation.html
 
 .. _edX Feature Flags: https://openedx.atlassian.net/wiki/spaces/OpenDev/pages/34734726/edX+Feature+Flags
+
+.. _Managing Open edX Tips and Tricks:  https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/60227913/Managing+Open+edX+Tips+and+Tricks
+
+.. _How to Override Default Configuration Passwords and Verify Exposed Services: https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/153813109/How+to+Override+Default+Configuration+Passwords+and+Verify+Exposed+Services
 
 .. THIRD PARTY LINKS
 
