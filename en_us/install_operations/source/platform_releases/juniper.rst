@@ -36,7 +36,7 @@ Installing the Juniper Release
 *******************************
 
 You can install the Open edX Juniper release using either
-`devstack`_ or the `Open edX Native Installation`_ instructions.
+`devstack`_ or the `Legacy Open edX Native Installation`_ instructions.
 
 Juniper releases have git tag names like ``open-release/juniper.1``.
 The available names are detailed on the `Open edX Named Releases page`_.
@@ -128,7 +128,7 @@ release to another, follow the instructions in `devstack`_.
 Upgrading a Native Installation
 ===============================
 
-If you installed Open edX using the `Open edX Native Installation`_, you can
+If you installed Open edX using the `Legacy Open edX Native Installation`_, you can
 upgrade from one Juniper release to another by re-running those steps using
 your desired Juniper tag as the new value for ``OPENEDX_RELEASE``.
 
