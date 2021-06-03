@@ -99,27 +99,16 @@ For more information about how to specify a day to issue certificates, see
 Allow Learners to Receive Early Certificates
 ============================================
 
-To allow learners to receive certificates before the course end date or before
-they have completed the course, you use the **Enable Student-Generated
-Certificates** setting on the instructor dashboard.
+If the administrator has configured the site correctly (see
+:ref:`installation:Enable Automatic Certificate Generation` in
+*Installing, Configuring, and Running the Open edX Platform*),
+self-paced courses issue certificates to learners as soon as learners
+have completed enough of the course, with a high enough grade, to earn
+a certificate. You do not have to change any settings.
 
-.. note::
-  If the administrator has configured the site correctly (see
-  :ref:`installation:Enable Automatic Certificate Generation` in
-  *Installing, Configuring, and Running the Open edX Platform*),
-  self-paced courses issue certificates to learners as soon as
-  learners have completed enough of the course, with a high enough
-  grade, to earn a certificate. You do not have to change any
-  settings.
-
-#. View the live version of your course.
-
-#. In the LMS, select **Instructor**, and then select **Certificates**.
-
-#. Select **Enable Student-Generated Certificates**.
-
-   To prevent learners from receiving early certificates, select **Disable
-   Student-Generated Certificates**.
+Earlier Open edX versions had an **Enable Student-Generated
+Certificates** option in the LMS instructor dashboard; this option has
+been removed.
 
 .. _Allow Learners to Download Certificates:
 
