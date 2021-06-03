@@ -61,6 +61,11 @@ Mobile Experience
 - Improved mobile support for Open Response Assessment (ORA)
 - Mobile support for drag-and-drop xBlock
 
+Special Exams Experience
+------------------------
+
+Proctortrack Onboarding UX Improvements: Based on learner feedback, we’ve added new messaging and entrance locations to the Proctortrack onboarding experience to make the process more clear. (TBD image)
+
 
 =====================
 Authoring Experiences
@@ -85,9 +90,9 @@ Gradebook MFE
 -------------
 The Gradebook MFE is *not* enabled by default because theming and internationalizations support is incomplete. It allows editing of individual learners' grades. Also supports bulk uploads of grades, but requires additional configuration. See https://github.com/edx/frontend-app-gradebook/blob/open-release/lilac.master/README.md for more information.
 
-Proctortrack Onboarding Status Menu
+Special Exams Experience
 -----------------------------------
-Helps course teams better identify which learners have been onboarded and which have not. See https://partners.edx.org/announcements/proctortrack-onboarding-status-menu for more information. Requires integration with the `ProctorTrack Service from Verificient`_.
+Proctortrack Onboarding Status Menu: Helps course teams better identify which learners have been onboarded and which have not. See https://partners.edx.org/announcements/proctortrack-onboarding-status-menu for more information. Requires integration with the `ProctorTrack Service from Verificient`_.
 
 
 =========================
