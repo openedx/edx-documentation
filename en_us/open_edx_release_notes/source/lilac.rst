@@ -50,10 +50,14 @@ If the Learning MFE is installed using the MFE Deployer Ansible role then certai
   - course_home.course_home_mfe_outline_tab : Display the course outline (the target of the “Course” course tab) in the MFE.
   - course_home.course_home_mfe_progress_tab: Display the “Progress” course tab in the MFE.
 
-Course Completion Milestone
----------------------------
+Course Dates & Milestones
+-------------------------
 
-When a learner reaches the end of the course, they will see a new navigation button directing them to “Complete the course” if they’ve passed or completed an audit course. The new Course Completion page also provides clarity for common learner questions - Did I complete the course? Did I achieve a certificate? Am I still eligible to upgrade? See https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_MILESTONES_APP'] for information on how to turn on and configure this feature.
+When a learner reaches the end of the course, they will see a new navigation button directing them to “Complete the course” if they’ve passed or completed an audit course. The new Course Completion page also provides clarity for common learner questions - Did I complete the course? Did I achieve a certificate? Am I still eligible to upgrade?
+
+The 3-day Streak Milestone is live and celebrates learners who engage with their course on 3 consecutive days. It also provides normative insights into how learners’ behavior connects to successful course outcomes. (TBD Image)
+
+See https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_MILESTONES_APP'] for information on how to turn on and configure these Milestones features.
 
 Mobile Experience
 -----------------
@@ -91,7 +95,7 @@ Gradebook MFE
 The Gradebook MFE is *not* enabled by default because theming and internationalizations support is incomplete. It allows editing of individual learners' grades. Also supports bulk uploads of grades, but requires additional configuration. See https://github.com/edx/frontend-app-gradebook/blob/open-release/lilac.master/README.md for more information.
 
 Special Exams Experience
------------------------------------
+------------------------
 Proctortrack Onboarding Status Menu: Helps course teams better identify which learners have been onboarded and which have not. See https://partners.edx.org/announcements/proctortrack-onboarding-status-menu for more information. Requires integration with the `ProctorTrack Service from Verificient`_.
 
 
