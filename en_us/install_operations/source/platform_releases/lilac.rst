@@ -36,7 +36,7 @@ Installing the Lilac Release
 ****************************
 
 You can install the Open edX Lilac release using either
-`devstack`_ or the `Open edX Lilac Installation`_ instructions.
+`devstack`_ or the `Open edX Lilac Native Installation`_ instructions.
 
 Lilac releases have git tag names like ``open-release/lilac.1``.
 The available names are detailed on the `Open edX Named Releases page`_.
@@ -128,7 +128,7 @@ release to another, follow the instructions in `devstack`_.
 Upgrading a Native Installation
 ===============================
 
-If you installed Open edX using the `Open edX Native Installation`_, you can
+If you installed Open edX using the `Open edX Lilac Native Installation`_, you can
 upgrade from one Lilac release to another by re-running those steps using
 your desired Lilac tag as the new value for ``OPENEDX_RELEASE``.
 

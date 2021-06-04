@@ -36,7 +36,7 @@ Installing the Ironwood Release
 *******************************
 
 You can install the Open edX Ironwood release using either 
-`devstack`_ or the `Open edX 
+`devstack`_ or the `Legacy Open edX 
 Native Installation`_ instructions.
 
 Ironwood releases have git tag names like ``open-release/ironwood.1``.
@@ -144,7 +144,7 @@ release to another, follow the instructions in `devstack`_.
 Upgrading a Native Installation
 ===============================
 
-If you installed Open edX using the `Open edX Native Installation`_, you can
+If you installed Open edX using the `Legacy Open edX Native Installation`_, you can
 upgrade from one Ironwood release to another by re-running those steps using
 your desired Ironwood tag as the new value for ``OPENEDX_RELEASE``.
 

@@ -176,7 +176,7 @@ release to another, run the following commands in the host operating system:
 Upgrading a Native Installation
 ===============================
 
-If you installed Open edX using the `Open edX Native Installation`_, you can
+If you installed Open edX using the `Legacy Open edX Native Installation`_, you can
 upgrade from one Ginkgo release to another by re-running those steps using your
 desired Ginkgo tag as the new value for ``OPENEDX_RELEASE``.
 
