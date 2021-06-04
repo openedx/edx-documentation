@@ -84,6 +84,11 @@ Proctortrack Onboarding UX Improvements: Based on learner feedback, we’ve adde
 Authoring Experiences
 =====================
 
+Studio
+------
+
+- In-Context Unit Naming: Authors can now rename units from the course outline.
+
 Open-Response Assessments
 -------------------------
 
