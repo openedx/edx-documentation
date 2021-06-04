@@ -48,7 +48,7 @@ Installing the Hawthorn Release
 *******************************
 
 You can install the Open edX Hawthorn release using either 
-`devstack`_ or the `Open edX 
+`devstack`_ or the `Legacy Open edX 
 Native Installation`_ instructions.
 
 Hawthorn releases have git tag names like ``open-release/hawthorn.1``.
@@ -157,7 +157,7 @@ release to another, follow the instructions in `devstack`_.
 Upgrading a Native Installation
 ===============================
 
-If you installed Open edX using the `Open edX Native Installation`_, you can
+If you installed Open edX using the `Legacy Open edX Native Installation`_, you can
 upgrade from one Hawthorn release to another by re-running those steps using
 your desired Hawthorn tag as the new value for ``OPENEDX_RELEASE``.
 

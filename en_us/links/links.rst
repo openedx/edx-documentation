@@ -233,11 +233,11 @@
 
 .. _Open edX Native 12.04 Installation: https://openedx.atlassian.net/wiki/x/bgCXAw
 
-.. _Open edX Native Installation: https://openedx.atlassian.net/wiki/x/g4G6C
+.. _Legacy Open edX Native Installation: https://openedx.atlassian.net/wiki/x/g4G6C
 
-.. _Open edX Koa Installation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/native_installation.html
+.. _Open edX Koa Native Installation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/native_installation.html
 
-.. _Open edX Lilac Installation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/native_installation.html
+.. _Open edX Lilac Native Installation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/native_installation.html
 
 .. _edX Feature Flags: https://openedx.atlassian.net/wiki/spaces/OpenDev/pages/34734726/edX+Feature+Flags
 
