@@ -62,8 +62,16 @@ See https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/feature
 Mobile Experience
 -----------------
 
-- Improved mobile support for Open Response Assessment (ORA)
-- Mobile support for drag-and-drop xBlock
+- The fonts, text and colors have been updated to match the rebrand, giving users a consistent cross platform experience.
+- Mobile learners can now understand the benefits of the upgrade option, especially when they encounter locked content.
+- Learners can now complete ORAs in their mobile devices without having to leave the application.
+- Learners can now complete Drag and Drop assessments on their mobile devices without having to leave the application. (iOS only)
+- When learners open the app, they are asked permission to enable notifications. Using firebase, notifications can be sent to all mobile app learners who have their notifications enabled.
+- Learners can now see green checkmarks next to the subsections and components in the course and section outline pages. (iOS only)
+- A resume button, similar to the one in web, is now available in the mobile application. When learners click on the resume button, they will be navigated to the component after the last completed one. The state of this resume button syncs across web and mobile. In other words, if a component is completed on web, the user can use the mobile application to resume to the next incomplete component.
+- Learners will not see a celebratory modal, similar to web, when they complete their first section.
+- Previously, the links to assignments shown in the course dates page  in the app took learners to the mobile browser. Now, they are navigated directly to that component in the mobile application, removing the need to re-login to access the assignment.
+
 
 Special Exams Experience
 ------------------------
