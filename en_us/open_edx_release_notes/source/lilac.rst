@@ -79,6 +79,7 @@ Special Exams Experience
 Proctortrack Onboarding UX Improvements: Based on learner feedback, we’ve added new messaging and entrance locations to the Proctortrack onboarding experience to make the process more clear. (TBD image)
 
 
+
 =====================
 Authoring Experiences
 =====================
@@ -104,7 +105,9 @@ The Gradebook MFE is *not* enabled by default because theming and internationali
 
 Special Exams Experience
 ------------------------
-Proctortrack Onboarding Status Menu: Helps course teams better identify which learners have been onboarded and which have not. See https://partners.edx.org/announcements/proctortrack-onboarding-status-menu for more information. Requires integration with the `ProctorTrack Service from Verificient`_.
+
+- Proctortrack Onboarding Status Menu: Helps course teams better identify which learners have been onboarded and which have not. See https://partners.edx.org/announcements/proctortrack-onboarding-status-menu for more information. The dashboard can be found under *Instructor Dashboard > Special Exams > Student Onboarding Status*. Requires integration with the `ProctorTrack Service from Verificient`_.
+- Reset an Errored Proctortrack Exam Attempt: We added the ability to reset an errored Proctortrack exam attempt to be “Ready to resume” status. Learners will be able to resume the exam immediately once the course team allows it. The exam time will resume from where they last experienced an error.  For example, if the learner errored 45 minutes into the exam, and the allowed duration of the exam is 2 hours, the learner will only have 1 hour and 15 minutes to complete the rest of the exam.
 
 Credentials (for Programs)
 --------------------------
