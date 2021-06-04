@@ -159,8 +159,6 @@ TBD
 Dependency updates
 ------------------
 
-These dependencies were upgraded for the `Open edX Koa Installation`_:
-
 - Mongo was upgraded from 3.0 to 4.0.
 - Switched from Elasticsearch 1 to Elasticsearch 7 across Open edX. This may require some syntax changes for custom scripts that used search APIs.
   - Please change queries that used __not to __exclude
