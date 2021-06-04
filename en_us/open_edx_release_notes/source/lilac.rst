@@ -98,10 +98,22 @@ Special Exams Experience
 ------------------------
 Proctortrack Onboarding Status Menu: Helps course teams better identify which learners have been onboarded and which have not. See https://partners.edx.org/announcements/proctortrack-onboarding-status-menu for more information. Requires integration with the `ProctorTrack Service from Verificient`_.
 
+Credentials (for Programs)
+--------------------------
+
+Program Completion Emails: Added `ProgramCompletionEmailConfiguration`_ that enables an email to be customized and sent to learners when triggered by the generation of a program certificate. These email messages are especially useful to remind a learner of their accomplishment at the appropriate time if a course in the program has a `certificate availability date`_ set in the future. These messages can be customized on a per program basis.
 
 =========================
 Administrator Experiences
 =========================
+
+Course Upsell Messaging and Payment
+-----------------------------------
+
+- Reduce PCI compliance burden by replacing checkout fields which collect relevant PII data with Cybersource hosted fields. This way we do not collect and sensitive information and do not have to
+- Allows setting default currency from environment
+- Get and pipe-through the current datetime from the server, so that we don't need to use the browser time in preparation for the redesigned value proposition’s expiration box’s countdown to access expiration.
+
 
 Settings and Toggles Documentation
 ----------------------------------
@@ -150,8 +162,8 @@ Changes to edx-organizations
     - It is not critical to run this for the Lilac upgrade, since no features depend on these tables being populated yet.
     - However, future releases may make use of the data in these tables; hence, it is best to run the backfill now.
 
-Changes to certificates
------------------------
+Certificates
+------------
 
 - Various bug fixes and updates around course certificate generation
   - In an effort to be more inclusive, code referencing the course CertificateWhitelist model is being updated to instead refer to a Certificate Allowlist. The model itself has not yet been renamed.

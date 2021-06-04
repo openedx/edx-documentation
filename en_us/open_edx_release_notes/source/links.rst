@@ -43,6 +43,10 @@
 
 .. _ProctorTrack Service from Verificient: https://www.verificient.com/proctortrack/
 
+.. _ProgramCompletionEmailConfiguration: https://github.com/edx/credentials/blob/27fbfe88a91e5111595655f3dfab3ce493958a4f/credentials/apps/credentials/models.py#L306-L322
+
+.. _certificate availability date: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/studio_add_course_information/studio_creating_certificates.html#specify-a-different-certificates-available-date
+
 .. Ginkgo doc links:
 
 .. _Installing, Configuring, and Running the Open edX Platform\: Ginkgo Release: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/open-release-ginkgo.master
