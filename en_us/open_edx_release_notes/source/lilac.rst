@@ -87,6 +87,10 @@ Authoring Experiences
 Open-Response Assessments
 -------------------------
 
+- Toggle rubric visibility for learners: Course staff can now choose to show learners the rubric for an ORA as they complete their ORA submission, more easily allowing learners to understand how they will be evaluated.
+- ORA Problems as Component Category: We have elevated Open Response components as a category in the Studio Unit page so that they are easier to drop into a unit page with pre-configured templates. You can quickly add some of the most commonly configured ORA problems
+- Allow Viewing ORA Steps After Peer Review: Learners can now proceed to the next assessment step when reaching a peer assessment step. This change makes all peer-related steps non-blocking, though they will still be required to complete the problem. Some problems for example situate self assessment after peer assessment, but previously learners were blocked from completing this step.
+- Support Flexible Peer Grading Averaging for Learners delayed / in Peer Grading step: As part of reducing the number of students delayed in the peer grading step, we have introduced a new grading setting for ORA peer reviews called “Enable Flexible Peer Grading Averaging.” When enabled, learners who have received at least 30% of the required “Graded By” peer reviews and who have waited longer than seven days for a peer review will be assigned a peer review grade using available peer reviews. If enabled, the effect is that fewer learners will be waiting for additional peer reviews, requiring less manual staff intervention for this edge case.
 - Added username details to ORA report download
 - Added problem name and location to ORA report download
 - Added ORA zipped file download for submission text + attached files
