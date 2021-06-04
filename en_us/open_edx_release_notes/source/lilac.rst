@@ -127,6 +127,18 @@ Program Completion Emails: Added `ProgramCompletionEmailConfiguration`_ that ena
 Administrator Experiences
 =========================
 
+Migrations
+----------
+
+An index was added to the ``courseware_studentmodule`` table. This can be a VERY EXPENSIVE MIGRATION which may take hours or days to run depending on size. Depending on your database, it may also lock this table, causing courseware to be non-functional during that time.
+
+If you want to run this migration manually in a more controlled
+way (separate from your release pipeline), the SQL needed is::
+
+  CREATE INDEX `courseware_stats` ON `courseware_studentmodule` (`module_id`, `grade`, `student_id`);
+
+You can then `fake the migration`_.
+
 Course Upsell Messaging and Payment
 -----------------------------------
 

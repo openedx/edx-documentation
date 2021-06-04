@@ -47,6 +47,8 @@
 
 .. _certificate availability date: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/studio_add_course_information/studio_creating_certificates.html#specify-a-different-certificates-available-date
 
+.. _fake the migration: https://docs.djangoproject.com/en/2.2/ref/django-admin/#cmdoption-migrate-fake
+
 .. Ginkgo doc links:
 
 .. _Installing, Configuring, and Running the Open edX Platform\: Ginkgo Release: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/open-release-ginkgo.master
