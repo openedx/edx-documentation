@@ -1,24 +1,25 @@
-.. _Lilac/Koa Native Open edX platform Installation:
+.. _Lilac Native Open edX platform Installation:
 
-###################################################################
-Lilac/Koa Native Open edX platform Installation
-###################################################################
+###########################################
+Lilac Native Open edX Platform Installation
+###########################################
 
-This page describes how to install the Open edX Koa release on a single Ubuntu 20.04 64-bit server from scratch.
-
+This page describes how to install the Open edX Lilac release on a single Ubuntu 20.04 64-bit server from scratch.
 
 .. warning:: Installing and running an Open edX instance is not simple.  We **strongly recommend** that you use a `service provider <https://open.edx.org/get-started/>`_ to run the software for you.  They have free trials that make it easy to get started: https://open.edx.org/get-started/
 
     Only proceed with these installation steps if you are comfortable with installing and diagnosing complex Linux systems.
 
-****************
-For old releases
-****************
+******************
+For older releases
+******************
+
 For Juniper and earlier, see `Legacy Open edX Native Installation`_ .
 
 *******************
 Server Requirements
 *******************
+
 The following server requirements will be fine for supporting hundreds of registered students on a single server.
 
 *Note: This will run MySQL, Memcache, Mongo, nginx, and all of the Open edX services (LMS, Studio, Forums, ORA, etc) on a single server. In production configurations we recommend that these services run on different servers and that a load balancer be used for redundancy. Setting up production configurations is beyond the scope of this wiki page.*
@@ -28,7 +29,7 @@ The following server requirements will be fine for supporting hundreds of regist
 * **At least one 2.00GHz CPU or EC2 compute unit**
 * **Minimum 25GB of free disk, 50GB recommended for production servers**
 
-For hosting in Amazon we recommend an t2.large with at least a 50Gb EBS volume, see https://aws.amazon.com/ec2/pricing. Community Ubuntu AMIs have 8GB on the root directory, make sure to expand it before installing.
+For hosting on Amazon we recommend an t2.large with at least a 50Gb EBS volume, see https://aws.amazon.com/ec2/pricing. Community Ubuntu AMIs have 8GB on the root directory, make sure to expand it before installing.
 
 *************************
 Installation instructions
@@ -44,6 +45,7 @@ Installation instructions
 ===============
 Prep the server
 ===============
+
 Launch your Ubuntu 20.04 64-bit server and log in to it as a user that has full sudo privileges.
 
 Update your Ubuntu package sources:
@@ -54,9 +56,10 @@ Update your Ubuntu package sources:
     $ sudo apt-get upgrade -y
     $ sudo reboot
 
-==============
+============
 Installation
-==============
+============
+
 You will run a few scripts to accomplish the installation. Please read the contents of the scripts before running this to ensure you are aware of everything they will do: they are quite extensive. The scripts require that the running user can run commands as root via sudo.
 
 #. **Set** the OPENEDX_RELEASE variable. You choose the version of software by setting the OPENEDX_RELEASE variable before running the commands. See the `Open edX Named Releases page`_ for the tags you can use.
@@ -107,9 +110,10 @@ You will run a few scripts to accomplish the installation. Please read the conte
 #. **Finish** configuring your server, for example to set the LMS_ROOT_URL setting, before everything will work properly. The `Managing Open edX Tips and Tricks`_ page may be useful.
 
 
-************************************
+***************
 Do not upgrade!
-************************************
+***************
+
 Some Open edX components are outdated. If you see a message suggesting that you update something manually, **don't do it** -- something is probably relying on the outdated software remaining at that older version. Specifically:
 
 * Ubuntu may alert you that a newer version of Ubuntu available when you SSH in to your server, and may suggest that you run :code:`do-release-upgrade` to upgrade to that newer version. **Don't do it.**
