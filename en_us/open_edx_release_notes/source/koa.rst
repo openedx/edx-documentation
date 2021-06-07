@@ -109,7 +109,7 @@ Administrator Experiences
 Dependency updates
 ------------------
 
-These dependencies were upgraded for the `Open edX Koa Native Installation`_:
+These dependencies were upgraded for the `Open edX Native Installation`_:
 
 - Ubuntu was upgraded from 16.04 to 20.04.
 

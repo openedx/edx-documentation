@@ -36,7 +36,7 @@ Installing the Koa Release
 **************************
 
 You can install the Open edX Koa release using either
-`devstack`_ or the `Open edX Koa Native Installation`_ instructions.
+`devstack`_ or the `Open edX Native Installation`_ instructions.
 
 Koa releases have git tag names like ``open-release/koa.1``.
 The available names are detailed on the `Open edX Named Releases page`_.
@@ -128,7 +128,7 @@ release to another, follow the instructions in `devstack`_.
 Upgrading a Native Installation
 ===============================
 
-If you installed Open edX using the `Open edX Koa Native Installation`_, you can
+If you installed Open edX using the `Open edX Native Installation`_, you can
 upgrade from one Koa release to another by re-running those steps using
 your desired Koa tag as the new value for ``OPENEDX_RELEASE``.
 

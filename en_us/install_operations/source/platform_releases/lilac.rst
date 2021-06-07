@@ -35,8 +35,8 @@ find the most up-to-date git tag for Lilac on the
 Installing the Lilac Release
 ****************************
 
-You can install the Open edX Lilac release using either
-`devstack`_ or the `Open edX Lilac Native Installation`_ instructions.
+You can install the Open edX Lilac release using the `Open edX Installation`_
+instructions.
 
 Lilac releases have git tag names like ``open-release/lilac.1``.
 The available names are detailed on the `Open edX Named Releases page`_.
@@ -53,7 +53,7 @@ To move and upgrade your Koa data onto a Lilac installation, follow these
 steps.
 
 #. Be sure that your Koa installation is on the latest commit from
-   ``open-release/juniper.master``. This ensures that your database is fully
+   ``open-release/koa.master``. This ensures that your database is fully
    migrated and ready for upgrade to Lilac.
 
 #. Stop all services on the Koa machine.
@@ -128,7 +128,7 @@ release to another, follow the instructions in `devstack`_.
 Upgrading a Native Installation
 ===============================
 
-If you installed Open edX using the `Open edX Lilac Native Installation`_, you can
+If you installed Open edX using the `Open edX Native Installation`_, you can
 upgrade from one Lilac release to another by re-running those steps using
 your desired Lilac tag as the new value for ``OPENEDX_RELEASE``.
 
