@@ -1,7 +1,7 @@
 .. _Feature Flag Index:
 
 ###############################
-Index of Open EdX Feature Flags
+Index of Open edX Feature Flags
 ###############################
 
 The following list includes feature flags that are available in the Open edX
