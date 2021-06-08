@@ -103,7 +103,7 @@ sphinxcontrib-serializinghtml==1.1.4
     # via
     #   -r base.txt
     #   sphinx
-urllib3==1.26.2
+urllib3==1.26.5
     # via
     #   -r base.txt
     #   requests
