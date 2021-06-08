@@ -1,10 +1,10 @@
-.. _Open edX Native Installation:
+.. _Lilac Open edX Native Installation:
 
-############################
-Open edX Native Installation
-############################
+##################################
+Lilac Open edX Native Installation
+##################################
 
-This page describes how to install Open edX releases starting from Koa (the latest being Lilac) on a single Ubuntu 20.04 64-bit server from scratch.
+This page describes how to install the Open edX Lilac release on a single Ubuntu 20.04 64-bit server from scratch.
 
 .. warning:: Installing and running an Open edX instance is not simple.  We **strongly recommend** that you use a `service provider <https://open.edx.org/get-started/>`_ to run the software for you.  They have free trials that make it easy to get started: https://open.edx.org/get-started/
 
@@ -14,7 +14,7 @@ This page describes how to install Open edX releases starting from Koa (the late
 For older releases
 ******************
 
-For Juniper and earlier, see `Legacy Open edX Native Installation`_ .
+For Koa and earlier, see `Koa Open edX Native Installation`_ .
 
 *************
 Prerequisites

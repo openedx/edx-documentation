@@ -238,6 +238,8 @@
 
 .. _Legacy Open edX Native Installation: https://openedx.atlassian.net/wiki/x/g4G6C
 
+.. _Koa Open edX Native Installation: https://openedx.atlassian.net/wiki/x/lIJjdQ
+
 .. _edX Feature Flags: https://openedx.atlassian.net/wiki/spaces/OpenDev/pages/34734726/edX+Feature+Flags
 
 .. _Managing Open edX Tips and Tricks:  https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/60227913/Managing+Open+edX+Tips+and+Tricks
