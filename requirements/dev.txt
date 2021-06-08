@@ -50,7 +50,7 @@ packaging==20.8
     #   sphinx
 pip-tools==5.4.0
     # via -r dev.in
-pygments==2.7.3
+pygments==2.7.4
     # via
     #   -r base.txt
     #   sphinx
