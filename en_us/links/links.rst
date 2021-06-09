@@ -86,6 +86,9 @@
 
 .. _Open edX Named Releases page: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html
 
+.. _Open edX Installation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/
+
+.. _Open edX Native Installation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/native_installation.html
 
 .. GitHub Links
 
@@ -235,9 +238,7 @@
 
 .. _Legacy Open edX Native Installation: https://openedx.atlassian.net/wiki/x/g4G6C
 
-.. _Open edX Koa Native Installation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/native_installation.html
-
-.. _Open edX Lilac Native Installation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/native_installation.html
+.. _Koa Open edX Native Installation: https://openedx.atlassian.net/wiki/x/lIJjdQ
 
 .. _edX Feature Flags: https://openedx.atlassian.net/wiki/spaces/OpenDev/pages/34734726/edX+Feature+Flags
 
@@ -409,6 +410,8 @@
 .. _ESLint: https://openedx.atlassian.net/wiki/display/FEDX/ESLint
 
 .. _Webpack: https://webpack.js.org/
+
+.. _Tutor: https://docs.tutor.overhang.io/
 
 .. Release Notes
 
