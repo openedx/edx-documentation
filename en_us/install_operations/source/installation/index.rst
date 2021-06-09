@@ -29,7 +29,7 @@ You should choose master only if you will be modifying the code and
 contributing it back, or if you need a feature or fix that is newer than the
 latest Open edX release.  If you aren't planning to contribute changes, and you
 don't need the absolute latest code, use the latest official Open edX release.
-Details of the releases are at the `Open edX Releases Wiki Page`_.
+Details of the releases are on the `Open edX Named Releases page`_.
 
 ********************************
 2. Choose an installation method
