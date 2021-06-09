@@ -1,8 +1,8 @@
-.. _Lilac Native Open edX platform Installation:
+.. _Lilac Open edX Native Installation:
 
-###########################################
-Lilac Native Open edX Platform Installation
-###########################################
+##################################
+Lilac Open edX Native Installation
+##################################
 
 This page describes how to install the Open edX Lilac release on a single Ubuntu 20.04 64-bit server from scratch.
 
@@ -14,7 +14,27 @@ This page describes how to install the Open edX Lilac release on a single Ubuntu
 For older releases
 ******************
 
-For Juniper and earlier, see `Legacy Open edX Native Installation`_ .
+For Koa and earlier, see `Koa Open edX Native Installation`_ .
+
+*************
+Prerequisites
+*************
+
+This installation option require an understanding of the following items:
+
+* Basic terminal usage. If you are using a Mac computer, see
+  `Introduction to the Mac OS X Command Line`_.
+
+* Diagnosing and fixing failures may involve many different technologies and
+  skills. It will help to know:
+
+  - The basics of how Python web applications are built, installed, and
+    deployed.
+
+  - How to manage a Linux system, including supervisor.
+
+  - The basics of configuration management and automation.  This installation
+    method uses `Ansible`_ to automate the process.
 
 *******************
 Server Requirements

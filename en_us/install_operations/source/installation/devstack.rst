@@ -14,7 +14,8 @@ convenient. For example, `nginx`_ and `gunicorn`_ are disabled in Devstack;
 Devstack uses Django's ``runserver`` instead.
 
 You can install the Open edX developer stack (just known as **Devstack**)
-or the Open edX analytics developer stack (**Analytics Devstack** or just **Analyticstack**).
+or the Open edX analytics developer stack (**Analytics Devstack** or just
+**Analyticstack**).
 
 =====================
 Devstack Installation
