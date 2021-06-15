@@ -22,7 +22,7 @@ chardet==4.0.0
     #   requests
 click==8.0.1
     # via pip-tools
-docutils==0.17.1
+docutils==0.16
     # via
     #   -r requirements/base.txt
     #   sphinx

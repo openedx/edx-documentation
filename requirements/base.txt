@@ -12,8 +12,10 @@ certifi==2021.5.30
     # via requests
 chardet==4.0.0
     # via requests
-docutils==0.17.1
-    # via sphinx
+docutils==0.16
+    # via
+    #   -c requirements/common_constraints.txt
+    #   sphinx
 edx-sphinx-theme==2.1.0
     # via -r requirements/base.in
 idna==2.10
