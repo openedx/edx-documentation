@@ -19,28 +19,32 @@ Learner Experiences
 
 Open-Response Assessments
 -------------------------
+
 - Learners can submit rich text responses
 - Grading status message
 - Allow viewing ORA steps after peer review
 - See the Authoring Experience section below for more ORA enhancements
 
-Account Micro FrontEnd
+Account Micro-frontend
 ----------------------
+
 The Account MFE is enabled by default and provides private user settings UIs, including:
 
 - Account settings page
 - Demographics collection
 - IDV (Identity Verification)
 
-Checkout Micro FrontEnd
+Checkout Micro-frontend
 -----------------------
+
 The Checkout MFE is enabled by default. Prior checkout UIs may not be PCI compliant.
 
-Learning Micro FrontEnd
+Learning Micro-frontend
 -----------------------
+
 The Learning MFE is *not* enabled by default, because theming and internationalizations support is incomplete. However, we expect that this is the last named release to support the Legacy courseware frontend.
 
-If the Learning MFE is installed using the MFE Deployer Ansible role then certain features can be opted in to the Micro-Frontend. These LMS CourseWaffleFlags can be toggled on (globally, per-user, or per-course) to switch certain features over the Learning MFE:
+If the Learning MFE is installed using the MFE Deployer Ansible role then certain features can be opted in to the micro-frontend. These LMS CourseWaffleFlags can be toggled on (globally, per-user, or per-course) to switch certain features over the Learning MFE:
 
 - courseware.courseware_mfe : Enable to host courseware (ie, the learning sequence experience) in the MFE.
 - courseware.microfrontend_course_team_preview : Enable to show global and course-level staff members the ability to preview courseware in the MFE. Does not affect learners.
@@ -161,8 +165,9 @@ Dependency updates
 
 - Mongo was upgraded from 3.0 to 4.0.
 - Switched from Elasticsearch 1 to Elasticsearch 7 across Open edX. This may require some syntax changes for custom scripts that used search APIs.
-  - Please change queries that used __not to __exclude
-  - Please properly URL-encode any plus signs in query URLs (like in course run key parameters) to %2b. Our Elasticsearch 7 implementation is more strict in that regard.
+
+  - Please change queries that used ``__not`` to ``__exclude``
+  - Please properly URL-encode any plus signs in query URLs (like in course run key parameters) to ``%2b``. Our Elasticsearch 7 implementation is more strict in that regard.
   - Please change queries against course-discovery that used pacing to pacing_type
 
 New Settings
@@ -173,21 +178,30 @@ New Settings
 Changes to edx-organizations
 ----------------------------
 
-  - Uniqueness constraint added to Organization.short_name
+- Uniqueness constraint added to Organization.short_name
+
     - This was added in edx-organizations 6.0.0. See release notes for details.
     - For instances that did not enable FEATURES['ORGANIZATIONS_APP'], this is a no-op
     - For instances the DID enable FEATURES['ORGANIZATIONS_APP'], any Organizations with conflicting short_names need to be removed (can be done via Django admin), else the migration for edx-organizations 6.0.0 will fail to apply.
-  - Organizations feature globally enabled for all LMS and Studio instances.
+
+- Organizations feature globally enabled for all LMS and Studio instances.
+
     - See https://github.com/edx/edx-organizations/blob/master/docs/decisions/0001-phase-in-db-backed-organizations-to-all.rst  for reasoning and details.
     - If you don’t care about this change, then it shouldn’t affect you, although we still recommend running the backfill command (see below).
-  - Added ORGANIZATIONS_AUTOCREATE Django setting for Studio.
+
+- Added ORGANIZATIONS_AUTOCREATE Django setting for Studio.
+
     - Defaults to True.
     - When True, creating a new course run or content library with an unrecognized org slug (that is, “edX” in course-v1:edX+DemoX+2T2020 will silently auto-create an organization in the background.
     - When False, creating a new course run or content library with an unrecognized org slug will raise an error. This is helpful if you wish to restrict the set of organizations under which course runs and content libraries may be created.
-  - The FEATURES['ORGANIZATIONS_APP'] is no longer supported.
+
+- The FEATURES['ORGANIZATIONS_APP'] is no longer supported.
+
     - The Organization and OrganizationCourse model are now available on all instances.
     - If you previously enabled FEATURES['ORGANIZATIONS_APP'], then you should override the Studio setting ORGANIZATIONS_AUTOCREATE to Falsewhen upgrading to Lilac to achieve the same functionality.
-  - Added Studio management command: ./manage.py cms backfill_orgs_and_org_courses
+
+- Added Studio management command: ./manage.py cms backfill_orgs_and_org_courses
+
     - This back-populates the organizations_organization and organizations_organizationcourse tables, for Open edX instances that did not previously enable FEATURES['ORGANIZATIONS_APP'].
     - It is not critical to run this for the Lilac upgrade, since no features depend on these tables being populated yet.
     - However, future releases may make use of the data in these tables; hence, it is best to run the backfill now.
@@ -196,6 +210,7 @@ Certificates
 ------------
 
 - Various bug fixes and updates around course certificate generation
+
   - In an effort to be more inclusive, code referencing the course CertificateWhitelist model is being updated to instead refer to a Certificate Allowlist. The model itself has not yet been renamed.
   - Temporary CourseWaffleFlag added to control access to updated behavior of the CertificateWhitelist (aka Certificate Allowlist)
   - Temporary CourseWaffleFlag added to control access to updated behavior of the course certificates
@@ -210,6 +225,7 @@ Deprecations
 ------------
 
 - The sysadmin dashboard is no longer supported.
+
   - The feature has been deprecated according to DEPR-118, Its ADR can be found at ADR-DEPR-118 and related discussions at Discussion-DEPR-118.
   - The related feature flag FEATURES['ENABLE_SYSADMIN_DASHBOARD'] is also removed.
   - A separate pluggable app named edx-sysadmin has been developed at and can be used as an alternative to sysadmin dashboard.
@@ -220,13 +236,14 @@ Deprecations
 
 Branding Update
 ---------------
+
 Open edX logos, colors and fonts have been updated.
 
 =============================
 Researcher & Data Experiences
 =============================
 
-  - Tracking metrics based on the anonymized session ID will experience a discontinuity or other anomaly at the time of deployment, as the anonymized IDs will change. [PR] This will likely appear as if everyone logged out and back in again, although only from a metrics perspective. In a green-blue deployment scenario, it may briefly appear as if there are twice as many sessions active.
+- Tracking metrics based on the anonymized session ID will experience a discontinuity or other anomaly at the time of deployment, as the anonymized IDs will change. [PR] This will likely appear as if everyone logged out and back in again, although only from a metrics perspective. In a green-blue deployment scenario, it may briefly appear as if there are twice as many sessions active.
 
 =====================
 Developer Experiences
