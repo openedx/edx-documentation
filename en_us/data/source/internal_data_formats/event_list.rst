@@ -74,6 +74,8 @@ D, E, F
      - :ref:`certificate_events`
    * - ``edx.certificate.evidence_visited``
      - :ref:`certificate_events`
+   * - ``edx.certificate.revoked``
+     - :ref:`certificate_events`
    * - ``edx.cohort.created``
      - :ref:`student_cohort_events`
    * - ``edx.cohort.creation_requested``
