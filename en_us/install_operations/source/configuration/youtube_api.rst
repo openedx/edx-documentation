@@ -103,7 +103,7 @@ steps.
    ``/edx/app/edxapp/edx-platform``.
 
 #. In the directory *above* your repository, there should be several JSON
-   files, including ``lms.yml`` and ``studio.yml``. If you are running
+   files, including ``lms.yml`` and ``cms.yml``. If you are running
    devstack or fullstack, the directory is ``/edx/app/edxapp``.
 
 #. Open the ``lms.yml`` file in your text editor.
@@ -117,7 +117,7 @@ steps.
 
 #. Save and close the file.
 
-#. Open the ``studio.yml`` file and make the same change. If that line does
+#. Open the ``cms.yml`` file and make the same change. If that line does
    not exist in this file, create it.
 
 #. Save and close the file.
