@@ -345,53 +345,20 @@ these steps.
 #. Save your edits to the certificate template.
 
 
-.. _Generate Certificates for a Course:
-
-**********************************
-Generate Certificates For a Course
-**********************************
-
-To generate certificates for a course, run the ``manage.py`` script with the
-following settings. When the script finishes running, grades are calculated
-for learners who are enrolled in the course, and certificates are generated
-for eligible learners.
-
-#. Obtain the course ID for the course for which you are generating
-   certificates. When you view course content in your browser, the course ID
-   appears as part of the URL. For example, in the URL
-   ``http://www.edx.org/course/course-v1:edX+demoX_Demo_2015``, the course ID
-   is ``course-v1:edX+demoX_Demo_2015``. For some courses, the course ID
-   contains slashes. For example, ``edX/Demox/Demo_2014``.
-
-#. Run ``manage.py`` with the following settings, replacing ``{CourseID}``
-   with the actual course ID. Do not include beginning or trailing slashes.
-
-   ``./manage.py lms --settings=production ungenerated_certs -c {CourseID}``
-
-   For example,
-
-   ``./manage.py lms --settings=production ungenerated_certs -c course-v1:edX+demoX_Demo_2015``.
-
-   .. Note::
-     If the LMS is running on a server that does not have https support (such
-     as a locally run fullstack for testing) you will need to use the
-     ``--insecure`` flag so that the certificate generation service contacts
-     the LMS on http instead of on https.
-
-#. You can then view the certificates in the ``certificates_generatedcertificate`` database table.
-
-
 .. _Enable Automatic Certificate Generation:
 
 ***************************************
 Enable Automatic Certificate Generation
 ***************************************
 
+It is suggested that automatic certificate generation
+be enabled in order to provide the best experience for learners.
 Particularly in self-paced courses (see :ref:`Enable Self Paced
 Courses`), your learners might not want to wait until an instructor
-initiates certificate generation. Instead, they would typically expect
+initiates certificate generation; instead, they would typically expect
 to be able to download their certificates as soon as they achieve a
-passing grade.
+passing grade. This can be achieved by enabling *auto_certificate_generation*
+as described below.
 
 To globally enable this functionality, you must set a `Waffle switch
 <https://waffle.readthedocs.io/en/latest/types/switch.html>`_:
@@ -419,6 +386,39 @@ the course staff. For more details, see :ref:`opencoursestaff:Allow
 Learners to Receive Early Certificates` and
 :ref:`opencoursestaff:Allow Learners to Download Certificates` in
 *Building and Running an Open edX Course*.
+
+.. _Manually Generate Certificates for a Course:
+
+*******************************************
+Manually Generate Certificates For a Course
+*******************************************
+
+To manually generate certificates for a course, run the ``manage.py`` script
+with the following settings. When the script finishes running, course certificates
+will have been generated for eligible learners.
+
+#. Obtain the course ID for the course for which you are generating
+   certificates. When you view course content in your browser, the course ID
+   appears as part of the URL. For example, in the URL
+   ``http://www.edx.org/course/course-v1:edX+demoX_Demo_2015``, the course ID
+   is ``course-v1:edX+demoX_Demo_2015``. For some courses, the course ID
+   contains slashes, however it will not contain beginning or trailing slashes.
+   For example, a course id look like ``edX/Demox/Demo_2014``.
+
+#. Obtain the user IDs for any learners for whom you'd like to generate course
+   certificates. These can be found in the ``auth_user`` database table.
+
+#. Run ``manage.py`` with the following settings, replacing {UserID} with a user id
+   and ``{CourseID}`` with the course ID. Do not include beginning or trailing slashes.
+
+   ``./manage.py lms --settings=production cert_generation -u {UserID} {UserID} -c {CourseID}``
+
+   For example,
+
+   ``./manage.py lms --settings=production cert_generation -u 123 456 -c course-v1:edX+DemoX+Demo_Course``
+
+#. You can then view the certificates in the ``certificates_generatedcertificate`` database table.
+
 
 .. include:: ../../../links/links.rst
 

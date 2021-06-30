@@ -46,7 +46,7 @@ Issuing Certificates
    Before you can issue certificates, the administrator for your instance of
    Open edX must configure the platform to allow course teams to generate and
    issue certificates. For more information, see
-   :ref:`installation:Generate Certificates for a Course` and
+   :ref:`installation:Enable Automatic Certificate Generation` and
    :ref:`installation:Enable Certificates` in *Installing, Configuring, and
    Running the Open edX Platform*.
 
