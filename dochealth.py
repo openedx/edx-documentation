@@ -66,6 +66,9 @@ def normalize_url(url):
         url = url[:-1]
     return url
 
+def date(timestamp):
+    return timestamp.partition("T")[0]
+
 with open(CSV_FILE, "w") as health_out:
     writer = csv.writer(health_out)
     writer.writerow([
@@ -75,6 +78,9 @@ with open(CSV_FILE, "w") as health_out:
         "last_build",
         "succeeded",
         "last_good_build",
+        "python_version",
+        "conf_file",
+        "requirements",
     ])
 
     data = get_data("https://readthedocs.org/api/v3/projects/?limit=100")
@@ -92,13 +98,16 @@ with open(CSV_FILE, "w") as health_out:
             show_count = f" {len(projs)} projects"
         print(f"repo {url}:{show_count}")
         for proj in projs:
-            show_branch = ""
+            show_branch = show_sub = ""
             branch = proj["default_branch"]
+            super_proj = proj["subproject_of"]
+            if super_proj:
+                show_sub = f" (sub of: {super_proj['name']})"
             if branch != "master":
                 show_branch = f" (branch {branch})"
-            print(f"""    "{proj["name"]}"{show_branch}""")
-            build_url = proj["_links"]["builds"] + "?limit=100"
-            builds = get_data(build_url)["results"]
+            print(f"""    "{proj["name"]}"{show_branch}{show_sub}""")
+            builds_url = proj["_links"]["builds"] + "?limit=100"
+            builds = get_data(builds_url)["results"]
             build = builds[0]
             show_status = ""
             if not build["success"]:
@@ -112,13 +121,36 @@ with open(CSV_FILE, "w") as health_out:
                     print("        ** no successful build")
                 else:
                     print(f"""        last success: {last_good["created"]}""")
+
+            build_details = get_data(build["_links"]["_self"] + "?expand=config")
+            version = build_details["version"]
+            print(f"""        version: {version}""")
+            config = build_details["config"]
+            if config:
+                python_version = config["python"]["version"]
+                print(f"""        python version: {python_version}""")
+                conf_file = config["sphinx"]["configuration"]
+                if conf_file:
+                    conf_file = conf_file.rpartition(f"checkouts/{version}/")[-1]
+                print(f"""        conf file: {conf_file}""")
+                try:
+                    requirements = config["python"]["install"][0]["requirements"]
+                    print(f"""        requirements: {requirements}""")
+                except:
+                    import pprint; pprint.pprint(config)
+            else:
+                conf_file = python_version = requirements = ""
+
             writer.writerow([
                 url,
                 proj["name"],
                 branch,
-                build["created"],
+                date(build["created"]),
                 "success" if build["success"] else "fail",
-                last_good["created"] if last_good else "never",
+                date(last_good["created"]) if last_good else "never",
+                python_version,
+                conf_file,
+                requirements,
             ])
 
 print(f"Wrote {CSV_FILE}")
