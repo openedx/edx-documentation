@@ -1,5 +1,3 @@
-
-
 .. Include this file in any file that includes a non-doc link.
 
 .. EdX Links
@@ -348,7 +346,7 @@
 
 .. _RabbitMQ: http://www.rabbitmq.com/
 
-.. _Download Python: https://www.python.org/download/releases/2.7/
+.. _Download Python: https://www.python.org/downloads/release/python-386/
 
 .. _YouTube Data API v3: https://developers.google.com/youtube/v3/
 
