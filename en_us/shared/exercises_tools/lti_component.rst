@@ -395,13 +395,13 @@ LTI Component Settings
        that their information will be forwarded to the external application.
 
    * - LTI Version
-     - Used to select the LTI version used in for the current LTI component.
+     - Used to select the LTI version used for the current LTI component.
 
    * - LTI ID (LTI 1.1 only)
      - Specifies the LTI ID for the remote LTI tool provider. This value must
        match the LTI ID that you entered as part of the LTI passport string for
-       the LTI tool. For more information about LTI passports, see :ref:`LTI
-       Information`.
+       the LTI tool. For more information about LTI passports, see
+       :ref:`enable_lti_components`.
 
    * - LTI URL (LTI 1.1 only)
      - Specifies the URL of the remote LTI tool that this component launches.

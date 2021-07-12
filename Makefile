@@ -27,5 +27,8 @@ upgrade: $(COMMON_CONSTRAINTS_TXT)  ## update the requirements/*.txt files with 
 	$(PIP_COMPILE) -o requirements/base.txt requirements/base.in
 	$(PIP_COMPILE) -o requirements/dev.txt requirements/dev.in
 
-clean:
+clean: ## remove built html files
 	make -C en_us clean
+
+test: ## build all the docs
+	./run_tests.sh
