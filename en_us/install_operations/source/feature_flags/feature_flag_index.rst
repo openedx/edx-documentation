@@ -24,9 +24,6 @@ in the Open edX wiki.
    * - ALLOW_COURSE_STAFF_GRADE_DOWNLOADS
      - Supported
      - FALSE
-   * - AUDIT_CERT_CUTOFF_DATE
-     - Supported
-     - None
    * - AUTH_USE_CAS
      - Supported
      - TRUE

@@ -150,33 +150,12 @@ Configure Course Certificates for Your Open edX Instance
 Discontinue Audit Track Certificates
 ====================================
 
-Organizations that previously offered certificates to audit track learners who pass a
-course can discontinue generation of this type of certificate. For example,
-your organization may make a strategic decision to offer certificates only to
-learners who select an enrollment track other than "audit". In this case, learners can
-continue to audit courses, but they no will longer receive certificates.
+Organizations that previously offered certificates to audit track learners will
+no longer be able to grant certificates to these learners. Learners can
+continue to audit courses, but they will not be able to earn a certificate.
 
 For more information about course tracks, also called enrollment modes or
 enrollment tracks, see :ref:`enrollment track<enrollment_track_g>`.
-
-An outline of the steps you might take if your organization decides to stop
-offering certificates for learners in the audit track follows.
-
-#. Stop advertising audit track certificates for new courses.
-
-#. Identify running courses that offer an audit track certificate and, for
-   those courses, determine the course end date that is furthest in the future.
-
-#. Select a cutoff date for generating audit track certificates that is after
-   the last course end date identified in step 2.
-
-#. Set ``AUDIT_CERT_CUTOFF_DATE`` to a date in YYYY-MM-DD format. Specifying
-   this date ensures that certificates are not generated for audit track
-   learners in any course after the specified date.
-
-The ``AUDIT_CERT_CUTOFF_DATE`` feature flag affects only the generation of
-audit certificates. Learners who audit courses continue to receive grades,
-which are shown on the course **Progress** page.
 
 
 *****************************************************
