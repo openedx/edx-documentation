@@ -144,6 +144,38 @@ extra time to complete a timed or proctored exam.
 
 #. Select **Save**.
 
+Under the new bulk allowance modal, follow these steps to add exta time in bulk.
+
+#. View the live version of your course.
+
+#. Select **Instructor**, and then select **Special Exams**.
+
+#. Expand **Allowance Section**.
+
+#. Select **Add Allowance**.
+
+   The **Add a New Allowance** dialog box opens.
+
+#. For **Username** or **Email**, enter all the learners' emails/usernames seperated by a comma that you wish to add an exception for.
+
+#. For **Select Exam Type**, select the type of exams you want to add extra time for, either proctored or timed exams.
+
+#. For **Select Exams**, click on the desired exams you want extra time for.
+
+#. For **Allowance Type**, select either **Additional Time** or **Time Multiplier**
+
+#. If you selected **Additional Time**, enter the number of extra minutes that you
+   want to grant to the learner.
+
+   .. note:: You must enter a whole number greater than 0.
+
+#. Otherwise if you selected **Time Multiplier**, enter the multiplier for how much total time you want the learners to have.
+For example for an exam of 30 minutes, a multiplier of 1.5 will give 15 extra minutes to each learner.
+
+   .. note:: You must enter a number greater than 1.
+
+#. Select **Create Allowance**.
+
 For proctored exams, the reviewer takes the special allowance for extra time
 into account when the proctoring service reviews the learner’s proctored exam
 results.
