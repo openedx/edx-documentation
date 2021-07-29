@@ -240,6 +240,10 @@ which are located one level above the ``edx-platform`` directory.
      ``http://exampleserver.com/issuer/test-issuer``, the issuer slug is
      ``test-issuer``.
 
+   * ``BADGR_ENABLE_NOTIFICATIONS``: Optional boolean setting for enabling
+     email notifications. When set to "True", learners will be notified by email
+     when they earn a badge. Default is "False".
+
      .. code-block:: none
 
        ############## Badgr OpenBadges generation ##############
@@ -250,6 +254,7 @@ which are located one level above the ``edx-platform`` directory.
        # Do not add the trailing slash here.
        BADGR_BASE_URL = "http://localhost:8005"
        BADGR_ISSUER_SLUG = "test-issuer"
+       BADGR_ENABLE_NOTIFICATIONS = True
 
 #. Save the ``lms.yml`` and ``studio.yml`` files.
 
