@@ -13,6 +13,15 @@ These are the release notes for the Lilac release, the 12th community release of
  :depth: 1
  :local:
 
+=====================
+Changes since Lilac.1
+=====================
+
+- Chrome 92 suppressed different origin subframe dialog/modal creation via JS, which broke the "Open in New Window" mode of the LTI Component unit as well as ORA unit modals for the Learning MFE. But Google provided an `origin trial`_ which can disable this suppression. A change was added to allow a Lilac Open edx installation using the Learning MFE to specify a token which enables the Chrome origin trial which disables the suppression. To do so, generate a token on this `registration page`_ and provide it as a custom Django setting named: ``CHROME_DISABLE_SUBFRAME_DIALOG_SUPPRESSION_TOKEN``.
+
+.. _origin trial: https://github.com/GoogleChrome/OriginTrials/blob/gh-pages/developer-guide.md
+.. _registration page: https://developer.chrome.com/origintrials/#/registration/-710583578706051071
+
 ===================
 Learner Experiences
 ===================
