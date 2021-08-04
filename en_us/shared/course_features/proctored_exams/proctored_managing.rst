@@ -56,6 +56,33 @@ To make a special policy accommodation for a learner, follow these steps.
 
 #. Select **Save**.
 
+Under the new bulk allowance modal, follow these steps to add exceptions in bulk.
+
+#. View the live version of your course.
+
+#. Select **Instructor**, and then select **Special Exams**.
+
+#. Expand **Allowance Section**.
+
+#. Select **Add Allowance**.
+
+   The **Add a New Allowance** dialog box opens.
+
+#. For **Username** or **Email**, enter all the learners' emails/usernames seperated by a comma that you wish to add an exception for.
+
+#. For **Select Exam Type**, select **Proctored Exams**
+
+#. For **Select Exams**, click on the desired exams you want to add an exception for.
+
+#. For **Allowance Type**, select **Review Policy Exception**.
+
+#. Add a description of the allowance, such as the following example.
+
+   ``Learner has a disability. Allow one additional person in the room.``
+
+
+#. Select **Create Allowance**.
+
 When you have set up the allowance, let the learner know that their special
 allowance has been granted.
 
