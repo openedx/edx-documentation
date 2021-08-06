@@ -693,8 +693,8 @@ change.
 
    * - A through I
      - .action, .apk, .app, .application, .bat, .bin, .cmd, .com, .command,
-       .cpl, .csh, .dmg, .exe, .gadget, .hta, .inf, .ins, .inx, .ipa,
-       .isu
+       .cpl, .csh, .dmg, .exe, .gadget, .hta, .htm, .html, .inf, .ins, .inx,
+       .ipa, .isu
    * - J through P
      - .jar, .job, .jse, .lnk., msc, .msh, .msh1, .msh2, .mshxml, .msh1xml,
        .msh2xml, .msi, .msp, .mst, .osx, .out, .paf, .pif, .prg, psc1, .psc2,
