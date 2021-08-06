@@ -387,6 +387,58 @@ The following additional ``event`` member fields apply specifically to
        selected. This URL is the same as the URI in the ``context.referer``
        field. For details, see :ref:`referer_field`.
 
+=======================================
+``edx.certificate.generation.enabled``
+=======================================
+
+This event is fired by the server when the self-generated (or student-generated)
+certificates feature is enabled for a course run.
+
+**History**: Added 14 July 2015
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+
+   * - ``course_id``
+     - string
+     - The course for which the self-generated certificates feature is being
+       enabled for.
+
+========================================
+``edx.certificate.generation.disabled``
+========================================
+
+This event is fired by the server when the self-generated (or student-generated)
+certificates feature is disabled for a course run.
+
+**History**: Added 14 July 2015
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+
+   * - ``course_id``
+     - string
+     - The course for which the self-generated certificates feature is being
+       disabled for.
+
 
 
 
