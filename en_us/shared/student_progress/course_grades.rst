@@ -443,7 +443,7 @@ To override grades in bulk, follow these steps.
 
 #. Set up the filters to identify the segment of learners you want to grade.
 
-#. Click the **Download Bulk Management** button to download a CSV of subsection assignment grades for learners matching the currently specified filters.
+#. Click the **Download Grades** button to download a CSV of subsection assignment grades for learners matching the currently specified filters.
 
    The CSV contains one row per learner, and the following columns:
 
@@ -463,9 +463,7 @@ To override grades in bulk, follow these steps.
 
 #. Fill in the points to award in the new_override column for the assignment(s) you want to override grades for and save the file.
 
-#. Return to the Gradebook and click on the **Bulk Management** tab.
-
-#. Click **Import Grades**.
+#. Return to the Gradebook and click the **Import Grades** button.
 
 #. Select your updated grades file and click **Open**.
 
@@ -474,7 +472,7 @@ To override grades in bulk, follow these steps.
 
 It can take several minutes for the file upload to complete and grades to be fully updated.
 
-You can find a history of files uploaded and summary of results in the table at the bottom of the screen. 
+You can find a history of files uploaded and summary of results by clicking the **View Bulk Management History** link at the top of the page.
 
 
 
