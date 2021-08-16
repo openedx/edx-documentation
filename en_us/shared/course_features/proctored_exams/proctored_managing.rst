@@ -31,32 +31,7 @@ exception allowing a personal care assistant in the room.
   If you need to allow more time for the learner, see :ref:`Grant
   Learners More Time for a Timed Exam`.
 
-To make a special policy accommodation for a learner, follow these steps.
-
-#. View the live version of your course.
-
-#. Select **Instructor**, and then select **Special Exams**.
-
-#. Expand **Allowance Section**.
-
-#. Select **Add Allowance**.
-
-   The **Add a New Allowance** dialog box opens.
-
-#. For **Special Exam**, select the subsection that contains the proctored
-   exam.
-
-#. For **Allowance Type**, select **Review Policy Exception**.
-
-#. Add a description of the allowance, such as the following example.
-
-   ``Learner has a disability. Allow one additional person in the room.``
-
-#. For **Username** or **Email**, enter the learner's information.
-
-#. Select **Save**.
-
-Under the new bulk allowance modal, follow these steps to add exceptions in bulk.
+To make a special policy accommodation for learners, follow these steps.
 
 #. View the live version of your course.
 
