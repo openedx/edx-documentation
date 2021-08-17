@@ -117,34 +117,8 @@ Grant Learners More Time for a Timed or Proctored Exam
   For more information about the grace period setting, see :ref:`Set the Grace
   Period`.
 
-From the instructor dashboard, a course team member can grant a learner
+From the instructor dashboard, a course team member can grant learners
 extra time to complete a timed or proctored exam.
-
-#. View the live version of your course.
-
-#. Select **Instructor**, and then select **Special Exams**.
-
-#. Expand **Allowance Section**.
-
-#. Select **Add Allowance**.
-
-   The **Add a New Allowance** dialog box opens.
-
-#. For **Special Exam**, select the subsection that contains the timed or
-   proctored exam.
-
-#. For **Allowance Type**, select **Additional Time (minutes)**.
-
-#. In the **Additional Time** field, enter the number of extra minutes that you
-   want to grant to the learner.
-
-   .. note:: You must enter a whole number greater than 0.
-
-#. For **Username** or **Email**, enter the learner's information.
-
-#. Select **Save**.
-
-Under the new bulk allowance modal, follow these steps to add exta time in bulk.
 
 #. View the live version of your course.
 
