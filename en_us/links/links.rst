@@ -396,6 +396,8 @@
 
 .. _Assignments and Grades services: https://www.imsglobal.org/spec/lti-ags/v2p0
 
+.. _Names and Roles Provisioning Service: https://www.imsglobal.org/spec/lti-nrps/v2p0
+
 .. _Issuing Badges: https://wiki.mozilla.org/Badges/Onboarding-Issuer#Issuing_Badges
 
 .. _Oppia: https://www.oppia.org

@@ -12,7 +12,8 @@ You can integrate remote learning tools, such as applications and textbooks,
 into your course with the learning tools interoperability (LTI) component. The
 LTI component supports tools with the `LTI 1.1`_ and `LTI 1.3`_ specifications.
 Additionally, the LTI 1.3 tools can use the following LTI Advantage extensions:
-`Deep Linking`_ and `Assignments and Grades services`_.
+`Deep Linking`_, `Assignments and Grades services`_ and
+`Names and Roles Provisioning Service`_.
 
 .. contents::
    :local:
@@ -307,6 +308,7 @@ Currently, the platform supports the following LTI Advantage extensions:
 
 * `Assignments and Grades services`_
 * `Deep Linking`_
+* `Names and Roles Provisioning Service`_
 
 
 .. _Enabling LTI Assignments and Grades services:
@@ -370,6 +372,27 @@ To use LTI Deep Linking, follow these steps:
 
 .. note:: LTI 1.3 launches only work with published blocks, make sure the block is
           published before doing a Deep Link Launch.
+
+
+.. _Enabling LTI Names and Roles Provisioning Service:
+
+=================================================
+Enabling LTI Names and Roles Provisioning Service
+=================================================
+
+To set up LTI Names and Roles Provisioning Service (LTI-NRPS) services on a component, follow these steps.
+
+#. Locate the unit and LTI component in which you want to enable LTI-DL functionality.
+
+#. Select **Edit** in the component that appears.
+
+#. Locate the **Enable LTI NRPS** setting and set it to **True** (enabled).
+
+#. Select **Save**. The LTI-NRPS will be enabled for the next launches.
+
+.. note:: Due to performance concerns, LTI NRPS information is only available on courses with up to 1000
+          users, but can be adjusted by a site operator.
+
 
 .. _LTI Component settings:
 
