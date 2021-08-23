@@ -382,16 +382,17 @@ Enabling LTI Names and Roles Provisioning Service
 
 To set up LTI Names and Roles Provisioning Service (LTI-NRPS) services on a component, follow these steps.
 
-#. Locate the unit and LTI component in which you want to enable LTI-DL functionality.
+#. Locate the unit and LTI component in which you want to enable LTI-NRPS functionality.
 
 #. Select **Edit** in the component that appears.
 
 #. Locate the **Enable LTI NRPS** setting and set it to **True** (enabled).
 
-#. Select **Save**. The LTI-NRPS will be enabled for the next launches.
+#. Select **Save**. The LTI-NRPS will be enabled for all subsequent launches.
 
-.. note:: Due to performance concerns, LTI NRPS information is only available on courses with up to 1000
-          users, but can be adjusted by a site operator.
+.. note:: Due to performance concerns, LTI-NRPS information is by default only 
+          available on courses with up to 1000 users. Site operators may adjust 
+          this limit using the `LTI_NRPS_ACTIVE_ENROLLMENT_LIMIT setting`_.
 
 
 .. _LTI Component settings:
