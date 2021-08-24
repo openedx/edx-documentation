@@ -30,11 +30,13 @@ of the notes in the course body.
 You must enable the Notes tool before learners can use it. To enable the Notes
 tool, follow these steps.
 
-#. In Studio, select **Settings**, and then **Advanced Settings**.
+#. In Studio, from the **Content** menu select **Pages & Resources**.
 
-#. In the **Enable Notes** field, enter ``true``.
+#. Click the gear icon on the **Notes** card shown on this page.
 
-#. Select **Save Changes**.
+#. From the **Configure notes** modal, select the toggle to enable or disable the notes application.
+
+#. Select **Apply** to save your configuration changes.
 
 .. only:: Partners
 
