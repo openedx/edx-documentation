@@ -4,9 +4,10 @@
 Managing the Pages in Your Course
 ##################################
 
-This topic describes the pages, or tabs, that the LMS includes for your course
-by default, how you can modify them, and how you can add more pages to your
-course.
+This topic describes the applications and resources that your course experience
+has enabled outside of the core content experience and how you can modify these
+tools to fit your course needs.
+
 
 .. contents::
   :local:
@@ -18,65 +19,45 @@ course.
 Working with the Default Pages
 *******************************
 
-By default, every new course has the following pages.
+By default, every new course has the following key areas enabled:
 
 * Course
-* Discussion
-* Wiki
 * Progress
+* Date
+* Discussion
 
-In the LMS, learners see these options in the navigation bar at the top of
-every page.
+
+In the learner experience, these will be shown in the primary navigation bar at the top of every page,
+consistently in this order for all courses.
 
 .. image:: ../../../shared/images/page_bar_lms_orig.png
  :alt: The navigation bar in the LMS, showing the default pages.
 
-In addition, if you enable the :ref:`notes tool <Notes Tool>` for your course,
-the system adds a **Notes** page. The system also adds a page for each
-:ref:`textbook <Adding Textbooks>` that you add to the course. Note that in
-Studio, all of your textbooks appear in one group, but in the LMS each one
-appears as a separate page.
+As a course team member with the **Staff** or **Admin** role, you also see the Instructor
+option in the navigation bar, shown at the end of the list of pages.
+Learners do not see the Instructor option.
 
-As a course team member with the **Staff** or **Admin** role, you also see the
-**Instructor** option in the navigation bar. Learners do not see the
-**Instructor** option.
-
-To customize your course, you can make the following changes to the pages that
-the system adds by default.
-
-* You can :ref:`change the order<Reorder Pages>` in which the pages are
-  presented, with the exception that the **Course** pages is always presented in
-  the first position.
-
-* If you do not want to use the **Wiki** or **Progress** page in your course,
-  you can :ref:`hide<Show or Hide the Course Wiki Page>` one or both of them.
-
-* If you want to change the name of a page that appears for a textbook, you
-  can change the name that you entered for the textbook.
-
-You can also :ref:`add custom pages<Add Page>`.
+The progress page can be disabled and thus hidden from the learner experience,
+though this is not commonly done and is not recommended. The information on
+the Progress page is critical for motivating learners, particularly in courses
+that include graded subsections, but also for courses that include only ungraded
+exercises. Before choosing to hide the Progress page for your course, consider
+the possible effect on learner engagement.
 
 .. _Add Page:
 
 ***************************
-Adding Custom Pages
+Enabling Additional Applications & Resources
 ***************************
 
-You can customize your course by adding pages. Each page that you add appears
-in the navigation bar for your course. When you add a page, you also add its
-content using an HTML editor.
+Additional applications and resources can be enabled depending on your course needs, including:
 
-The following example shows the navigation bar for a course that has added
-custom pages named **Syllabus** and **Extra Reading**.
-
-.. image:: ../../../shared/images/page_bar_lms.png
- :alt: The navigation bar in the LMS with additional custom pages named
-     "Syllabus" and "Extra Reading".
-
-When you add a page, you can specify whether it and its content are visible
-only to course team members who have the Admin or Staff role, or to all
-enrolled learners as well as the course team. For more information about
-assigning course team roles, see :ref:`Course_Staffing`.
+* Notes
+* Teams
+* Wiki
+* Calculator
+* Textbooks
+* Custom Pages
 
 ===================
 Add a Custom Page
