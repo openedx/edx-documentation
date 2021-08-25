@@ -697,7 +697,7 @@ Method and Endpoint
    * - Method
      - Endpoint
    * - GET
-     - ``/enterprise/v1/enterprise-customer/{enterprise_uuid}/learner-summary``
+     - ``/enterprise/v2/enterprise-customer/{enterprise_uuid}/learner-summary``
 
 =====================
 Example Request
@@ -705,7 +705,7 @@ Example Request
 ::
 
    curl -X GET
-     https://api.edx.org/enterprise/v1/enterprise-customer/\
+     https://api.edx.org/enterprise/v2/enterprise-customer/\
      e1b2c4/clearner-summary \
      -H "Authorization: JWT {access token}"
      -H "Content-Type: application/json" \
@@ -716,7 +716,7 @@ Response Values
 =====================
 
 The
-``GET /enterprise/v1/enterprise-customer/{enterprise_uuid}/learner-summary``
+``GET /enterprise/v2/enterprise-customer/{enterprise_uuid}/learner-summary``
 request returns the following data.
 
 .. list-table::
@@ -730,6 +730,17 @@ request returns the following data.
      - boolean
      - Whether the learner has consented to share their course data with the
        enterprise.
+   * - ``coupon_code``
+     - string
+     - The enrollment code string used by the learner to enroll in their course. (Not applicable for Subscriptions, 
+       Offers, etc.)
+   * - ``coupon_name``
+     - string
+     - The name of the enrollment code batch used by the learner to enroll in their course. (Not applicable for 
+       Subscriptions, Offers, etc.)
+   * - ``course_api_url``
+     - string
+     - The complete url for the course when using the edX API Retrieve Course Metadata endpoint.
    * - ``course_duration_weeks``
      - integer
      - The course duration in weeks.
@@ -750,6 +761,9 @@ request returns the following data.
    * - ``course_pacing_type``
      - enum string
      - Whether the course is self-paced or instructor-paced.
+   * - ``course_price``
+     - string
+     - The original price of the course, before any discounts were applied.
    * - ``course_start``
      - date
      - The date when the course begins, in YYYY-MM-DD format. This is the date
@@ -758,6 +772,12 @@ request returns the following data.
    * - ``course_title``
      - string
      - The name of the course.
+   * - ``current_grade``
+     - decimal
+     - The learner's current grade, which will update as the learner proceeds through the course.
+   * - ``discount_price``
+     - string
+     - The discounted price of the course.
    * - ``enrollment_created_timestamp``
      - timestamp
      - The date and time when the learner enrolled in the course.
@@ -773,25 +793,44 @@ request returns the following data.
    * - ``enterprise_sso_uid``
      - string
      - The learner's user ID in the Enterprise authentication system.
-   * - ``enterprise_user_id``
+   * - ``enterprise_user``
      - string
      - The learner's user ID.
-   * - ``has_passed``
-     - boolean
-     - Whether the learner has passed the course.
+   * - ``id``
+     - string
+     - The enrollment ID.
+   * - ``last_activity_date``
+     - date
+     - The most recent date the learner was active in edX.
    * - ``letter_grade``
      - string
-     - The letter grade that the learner earned in the course.
+     - Blank if the learner progress status is in progress, 'Pass' if the learner has passed the course.
    * - ``lms_user_id``
      - string
      - The learner's user ID in the edx.org LMS.
+   * - ``offer``
+     - string
+     - The offer ID used by the learner to enroll in their course. (Not applicable for Subscriptions, or Codes)
    * - ``passed_timestamp``
      - timestamp
-     - The date and time when the learner passed the course.
+     - The date and time when the learner passed the course. Null if progress status is in progress.
+   * - ``progress_status``
+     - enum string
+     - The current status of the learner in the course. Possible values are: Failed, In Progress, Passed.
+   * - ``unenrollment_end_within_date``
+     - date
+     - The date the learner must unenroll by, in order to receive a refund on the enrollment. This date is
+       traditionally 14 days from the enrollment date or the course start date, whichever is later. 
+   * - ``unenrollment_timestamp``
+     - timestamp
+     - The date the learner unenrolled from the course.
    * - ``user_account_creation_timestamp``
      - timestamp
      - The date and time when the learner's account was created in the edx.org
        LMS.
+   * - ``user_country_code``
+     - string
+     - A two-letter country code. 
    * - ``user_current_enrollment_mode``
      - string
      - The learner's current enrollment mode in the course.
