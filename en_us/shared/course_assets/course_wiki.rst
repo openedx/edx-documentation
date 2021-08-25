@@ -15,8 +15,8 @@ collaboratively edit information both about, and for, your course.
 About the Course Wiki
 ***********************
 
-Every course has a wiki that you can set up in a way appropriate for your
-course. If you have specific expectations for how the wiki should be
+Courses can optionally configure a wiki application and set it up for appropriate use in your course.
+If you have specific expectations for how the wiki should be
 used, communicate these expectations to your learners and staff. You can
 :ref:`seed the wiki<Seeding the Wiki>` with specific content and provide a
 skeleton structure and some exemplars. At the beginning of the course, explain
@@ -91,20 +91,15 @@ the permissions that you set for an article.
 Showing or Hiding the Wiki
 ********************************
 
-When you create a course, a wiki is included by default, and a **Wiki** page is
-visible at the top of the course page. If you do not want to use the course
-wiki, you can hide the **Wiki** page at the top of the course.
+To disable or enable the Wiki application, follow these steps.
 
-To show or hide the wiki in the course tabs, follow these steps.
+#. In Studio, from the **Content** menu select **Pages & Resources**.
+#. Click the gear icon on the **Wiki** card shown on this page.
+#. From the **Configure wiki** modal, select the toggle to enable or disable the **wiki**.
+#. Select **Apply** to save your configuration changes.
 
-#. Open your course in Studio.
-#. Select **Content**, then **Pages**.
-#. Select the eye icon in the **Wiki** row. The **Wiki** page is hidden when
-   the eye icon has a slash through it. You can show the **Wiki** page again by
-   selecting the eye icon.
-
-When you hide the wiki in your course, any existing articles remain in the edX-
-wide wiki, but the **Wiki** page is removed from your course pages.
+When you hide the wiki in your course, any existing articles remain in the edX- wide wiki,
+but the Wiki page is removed from your course pages.
 
 .. In XML authoring, remove the `{"type": "wiki"}` entry in your `/policies/TERM/policy.json` file.
 
@@ -120,15 +115,16 @@ within the wiki, or by locking articles.
 
 To change access to the course wiki, follow these steps.
 
-#. Open your course in Studio.
-#. Select **Settings**, then **Advanced Settings**.
-#. Scroll down to the **Allow Public Access to Wiki** field. This Boolean
-   setting is set to False by default, meaning that only course team members
-   and enrolled learners can see the course wiki. If you change the value of
-   this field to True, then any registered edX user can access the course wiki,
-   even if they are not enrolled in your course. However, public users would
-   have to explicitly navigate to your wiki via the edX-wide wiki structure, or
-   a link that has been provided to them.
+#. In Studio, from the **Content** menu select **Pages & Resources**.
+#. Click the gear icon on the **Wiki** card shown on this page.
+#. From the **Configure wiki** modal, check or uncheck the toggle of the **Enable public wiki access** setting.
+#. Select **Apply** to save your configuration changes.
+
+
+The **Enable public wiki access** wiki setting is disabled by default, meaning that only course team members
+and enrolled learners can see the course wiki. If you enable this setting, then any registered edX user
+can access the course wiki, even if they are not enrolled in your course. However, public users would have
+to explicitly navigate to your wiki via the edX-wide wiki structure, or a link that has been provided to them.
 
 To modify viewing or editing permissions for specific groups of users by
 article, see :ref:`Setting Permissions for Wiki Articles`.
@@ -172,9 +168,9 @@ Groups Used in Wiki Permissions
 
 Each course has the following groups.
 
-	* Beta Testers (by default there are no beta testers until you add them)
-	* Admins (by default, the course author is always in this group)
-	* Staff (these are course team members)
+    * Beta Testers (by default there are no beta testers until you add them)
+    * Admins (by default, the course author is always in this group)
+    * Staff (these are course team members)
 
 You add users to these groups in the LMS by selecting **Instructor** and then
 **Membership**.
