@@ -178,6 +178,7 @@ To add a custom page and its content to your course, follow these steps.
 #. Click **New Page**, which prompts the system to add a page named **Empty** to the end of the list.
 #. In the row for the new page, select **Edit**. The :ref:`visual editor<The Visual Editor>` opens.
 #. Enter the content for your page.
+
     To add HTML tags to your content, select HTML to open the :ref:`the raw HTML editor<The Raw HTML Editor>`.
     For more information about entering content, see :ref:`Options for Editing HTML Components`.
 
@@ -221,56 +222,81 @@ the close icon to the right of each listed chapter.
 
  .. note:: After you delete your textbook on the Textbooks page, edX strongly recommends that you :ref:`lock <Lock a File>` or :ref:`delete <Delete a File>` the PDF files for the textbook on the Files & Uploads page to avoid copyright issues.
 
-*****************
-Reorder the Pages
-*****************
+.. _Configure Resources:
 
-You can reorder the pages in your course in the same way that you
-:ref:`reorganize the course outline<Reorganize the Course Outline>`: you drag a
-page to different location in the list of pages and drop it there.
+************************************
+Configuring Applications & Resources
+************************************
 
-.. note:: You cannot change the order of the **Home** or **Course** pages,
-  which are always presented in the first and second positions.
+As a best practice, you should avoid changing the visibility of your course pages after the course starts.
+For example, your course includes the Wiki page when it starts. A learner adds a page to the course wiki,
+and adds a browser bookmark to that page. If you later hide the Wiki page, the learner’s browser bookmark
+will continue to provide access to the entire course wiki.
 
-If you change the order of the pages after the course start date, note that the
-change immediately affects the sequence of the options on the navigation bar in
-the LMS.
+Included below are detailed instructions for configuration of applications and resources that have additional settings and options.
+
+.. _Discussion Configuration:
+
+=======================================
+Configuring the Discussions application
+=======================================
+
+.. THIS SECTION NOT YET AVAILABLE
+
+.. _Wiki Configuration:
+
+================================
+Configuring the Wiki application
+================================
+
+For instructions on how to enable the wiki application see 11.3.2.3 Enabling the Wiki Application.
+
+You can control access to the wiki in various ways: by changing access to the wiki as a whole,
+by changing the read/write permissions settings of articles within the wiki, or by locking articles.
+
+To change access to the course wiki, follow these steps.
+
+#. In Studio, from the **Content** menu select **Pages & Resources**.
+#. Click the gear icon on the **Wiki** card shown on this page.
+#. From the **Configure** wiki modal, check or uncheck the toggle of the **Enable public wiki access** setting.
+#. Select **Apply** to save your configuration changes.
+
+The **Enable public wiki** access wiki setting is disabled by default, meaning that only course team members and
+enrolled learners can see the course wiki. If you enable this setting, then any registered edX user can access the
+course wiki, even if they are not enrolled in your course. However, public users would have to explicitly navigate
+to your wiki via the edX-wide wiki structure, or a link that has been provided to them.
+
+.. _Teams Configuration:
+
+=================================
+Configuring the Teams application
+=================================
+
+Additional management and configuration of the teams application can be done through the main Team application tab
+in the learner experience, and is detailed in :ref:`12.4<CA_Teams_Overview>` Using the Teams application.
+
+.. _Reordering and deleting custom pages:
+
+************************************
+Reordering and Deleting Custom Pages
+************************************
+
+For instructions on how to add custom pages see 11.3.2.5 Adding Custom Page Resources.
+
+You can reorder the custom pages in your course in the same way that you :ref:`reorganize the course outline<Reorganize the Course Outline>`:
+you drag a page to a different location in the list of pages and drop it there.
+
+.. note:: All default course pages (Course, Progress, Dates, Discussion) and optional course applications (Notes, Teams, Wiki) appear in the navigation before any configured custom page resources. If you have configured any textbook resources, these are listed after custom pages.
 
 To reorder the pages, follow these steps.
 
-#. In Studio, from the **Content** menu select **Pages**.
-
-   On the list of pages, each page that you can move includes a **Drag to
-   reorder** icon.
-
-#. Move your pointer over the **Drag to reorder** icon for the page. Your
-   pointer changes to a four-headed arrow.
-
+#. In Studio, from the **Content** menu select **Pages & Resources**.
+#. Select the **Custom Pages** card on this page.
+#. On the list of pages, each page that you can move includes a Drag to reorder icon.
+#. Move your pointer over the Drag to reorder icon for the page. Your pointer changes to a four-headed arrow.
 #. Click and drag the page to the new location, and then release.
 
-.. _Delete a Page:
+You can also delete a custom page from your course using the delete icon shown on each custom page from the **Custom Pages** Studio page.
+If you delete a page after the course start date, note that the visibility of the page in the learner experience changes immediately.
 
-*********************
-Delete a Custom Page
-*********************
-
-You can delete any of the custom pages that were previously added to the
-course.
-
-* You cannot delete any of the :ref:`default pages<Default Pages>`. However,
-  you can :ref:`hide<Show or Hide the Course Wiki Page>` the **Wiki** and the
-  **Progress** pages.
-
-* To delete a page that appears for a textbook, you delete the textbook.
-
-If you delete a page after the course start date, note that the
-visibility of the page in the LMS changes immediately.
-
-To delete a custom page, follow these steps.
-
-#. In Studio, from the **Content** menu select **Pages**.
-
-   On the list of pages, each page that you can delete includes a **Delete**
-   icon.
-
-#. Select the **Delete** icon, and then confirm the deletion.
+.. note:: When you add a textbook to your course, Studio adds each PDF file that you upload to the **Files & Uploads** page. After you delete your textbook on the **Textbooks** page, edX strongly recommends that you :ref:`lock<Lock a File>` or :ref:`delete<Delete a File>` the PDF files for the textbook on the **Files & Uploads** page to avoid copyright issues.
