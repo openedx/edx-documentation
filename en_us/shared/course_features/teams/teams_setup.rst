@@ -40,8 +40,8 @@ and a clear outcome to achieve with fellow team members. For example, you
 might create an assignment that consists of a group project or activity, with
 a choice of topics, and ask learners to join teams within the topic of their
 choice to complete the assignment. Team members can use discussions within the
-team to communicate and collaborate on the assignment. If you want only to 
-provide a way for learners to connect socially, consider using discussions 
+team to communicate and collaborate on the assignment. If you want only to
+provide a way for learners to connect socially, consider using discussions
 within the course rather than teams. For more information about
 using discussions, see :ref:`Running_discussions`.
 
@@ -52,12 +52,42 @@ using discussions, see :ref:`Running_discussions`.
 Enable and Configure Teams
 *******************************
 
-To enable and configure teams in your course, modify the **Teams
-Configuration** policy key on the **Advanced Settings** page so that the key
-includes team topic names and the maximum team size.
+To disable or enable the Teams application, follow these steps.
+
+#. In Studio, from the **Content** menu select **Pages & Resources**.
+#. Click the gear icon on the **Teams** card shown on this page.
+#. From the **Configure teams** modal, select the toggle to enable or disable the **teams application**.
+#. Select **Apply** to save your configuration changes.
+
 
 .. note:: The **Teams** page in the LMS becomes available only after you have
    specified at least one team topic.
+
+There are several configuration options available to the Teams application.
+Many basic configuration options are provided within Studio’s Pages & Resources area,
+and course management capabilities are available to instructors directly from the Teams application.
+Included below are details about both the configuration options and management tools.
+
+To change access to the course team configuration options, follow these steps.
+
+#. In Studio, from the **Content** menu select **Pages & Resources**.
+#. Click the gear icon on the **Teams** card shown on this page.
+#. From the Configure team modal, adjust any of the configuration settings as described below to fit your course needs.
+#. Select **Apply** to save your configuration changes.
+
+**Default Team Size**
+
+This specifies the maximum number of learners that can join a team, a default value for all teams in your course.
+This default value can be overridden for specific team categories as well further down in the settings list.
+
+**Team Categories: / Topics / Topic-Sets Names & Descriptions**
+
+Each team category is a grouping for multiple learner teams, and each category has several
+configuration details and options. To start, each of these team categories must be given a
+unique name, and optionally a description can also be set.
+
+These names and descriptions are visible to learners in the Teams application as shown in the visual below.
+ADD VISUAL REFERENCE OF TEAMS APP BROWSE TAB
 
 
 .. note::  EdX recommends that you do not delete topics once your course is
@@ -67,71 +97,27 @@ includes team topic names and the maximum team size.
    teams associated with the deleted topic.
 
 
-#. In Studio, from the **Settings** menu, select **Advanced Settings**,
-   then locate the **Teams Configuration** policy key.
+**Types of Team Categories / Topics / Topic-Sets**
 
-   By default, you see a set of curly braces ({}). You define topics and the
-   maximum team size inside this set of braces.
+There are several types of team categories that can be created, each of which behaves
+differently for both instructors and learners.
 
-#. To specify the maximum team size for teams in your course, enter the
-   ``max_team_size`` parameter in double quotation marks, followed by a colon,
-   then a positive integer value representing the maximum number of team
-   members allowed. For example, to set the maximum number of learners per
-   team in your course to 5, your entry would look like this example.
+* **Open** sets up a team category where learner can create, join, leave, and see all teams within the category
+* **Public managed** allows only course staff to control team creation and membership.
+  Learners can see other teams but cannot join or leave their team.
+* **Private managed** allows only course staff to control team creation and membership.
+  Additionally, learners can only see the teams they are members of, unlike other options
+  that give them visibility into other teams. This type is helpful in particular if team
+  assignments are being used in a course.
 
-   ``"max_team_size": 5``
+.. note:: If you do not see all team category type options, check with your platform administrator
+   to see if the relevant teams application features have been enabled.
 
-#. To specify topics within which teams can be created, add entries under
-   ``"topics"``. For each topic, provide a description, name, and ID as shown
-   in the example.
+**Team Category Size Override**
 
-   Make sure that you enclose all of the sets of topic values within a set of
-   square brackets, with a comma after the closing square bracket.
-
-   .. note:: If you create more than one topic, make sure that you add a comma
-      after the closing curly brace of each topic that has another topic
-      following it. The syntax that you use must match the example syntax
-      exactly. Missing or incorrect indentation, curly braces, brackets, or
-      punctuation marks cause errors.
-
-   .. note:: For topic IDs, you can use only alphanumeric characters and the
-      underscore, hyphen, and period characters.
-
-
-::
-
-
-   {
-    "topics": [
-        {
-            "name": "Sustainability in Corporations",
-            "description": "Description for Sustainability in Corporations",
-            "id": "Sustain_Corporations"
-        },
-        {
-            "name": "Water Conservation Projects",
-            "description": "Description for Water Conservation",
-            "id": "Water_Conservation"
-        },
-        {
-            "name": "Sustainability Standards and Reporting",
-            "description": "Description for Sustainability Standards",
-            "id": "Standards_Reporting"
-        }
-    ],
-    "max_team_size": 5
-   }
-
-
-The topics you have created appear on the **Teams** page in the LMS when
-learners browse teams by topic. The **Teams** page is not visible until you
-have created at least one topic.
-
-
-.. image:: ../../../../shared/images/Teams_TopicsView.png
-  :width: 600
-  :alt: Three topics on the Browse Teams page.
-
+Separate from the team maximum size setting, it is possible to override the specific team size for
+a given team category, allowing you to adjust team sizes to fit your course needs. An example of
+when you might need this is ….
 
 .. _Create a Team:
 
