@@ -705,8 +705,7 @@ Example Request
 ::
 
    curl -X GET
-     https://api.edx.org/enterprise/v2/enterprise-customer/\
-     e1b2c4/clearner-summary \
+     https://api.edx.org/enterprise/v2/enterprise-customer/{{enterprise_uuid}}/learner-summary \
      -H "Authorization: JWT {access token}"
      -H "Content-Type: application/json" \
     }]"
@@ -732,12 +731,12 @@ request returns the following data.
        enterprise.
    * - ``coupon_code``
      - string
-     - The enrollment code string used by the learner to enroll in their course. (Not applicable for Subscriptions, 
-       Offers, etc.)
+     - The enrollment code string used by the learner to enroll in their course. (Not applicable to Subscriptions or
+       Offers)
    * - ``coupon_name``
      - string
-     - The name of the enrollment code batch used by the learner to enroll in their course. (Not applicable for 
-       Subscriptions, Offers, etc.)
+     - The name of the enrollment code batch used by the learner to enroll in their course. (Not applicable to 
+       Subscriptions or Offers)
    * - ``course_api_url``
      - string
      - The complete url for the course when using the edX API Retrieve Course Metadata endpoint.
@@ -774,7 +773,8 @@ request returns the following data.
      - The name of the course.
    * - ``current_grade``
      - decimal
-     - The learner's current grade, which will update as the learner proceeds through the course.
+     - The learner's current grade, which will update as the learner proceeds through the course. For more information
+       about progress and grading information, please visit: https://support.edx.org/hc/en-us/articles/4402116362519-Why-does-my-Progress-page-look-different-
    * - ``discount_price``
      - string
      - The discounted price of the course.
@@ -794,10 +794,10 @@ request returns the following data.
      - string
      - The learner's user ID in the Enterprise authentication system.
    * - ``enterprise_user``
-     - string
+     - integer
      - The learner's user ID.
    * - ``id``
-     - string
+     - integer
      - The enrollment ID.
    * - ``last_activity_date``
      - date
@@ -806,7 +806,7 @@ request returns the following data.
      - string
      - Blank if the learner progress status is in progress, 'Pass' if the learner has passed the course.
    * - ``lms_user_id``
-     - string
+     - integer
      - The learner's user ID in the edx.org LMS.
    * - ``offer``
      - string
@@ -818,9 +818,8 @@ request returns the following data.
      - enum string
      - The current status of the learner in the course. Possible values are: Failed, In Progress, Passed.
    * - ``unenrollment_end_within_date``
-     - date
-     - The date the learner must unenroll by, in order to receive a refund on the enrollment. This date is
-       traditionally 14 days from the enrollment date or the course start date, whichever is later. 
+     - boolean
+     - True if the learner has unenrolled from the course.  
    * - ``unenrollment_timestamp``
      - timestamp
      - The date the learner unenrolled from the course.
