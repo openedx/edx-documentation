@@ -20,7 +20,7 @@
 
 .. _Review Answers to Ungraded Problems: http://edx.readthedocs.io/projects/edx-insights/en/latest/performance/Performance_Ungraded.html#review-answers-to-ungraded-problems
 
-.. _Open edX Analytics wiki: http://edx-wiki.atlassian.net/wiki/display/OA/Open+edX+Analytics+Home
+.. _Open edX Analytics wiki: https://openedx.atlassian.net/wiki/spaces/COMM/pages/979927117/Open+edX+Analytics
 
 .. _openedx-analytics: http://groups.google.com/forum/#!forum/openedx-analytics
 
@@ -259,7 +259,7 @@
 .. _Testing in Django: https://docs.djangoproject.com/en/1.8/topics/testing/
 .. _Django sites framework: https://docs.djangoproject.com/en/1.8/ref/contrib/sites
 .. _Jasmine: http://jasmine.github.io/2.3/introduction.html
-.. _edX JavaScript Style Guide: http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/style_guides/javascript_guidelines.html
+.. _edX JavaScript Style Guide: https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/style_guides/javascript-guidelines.html
 .. _JSHint: http://www.jshint.com/
 .. _jscs: https://www.npmjs.org/package/jscs
 .. _Waffle: http://waffle.readthedocs.io/en/latest
@@ -306,7 +306,7 @@
 
 .. _default EC2 role for Amazon EMR: http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-iam-roles-defaultroles.html#emr-iam-roles-defaultec2
 
-.. _Default IAM Roles for Amazon EMR: http://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-iam-roles-defaultroles.html#emr-iam-roles-defaultec2
+.. _Default IAM Roles for Amazon EMR: https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-iam-role-for-ec2.html
 
 .. _a single public subnet: http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenario1.html
 
@@ -370,7 +370,7 @@
 
 .. _Vagrant documentation: http://docs.vagrantup.com/v2/
 
-.. _Ansible: http://docs.ansible.com/ansible/index.html
+.. _Ansible: https://docs.ansible.com/
 
 .. _Font Awesome: http://fortawesome.github.io/Font-Awesome/icons/
 

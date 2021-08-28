@@ -438,7 +438,7 @@ page for a list of the documentation that is available.
 .. _meetup: http://www.meetup.com/edX-Global-Community/
 .. _openedx-analytics: http://groups.google.com/forum/#!forum/openedx-analytics
 .. _Open edX documentation: http://docs.edx.org/openedx.html
-.. _Open edX Analytics: http://edx-wiki.atlassian.net/wiki/display/OA/Open+edX+Analytics+Home
+.. _Open edX Analytics: https://openedx.atlassian.net/wiki/spaces/COMM/pages/979927117/Open+edX+Analytics
 .. _Open edX Learner's Guide: http://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/
 .. _openedx-ops: http://groups.google.com/forum/#!forum/openedx-ops
 .. _Open edX Portal: https://open.edx.org
