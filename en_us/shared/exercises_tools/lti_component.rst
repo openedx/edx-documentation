@@ -317,7 +317,10 @@ Currently, the platform supports the following LTI Advantage extensions:
 Enabling LTI Assignments and Grades services
 ============================================
 
-To set up LTI Assignments and Grades (LTI-AGS) services on a component, follow these steps.
+The LTI Assignments and Grades service (LTI-AGS) allows LTI tools to send and manage 
+learner grades back to the platform after an activity is completed.
+
+To set up LTI-AGS services on a component, follow these steps.
 
 #. Locate the unit and LTI component in which you want to enable LTI-AGS functionality.
 
@@ -339,7 +342,12 @@ To set up LTI Assignments and Grades (LTI-AGS) services on a component, follow t
 Enabling and using LTI Deep Linking
 ===================================
 
-To set up LTI Deep Linking (LTI-DL) services on a component, follow these steps.
+The Deep Linking service (LTI-DL) allows course creators to select and configure
+the content displayed to learners through Open edX Studio, removing the need to 
+use custom parameters and settings when setting up content, improving the ease of 
+use and content authoring experience.
+
+To set up LTI-DL services on a component, follow these steps.
 
 #. Locate the unit and LTI component in which you want to enable LTI-DL functionality.
 
@@ -380,7 +388,13 @@ To use LTI Deep Linking, follow these steps:
 Enabling LTI Names and Roles Provisioning Service
 =================================================
 
-To set up LTI Names and Roles Provisioning Service (LTI-NRPS) services on a component, follow these steps.
+The Names and Roles Provisioning service (LTI-NRPS) allows tools to list and retrieve 
+information about the learners that have access to an LTI component. 
+The tools that support this service can retrieve a limited amount of personal 
+information (full name, email, username) and the membership status of all the learners 
+enrolled in the course.
+
+To set up LTI-NRPS services on a component, follow these steps.
 
 #. Locate the unit and LTI component in which you want to enable LTI-NRPS functionality.
 
