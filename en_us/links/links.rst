@@ -396,6 +396,10 @@
 
 .. _Assignments and Grades services: https://www.imsglobal.org/spec/lti-ags/v2p0
 
+.. _Names and Roles Provisioning Service: https://www.imsglobal.org/spec/lti-nrps/v2p0
+
+.. _LTI_NRPS_ACTIVE_ENROLLMENT_LIMIT setting: https://github.com/edx/xblock-lti-consumer/blob/master/docs/decisions/0004-lti-advantage-nrps.rst#decision 
+
 .. _Issuing Badges: https://wiki.mozilla.org/Badges/Onboarding-Issuer#Issuing_Badges
 
 .. _Oppia: https://www.oppia.org
