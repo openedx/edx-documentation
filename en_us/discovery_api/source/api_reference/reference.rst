@@ -93,7 +93,7 @@ See :ref:`skills<skills Fields>` for information about the fields in a skill ite
 Skills List Endpoint
 ********************
 
-GET calls to ``/skills`` endpoint return a list of all the available skills in the system.
+GET call to the ``/skills`` endpoint returns a list of all the available skills in the system.
 
 ===================
 Method and Endpoint
@@ -605,7 +605,7 @@ The following example response shows a job detail response.
 JobPostings List Endpoint
 *************************
 
-GET calls to ``/jobpostings`` endpoint return a list of all the available JobPostings in the system.
+GET call to the ``/jobpostings`` endpoint returns a list of all the available JobPostings in the system.
 
 ===================
 Method and Endpoint
