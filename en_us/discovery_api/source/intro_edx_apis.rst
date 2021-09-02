@@ -1,9 +1,15 @@
 .. _Discovery API Introduction:
 
-#############################
+############
 Introduction
-#############################
+############
 
 Discovery is a service that provides access to consolidated course and program metadata.
-It does this primarily through a REST API that supports courses, course runs, programs,
-catalogs, and search. It also provides skills, jobs and job postings data for courses.
+It does this primarily through a REST API that supports ``courses``, ``course runs``, ``programs``,
+``catalogs``, and ``search``.
+
+It also provides ``skills``, ``jobs`` and ``job postings`` data for all the published ``courses``.
+These ``skills`` are extracted by text processing provided in course's full description. We
+also collect and save the data about ``jobs`` that are related to ``skills`` in our system
+using third party tools and services. ``Job posting`` is information about the number of job postings
+available in market, median salary and companies offering the job, etc.

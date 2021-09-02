@@ -1,58 +1,66 @@
 .. _Discovery API Reference:
 
-################################
+###########################
 EdX Discovery API Reference
-################################
+###########################
 
 This API reference includes detailed information about the endpoints of the edX
 Discovery API, including the request, response data, and examples. You can use
 any technology to send REST API requests as HTTP messages to the edX API. The
 example API requests shown in this reference use the ``curl`` command-line program
 to show the syntax and data for a request in a way that is easy to read. To view all
-the endpoints hosted by Discovery service go to ``/api-docs/``
+these endpoints hosted by Discovery service go to ``/api-docs/``
 
-*********
+******************
 Taxonomy Endpoints
-*********
+******************
 
-The following endpoints are available in the Discovery API under Taxonomy app.
+The following endpoints are available in Taxonomy app under the Discovery API.
 
-* **/skills** - You can make GET calls to the
-  ``/skills`` endpoint to get all the skills available in the system.
-  see :ref:`skills_list Endpoint`.
-
-* **/skills/{skill_id}** - You can make GET calls to the
-  ``/skills/{skill_id}`` endpoint to get a details of a specified
-  skill For details, see
-  :ref:`skills_detailed Endpoint`.
-
-* **/jobs** - You can make GET calls to the
-  ``/jobs`` endpoint to get all the jobs available in the system.
-  :ref:`jobs_list Endpoint`.
-
-* **/jobs/{job_id}** - You can make GET calls to the
-  ``/jobs/{job_id}`` endpoint to get a details of a specified
-  job For details, see
-  :ref:`jobs_detailed Endpoint`.
-
-* **/jobpostings** - You can make GET calls to the
-  ``/skills`` endpoint to get all the job postings available in the system.
-  :ref:`jobpostings_list Endpoint`.
-
-* **/jobpostings/{jobpostings_id}** - You can make GET calls to the
-  ``/jobpostings/{jobpostings_id}`` endpoint to get a details of a specified
-  job postings For details, see
-  :ref:`jobpostings_detailed Endpoint`.
+* **/skills**
+    Skills are extracted by text processing provided in course
+    full description. These skills are linked with the relevant courses. You can
+    make GET calls to the ``/skills`` endpoint to get all the skills available
+    in the system. See :ref:`skills_list Endpoint` for more details.
 
 
+* **/skills/{skill_id}**
+    You can make GET calls to the ``/skills/{skill_id}``
+    endpoint to get details for a specified skill. For details, see
+    :ref:`skills_detailed Endpoint`.
 
-=====================
+
+* **/jobs**
+    We also collect and save the data about `jobs` that are related to
+    `skills`. We extract this imformation using third party tools and services.
+    Jobs are linked with the skills that can help the learners to those jobs in
+    the market. You can make GET calls to the ``/jobs`` endpoint to get all the jobs.
+    See, :ref:`jobs_list Endpoint` for more details.
+
+* **/jobs/{job_id}**
+    You can make GET calls to the ``/jobs/{job_id}`` endpoint to get details of
+    a specified job. For details, see :ref:`jobs_detailed Endpoint`.
+
+* **/jobpostings**
+    JobPostings is information about the number of job postings available in market,
+    median salary and companies offering the job, etc. You can make GET calls to
+    the ``/jobpostings`` endpoint to get all the job postings
+    available in the system. See :ref:`jobpostings_list Endpoint` for more details.
+
+* **/jobpostings/{jobpostings_id}**
+    You can make GET calls to the ``/jobpostings/{jobpostings_id}`` endpoint to get
+    details of a specified JobPostings object. For details,
+    see :ref:`jobpostings_detailed Endpoint`.
+
+
+
+==================================
 Taxonomy Endpoints Response layout
-=====================
+==================================
 
 Responses to GET requests for the edX Discovery API frequently contain
 the ``results`` response value. The ``results`` response value is a variable
-that represents the intended object from the GET request. here is the details.
+that represents the intended object from the GET request. Here are the details.
 
 
 .. list-table::
@@ -64,7 +72,7 @@ that represents the intended object from the GET request. here is the details.
      - Description
    * - ``count``
      - integer
-     - The number of objects in our system.
+     - The number of objects in the system.
    * - ``next``
      - string
      - The URL for the next page of results.
@@ -81,9 +89,9 @@ See :ref:`skills<skills Fields>` for information about the fields in a skill ite
 
 .. _skills_list Endpoint:
 
-*****************************************
+********************
 Skills List Endpoint
-*****************************************
+********************
 
 GET calls to ``/skills`` endpoint return a list of all the available skills in the system.
 
@@ -101,22 +109,22 @@ Method and Endpoint
      - ``/taxonomy/api/v1/skills/``
 
 
-=====================
+===============
 Example Request
-=====================
+===============
 ::
 
    curl -X GET \
    https://discovery.edx.org/taxonomy/api/v1/skills/ \
    -H "Authorization: JWT {access token}"
 
-=====================
+==========
 Parameters
-=====================
+==========
 
 You can use an optional ``page_size`` parameter to specify the number of
-records you want to load in a single page. if you will not specify the
-`page_size` it will take 20 as default. For example:
+records you want to load in a single page. If not provided the default of
+20 is used for `page_size`. For example:
 
 ::
 
@@ -128,12 +136,11 @@ records you want to load in a single page. if you will not specify the
 
 .. _skills_detailed Endpoint:
 
-*********************************************************************
+**************************
 skills/{skill_id} Endpoint
-*********************************************************************
+**************************
 
-GET calls to the ``skills/{skill_id}``
-endpoint return information about a single skill.
+GET call to the ``skills/{skill_id}`` endpoint returns information about a single skill.
 In the GET call, The information returned is described in
 :ref:`Skill Fields <skills Fields>`.
 
@@ -150,9 +157,9 @@ Method and Endpoint
    * - GET
      - ``/taxonomy/api/v1/skills/{skill_id}``
 
-=====================
+===============
 Example Request
-=====================
+===============
 ::
 
    curl -X GET \
@@ -160,18 +167,18 @@ Example Request
    -H "Authorization: JWT {access token}"
 
 
-=====================
+===============
 Response Values
-=====================
+===============
 
 The ``GET https://discovery.edx.org/taxonomy/api/v1/skills/{skill_id}``
 request returns the response values described in :ref:`Skill Fields <skills Fields>`.
 
 .. _skills Fields:
 
-====================================
+=================
 Fields in a Skill
-====================================
+=================
 
 
 .. list-table::
@@ -207,10 +214,10 @@ Fields in a Skill
      - object modified time. Example: "2021-02-23T11:01:08.164127Z".
    * - ``external_id``
      - string
-     - An identifier for the object in EMSI system. Example: "KS122LN6CLX3P61KWSP2".
+     - An identifier for the skill in the source system. Example: "KS122LN6CLX3P61KWSP2".
    * - ``info_url``
      - string
-     - URL to get more details for skill from EMSI.
+     - URL to get more details for skill from the source.
    * - ``type_id``
      - string
      - Skill type id, Example: "ST1"
@@ -219,9 +226,9 @@ Fields in a Skill
      - Skill type name, Example: "Hard Skill"
 
 
-=======================================================
+================================================
 Example Response Showing Information skills list
-=======================================================
+================================================
 
 The following example response shows a skills list response for 3 page_size.
 
@@ -357,11 +364,11 @@ The following example response shows a skills list response for 3 page_size.
 
 .. _jobs_list Endpoint:
 
-*****************************************
+******************
 Jobs List Endpoint
-*****************************************
+******************
 
-GET calls to ``/jobs`` endpoint return a list of all the available jobs in the system.
+GET call to ``/jobs`` endpoint returns a list of all the available jobs in the system.
 
 ===================
 Method and Endpoint
@@ -377,22 +384,22 @@ Method and Endpoint
      - ``/taxonomy/api/v1/jobs/``
 
 
-=====================
+===============
 Example Request
-=====================
+===============
 ::
 
    curl -X GET \
    https://discovery.edx.org/taxonomy/api/v1/jobs/ \
    -H "Authorization: JWT {access token}"
 
-=====================
+==========
 Parameters
-=====================
+==========
 
 You can use an optional ``page_size`` parameter to specify the number of
-records you want to load in a single page. if you will not specify the
-`page_size` it will take 20 as default. For example:
+records you want to load in a single page. If not provided the default of
+20 is used for `page_size`. For example:
 
 ::
 
@@ -404,12 +411,12 @@ records you want to load in a single page. if you will not specify the
 
 .. _jobs_detailed Endpoint:
 
-*********************************************************************
+**********************
 jobs/{job_id} Endpoint
-*********************************************************************
+**********************
 
-GET calls to the ``jobs/{job_id}``
-endpoint return information about a single job.
+GET call to the ``jobs/{job_id}``
+endpoint returns information about a single job.
 In the GET call, The information returned is described in
 :ref:`Jobs Fields <jobs Fields>`.
 
@@ -426,9 +433,9 @@ Method and Endpoint
    * - GET
      - ``/taxonomy/api/v1/jobs/{job_id}``
 
-=====================
+===============
 Example Request
-=====================
+===============
 ::
 
    curl -X GET \
@@ -436,18 +443,18 @@ Example Request
    -H "Authorization: JWT {access token}"
 
 
-=====================
+===============
 Response Values
-=====================
+===============
 
 The ``GET https://discovery.edx.org/taxonomy/api/v1/jobs/{jobs}``
 request returns the response values described in :ref:`Jobs Fields <jobs Fields>`.
 
 .. _jobs Fields:
 
-====================================
+===============
 Fields in a Job
-====================================
+===============
 
 
 .. list-table::
@@ -480,12 +487,12 @@ Fields in a Job
      - object modified time. Example: "2021-02-23T11:01:08.164127Z".
    * - ``external_id``
      - string
-     - An identifier for the object in EMSI system. Example: "ETB716DA673BC8BE08".
+     - An identifier for the job in the source system. Example: "ETB716DA673BC8BE08".
 
 
-=======================================================
+================================================
 Example Response Showing Information Job details
-=======================================================
+================================================
 
 The following example response shows a job detail response.
 
@@ -594,11 +601,11 @@ The following example response shows a job detail response.
 
 .. _jobpostings_list Endpoint:
 
-*****************************************
-Job postings List Endpoint
-*****************************************
+*************************
+JobPostings List Endpoint
+*************************
 
-GET calls to ``/jobpostings`` endpoint return a list of all the available job postings in the system.
+GET calls to ``/jobpostings`` endpoint return a list of all the available JobPostings in the system.
 
 ===================
 Method and Endpoint
@@ -614,22 +621,22 @@ Method and Endpoint
      - ``/taxonomy/api/v1/jobpostings/``
 
 
-=====================
+===============
 Example Request
-=====================
+===============
 ::
 
    curl -X GET \
    https://discovery.edx.org/taxonomy/api/v1/jobpostings/ \
    -H "Authorization: JWT {access token}"
 
-=====================
+==========
 Parameters
-=====================
+==========
 
 You can use an optional ``page_size`` parameter to specify the number of
-records you want to load in a single page. if you will not specify the
-`page_size` it will take 20 as default. For example:
+records you want to load in a single page. If not provided the default of
+20 is used for `page_size`. For example:
 
 ::
 
@@ -641,12 +648,12 @@ records you want to load in a single page. if you will not specify the
 
 .. _jobpostings_detailed Endpoint:
 
-*********************************************************************
+*************************************
 jobpostings/{jobpostings_id} Endpoint
-*********************************************************************
+*************************************
 
-GET calls to the ``jobpostings/{jobpostings_id}``
-endpoint return information about a single JobPostings object.
+GET call to the ``jobpostings/{jobpostings_id}``
+endpoint returns information about a single JobPostings object.
 In the GET call, The information returned is described in
 :ref:`JobsPostings Fields <_JobPostings Fields>`.
 
@@ -663,9 +670,9 @@ Method and Endpoint
    * - GET
      - ``/taxonomy/api/v1/jobpostings/{jobpostings_id}``
 
-=====================
+===============
 Example Request
-=====================
+===============
 ::
 
    curl -X GET \
@@ -673,18 +680,18 @@ Example Request
    -H "Authorization: JWT {access token}"
 
 
-=====================
+===============
 Response Values
-=====================
+===============
 
 The ``GET https://discovery.edx.org/taxonomy/api/v1/jobpostings/{jobpostings_id}``
-request returns the response values described in :ref:`Job Postings Fields <JobPostings Fields>`.
+request returns the response values described in :ref:`JobPostings Fields <JobPostings Fields>`.
 
 .. _JobPostings Fields:
 
-====================================
+==============================
 Fields in a JobPostings Object
-====================================
+==============================
 
 
 .. list-table::
@@ -720,9 +727,9 @@ Fields in a JobPostings Object
      - object modified time. Example: "2021-02-23T11:01:08.164127Z".
 
 
-=======================================================
+================================================
 Example Response Showing Information JobPostings
-=======================================================
+================================================
 
 The following example response shows a JobPostings List response.
 
