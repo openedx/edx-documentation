@@ -152,10 +152,9 @@ You can customize your course by adding pages. Each page that you add appears in
 bar for your course. When you add a page, you also add its content using an HTML editor.
 The following example shows the navigation bar for a course that has added a custom page named Syllabus.
 
-..    TODO: IMAGE UPDATE NEEDED
-.. .. image:: ../../../shared/images/insertImageHere
-..   :width: 500
-..   :alt: The navigation bar in the LMS, showing a custom page named Syllabus.
+    .. image:: ../../../shared/images/lms_navigation_bar.png
+     :width: 500
+     :alt: The navigation bar in the LMS, showing a custom page named Syllabus.
 
 When you add a page, you can specify whether it and its content are visible only to course team
 members who have the Admin or Staff role, or to all enrolled learners as well as the course team.
@@ -233,7 +232,7 @@ For example, your course includes the Wiki page when it starts. A learner adds a
 and adds a browser bookmark to that page. If you later hide the Wiki page, the learner’s browser bookmark
 will continue to provide access to the entire course wiki.
 
-Included below are detailed instructions for configuration of applications and resources that have additional settings and options.
+Included below are detailed instructions for the configuration of applications and resources that have additional settings and options.
 
 .. _Discussion Configuration:
 
@@ -241,7 +240,22 @@ Included below are detailed instructions for configuration of applications and r
 Configuring the Discussions application
 =======================================
 
-.. THIS SECTION NOT YET AVAILABLE
+There are several configuration options available to the Discussions application.
+Many basic configuration options are provided within Studio’s Pages & Resources area, and moderation capabilities
+are available to instructors, moderators, and community TAs directly from the Discussions application.
+Included below are details about both the configuration options and management tools.
+
+To change how the discussion experience is configured, follow these steps:
+#. In **Studio**, from the Content menu select **Pages & Resources**.
+#. Click the gear icon on the **Discussion** card shown on this page.
+#. From the **Configure discussion** modal, adjust any of the configuration settings as described below to fit your course needs.
+#. Select **Apply** to save your configuration changes.
+
+The discussion configuration experience is comprised of two steps: provider selection and provider configuration.
+By default, courses are created with the edX discussion experience and its default configuration, but these can be
+changed to fit the needs of courses easily though this configuration experience.
+
+.. TODO THIS SECTION NOT YET COMPLETE
 
 .. _Wiki Configuration:
 
