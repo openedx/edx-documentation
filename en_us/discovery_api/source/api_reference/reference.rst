@@ -4,7 +4,7 @@
 EdX Discovery API Reference
 ###########################
 
-This API reference includes detailed information about the endpoints of the edX
+This API reference includes information about the endpoints of the edX
 Discovery API, including the request, response data, and examples. You can use
 any technology to send REST API requests as HTTP messages to the edX API. The
 example API requests shown in this reference use the ``curl`` command-line program
@@ -15,7 +15,7 @@ these endpoints hosted by Discovery service go to ``/api-docs/``
 Taxonomy Endpoints
 ******************
 
-The following endpoints are available in Taxonomy app under the Discovery API.
+The following endpoints are available in Taxonomy application under the Discovery API.
 
 * **/skills**
     Skills are extracted by text processing provided in course
@@ -32,18 +32,18 @@ The following endpoints are available in Taxonomy app under the Discovery API.
 
 * **/jobs**
     We also collect and save the data about `jobs` that are related to
-    `skills`. We extract this imformation using third party tools and services.
-    Jobs are linked with the skills that can help the learners to those jobs in
-    the market. You can make GET calls to the ``/jobs`` endpoint to get all the jobs.
-    See, :ref:`jobs_list Endpoint` for more details.
+    `skills`. We extract this information using third party tools and services.
+    Jobs are linked with the skills to help learners align their career plans
+    with their course work. You can make GET calls to the ``/jobs`` endpoint
+    to get all the jobs. See, :ref:`jobs_list Endpoint` for more details.
 
 * **/jobs/{job_id}**
     You can make GET calls to the ``/jobs/{job_id}`` endpoint to get details of
     a specified job. For details, see :ref:`jobs_detailed Endpoint`.
 
 * **/jobpostings**
-    JobPostings is information about the number of job postings available in market,
-    median salary and companies offering the job, etc. You can make GET calls to
+    JobPostings contains the number of job postings with posting companies and
+    median salary information. You can make GET calls to
     the ``/jobpostings`` endpoint to get all the job postings
     available in the system. See :ref:`jobpostings_list Endpoint` for more details.
 
@@ -226,9 +226,9 @@ Fields in a Skill
      - Skill type name, Example: "Hard Skill"
 
 
-================================================
-Example Response Showing Information skills list
-================================================
+======================================================
+Example Response Showing Information about skills list
+======================================================
 
 The following example response shows a skills list response for 3 page_size.
 
@@ -490,9 +490,9 @@ Fields in a Job
      - An identifier for the job in the source system. Example: "ETB716DA673BC8BE08".
 
 
-================================================
-Example Response Showing Information Job details
-================================================
+======================================================
+Example Response Showing Information about Job details
+======================================================
 
 The following example response shows a job detail response.
 
@@ -727,9 +727,9 @@ Fields in a JobPostings Object
      - object modified time. Example: "2021-02-23T11:01:08.164127Z".
 
 
-================================================
-Example Response Showing Information JobPostings
-================================================
+======================================================
+Example Response Showing Information about JobPostings
+======================================================
 
 The following example response shows a JobPostings List response.
 
