@@ -78,16 +78,18 @@ To change access to the course team configuration options, follow these steps.
 **Default Team Size**
 
 This specifies the maximum number of learners that can join a team, a default value for all teams in your course.
-This default value can be overridden for specific team categories as well further down in the settings list.
+This default value can be overridden for a specific team category as well.
 
-**Team Categories: / Topics / Topic-Sets Names & Descriptions**
+**Team Categories:**
 
 Each team category is a grouping for multiple learner teams, and each category has several
 configuration details and options. To start, each of these team categories must be given a
 unique name, and optionally a description can also be set.
 
 These names and descriptions are visible to learners in the Teams application as shown in the visual below.
-ADD VISUAL REFERENCE OF TEAMS APP BROWSE TAB
+
+    .. image:: ../../../shared/images/teams_application_screen.png
+    :alt: The navigation bar in the LMS, showing the default pages.
 
 
 .. note::  EdX recommends that you do not delete topics once your course is
@@ -97,7 +99,7 @@ ADD VISUAL REFERENCE OF TEAMS APP BROWSE TAB
    teams associated with the deleted topic.
 
 
-**Types of Team Categories / Topics / Topic-Sets**
+**Types of Team Categories**
 
 There are several types of team categories that can be created, each of which behaves
 differently for both instructors and learners.
