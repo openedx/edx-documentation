@@ -182,7 +182,7 @@ To reuse a rubric, complete the following steps:
    the value following "Block ID for this ORA". This will allow you to uniquely
    identify this ORA later.
 
-#. Navigate to (or create) an unpublished ORA where you'd like to copy the rubric.
+#. Navigate to (or create) an unpublished ORA where you'd like to reuse the rubric.
 
 #. In the ORA component editor, select the **Rubric** tab and expand the
    **Clone Rubric** section.
