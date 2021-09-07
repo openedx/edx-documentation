@@ -20,7 +20,7 @@ The following endpoints are available in Taxonomy application under the Discover
 * **/skills**
     The ``skills`` are extracted using course's full description by third party tools
     and services. Skills are linked with courses to help learners choose their courses
-    their for desired skills. You can make GET calls to the ``/skills`` endpoint to get
+    for their desired skills. You can make GET calls to the ``/skills`` endpoint to get
     all the skills available in the system. See :ref:`skills_list Endpoint` for more details.
 
 
