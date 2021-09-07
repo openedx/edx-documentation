@@ -9,7 +9,6 @@ It does this primarily through a REST API that supports ``courses``, ``course ru
 ``catalogs``, and ``search``.
 
 It also provides ``skills``, ``jobs`` and ``job postings`` data for all the published ``courses``.
-the ``skills`` are extracted by text processing provided in course's full description. We
-also collect and save the data about ``jobs`` that are related to ``skills`` in our system
-using third party tools and services. ``JobPostings`` contains the number of job postings with
-posting companies and median salary information.
+The ``skills`` are extracted using course's full description by third party tools and services. We
+also collect and save the data about ``jobs`` that is relevant to the ``skills`` in our system.
+``JobPostings`` contains the number of job postings with posting companies and median salary information.
