@@ -164,6 +164,38 @@ To provide a comment field without options, complete these steps.
 
 #. Next to **Feedback for This Criterion**, select **Required** from the list.
 
+=============
+Reuse Rubrics
+=============
+
+If your course uses multiple Open Response Assessments with similar assessment
+criteria, reusing rubrics may save time and prevent having to re-author the same
+rubric across many ORAs.
+
+To reuse a rubric, complete the following steps:
+
+#. In Studio, navigate to an ORA with a completed rubric you'd like to copy.
+
+#. In the ORA component editor, select the **Rubric** tab.
+
+#. Expand the **Clone Rubric** section (if it is not already expanded) and copy or note
+   the value following "Block ID for this ORA". This will allow you to uniquely
+   identify this ORA later.
+
+#. Navigate to (or create) an unpublished ORA where you'd like to copy the rubric.
+
+#. In the ORA component editor, select the **Rubric** tab and expand the
+   **Clone Rubric** section.
+
+#. In the "Block ID" dropdown, paste or select the ID of the ORA to copy rubric data
+   from.
+
+#. Click "Clone". A banner should appear saying "Rubric Successfully Cloned from
+   Block ID: <block ID>".
+
+#. **Note**: Cloning rubric data clears Learner Training examples. If applicable,
+   follow the instructions at :ref:`learner training step<PA Student Training Step>` to
+   add updated Learner Training examples.
 
 .. _PA Specify Additional Settings:
 
