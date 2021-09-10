@@ -655,7 +655,7 @@ jobpostings/{jobpostings_id} Endpoint
 GET call to the ``jobpostings/{jobpostings_id}``
 endpoint returns information about a single JobPostings object.
 In the GET call, The information returned is described in
-:ref:`JobsPostings Fields <_JobPostings Fields>`.
+:ref:`JobPostings Fields <JobPostings fields>`.
 
 ===================
 Method and Endpoint

@@ -25,6 +25,8 @@ html:
 	@cd $(CURDIR)/data && make html $(Q_FLAG)
 	@echo Developers Guide
 	@cd $(CURDIR)/developers && make html $(Q_FLAG)
+	@echo Discovery API Guide
+	@cd $(CURDIR)/discovery_api && make html $(Q_FLAG)
 	@echo EdX Style Guide
 	@cd $(CURDIR)/edx_style_guide && make html $(Q_FLAG)
 	@echo Open edX Installation and Configuration Guide

@@ -38,6 +38,7 @@ then
         "en_us/course_authors"
         "en_us/data"
         "en_us/developers"
+        "en_us/discovery_api"
         "en_us/edx_style_guide"
         "en_us/enterprise_api"
         "en_us/install_operations"
