@@ -369,7 +369,7 @@ review grades for a course, follow these steps.
 
 #. View the live version of your course.
 
-#. Select **Instructor**, and then select **Student Admin**. 
+#. Select **Instructor**, and then select **Student Admin**.
 
 #. Select **View Gradebook**. Grades are calculated and the Gradebook displays.
 
@@ -377,7 +377,7 @@ review grades for a course, follow these steps.
      :alt: Course gradebook with rows for learners and columns for assignments.
 
 The gradebook displays a table, with a row for each learner (\*see note) enrolled in the
-course, listed by user name, and a column for each assignment in the course. 
+course, listed by user name, and a column for each assignment in the course.
 
 .. note:: By default, the gradebook will not include any user enrolled in the course who also has a
    "Course Access Role". This includes course staff, course administrators, course data researchers,
@@ -401,18 +401,18 @@ The gradebook includes the following features:
 
   * *Cohort:* only show learners in a certain cohort.
 
-  * *Include Course Team Members:* By default, users with certain course roles 
+  * *Include Course Team Members:* By default, users with certain course roles
     (Staff, Admin, Beta Tester, Course Data Researcher) will be excluded from gradebook results.
     To include those users, you can select this option, which will include those excluded users
     in the gradebook.
 
 * **Searching:** You can search for individual learners by their username, using the search field. Searches are case-insensitive.
 
-* **Grade Override:** You can override the grade that a learner has received for a 
-  specific graded subsection. For information about how to do this, see 
+* **Grade Override:** You can override the grade that a learner has received for a
+  specific graded subsection. For information about how to do this, see
   :ref:`Override in Gradebook`.
 
-* **Master’s courses:** The edX gradebook has several features for high-touch courses. For learners in the Master’s track: 
+* **Master’s courses:** The edX gradebook has several features for high-touch courses. For learners in the Master’s track:
 
   * You can search by email or university student key.
 
@@ -427,9 +427,9 @@ The gradebook includes the following features:
 Override Learner Subsection Scores in Bulk
 **********************************************
 
-.. note:: Master’s-only feature 
+.. note:: Master’s-only feature
 
-This feature is available in courses with a Master’s track, to support bulk grade adjustments or curving. It allows you to override subsection (i.e. assignment or exam) grades for in bulk by uploading a file. 
+This feature is available in courses with a Master’s track, to support bulk grade adjustments or curving. It allows you to override subsection (i.e. assignment or exam) grades for in bulk by uploading a file.
 
 .. note:: Grade overrides apply to all learners enrolled in supported courses. There is a size limit of 4MB (~10k learners) for uploaded files. If your Master’s track course is bigger than this, you’ll have to upload grading files in chunks.
 
@@ -452,9 +452,9 @@ To override grades in bulk, follow these steps.
    * **course_id**: The course ID
    * **track**: The user's enrollment track (e.g. audit, verified, etc.)
    * **cohort**: The user's assigned cohort, if any
-   
+
    In addition, there are five columns per graded subsection. **<id>** is a unique internal identifier for each graded subsection.
-   
+
    * **name-<id>**: The name of the subsection
    * **grade-<id>**: The “effective” grade for the subsection. This is equal to the override grade if there is an override, otherwise it is equal to the “original grade”
    * **original_grade-<id>**: The grade that the user earned through answering problems and being scored through the LMS
@@ -482,7 +482,7 @@ You can find a history of files uploaded and summary of results by clicking the 
 Per-Learner Interventions Report
 **********************************************
 
-.. note:: Master’s-only feature 
+.. note:: Master’s-only feature
 
 This feature is available in courses with a Master’s track, to support manual learning interventions. It allows you to export per-learner progress and grade information for Master’s track learners, and enables you to identify and reach out to learners who may need additional help.
 
@@ -536,17 +536,18 @@ To check a single learner's progress in your course, you can review the data
 in the :ref:`grade report<Access_grades>` or :ref:`problem grade
 report<problem_report>`, or review the learner's **Progress** page.
 
-A learner's **Progress** page includes a chart that plots the score that the
-learner has earned for each graded assignment and the total grade, as of the
-current date. Below the chart, scores for every assignment by subsection,
-including ungraded assignments, are listed.
+The **Progress** page includes a variety of features which allow learners to gauge
+their performance in a course. The main features of the **Progress** page are:
 
-Both in the chart on the **Progress** page and in the :ref:`problem grade
-report<problem_report>`, learners' assignment scores are grouped by assignment
-type rather than in the order that they occur in the course. In the bar chart
-on the **Progress** page, the total score that a learner has earned for the
-course appears after the individual assignment scores, while in the problem
-grade report, the total score appears before the individual assignment scores.
+* the :ref:`Course Completion<course_completion>` chart, which represents all course content completed, both graded and ungraded,
+
+* the :ref:`Grades<grades_chart>` chart, which compares the current weighted grade compared to the grade required to pass the course and receive a certificate,
+
+* the :ref:`Grade Summary<grade_summary>` table, which lists all assignment types and their weights,
+
+* the :ref:`Detailed Grades<detailed_grades>` display, which lists each graded assignment in the course and the score earned,
+
+* and the :ref:`Certificate Status<certificate_status>` display, which describes whether the learner has earned a certificate.
 
 
 .. contents::
@@ -577,10 +578,9 @@ To view the **Progress** page for a specific learner, follow these steps.
 
 #. Select the **Progress** page.
 
-   The **Progress** page for the learner displays a chart with the grade for
-   each homework, lab, midterm, final, and any other assignment types in your
-   course, and the total grade earned for the course to date.
-
+It is important to keep in mind that some of the performance displays may be
+impacted by content or grade visibility settings in Studio. The implications of
+these settings will be discussed in the following section.
 
 .. _Understanding the Progress Page:
 
@@ -588,65 +588,101 @@ To view the **Progress** page for a specific learner, follow these steps.
 Understanding the Progress Page
 ================================
 
-The **Progress** page for each learner displays a chart that summarizes her
-progress through the course, with entries for each graded assignment, the
-average score by assignment type, the total percentage earned in the course so
-far, and the percentage grade needed for each grade cutoff. This chart is
-essentially a graphical representation of the data in the problem grade
-report. However, the chart does not reflect any cohort or experiment group
-assignments.
+.. _course_completion:
 
-.. image:: ../../../shared/images/Student_Progress.png
- :alt: Progress page chart for a learner: includes a column graph with the
-       score achieved for each assignment.
+Course Completion
+*****************
 
-The chart's y-axis shows the range of grade percentages from 0 to 100%, and
-includes labels for the grade ranges defined for the course. For example, if a
-course is a pass/fail course with a grade of 60% required to pass, the y-axis
-displays a label "Pass" at the 60% level. If a course has grade levels "A",
-"B", and "C" defined at 90%, 70%, and 50% respectively, the y-axis displays
-labels at each of those levels.
+This chart represents how much of the course content learner’s have completed.
+All units that can be completed are accounted for in this chart, including readings, videos,
+graded assignments, practice assignments, and assignments with future scheduled release dates.
 
-The learner's scores for each graded assignment in the course are listed along
-the x-axis, with the height of each bar indicating the percentage score for
-that assignment. Assignments are grouped by assignment type, rather than being
-listed in order of occurrence in the course. A bar for the average of each
-assignment type is included, as well a bar for the total cumulative grade that
-the learner has earned to date in the course.
+The :ref:`Subsection Visibility Setting<Content Hidden from Students>` in Studio impacts what content is represented in the Course Completion chart.
 
-To learn more about a particular assignment, move the cursor onto the value in
-the chart. A brief description displays. A dropped assignment is indicated in
-the chart by an **x** above the horizontal axis.
+* Course content with a **Subsection Visibility Setting** of “Entirely Hide Subsection” will not appear in the chart.
 
-.. image:: ../../../shared/images/Student_Progress_mouseover.png
- :alt: Progress page with a tooltip for the X that was graphed for the last
-       homework assignment, which indicates that the lowest homework score
-       is dropped.
+* Course content in self-paced courses with a **Subsection Visibility Setting** of “Hide content after course end date” will not appear in the chart once the course has ended.
 
-Below the chart on the **Progress** page is a list of all the subsections in
-the course, with the learner's scores for the problems in each subsection.
-Point scores from graded sections are labelled as "Problem Scores", while
-point scores from ungraded sections are called "Practice Scores".
+* Course content in instructor-paced courses with a **Subsection Visibility Setting** of “Hide content after due date” will not appear in the chart once the assignment’s due date has passed.
 
-.. image:: ../../../shared/images/Student_Progress_list.png
- :alt: Bottom portion of a Progress page for the same learner with the
-       score achieved for each problem in the first course subsection.
+   .. image:: ../../../shared/images/Progress_CompletionChart.png
+     :alt: Pie chart representing how much course content has been completed.
 
-.. note:: Learner scores on the **Progress** page are a snapshot of the scores
-   that were calculated when learners submitted answers to the problems. It is
-   possible that the scores displayed on the **Progress** page are different
-   from scores that would be obtained if you recalculated them today, if
-   changes were made to the problems.
+.. _grades_chart:
 
-   For example, if the course team changes a released problem's total possible
-   points, learners who submitted answers to the problem before the change will
-   have grades on the **Progress** page that do not reflect the problem's new
-   number of total possible points. This asynchronicity will remain until
-   either the course team rescores the changed problem, or until affected
-   learners resubmit responses to the changed problem.
+Grades
+*****************
 
+This feature displays the minimum passing grade in the course against the learner's current grade.
+The :ref:`Assessment Visibility Setting<Problem Results Visibility>` in Studio impacts the grade calculation on the **Progress** page. Different settings
+determine whether a graded assignment is considered when calculating the grade to display to the learner.
 
+* If “Always Show Results” has been selected, the assignment will be factored into this grade.
 
+* If “Never Show Results” has been selected, the assignment will not be factored into this grade. This does not change the learner’s grade within Gradebook. This also does not impact the learner’s eligibility for a certificate.
+
+* If “Show When Subsection is Past Due” has been selected, the assignment will only be factored into this grade when the assignment due date has passed.
+
+Regardless of which **Assessment Visibility Setting** is selected, it will not impact the grade within the **Gradebook** of the **Student Admin** tab.
+A learner's certificate eligibility is based on the grade in the **Gradebook**.
+
+Additionally, the Grades display includes a description of the :ref:`grade range<Set the Grade Range>` set for the course. The default grade range for a course is a binary Pass/Fail.
+If your course has additional ranges, they will be displayed here.
+
+   .. image:: ../../../shared/images/Progress_Grades.png
+     :alt: Example of the Grades feature where the learner's current grade is not above the minimum passing grade.
+
+.. _grade_summary:
+
+Grade Summary
+*************
+
+The Grade Summary table breaks down each :ref:`assignment type<Configure the Assignment Types>` available in the course and the learner's performance in each type.
+The grades displayed in this section follow the same calculation criteria as the :ref:`Grades<grades_chart>` feature. To recap, an assignment will be factored into
+this grade calculation if its :ref:`Assessment Visibility Setting<Problem Results Visibility>` has been set to "Always Show Results" or "Show When Subsection is Past Due".
+
+   .. image:: ../../../shared/images/Progress_GradeSummary.png
+     :alt: Grade Summary table displaying assignment types and weighted grades.
+
+.. _detailed_grades:
+
+Detailed Grades
+***************
+
+The Detailed Grades section is a list of all graded assignments in a course. Both the overall subsection grade
+and the individual problem scores are included in this list. Assignments will not appear in this display if any of the following criteria are true:
+
+* The assignment has its :ref:`Subsection Visibility Setting<Content Hidden from Students>` set to "Entirely Hide Subsection".
+
+* The assignment has a future scheduled release date.
+
+* The assignment is not graded.
+
+   .. image:: ../../../shared/images/Progress_DetailedGrades.png
+     :alt: Detailed Grades feature that displays subsection scores.
+
+.. _certificate_status:
+
+Certificate Status
+******************
+
+Certificate Status will only be displayed if your course has a certificate option.
+If your course is eligible, this feature will describe which of the following states the learner is in:
+
+* **Passing**, where the learner has earned the minimum grade required to earn a certificate.
+
+* **Not passing**, where the learner has not earned the minimum grade required to earn a certificate.
+
+* **Audit learner**, where the learner is in an audit track and does not qualify for a certificate.
+
+* **Certificate not yet available**, where the course is instructor-paced, and the certificate will not be available until after the course end date.
+
+* **ID not verified**, where the learner has not completed their ID verification.
+
+* **Can request certificate**, where the learner has earned a certificate, but the certificate has yet to be generated. In this case, the learner can request a certificate.
+
+   .. image:: ../../../shared/images/Progress_CertificateStatus.png
+     :alt: Certificate Status feature describing the learner has passed and can view their certificate.
 
 .. _grant_extensions:
 
@@ -671,7 +707,7 @@ To extend a deadline for a learner, visit the **Extensions** tab on the **Instru
 
 #. Choose the graded subsection from the dropdown
 
-#. Enter new due date 
+#. Enter new due date
 
 #. Specify the reason for the extension
 
@@ -700,7 +736,7 @@ from the **Student Admin** tab of the instructor dashboard in the LMS,  or on
 the **Student Admin** tab of the instructor dashboard in the LMS. To adjust
 the scores for all enrolled learners at once, you use the options on the
 **Student Admin** tab of the instructor dashboard in the LMS. If you use the
-options in the instructor dashboard **Student Admin** tab, you need to 
+options in the instructor dashboard **Student Admin** tab, you need to
 :ref:`obtain the unique location identifier<find_URL>` of the problem.
 
 The following sections describe the various ways in which you can adjust
@@ -720,8 +756,8 @@ Override a Learner's Score for a Problem
 In some cases, you might want to change, or override, the score that Studio has
 given a learner for a specific problem. For example, you might receive an email
 message that explains extenuating circumstances for a learner. You can change
-an individual learner's score for a problem using either the instructor 
-dashboard Gradebook, the instructor dashboard **Student Admin** page, or the 
+an individual learner's score for a problem using either the instructor
+dashboard Gradebook, the instructor dashboard **Student Admin** page, or the
 Staff Debug viewer for the problem.
 
 .. _Override in Gradebook:
@@ -740,7 +776,7 @@ dashboard Gradebook, follow these steps.
 
 #. Enter the learner's user name in the **Search** field.
 
-#. Click the score for the assignment that you want to modify. The **Edit 
+#. Click the score for the assignment that you want to modify. The **Edit
    Grades** dialog opens, displaying the assignment name, the learner's user
    name, and the current grade for the assignment.
 
