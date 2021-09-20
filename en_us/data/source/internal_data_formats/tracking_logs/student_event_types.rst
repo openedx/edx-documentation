@@ -790,11 +790,72 @@ This section includes descriptions of the following events.
   :depth: 1
 
 =============================================================================
+``edx.ui.lms.jump_nav.selected``
+=============================================================================
+The browser emits this event when a user selects a hyperlink using the breadcrumb jump navigation menus.
+
+**History**: Added Semptember 20 2021.
+
+**Component**: Sequence
+
+**Event Source**: Browser
+
+``event`` **Member Fields**:
+
+The ``edx.ui.lms.link_clicked`` event includes both a ``name`` field
+and an ``event_type`` field. For more information about these common fields,
+see :ref:`common`.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+
+   * - ``target_name``
+     - string
+     - The string title of the intended destination of the navigation.
+
+   * - ``id``
+     - string
+     - the block id of the intended destination of the navigation.
+
+   * - ``current_id``
+     - string
+     - The block id of the current unit block before navigating away.
+
+   * - ``widget_placement``
+     - string
+     - The location on the browser the event originates from.
+
+=============================================================================
+Example ``edx.ui.lms.jump_nav.selected`` Event
+=============================================================================
+
+The following example shows the relevant fields of the event that is emitted
+when a user selects any hypertext link from the course breadcrumb content.
+
+.. code-block:: json
+
+ {
+     "name": "edx.ui.lms.jump_nav.selected",
+     "event": {
+         "target_name": "Part 3: Getting Social"
+         "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@simulations/block-v1:edX+DemoX+Demo_Course+type@vertical+block@d0d804e8863c4a95a659c04d8a2b2bc0",
+         "current_id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@basic_questions/block-v1:edX+DemoX+Demo_Course+type@vertical+block@2152d4a4aadc4cb0af5256394a3d1fc7",
+         "widget_placement": "breadcrumb"
+         }
+ }
+
+=============================================================================
 ``edx.ui.lms.link_clicked``
 =============================================================================
 
-The browser emits this event when a user selects any hypertext link from the
-course content.
+The browser emits this event when a user selects any hypertext link from the course content.
 
 **History**: Added May 5 2016.
 
