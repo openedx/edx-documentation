@@ -78,12 +78,12 @@ To change access to the course team configuration options, follow these steps.
 **Default Team Size**
 
 This specifies the maximum number of learners that can join a team, a default value for all teams in your course.
-This default value can be overridden for a specific team category as well.
+This default value can be overridden for a specific team group as well.
 
-**Team Categories:**
+**Team Groups:**
 
-Each team category is a grouping for multiple learner teams, and each category has several
-configuration details and options. To start, each of these team categories must be given a
+Each team groups is a grouping for multiple learner teams, and each group has several
+configuration details and options. To start, each of these team groups must be given a
 unique name, and optionally a description can also be set.
 
 These names and descriptions are visible to learners in the Teams application as shown in the visual below.
@@ -99,12 +99,12 @@ These names and descriptions are visible to learners in the Teams application as
    teams associated with the deleted topic.
 
 
-**Types of Team Categories**
+**Types of Team Groups**
 
-There are several types of team categories that can be created, each of which behaves
+There are several types of team group that can be created, each of which behaves
 differently for both instructors and learners.
 
-* **Open** sets up a team category where learner can create, join, leave, and see all teams within the category
+* **Open** sets up a team group where learner can create, join, leave, and see all teams within the group
 * **Public managed** allows only course staff to control team creation and membership.
   Learners can see other teams but cannot join or leave their team.
 * **Private managed** allows only course staff to control team creation and membership.
@@ -112,13 +112,13 @@ differently for both instructors and learners.
   that give them visibility into other teams. This type is helpful in particular if team
   assignments are being used in a course.
 
-.. note:: If you do not see all team category type options, check with your platform administrator
+.. note:: If you do not see all team group type options, check with your platform administrator
    to see if the relevant teams application features have been enabled.
 
-**Team Category Size Override**
+**Team Group Size Override**
 
 Separate from the team maximum size setting, it is possible to override the specific team size for
-a given team category, allowing you to adjust team sizes to fit your course needs. An example of
+a given team group, allowing you to adjust team sizes to fit your course needs. An example of
 when you might need this is ….
 
 .. _Create a Team:
