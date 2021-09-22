@@ -88,8 +88,8 @@ unique name, and optionally a description can also be set.
 
 These names and descriptions are visible to learners in the Teams application as shown in the visual below.
 
-    .. image:: ../../../shared/images/teams_application_screen.png
-    :alt: The navigation bar in the LMS, showing the default pages.
+    .. image:: ../../../../shared/images/teams_application_screen.png
+     :alt: The navigation bar in the LMS, showing the default pages.
 
 
 .. note::  EdX recommends that you do not delete topics once your course is
@@ -264,9 +264,6 @@ To remove a learner from a team, follow these steps.
 
    The team members you removed no longer appear on the **Membership** page,
    and the count of team members is updated wherever it appears on team pages.
-
-
-
 
 
 .. _Delete a Team:
