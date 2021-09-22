@@ -30,7 +30,6 @@ By default, every new course has the following key areas enabled:
 In the learner experience, these will be shown in the primary navigation bar at the top of every page,
 consistently in this order for all courses.
 
-.. TODO: IMAGE UPDATE NEEDED
 .. image:: ../../../shared/images/page_bar_lms_orig.png
  :alt: The navigation bar in the LMS, showing the default pages.
 
@@ -246,16 +245,42 @@ are available to instructors, moderators, and community TAs directly from the Di
 Included below are details about both the configuration options and management tools.
 
 To change how the discussion experience is configured, follow these steps:
+
 #. In **Studio**, from the Content menu select **Pages & Resources**.
 #. Click the gear icon on the **Discussion** card shown on this page.
 #. From the **Configure discussion** modal, adjust any of the configuration settings as described below to fit your course needs.
 #. Select **Apply** to save your configuration changes.
 
 The discussion configuration experience is comprised of two steps: provider selection and provider configuration.
-By default, courses are created with the edX discussion experience and its default configuration, but these can be
-changed to fit the needs of courses easily though this configuration experience.
+By default, courses are created with the edX discussion experience and its default configuration.
+Other providers and configuration options can be selected to fit the needs of courses.
 
-.. TODO THIS SECTION NOT YET COMPLETE
+**Step 1: Provider Selection**
+
+In this step, educators can select to use the default edX discussion experience or LTI based integrations with other providers.
+Below the grid of available providers is a table summarizing the features each integration provides.
+
+**Step 2: Configuration Options**
+
+Each provider supports its own set of features depending on the discussion features they support. The edX discussion application has various settings and controls that are described below.
+All integrations use LTI 1.1 configuration, and may additionally support platform settings from the list below. Any special instructions or details specific to a given provider are described in this step as well.
+
+**Anonymous Posting**
+
+If this setting is enabled, learners can create posts that are anonymous to all users.
+
+**Allow Anonymous Discussion Posts to Peers**
+
+When enabled learners will be able to post anonymously to other peers but all posts will be visible to course staff.
+
+**General Discussion Topics**
+
+It is possible to include general topics not associated with the course content structure. All courses have an initial general topic by default to start that can be renamed.
+
+**Discussion Blackout Dates**
+
+Course teams can specify one or multiple times during which the discussion forums are not available for new content additions. This can be helpful during exam periods or other course time periods.
+
 
 .. _Wiki Configuration:
 
