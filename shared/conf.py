@@ -12,7 +12,10 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 # OK, this is gross: I don't know of a way to find out what builder is running,
 # so let's examine the command line, and take the word after -b.
-the_builder = sys.argv[sys.argv.index("-b") + 1]
+try:
+    the_builder = sys.argv[sys.argv.index("-b") + 1]
+except ValueError:
+    the_builder = None
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
