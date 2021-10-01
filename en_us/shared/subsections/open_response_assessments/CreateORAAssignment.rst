@@ -197,6 +197,10 @@ To reuse a rubric, complete the following steps:
    follow the instructions at :ref:`learner training step<PA Student Training Step>` to
    add updated Learner Training examples.
 
+#. **Note**: When a rubric is cloned, the version of the rubric that is cloned is the
+   currently *saved* version, not the currently *published* version. This is done to support
+   the ability to clone from ORAs that have not yet been published.
+
 .. _PA Specify Additional Settings:
 
 ***********************************
