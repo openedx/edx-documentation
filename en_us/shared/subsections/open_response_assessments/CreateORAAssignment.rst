@@ -193,11 +193,13 @@ To reuse a rubric, complete the following steps:
 #. Click "Clone". A banner should appear saying "Rubric Successfully Cloned from
    Block ID: <block ID>".
 
-#. **Note**: Cloning rubric data clears Learner Training examples. If applicable,
+.. note::
+   Cloning rubric data clears Learner Training examples. If applicable,
    follow the instructions at :ref:`learner training step<PA Student Training Step>` to
    add updated Learner Training examples.
 
-#. **Note**: When a rubric is cloned, the version of the rubric that is cloned is the
+.. note::
+   When a rubric is cloned, the version of the rubric that is cloned is the
    currently *saved* version, not the currently *published* version. This is done to support
    the ability to clone from ORAs that have not yet been published.
 
