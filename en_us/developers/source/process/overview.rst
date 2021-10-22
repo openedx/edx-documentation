@@ -28,9 +28,9 @@ planning duplicates work edX or others are doing. Finally, we'll let you know
 if your proposal, or parts of your proposal, would benefit from the `Open edX
 Proposal (OEP) process`_.
 
-You can get in touch with us using our `Community Discussions`_.
+You can get in touch with us using our `community discussion forums`_.
 
-.. _Community Discussions: https://open.edx.org/resources/community-discussions
+.. _community discussion forums: https://discuss.openedx.org/
 
 You should get in touch with us regarding any work you intend to contribute
 upstream, including but not limited to these types of contributions.
@@ -51,7 +51,7 @@ upstream to any edX owned repo. Please be sure you've at least skimmed the
 cover letter <cover-letter>` guidelines.
 
 If you have any process questions along the way, please reach out to us on the
-`edx-code mailing list`_.
+`community discussion forums`_.
 
 Once you open your pull request, we'll need to review it. What types of review
 are necessary will be determined by the complexity of your pull request and
@@ -66,7 +66,6 @@ overview of the process is here:
 .. _Open edX Proposal (OEP) process: http://open-edx-proposals.readthedocs.io/en/latest/
 .. _The instructions here: https://github.com/edx/edx-platform/blob/master/CONTRIBUTING.rst#step-0-join-the-conversation
 .. _contribution agreement: https://github.com/edx/edx-platform/blob/master/CONTRIBUTING.rst#step-1-sign-a-contribution-agreement
-.. _edx-code mailing list: https://groups.google.com/forum/#!forum/edx-code
 
 General Guidelines
 ------------------
