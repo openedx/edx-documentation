@@ -9,8 +9,8 @@ Welcome!
   Welcome to online learning with edX! Founded by Harvard University and MIT in
   2012, edX is an online learning destination and MOOC provider,
   offering high-quality courses from the world’s best universities and
-  institutions to learners everywhere. We are the only leading MOOC provider
-  that is both non-profit and open source. Our mission is to increase access to
+  institutions to learners everywhere. We are a leading MOOC provider
+  that is both mission driven and open source. Our mission is to increase access to
   high-quality education for everyone, everywhere.
 
   At edX, we are glad to welcome new learners to the :ref:`edx.org or edX Edge
