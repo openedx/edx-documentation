@@ -55,6 +55,20 @@ fi
 
 for project in "${projects[@]}"; do
     cd $BASE_DIR/$project
+    echo "--> Starting pre-build for $PWD"
+
+    # Generate docs just to get the cross-project references.
+    # -j4 uses four parallel workers to build faster.
+    # -E Don’t use a saved environment (the structure caching all
+    #    cross-references), but rebuild it completely.
+    make html SPHINXOPTS="-j4 -E"
+done
+
+all_bad_file=$BASE_DIR/test_root/bad.log
+echo "Problems:" >$all_bad_file
+
+for project in "${projects[@]}"; do
+    cd $BASE_DIR/$project
     echo "--> Starting build for $PWD"
     project_build_status=0
 
@@ -68,17 +82,16 @@ for project in "${projects[@]}"; do
     # -w writes warnings and errors to the specified file in
     #    addition to stderr.
     # -n runs in nit-picky mode.
-    # -E Don’t use a saved environment (the structure caching all
-    #    cross-references), but rebuild it completely.
-    make html SPHINXOPTS="-j4 -E -n -w $err_log_file"
+    make html SPHINXOPTS="-j4 -n -w $err_log_file"
 
     if [ $? -gt 0 ]; then
         project_build_status=1
         BUILD_ERRORS=$((BUILD_ERRORS + 1))
     fi
 
-    num_errors=`egrep -c 'ERROR:|SEVERE:' < $err_log_file`
-    num_warnings=`egrep -c 'WARNING:' < $err_log_file`
+    num_errors=$(egrep -c 'ERROR:|SEVERE:' < $err_log_file)
+    num_warnings=$(egrep -c 'WARNING:' < $err_log_file)
+    egrep 'ERROR:|SEVERE:|WARNING:' < $err_log_file >>$all_bad_file
 
     echo SPHINX ERRORS: $num_errors
     echo SPHINX WARNINGS: $num_warnings
@@ -111,6 +124,7 @@ if [ ${#FAILED_BUILDS[@]} -gt 0 ]; then
     for project in "${FAILED_BUILDS[@]}"; do
         echo $project
     done
+    cat $all_bad_file
     EXIT_STATUS=1
 else
     echo "All builds passed."
