@@ -141,6 +141,8 @@ To disable or enable the Calculator resource, follow these steps.
 
 #. Select **Apply** to save your configuration changes.
 
+.. _Add Page:
+
 .. _Add Custom Page:
 
 ============================
