@@ -481,7 +481,7 @@ Flexible Peer Grade Averaging
 To reduce the change of users getting "stuck" in the waiting step, you can enable
 this feature to lower the requirements for a grade in the peer assessment step.
 
-Learners who have received at least 70% of required peer-reviews who have waited
+Learners who have received at least 30% of required peer-reviews who have waited
 longer than 7 days will be given their grade instead of having to wait longer
 for more peer reviews.
 
