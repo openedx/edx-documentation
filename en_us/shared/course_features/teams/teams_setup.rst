@@ -82,8 +82,7 @@ This default value can be overridden for a specific team group as well.
 
 **Team Groups:**
 
-Each team groups is a grouping for multiple learner teams, and each group has several
-configuration details and options. To start, each of these team groups must be given a
+Each team group is a grouping for multiple learner teams. To start, each of these team groups must be given a
 unique name, and optionally a description can also be set.
 
 These names and descriptions are visible to learners in the Teams application as shown in the visual below.
@@ -99,27 +98,10 @@ These names and descriptions are visible to learners in the Teams application as
    teams associated with the deleted topic.
 
 
-**Types of Team Groups**
-
-There are several types of team group that can be created, each of which behaves
-differently for both instructors and learners.
-
-* **Open** sets up a team group where learner can create, join, leave, and see all teams within the group
-* **Public managed** allows only course staff to control team creation and membership.
-  Learners can see other teams but cannot join or leave their team.
-* **Private managed** allows only course staff to control team creation and membership.
-  Additionally, learners can only see the teams they are members of, unlike other options
-  that give them visibility into other teams. This type is helpful in particular if team
-  assignments are being used in a course.
-
-.. note:: If you do not see all team group type options, check with your platform administrator
-   to see if the relevant teams application features have been enabled.
-
 **Team Group Size Override**
 
 Separate from the team maximum size setting, it is possible to override the specific team size for
-a given team group, allowing you to adjust team sizes to fit your course needs. An example of
-when you might need this is ….
+a given team group, allowing you to adjust team sizes to fit your course needs.
 
 .. _Create a Team:
 
