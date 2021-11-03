@@ -37,12 +37,13 @@ As a course team member with the **Staff** or **Admin** role, you also see the I
 option in the navigation bar, shown at the end of the list of pages.
 Learners do not see the Instructor option.
 
-The progress page can be disabled and thus hidden from the learner experience,
-though this is not commonly done and is not recommended. The information on
-the Progress page is critical for motivating learners, particularly in courses
-that include graded subsections, but also for courses that include only ungraded
-exercises. Before choosing to hide the Progress page for your course, consider
-the possible effect on learner engagement.
+    .. note::
+        The progress page can be disabled and thus hidden from the learner experience,
+        though this is not commonly done and is not recommended. The information on
+        the Progress page is critical for motivating learners, particularly in courses
+        that include graded subsections, but also for courses that include only ungraded
+        exercises. Before choosing to hide the Progress page for your course, consider
+        the possible effect on learner engagement.
 
 .. _Enable Additional Resource:
 
@@ -98,8 +99,8 @@ To disable or enable the Teams application, follow these steps.
 
 #. Select **Apply** to save your configuration changes.
 
-Additional configuration for the Teams application can be found at 11.3.3.3
-Configuring the Teams application
+Additional configuration for the Teams application can be found at :ref:`11.3.3.3 Configuring the Teams application<Teams Configuration>`
+
 
 .. _Enable Wiki:
 
@@ -121,7 +122,7 @@ To disable or enable the Wiki application, follow these steps.
 
 When you disable the wiki application in your course, any existing articles remain in the edX- wide wiki, but the Wiki page is removed from your course pages.
 
-Additional details for configuring the wiki application can be found at 11.3.2 Configuring the wiki application.
+Additional details for configuring the wiki application can be found at :ref:`11.3.3.2 Configuring the wiki application<Wiki Configuration>`.
 
 .. _Enable Calculator:
 
@@ -190,7 +191,7 @@ To add a custom page and its content to your course, follow these steps.
 
 The new page is immediately available to the specified audience if the course has started.
 
-For details on reordering course pages, see additional detail in 11.3.4. Reordering and Deleting Custom Pages.
+For details on reordering course pages, see additional detail in :ref:`11.3.4. Reordering and Deleting Custom Pages<Reordering and deleting custom pages>`.
 
 .. _Enable Textbook:
 
@@ -290,7 +291,7 @@ Course teams can specify one or multiple times during which the discussion forum
 Configuring the Wiki application
 ================================
 
-For instructions on how to enable the wiki application see 11.3.2.3 Enabling the Wiki Application.
+For instructions on how to enable the wiki application see :ref:`11.3.2.3 Enabling the Wiki Application<Enable Wiki>`.
 
 You can control access to the wiki in various ways: by changing access to the wiki as a whole,
 by changing the read/write permissions settings of articles within the wiki, or by locking articles.
@@ -314,7 +315,7 @@ Configuring the Teams application
 =================================
 
 Additional management and configuration of the teams application can be done through the main Team application tab
-in the learner experience, and is detailed in :ref:`12.4<CA_Teams_Overview>` Using the Teams application.
+in the learner experience, and is detailed in :ref:`12.4.1 Using the Teams application<Teams Setup>`.
 
 .. _Reordering and deleting custom pages:
 
@@ -322,7 +323,7 @@ in the learner experience, and is detailed in :ref:`12.4<CA_Teams_Overview>` Usi
 Reordering and Deleting Custom Pages
 ************************************
 
-For instructions on how to add custom pages see 11.3.2.5 Adding Custom Page Resources.
+For instructions on how to add custom pages see :ref:`11.3.2.5 Adding Custom Page Resources<Add Custom Page>`.
 
 You can reorder the custom pages in your course in the same way that you :ref:`reorganize the course outline<Reorganize the Course Outline>`:
 you drag a page to a different location in the list of pages and drop it there.
@@ -339,5 +340,3 @@ To reorder the pages, follow these steps.
 
 You can also delete a custom page from your course using the delete icon shown on each custom page from the **Custom Pages** Studio page.
 If you delete a page after the course start date, note that the visibility of the page in the learner experience changes immediately.
-
-.. note:: When you add a textbook to your course, Studio adds each PDF file that you upload to the **Files & Uploads** page. After you delete your textbook on the **Textbooks** page, edX strongly recommends that you :ref:`lock<Lock a File>` or :ref:`delete<Delete a File>` the PDF files for the textbook on the **Files & Uploads** page to avoid copyright issues.
