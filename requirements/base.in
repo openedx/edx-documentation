@@ -3,3 +3,5 @@
 
 edx-sphinx-theme                    # edX theme for the generated documentation
 sphinx                              # Documentation builder
+sphinx-intl                         # For creating i18n strings
+transifex-client                    # For pushing the i18n resources

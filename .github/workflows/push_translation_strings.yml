@@ -1,0 +1,40 @@
+# GitHub Action for pushing open edx projects' strings to transifex
+
+name: "Push Translation Strings to Transifex"
+
+on:
+  push:
+    branches:
+      - "open-release/*.master"
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  push_strings:
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: "Check out the repo"
+        uses: "actions/checkout@v2"
+
+      - name: "Set up Python"
+        uses: "actions/setup-python@v2"
+        with:
+          python-version: "3.8"
+
+      - name: "Install Graphviz"
+        uses: "kamiazya/setup-graphviz@v1"
+
+      - name: "Install dependencies"
+        run: |
+          python -m pip install -r requirements/base.txt
+
+      - name : "Translations Sync"
+        env:
+            TX_TOKEN: ${{ secrets.TX_TOKEN }}
+        run: |
+          ./i18n.sh
+          tx push -s
+          

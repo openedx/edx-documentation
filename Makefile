@@ -32,3 +32,5 @@ clean: ## remove built html files
 
 test: ## build all the docs
 	./run_tests.sh
+i18n: ## Generate pot files followed by tx configuration
+	./i18n.sh
