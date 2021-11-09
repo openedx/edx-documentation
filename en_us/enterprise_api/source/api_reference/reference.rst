@@ -63,7 +63,7 @@ example, to request JSON-formatted information about a course run using
 ::
 
    curl -X GET \
-   https://api.edx.org/enterprise/v1/enterprise-catalogs/1/4g1BB0us321/course-runs/course-v1:MyUni+Sport101x \
+   https://api.edx.org/enterprise/v2/enterprise-catalogs/3f56a21c-76c8-47c0-add8-a99714d40d94/courses/MyUni+Sport101x \
    -H "Authorization: JWT {access token}"
    -H "Accept: application/json"
 
@@ -89,7 +89,7 @@ Method and Endpoint
    * - Method
      - Endpoint
    * - GET
-     - ``/enterprise/v1/enterprise-catalogs/{catalog_id}``
+     - ``/enterprise/v2/enterprise-catalogs/{catalog_id}``
 
 
 =====================
@@ -274,8 +274,8 @@ Example Request
 =====================
 ::
 
-   curl -X GET /oauth2/v1/access_token/ \
-   https://api.edx.org/enterprise/v1/enterprise-catalogs/3f56a21c-76c8-47c0-add8-a99714d40d94/programs/7b24a21c-98c8-47c0-b9c8-g54714d40d94 \
+   curl -X GET \
+   https://api.edx.org/enterprise/v2/enterprise-catalogs/3f56a21c-76c8-47c0-add8-a99714d40d94/programs/7b24a21c-98c8-47c0-b9c8-g54714d40d94 \
    -H "Authorization: JWT {access token}"
 
 
@@ -283,7 +283,7 @@ Example Request
 Response Values
 =====================
 
-The ``GET /enterprise/v1/enterprise-catalogs/{catalog_id}/programs/{program_id}``
+The ``GET /enterprise/v2/enterprise-catalogs/{catalog_id}/programs/{program_uuid}``
 request returns the response values described in :ref:`program Fields`.
 
 .. _content item Fields:
