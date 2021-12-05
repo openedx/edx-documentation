@@ -39,6 +39,36 @@
 
 .. _Profile Images API Version 1.0: http://edx.readthedocs.io/projects/edx-platform-api/en/latest/profile_images/index.html
 
+.. Maple doc links:
+
+.. _Tutor: https://docs.tutor.overhang.io/
+
+.. _Studio OAuth migration runbook: https://github.com/edx/edx-platform/blob/open-release/maple.master/docs/guides/studio_oauth.rst
+
+.. _edX configuration: https://github.com/edx/configuration/
+
+.. _devstack: https://github.com/edx/devstack
+
+.. _ARCHBOM-1860: https://openedx.atlassian.net/browse/ARCHBOM-1860
+
+.. _OEP-42: https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0042-bp-authentication.html
+
+.. _Allowlist ADR: https://github.com/edx/edx-platform/blob/master/lms/djangoapps/certificates/docs/decisions/001-allowlist-cert-requirements.rst
+
+.. _cert_generation command: https://github.com/edx/edx-platform/blob/master/lms/djangoapps/certificates/management/commands/cert_generation.py
+
+.. _tutor mfe plugin README: https://github.com/overhangio/tutor-mfe#customise-mfes-logos
+
+.. _DEPR-156: https://openedx.atlassian.net/browse/DEPR-156
+
+.. _PR 27646: https://github.com/edx/edx-platform/pull/27646
+
+.. _DEPR-159: https://openedx.atlassian.net/browse/DEPR-159
+
+.. _documented in Confluence: https://openedx.atlassian.net/wiki/spaces/PT/pages/2594275334/Course+Import+Work
+
+.. _edx-val: https://github.com/edx/edx-val
+
 .. Lilac doc links:
 
 .. _ProctorTrack Service from Verificient: https://www.verificient.com/proctortrack/
