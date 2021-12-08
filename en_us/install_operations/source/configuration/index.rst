@@ -38,3 +38,4 @@ configuration options.
    youtube_api
    install_xblock
    static_replace/cdn
+   enable_weekly_learning_goals
