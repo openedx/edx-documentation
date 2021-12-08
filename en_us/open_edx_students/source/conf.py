@@ -5,7 +5,7 @@ sys.path.append('../../../')
 
 from shared.conf import *
 
-project = u'Open edX Learner\'s Guide'
+project = u'Open edX Learner\'s Guide: Maple Release'
 
 exclude_patterns = ['links.rst', 'reusables/*', 'SFD_mathformatting.rst']
 
