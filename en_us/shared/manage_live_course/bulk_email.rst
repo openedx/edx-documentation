@@ -80,6 +80,12 @@ Who Is Included in Each Recipient Group?
 When you send a bulk email message to one of the preset recipient groups, you
 should be aware of who is included in each group.
 
+.. note:: It is considered good practice to only send messages to active and
+   engaged learners. For this reason, regardless of the recipient groups
+   selected, edX will only send email messages to learners in a course run who
+   have logged in within the last 18 months. This helps reduce the risk of
+   messages being marked as spam (or bouncing) and helps ensure the continued
+   delivery of bulk course email messages through edX's email providers.
 
 .. list-table::
    :widths: 30 40 40
