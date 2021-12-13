@@ -125,7 +125,7 @@ You add content for both groups as needed, just as you would add content to
 any container page. For more information, see :ref:`Components that Contain
 Other Components`.
 
-For example, you can add an HTML component and a video to Group A.
+For example, you can add a Text component and a video to Group A.
 
 .. image:: ../../../../shared/images/a_b_test_child_expanded.png
  :alt: An image of an expanded content experiment component with an HTML and

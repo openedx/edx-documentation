@@ -30,8 +30,8 @@ your course.
 * **Discussion** components provide discussion spaces in the body of your
   course. Learners can explore ideas about a lesson with their peers in a
   discussion space.
-* **HTML** components allow you to add text, images, and some types of learning
-  tools to your course. Content in HTML components is formatted as HTML.
+* **Text** components allow you to add text, images, and some types of learning
+  tools to your course. Content in Text components is formatted as HTML.
 * **Problem** components enable you to add many different types of exercises
   and problems to your course, from simple multiple choice problems to complex
   circuit schematic exercises.
@@ -54,7 +54,7 @@ For more information, see the documentation for the specific component type
 that you want to work with.
 
 - :ref:`Working with Discussion Components`
-- :ref:`Working with HTML Components`
+- :ref:`Working with Text Components`
 - :ref:`Working with Problem Components`
 - :ref:`Working with Video Components`
 
@@ -359,7 +359,7 @@ View Child Components
 
 When you select **View** in the parent component, the parent component page
 opens, showing all child components. In this example, Child Component A
-contains an HTML component and a video.
+contains a Text component and a video.
 
 .. image:: ../../../shared/images/child-components-a.png
  :alt: An expanded child component.
@@ -390,7 +390,7 @@ For more information, see the section for the specific component type that you
 want.
 
 - :ref:`Working with Discussion Components`
-- :ref:`Working with HTML Components`
+- :ref:`Working with Text Components`
 - :ref:`Working with Problem Components`
 - :ref:`Working with Video Components`
 

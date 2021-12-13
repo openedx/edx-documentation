@@ -12,7 +12,7 @@ expression input. To add these problem types to a course, you select
 You can expand the types of content you include in your course by enabling
 additional exercises and tools. After you enable an exercise or tool for use
 with your course, when you add a component to a unit, that type of content
-might be listed as one of the **Advanced**, **HTML**, or **Problem** options
+might be listed as one of the **Advanced**, **Text**, or **Problem** options
 
 ******************************************
 Enable an Exercise or Tool for Your Course

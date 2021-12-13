@@ -180,10 +180,10 @@ Styling
 =======
 
 Messages can include HTML styling, including text formatting and links. The
-email message editor offers the same formatting options as the HTML component
+email message editor offers the same formatting options as the Text component
 editor in Studio.
 
-For more information, see :ref:`Working with HTML Components`.
+For more information, see :ref:`Working with Text Components`.
 
 ======
 Images

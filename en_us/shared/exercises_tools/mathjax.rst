@@ -6,7 +6,7 @@ Using MathJax for Mathematics
 
 To produce clear and professional-looking symbols and equations in web browser,
 edX uses `MathJax <https://www.mathjax.org/>`_. MathJax automatically formats
-the mathematical symbols and equations that you enter in HTML and problem
+the mathematical symbols and equations that you enter in Text and problem
 components using LaTeX notation into beautiful math.
 
 This topic provides some pointers to get you started. Many resources for
@@ -41,15 +41,15 @@ For display equations, you can do either of the following.
     ``[mathjax] equation [/mathjax]``
 
 *************************************
-Adding MathJax to HTML Components
+Adding MathJax to Text Components
 *************************************
 
-In the HTML component editor, you can use MathJax in both visual view and
+In the Text component editor, you can use MathJax in both visual view and
 HTML view.
 
 .. image:: ../../../shared/images/MathJax_HTML.png
  :alt: A composite image of four views of the same text and MathJax markup. The
-   HTML component editor visual view and HTML view are shown at the top, with
+   Text component editor visual view and HTML view are shown at the top, with
    the rendered text and equation on the Studio unit page and in the LMS below.
 
 *****************************************

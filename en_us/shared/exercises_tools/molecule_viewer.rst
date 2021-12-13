@@ -41,7 +41,7 @@ Creating a molecule viewer tool has several steps.
 #. Move or edit some of the files that you downloaded.
 #. Upload a folder that contains all of the files that you downloaded and
    edited to your own file hosting site.
-#. Create an HTML component that contains an ``iframe`` element in Studio. The
+#. Create a Text component that contains an ``iframe`` element in Studio. The
    iframe references the files that you upload to the file hosting site.
 
 ================================================
@@ -102,7 +102,7 @@ Create a Component in Studio
 ===============================
 
 #. In Studio, open the unit where you want to add the molecule viewer.
-#. Under **Add New Component**, select **HTML**, and then select **IFrame
+#. Under **Add New Component**, select **Text**, and then select **IFrame
    Tool**.
 #. In the component editor that opens, replace the existing content with your
    own text.

@@ -181,7 +181,7 @@ To add a custom page and its content to your course, follow these steps.
 #. Enter the content for your page.
 
     To add HTML tags to your content, select HTML to open the :ref:`the raw HTML editor<The Raw HTML Editor>`.
-    For more information about entering content, see :ref:`Options for Editing HTML Components`.
+    For more information about entering content, see :ref:`Options for Editing Text Components`.
 
     .. note:: If you copy text from another source and paste it into the visual editor,be sure to proofread the result carefully. Some applications automatically change quotation marks and apostrophes from the “straight” version to the “smart” or “curly” version. The raw HTML editor requires “straight” quotation marks and apostrophes.
 

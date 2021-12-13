@@ -241,7 +241,7 @@ update, or a course handout, follow these steps.
 
 #. In the component or other content, paste the Studio URL.
 
-For more information, see :ref:`Add an Image to an HTML Component`.
+For more information, see :ref:`Add an Image to a Text Component`.
 
 .. _Add a File or Image Outside the Course:
 

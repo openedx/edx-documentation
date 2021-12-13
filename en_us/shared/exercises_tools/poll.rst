@@ -89,7 +89,7 @@ Create a Poll
 
    The file contains a list of all the components in the unit, together with
    the URL names of the components. For example, the following file contains an
-   HTML component followed by a discussion component.
+   Text component followed by a discussion component.
 
    .. code-block:: xml
 

@@ -199,7 +199,7 @@ information.
 
   .. image:: Images/HTMLEditor.png
     :width: 450
-    :alt: An image of the HTML component in the visual editor.
+    :alt: An image of the Text component in the visual editor.
 
 
 ===========================

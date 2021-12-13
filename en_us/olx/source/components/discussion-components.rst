@@ -65,7 +65,7 @@ attribute of the ``discussion`` element in the vertical XML file.
 Discussion Component XML File Elements
 ***************************************
 
-The root element of the XML file for the HTML component is file is
+The root element of the XML file for the discussion component file is
 ``discussion``.
 
 The ``discussion`` element contains no children.

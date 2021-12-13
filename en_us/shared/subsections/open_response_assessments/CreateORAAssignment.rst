@@ -67,7 +67,7 @@ Step 2. Add Prompts
 ******************************
 
 You can format text and add images inside an open response assessment prompt
-the same way you would for an HTML component. For more information, see
+the same way you would for a Text component. For more information, see
 :ref:`The Visual Editor`.
 
 To add :ref:`prompts<PA Prompts>`, or questions, to your ORA assignment,

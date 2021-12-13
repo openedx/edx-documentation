@@ -59,7 +59,7 @@ To add a course update, follow these steps.
 #. Create your update in the text editor that opens.
 
    * Enter text for the update, using HTML tags for formatting. This editor is
-     like the :ref:`raw HTML editor<The Raw HTML Editor>` in HTML components.
+     like the :ref:`raw HTML editor<The Raw HTML Editor>` in Text components.
      The course update editor does not have a :ref:`visual editor<The Visual
      Editor>`.
 

@@ -35,7 +35,7 @@ For more information about iframes, see the `iframe: The Inline Frame element
 Create an IFrame Tool
 ****************************
 
-To add an exercise or tool in an iframe, you create an iframe HTML component
+To add an exercise or tool in an iframe, you create an iframe Text component
 and add the URL of the page that contains the exercise or tool to the
 component. You can also add text and images both before and after the iframe.
 
@@ -44,7 +44,7 @@ component. You can also add text and images both before and after the iframe.
  the owner of that page to find out if an ``https`` version is available. Some
  websites do not allow their content to be embedded in iframes.
 
-#. Under **Add New Component**, select **HTML**, and then select **IFrame
+#. Under **Add New Component**, select **Text**, and then select **IFrame
    Tool**.
 
 #. In the new component, select **Edit**.
