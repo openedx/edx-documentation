@@ -215,66 +215,30 @@ Specify When Discussions Are Closed
 To define when discussions are closed to new contributions and when they
 reopen, follow these steps.
 
-#. Open your course in Studio.
+1. Navigate to edx discussion configuration page
+(see :ref:`Configuring Edx Discussions`).
 
-#. Select **Settings**, and then select **Advanced Settings**.
+2. Scroll down to **Discussion Blackout Dates** field.
 
-#. Locate the **Discussion Blackout Dates** field.
+3. Create a new blackout date range by clicking on **Add blackout date range**.
 
-#. If the **Discussion Blackout Dates** field is empty, place your cursor
-   between the brackets ``([ ])``.
+.. image:: ../../../shared/images/Discussion_blackout_dates_configuration.png
+  :width: 300
+  :alt: Option for configuring discussion blackout dates.
 
-   If the field already contains one or more blackout dates, place your cursor
-   before the final bracket ``(])``.
-
-#. Enter a pair of start and end dates for the time period during which you want
-   discussions to be closed, in the following format.
-
-   ``["YYYY-MM-DDTHH:MM", "YYYY-MM-DDTHH:MM"]``
-
-   .. note:: To close the course discussions permanently, specify an end date
-     and time far in the future.
-
-   * Within each date-time value, separate the date from the time with an
-     uppercase letter "T".
-
-   * Enclose each date-time value in double quotation marks.
-
-   * Separate the start date-time from end date-time with a comma and a space.
-
-   * Enclose each pair of start and end dates in square brackets.
-
-   For example, to close course discussions temporarily for a final exam period
-   from July 22, 2017 to July 25, 2017, you enter this pair of start and end
-   dates.
-
-   ``["2017-07-22T08:00", "2017-07-25T18:00"]``
-
-   To close course discussions permanently on August 9, 2017 after the
-   temporary exam period closure, you add an additional pair of start and end
-   dates.
-
-   ``["2017-07-22T08:00", "2017-07-25T18:00"], ["2017-08-09T00:00", "2099-08-09T00:00"]``
-
-   You enter these values between an additional pair of square brackets which
-   are supplied for you in Studio.
-
-#. Select **Save Changes**.
-
-   Studio checks the syntax of your entry and reformats your entry to add line
-   feeds and indentation. A message lets you know whether your changes were
-   saved successfully.
-
-For examples of email messages that you can send to let learners know when the
-course discussions are closed (or open), see :ref:`Example Messages to
-Students`.
-
-
-``["YYYY-MM-DDTHH:MM", "YYYY-MM-DDTHH:MM"]``
+4. Add start and end dates and times in the format specified.
 
 .. note:: The dates and times that you enter are in Coordinated Universal
    Time (UTC), not in your local time zone. You might want to verify that you
    have specified the times that you intend by using a time zone converter.
+
+.. note:: To close the course discussions permanently, specify an end date
+   and time far in the future.
+
+5. You can add more than one blackout date ranges using step 3 and 4 above.
+
+6. Select **Save Changes**.
+
 
 
 

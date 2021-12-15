@@ -278,8 +278,7 @@ discussions that need review. In the discussion navigation pane on the
 **Discussion** page, you can also select the following options from the **Show
 all** drop-down menu.
 
-* **Unread**, to list only the discussions and questions that you have not yet
-  viewed.
+* **Unread**, to list only the discussions that you have not yet viewed.
 
 * **Unanswered**, to list only questions that do not yet have any responses
   marked as answers.
@@ -386,8 +385,8 @@ follow these steps.
 
 #. On the discussion page for that learner, select the linked username.
 
-   The learner's account profile page opens. Learners can have either a limited
-   profile or a full profile.
+The learner's account profile page opens. Learners can have either a limited
+profile or a full profile.
 
 For more information about profiles, see :ref:`learners:SFD Dashboard`.
 
