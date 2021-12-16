@@ -58,7 +58,7 @@ objects for each of the other categories. For each object in the file, the
      - The content-specific discussion components defined for the course. For
        more information, see :ref:`Course Component Data`.
    * - html
-     - The HTML components defined for the course. For more information, see
+     - The Text components defined for the course. For more information, see
        :ref:`Course Component Data`.
    * - problem
      - The problem components defined for the course. For

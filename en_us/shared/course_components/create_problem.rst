@@ -202,7 +202,7 @@ You can also add text, without formatting, to a problem. Note that screen
 readers read all of the text that you supply for the problem, and then repeat
 the text that is identified as the question or prompt immediately before
 reading the answer choices for the problem. For problems that require
-descriptions or other text, you might consider adding an HTML component for the
+descriptions or other text, you might consider adding a Text component for the
 text immediately before the problem component.
 
 When you enter unformatted text, note that the simple editor cannot interpret

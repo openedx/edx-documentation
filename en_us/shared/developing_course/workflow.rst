@@ -106,7 +106,7 @@ For more information, see :ref:`Controlling Content Visibility`.
   Making Course Content Searchable
   ***********************************
 
-  Learners can search course text in :ref:`HTML components<Working with HTML
+  Learners can search course text in :ref:`Text components<Working with Text
   Components>` and video transcripts by using the **Search** box at the top of
   the **Course** page.
 

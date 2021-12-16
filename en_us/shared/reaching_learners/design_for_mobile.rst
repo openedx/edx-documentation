@@ -64,7 +64,7 @@ you design, test, and run your course.
 
 * When learners access your course using the edX Android and iPhone apps, they
   progress from component to component by swiping through them. It might seem
-  useful to include an HTML component in a unit for the purpose of providing a
+  useful to include a Text component in a unit for the purpose of providing a
   demarcation point or guiding learners to the next unit, but having to swipe
   through too many "markers" with no real course content is not a good
   experience for mobile users.

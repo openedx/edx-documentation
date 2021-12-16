@@ -31,7 +31,7 @@ varies. The levels of support are categorized as full, provisional, or no
 support. This table provides the definition for each level of support.
 
 In Studio, the support level for each exercise, problem type, or tool is
-represented with an icon when you select **Advanced**, **HTML**, or
+represented with an icon when you select **Advanced**, **Text**, or
 **Problem** to add a new component to your course. By default, only fully
 supported or provisionally supported exercises, problem types, or tools are
 available for adding to your course. To add unsupported problem types and
@@ -87,7 +87,7 @@ types of course content.
   information, see :ref:`Enable Additional Exercises and Tools`.
 
 * After you enable an exercise or tool for use in your course, you might need
-  to select **Advanced**, **HTML**, or **Problem** on the unit page to
+  to select **Advanced**, **Text**, or **Problem** on the unit page to
   add content of that type to your course.
 
 The topics in this section introduce the core set of problem types and a
@@ -343,7 +343,7 @@ tools that you can add to your course.
      - Provisional support
    * - :ref:`IFrame`
      - With the iframe tool, you can integrate ungraded exercises and tools
-       from any Internet site into an HTML component in your course.
+       from any Internet site into a Text component in your course.
      - Provisional support
    * - :ref:`LTI Component`
      - LTI components allow you to add an external learning application or non-

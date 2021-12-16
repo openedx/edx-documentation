@@ -221,7 +221,7 @@ LTI URLs for a unit include "vertical", as follows.
 
   ``https://edx-lti.org/lti_provider/courses/edX/DemoX/2014/i4x:;_;_edX;_DemoX;_vertical;_d6cee45205a449369d7ef8f159b22bdf``
 
-LTI URLs for HTML components include "html+block" or "html", as follows.
+LTI URLs for Text components include "html+block" or "html", as follows.
 
   ``https://edx-lti.org/lti_provider/courses/course-v1:edX+DemoX+Demo_Course/block-v1:edX+DemoX+Demo_Course+type@html+block@f9f3a25e7bab46e583fd1fbbd7a2f6a0``
 

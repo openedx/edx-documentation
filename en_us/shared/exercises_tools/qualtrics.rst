@@ -38,8 +38,8 @@ Add a Qualtrics Survey to Your Course
 *************************************
 
 To add a Qualtrics survey to your course, you must :ref:`create the survey in
-Qualtrics <Create the Qualtrics Survey>`, and then :ref:`create an HTML
-component in Studio <Create the HTML Component in Studio>`.
+Qualtrics <Create the Qualtrics Survey>`, and then :ref:`create a Text
+component in Studio <Create the Text Component in Studio>`.
 
 .. _Create the Qualtrics Survey:
 
@@ -69,21 +69,21 @@ Create the Qualtrics Survey
 #. On the page that opens, select **Activate Survey** in the upper right
    corner.
 #. On the page that opens, locate the URL that is listed under **Your
-   Anonymous Survey Link**. You will add this URL to the HTML component for
+   Anonymous Survey Link**. You will add this URL to the Text component for
    your survey in Studio.
 
    .. note:: If you need to find this URL in the future, open your survey
     in Qualtrics, and then select the **Distribute Survey** tab at the top of
     the page.
 
-.. _Create the HTML Component in Studio:
+.. _Create the Text Component in Studio:
 
 =====================================
-Create the HTML Component in Studio
+Create the Text Component in Studio
 =====================================
 
 #. Open the unit where you want the survey to appear.
-#. Under **Add New Component**, select **HTML**, and then select **IFrame
+#. Under **Add New Component**, select **Text**, and then select **IFrame
    Tool**.
 #. Select **Edit** to open the component editor, and then select **HTML** in
    the menu bar.

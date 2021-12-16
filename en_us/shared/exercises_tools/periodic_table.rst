@@ -30,16 +30,16 @@ To create a periodic table, you need the following files:
 To download all of these files in a .zip archive, go to
 http://files.edx.org/PeriodicTableFiles.zip.
 
-To create the periodic table, you need an HTML component.
+To create the periodic table, you need a Text component.
 
 #. Upload all of the files listed above *except PeriodicTable.txt* to the
    **Files & Uploads** page in your course.
-#. In the unit where you want to create the problem, click **HTML** under **Add
-   New Component**, and then click **HTML**.
+#. In the unit where you want to create the problem, click **Text** under **Add
+   New Component**, and then click **Text**.
 #. In the component that appears, click **Edit**.
 #. In the component editor, switch to the **HTML** tab.
 #. Open the PeriodicTable.txt file in any text editor.
 #. Copy all of the text in the PeriodicTable.txt file, and paste it into the
-   HTML component editor. (Note that the PeriodicTableHTML.txt file contains
+   Text component editor. (Note that the PeriodicTableHTML.txt file contains
    over 6000 lines of code. Paste all of this code into the component editor.)
 #. Click **Save**.

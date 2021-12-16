@@ -553,13 +553,13 @@ H
 
   See :ref:`Course Page`.
 
-.. _HTML Component:
+.. _Text Component:
 
-**HTML component**
+**Text component**
 
   A type of component that you can use to add and format text for your course.
-  An HTML component can contain text, lists, links, and images. For more
-  information, see :ref:`partnercoursestaff:Working with HTML Components`.
+  A Text component can contain text, lists, links, and images. For more
+  information, see :ref:`partnercoursestaff:Working with Text Components`.
 
 
 

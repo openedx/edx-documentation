@@ -1,17 +1,17 @@
-.. _Working with HTML Components:
+.. _Working with Text Components:
 
 #############################
-Working with HTML Components
+Working with Text Components
 #############################
 
-This section describes how to work with HTML components in Studio.
+This section describes how to work with Text components in Studio.
 
 .. contents::
  :local:
  :depth: 1
 
 ***********************
-HTML Component Overview
+Text Component Overview
 ***********************
 
 HTML, or HyperText Markup Language, is the standard markup language used to
@@ -22,26 +22,26 @@ that is formatted and presented by their browsers. For more information about
 HTML, see `Wikipedia <https://en.wikipedia.org/wiki/HTML>`_.
 
 ===================
-HTML Components
+Text Components
 ===================
 
-HTML components are the basic building blocks of your course content. You use
-HTML components to add and format text, links, images, and more. You can work
-with your HTML components in a "visual" or WYSIWYG editor that hides the HTML
+Text components are the basic building blocks of your course content. You use
+Text components to add and format text, links, images, and more. You can work
+with your Text components in a "visual" or WYSIWYG editor that hides the HTML
 code details, or in a "raw" editor that requires you to mark up your content.
 
 .. note::
  Review :ref:`Developing Your Course Index` and :ref:`Best Practices for HTML
- Markup` before you start working with HTML components.
+ Markup` before you start working with Text components.
 
 
-.. _Options for Editing HTML Components:
+.. _Options for Editing Text Components:
 
 ********************************************
-Options for Editing HTML Components
+Options for Editing Text Components
 ********************************************
 
-You can use two different editing interfaces to work with an HTML component.
+You can use two different editing interfaces to work with a Text component.
 
 * :ref:`The Visual Editor`
 
@@ -53,7 +53,7 @@ You can use two different editing interfaces to work with an HTML component.
   HTML option does not provide the detailed control you can get with the raw
   HTML editor, and does not support custom formatting or scripts.
 
-  If you add an HTML component and select **Text**, when you select **Edit**
+  If you add a Text component and select **Text**, when you select **Edit**
   the visual editor opens by default.
 
 * :ref:`The Raw HTML Editor`
@@ -62,11 +62,11 @@ You can use two different editing interfaces to work with an HTML component.
   the raw HTML editor. If you need to include custom formatting or scripts in
   your content, you must use the raw HTML editor.
 
-  If you add an HTML component and select **Raw HTML**, when you select
+  If you add a Text component and select **Raw HTML**, when you select
   **Edit** the raw HTML editor opens by default.
 
 You can switch back and forth between these two editing interfaces at any time.
-For more information, see :ref:`Set the Editor for an HTML Component`.
+For more information, see :ref:`Set the Editor for a Text Component`.
 
 .. note::
     If you copy text from another source and paste it into either the visual or
@@ -75,13 +75,13 @@ For more information, see :ref:`Set the Editor for an HTML Component`.
     "straight" version to the "smart" or "curly" version. Both editors require
     "straight" quotation marks and apostrophes.
 
-.. _Set the Editor for an HTML Component:
+.. _Set the Editor for a Text Component:
 
 ======================================
-Set the Editor for an HTML Component
+Set the Editor for a Text Component
 ======================================
 
-#. Add or locate the HTML component in your course.
+#. Add or locate the Text component in your course.
 
 #. Select **Edit**, and then select **Settings**.
 
@@ -117,11 +117,11 @@ descriptions.
    ``preformatted`` (monospace), or a heading level.
 
    .. note::
-     The available heading levels in the HTML component editor begin with
-     heading 3 (``<h3>``). HTML components are part of a complete page, and
-     elements outside the HTML component use heading levels 1 and 2 by default.
+     The available heading levels in the Text component editor begin with
+     heading 3 (``<h3>``). Text components are part of a complete page, and
+     elements outside the Text component use heading levels 1 and 2 by default.
      Because tools such as screen readers use heading levels to navigate
-     through pages, using heading levels 1 or 2 inside an HTML component can
+     through pages, using heading levels 1 or 2 inside a Text component can
      interfere with the functionality of these tools.
 
 #. Select a font family for selected text, such as Arial, Courier New, or Times
@@ -170,12 +170,12 @@ descriptions.
    separate paragraph in a monospace font.
 
 #. Create a hypertext link from the selected text. For more information, see
-   :ref:`Add a Link in an HTML Component`.
+   :ref:`Add a Link in a Text Component`.
 
 #. Remove a hypertext link from the selected text.
 
 #. Insert an image at the cursor. For more information, see :ref:`Add an Image
-   to an HTML Component`.
+   to a Text Component`.
 
 #. Review the HTML markup.
 
@@ -208,7 +208,7 @@ You can then continue working in the visual editor.
 
 .. warning::
  Selecting **OK** in the source code editor does not save your changes to the
- HTML component. To save your changes and close the component, select **Save**
+ Text component. To save your changes and close the component, select **Save**
  in the visual editor. If you select **Cancel**, the changes you made in the
  HTML source code editor are discarded.
 
@@ -230,32 +230,32 @@ not validate your HTML code. If you use this editor, you should thoroughly test
 the HTML content in your course.
 
 .. important::
- When you add a heading to an HTML component, make sure that you use only
- heading level 3 ``<h3>`` through heading level 6 ``<h6>``. HTML components are
- part of a complete page, and elements outside the HTML component use heading
+ When you add a heading to a Text component, make sure that you use only
+ heading level 3 ``<h3>`` through heading level 6 ``<h6>``. Text components are
+ part of a complete page, and elements outside the Text component use heading
  levels 1 and 2 by default. Because tools such as screen readers use heading
- levels to navigate through pages, using heading levels 1 or 2 inside an HTML
+ levels to navigate through pages, using heading levels 1 or 2 inside a Text
  component can interfere with the functionality of these tools.
 
-.. _Create an HTML Component:
+.. _Create a Text Component:
 
 *****************************
-Create an HTML Component
+Create a Text Component
 *****************************
 
-#. Under **Add New Component**, select **HTML**.
+#. Under **Add New Component**, select **Text**.
 
 #. Select the template.
 
    The rest of these instructions assume that you selected **Text**, which
-   creates an empty HTML component with the :ref:`visual editor<The Visual
+   creates an empty Text component with the :ref:`visual editor<The Visual
    Editor>` selected.
 
-   An empty HTML component appears at the bottom of the unit.
+   An empty Text component appears at the bottom of the unit.
 
 #. In the component, select **Edit**.
 
-   The HTML component opens in the visual editor.
+   The Text component opens in the visual editor.
 
 #. Enter and format your content. You can :ref:`review the HTML markup<Work
    with HTML code>`.
@@ -275,18 +275,18 @@ Create an HTML Component
 
 When you use the visual editor, you can also perform the following tasks.
 
-* :ref:`Add a Link in an HTML Component`
-* :ref:`Add an Image to an HTML Component`
+* :ref:`Add a Link in a Text Component`
+* :ref:`Add an Image to a Text Component`
 * :ref:`Import LaTeX Code`
 
 
-.. _HTML Component Templates:
+.. _Text Component Templates:
 
 =========================
-HTML Component Templates
+Text Component Templates
 =========================
 
-When you create an HTML component, you select one of the following templates.
+When you create a Text component, you select one of the following templates.
 
 * Text
 * Announcement
@@ -295,17 +295,17 @@ When you create an HTML component, you select one of the following templates.
 
 The raw HTML template uses the raw HTML editor by default. All of the other
 templates use the visual editor by default. You can switch between the editors
-in any HTML component. For more information, see :ref:`Set the Editor for an
-HTML Component`.
+in any Text component. For more information, see :ref:`Set the Editor for a
+Text Component`.
 
-.. _Add a Link in an HTML Component:
+.. _Add a Link in a Text Component:
 
 ***********************************
-Add a Link in an HTML Component
+Add a Link in a Text Component
 ***********************************
 
 When you use the visual editor, to add a link to a website, course unit, or
-file in an HTML component, you work with the **Insert link** dialog box.
+file in a Text component, you work with the **Insert link** dialog box.
 
 For more information, see the following tasks.
 
@@ -332,7 +332,7 @@ Add a Link to a Website
 
 #. Select **OK**.
 
-#. Save the HTML component.
+#. Save the Text component.
 
 #. To test the link, select **View Live Version** or **Preview**. When the unit
    opens in the LMS, select the linked text and verify that the correct website
@@ -360,7 +360,7 @@ Add a Link to a Course Unit
        :alt: The **Unit Location** area in the right pane of a unit page, with
            the unit's location ID circled.
 
-#. Open the HTML component where you want to add the link.
+#. Open the Text component where you want to add the link.
 
 #. Select the text that you want to make into the link.
 
@@ -387,7 +387,7 @@ Add a Link to a Course Unit
 
 #. Select **Insert**.
 
-#. Save the HTML component and test the link.
+#. Save the Text component and test the link.
 
 .. _Add a Link to a File:
 
@@ -396,17 +396,17 @@ Add a Link to a File
 ====================
 
 .. tip::
- When you add links to files, open the HTML component and the **Files &
+ When you add links to files, open the Text component and the **Files &
  Uploads** page in separate browser windows. You can then more quickly copy
  file URLs.
 
-You can add a link in an HTML component to any file that is uploaded for the
+You can add a link in a Text component to any file that is uploaded for the
 course. For more information about uploading files, see :ref:`Add Files to a
 Course`.
 
 .. note::
- Do not use this method to add images to HTML components. Instead, use the
- method in :ref:`Add an Image to an HTML Component`.
+ Do not use this method to add images to Text components. Instead, use the
+ method in :ref:`Add an Image to a Text Component`.
 
 
 #. On the **Files & Uploads** page, locate the file that you want, and then
@@ -416,7 +416,7 @@ Course`.
    You must use the **Studio** URL to link to the file, not the **Web** URL.
    For more information, see :ref:`Add Files to a Course`.
 
-#. In the HTML component where you want to add the link, select the text that
+#. In the Text component where you want to add the link, select the text that
    you want to make into the link.
 
 #. In the toolbar, select the link icon.
@@ -434,20 +434,19 @@ Course`.
 
 #. Select **OK**.
 
-#. Save the HTML component and test the link.
+#. Save the Text component and test the link.
 
-.. _Add an Image to an HTML Component:
+.. _Add an Image to a Text Component:
 
 *********************************
-Add an Image to an HTML Component
+Add an Image to a Text Component
 *********************************
 
-When you use the visual editor, you can add any image from your computer to an
-HTML component. You can see a preview of the image before you add it to the
+When you use the visual editor, you can add any image from your computer to
+a Text component. You can see a preview of the image before you add it to the
 component.
 
 .. note::
-
  * Before you add an image, make sure that you obtain copyright permissions for
    images you use in your course, and that you cite sources appropriately.
  * To add effective alternative text for images, review :ref:`Best Practices
@@ -455,11 +454,11 @@ component.
  * You can only add one image at one time.
  * Each individual image file must be smaller than 10 MB.
 
-To add an image to an HTML component, you can use one of the following
+To add an image to a Text component, you can use one of the following
 procedures.
 
 * :ref:`Drag an image <Drag an Image into the Add Image Dialog Box>` from your
-  computer into the **Add Image** dialog box in the HTML component.
+  computer into the **Add Image** dialog box in the Text component.
 * :ref:`Locate an image <Locate an Image on Your Computer>` by using the
   **Browse Your Computer** option in the **Add Image** dialog box.
 * :ref:`Select an image <Select a Previously Uploaded Image>` that you have
@@ -471,7 +470,7 @@ procedures.
 Drag an Image into the Add Image Dialog Box
 ===========================================
 
-#. In the HTML component, position the cursor where you want to add an image,
+#. In the Text component, position the cursor where you want to add an image,
    and then select the image icon on the toolbar.
 
 #. In the **Add an Image** dialog box, drag an image from your computer into
@@ -494,7 +493,7 @@ Drag an Image into the Add Image Dialog Box
 
 #. Select **Insert Image**.
 
-#. Save the HTML component and test the image.
+#. Save the Text component and test the image.
 
 .. _Locate an Image on Your Computer:
 
@@ -502,7 +501,7 @@ Drag an Image into the Add Image Dialog Box
 Locate an Image on Your Computer
 ===========================================
 
-#. In the HTML component, position the cursor where you want to add an image,
+#. In the Text component, position the cursor where you want to add an image,
    and then select the image icon on the toolbar.
 
 #. In the **Add an Image** dialog box, **Browse Your Computer**.
@@ -527,7 +526,7 @@ Locate an Image on Your Computer
 
 #. Select **Insert Image**.
 
-#. Save the HTML component and test the image.
+#. Save the Text component and test the image.
 
 .. _Select a Previously Uploaded Image:
 
@@ -540,9 +539,9 @@ Select a Previously Uploaded Image
    about uploading images, see :ref:`Add Files to a Course`.
 
    When you upload an image, the image automatically becomes available in a
-   list that opens when you add an image to an HTML component.
+   list that opens when you add an image to a Text component.
 
-#. In the HTML component, position the cursor where you want to add an image,
+#. In the Text component, position the cursor where you want to add an image,
    and then select the image icon on the toolbar.
 
 #. In the **Add an Image** dialog box, locate the image in the **Select a
@@ -564,15 +563,15 @@ Select a Previously Uploaded Image
 
 #. Select **Insert Image**.
 
-#. Save the HTML component and test the image.
+#. Save the Text component and test the image.
 
-.. _Format an Image in an HTML Component:
+.. _Format an Image in a Text Component:
 
 =========================================
-Format an Image in an HTML Component
+Format an Image in a Text Component
 =========================================
 
-You have several options for formatting an image in an HTML component.
+You have several options for formatting an image in a Text component.
 
 .. contents::
  :local:
@@ -585,7 +584,7 @@ Align an Image
 
 To align your image to the right, the left, or the center, follow these steps.
 
-#. In the HTML component, select the image.
+#. In the Text component, select the image.
 
 #. On the toolbar, select the left align, right align, or center icon.
 
@@ -596,7 +595,7 @@ Change the Image Size
 
 To change the size of your image, follow these steps.
 
-#. In the HTML component, select the image that you want to edit, and then
+#. In the Text component, select the image that you want to edit, and then
    select the image icon on the toolbar.
 
 #. In the **Edit Image Settings** dialog box, locate **Image Dimensions**, and
@@ -625,7 +624,7 @@ the **Width** and **Height** fields.
 .. Add a Border to an Image
 .. ************************
 
-.. #. In the HTML component, select the image that you want to edit, and then
+.. #. In the Text component, select the image that you want to edit, and then
 ..   select the image icon on the toolbar.
 .. #. In the **Add or Edit Image** dialog box, select **Advanced**.
 .. #. In the **Border** field, enter the width in pixels of the border for
@@ -637,7 +636,7 @@ the **Width** and **Height** fields.
 .. Add Margins to an Image
 .. ************************
 
-.. #. In the HTML component, select the image that you want to edit, and then
+.. #. In the Text component, select the image that you want to edit, and then
 ..   select the image icon on the toolbar.
 .. #. In the **Add or Edit Image** dialog box, select **Advanced**.
 .. #. In the **Vertical space** and **Horizontal space** fields, enter the
@@ -649,15 +648,15 @@ the **Width** and **Height** fields.
 .. _Import LaTeX Code:
 
 ****************************************
-Import LaTeX Code into an HTML Component
+Import LaTeX Code into a Text Component
 ****************************************
 
-You can import LaTeX code into an HTML component. You might do this, for
+You can import LaTeX code into a Text component. You might do this, for
 example, if you want to create "beautiful math" such as the math in the
 following image.
 
 .. image:: ../../../shared/images/HTML_LaTeX_LMS.png
- :alt: Math formulas created with LaTeX in an HTML component.
+ :alt: Math formulas created with LaTeX in a Text component.
 
 .. warning::
  The LaTeX processor that Studio uses to convert LaTeX code to XML is a third
@@ -679,13 +678,13 @@ the advanced settings in your course.
 #. At the bottom of the page, select **Save Changes**.
 
 ==============================================
-Add an HTML Component that Contains LaTeX Code
+Add a Text Component that Contains LaTeX Code
 ==============================================
 
-When the LaTeX processor is enabled, you can create an HTML component that
+When the LaTeX processor is enabled, you can create a Text component that
 contains LaTeX code.
 
-#. In the unit where you want to create the component, select **html** under
+#. In the unit where you want to create the component, select **Text** under
    **Add New Component**, and then select **E-text Written in LaTeX**. The new
    component is added to the unit.
 

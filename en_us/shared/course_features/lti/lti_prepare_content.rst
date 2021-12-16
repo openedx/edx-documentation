@@ -136,7 +136,7 @@ removing components, or disable course features that you do not plan to use.
      - No
    * - Discussion Components
      - No
-   * - HTML Components
+   * - Text Components
      - Yes
    * - Internal Links
      - No

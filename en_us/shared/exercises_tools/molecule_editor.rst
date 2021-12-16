@@ -54,17 +54,17 @@ component followed by a problem component.
 
 #. Upload all of the files listed above to the **Files & Uploads** page in your
    course.
-#. Create the HTML component.
+#. Create the Text component.
 
-  #. In the unit where you want to create the problem, click **HTML** under
-     **Add New Component**, and then click **HTML**.
+  #. In the unit where you want to create the problem, click **Text** under
+     **Add New Component**, and then click **Text**.
   #. In the component that appears, click **Edit**.
-  #. In the component editor, paste the HTML component code from below.
+  #. In the component editor, paste the Text component code from below.
   #. Make any changes that you want, and then click **Save**.
 
 #. Create the problem component.
 
-  #. Under the HTML component, click **Problem** under **Add New Component**,
+  #. Under the Text component, click **Problem** under **Add New Component**,
      and then click **Blank Advanced Problem**.
   #. In the component that appears, click **Edit**.
   #. In the component editor, paste the problem component code from below.
@@ -76,9 +76,9 @@ component followed by a problem component.
 Molecule Editor Code
 ========================
 
-To create the molecule editor, you need an HTML component and a problem component.
+To create the molecule editor, you need a Text component and a problem component.
 
-HTML Component Code
+Text Component Code
 ***************************
 
 .. code-block:: xml

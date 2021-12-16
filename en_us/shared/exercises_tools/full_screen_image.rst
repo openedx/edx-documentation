@@ -43,7 +43,7 @@ Create a Full Screen Image
 #. Upload your image file to the **Files & Uploads** page. For more
    information, see :ref:`Add Files to a Course`.
 
-#. Under **Add New Component**, select **HTML**, and then select **Full Screen
+#. Under **Add New Component**, select **Text**, and then select **Full Screen
    Image Tool**.
 
 #. In the new component that appears, select **Edit**.
@@ -79,7 +79,7 @@ Create a Full Screen Image
      </a>
 
    .. note::
-     You can use this same HTML code in any HTML component, not just those
+     You can use this same HTML code in any Text component, not just those
      components you created as full screen images.
 
 #. Select **Save**.

@@ -51,7 +51,7 @@ The Completion Control
 
 When you add a completion component to a unit, learners see a control that is
 labeled **Mark as complete**. In this example, the completion component follows
-an HTML component.
+a Text component.
 
 .. image:: ../../../shared/images/completion_markcomplete.png
   :alt: The completion component in an incomplete state.

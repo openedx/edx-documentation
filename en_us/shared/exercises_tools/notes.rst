@@ -14,7 +14,7 @@ they read in the body of the course.
   :alt: Image of a course page that includes highlighted text and a note.
 
 .. note:: The notes tool is available for text, including text in
- HTML components. However, the tool is currently not available for discussions,
+ Text components. However, the tool is currently not available for discussions,
  exercises, video transcripts, or PDF documents.
 
 Learners can access their notes either in the body of the course or on a

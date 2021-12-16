@@ -34,7 +34,7 @@ For more information about discussions, see these topics.
 Create a Discussion Component
 *****************************
 
-.. note:: EdX recommends that you add an HTML component before each discussion
+.. note:: EdX recommends that you add a Text component before each discussion
    component to introduce the topic that you want learners to discuss. The
    discussion component itself does not contain any text and can be easy for
    learners to overlook.

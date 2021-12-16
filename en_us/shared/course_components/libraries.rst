@@ -17,7 +17,7 @@ Content Libraries Overview
 **************************
 
 In Studio, you can create a library to build a pool of components for use in
-randomized assignments in your courses. You can add HTML components, problems,
+randomized assignments in your courses. You can add Text components, problems,
 and video components to a library. Open response assessment and discussion
 components are not supported in libraries.
 
@@ -144,7 +144,7 @@ follow these steps.
 For more information about the types of components you can add to a library,
 see these topics.
 
-* :ref:`Working with HTML Components`
+* :ref:`Working with Text Components`
 * :ref:`Working with Problem Components`
 * :ref:`Working with Video Components`
 

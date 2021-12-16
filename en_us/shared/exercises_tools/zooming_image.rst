@@ -46,7 +46,7 @@ Create a Zooming Image Tool
    files for your course, see :ref:`Add Files to a Course`.
 
 #. Add a zooming image tool to your course. In the course outline in Studio,
-   select **Add New Component**, select **HTML**, and then select **Zooming
+   select **Add New Component**, select **Text**, and then select **Zooming
    Image Tool**.
 
 #. In the new component that appears, select **Edit**.

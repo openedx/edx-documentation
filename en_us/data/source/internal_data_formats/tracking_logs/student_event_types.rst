@@ -2468,7 +2468,7 @@ adds a note in the course.
      - Details
    * - ``component_usage_id``
      - string
-     - The unique identifier for the HTML component where the learner added
+     - The unique identifier for the Text component where the learner added
        the note. For more information about the components that a course
        includes, see :ref:`partnercoursestaff:Developing Course Components`.
    * - ``highlighted_content``
@@ -2613,7 +2613,7 @@ searches notes on the **Notes** page.
 =====================================================
 
 The browser emits ``edx.course.student_notes.used_unit_link`` events when a
-learner uses a note link on the **Notes** page to go to the HTML component that
+learner uses a note link on the **Notes** page to go to the Text component that
 contains that note.
 
 **History**: Added 16 March 2016.

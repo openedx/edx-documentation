@@ -965,7 +965,7 @@ Keep the following guidelines in mind when you create HTML content.
   document. Well-structured headings help learners and screen reader users to
   navigate a page and efficiently find what they are looking for.
 
-  In your :ref:`HTML<Working with HTML Components>` and
+  In your :ref:`HTML<Working with Text Components>` and
   :ref:`problem<Working with Problem Components>` components, be sure to apply
   only heading levels 2 through 6 to your content. Because the components
   that you add are part of a complete page, and heading level 1 is

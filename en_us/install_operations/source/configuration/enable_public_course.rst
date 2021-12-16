@@ -108,7 +108,7 @@ including the following.
   groups for your private content, and ensure that your enrolled learners are
   members of a cohort that can see this content group.
 
-* Only HTML components, Video components, and course handouts have a "public" 
+* Only Text components, Video components, and course handouts have a "public"
   view. Unenrolled learners will see a message requesting that they enroll to 
   see more complex content types, such as discussion forums, problem blocks, 
   randomized content blocks, exams, Open Response Assessment, and other XBlocks.
