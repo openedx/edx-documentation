@@ -228,6 +228,8 @@ Other ORA features
 - Add a new button to edit an ORA in Studio
 - Make submission feedback full-width
 - UI Changes for Rubric Reuse
+- add toggle feature for enhanced staff grade
+
 
 
 LTI 1.3 and LTI Advantage Support
