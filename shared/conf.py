@@ -7,6 +7,13 @@ import urllib
 
 import edx_theme
 
+# What release line is this?  Use "master" for master, and the release name
+# on release branches.  Zebrawood should have "zebrawood".
+release_line = "master"
+
+# The slug that is used by ReadTheDocs for this version of the projects.
+project_version = "latest" if (release_line == "master") else f"open-release-master.{release_line}"
+
 # on_rtd is whether we are on readthedocs.io, this line of code grabbed from docs.readthedocs.io
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
@@ -155,7 +162,7 @@ copyright = '{year}, edX Inc.'.format(year=datetime.datetime.now().year)
 
 def edx_rtd_url(slug):
     """Use this with the readthedoc project slug to create the full URL."""
-    return f"https://edx.readthedocs.io/projects/{slug}/en/latest/"
+    return f"https://edx.readthedocs.io/projects/{slug}/en/{project_version}/"
 
 def ism_location(dir_name):
     """Calculate the intersphinx_mapping location to use for a book.
@@ -192,4 +199,3 @@ extlinks = {
     # :jira:`TNL-4904` becomes: <a href='https://openedx.atlassian.net/browse/TNL-4904'>TNL-4904</a>
     'jira': ('https://openedx.atlassian.net/browse/%s', ''),
 }
-
