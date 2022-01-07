@@ -26,13 +26,11 @@ For more details on this feature or screenshots see this `blog post <https://ope
 Enable the feature
 **********************
 
-The following waffle flags need to be enabled:
+The following waffle flag needs to be enabled:
 
-#. course_goals.number_of_days_goals
+   ``course_experience.enable_course_goals``
 
-#. course_experience.enable_course_goals
-
-To send goal reminder emails, you need to regularly run the following `management command <https://github.com/edx/edx-platform/blob/master/lms/djangoapps/course_goals/management/commands/goal_reminder_email.py#L101>`_.  
+To send goal reminder emails, you need to regularly run the following `management command <https://github.com/edx/edx-platform/blob/master/lms/djangoapps/course_goals/management/commands/goal_reminder_email.py#L101>`_.
 
 edx.org runs this command at the following cron schedule H \*/3 \* \* \*
 
