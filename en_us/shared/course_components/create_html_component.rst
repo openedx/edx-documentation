@@ -1,5 +1,9 @@
 .. _Working with Text Components:
 
+.. this is the old name of this section, left here so that frozen Maple
+    projects will resolve the reference:
+.. _Working with HTML Components:
+
 #############################
 Working with Text Components
 #############################
