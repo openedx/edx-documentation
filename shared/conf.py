@@ -12,7 +12,7 @@ import edx_theme
 release_line = "maple"
 
 # The slug that is used by ReadTheDocs for this version of the projects.
-project_version = "latest" if (release_line == "master") else f"open-release-master.{release_line}"
+project_version = "latest" if (release_line == "master") else f"open-release-{release_line}.master"
 
 # on_rtd is whether we are on readthedocs.io, this line of code grabbed from docs.readthedocs.io
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
@@ -159,8 +159,15 @@ copyright = '{year}, edX Inc.'.format(year=datetime.datetime.now().year)
 # We often use the same directory to build two books (edX vs Open edX).  In
 # those cases, only use ism_location for one book, not both, or we'll be
 # looking for A's references in an index built for B.
+#
+# openedx_rtd_url is for books that are branched and built for specific Open
+# edX releases.  edx_rtd_url is for books that are not.
 
 def edx_rtd_url(slug):
+    """Use this with the readthedoc project slug to create the full URL."""
+    return f"https://edx.readthedocs.io/projects/{slug}/en/latest/"
+
+def openedx_rtd_url(slug):
     """Use this with the readthedoc project slug to create the full URL."""
     return f"https://edx.readthedocs.io/projects/{slug}/en/{project_version}/"
 
@@ -177,16 +184,16 @@ def ism_location(dir_name):
         return None
 
 intersphinx_mapping = {
-    "opencoursestaff" : (edx_rtd_url("open-edx-building-and-running-a-course"), None),
+    "opencoursestaff" : (openedx_rtd_url("open-edx-building-and-running-a-course"), None),
     "data" : (edx_rtd_url("devdata"), ism_location("data")),
     "partnercoursestaff": (edx_rtd_url("edx-partner-course-staff"), ism_location("course_authors")),
     "insights" : (edx_rtd_url("edx-insights"), None),
     "xblockapi" : (edx_rtd_url("xblock"), None),
     "xblocktutorial" : (edx_rtd_url("xblock-tutorial"), ism_location("xblock-tutorial")),
-    "installation" : (edx_rtd_url("edx-installing-configuring-and-running"), ism_location("install_operations")),
+    "installation" : (openedx_rtd_url("edx-installing-configuring-and-running"), ism_location("install_operations")),
     "olx" : (edx_rtd_url("edx-open-learning-xml"), ism_location("olx")),
     "learners" : (edx_rtd_url("edx-guide-for-students"), None),
-    "openlearners" : (edx_rtd_url("open-edx-learner-guide"), None),
+    "openlearners" : (openedx_rtd_url("open-edx-learner-guide"), None),
     "opendevelopers" : (edx_rtd_url("edx-developer-guide"), None),
     "opendataapi" : (edx_rtd_url("edx-data-analytics-api"), None),
     "openreleasenotes" : (edx_rtd_url("open-edx-release-notes"), None),
