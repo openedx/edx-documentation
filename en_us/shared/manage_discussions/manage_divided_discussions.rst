@@ -4,10 +4,8 @@
 Managing Divided Discussion Topics
 ###################################
 
-This section provides information about managing
-:ref:`discussions<Discussions>` that are divided based on one type of group in
-your course, either :ref:`cohorts<Cohort>` or
-:ref:`enrollment tracks<enrollment_track_g>`.
+This section provides information about managing :ref:`discussions<Discussions>`
+that are divided based on learner groups (:ref:`cohorts<Cohort>`).
 
 For more information about divided discussions, see :ref:`About Divided
 Discussions`.
@@ -60,9 +58,9 @@ contribute to all posts.
  that are divided by group. For information about assigning discussion
  moderation roles, see :ref:`Assigning_discussion_roles`.
 
-In courses where either cohorts or multiple enrollment tracks are enabled,
-course team members who have discussion moderation roles that are not
-restricted by group can also perform the following actions.
+In courses where cohorts are enabled, course team members who have discussion
+moderation roles that are not restricted by group can also perform the
+following actions.
 
 * Choose who will be able to see the posts that they add to divided topics. See
   :ref:`Choosing the Visibility of a Post`.
@@ -86,8 +84,7 @@ the title. This indicator appears after any learner or team member adds a
 post. No configuration is necessary to include this identifier, although if
 you use divided discussions in your course, you should use care in naming your
 groups, because learners see the group names in the group indicators for each
-post. Enrollment track groups are automatically named based on the enrollment
-track.
+post.
 
 Optionally, you can name your discussion topics to make it clear to learners
 who their posts will be viewed by. See :ref:`Apply Naming Conventions to
@@ -142,8 +139,7 @@ discussion topic, the topic names indicate who can see the posts, responses,
 and comments.
 
 For more information about adding and configuring course-wide discussion
-topics, see :ref:`Create CourseWide Discussion Topics` and :ref:`Specify Which
-Course Wide Discussion Topics are Divided`.
+topics, see :ref:`Create CourseWide Discussion Topics` and :ref:`Divide Course Wide Discussion Topics`.
 
 
 .. _Choosing the Visibility of a Post:
@@ -195,7 +191,7 @@ Considerations When Editing Posts
 ===================================
 
 Keep these additional considerations in mind when you edit posts in a course
-that includes cohorts or multiple enrollment tracks.
+that includes learner groups (cohorts).
 
 * You cannot change the visibility of a post after it has been added. If you
   notice that a post contains information that is not appropriate for the
@@ -216,9 +212,8 @@ that includes cohorts or multiple enrollment tracks.
 Viewing the Posts of a Group
 *****************************
 
-When a course includes cohorts or multiple enrollment tracks, you can view
-posts and monitor discussion activity for each of the groups within the group
-type that you chose to divide discussions for. You can also view all posts.
+When a course includes learner groups (cohorts), you can view posts and monitor
+discussion activity for each of the groups. You can also view all posts.
 
 .. note:: Course team members must have the Discussion Admin or Discussion
    Moderator role in addition to the course team Staff or Admin role to be
