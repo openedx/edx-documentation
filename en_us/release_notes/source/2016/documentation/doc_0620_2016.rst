@@ -1,5 +1,0 @@
-* Course team members who add video file IDs to the video components of an
-  edx.org course can now watch a video about the process.
-
-* The :ref:`edX Learner's Guide` and the :ref:`Open edX Learner's Guide` have
-  been reorganized to make content easier to find.

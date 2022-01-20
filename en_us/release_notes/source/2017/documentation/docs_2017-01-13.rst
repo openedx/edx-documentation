@@ -1,7 +1,0 @@
-* The documentation for Custom JavaScript Display and Grading problems (also
-  called custom JavaScript problems or JS input problems) has been extensively
-  updated to reflect the new ``title`` attribute inside the ``jsinput`` tag, as
-  well as the new problem template in Studio. For more information, see
-  :ref:`partnercoursestaff:Custom JavaScript` in *Building and Running an edX
-  Course* or :ref:`opencoursestaff:Custom JavaScript` in *Building and Running
-  an Open edX Course*.

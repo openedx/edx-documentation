@@ -1,8 +1,0 @@
-
-========================
-Open EdX Platform APIs
-========================
-
-In the *EdX Platform APIs* guide, the *edX Platform
-Enrollment API* section has been updated to reflect the addition of
-a new GET parameter that will include expired course modes.

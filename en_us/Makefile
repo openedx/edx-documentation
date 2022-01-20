@@ -39,7 +39,5 @@ html:
 	@cd $(CURDIR)/open_edx_release_notes && make html $(Q_FLAG)
 	@echo edX Open edX Students
 	@cd $(CURDIR)/open_edx_students && make html $(Q_FLAG)
-	@echo edX Students
-	@cd $(CURDIR)/students && make html $(Q_FLAG)
 	@echo XBlock Tutorial
 	@cd $(CURDIR)/xblock-tutorial && make html $(Q_FLAG)

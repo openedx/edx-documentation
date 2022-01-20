@@ -1,4 +1,0 @@
-This release resolves an issue where tasks that were in progress on the **Data
-Download** tab in the Instructor Dashboard (such as generating problem
-reports) did not display in the table of pending tasks. The **Pending Tasks**
-table now correctly displays tasks that are in progress. (:jira:`TNL-5858`)

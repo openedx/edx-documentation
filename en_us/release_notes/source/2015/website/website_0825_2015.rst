@@ -1,3 +1,0 @@
-
-The cost for certificates on track selection pages on edx.org now specify that
-the amount is in **USD**, for U.S. dollars. (ECOM-2114)

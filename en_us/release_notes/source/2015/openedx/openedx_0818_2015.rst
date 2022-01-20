@@ -1,5 +1,0 @@
-
-For sites that are running an Open edX instance, Cypress is now available.
-Cypress, the third release of the Open edX platform, contains new features for
-learners, course teams, and developers. For more information, see the
-:ref:`openreleasenotes:Open edX Cypress Release`.

@@ -1,1 +1,0 @@
-The LMS dashboard now displays information about more than one XSeries for courses. If a course is part of more than one XSeries, information about each XSeries appears in the dashboard section for that course.

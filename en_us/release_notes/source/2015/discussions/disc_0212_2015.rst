@@ -1,3 +1,0 @@
-
-The "Mark as Answered" icon was missing from discussion and question posts.
-This problem has been resolved. (TNL-1330)

@@ -1,3 +1,0 @@
-
-A new XBlock service allows XBlocks to access Django settings. (OSPR-419,
-OSPR-427)

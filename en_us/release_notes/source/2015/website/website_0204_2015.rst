@@ -1,3 +1,0 @@
-
-A single sign-in page at `edX.org`_ now includes the options to create a new
-account on edX or sign in to an existing edX account.

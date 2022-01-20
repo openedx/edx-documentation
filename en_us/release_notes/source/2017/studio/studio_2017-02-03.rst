@@ -1,9 +1,0 @@
-In Studio, the **Add New Library** button for creating a new content library is
-now available only to course team members who have the course creator or course
-staff role. (OSPR-1563)
-
-
-
-
-
-

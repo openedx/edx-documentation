@@ -1,7 +1,0 @@
-Open edX platform users who have installed the E-Commerce service can now
-create coupons to give their learners discounts on courses that have fees.
-Coupons can be single-user or multi-user and can be valid for just one course
-or for multiple courses.
-
-For more information, see :ref:`installation:Create and Manage Coupons` in
-the *Installing, Configuring, and Running the Open edX Platform* guide.

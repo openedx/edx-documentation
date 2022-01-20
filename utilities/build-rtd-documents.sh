@@ -24,7 +24,6 @@ then
             edx-partner-course-staff
             edx-insights
             devdata
-            edx-guide-for-students
             edx-installing-configuring-and-running
             open-edx-building-and-running-a-course
             open-edx-learner-guide

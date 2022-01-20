@@ -1,9 +1,0 @@
-An issue causing learners to see sections in the wrong order on the Progress
-page has been fixed. (:jira:`TNL-6836`)
-
-For newly created courses that use cohorts, inline discussion components are
-no longer divided by cohort by default. By default, inline discussion
-components are unified so that all learners can participate in the discussion.
-You can still decide which inline discussion components are divided, and
-specify this on the Cohorts tab in the instructor dashboard.
-(:jira:`TNL-6815`)

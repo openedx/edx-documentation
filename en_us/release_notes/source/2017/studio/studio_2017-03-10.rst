@@ -1,7 +1,0 @@
-The *Video ID* field has been added to the "Basic" tab of the video component to simplify authoring. (:jira:`TNL-6489`)
-
-
-
-
-
-

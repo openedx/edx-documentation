@@ -1,5 +1,0 @@
-Studio now has a setting that course teams can use to keep timed exams hidden
-after the exam due date has passed. For more information, see
-:ref:`partnercoursestaff:Timed Exams` in *Building and Running an EdX Course*
-or :ref:`opencoursestaff:Timed Exams` in *Building and Running an Open EdX
-Course*.

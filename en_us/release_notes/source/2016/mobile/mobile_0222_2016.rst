@@ -1,5 +1,0 @@
-
-The number of days before OAuth tokens expire for mobile OAuth clients can now
-be configured. For more information, see :ref:`installation:Configure OAuth
-Token Expiration Days` in the *Installing, Configuring, and Running the Open
-edX Platform* guide.

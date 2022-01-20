@@ -1,5 +1,0 @@
-When course authors included HTML tags inside a ``<choicehint>`` or
-``<demandhint>`` tag in a problem, the content inside the HTML tags and any
-content after the HTML tags was invisible to learners. This problem has been
-fixed. (TNL-3096)
-

@@ -1,4 +1,0 @@
-
-To improve accessibility of the edx.org sign in and registration page,
-instructions that provide additional context for screen reader users are now
-included.

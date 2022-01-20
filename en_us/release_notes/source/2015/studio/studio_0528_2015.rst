@@ -1,6 +1,0 @@
-
-Course teams can now specify either "All Rights Reserved" or a Creative Commons
-license for course content as a whole as well as for each individual video in
-the course. For more information, see :ref:`partnercoursestaff:Licensing a
-Course` in *Building and Running an edX Course* and :ref:`installation:Enable
-Licensing` in *Installing, Configuring, and Running the Open edX Platform*.

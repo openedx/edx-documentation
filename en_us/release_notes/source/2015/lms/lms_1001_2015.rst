@@ -1,6 +1,0 @@
-
-Various accessibility-related enhancements were made, including re-engineering
-the left navigation menu in the courseware. Navigating through sections,
-subsections and units using the course navigation menu is now significantly
-improved for keyboard and screen reader users. (AC-76)
-

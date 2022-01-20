@@ -1,6 +1,0 @@
-
-When course teams specify license options for a course or for specific videos,
-learners can now see license information on every page in the courseware and
-for specific videos. For Creative Commons licenses, learners can follow links
-to the Creative Commons website to read more about their rights to use course
-content.

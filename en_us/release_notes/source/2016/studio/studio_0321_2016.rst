@@ -1,4 +1,0 @@
-* In Studio, all video components erroneously displayed a "No playable sources
-  found" error, even when the components were correctly configured and
-  functioning. This issue has been resolved. Video components no longer display
-  this error message unless playable sources are not configured. (TNL-4121)

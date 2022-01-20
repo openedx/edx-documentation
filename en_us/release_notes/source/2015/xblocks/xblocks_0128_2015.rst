@@ -1,4 +1,0 @@
-
-All courses created after January 14, 2015 now use the :ref:`key
-introspection API` format to identify their component Xblocks.
- 

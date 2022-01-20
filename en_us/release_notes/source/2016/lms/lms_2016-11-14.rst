@@ -1,7 +1,0 @@
-Learners who have not specifically selected a time zone in their edX account
-settings now see times and dates on their dashboards, in the body of their
-courses, and on their **Progress** pages in the time zone that their browser
-specifies. Browser dates and times appear in military time and are followed by
-a time zone indicator: for example, 17:00 Sept 5, 2016 IOT. Other dates and
-times in their courses appear in Coordinated Universal Time (UTC), and do not
-have a time zone indicator.

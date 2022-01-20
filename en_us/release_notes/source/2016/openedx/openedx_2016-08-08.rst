@@ -1,3 +1,0 @@
-The edX UX Pattern Library has been updated with various enhancements, including
-color options and contrast, and button styling. For a complete list of updates,
-see https://github.com/edx/ux-pattern-library/blob/master/CHANGELOG.md

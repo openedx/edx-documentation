@@ -1,6 +1,0 @@
-* The :ref:`data:video` topic in the *EdX Research Guide* now contains
-  information about several new events that have been added as a result of
-  accessibility enhancements from December 2015 and January 2016.
-
-* The :ref:`Setting up Your Course Index` topic now includes an
-  :ref:`partnercoursestaff:Pub Add an About Video` section.

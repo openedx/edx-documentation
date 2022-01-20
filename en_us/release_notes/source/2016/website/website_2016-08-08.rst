@@ -1,8 +1,0 @@
-
-To improve security, when learners follow the **Forgot password?** process on
-`edx.org`_, error messages no longer indicate whether provided email addresses
-exist in the system. (:jira:`ECOM-4703`)
-
-
-.. _edx.org: http://edx.org
-.. _Edge: http://edge.edx.org

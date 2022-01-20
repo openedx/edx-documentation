@@ -1,9 +1,0 @@
-* The :ref:`learners:View Order History` topic was added to the *EdX Learner's
-  Guide* and to *Building and Running an edX Course*.
-
-* Information has been added about the recipient groups, including cohorts,
-  that you can send bulk email messages to. For more information, see
-  :ref:`partnercoursestaff:bulk_email_message_addressing` in *Building and
-  Running an edX Course* and
-  :ref:`opencoursestaff:bulk_email_message_addressing` in *Building and Running
-  an Open edX Course*.

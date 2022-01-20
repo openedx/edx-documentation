@@ -1,8 +1,0 @@
-A learner can highlight text and make notes while progressing through a course.
-The learner can then review his notes in the body of the course or on a
-separate **Notes** page.
-
-.. For more information, see :ref:`partnercoursestaff:Notes Tool` in the *Building and Running an edX Course* guide or :ref:`learners:SFD Notes` in the *EdX Learner's Guide*.
-
-**Update 25 Feb 2016** This feature is not yet available for courses running on
-the edx.org or edge.edx.org web sites.

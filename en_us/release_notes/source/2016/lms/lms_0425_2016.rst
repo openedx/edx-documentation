@@ -1,9 +1,0 @@
-* In problems with **Check** buttons, learners must now enter or select an
-  answer before they can use **Check** or **Final Check** to find out if their
-  answers are correct. This change applies to checkbox, dropdown, multiple
-  choice, and text, numerical, or math expression input problems. (OSPR-1240)
-
-* In the learning sequence in the LMS, when learners hover their pointers
-  over, or have screen readers read, the tooltip for a unit, only the unit's
-  display name is now displayed or read. Previously, the display names of the
-  unit and all of its components were displayed or read. (MA-2188)

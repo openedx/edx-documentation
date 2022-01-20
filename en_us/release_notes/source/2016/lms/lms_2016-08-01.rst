@@ -1,4 +1,0 @@
-When a course team member views the course in the LMS as staff, subsections
-that have prerequisites now include a banner as a reminder that learners cannot
-access that subsection until they have completed the prerequisites.
-(:jira:`TNL-4926`)

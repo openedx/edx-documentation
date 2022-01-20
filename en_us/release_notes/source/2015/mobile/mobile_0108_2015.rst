@@ -1,7 +1,0 @@
-
-The tracking logs in daily data packages now include events for learners who
-use the edX mobile app to view course videos. The edX mobile app began to emit
-the ``play_video``, ``pause_video``, ``stop_video``, ``load_video``,
-``hide_transcript``, and ``show_transcript`` events on December 23, 2014. For
-more information, see the :ref:`data:video` section of the
-*edX Research Guide*.  

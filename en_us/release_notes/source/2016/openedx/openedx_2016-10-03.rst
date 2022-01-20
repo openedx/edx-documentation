@@ -1,9 +1,0 @@
-Third party authentication providers are now configured by site. You can now
-configure each of the sites that are set up for your Open edX installation to
-use a different third party authentication identity provider.
-
-If you have configured your Open edX installation to act as a SAML service
-provider, when you upgrade to this release all configuration settings apply
-only to the default site. You must now configure each of your other sites
-separately. For more information, see :ref:`installation:Enabling Third Party
-Authentication`.

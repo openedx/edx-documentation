@@ -1,7 +1,0 @@
-EdX recently launched MicroMasters programs. Developed to advance careers, and
-based on the master's programs of leading universities, each MicroMasters
-program is a series of higher-level courses that are recognized by companies
-for real job relevancy, and may accelerate a master's degree. For more
-information, see `MicroMasters Programs`_.
-
-

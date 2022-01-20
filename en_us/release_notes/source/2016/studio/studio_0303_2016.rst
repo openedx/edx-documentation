@@ -1,3 +1,0 @@
-In self-paced courses, when course teams attempted to edit subsection
-configurations, the configuration settings did not include grading options.
-This issue is resolved. (ECOM-3760)

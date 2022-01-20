@@ -1,4 +1,0 @@
-Randomized problems that are sent to an external grader now include the random
-seed value that was used to initialize the randomization. For more information,
-see :ref:`partnercoursestaff:External Grader` for edx.org course teams and
-:ref:`opencoursestaff:External Grader` for Open edX course teams. (OSPR-1202)

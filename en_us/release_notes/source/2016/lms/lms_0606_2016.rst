@@ -1,7 +1,0 @@
-Options for sending bulk email messages have changed. When course teams send
-bulk email messages from the LMS, they can now select one or more of these
-recipient groups: **Myself**, **Staff and Administrators**, and **All
-Learners**. When you send an email message to more than one of these groups,
-duplicate recipients are filtered out, so that recipients who are in more than
-one group do not receive multiple copies of the same email message.
-(:jira:`TNL-4356`)

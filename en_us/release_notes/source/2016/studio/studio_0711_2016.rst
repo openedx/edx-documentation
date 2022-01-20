@@ -1,7 +1,0 @@
-To ensure that every text input problem includes a correct answer value, an
-edit check has been added to the advanced editor. These problems are now
-checked for an answer attribute value.
-
-Previously, course team members could leave the answer attribute empty
-(``<stringresponse answer=" " type="ci" >``), which resulted in a question
-that learners could not answer correctly. (:jira:`TNL-4141`)

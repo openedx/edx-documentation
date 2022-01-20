@@ -1,6 +1,0 @@
-
-For courses running on edx.org, a new procedure for uploading course About
-videos is now ready for use. The edX media team has developed a process that
-automates hosting and encoding for your About videos. For more information, see
-:ref:`partnercoursestaff:Pub Add an About Video` in the *Building and Running
-an edX Course* guide.

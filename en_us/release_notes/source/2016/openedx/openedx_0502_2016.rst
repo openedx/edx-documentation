@@ -1,5 +1,0 @@
-* The JavaScript Backbone.js library has been upgraded from version 1.0.0 to
-  version 1.3.2. For more information, see the `change log for the Backbone.js
-  library`_.
-
-* The ENABLE_JWT_AUTH feature flag has been removed.

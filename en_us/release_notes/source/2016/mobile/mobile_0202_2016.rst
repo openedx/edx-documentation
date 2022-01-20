@@ -1,9 +1,0 @@
-
-The latest version of the edX app (version 2.0.0) for Android smartphones is
-now available. Learners who access edX courses using Android phones will now
-have a more complete course experience. They can now use the app to view HTML
-and text components, and complete assignments that consist of the basic
-assessment types (checkbox, dropdown, multiple choice, and text or numerical
-input).
-
-For more information, see :ref:`learners:SFD Mobile`.

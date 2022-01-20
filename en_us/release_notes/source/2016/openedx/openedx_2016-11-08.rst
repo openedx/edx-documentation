@@ -1,5 +1,0 @@
-EdX has updated Django, the web framework that edX uses to develop Studio and
-the LMS, from version 1.8.15 to version 1.8.16. This update reflects a Django
-security release and does not result in any user-visible changes. For more
-information about Django versions, see
-https://www.djangoproject.com/weblog/2016/nov/01/security-releases/.

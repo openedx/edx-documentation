@@ -1,6 +1,0 @@
-
-The default **Consumer secret** key that is provided in Django Admin for LTI
-consumer configuration is now 32 characters in length, the same maximum length
-that is supported in the database.
-
-For more information about LTI, see :ref:`partnercoursestaff:LTI Component`.

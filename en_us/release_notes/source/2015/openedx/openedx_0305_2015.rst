@@ -1,9 +1,0 @@
-
-The `Open edX portal`_ has launched! The portal offers the Open edX
-community a one-stop destination for all publicly available edX content,
-from blogs and webinars to technical documentation and our product features
-roadmap. We hope you'll check it out!
-
-All users can view content on the Open edX portal. Members of the edX
-Partners community can access additional content on the edX `Partner
-portal`_.

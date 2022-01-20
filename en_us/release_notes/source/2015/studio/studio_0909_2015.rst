@@ -1,7 +1,0 @@
-
-This release includes changes to the **Unit** page in Studio to improve
-accessibility. It is now easier to use a keyboard to navigate to the options in
-the **Add New Component** section of this page. It is also easier to use a
-keyboard to make selections from the list of choices that appears when you
-select the **Advanced** option. (TNL-2153)
-

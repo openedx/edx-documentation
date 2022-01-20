@@ -1,9 +1,0 @@
-This release includes a new process for enabling or disabling the bulk email
-feature. You now use the Django administration console to change a setting,
-rather than editing different configuration files.
-
-As a result of this change, the bulk email feature is disabled for any site
-that is closely following the master version of edx-platform until you
-manually re-enable it.
-
-For more information, see :ref:`openreleasenotes:Enable Bulk Email`.

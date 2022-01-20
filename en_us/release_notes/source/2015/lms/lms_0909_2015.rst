@@ -1,7 +1,0 @@
-
-* The **Data Download** page in the Instructor Dashboard now includes an option
-  to download a report of all learner submissions for a specified problem.
-  Previously, you downloaded this report from the Legacy Instructor Dashboard.
-
-* When learners drag an option onto a drag and drop problem, the option label
-  no longer wraps to a new line unexpectedly. (OSPR-752)

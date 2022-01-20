@@ -1,5 +1,0 @@
-If you delete the default title text in the **Display Name** setting for a
-problem, and do not enter a new title, the problem now displays the word
-"problem" as its title. If you deleted the title text for problems in existing
-courses, and did not enter new titles, those problems now display "problem" as
-their titles. (:jira:`FEDX-198`)

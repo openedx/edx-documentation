@@ -1,2 +1,0 @@
-New versions of the edX mobile apps for iOS and Android have been released.
-Both apps now include user profiles.

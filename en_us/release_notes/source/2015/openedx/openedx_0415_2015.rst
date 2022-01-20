@@ -1,8 +1,0 @@
-
-The following edX Platform APIs are now available.
-
-* Course Structure API Version 0
-
-* Enrollment API
-
-* User API

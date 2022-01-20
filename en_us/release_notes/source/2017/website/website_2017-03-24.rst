@@ -1,5 +1,0 @@
-From a course or program's About page, learners can now enroll in any of the
-course's available course runs. (:jira:`ECOM-7262`)
-
-In course search results on edx.org, if a course has multiple runs, only one
-course card is returned.  (:jira:`ECOM-6815`)

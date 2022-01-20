@@ -1,6 +1,0 @@
-* In courses that use teams, links to some topic pages were broken due to the
-  formatting of the topic URL. This issue is now resolved, and links to all team
-  topics function correctly. (TNL-4136).
-
-* In some browsers, screen readers could not retrieve the tooltip text for the
-  course sequence navigation. This issue is resolved. (AC-327)

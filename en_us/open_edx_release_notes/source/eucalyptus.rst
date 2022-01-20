@@ -384,7 +384,7 @@ HTML Component Templates
 
 To ensure that all headings on a course page in the LMS are rendered correctly
 by screen readers, the Heading 1 and Heading 2 options have been removed from
-the :ref:`opencoursestaff:HTML component visual editor<html_heading_levels>`.
+the HTML component visual editor.
 The Heading 3 option remains available, and Heading 4, Heading 5, and
 Heading 6 options have been added. All of the examples provided for HTML
 component options include headings beginning with Heading 3. This release

@@ -1,3 +1,0 @@
-A problem that caused verified track learners who had not verified their
-identities to receive honor code certificates has been resolved.
-(:jira:`ECOM-4007`)

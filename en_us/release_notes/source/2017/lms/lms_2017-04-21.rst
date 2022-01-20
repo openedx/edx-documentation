@@ -1,5 +1,0 @@
-When learners enroll in a course, they can now share links to the course's
-About Page on Facebook or Twitter. (:jira:`EDUCATOR-103`)
-
-The Advertised Start Date for courses was not reflected on learners'
-dashboards. This issue has been resolved. (:jira:`ECOM-7537`)

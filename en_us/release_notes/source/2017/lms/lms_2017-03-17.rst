@@ -1,8 +1,0 @@
-Course teams can now target emails to learners in a particular enrollment
-track, for example, audit or verified. (:jira:`TNL-6703`)
-
-To improve accessibility, we have added a notification to our basic problems
-when 'Show Answer' is pressed. The 'Show Answer' button will display a
-notification that indicates the answers to the given problem are available in
-the body of the problem. This banner also includes a link for easy navigation
-to the beginning of the problem.  (:jira:`TNL-6356`)

@@ -1,7 +1,0 @@
-
-* The first line of transcript files now appears for all videos. Previously,
-  the first line did not appear if it contained a byte order mark. (TNL-935)
-
-* Grade reports can now be generated successfully for all courses. Previously,
-  an error caused grade reports to fail for courses with problem display names
-  that contained Unicode characters. (TNL-1196)

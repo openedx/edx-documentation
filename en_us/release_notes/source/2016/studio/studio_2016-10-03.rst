@@ -1,3 +1,0 @@
-The open learning XML (OLX) ``<label>`` and ``<description>`` elements, which
-apply to the core CAPA problem types, can now include HTML tags for paragraph
-separation, font styling, and other indicators of meaning. :jira:`TNL-5557`

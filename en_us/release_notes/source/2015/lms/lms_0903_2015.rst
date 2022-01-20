@@ -1,4 +1,0 @@
-In the **Basic Course Information** section of the Instructor Dashboard, the
-**Course End Date** field now contains the text "No end date set" if a course
-does not have an end date. Previously, this field was blank if a course did
-not have an end date.
