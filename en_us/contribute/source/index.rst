@@ -22,7 +22,7 @@ Agreement. We suggest starting that process sooner rather than later.
     * If you are contributing as an individual, go ahead and sign the Individual
       `Contributor Agreement`_.
     * If your work will be contributed as part of a company or institution,
-      email legal@edx.org.
+      email legal@tcril.org.
 
 .. _contributor agreement: https://openedx.org/cla
 
@@ -37,7 +37,7 @@ contractual obligation from your employer that all code you write is their
 property or may be their property if written on a machine that they purchased.
 If you have any questions about whether you should sign the individual
 contributor agreement or contribute as part of an organization, email your
-situation to legal@edx.org and they will help find the right agreement for you.
+situation to legal@tcril.org and they will help find the right agreement for you.
 
 .. _Finding:
 
