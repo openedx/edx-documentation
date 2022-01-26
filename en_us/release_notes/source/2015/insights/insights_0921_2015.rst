@@ -1,2 +1,0 @@
-Performance improvements to edX Insights have made the sign-in process
-significantly faster.

@@ -1,3 +1,0 @@
-
-Open response assessments now support right-to-left languages.
-

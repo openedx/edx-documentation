@@ -1,8 +1,0 @@
-
-Messaging and other remaining artifacts of the deprecated, original version of
-the open response assessment problem type, sometimes referred to as ORA 1, have
-been removed from the platform.
-
-For information about adding open response assessments to a course using the
-fully supported ORA 2 feature, see
-:ref:`partnercoursestaff:PA Create an ORA Assignment`.

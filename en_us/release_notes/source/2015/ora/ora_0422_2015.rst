@@ -1,3 +1,0 @@
-
-In ORA assignments, learners could no longer view their submissions after they
-received a grade for the assignment. This issue has been resolved. (TNL-2000)

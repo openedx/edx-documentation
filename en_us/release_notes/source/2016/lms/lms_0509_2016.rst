@@ -1,3 +1,0 @@
-The cohort management section of the instructor dashboard now displays status
-information to help course teams determine whether the feature is enabled and
-working correctly. (:jira:`TNL-4393`)

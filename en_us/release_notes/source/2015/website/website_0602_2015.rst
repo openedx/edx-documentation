@@ -1,4 +1,0 @@
-
-* Users could not use screen reader controls or tabs to activate the **Continue
-  to Payment** button during the verification process. This problem has been
-  fixed. (ECOM-1302)

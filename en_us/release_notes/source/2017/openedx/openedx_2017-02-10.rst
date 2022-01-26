@@ -1,5 +1,0 @@
-An initial version of the web fragments framework was merged. This
-architectural improvement should enable greater flexibility in changes to the
-LMS user interface moving forward. As part of this effort a python package was
-created and a separate repository was set up for the initial release as well.
-(:jira:`TNL-6168`)

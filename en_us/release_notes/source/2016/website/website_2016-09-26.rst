@@ -1,4 +1,0 @@
-On the **Reset Your Password** page on edx.org, learners are now shown an error
-message if they leave the password fields blank, or if they do not enter
-matching passwords for new and confirmed passwords. (:JIRA:`TNL-5533`)
-

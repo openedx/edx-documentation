@@ -1,8 +1,0 @@
-For a few weeks, discussion posts marked as anonymous would still expose the
-post author's name. A fix was merged to prevent this from happening in the
-future. Any posts that were intended to be anonymous authored between February
-8 2017 and March 7 2017 will still show the author's username to other students.
-(:jira:`TNL-6648`)
-
-We have extended the "view as a specific learner" functionality to the
-progress page.  (:jira:`TNL-5047`)

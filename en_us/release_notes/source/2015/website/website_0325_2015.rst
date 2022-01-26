@@ -1,3 +1,0 @@
-
-The `edx.org`_ footer now includes links to additional social media sites.
-(ECOM-1134)

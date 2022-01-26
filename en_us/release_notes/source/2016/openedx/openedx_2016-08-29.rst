@@ -1,7 +1,0 @@
-For sites that are running an Open edX instance, the Eucalyptus release is now
-available. Eucalyptus, the fifth release of the Open edX platform, contains new
-features for learners, course teams, and developers. For more information, see
-the :ref:`release notes for the Open edX Eucalyptus Release
-<openreleasenotes:Open edX Eucalyptus Release>` or this `Eucalyptus release blog post`_ on the Open edX portal.
-
-.. _Eucalyptus release blog post: https://open.edx.org/blog/eucalyptus-new-release-chew

@@ -1,3 +1,0 @@
-The calculator help window is updated for accessibility standards and now has
-the ``aria-controls``, ``aria-haspopup``, and ``aria-describedby`` attributes.
-(AC-107)

@@ -1,3 +1,0 @@
-When the **Show Answer** setting is active for a checkbox or multiple choice problem, a correct answer is now indicated not only by being rendered in green, but also with a check mark beside it. (TNL-6357)
-
-Several accessibility improvements were made to discussions. To provide a better experience for screen reader users, only actual headings in discussions are now tagged as heading elements (TNL-6363). Fields that are required when learners add new posts now have asterisks next to their names as visual indicators of being required fields. Required fields were already indicated as such in screen reader attributes (TNL-6364).

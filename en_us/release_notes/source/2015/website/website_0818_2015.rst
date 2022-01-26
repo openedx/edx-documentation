@@ -1,5 +1,0 @@
-
-Learners who pursue verified certificates can now use either their credit cards
-or their PayPal accounts to pay for course fees. This new feature on the
-`edx.org`_ website enables more learners to work toward verified certificates.
-

@@ -1,4 +1,0 @@
-
-In courses that include content experiments, course team members can no longer
-delete a group that is in use by a unit. This problem, which only affected
-course team members who use Internet Explorer 10, is now resolved. (TNL-2882)

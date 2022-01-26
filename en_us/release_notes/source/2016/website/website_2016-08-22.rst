@@ -1,3 +1,0 @@
-Courses that offer coupon codes can now specify valid email domains for
-accepting coupon codes. Coupon codes are accepted only for learners whose email
-addresses match the valid domains.

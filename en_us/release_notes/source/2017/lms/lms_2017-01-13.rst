@@ -1,7 +1,0 @@
-* When learners select the **Support** option in the LMS to contact learner
-  support, learners can specify the course that is the subject of their
-  question or comment. :jira:`ECOM-5936`
-
-  .. image:: /Images/SuptSelectCourse.png
-   :alt: The Report a Problem dialog box showing a list of courses for the learner to choose from.
-   :width: 250

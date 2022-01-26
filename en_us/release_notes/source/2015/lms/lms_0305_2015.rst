@@ -1,5 +1,0 @@
-
-* Course teams can now include Google Drive files and calendars in courseware.
-
-* Several accessibility improvements have made navigating course content
-  easier for screen readers.

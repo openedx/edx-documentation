@@ -1,8 +1,0 @@
-
-* When you change your password in Studio by selecting **Forgot password** on
-  the sign in page, the sign in page now appears with a "Password Reset Email
-  Sent" message. Previously, a page that was blank except for the header
-  appeared. (TNL-3573)
-
-* Beta testers for self-paced courses can now access the course before the
-  course start date. (ECOM-3612)

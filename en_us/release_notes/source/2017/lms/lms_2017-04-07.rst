@@ -1,6 +1,0 @@
-Drag and Drop problems did not properly reset a learner's state for grading if
-a tile was moved back to the bank before the learner clicked Submit. This
-issue has been resolved. (:jira:`TNL-6753`)
-
-Content-specific discussion topics were displaying empty topic areas in the
-navigation pane. This issue has been resolved.  (:jira:`TNL-6284`)

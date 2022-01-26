@@ -1,5 +1,0 @@
-* For course discussions, options to sort posts by most activity, recent
-  activity, or most votes are now available for inline discussions. These
-  options were previously available only on the **Discussions** page.
-  (:jira:`TNL-6117`)
-

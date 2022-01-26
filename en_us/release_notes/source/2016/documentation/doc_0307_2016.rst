@@ -1,9 +1,0 @@
-The search feature for edX documentation includes two improvements.
-
-* You can now include punctuation and other non-alphanumeric characters in
-  search terms. For example, you can search for terms such as "A/B testing" or
-  "user_id."
-
-* The snippet of content in search results no longer shows ``.. include::`` for
-  some results. Those search results now show a sample of the actual
-  documentation content in the results.

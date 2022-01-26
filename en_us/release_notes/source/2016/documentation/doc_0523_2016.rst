@@ -1,5 +1,0 @@
-
-A new section, :ref:`data:Data Security Guidelines`, is now included in the
-*EdX Research Guide*. These guidelines are intended as a starting point for
-data czars at partner insitutions as they implement policies to safeguard the
-learner data they receive from edX.

@@ -1,5 +1,0 @@
-A new ``--settings`` parameter is now available for the ``i18n_dummy`` task.
-Previously, this task always used the devstack settings file, and as a result
-could not be used on fullstack instances.
-
-.. placeholder for PR 12934, use appropriate URL scheme for bulk emails: there may be info coming for Open edX sites.

@@ -1,4 +1,0 @@
-
-The course **Home** page in edX Insights now includes a link to Studio. The new
-Studio link opens the **Course Outline** page, and appears below the links to
-the **Courseware** page and the Instructor Dashboard in the LMS.

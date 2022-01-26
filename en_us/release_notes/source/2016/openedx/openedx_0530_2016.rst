@@ -1,2 +1,0 @@
-The jQuery JavaScript library has been updated from version 1.7.2 to version
-2.2.0. To support legacy API calls, this update also adds the JQuery Migrate library.

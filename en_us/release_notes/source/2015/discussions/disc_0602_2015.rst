@@ -1,4 +1,0 @@
-
-* When learners expanded an inline discussion, the page jumped to a part of
-  discussion towards the bottom of the thread. The page now stays at the top of
-  the discussion when expanded. (TNL-2223)

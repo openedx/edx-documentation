@@ -1,9 +1,0 @@
-
-* The edX website now includes an **All Subjects** page, where learners can see
-  all subjects that edX courses cover as well as the available courses in those
-  subjects. The website also now offers breadcrumb navigation, allowing
-  learners to move more easily around the site and enabling marketers to
-  capture SEO value. (SWAT-130 and SWAT-57)
-
-* For instructor biographies, the **Organization** and **Title** fields are now
-  optional. (SWAT-180)

@@ -1,5 +1,0 @@
-The :ref:`partnercoursestaff:Getting Started with edX` section in the
-*Building and Running an edX Course* guide and the :ref:`learners:Getting
-Started_account` section in the *EdX Learner's Guide* have been updated to
-clarify the process of creating and activating accounts on edx.org and edX
-Edge.

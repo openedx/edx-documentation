@@ -1,6 +1,0 @@
-
-An error that prevented content library values from being imported along with
-ther course data has been resolved. When you import a course that includes
-randomized content blocks, the **Display Name** and **Max Attempts**  values
-are now correctly imported along with other problem settings.
-(:jira:`PLAT-1046`)

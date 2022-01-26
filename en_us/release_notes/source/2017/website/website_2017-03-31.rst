@@ -1,8 +1,0 @@
-From a course or program's About page, learners can now enroll in any of the
-course's available course runs. (:jira:`ECOM-7262`)
-
-Catalog performance has been improved so that edx.org and the LMS load faster
-with fewer errors.  (:jira:`ECOM-7140`)
-
-When learners search for courses, results now return only the first run of
-each course instead of multiple runs of the same course. (:jira:`ECOM-6816`)

@@ -1,6 +1,0 @@
-* On the **Video Uploads** page, error messaging and handling is improved for
-  file upload errors. (:JIRA:`TNL-5855`, :JIRA:`TNL-5957`).
-
-* On the **Certificates** page in Studio (**Settings** > **Certificates**), the text
-  in the sidebar has been corrected to indicate that course team members with
-  either the Staff role or the Admin role can activate certificates. (:JIRA:`DOC-3526`)

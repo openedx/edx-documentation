@@ -1,3 +1,0 @@
-
-After editing a discussion post or comment, a user was not able to report the
-post or mark it as the answer. This problem is resolved. (TNL-1016)

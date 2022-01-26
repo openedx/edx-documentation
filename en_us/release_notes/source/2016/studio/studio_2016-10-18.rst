@@ -1,9 +1,0 @@
-  This release includes an enhancement to the core checkbox and multiple choice
-  problem types. When you edit these problems in the advanced editor, you can
-  now set attributes and options by adding a ``<script>`` element.
-
-  For more information, see :ref:`partnercoursestaff:Using the Script Element in
-  Checkbox Problems` or :ref:`partnercoursestaff:Using the Script Element in
-  Multiple Choice Problems`.
-
-

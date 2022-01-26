@@ -1,2 +1,0 @@
-The "Learning in a MOOC" topic has been added to the
-:ref:`learners:Introduction` section in the *EdX Learner's Guide*.

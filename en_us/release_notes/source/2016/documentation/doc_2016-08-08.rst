@@ -1,3 +1,0 @@
-In the *EdX Learner's Guide*, the :ref:`learners:Certificates` and
-:ref:`learners:SFD Enrolling in a Course` topics have been reorganized and
-updated.

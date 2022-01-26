@@ -1,4 +1,0 @@
-
-An error that prevented learners who audited a course, earned a certificate,
-and then upgraded to a verified certificate from regenerating their
-certificates has been corrected. (ECOM-3401)

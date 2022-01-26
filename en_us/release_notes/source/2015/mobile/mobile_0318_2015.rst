@@ -1,7 +1,0 @@
-
-Students can now use the edX mobile app to find and enroll in courses. New
-visitors can also register for an edX user account. These features are
-available now in the edX mobile app for Android smartphones, and will be
-available soon for iPhones.
-
-For more information, see :ref:`learners:SFD Mobile`.

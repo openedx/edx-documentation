@@ -1,5 +1,0 @@
-The crowdsource hinter XModule is no longer available as a course tool. This
-XModule was a prototype version that was not fully supported by edX. It has not
-been used since July 2013.
-
-A new crowdsource XBlock is currently under development.

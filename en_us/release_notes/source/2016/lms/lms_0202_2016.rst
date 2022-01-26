@@ -1,9 +1,0 @@
-
-When learners upload images and links in course discussions, the upload dialog
-boxes now include fields for descriptions of the images or links. These
-descriptions are used as accessible text descriptions for the uploaded images
-and links, and are required unless learners indicate that an image is
-decorative only. (AC-73 and AC-75)
-
-Issues with uploading image files in course discussions using Internet Explorer
-are resolved. (TNL-4040)

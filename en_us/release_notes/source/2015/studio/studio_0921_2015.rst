@@ -1,9 +1,0 @@
-
-* For edx.org courses, course teams can no longer update the **Enrollment End
-  Date** and **Enrollment End Time** fields on the **Schedule & Details**
-  page. Course teams can contact their edX partner managers to update these
-  fields. (TNL-2694)
-
-* On the Studio sign-in page, users can now use the keyboard to select the
-  Studio **Forgot password** link. Previously, users had to use a mouse to
-  select this link.

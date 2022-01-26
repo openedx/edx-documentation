@@ -1,4 +1,0 @@
-System administrators can now add custom fields to the registration page for
-their Open edX instances. Fields can be of different types, including drop-down
-and text entry. For more information, see
-:ref:`installation:Customize Registration Page`.

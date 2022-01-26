@@ -1,4 +1,0 @@
-
-This release upgrades the version of MathJax used in the edX LMS from 2.4 to
-2.5. This update resolves a problem that sometimes prevented math equations
-from rendering on the course **Discussion** page. (TNL-3365)

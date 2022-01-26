@@ -1,8 +1,0 @@
-Two columns have been added to the Student Profile Report that course teams
-generate on the **Data Download** page of the instructor dashboard. The
-"enrollment mode" column indicates the enrollment track that the learner is
-enrolled in, and the "verification status" column indicates whether learners who
-are enrolled in tracks that require ID verification have successfully provided
-ID verification. For more details about these columns, see
-:ref:`partnercoursestaff:Columns in the Student Profile Report`. (:JIRA:`TNL-6214`)
-

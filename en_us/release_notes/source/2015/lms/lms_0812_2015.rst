@@ -1,7 +1,0 @@
-
-In problems with hints, MathJax did not display correctly in the hint text. This
-problem has been resolved. (TNL-2857, TNL-298)
-
-The bulk email template has been modified so that the link for the **Modify
-course email settings** button now directs email recipients to the dashboard
-rather than to the Account Settings page. (TNL-2677)

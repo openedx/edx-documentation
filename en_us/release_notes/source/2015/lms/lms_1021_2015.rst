@@ -1,7 +1,0 @@
-
-For custom courses (CCX), if you add a CCX coach who is not currently enrolled
-in the course, that user is now automatically enrolled in the course and sent
-an email about the enrollment. For more information about CCX, see
-:ref:`opencoursestaff:Creating a Custom Course`.
-
-.. note:: Custom courses are currently supported only on Open edX.

@@ -1,8 +1,0 @@
-
-* In HTML and problem components that include an HTML span tag, the specified
-  font formatting now appears correctly in both Studio and the LMS. Previously,
-  the selected fonts appeared correctly in Studio but not in the LMS. (TNL-298,
-  TNL-2668, TNL-2583, TNL-2584)
-
-* Styling changes to the play button in the video player make it easier to
-  identify when this button has focus in the browser. (UX-2233)

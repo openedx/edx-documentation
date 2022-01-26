@@ -195,14 +195,12 @@ intersphinx_mapping = {
     "xblocktutorial" : (edx_rtd_url("xblock-tutorial"), ism_location("xblock-tutorial")),
     "installation" : (openedx_rtd_url("edx-installing-configuring-and-running"), ism_location("install_operations")),
     "olx" : (edx_rtd_url("edx-open-learning-xml"), ism_location("olx")),
-    "learners" : (edx_rtd_url("edx-guide-for-students"), ism_location("students")),
+    "learners" : ("", ism_location("students_redirect")),
     "openlearners" : (openedx_rtd_url("open-edx-learner-guide"), ism_location("open_edx_students")),
     "opendevelopers" : (edx_rtd_url("edx-developer-guide"), ism_location("developers")),
     "opendataapi" : (edx_rtd_url("edx-data-analytics-api"), None),
     "openreleasenotes" : (edx_rtd_url("open-edx-release-notes"), ism_location("open_edx_release_notes")),
-    "partnerreleasenotes": (edx_rtd_url("edx-release-notes"), ism_location("release_notes")),
-    "2014releasenotes" : (edx_rtd_url("edx-2013-2014-release-notes"), ism_location("release_notes_2014")),
-    "retirement" : ("https://user-retirement-guide.readthedocs.io/en/latest/", ism_location("user_retirement")),
+
 }
 
 extlinks = {

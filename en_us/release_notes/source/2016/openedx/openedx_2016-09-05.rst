@@ -1,5 +1,0 @@
-* Several minor problems that were causing errors in the coupon creation
-  process have been fixed.
-
-* The downloadable .csv file for coupons has been updated to improve reporting
-  accuracy.

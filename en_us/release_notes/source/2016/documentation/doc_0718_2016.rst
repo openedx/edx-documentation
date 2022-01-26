@@ -1,7 +1,0 @@
-
-A new section in the *Installing, Configuring, and Running the Open edX
-Platform* guide describes how to configure an Open edX instance to serve course
-assets from a content delivery network (CDN) instead of directly from your Open
-edX instance. Using a CDN offloads the work required to deliver assets from
-your Open edX instance. For more information, see :ref:`installation:Enabling a
-CDN for Course Assets`.

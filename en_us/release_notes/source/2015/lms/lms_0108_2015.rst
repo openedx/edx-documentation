@@ -1,9 +1,0 @@
-
-* In the Instructor Dashboard, when you unenrolled a student who enrolled in
-  the Verified track, if that student was re-enrolled, he or she was
-  automatically placed in the Verified track.  This problem is fixed; the
-  student is no longer automatically enrolled in the Verified track. (ECOM-776)
-
-* The Student Dashboard is updated to provide a visual indication of
-  professional education courses the student is enrolled in. (ECOM-728)
-  

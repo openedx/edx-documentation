@@ -1,3 +1,0 @@
-
-Learners can now unenroll from courses that have not yet started. Previously,
-unenrollment was available only for live courses. (ECOM-1435)

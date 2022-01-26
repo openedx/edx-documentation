@@ -1,3 +1,0 @@
-
-Some students saw an incorrect message when they signed up for a verified
-certificate. This problem has been resolved. (ECOM-1031)

@@ -1,5 +1,0 @@
-
-A topic that describes how to use the XBlock URL to render an XBlock in HTML
-without the user interface of the LMS is now available. See
-:ref:`opendevelopers:XBlock URL Dev` in the *Open edX Developer's Guide* or
-:ref:`xblocktutorial:XBlock URL Tutorial` in the *Open edX XBlock Tutorial*.

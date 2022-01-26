@@ -1,9 +1,0 @@
-Discussion posts are now identified as having been read when you interact with
-a post in the edX mobile app. Previously, interactions such as adding a
-response or comment to a post, or answering a question or marking a question as
-answered, caused the post to be identified as unread. (:jira:`MA-2139`)
-
-For answers to frequently asked questions about the mobile app, see the
-:ref:`learners:SFD Mobile` section in the *EdX Learner's Guide*, or, for
-Open edX installations, see the :ref:`openlearners:SFD Mobile` section in
-the *Open edX Learner's Guide*.

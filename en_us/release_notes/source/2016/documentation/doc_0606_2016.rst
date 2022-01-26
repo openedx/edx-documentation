@@ -1,5 +1,0 @@
-New and changed analytics events related to navigation in the LMS are
-documented in the *EdX Research Guide**. For more information, see
-:ref:`data:navigational`.
-
-

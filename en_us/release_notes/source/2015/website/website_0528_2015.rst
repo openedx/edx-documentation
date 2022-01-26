@@ -1,8 +1,0 @@
-
-* Users could not use screen reader controls or tabs to activate the button to
-  take their photos during the verification process. This problem has been
-  fixed. (ECOM-1472)
-
-* On the learner dashboard, user names were appearing above the "Want to change
-  your account settings?" text in the right sidebar. This problem has been
-  fixed. (UX-2153)

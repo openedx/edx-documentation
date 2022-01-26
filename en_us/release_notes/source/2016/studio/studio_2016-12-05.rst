@@ -1,5 +1,0 @@
-HTML headings on the course **Home** page have been reorganized to improve
-accessibility. The structure of the **Home** page now uses heading levels 1-5
-(``<h1>–<h5>``). Course teams who want to add headings in the body of their
-announcements can use heading level 6 (``<h6>``). For more information, see
-:ref:`Add a Course Update`.

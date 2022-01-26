@@ -1,2 +1,0 @@
-
-In bulk emails, the course title no longer appears on the subject line. (TNL-1877)
