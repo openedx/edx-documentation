@@ -21,7 +21,7 @@ This page lists the highlights of the Ironwood release of the Open edX platform.
  :local:
 
 ============================
-Authoring Experience Updates 
+Authoring Experience Updates
 ============================
 
 Studio Login via the LMS
@@ -56,7 +56,7 @@ For Open edX instances using the video uploads page, this view now conveys the
 status of each video as it relates to its transcoding (through edx-VEDA) and
 transcription (3rd party configuration). The status column is listed in the
 Previous Uploads table. More details around the status messages are `available
-in our documentation`__. 
+in our documentation`__.
 
 .. __: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/video/upload_video.html#video-processing-statuses
 
@@ -66,7 +66,7 @@ Gradebook Application
 The gradebook will give you a central location where you can view and manage
 grades for all learners in a course. It will provide you with improved search
 which you can use to find specific learners and override assignment-specific
-grades. In addition, you can filter by cohort, track, or assignment type. 
+grades. In addition, you can filter by cohort, track, or assignment type.
 
 You can read more about this in the documentation for the `Gradebook Application`__.
 
@@ -106,7 +106,7 @@ transfer credit into MIT’s campus Supply Chain Masters Degree program if
 admitted.) While we do not yet have course records or full learner history
 records, we are excited about the potential this work opens up for learners
 looking to transfer or share their valuable credentials to employer and credit
-pathways. 
+pathways.
 
 Password Complexity Requirements
 --------------------------------
@@ -125,7 +125,7 @@ become a selectable option in the account settings dropdown alongside fully
 supported languages. If a learner selects a beta language, they are shown a
 message letting them know support for this language is partial and makes it
 easy to revert their language or head over to transifex to help translate the
-platform into that language as a member of that language team. 
+platform into that language as a member of that language team.
 
 
 Anonymous Course Content Access
@@ -135,7 +135,7 @@ This feature enables learners to preview course content without necessarily
 being logged into a given learning environment. It was implemented by adding a
 setting to the platform that lets course authors adjust the visibility of
 course content in the LMS.  Three different options are supported: private,
-public outline, or public. 
+public outline, or public.
 
 * Private (default, same as today)
 * Public Outline (redirects learners to the course outline page and shows the outline only)
@@ -152,7 +152,7 @@ supplemental resources, and practice problems for the expected duration of the
 course. You can configure it such that only verified learners will have access
 to graded problems and/or have unlimited access to course content after course
 end. This functionality is defaulted to off at the platform level, and can
-additionally be configured by course run or organization. 
+additionally be configured by course run or organization.
 
 
 ===============================
@@ -173,12 +173,12 @@ applications as many of our mobile learners use tablets, in particular iPad
 devices. For mobile applications using web course discovery, we have added a
 way to add native cards that let users jump to a specific course discovery
 view. On edX.org’s mobile applications we used this to expose popular subjects
-in the mobile course discovery experience. 
+in the mobile course discovery experience.
 
 Another improvement, delivered in version 2.16, was the introduction of
 programs through new program fragment views of the web edX platform pages. This
 new area enables learners to view their program dashboard and program progress
-pages, just as they do on the web browser experience.  
+pages, just as they do on the web browser experience.
 
 With version 2.17 we delivered many accessibility improvements into the mobile
 applications, including initial support for iOS 11’s recently introduced
@@ -186,7 +186,7 @@ Dynamic Text Type sizing and scaling. This change means learners who have set
 their device text size to being larger now have that setting expressed within
 the open edX mobile application. Additionally, the mobile application now
 provides clarity into when learners will lose access to a course. More details
-around this are included in the `Feature Based Enrollments`_ update.  
+around this are included in the `Feature Based Enrollments`_ update.
 
 Developer Facing Mobile Changes
 -------------------------------
@@ -196,7 +196,7 @@ Firebase configuration now that Fabric has been deprecated as a service, and we
 removed the deprecated Parse code that was still in the code base.
 Additionally, we have mostly completed our deep linking integration with Branch
 with the v2.17.1 release, though other follow on improvements have merged since
-Ironwood was released. 
+Ironwood was released.
 
 For the Android code base, we removed unnecessary permissions that were being
 requested from the earliest version of our application and implemented run time
@@ -205,7 +205,7 @@ learner’s trigger actions such as uploading a new profile photo. In terms of
 library upgrades, we updated the Facebook SDK to 4.36.0, upgraded minSdkVersion
 to KitKat (API Level 19), upgraded gradle and other libraries, updated Fabric
 and Firebase configurations,  and implemented pull to refresh functionality on
-the course outline page. 
+the course outline page.
 
 =========================
 Platform Operator Updates
@@ -220,7 +220,7 @@ line to your config overrides::
 
     EDXAPP_EDXAPP_SECRET_KEY: "DUMMY KEY CHANGE BEFORE GOING TO PRODUCTION"
 
-As part of the work on `LEARNER-4674`_, edX switched from using a custom-built
+As part of the work on :jira:`LEARNER-4674`, edX switched from using a custom-built
 password validator to Django's framework of password validation. This involved
 creating a new configuration value, ``AUTH_PASSWORD_VALIDATORS``, a list of
 Django and edX-created validators.  To facilitate code cleanliness, we have

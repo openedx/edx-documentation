@@ -33,7 +33,7 @@ Studio login changed to OAuth
 
 In versions prior to Maple, Studio (CMS) shared a session cookie with the LMS, and redirected to the LMS for login.
 Studio is changing to become an OAuth client of the LMS, using the same SSO configuration that other IDAs use. (See
-`ARCHBOM-1860`_; `OEP-42`_) This is a breaking change. Follow the `Studio OAuth migration runbook`_ as part of
+:jira:`ARCHBOM-1860`; `OEP-42`_) This is a breaking change. Follow the `Studio OAuth migration runbook`_ as part of
 upgrading to Maple. For devstack, run::
 
     ./provision-ida-user.sh studio studio 18010
@@ -130,12 +130,12 @@ Various bug fixes and updates around course certificate generation
   * Code to generate (create or update) PDF course certificates has been removed from edx-platform.
   * The :code:`fix_ungraded_certs`, :code:`regenerate_user`, :code:`resubmit_error_certificates`, and :code:`ungenerated_certs` management commands have been removed. In their place, please use the `cert_generation command`_.
 - In an effort to be more inclusive, code referencing a Certificate Whitelist has been updated to instead refer to a Certificate Allowlist. The CertificateWhitelistmodel has been replaced by the CertificateAllowlistmodel (data is automatically copied over to the new model by a data migration).
-- The management command named :code:`cert_whitelist` has been removed. In its place, please use the Certificate Allowlist, which can be accessed from the Instructor tab on the course page in the LMS. (`DEPR-156`_)
+- The management command named :code:`cert_whitelist` has been removed. In its place, please use the Certificate Allowlist, which can be accessed from the Instructor tab on the course page in the LMS. (:jira:`DEPR-156`)
 - The Segment event :code:`edx.bi.user.certificate.generate` will no longer emit from the courseware when self-generated certificate generation is attempted by a user. There was some overlap in this Certificate event with the :code:`edx.certificate.createdevent` sent during certificate generation. A self-generated certificate event will have a generation_mode of self (versus batch for certificates generated automatically).
 - Removed use of the modulestore wherever possible in the certificates Django app of edx-platform. Changes include:
   * Using a course’s CourseOverview over retrieving course data from the modulestore
   * Supporting change: Update the :code:`list_with_level` function in the Instructor Dashboard to accept a course-id over the entire course object (`PR 27646`_)
-- Removed the :code:`AUDIT_CERT_CUTOFF_DATE` setting. Awarding Audit certificates will not be supported in V2 of Course Certificates (`DEPR-159`_)
+- Removed the :code:`AUDIT_CERT_CUTOFF_DATE` setting. Awarding Audit certificates will not be supported in V2 of Course Certificates (:jira:`DEPR-159`)
 - Removed the :code:`openedx/core/djangoapps/certificates` app by merging the single :code:`api.py` file into :code:`lms/djangoapps/certificates`. All APIs functions have been been moved as is, so if you have any code in a third party repository that used this API, please point them to the new path. openedx/core/djangoapps/certificates/api.py → lms/djangoapps/certificates/api.py
 - Removed :code:`backpopulate_program_credentials` management command in place of an updated :code:`notify_credentials` command.
 
@@ -298,7 +298,7 @@ Deprecations
 
 - The sysadmin dashboard has been removed. Similar functionality is available via the (unsupported) edx-sysadmin plugin from https://github.com/mitodl/edx-sysadmin/
 - The :code:`AUDIT_CERT_CUTOFF_DATE` setting was removed. This setting allowed organizations that previously offered course certificates to audit track learners to discontinue generation of this type of certificate. Instead, the logic of :code:`CourseMode.is_eligible_for_certificate()` will be used. In this logic, the audit mode is not eligible for a course certificate. The honor mode may or may not be eligible, depending on whether the :code:`DISABLE_HONOR_CERTIFICATES` feature is enabled. Other modes are eligible for certificates.
-- The management command named :code:`cert_whitelist` has been removed. In its place, please use the Certificate Allowlist, which can be accessed from the Instructor tab on the course page in the LMS. (`DEPR-156`_)
+- The management command named :code:`cert_whitelist` has been removed. In its place, please use the Certificate Allowlist, which can be accessed from the Instructor tab on the course page in the LMS. (:jira:`DEPR-156`)
 
 
 =============================

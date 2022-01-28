@@ -35,7 +35,7 @@ of baseline micro-frontend requirements, we have created the `Frontend
 Platform`_ repository. As part of this work various services (previously also
 described as "runways") were built to speed up configuration of analytics,
 logging, authentication, internationalization, as well as a set of other
-miscellaneous utilities and configuration details that affect all 
+miscellaneous utilities and configuration details that affect all
 micro-frontends.
 
 .. _Frontend Platform: https://github.com/edx/frontend-platform
@@ -92,9 +92,9 @@ access and maintaining JSON web tokens through to the MFE was built into the
 **Deprecation of Legacy Implementations:** A number of legacy implementations
 and views to power login and registration pages on edX platform were cleaned up
 and removed in favor of a single secure implementation. Details are in the
-`DEPR-52 deprecation JIRA ticket`__. 
+:jira:`DEPR-52`.
 
-.. __: https://openedx.atlassian.net/browse/DEPR-52
+.. _DEPR-52: https://openedx.atlassian.net/browse/DEPR-52
 
 
 Internationalization Pipeline
@@ -154,7 +154,7 @@ improvements that move our platform's target WCAG support level up to 2.1 from
 2.0. Many areas of the platform have been updated to improve key requirements
 such as improved contrast and visibility, semantic page structure updates, as
 well as landmark container improvements that are all a part of the 2.1
-specification. 	
+specification.
 
 ============================
 Pattern Library & Components
@@ -170,7 +170,7 @@ Bootstrap and any Bootstrap-compatible theme should be compatible with Paragon.
 This was done to help streamline the evolution of Paragon into a full-featured
 pattern library that supports all micro frontend applications and increasingly
 all areas of the platform. The effort to grow Paragon’s capabilities is
-ongoing. 
+ongoing.
 
 We intend to consolidate styling throughout the platform onto Paragon SCSS. To
 that end, a parallel effort has begun to remove legacy pattern library styling
@@ -197,11 +197,11 @@ Python
 About 55% of the Open edX platform is written in Python, meaning a large
 fraction of the code written over the past 8 or so years was reviewed and
 updated to support Python 3 as part of the Juniper release. While much of the
-work done for this effort was captured in JIRA as "`INCR-1`_," many other
+work done for this effort was captured in JIRA as ":jira:`INCR-1`", many other
 dependencies and related services were also updated to support Python 3. One
 example of these service upgrades was CodeJail, which is used to sandbox code
 written by course reams to assess or execute student problem submissions that
-rely on Python themselves. 
+rely on Python themselves.
 
 .. _INCR-1: https://openedx.atlassian.net/browse/INCR-1
 
@@ -268,8 +268,8 @@ JSON to YAML
 
 Most Open edX applications read a single YAML file.  However the LMS and Studio historically
 read multiple JSON ones. We are making the LMS and Studio behave the same as other applications
-by having them read a single YAML file instead of multiple JSON ones. 
-Technical details of converting your existing files are here: 
+by having them read a single YAML file instead of multiple JSON ones.
+Technical details of converting your existing files are here:
 `How to convert your LMS and Studio JSON configuration files to YAML`__.
 
 .. __: https://openedx.atlassian.net/wiki/spaces/AC/pages/1822916664/How+to+convert+your+lms+and+studio+json+configuration+files+to+yaml

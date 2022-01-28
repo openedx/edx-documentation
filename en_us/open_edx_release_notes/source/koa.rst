@@ -200,12 +200,17 @@ Deprecations
 
 These components have been removed:
 
-- `ShoppingCart removal <https://openedx.atlassian.net/browse/DEPR-43>`_
-- `track.backends.TrackingLog <https://openedx.atlassian.net/browse/DEPR-57>`_
-- `Notifier removal <https://openedx.atlassian.net/browse/DEPR-106>`_
-- `Edx-pattern-library <https://openedx.atlassian.net/browse/DEPR-62>`_
-- `ChordableDjangoBackend in edx-celeryutils <https://openedx.atlassian.net/browse/DEPR-89>`_
+- :jira:`ShoppingCart removal <DEPR-43>`
+- :jira:`track.backends.TrackingLog <DEPR-57>`
+- :jira:`Notifier removal <DEPR-106>`
+- :jira:`Edx-pattern-library <DEPR-62>`
+- :jira:`ChordableDjangoBackend in edx-celeryutils <DEPR-89>`
 
+.. _DEPR-43: https://openedx.atlassian.net/browse/DEPR-43
+.. _DEPR-57: https://openedx.atlassian.net/browse/DEPR-57
+.. _DEPR-106: https://openedx.atlassian.net/browse/DEPR-106
+.. _DEPR-62: https://openedx.atlassian.net/browse/DEPR-62
+.. _DEPR-89: https://openedx.atlassian.net/browse/DEPR-89
 
 .. include:: links.rst
 .. include:: ../../links/links.rst
