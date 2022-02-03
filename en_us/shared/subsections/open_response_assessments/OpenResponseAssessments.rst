@@ -489,14 +489,14 @@ For example, let's say we have an assessment that requires learners to recieve t
 reviews to recieve a grade.
 
 Learner A has recieved five peer reviews. This isn't enough to recieve a grade, but seven days
-after submitting, Flexible Peer Grading activates, and reduced the required peer reviews to
-30% of the original ten, so now Learner A only needs three peer reviews. Since they have recieved
-at least that much, they will immediately recieve a grade.
+after submitting, Flexible Peer Grading activates and reduces the required peer reviews to
+30% of the original ten. Now, Learner A only needs three peer reviews. Since they have recieved
+at least that many, they will immediately recieve a grade.
 
 Learner B has recieved only one peer review. This isn't enough for a grade, and seven days after
 submitting, Flexible Peer Grading also decreases Learner B's required peer reviews to three. Learner B
 then recieves a second review. This still isn't enough. As soon as they recieve their third peer review,
-they finally have enough and immediately recieve a grade.
+however, they finally have enough peer reviews and immediately recieve a grade.
 
 .. note:: Fexible Peer Grading will never reduce the number of required peer reviews below 1, but it will
    bring the number to 1. That means if a learner has not recieved any peer reviews after seven days, the
