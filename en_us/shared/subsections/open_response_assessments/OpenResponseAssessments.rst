@@ -481,9 +481,26 @@ Flexible Peer Grade Averaging
 To reduce the change of users getting "stuck" in the waiting step, you can enable
 this feature to lower the requirements for a grade in the peer assessment step.
 
-Learners who have received at least 30% of required peer-reviews who have waited
-longer than 7 days will be given their grade instead of having to wait longer
-for more peer reviews.
+When this feature is enabled, seven days after a learner submits, the number of peer 
+reviews required for them to recieve a grade decreases to 30% of what it previously was,
+rounded down to the nearest integer.
+
+For example, let's say we have an assessment that requires learners to recieve ten (10) peer
+reviews to recieve a grade.
+
+Learner A has recieved five peer reviews. This isn't enough to recieve a grade, but seven days
+after submitting, Flexible Peer Grading activates, and reduced the required peer reviews to
+30% of the original ten, so now Learner A only needs three peer reviews. Since they have recieved
+at least that much, they will immediately recieve a grade.
+
+Learner B has recieved only one peer review. This isn't enough for a grade, and seven days after
+submitting, Flexible Peer Grading also decreases Learner B's required peer reviews to three. Learner B
+then recieves a second review. This still isn't enough. As soon as they recieve their third peer review,
+they finally have enough and immediately recieve a grade.
+
+.. note:: Fexible Peer Grading will never reduce the number of required peer reviews below 1, but it will
+   bring the number to 1. That means if a learner has not recieved any peer reviews after seven days, the
+   very first peer review they will recieve will be the entirety of their peer grade.
 
 =======================
 Self Assessment Scoring
