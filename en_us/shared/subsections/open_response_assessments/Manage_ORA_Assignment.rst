@@ -144,8 +144,8 @@ Learners will see this as a Staff Assessment step in their assignment.
 Course team members will see a Grade Available Responses option at the end of the
 assignment.
 
-..note:: Staff assessments for Team ORAs follow the same process as for individual
-  ORAs except that the same score will be applied to all members of the submitting team.
+.. note:: Staff assessments for Team ORAs follow the same process as for individual
+   ORAs except that the same score will be applied to all members of the submitting team.
 
 To perform a staff assessment in a team assignment, follow the steps outlined in
 **Perform a Staff Assessment**. Before submitting, you will receive an alert to notify
@@ -409,7 +409,7 @@ To remove a submitted Team ORA response, follow these steps.
 #. Optionally, delete the team’s state for the problem. 
    This allows the team to submit another response.
    For more information, see :ref:`delete_state`. If you follow the instructions on
-   that page and enter the username of a student on a team, the team state will be cleared
+   that page and enter the username of a student on a team, the team state will be cleared.
 
 When you access this learner’s information again by selecting **Manage Team Responses**,
 instead of the response, you see a note showing the date and time that the submission

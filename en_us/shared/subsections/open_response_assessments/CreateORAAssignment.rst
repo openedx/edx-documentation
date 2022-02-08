@@ -234,7 +234,7 @@ scoring responses.
 Team vs. Individual ORA
 ========================
 
-To make an Team ORA, set the option **Teams Enabled** to **True**\.
+To make a Team ORA, set the option **Teams Enabled** to **True**\.
 This reveals a drop down for **Selected Team-set** that defines which
 group of teams will be able to submit a response for this assignment. 
 
@@ -254,7 +254,7 @@ team can collaboratively upload and review files as part of a team response.
 A text response is still acceptable but can only be drafted by the one submitting
 member of the team.
 
-..note:: Team Open Response Assessments are designed to only be assessed by staff.
+.. note:: Team Open Response Assessments are designed to only be assessed by staff.
 
 .. _PA Specify Name and Dates:
 
