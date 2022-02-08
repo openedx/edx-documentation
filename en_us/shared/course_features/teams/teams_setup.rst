@@ -323,7 +323,6 @@ When this condition is met, an instructor can navigate to the **Teams** tab wher
 sub-tab will now be available alongside the **My Team** and **Browse** sub-tabs. Clicking the **Manage**
 tab opens the **Manage** page where team membership can be viewed and modified.
 
-
 .. image:: ../../../../shared/images/Teams_ManageTab.png
    :width: 600
    :alt: The Manage Teams tab on the teams Page, which lets you download and upload a csv
