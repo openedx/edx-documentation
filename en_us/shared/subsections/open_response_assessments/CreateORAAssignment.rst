@@ -23,6 +23,20 @@ assessments.
 
 * Actions you can take for an active ORA assignment: :ref:`Managing ORA
   Assignments`
+  
+********************************
+Team Open Response Assessments
+********************************
+
+Open response assessments can also be configured to work for teams (Team ORAs),
+allowing students to submit and be graded on a submission as a group. The process
+of creating and configuring Team ORAs is similar to that for individual ORAs, but
+deviations and notes for Teams are included in the instructions below.
+
+Before setting up a Team Open Response Assessment, make sure that you have set up
+your course's Team Configuration to define the desired team-sets in the
+**Settings > Advanced Configuration** menu. See :ref:`Enable and Configure Teams`
+for help setting up team-sets.
 
 
 .. _PA Create Component:
@@ -214,6 +228,34 @@ for the assignment. These settings include the type of response that learners
 must submit, assignment dates, and whether learners will see a list of top
 scoring responses.
 
+.. _PA Team vs. Individual ORA:
+
+========================
+Team vs. Individual ORA
+========================
+
+To make an Team ORA, set the option **Teams Enabled** to **True**\.
+This reveals a drop down for **Selected Team-set** that defines which
+group of teams will be able to submit a response for this assignment. 
+
+.. image:: ../../../../shared/images/ORA_CreateTeamORA.png
+   :alt: The settings page with the control which toggles individual / team ORA.
+   :width: 500
+
+Students can be in one team per team-set, so configuring multiple team-sets
+allows you to create groups for different assignments. You could, for example,
+create separate team-sets for Homework, Midterms, and the Final Project,
+each selected for the relevant Team ORAs to allow students to collaborate with
+different classmates for each assignment type. For more on how to configure
+team-sets for your course, see :ref:`Enable and Configure Teams`\.
+
+For Team ORAs, File Upload is the main intended form of response. Learners on a
+team can collaboratively upload and review files as part of a team response.
+A text response is still acceptable but can only be drafted by the one submitting
+member of the team.
+
+..note:: Team Open Response Assessments are designed to only be assessed by staff.
+
 .. _PA Specify Name and Dates:
 
 ========================
@@ -398,6 +440,9 @@ you include them in this order.
    If you include a staff assessment step, it should be the final step in the
    assignment.
 
+   For Team ORAs, Staff assessments are the only assessment step allowed, as
+   these are not intended for peer or self assessment.
+
 To add steps to the open response assignment, complete these actions.
 
 #. In the ORA component editor, select the **Assessment Steps** tab.
@@ -430,6 +475,9 @@ steps.
    If you make changes to a step, and then clear the check box for that step,
    the step will no longer be part of the assignment and your changes will not
    be saved.
+
+   For Team ORAs, Staff assessments are the only assessment step allowed,
+   therefore no changes can be made in the step settings.
 
 .. _PA Student Training:
 

@@ -133,6 +133,25 @@ To perform a staff assessment in an assignment, follow these steps.
    dialog. Alternatively, select **Submit assessment and continue grading** to
    submit the assessment and immediately grade another submission.
 
+.. _Performing Staff Assessments in a Team ORA Assignment:
+
+*******************************************************
+Performing Staff Assessments in a Team ORA Assignment
+*******************************************************
+
+Team-based open response assessments can only be assessed by staff.
+Learners will see this as a Staff Assessment step in their assignment.
+Course team members will see a Grade Available Responses option at the end of the
+assignment.
+
+..note:: Staff assessments for Team ORAs follow the same process as for individual
+  ORAs except that the same score will be applied to all members of the submitting team.
+
+To perform a staff assessment in a team assignment, follow the steps outlined in
+**Perform a Staff Assessment**. Before submitting, you will receive an alert to notify
+you that the grade will apply to all members of the team. Click Ok to apply the
+grade and close the grading dialog.
+
 .. _Override a learner assessment grade:
 
 ************************************************
@@ -209,6 +228,56 @@ To perform an override assessment, follow these steps.
    response, regardless of the due date of the assignment. The learner's
    final grade on the assessment is updated to reflect the most recent staff
    override assessment grade.
+
+.. Overriding a Team's Assessment Grade:
+
+**************************************
+Overriding a Team's Assessment Grade
+**************************************
+
+As with individual ORAs, you can override the final grade for a Team ORA if it
+has previously been graded. Although only staff may grade team assignments, this
+ability to override a grade can be useful for fixing improperly submitted grades
+or amending grades after-the-fact. For individual ORAs, see
+:ref:`Override a learner assessment grade`\.
+
+.. note:: Like individual ORAs, overrides can be performed more than once on the
+   same Team Open Response Assessment.
+
+In order to perform an override assessment for a team, you need the edX username
+or edX email address of a learner on the team. For more information, see
+:ref:`Download or View Learner Data<View and download student data>`\.
+
+To perform an override assessment, follow these steps:
+
+#. View the live version of your course in the LMS and navigate to the Team ORA.
+
+   .. image:: ../../../../shared/images/ORA_ManageTeams.png
+      :alt: The Manage Teams section of the staff area, which allows course staff
+       to enter a user's username or email and view their team's response.
+      :width: 500
+
+#. Scroll to the end of the problem where staff have a **Manage Team Responses**
+   option. Select this to open the **Manage Teams** panel.
+
+#. Enter the edX username or edX email of any member of the team and select **Submit**.
+
+   The **Manage Teams** dialog updates with the team’s response, grade, and existing
+   assessments, along with options to submit overrides and remove the submission
+   from grading.
+
+#. Select **Submit Team Grade Override**.
+
+#. Perform an assessment of the team’s response using the problem's rubric.
+
+#. When you have finished the assessment, select **Submit assessment**.
+
+   The grade given for the team’s response overrides the grade for each member of the
+   team for this assignment.
+
+.. note:: Like individual ORAs, overrides can be performed more than once on the same
+   Team Open Response Assessment up until grades freeze for the course (30 days after
+   the course end date).
 
 .. _Remove a learner response from peer grading:
 
@@ -297,6 +366,69 @@ was cancelled, and the comments relating to the removal of their submission.
    :alt: In a learner's view of the assignment, all steps have a status of
     Cancelled, and the learner sees the date, time and comment given for the
     removal of his submission.
+   :width: 500
+
+.. _Remove a Team's Response:
+
+**************************
+Remove a Team’s Response
+**************************
+
+Removing a team's response is very similar to removing a single learner's response.
+To remove a submitted Team ORA response, follow these steps.
+
+#. Identify a learner on the team that needs their submission removed from the staff
+   grading workflow. If you only know the team name, use the **Teams** browser to find
+   learners on a specific team. You can pick the username of any learner on the team
+   by hovering over the learner avatar icons in the **Team Details** panel.
+
+#. View the live version of your course in the LMS, and then go to the ORA assignment
+   that contains the submission you want to remove. 
+
+#. Scroll to the end of the problem, and then select **Manage Team Responses**.
+
+#. Enter the learner’s username or email, and then select **Submit**.
+
+   The **Manage Teams** dialog updates with expandable sections for each of the
+   assessment steps in the assignment and other actions you can take on the team’s
+   response.
+
+#. Select **Remove Team Submission from Grading**.
+
+#. Enter a comment to explain the removal. The learners see this comment when they
+   view their response in the open response assessment problem.
+
+   .. image:: ../../../../shared/images/ORA_RemoveTeamSubmission.png
+      :alt: Dialog allowing comments to be entered when removing a team
+       submission.
+      :width: 500
+
+#. Select **Remove submission**.
+   The selected submission is permanently removed from staff assessment.
+
+#. Optionally, delete the team’s state for the problem. 
+   This allows the team to submit another response.
+   For more information, see :ref:`delete_state`. If you follow the instructions on
+   that page and enter the username of a student on a team, the team state will be cleared
+
+When you access this learner’s information again by selecting **Manage Team Responses**,
+instead of the response, you see a note showing the date and time that the submission
+was removed, and the comments that you entered.
+
+.. image:: ../../../../shared/images/ORA_StaffViewTeamCancelledResponse.png
+   :alt: In Manage Teams, the date, time and comment for removal
+    of a team response is shown instead of the original response.
+   :width: 500
+
+When a learner on the team views the assignment in the course, they will see that all
+steps in the assignment have a status of “Cancelled”. Under **Your Response**, instead
+of the text of their response, they will see the date and time that their response
+was cancelled, and the comments relating to the removal of their submission.
+
+.. image:: ../../../../shared/images/ORA_LearnerViewTeamCancelledResponse.png
+   :alt: In all team members' view of the assignment, all steps have a status of
+    Cancelled, and the learners see the date, time and comment given for the
+    removal of their submission.
    :width: 500
 
 .. _Locate a specific ORA submission:
