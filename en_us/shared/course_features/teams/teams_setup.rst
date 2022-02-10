@@ -39,7 +39,7 @@ memberships across teams and team-sets easier, there is a CSV upload tool that a
 course staff to add and remove learners from teams across team-sets in bulk. More
 information on this tool can be found in the section :ref:`Managing Teams via CSV Upload`
 
-When a team is created, it is given an name and description to identify it. 
+When a team is created, it is given an name and description to identify it.
 A primary communication language can optionally be specified
 and a primary country that members identify with. Team characteristics might
 serve as the basis for attracting new members, resulting in small groups of
@@ -48,7 +48,7 @@ or activities within the same topic area.
 
 Teams are most effective when learners have a clear reason for joining a team,
 and a clear outcome to achieve with fellow team members. For example, you
-might create an assignment that consists of a group project or activity, 
+might create an assignment that consists of a group project or activity,
 and ask learners to join teams of their choice within a specific team-set to complete
 the assignment. Team members can use discussions within the team to communicate
 and collaborate on the assignment. If you want only to  provide a way for learners
@@ -108,6 +108,22 @@ These names and descriptions are visible to learners in the Teams application as
    you delete a topic from the **Teams Configuration** policy key, that topic
    is no longer visible in the LMS, and learners will not be able to leave
    teams associated with the deleted topic.
+
+**Types of Team Groups**
+
+There are several types of team group that can be created, each of which behaves
+differently for both instructors and learners.
+
+* **Open** sets up a team group where learner can create, join, leave, and see all teams within the group
+* **Public managed** allows only course staff to control team creation and membership.
+  Learners can see other teams but cannot join or leave their team.
+* **Private managed** allows only course staff to control team creation and membership.
+  Additionally, learners can only see the teams they are members of, unlike other options
+  that give them visibility into other teams. This type is helpful in particular if team
+  assignments are being used in a course.
+
+.. note:: If you do not see all team group type options, check with your platform administrator
+   to see if the relevant teams application features have been enabled.
 
 **Team Group Size Override**
 
@@ -315,8 +331,8 @@ Managing Teams via CSV Upload
 ****************************************
 Initial Setup
 -------------
-There are cases where an instructor may want to manage team membership within a course 
-(e.g. assigning groups for team assignments). To do this, an instructor must configure 
+There are cases where an instructor may want to manage team membership within a course
+(e.g. assigning groups for team assignments). To do this, an instructor must configure
 a team-set as ``public_managed`` or ``private_managed`` by following the Teams Configuration guide.
 
 When this condition is met, an instructor can navigate to the **Teams** tab where the **Manage**
@@ -362,7 +378,7 @@ team-set in the header row. For example, here are 8 students assigned across dif
     edith,           verified, Team 2,           Team B
     felicia,         verified, Team 2,           Team C
     garrett,         verified, ,                 Team C
-    hannah,          masters,  Team A,           Team 1 
+    hannah,          masters,  Team A,           Team 1
 
 **Note** that since teams are only unique within a team-set, the “Team A” that hannah is a member of for the
 “discussion-teams” team-set is different from the “Team A” in “case-studies” that alice and derek are assigned to.
@@ -379,7 +395,7 @@ An instructor should first get current memberships by going to the **View Curren
 clicking the *Download Memberships* button. This downloads a membership CSV file showing all enrolled students
 and configured team-sets for the course.
 
-Staff can then modify this document (as below) before browsing to the file and uploading it in the 
+Staff can then modify this document (as below) before browsing to the file and uploading it in the
 **Assign Team Memberships** section.
 
 
@@ -406,19 +422,19 @@ Initial Setup
 
 Remus Lupin is setting up his course, Defense Against the Dark Arts and wants to assign groups for his students
 to write about different dark creatures and curses. Following the Teams Configuration instructions, he sets up
-two managed team-sets, ``dark-creatures`` and ``curses``. 
+two managed team-sets, ``dark-creatures`` and ``curses``.
 
 Next, he goes to the **Teams > Manage** page and clicks *Download Memberships* to get the following membership CSV:
 
 .. code::
 
     user,      mode,       dark-creatures,  curses
-    harry,     verified,                 ,  
+    harry,     verified,                 ,
     ron,       audit,                    ,
     luna,      verified,                 ,
     draco,     verified,                 ,
     hermione,  masters,                  ,
-    cho,       masters,                  ,  
+    cho,       masters,                  ,
 
 Lupin splits his students into several teams, making sure to not put ``masters`` and non-masters students on the same team,
 and edits the CSV accordingly:
@@ -426,11 +442,11 @@ and edits the CSV accordingly:
 .. code::
 
     user,      mode,       dark-creatures,  curses
-    harry,     verified,   Dragons,         Mimble Wimble 
+    harry,     verified,   Dragons,         Mimble Wimble
     ron,       audit,      Dragons,         Morsmordre
     luna,      verified,   Werewolves,      Morsmordre
-    draco,     verified,   Werewolves,      Mimble Wimble 
-    hermione,  masters,    Basiliks,        Expulso 
+    draco,     verified,   Werewolves,      Mimble Wimble
+    hermione,  masters,    Basiliks,        Expulso
     cho,       masters,    Basiliks,        Expulso
 
 In the *Assign Team Memberships* section, Lupin browses to his updated membership CSV and clicks *Upload Memberships*.
@@ -449,10 +465,10 @@ the class after the initial team assignments.
     harry,     verified,   Dragons,         Mimble Wimble
     ron,       audit,      Dragons,         Morsmordre
     luna,      verified,   Werewolves,      Morsmordre
-    draco,     verified,   Werewolves,      Mimble Wimble 
-    hermione,  masters,    Basiliks,        Expulso 
-    cho,       masters,    Basiliks,        Expulso 
-    fred,      audit,      ,  
+    draco,     verified,   Werewolves,      Mimble Wimble
+    hermione,  masters,    Basiliks,        Expulso
+    cho,       masters,    Basiliks,        Expulso
+    fred,      audit,      ,
     george,    audit,      ,
 
 He decides he wants to add them to the “Werewolves” and “Dragons” teams for the ``dark-creatures`` team-set but wants them
@@ -464,9 +480,9 @@ on a new “Confringo” team for ``curses``.
     harry,     verified,   Dragons,         Mimble Wimble
     ron,       audit,      Dragons,         Morsmordre
     luna,      verified,   Werewolves,      Morsmordre
-    draco,     verified,   Werewolves,      Mimble Wimble 
-    hermione,  masters,    Basiliks,        Expulso 
-    cho,       masters,    Basiliks,        Expulso 
+    draco,     verified,   Werewolves,      Mimble Wimble
+    hermione,  masters,    Basiliks,        Expulso
+    cho,       masters,    Basiliks,        Expulso
     fred,      audit,      Werewolves,      Confringo
     george,    audit,      Dragons,         Confringo
 
@@ -517,7 +533,7 @@ enrollment mode making sure that team assignments do not mix masters and non-mas
 
 **Team [team] cannot have Master’s track users mixed with users in other tracks.**
 
-FERPA protections prohibit ``masters`` and non-masters (``audit`` and ``verified``) enrolled students from being on the same team. 
+FERPA protections prohibit ``masters`` and non-masters (``audit`` and ``verified``) enrolled students from being on the same team.
 
 If the team already exists, the enrollment mode of the first member assigned to that team sets the team’s protection level.
 For example, if the first member assigned to a team is a non-master’s student, masters students cannot join.
