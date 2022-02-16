@@ -68,6 +68,9 @@ Testing a Contribution
 Before submitting a pull request, it is recommended you run the test suite on
 your contribution to ensure it can be compiled into HTML format without errors.
 
+You may first need to install `GraphViz <http://graphviz.org/>`_.
+See the `Download Page <http://graphviz.org/download/>`_ for more instructions on how to install for your particular Operating System.
+
 To run a test compilation of a contribution, first install the prerequisites.
 
 .. code::
