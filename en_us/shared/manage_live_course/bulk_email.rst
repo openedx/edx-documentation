@@ -173,17 +173,33 @@ When you compose an email message, you can use the following options.
 
 .. contents::
   :local:
-  :depth: 1
+  :depth: 2
 
 =======
 Styling
 =======
 
-Messages can include HTML styling, including text formatting and links. The
-email message editor offers the same formatting options as the Text component
-editor in Studio.
+Messages can include HTML styling, including text formatting and links.
 
 For more information, see :ref:`Working with Text Components`.
+
+-----------------------
+Restricted HTML Content
+-----------------------
+
+The Bulk Course Email tool restricts use of specific HTML elements from being
+used in messages. The following HTML elements may not be used in messages
+authored with this tool:
+
+* iframe
+* svg
+* form
+* script
+
+.. note: If a message contains restricted HTML content it will **not** be
+   stripped from the message. The HTML code will be converted to plain text. You
+   should send a test message to yourself first before sending to larger groups
+   to ensure message content is displayed as desired.
 
 ======
 Images
@@ -193,6 +209,10 @@ Messages can include images. To include an image, you must first add the file
 to your course on the **Files & Uploads** page. For an email message, you copy
 the **Web** URL that the system assigns to the image. Then, in the email
 message editor, you select the **Insert/edit image** icon to add the web URL.
+
+.. note:: Scalable Vector Graphic (SVG) images are restricted from use in
+   messages authored with the Bulk Course Email tool. Please see the above note
+   in the *Restricted HTML Content* section.
 
 To ensure that your course assets are transmitted securely, add the
 ``https://`` preface to the web URL. An example follows.
