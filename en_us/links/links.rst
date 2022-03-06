@@ -547,7 +547,7 @@
 
 .. _eduPerson Object Class Specification: https://www.internet2.edu/media/medialibrary/2013/09/04/internet2-mace-dir-eduperson-201203.html
 
-.. _official Google instructions: https://developers.google.com/+/web/signin/#set_up_google_sign-in_for_google
+.. _official Google instructions: https://developers.google.com/identity/protocols/oauth2
 
 .. _Google Developers Console: https://console.developers.google.com/project/_/apiui/apis/library
 
