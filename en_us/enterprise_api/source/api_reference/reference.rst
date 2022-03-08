@@ -19,7 +19,7 @@ The following endpoints are available in the Enterprise API.
 - **/enterprise-catalogs** - You can make GET calls to the
   ``/enterprise/v1/enterprise-catalogs`` endpoint to get a list of all the course catalogs
   that are available to your organization. 
-  For details, see :ref:`_enterprise_catalogs Endpoint`.
+  For details, see :ref:`enterprise_catalogs Endpoint`.
 
 - **/enterprise-catalogs/{catalog_id}** - You can make GET calls to the
   ``/enterprise/v2/enterprise-catalogs/{catalog_id}`` endpoint to get a list of all the
@@ -100,7 +100,7 @@ Example Request
 =====================
 Response Values
 =====================
-The ``GET /enterprise/v1/enterprise-catalogs`` request returns  the values: ``count``, ``next``, ``previous``, ``results`` described here: :ref:`_Response_Values`. 
+The ``GET /enterprise/v1/enterprise-catalogs`` request returns  the values: ``count``, ``next``, ``previous``, ``results`` described here: :ref:`response_Values`. 
 The ``results`` response value include these fields: 
 
 .. list-table::
@@ -170,7 +170,7 @@ value of 20 courses per page. For example:
    enterprise-catalogs/3f56a21c-76c8-47c0-add8-a99714d40d94?limit=250 \
    -H "Authorization: JWT {access token}"
 
-.. _Response_Values:
+.. _response_Values:
 
 =====================
 Response Values
