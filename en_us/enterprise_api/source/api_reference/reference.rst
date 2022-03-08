@@ -18,29 +18,28 @@ The following endpoints are available in the Enterprise API.
 
 - **/enterprise-catalogs** - You can make GET calls to the
   ``/enterprise/v1/enterprise-catalogs`` endpoint to get a list of all the course catalogs
-  that are available to your organization. For details, see
-  :ref:`_enterprise_catalogs Endpoint`.
+  that are available to your organization. 
+  For details, see :ref:`_enterprise_catalogs Endpoint`.
 
 - **/enterprise-catalogs/{catalog_id}** - You can make GET calls to the
   ``/enterprise/v2/enterprise-catalogs/{catalog_id}`` endpoint to get a list of all the
   active courses in a specified course catalog. Active courses are courses
   that are currently open for enrollment or that will open for enrollment in
-  the future. For details, see :ref:`enterprise_catalogs_catalogID Endpoint`.
-
+  the future. 
+  For details, see :ref:`enterprise_catalogs_catalogID Endpoint`.
 - **/enterprise-catalogs/{catalogID}/courses/{course_key}** - You can make GET
   calls to the ``/enterprise/v2/enterprise-catalogs/{catalog_id}/courses/{course_key}``
-  endpoint to get information about a single course. For details, see
-  :ref:`enterprise_catalogs_courses Endpoint`.
-
+  endpoint to get information about a single course. 
+  For details, see :ref:`enterprise_catalogs_courses Endpoint`.
 - **/enterprise-catalogs/{catalogID}/course-runs/{course_run_ID}** - You can make GET calls to the
   ``/enterprise/v2/enterprise-catalogs/{catalog_id}/course-runs/{course_run_ID}`` endpoint
-  to get information about a single course run. For details, see
-  :ref:`enterprise_catalogs_courserun Endpoint`.
+  to get information about a single course run. 
+  For details, see :ref:`enterprise_catalogs_courserun Endpoint`.
 
 - **/enterprise-catalogs/{catalogID}/programs/{program_ID}** - You can make GET calls to the
   ``/enterprise/v2/enterprise-catalogs/{catalog_id}/programs/{program_ID}`` endpoint
-  to get information about a single program. For details, see
-  :ref:`enterprise_catalogs_programs Endpoint`.
+  to get information about a single program. 
+  For details, see :ref:`enterprise_catalogs_programs Endpoint`.
 
 - **/learner-summary** - You can make GET calls to the
   ``/enterprise/v3/enterprise-customer/{enterprise_uuid}/learner-summary`` endpoint to get a list of information about your
@@ -65,7 +64,8 @@ example, to request JSON-formatted information about a course run using
    https://api.edx.org/enterprise/v2/enterprise-catalogs/3f56a21c-76c8-47c0-add8-a99714d40d94/courses/MyUni+Sport101x \
    -H "Authorization: JWT {access token}"
    -H "Accept: application/json"
-.._enterprise_catalogs Endpoint:
+
+.. _Enterprise_catalogs Endpoint:
 
 ****************************
 enterprise-catalogs Endpoint
@@ -96,6 +96,29 @@ Example Request
      -H "Authorization: JWT {access token}"
      -H "Content-Type: application/json" \
     }]"
+
+=====================
+Response Values
+=====================
+The ``GET /enterprise/v1/enterprise-catalogs`` request returns  the values: ``count``, ``next``, ``previous``, ``results`` described here: :ref:`_Response_Values`. 
+The ``results`` response value include these fields: 
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``uuid``
+     - string
+     - A unique identifier for the catalog.
+   * - ``title``
+     - string
+     - The name that describes the catalog.
+   * - ``enterprise_customer``
+     - string
+     - The customer's unique identifier links to a catalog.
 
 .. _enterprise_catalogs_catalogID Endpoint:
 
@@ -146,6 +169,8 @@ value of 20 courses per page. For example:
    curl -X GET https://api.edx.org/enterprise/v2/\
    enterprise-catalogs/3f56a21c-76c8-47c0-add8-a99714d40d94?limit=250 \
    -H "Authorization: JWT {access token}"
+
+.. _Response_Values:
 
 =====================
 Response Values
@@ -414,7 +439,6 @@ Fields in a course Content Item
    * - ``video``
      - array
      - The course About video.
-
 
 .. _course_run Fields:
 
