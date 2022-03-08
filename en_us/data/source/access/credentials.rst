@@ -95,6 +95,13 @@ Create Keys: Windows
       of retaining it for reuse in the future: you use this passphrase when you
       decrypt your data packages.
 
+   d. Change the default Key Material from ECDSA/EdDSA to RSA by clicking on
+      the 'Advanced Settings...' button and then choosing RSA as the 'Key Material'
+      as shown in the images below.
+
+      .. image:: ../Images/Data_Czar_Kleopatra.png
+      .. image:: ../Images/Data_Czar_Kleopatra_advanced_settings.png
+
 3. When Kleopatra presents the **Key Pair Successfully Created** dialog box,
    select **Send Certificate by EMail** to send the public key (and only the
    public key) to your edX partner manager.
