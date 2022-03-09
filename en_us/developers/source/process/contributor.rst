@@ -46,6 +46,9 @@ list of requirements to be sure that your pull request is ready to be reviewed:
    docstrings, and good variable naming conventions are expected. See the
    :doc:`../style_guides/index` for more details.
 
+#. Commit messages should conform to `OEP-51\: Conventional Commits`_.
+This style categorizes commits to make them easier to understand.
+
 #. The pull request should be as small as possible. Each pull request should
    encompass only one idea: one bugfix, one feature, etc. Multiple features (or
    multiple bugfixes) should not be bundled into one pull request. A handful of
@@ -155,3 +158,4 @@ following links:
 
 .. _contributor's agreement with edX: http://open.edx.org/sites/default/files/wysiwyg/individual-contributor-agreement.pdf
 .. _compatible licenses: https://open.edx.org/open-edx-licensing
+.. _OEP-51\: Conventional Commits: https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0051-bp-conventional-commits.html
