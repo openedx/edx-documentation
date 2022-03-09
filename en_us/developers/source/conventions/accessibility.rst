@@ -49,8 +49,8 @@ this document.
 
 * Many people with disabilities use "`assistive technologies
   <http://www.w3.org/TR/WCAG20/#atdef>`_" (such as screen readers) to interact
-  with their computers, web browsers, and web applications. 
-  
+  with their computers, web browsers, and web applications.
+
 * Some of the most commonly used assistive technologies are browser plugins.  Common examples include Reader Mode (for text reflow), Speech output for text when selected or on mouse hover, and thesaurus and grammar checkers for people with dyslexia.
 
 * Learners might customize their operating system, browser, or web page display properties to make
@@ -452,7 +452,7 @@ Specific considerations for common widgets are covered in `WAI-ARIA 1.2
 Authoring Practices <https://www.w3.org/TR/wai-aria-practices-1.2/>`_ and `examples <https://www.w3.org/TR/wai-aria-practices-1.1/examples/>`_.
 
 A quick reference list of Required and Supported ARIA attributes by role is
-available in the `Using ARIA 
+available in the `Using ARIA
 <http://www.w3.org/TR/aria-in-html/#aria-role-state-and-property-quick-
 reference>`_
 
@@ -515,7 +515,7 @@ user hears only "Close".
     <span aria-hidden="true">X</span>   <!-- hidden from screen reader users -->
     <span class="sr">Close</span>       <!-- exposed only to screen reader users -->
   </a>
-  
+
 The choice to show or hide content for a specific audience should not be taken
 lightly. Extensive use of offscreen content can reduce accessibility, and is
 often an indicator of a user experience that relies too heavily on visual
@@ -527,44 +527,44 @@ appropriate to hide content from screen readers or display it offscreen.
   * If the content you are considering displaying offscreen might be useful not only
     for non-visual users but other users too, find a way to make the content work
     visually, and expose it for all users.
-  
+
 * Are you using only visual cues to provide important context?
-  
+
   * In standard sidebar navigation, it is common practice to indicate the user's
     current page or section by differentiating it visually from other pages or sections
     in the sidebar. To visual users, it is clear that the item in the list that looks
     different than all the others is the page that they are currently viewing. You can
     make this visual context available to non-visual users with offscreen text, as
     demonstrated in the following example.
-  
+
 ::
 
   <a href="/" class="inactive">Home</a>
   <a href="about/" class="active">About Us<span class="sr">&nbsp;Current page</span></a>
-  
-.. note:: In the code example above, the non-breaking space prevents a screen reader 
+
+.. note:: In the code example above, the non-breaking space prevents a screen reader
   from reading the text as “About UsCurrent Page”.
-  
+
 * Does the content displayed offscreen contain any interactive elements?
 
   * Never include interactive elements such as links, buttons, or form inputs, in
     offscreen content. Doing so negatively impacts sighted keyboard-only users, who
     require visual focus indicators to understand what element has focus and will be
     the target of keyboard events.
-  
+
 * Are you including interactive elements in offscreen content?
 
   * It can be tempting to use offscreen text to improve the usability of an interactive
     element for non-visual users. Offscreen text is included in the Accessibility API
-    which is used by screen readers. However, screen readers are not the only 
+    which is used by screen readers. However, screen readers are not the only
     assistive technology that use the Accessibility API. Speech input software also
-    uses the Accessibility API to identify interactive controls. In the 
+    uses the Accessibility API to identify interactive controls. In the
     following example, screen reader users will hear "Type your First Name", but
     sighted users will see only "First Name." Users who rely on speech input to
     interact with their computer will move focus to this element by saying "Focus on
     First Name" (the visual label). However, the accessible label for this element is
     "Type your First Name."
-  
+
 ::
 
   <label><span class="sr">Type your&nbsp;</span>First Name
@@ -599,13 +599,13 @@ These are some automated tools for accessibility testing.
 
 * Your keyboard. For information about using your keyboard to test for
   accessibility, see `<http://webaim.org/techniques/keyboard/>`_.
-  
+
 * `Accessibility features in Chrome's Developer Tools <https://developers.google.com/web/updates/2018/01/devtools#a11y-pane>`_ allow you to see the Accessibilty Tree, ARIA attributes, and computed properties
 
 * `Lighthouse auditing tools <https://developers.google.com/web/tools/lighthouse>`_ built into Chrome's Developer Tools offer automated accessibility testing.
-  
+
 * `Accessibility Insights for Web <https://chrome.google.com/webstore/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni>`_.
-  
+
 * `WAVE Accessibility Toolbar <http://wave.webaim.org/toolbar/>`_. This toolbar
   provides access to web accessibility evaluation tools that you can run in
   Firefox. A Chrome extension is available.
@@ -637,8 +637,8 @@ options.
 * `JAWS <http://www.freedomscientific.com/Downloads/ProductDemos>`_ is a screen
   reader for Windows. It is a commercial product but free to use in a limited-time
   demo mode.
-  
+
 * `Narrator <https://support.microsoft.com/en-us/help/22798/windows-10-complete-guide-to-narrator>`_ is a free, built-in screen
   reader for Windows.
-  
+
 .. note:: VoiceOver, NVDA, and Narrator can be configured to speak any text on screen on mouse hover.
