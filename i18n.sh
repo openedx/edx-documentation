@@ -20,6 +20,10 @@ echo 'Running cancelled, missing TX_TOKEN!'
 exit 1
 fi
 
+IFS= read -r -p "Enter the project name as it appears in Transifex: " PROJECT_NAME
+
+echo "$PROJECT_NAME"
+
 # Root directory
 BASE_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 # Config file
@@ -68,7 +72,10 @@ for project in "${projects[@]}"; do
     sphinx-intl update-txconfig-resources \
     --pot-dir $BASE_DIR/$project/build/locale/ \
     --locale-dir $BASE_DIR/$project/locales/ \
-    --transifex-project-name open-edx-documentation-project
+    --transifex-project-name "$PROJECT_NAME"
+
+    python tx_config_fix.py "$project"
+
 done
 
 # Todo: Check for errors and set exit message accordingly
