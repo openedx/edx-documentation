@@ -3,3 +3,5 @@
 
 edx-sphinx-theme                    # edX theme for the generated documentation
 sphinx                              # Documentation builder
+sphinx-intl                         # i18n tool to create .po files
+transifex-client                    # Transifex CLI to upload .po files
