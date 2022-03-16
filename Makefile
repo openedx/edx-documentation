@@ -29,3 +29,6 @@ clean: ## remove built html files
 
 test: ## build all the docs
 	./run_tests.sh
+
+i18n: ## Creates the .pot files and .tx/config file for uploading translation strings to Transifex
+	./i18n.sh
