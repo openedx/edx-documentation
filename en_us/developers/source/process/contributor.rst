@@ -19,7 +19,7 @@ It's also sometimes useful to submit a pull request even before the code is
 working properly, to make it easier to collect early feedback. To indicate to
 others that your pull request is not yet in a functional state, just prefix the
 pull request title with "(WIP)" (Work In Progress), or start the pull request
-as a draft on GitHub. Please do include a link to a WIP pull request in any
+as a draft on GitHub. Please include a link to a WIP pull request in any
 discussion threads you start.
 
 Once you're ready to submit your changes in a pull request, check the following
@@ -44,9 +44,9 @@ list of requirements to be sure that your pull request is ready to be reviewed:
 #. Structure your pull request into logical commits. "Fixup" commits
    should be squashed together. The best pull requests contain only a
    single, logical change -- which means only a single, logical
-   commit. The person merging the pull request may choose to squash
-   all commits to reduce the number of commits in the main
-   branch. They will do so by using the `Squash and merge` button of
+   commit. You can squash your own commits, or the person merging the
+   pull request may choose to squash them.
+   They will do so by using the `Squash and merge` button of
    the GitHub interface to preserve the logical commits in the pull
    request, for forensic purposes when trying to diagnose a regression
    or understand a bug.
@@ -98,7 +98,7 @@ It's also important to realize that you and the core committers may have
 different ideas of what is important in the codebase. The power and freedom of
 open source software comes from the fact that you can fork our software and
 make any modifications that you like, without permission from us. However, the
-core committers are similarly empowered and free to decide what modifications
+core contributors are similarly empowered and free to decide what modifications
 to pull in from other contributors, and what not to pull in. While your code
 might work great for you on a small installation, it might not work as well on
 a large installation, have problems with performance or security, not be
@@ -112,8 +112,8 @@ same result in a way that we will accept.
 Once A PR is Open
 -----------------
 
-Once a pull request is open, automation will create a JIRA
-ticket in our system to track review of your pull request. The JIRA ticket is a
+Once a pull request is open, automation will create a JIRA ticket in 2U's
+system to track review of your pull request. The JIRA ticket is a
 way for non-engineers (particularly, product owners) to understand your change
 and prioritize your pull request for team review.
 
