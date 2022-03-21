@@ -22,8 +22,8 @@ def delimit_sections(project_path):
     But this filename is common in Sphinx Projects. This script would rename the section
     title to be [example--title], keeping all other values under it untouched.
     """
-
-    project_path_friendly = "--".join(project_path.split("/"))
+    delimiter = "--"
+    project_path_friendly = project_path.replace("/", delimiter)
 
     config_path = "./.tx/config"
 
@@ -34,7 +34,9 @@ def delimit_sections(project_path):
         source_file_path = config.get(section_title, "source_file", fallback=None)
         if source_file_path and source_file_path.startswith(project_path):
             split_section_title = section_title.split(".", maxsplit=1)
-            split_section_title[1] = project_path_friendly + split_section_title[1]
+            split_section_title[1] = (
+                project_path_friendly + delimiter + split_section_title[1]
+            )
             new_section_title = ".".join(split_section_title)
             config.add_section(new_section_title)
             for option_name in config.options(section_title):
