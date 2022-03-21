@@ -13,13 +13,6 @@
 # https://www.sphinx-doc.org/en/master/usage/advanced/intl.html
 
 
-# Check if this script is running by github, and if it's
-# missing the token then exit.
-if [ "$CI" = true ] && [ -z "$TX_TOKEN" ]; then
-echo 'Running cancelled, missing TX_TOKEN!'
-exit 1
-fi
-
 IFS= read -r -p "Enter the project name as it appears in Transifex: " PROJECT_NAME
 
 echo "$PROJECT_NAME"
