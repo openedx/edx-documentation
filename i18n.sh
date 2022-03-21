@@ -13,9 +13,8 @@
 # https://www.sphinx-doc.org/en/master/usage/advanced/intl.html
 
 
-IFS= read -r -p "Enter the project name as it appears in Transifex: " PROJECT_NAME
-
-echo "$PROJECT_NAME"
+IFS= read -r -p "Enter the project name as it appears in Transifex[open-edx-documentation-project]: " PROJECT_NAME
+PROJECT_NAME=${PROJECT_NAME:-open-edx-documentation-project}
 
 # Root directory
 BASE_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
@@ -26,7 +25,7 @@ TX_CONFIG_FILE=$BASE_DIR/.tx/config
 EXIT_MESSAGE="\033[0;32mYou should now be able to push the files using tx client \n
 Typically this done by 'tx push -s', please note: you should have \n
 already installed tx client and configured it such that there is \n
-a project called 'open-edx-documentation-project' in the organization \n
+a project called '$PROJECT_NAME' in the organization \n
 and that you already have authenticated with in '~/.transifexrc', \n
 for more  information, please visit: \n
 https://docs.transifex.com/client/client-configuration.\033[0m"
