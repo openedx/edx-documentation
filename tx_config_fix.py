@@ -33,7 +33,7 @@ def delimit_sections(project_path):
     for section_title in config.sections():
         source_file_path = config.get(section_title, "source_file", fallback=None)
         if source_file_path and source_file_path.startswith(project_path):
-            split_section_title = section_title.split(".")
+            split_section_title = section_title.split(".", maxsplit=1)
             split_section_title[1] = project_path_friendly + split_section_title[1]
             new_section_title = ".".join(split_section_title)
             config.add_section(new_section_title)
