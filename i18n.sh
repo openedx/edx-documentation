@@ -13,6 +13,9 @@
 # https://www.sphinx-doc.org/en/master/usage/advanced/intl.html
 
 
+set -eoux pipefail
+
+
 IFS= read -r -p "Enter the project name as it appears in Transifex[open-edx-documentation-project]: " PROJECT_NAME
 PROJECT_NAME=${PROJECT_NAME:-open-edx-documentation-project}
 
@@ -69,8 +72,6 @@ for project in "${projects[@]}"; do
     python tx_config_fix.py "$project"
 
 done
-
-# Todo: Check for errors and set exit message accordingly
 
 echo -e ${EXIT_MESSAGE}
 
