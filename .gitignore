@@ -35,3 +35,6 @@ autodeploy.properties
 
 ### Doc health data
 health.csv
+
+### Translations and Transifex
+.tx/
