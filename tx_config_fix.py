@@ -13,11 +13,18 @@ have a section with the title [index] and the source_file: "example/index.rst". 
 filename is common in Sphinx Projects. This script would rename the section title to be
 [example--title], keeping all other values under it untouched.
 """
-import sys
 from configparser import ConfigParser
 
-project_path = sys.argv[1]
-project_path_friendly = "--".join(project_path.split("/"))
+import click
+
+
+@click.command()
+@click.argument("project_path")
+def delimit_path(project_path):
+    return "--".join(project_path.split("/"))
+
+
+project_path_friendly = delimit_path()
 
 config_path = "./.tx/config"
 
