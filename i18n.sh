@@ -13,7 +13,7 @@
 # https://www.sphinx-doc.org/en/master/usage/advanced/intl.html
 
 
-set -eoux pipefail
+set -eou pipefail
 
 
 IFS= read -r -p "Enter the project name as it appears in Transifex[open-edx-documentation-project]: " PROJECT_NAME
