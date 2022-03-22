@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "aa902735-05a2-4eec-b8fa-7a49a0a8818c",
+		"name": "edX Enterprise API Reference Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "edX API Generate API Access Token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "grant_type=client_credentials&client_id={{api_client_id}}&client_secret={{api_client_secret}}&token_type=jwt"
+				},
+				"url": {
+					"raw": "https://api.edx.org/oauth2/v1/access_token?",
+					"protocol": "https",
+					"host": [
+						"api",
+						"edx",
+						"org"
+					],
+					"path": [
+						"oauth2",
+						"v1",
+						"access_token"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edX API Retrieve Enterprise Catalogs",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "JWT {{access_token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.edx.org/enterprise/v1/enterprise-catalogs/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"edx",
+						"org"
+					],
+					"path": [
+						"enterprise",
+						"v1",
+						"enterprise-catalogs",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edX API Retrieve Catalog Courses",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "JWT {{access_token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.edx.org/enterprise/v2/enterprise-catalogs/{{catalog_uuid}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"edx",
+						"org"
+					],
+					"path": [
+						"enterprise",
+						"v2",
+						"enterprise-catalogs",
+						"{{catalog_uuid}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edX API Retrieve Course Metadata",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "JWT {{access_token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.edx.org/enterprise/v2/enterprise-catalogs/{{catalog_uuid}}/courses/{{course_key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"edx",
+						"org"
+					],
+					"path": [
+						"enterprise",
+						"v2",
+						"enterprise-catalogs",
+						"{{catalog_uuid}}",
+						"courses",
+						"{{course_key}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edX API Retrieve Learner Enrollments",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "JWT {{access_token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.edx.org/enterprise/v3/enterprise-customer/{{enterprise_uuid}}/learner-summary",
+					"protocol": "https",
+					"host": [
+						"api",
+						"edx",
+						"org"
+					],
+					"path": [
+						"enterprise",
+						"v3",
+						"enterprise-customer",
+						"{{enterprise_uuid}}",
+						"learner-summary"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
