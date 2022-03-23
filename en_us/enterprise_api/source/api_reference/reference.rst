@@ -46,7 +46,7 @@ The following endpoints are available in the Enterprise API.
   enterprise learners and their status in the courses they are enrolled in.
   For details, see :ref:`learner_summary Endpoint`.
 
-  `Use this JSON file <https://raw.githubusercontent.com/openedx/edx-documentation/master/en_us/enterprise_api/source/api_reference/edX_Enterprise_API_Reference%20Collection.postman_collection.json>` to import into your `Postman enviroment <https://learning.postman.com/docs/getting-started/importing-and-exporting-data/>`. It includes the endpoints mentioned above. 
+  `Use this JSON file <https://raw.githubusercontent.com/openedx/edx-documentation/master/en_us/enterprise_api/source/api_reference/edX_Enterprise_API_Reference%20Collection.postman_collection.json>`_ to import into your `Postman enviroment <https://learning.postman.com/docs/getting-started/importing-and-exporting-data/>`_ . It includes the endpoints mentioned above. 
 
 .. _Returning XML Data:
 
