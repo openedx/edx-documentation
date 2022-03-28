@@ -453,6 +453,9 @@ OAuth2 standard to the Open edX platform. To do this, follow these steps.
 
 #. For **Name**, enter the name of the provider.
 
+#. For **Site**, choose the site which you want to apply the provider config to,
+   if there are multiple site configurations.
+
 #. For **Backend Name**, select the backend name from the list. (If it does not
    appear in the list, either the ``ENABLE_THIRD_PARTY_AUTH`` setting or the
    ``THIRD_PARTY_AUTH_BACKENDS`` setting is not configured correctly.)
