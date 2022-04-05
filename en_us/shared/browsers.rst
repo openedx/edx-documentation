@@ -14,7 +14,6 @@ Most current browsers will work on edX.org. For best performance, we recommend t
 We also support the latest versions of:
 
 * `Microsoft Edge`_
-* `Microsoft Internet Explorer`_
 * `Safari`_
 
 
