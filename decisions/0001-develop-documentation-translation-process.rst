@@ -58,4 +58,7 @@ Not all of the documentation lives in the openedx/edx-documentation repository. 
 Location in GitHub
 ******************
 
-The documentation will remain in openedx/edx-documentation. The translations can be located in a new repository openedx/documentation-translations.
+The documentation will remain in openedx/edx-documentation. It time permits, engineering work will be done so that the translations can be located in a new repository named openedx/documentation-translations. If not, the translations will be co-located with the original strings as per the pattern in other Open edX repositories.
+
+Moving the translations to their own repository could be beneficial. Keeping the translations separate from the code that generates the documentation could dcrease repo clone/pull time. In addition, all translations could be kept in the same repo, and only the translations needed could be pulled from this repo. Lastly, when a new release of the documentation is cut, it can be separate from the translations that may be updating over a longer period of time, but still connected to a specfic version of the documentation.
+
