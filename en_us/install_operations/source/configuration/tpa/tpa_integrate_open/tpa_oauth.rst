@@ -31,7 +31,7 @@ Integrating with the most common OAuth2 IdPs has several steps.
 Register the Open edX Instance
 ==============================
 
-The most commmon OAuth2 providers are Google, Facebook, LinkedIn, and Azure
+The most common OAuth2 providers are Google, Facebook, LinkedIn, and Azure
 Active Directory.
 
 .. contents::
@@ -151,7 +151,7 @@ not work with other types of Microsoft accounts (such as "@live.com" or
 
 #. Enter a name, domain name, and country.
 
-#. Create the new application.
+#. Create a new application.
 
    #. Find the new Active Directory in the portal, select **Applications**,
       select **Add**, and then select **Add an application my organization is
@@ -174,7 +174,7 @@ not work with other types of Microsoft accounts (such as "@live.com" or
 
 #. In the **Keys** section, select a two-year duration, and then select
    **Save** to create a secret key. Note the value of the key. For example, the
-   key value may be ``abcdef12341yHlmOrR8D3vlV1cD2VtL7k9xk9DSB8vw=``.
+   key-value may be ``abcdef12341yHlmOrR8D3vlV1cD2VtL7k9xk9DSB8vw=``.
 
 #. In the **Permissions to other applications** section, locate the **Delegated
    Permissions** option for Windows Azure Active Directory, and then select
