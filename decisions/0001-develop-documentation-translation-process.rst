@@ -20,7 +20,7 @@ Answers to the questions
 1. When is the translation process triggered?
 =============================================
  
-Every six months, a newly named Open edX release is created, which includes the documentation. When this release is "cut", the translation process should also be triggered. So in the next case, where the Nutmeg version of the Open edX software is released, the translation process should also be triggered to translate the Nutmeg Documentation.
+Every six months, a newly named Open edX release is created, which includes the documentation. When this release is "cut", the translation process should also be triggered. For example, where the Nutmeg version of the Open edX software is released, the translation process should also be triggered to translate the Nutmeg Documentation.
 
 2. How is the translation process triggered?
 =============================================
