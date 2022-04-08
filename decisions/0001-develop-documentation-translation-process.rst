@@ -135,4 +135,4 @@ decrease repo clone/pull time. In addition, all translations could be kept in
 the same repo, and only the translations needed could be pulled from this repo.
 Lastly, when a new release of the documentation is cut, it can be separate from
 the translations that may be updating over a longer period of time, but still
-connected to a specfic version of the documentation.
+connected to a specific version of the documentation.
