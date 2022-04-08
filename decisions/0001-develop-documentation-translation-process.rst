@@ -54,11 +54,12 @@ Bringing translatable documentation material into Transifex:
  #. When a new named release is cut, a Github Pull Request should be created
     that tags Github users that are also Transifex Admins. This GitHub PR will
     contain the generated files to be uploaded to Transifex.
- #. To complete the process, the Github User/Transifex Admin will pull the PR
-    and locally run a script which uses their own credentials that uploads the
-    documents to Transifex.
- #. The user would then merge the PR as a record that the material is on
-    Transifex and ready to be translated by the greater open source community.
+ #. To complete the process, the Transifex Admin will pull the PR and locally
+    run a script which uses their own credentials that uploads the documents to
+    Transifex.
+ #. The Transifex Admin would then merge the PR as a record that the material
+    is on Transifex and ready to be translated by the greater open source
+    community.
 
 3. How does the translation process work?
 =============================================
