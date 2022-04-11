@@ -77,15 +77,15 @@ strings will look for identical strings from the Documentation in the Nutmeg
 release and automatically populate them.
 
 Upcoming work will automate the process of syncing files between GitHub and
-Transifex. Once a preset fraction of the strings are translated, a notice will
-be triggered to Transifex Admins that translations are ready. This will create
-a new Pull Request with these new translations. A maintainer of the
-edx-documentation repo will be asked for a review, and in combination with
-Transifex Admins, merged. In addition, this syncing process can be run
-regularly after the threshold is reached in order to increase the fraction of
-strings translated.
+Transifex via an established but new to us GitHub App. A GitHub App is an
+integration between two services, in this case, GitHub and Transifex. Once a
+preset fraction of the strings are translated, the GitHub App integrated with
+Transifex will create a new Pull Request and notify Transifex Admins by adding
+them for a review. Once reviewed, a Transifex Admin will then merge the Pull
+Request. In addition, this syncing process can be run regularly after the
+threshold is reached in order to increase the fraction of strings translated.
 
-4. How will the translated documents be integrated back into the documentation?
+1. How will the translated documents be integrated back into the documentation?
 ===============================================================================
 
 Translated documents will be kept in a newly created separate repository to
