@@ -88,15 +88,24 @@ threshold is reached in order to increase the fraction of strings translated.
 1. How will the translated documents be integrated back into the documentation?
 ===============================================================================
 
-Translated documents will be kept in a newly created separate repository to
-avoid having to recut a named Open edX release everytime translations are added
-or updated. During the building process of the documents, it will check for the
-existence of these translated documents, and build with them if they exist.
-Translations will be available both by locale and by selection as is currently
-supported by Sphinx and Read the Docs. So for example, while the default option
-for document readers in the US locale will be English, they will also be able
-to select other translated documents.
+Currently, translated documents are placed back into the same repositories that
+untranslated documents are extracted from. As part of a second phase to this
+work, a new repository will be made to separate translations from the documents
+they translate. Translated documents will be kept in a newly created separate
+repository to avoid having to recut a named Open edX release everytime
+translations are added or updated. During the building process of the
+documents, it will check for the existence of these translated documents, and
+build with them if they exist.
 
+Like in the `python documentation`_, both release versions and translation
+language will be available for selection as both are currently supported by
+Sphinx and Read the Docs. In addition, a default language will be automatically
+selected via locale. So for example, if the default options for Open edX
+documentation readers in the US locale is English and the Maple Release, they
+would be able to select the documentation for Lilac in Spanish via dropdown
+menus.
+
+.. _python documentation: https://docs.python.org/3/
 
 *********
 Rationale
