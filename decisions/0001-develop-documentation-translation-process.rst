@@ -14,7 +14,6 @@ documentation in a variety of languages, a process must be designed and agreed
 upon to serve the greater open source community.
 
 In this ADR, we will describe:
-
  #. When the translation process is triggered
  #. How the translation process is triggered
  #. How the translation process works
@@ -53,7 +52,6 @@ that we receive the results we want. That is not to say that some parts of this
 process cannot be automated.
 
 Bringing translatable documentation material into Transifex:
-
  #. A new named Open edX release branch of edx-documentation repo is made by an
     `automated script`_ that matches the "open-release/<release name>" pattern.
  #. A github action will create a Pull Request containing generated files that
