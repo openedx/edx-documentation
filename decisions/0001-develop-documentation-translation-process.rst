@@ -17,6 +17,7 @@ In this ADR, we will describe:
  #. When the translation process is triggered
  #. How the translation process is triggered
  #. How the translation process works
+ #. How the documentation will stay updated
  #. How the translated documents will be integrated back into the documentation
 
 
@@ -51,15 +52,16 @@ that we receive the results we want. That is not to say that some parts of this
 process cannot be automated.
 
 Bringing translatable documentation material into Transifex:
- #. When a new named release is cut, a Github Pull Request should be created
-    that tags Github users that are also Transifex Admins. This GitHub PR will
-    contain the generated files to be uploaded to Transifex.
- #. To complete the process, the Transifex Admin will pull the PR and locally
-    run a script which uses their own credentials that uploads the documents to
-    Transifex.
- #. The Transifex Admin would then merge the PR as a record that the material
-    is on Transifex and ready to be translated by the greater open source
-    community.
+ #. A new named Open edX release branch of edx-documentation repo is made that
+    matches the "open-release/<release name>" pattern.
+ #. A github action will create a Pull Request containing generated files that
+    contain the strings to be translated via Transifex. A Transifex Admin will
+    be tagged as a reviewer to complete the PR.
+ #. The Transifex Admin will then locally run the script that places the
+    generated files into a properly named Project in Transifex.
+ #. Once the Transifex Project is ready for translators, the Transifex Admin
+    will merge the PR, creating a record that the material is on Transifex and
+    ready to be translated by the greater open source community.
 
 3. How does the translation process work?
 =============================================
@@ -85,7 +87,33 @@ them for a review. Once reviewed, a Transifex Admin will then merge the Pull
 Request. In addition, this syncing process can be run regularly after the
 threshold is reached in order to increase the fraction of strings translated.
 
-1. How will the translated documents be integrated back into the documentation?
+4. How will the documentation stay updated?
+===========================================
+
+The documentation for each new Open edX release is often updated while the
+software it documents is updated. Unfortunately, this means that as the
+documentation is finalized, the strings that need to be translated, will change
+as well. Luckily, Transifex already supplies this `functionality`_. Strings
+that are updated will need to be translated, but strings that stay the same
+will keep their translations.
+
+We will first upload documentation to Transifex any branch that matches the
+pattern we currently use. We will also set the GitHub integration to re-upload
+document strings with every merge to that branch, that way Translators will
+always have the latest strings. Translators will then translate the strings.
+And as the documentation is updated, translators can also translate those
+updated strings.
+
+Is this ideal? No. Translators may have to retranslate the contents of a
+document that was already translated before it was updated. It is a concession
+we have to make if we want updated software, and we want those updates
+documented, and we want that documentation translated. There will always be
+some inefficiencies in this pipeline as those three tasks cannot work perfectly
+in parallel since software updates continuously.
+
+.. _functionality: https://docs.transifex.com/projects/updating-content/
+
+5. How will the translated documents be integrated back into the documentation?
 ===============================================================================
 
 Currently, translated documents are placed back into the same repositories that
@@ -106,6 +134,7 @@ would be able to select the documentation for Lilac in Spanish via dropdown
 menus.
 
 .. _python documentation: https://docs.python.org/3/
+
 
 *********
 Rationale
