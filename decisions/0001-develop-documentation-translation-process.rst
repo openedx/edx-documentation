@@ -52,8 +52,8 @@ that we receive the results we want. That is not to say that some parts of this
 process cannot be automated.
 
 Bringing translatable documentation material into Transifex:
- #. A new named Open edX release branch of edx-documentation repo is made that
-    matches the "open-release/<release name>" pattern.
+ #. A new named Open edX release branch of edx-documentation repo is made by an
+    `automated script`_ that matches the "open-release/<release name>" pattern.
  #. A github action will create a Pull Request containing generated files that
     contain the strings to be translated via Transifex. A Transifex Admin will
     be tagged as a reviewer to complete the PR.
@@ -62,6 +62,8 @@ Bringing translatable documentation material into Transifex:
  #. Once the Transifex Project is ready for translators, the Transifex Admin
     will merge the PR, creating a record that the material is on Transifex and
     ready to be translated by the greater open source community.
+
+.. _automated script: https://openedx.atlassian.net/wiki/spaces/COMM/pages/19662426/Process+to+Create+an+Open+edX+Release#Making-the-release-branches
 
 3. How does the translation process work?
 =============================================
