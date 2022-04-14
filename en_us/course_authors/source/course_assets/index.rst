@@ -17,3 +17,4 @@ see :ref:`Developing Your Course Index`.
    pages
    textbooks
    course_wiki
+   course_live
