@@ -84,12 +84,12 @@ Upcoming work will automate the process of syncing files between GitHub and
 Transifex via an established but new to us GitHub App. A GitHub App is an
 integration between two services, in this case, GitHub and Transifex. Once a
 preset fraction of the strings are translated, the GitHub App integrated with
-Transifex will create a new Pull Request and notify Transifex Admins by adding
-them for a review. Once reviewed, a Transifex Admin will then merge the Pull
-Request. In addition, this syncing process can be run regularly after the
-threshold is reached in order to increase the fraction of strings translated.
+Transifex will create and auto-merge a new Pull Request containing the
+translated materials. In addition, this syncing process can be run regularly
+after the threshold is reached in order to increase the fraction of strings
+translated.
 
-4. How will the documentation stay updated?
+1. How will the documentation stay updated?
 ===========================================
 
 The documentation for each new Open edX release is often updated while the
