@@ -14,6 +14,8 @@ experience, staff can now easily:
 * View responses and assign grades directly in the app
 * Claim submissions for exclusive review to avoid grading conflicts
 
+.. _Navigate to ORA Staff Grading:
+
 ************************************************
 Navigate to the New ORA Staff Grading Experience
 ************************************************
@@ -35,6 +37,8 @@ fig: An ORA with a Staff Grading step, with the “Grade Available Responses” 
 .. Note:: Although the new staff grading experience replaces the old “Staff Assessment”
     workflows, grades can still be viewed, canceled, and overridden from the "Manage 
     Individual/Team Responses" link in ORAs.
+
+.. _Submissions List View:
 
 *********************
 Submissions List View
@@ -65,6 +69,8 @@ submitted responses for the ORA.
     all the responses you're interested in reviewing.
 
 fig: The submission listing view of the Enhanced Staff Grader, displaying two graded submissions
+
+.. _View Individual Responses:
 
 *************************
 View Individual Responses
