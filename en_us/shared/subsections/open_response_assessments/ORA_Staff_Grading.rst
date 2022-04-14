@@ -4,9 +4,9 @@
 Staff Grading for Open Response Assignments
 ###########################################
 
-The new Open Response Assessment (ORA) staff grading experience is designed to enable
-more efficient and fully-featured grading workflows. With the new ORA staff grading
-experience, staff can now easily:
+Staff grading for Open Response Assessments (ORAs) now exists as a separate app to
+enable more efficient and fully-featured grading workflows. Within this ORA staff
+grading app, staff can easily:
 
 * View the state of all submissions for an ORA
 * Select individual/batch submissions to review
@@ -16,13 +16,11 @@ experience, staff can now easily:
 
 .. _Navigate to ORA Staff Grading:
 
-************************************************
-Navigate to the New ORA Staff Grading Experience
-************************************************
+*****************************
+Navigate to ORA Staff Grading
+*****************************
 
-The new ORA staff grading experience replaces the old staff grading workflows. It can
-be reached from the same places staff would normally go to review ORA submissions. That
-is, from:
+Staff can grade responses for an ORA with a staff grade step from one of 2 places:
 
 1. The Instructor Dashboard > Open Responses. In the responses table, ORAs with staff steps show a “View and grade responses” link which directs to the new experience. 
 
@@ -44,9 +42,9 @@ fig: An ORA with a Staff Grading step, with the “Grade Available Responses” 
 Submissions List View
 *********************
 
-Opening the new grading experience shows a table listing responses for that particular
-ORA. The table on the page shows the submitting user (or team, for team assignments),
-the submission date, grade (if graded) and grading status. The grading status shows:
+The main view shows a table listing responses for that particular ORA. The table on the
+page shows the submitting user (or team, for team assignments), the submission date,
+grade (if graded) and grading status. The grading status shows:
 
 * “Ungraded” when the submission has not yet received a grade.
 * “Currently being graded by someone else” when another staff member is actively grading this submission.
