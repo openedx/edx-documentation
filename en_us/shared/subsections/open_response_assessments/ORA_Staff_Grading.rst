@@ -14,6 +14,9 @@ grading app, staff can easily:
 * View responses and assign grades directly in the app
 * Claim submissions for exclusive review to avoid grading conflicts
 
+.. toctree::
+   :maxdepth: 1
+
 .. _Navigate to ORA Staff Grading:
 
 *****************************
