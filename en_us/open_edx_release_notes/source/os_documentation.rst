@@ -5,16 +5,16 @@ Open edX Documentation
 All Open edX documentation is available at `docs.edx.org`_.
 
 *****************************
-Ginkgo Release Documentation
+Maple Release Documentation
 *****************************
 
-The following documentation is available for the Open edX Ginkgo release.
+The current release of Open EdX is named Maple. The following documentation is available for the Open edX Maple release.
 
-* `Installing, Configuring, and Running the Open edX Platform: Ginkgo Release`_
+* `Installing, Configuring, and Running the Open edX Platform: Maple Release`_
 
-* `Building and Running an Open edX Course: Ginkgo Release`_
+* `Building and Running an Open edX Course: Maple Release`_
 
-* `Open edX Learner's Guide: Ginkgo Release`_
+* `Open edX Learner's Guide: Maple Release`_
 
 *******************************
 Latest Documentation
