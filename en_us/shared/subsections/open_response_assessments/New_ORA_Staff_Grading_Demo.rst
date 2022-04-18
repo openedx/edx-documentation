@@ -1,8 +1,7 @@
 .. _Demo the New ORA Staff Grading Experience:
 
-#########################################
 Demo the New ORA Staff Grading Experience
-#########################################
+*****************************************
 
 Initially, the new ORA staff grading experience will be available only in demo mode. 
 his opt-in mode will allow staff to try the new experience on actual responses but

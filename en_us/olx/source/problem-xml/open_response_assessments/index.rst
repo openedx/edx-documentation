@@ -14,5 +14,6 @@ Open Response Assessments
    OpenResponseAssessments
    CreateORAAssignment
    Manage_ORA_Assignment
+   New_ORA_Staff_Grading_Demo
+   ORA_Staff_Grading
    Access_ORA_Info
-
