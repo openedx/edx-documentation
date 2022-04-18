@@ -19,9 +19,5 @@ normally begin grading a staff graded ORA:
 A banner on the page will indicate that the app is in demo mode and will explain the
 limitations of this mode.
 
-Fig: Demo mode in submission list view below
-
-Fig: Demo mode in submission detail view below
-
 If, after trying demo mode, you'd like to enable the new staff grading experience as
 the default, contact your partner support/manager to assist.

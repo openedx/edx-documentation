@@ -27,13 +27,7 @@ Staff can grade responses for an ORA with a staff grade step from one of 2 place
 
 1. The Instructor Dashboard > Open Responses. In the responses table, ORAs with staff steps show a “View and grade responses” link which directs to the new experience. 
 
-
-fig: Instructor Dashboard → Open Response Table  with new column linking to ESG for ORAs with Staff Grading steps.
-
 2. The Unit > ORA > Grade Available Responses button links to the new grading experience.
-
-
-fig: An ORA with a Staff Grading step, with the “Grade Available Responses” button highlighted.
 
 .. Note:: Although the new staff grading experience replaces the old “Staff Assessment”
     workflows, grades can still be viewed, canceled, and overridden from the "Manage 
@@ -69,8 +63,6 @@ submitted responses for the ORA.
     move between pages by clicking the “Previous” and “Next” buttons to view or select
     all the responses you're interested in reviewing.
 
-fig: The submission listing view of the Enhanced Staff Grader, displaying two graded submissions
-
 .. _View Individual Responses:
 
 *************************
@@ -92,8 +84,6 @@ page. This lists the name, file type, and size for each uploaded file. Additiona
 hovering over the info icon (ℹ) in the file row shows additional metadata about the 
 uploaded file.
 
-fig: A submission with collapsed files card
-
 Some file types can be previewed directly on the page. The current file types that are
 supported for in-page previews are: pdf, jpg, jpeg, png, bmp, txt, gif, jfif, pjpeg,
 pjp, and svg. To view files that can't be previewed in-page (any other file types not
@@ -101,16 +91,12 @@ stated above) staff can download all files associated with the response as a zip
 by clicking the “Download files” button in the files card to get a Zip of files and
 file metadata.
 
-fig: A submission with previewed files.
-
 ==============
 Text Responses
 ==============
 
 If a submission also contains a text response (either plain text or rich text), the
 text response will also show on the page, below any uploaded files.
-
-fig: A submission with a text response
 
 ===============
 View the Rubric
@@ -120,8 +106,6 @@ While reviewing submission material, staff can view the rubric for the submissio
 clicking the “Show Rubric'' button. This opens a non-editable rubric to help identify
 the criteria staff should use for grading.
 
-fig: A submission with a non-editable rubric shown.
-
 =============
 Start Grading
 =============
@@ -129,8 +113,6 @@ Start Grading
 When staff is ready to grade they can begin grading with the “Start grading” button.
 This will open an editable rubric which enables staff to select the score for a
 submission and provide comments. 
-
-fig: In progress grading a submission with editable rubric.
 
 The “Start grading” button will also “claim” the current submission for grading. This
 gives the staff member exclusive access to submit a grade for this submission, helping
@@ -146,8 +128,6 @@ options for each criteria and provide any required feedback before clicking “S
 grade” to submit their grade. Alternatively, if the staff member no longer wishes to
 grade this response they can click the “Stop grading this response” button that now
 appears at the top of the page.
-
-fig: The “stop grading this response” confirm modal.
 
 =====================================
 Navigate Between Selected Submissions
