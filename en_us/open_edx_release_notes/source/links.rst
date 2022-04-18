@@ -41,6 +41,12 @@
 
 .. Maple doc links:
 
+.. _Installing, Configuring, and Running the Open edX Platform\: Maple Release: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/open-release-maple.master
+
+.. _Building and Running an Open edX Course\: Maple Release: http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-maple.master
+
+.. _Open edX Learner's Guide\: Maple Release: http://edx.readthedocs.io/projects/open-edx-learner-guide/en/open-release-maple.master
+
 .. _Tutor: https://docs.tutor.overhang.io/
 
 .. _Studio OAuth migration runbook: https://github.com/edx/edx-platform/blob/open-release/maple.master/docs/guides/studio_oauth.rst
@@ -78,14 +84,6 @@
 .. _certificate availability date: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/studio_add_course_information/studio_creating_certificates.html#specify-a-different-certificates-available-date
 
 .. _fake the migration: https://docs.djangoproject.com/en/2.2/ref/django-admin/#cmdoption-migrate-fake
-
-.. Ginkgo doc links:
-
-.. _Installing, Configuring, and Running the Open edX Platform\: Ginkgo Release: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/open-release-ginkgo.master
-
-.. _Building and Running an Open edX Course\: Ginkgo Release: http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-ginkgo.master
-
-.. _Open edX Learner's Guide\: Ginkgo Release: http://edx.readthedocs.io/projects/open-edx-learner-guide/en/open-release-ginkgo.master
 
 
 .. Ficus doc links
