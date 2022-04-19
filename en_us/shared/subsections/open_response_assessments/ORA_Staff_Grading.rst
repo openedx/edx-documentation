@@ -161,3 +161,11 @@ workflow for submitting a grade override is similar to submitting an initial gra
 select the appropriate rubric options and provide feedback before clicking "Submit
 override". A modal will ask to confirm if this is the intended action before overriding
 the grade.
+
+*************************
+Exit the Application
+*************************
+
+When done grading this set of responses, staff can return to the submission list view
+by clicking the X at the top right of the application bar. **This will also release the
+grading claim on any submissions the staff member currently has open, but ungraded.**
