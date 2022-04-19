@@ -16,7 +16,7 @@ charset-normalizer==2.0.10
     # via requests
 click==8.0.4
     # via sphinx-intl
-docutils==0.16
+docutils==0.17.1
     # via
     #   -c requirements/common_constraints.txt
     #   sphinx
@@ -58,7 +58,7 @@ smmap==5.0.0
     # via gitdb
 snowballstemmer==2.2.0
     # via sphinx
-sphinx==4.4.0
+sphinx==4.5.0
     # via
     #   -r requirements/base.in
     #   edx-sphinx-theme

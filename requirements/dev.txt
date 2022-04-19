@@ -26,7 +26,7 @@ click==8.0.4
     #   -r requirements/base.txt
     #   pip-tools
     #   sphinx-intl
-docutils==0.16
+docutils==0.17.1
     # via
     #   -r requirements/base.txt
     #   sphinx
@@ -102,7 +102,7 @@ snowballstemmer==2.2.0
     # via
     #   -r requirements/base.txt
     #   sphinx
-sphinx==4.4.0
+sphinx==4.5.0
     # via
     #   -r requirements/base.txt
     #   edx-sphinx-theme
