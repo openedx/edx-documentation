@@ -6,26 +6,6 @@ Course Live
 
 You can add live video conferencing providers like zoom-lti-pro to your course via the course authoring app.
 
-By default PII sharing is not enable for a course. edX's Live configuration interface in
-course authoring app shows the following message.
-
-.. note::
-    This configuration will
-    require sharing usernames and emails of learners and the course team with {provider}.
-    To access the LTI configuration for {provider}, please request your edX project coordinator
-    to get PII sharing enabled for this course.
-
-**************************
-Allow PII sharing
-**************************
-
-To allow PII sharing for a course user should have access to this model https://example.com/admin/lti_consumer/courseallowpiisharinginltiflag
-In the model mentioned above, you can add a course ID for which you would like to enable PII sharing.
-
-.. image:: ../../../shared/images/course_live_pii.png
-
-the PC enables PII for the course(s) under consideration and informs the partner.
-Once PII sharing has been enabled, the partner will be able to see and add LTI configurations for the provider.
 
 **********************
 Zoom Credentials
