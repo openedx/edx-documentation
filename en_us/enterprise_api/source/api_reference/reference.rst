@@ -781,32 +781,36 @@ request returns the following data.
    * - Field
      - Data Type
      - Description
-   * - ``consent_granted``
+   * - ``is_consent_granted``
      - boolean
-     - Whether the learner has consented to share their course data with the
-       enterprise.
+     - Whether the learner has granted consent for edX to share information about their course enrollment and progress with the enterprise.
+   * - ``amount_learner_paid``
+     - decimal
+     - The amount the learner paid towards the enrollment, if any.
+   * - ``contract_id``
+     - string
+     - A unique identifier for the contract that this enrollment is associated with.
    * - ``coupon_code``
      - string
-     - The enrollment code string used by the learner to enroll in their course. (Not applicable to Subscriptions or
-       Offers)
+     - The enrollment code string used by the learner to enroll in their course. (Not applicable for Subscriptions or Offers).
    * - ``coupon_name``
      - string
-     - The name of the enrollment code batch used by the learner to enroll in their course. (Not applicable to 
-       Subscriptions or Offers)
+     - The name of the enrollment code batch used by the learner to enroll in their course. (Not applicable for Subscriptions or Offers).
    * - ``course_api_url``
      - string
      - The complete url for the course when using the edX API Retrieve Course Metadata endpoint.
-   * - ``course_duration_weeks``
+   * - ``course_duration``
      - integer
-     - The course duration in weeks.
+     - The duration in weeks, for instructor-paced courses, or the expected duration for self-paced courses.
    * - ``course_end``
      - date
-     - The date the course ends, in YYYY-MM-DD format. This is the last date on
-       which learners can submit answers or assessments, or otherwise be credited
-       with completion of a course subsection.
-   * - ``course_id``
+     - The date the course ends, in YYYY-MM-DD format. This is the last date on which learners can submit answers or assessments, or otherwise be credited with completion of a course subsection.
+   * - ``course_key``
      - string
-     - A unique identifier for the course.
+     - The unique identifier for the overall course.  
+   * - ``course_list_price``
+     - decimal
+     -  The original price of the course, before any discount were applied.
    * - ``course_max_effort``
      - integer
      - The estimated maximum effort required by the course, in hours per week.
@@ -814,84 +818,101 @@ request returns the following data.
      - integer
      - The estimated minimum effort required by the course, in hours per week.
    * - ``course_pacing_type``
-     - enum string
-     - Whether the course is self-paced or instructor-paced.
-   * - ``course_price``
      - string
-     - The original price of the course, before any discounts were applied.
+     - Whether the course is self-paced or instructor-paced.
+   * - ``course_primary_program``
+     - string
+     - The primary program a course belongs to. (Not applicable to courses that aren't part of a program).
+   * - ``course_primary_subject``
+     - string
+     - The subject category this course falls under when searching on edX.org.
    * - ``course_start``
      - date
-     - The date when the course begins, in YYYY-MM-DD format. This is the date
-       when course content is available for learners to interact with. In most
-       cases, learners can enroll in the course before the ``course_start`` date.
+     - The date when the course begins, in YYYY-MM-DD format. This is the date when course content is available for learners to interact with. In most cases, learners can enroll in the course before the ``course_start`` date.
    * - ``course_title``
      - string
-     - The name of the course.
+     - The title of the edX course.
+   * - ``courserun_key``
+     - string
+     - The unique identifier for the individual courserun.  
+   * - ``created``
+     - timestamp
+     - The date and time the learner progress report was last updated.
    * - ``current_grade``
      - decimal
-     - The learner's current grade, which will update as the learner proceeds through the course. For more information
-       about progress and grading information, please visit: https://support.edx.org/hc/en-us/articles/4402116362519-Why-does-my-Progress-page-look-different-
-   * - ``discount_price``
+     - The learner's current grade, which will update as the learner proceeds through the course.
+   * - ``enrollment_date``
+     - date
+     - The date, YYYY-MM-DD, the learner enrolled in the course.
+   * - ``enrollment_id``
+     - integer
+     - A unique identifier for this enrollment.
+   * - ``enterprise_customer_uuid``
      - string
-     - The discounted price of the course.
-   * - ``enrollment_created_timestamp``
-     - timestamp
-     - The date and time when the learner enrolled in the course.
-   * - ``enterprise_id``
-     - string
-     - A unique identifier for the enterprise.
+     - The enterprise account ID assigned by edX.
+   * - ``enterprise_enrollment_id``
+     - integer
+     - A unique identifier for this enrollment, specific to enterprise enrollments.
    * - ``enterprise_name``
      - string
-     - The name of the enterprise.
-   * - ``enterprise_site_id``
-     - integer
-     - An identifier for the enterprise site.
+     - The enterprise account name.
    * - ``enterprise_sso_uid``
      - string
-     - The learner's user ID in the Enterprise authentication system.
-   * - ``enterprise_user``
+     - The learner’s user ID in the enterprise’s Identity Provider. (Only applicable for customers using Single Sign On).
+   * - ``enterprise_user_id``
      - integer
-     - The learner's user ID.
-   * - ``id``
-     - integer
-     - The enrollment ID.
+     - The learner’s ID assigned by edX.
+   * - ``has_passed``
+     - boolean
+     - Whether or not the learner has passed this course.
+   * - ``is_consent_granted``
+     - boolean
+     - Whether the learner has granted consent for edX to share information about their course enrollment and progress with the enterprise.
+   * - ``is_refunded``
+     - boolean
+     - Whether or not the learner received a refund on their enrollment.
    * - ``last_activity_date``
      - date
-     - The most recent date the learner was active in edX.
-   * - ``letter_grade``
+     - The most recent date, YYYY-MM-DD,the learner was active in an edX.
+   * - ``letter_grade ``
      - string
-     - Blank if the learner progress status is in progress, 'Pass' if the learner has passed the course.
-   * - ``lms_user_id``
-     - integer
-     - The learner's user ID in the edx.org LMS.
-   * - ``offer``
+     - The learner's letter grade, if they have passed the course.
+   * - ``offer_name``
      - string
-     - The offer ID used by the learner to enroll in their course. (Not applicable for Subscriptions, or Codes)
-   * - ``passed_timestamp``
-     - timestamp
-     - The date and time when the learner passed the course. Null if progress status is in progress.
+     - The offer ID used by the learner to enroll in their course. (Not applicable for Subscriptions or Codes).
+   * - ``offer_type``
+     - string
+     - The offer type and discount percentage used by the learner to enroll in their course. (Not applicable for Subscriptions or Codes).
+   * - ``paid_by``
+     - string
+     - Whether the enrollment was paid for by the enterprise, the learner, or a third party.
+   * - ``passed_date``
+     - date
+     - The date, YYYY-MM-DD, the learner passed the course.
    * - ``progress_status``
-     - enum string
-     - The current status of the learner in the course. Possible values are: Failed, In Progress, Passed.
-   * - ``unenrollment_end_within_date``
-     - boolean
-     - True if the learner has unenrolled from the course.  
-   * - ``unenrollment_timestamp``
-     - timestamp
-     - The date the learner unenrolled from the course.
-   * - ``user_account_creation_timestamp``
-     - timestamp
-     - The date and time when the learner's account was created in the edx.org
-       LMS.
-   * - ``user_country_code``
      - string
-     - A two-letter country code. 
+     - Whether the learner is still working on the course, has passed, or has failed.  Possible values are: Failed, In Progress, Passed.
+   * - ``seat_delivery_method``
+     - string
+     - The type of subsidy used by the learner to enroll in their course.
+   * - ``unenrollment_date``
+     - date
+     - The date,YYYY-MM-DD, the learner unenrolled from the course.
+   * - ``unenrollment_end_within_date``
+     - date
+     - The date ,YYYY-MM-DD, the learner must unenroll by, in order to receive a refund on the enrollment. This date is traditionally 14 days from the enrollment date or the course start date, whichever is later.
+   * - ``user_account_creation_date``
+     - timestamp
+     - The date and time when the learner’s account was created in the edx.org LMS.
+   * - ``user_country``
+     - string
+     - A two-letter country code.
    * - ``user_current_enrollment_mode``
      - string
-     - The learner's current enrollment mode in the course.
+     - The learner’s current enrollment mode in the course.
    * - ``user_email``
      - string
-     - The learner's email address.
+     - The learner’s email address.
    * - ``user_username``
      - string
-     - The learner's username on edx.org.
+     - The learner’s username on edx.org.
