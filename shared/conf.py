@@ -4,7 +4,12 @@ import datetime
 import os
 import sys
 import urllib
+<<<<<<< HEAD
 from pathlib import Path
+=======
+
+# import edx_theme
+>>>>>>> 635f955b (Update conf.py)
 
 # What release line is this?  Use "master" for master, and the release name
 # on release branches.  Zebrawood should have "zebrawood".
@@ -37,6 +42,10 @@ pygments_style = 'sphinx'
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
+<<<<<<< HEAD
+=======
+#   'edx_theme',
+>>>>>>> 635f955b (Update conf.py)
     'sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
@@ -66,6 +75,7 @@ if on_rtd:
     html_context["github_base_account"] = 'edx'
     html_context["github_project"] = 'edx-documentation'
 
+<<<<<<< HEAD
 html_theme = 'sphinx_book_theme'
 path_to_docs = '/'.join(Path.cwd().parts[-3:])
 
@@ -106,6 +116,16 @@ html_theme_options['navigation_depth'] = 3
 
 html_logo = "https://logos.openedx.org/open-edx-logo-color.png"
 html_favicon = "https://logos.openedx.org/open-edx-favicon.ico"
+=======
+html_theme = 'sphinx_rtd_theme'
+
+html_theme_path = '/default.css'
+
+html_theme_options = {}
+html_theme_options['navigation_depth'] = 3
+
+# html_favicon = os.path.join(edx_theme.get_html_theme_path(), 'edx_theme', 'static', 'css', 'favicon.ico')
+>>>>>>> 635f955b (Update conf.py)
 
 # Help and Feedback links.  These are customized for the category and audience
 # of the book.  Add a line to the book's conf.py like this:
