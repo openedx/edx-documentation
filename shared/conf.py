@@ -5,7 +5,7 @@ import os
 import sys
 import urllib
 
-import edx_theme
+# import edx_theme
 
 # What release line is this?  Use "master" for master, and the release name
 # on release branches.  Zebrawood should have "zebrawood".
@@ -38,7 +38,7 @@ pygments_style = 'sphinx'
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
-    'edx_theme',
+#   'edx_theme',
     'sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
@@ -67,14 +67,14 @@ if on_rtd:
     html_context["github_base_account"] = 'edx'
     html_context["github_project"] = 'edx-documentation'
 
-html_theme = 'edx_theme'
+html_theme = 'sphinx_rtd_theme'
 
-html_theme_path = [edx_theme.get_html_theme_path()]
+html_theme_path = '/default.css'
 
 html_theme_options = {}
 html_theme_options['navigation_depth'] = 3
 
-html_favicon = os.path.join(edx_theme.get_html_theme_path(), 'edx_theme', 'static', 'css', 'favicon.ico')
+# html_favicon = os.path.join(edx_theme.get_html_theme_path(), 'edx_theme', 'static', 'css', 'favicon.ico')
 
 # Help and Feedback links.  These are customized for the category and audience
 # of the book.  Add a line to the book's conf.py like this:
