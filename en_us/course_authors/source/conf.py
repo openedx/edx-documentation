@@ -6,7 +6,7 @@ sys.path.append('../../../')
 from shared.conf import *
 from shared.edxconf import *
 
-project = u'Building and Running an edX Course'
+project = u'Building and Running an MITx Online Course'
 
 tags.add('Partners')
 set_audience(PARTNER, COURSE_TEAMS)
