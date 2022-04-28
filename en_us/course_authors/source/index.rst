@@ -14,8 +14,6 @@ Building and Running an MITx Online Course
    :maxdepth: 2
 
    release_notes/index
-  # front_matter/index
-  # getting_started/index
    CA_dashboard_profile_SectionHead
    reaching_learners/index
    accessibility/index
