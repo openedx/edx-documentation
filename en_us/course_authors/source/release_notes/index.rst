@@ -1,4 +1,12 @@
+.. _Release Notes:
+
+#############################
+Release Notes
+#############################
+
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    release_notes
+
+
