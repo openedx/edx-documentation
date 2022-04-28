@@ -1,4 +1,4 @@
 .. toctree::
    :maxdepth: 2
 
-   realease_notes
+   release_notes
