@@ -6,7 +6,7 @@
 .. _document index:
 
 ##################################
-Building and Running an edX Course
+Building and Running an MITx Online Course
 ##################################
 
 .. toctree::
