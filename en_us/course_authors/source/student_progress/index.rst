@@ -13,5 +13,4 @@ managing learners' answers and grades in your course.
    course_student
    course_answers
    course_grades
-   certificate_data
    checking_student_progress
