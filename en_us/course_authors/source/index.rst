@@ -31,3 +31,4 @@ Building and Running an MITx Online Course
    managing_notifications/index
    student_progress/index
    rerun_course/index
+   xml_authoring/index
