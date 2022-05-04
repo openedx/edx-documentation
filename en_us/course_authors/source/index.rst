@@ -30,3 +30,4 @@ Building and Running an MITx Online Course
    manage_discussions/index
    student_progress/index
    rerun_course/index
+   xml_authoring/index
