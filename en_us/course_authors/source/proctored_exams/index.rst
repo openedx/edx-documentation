@@ -13,8 +13,6 @@ online proctoring software.
 
    overview
    proctored_enabling
-   rpnow_create
-   rpnow_results
    pt_create
    pt_results
    proctored_managing
