@@ -15,7 +15,6 @@ Building and Running an MITx Online Course
 
    release_notes/index
    CA_dashboard_profile_SectionHead
-   reaching_learners/index
    accessibility/index
    set_up_course/index
    developing_course/index
@@ -31,4 +30,3 @@ Building and Running an MITx Online Course
    manage_discussions/index
    student_progress/index
    rerun_course/index
-   glossary
