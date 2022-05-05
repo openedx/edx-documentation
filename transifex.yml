@@ -1,7 +1,7 @@
 git:
   filters:
     - filter_type: dir
-      file_format: PO
+      file_format: POT
       source_file_dir: en_us/open_edx_students/locales/pot/
       source_file_extension: POT
       source_language: en
