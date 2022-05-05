@@ -1,8 +1,8 @@
-filters:
-  - filter_type: dir
-    source_file_dir: en_us/open_edx_students/locales/pot/
-    source_file_extension: POT
-    file_format: PO
-    source_language: en
-    translation_files_expression: en_us/open_edx_students/locales/<lang>/LC_MESSAGES/
-    pr_branch_name:
+git:
+  filters:
+    - filter_type: dir
+      file_format: PO
+      source_file_dir: en_us/open_edx_students/locales/pot/
+      source_file_extension: POT
+      source_language: en
+      translation_files_expression: en_us/open_edx_students/locales/<lang>/LC_MESSAGES/
