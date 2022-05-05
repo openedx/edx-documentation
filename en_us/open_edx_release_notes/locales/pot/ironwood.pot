@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Open edX Release Notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open edX Release Notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/ironwood.rst:5
+msgid "Open edX Ironwood Release"
+msgstr ""
+
+#: ../../source/ironwood.rst:7
+msgid "This page lists the highlights of the Ironwood release of the Open edX platform."
+msgstr ""
+
+#: ../../source/ironwood.rst:25
+msgid "Authoring Experience Updates"
+msgstr ""
+
+#: ../../source/ironwood.rst:28
+msgid "Studio Login via the LMS"
+msgstr ""
+
+#: ../../source/ironwood.rst:30
+msgid "Now logging in to Studio is done by redirecting the user to the LMS to log in, and then redirecting back to Studio.  This can be disabled by site operators using the new DISABLE_STUDIO_SSO_OVER_LMS feature flag."
+msgstr ""
+
+#: ../../source/ironwood.rst:35
+msgid "Course Launch & Best Practices Checklist"
+msgstr ""
+
+#: ../../source/ironwood.rst:37
+msgid "We have reintroduced the Studio checklist feature from 2014 to help automatically track important course launch steps. Previously this was a manual checklist feature that we stopped using in 2015, but with this update the feature is live once again and it automatically detects completion status for authors. In addition to basic launch requirements such as ensuring a certificate is enabled for a course and course dates have been set, we have also included a best practices checklist. These checklists are summarized on the course outline showing the current number of items successfully completed out of the total remaining. In addition to this, certain checklist items such as the assignment deadline validator will list out the instances in the course where the checklist rule is not met. Assignments with deadlines that do not fall between the course start and end date are automatically flagged and listed."
+msgstr ""
+
+#: ../../source/ironwood.rst:53
+msgid "Video Status Indicators"
+msgstr ""
+
+#: ../../source/ironwood.rst:55
+msgid "For Open edX instances using the video uploads page, this view now conveys the status of each video as it relates to its transcoding (through edx-VEDA) and transcription (3rd party configuration). The status column is listed in the Previous Uploads table. More details around the status messages are `available in our documentation`__."
+msgstr ""
+
+#: ../../source/ironwood.rst:64
+msgid "Gradebook Application"
+msgstr ""
+
+#: ../../source/ironwood.rst:66
+msgid "The gradebook will give you a central location where you can view and manage grades for all learners in a course. It will provide you with improved search which you can use to find specific learners and override assignment-specific grades. In addition, you can filter by cohort, track, or assignment type."
+msgstr ""
+
+#: ../../source/ironwood.rst:71
+msgid "You can read more about this in the documentation for the `Gradebook Application`__."
+msgstr ""
+
+#: ../../source/ironwood.rst:75
+msgid "This application is available in devstack, but is not yet supported in production installations."
+msgstr ""
+
+#: ../../source/ironwood.rst:80
+msgid "Learner Data for a Specific Problem"
+msgstr ""
+
+#: ../../source/ironwood.rst:82
+msgid "Thanks to the Open edX community, the downloadable Student State report received readability enhancements and now contains new columns for single problems or for all problems in a unit, subsection, or section, as well as for all problems in the course."
+msgstr ""
+
+#: ../../source/ironwood.rst:90
+msgid "Learner Experience Updates"
+msgstr ""
+
+#: ../../source/ironwood.rst:93
+msgid "Transferrable Learner Records"
+msgstr ""
+
+#: ../../source/ironwood.rst:95
+msgid "The credentials service which previously powered program certificates now also supports learner program records. Where certificates function as a sharable digital credential analogous to a wall display of a diploma, the learner record is a credential representation that is digitally similar to a transcript. Program record views include grading details and other information which can then be shared or sent to specific institutions. The learner record sending feature is configured with the help of the discovery service, by adding pathways that are associated with one or more programs. An example of a credit pathway is a full degree program that is associated with a program (ex: By completing the MIT Supply Chain MicroMasters Program, you can apply and transfer credit into MIT’s campus Supply Chain Masters Degree program if admitted.) While we do not yet have course records or full learner history records, we are excited about the potential this work opens up for learners looking to transfer or share their valuable credentials to employer and credit pathways."
+msgstr ""
+
+#: ../../source/ironwood.rst:112
+msgid "Password Complexity Requirements"
+msgstr ""
+
+#: ../../source/ironwood.rst:114
+msgid "We have updated the syntax for setting password complexity of your instance. We also added some default checks to ensure that your password isn't trivial. You can now also provide your own password validator plugin if you have custom rules or logic for password complexity."
+msgstr ""
+
+#: ../../source/ironwood.rst:121
+msgid "Expanded Language Support for course experience"
+msgstr ""
+
+#: ../../source/ironwood.rst:123
+msgid "We have added support for beta languages on the platform. These languages become a selectable option in the account settings dropdown alongside fully supported languages. If a learner selects a beta language, they are shown a message letting them know support for this language is partial and makes it easy to revert their language or head over to transifex to help translate the platform into that language as a member of that language team."
+msgstr ""
+
+#: ../../source/ironwood.rst:132
+msgid "Anonymous Course Content Access"
+msgstr ""
+
+#: ../../source/ironwood.rst:134
+msgid "This feature enables learners to preview course content without necessarily being logged into a given learning environment. It was implemented by adding a setting to the platform that lets course authors adjust the visibility of course content in the LMS.  Three different options are supported: private, public outline, or public."
+msgstr ""
+
+#: ../../source/ironwood.rst:140
+msgid "Private (default, same as today)"
+msgstr ""
+
+#: ../../source/ironwood.rst:141
+msgid "Public Outline (redirects learners to the course outline page and shows the outline only)"
+msgstr ""
+
+#: ../../source/ironwood.rst:142
+msgid "Public (lets learners view HTML & Video content in the course, but hides unsupported XBlocks - such as problems and inline discussions)"
+msgstr ""
+
+#: ../../source/ironwood.rst:145
+msgid "Feature Based Enrollments"
+msgstr ""
+
+#: ../../source/ironwood.rst:147
+msgid "Feature Based Enrollments, the basis of edX.org’s new revenue model, is available in Ironwood. FBE allows you to differentiate what features are available to audit learners (free track). With this enabled, audit learners will have access to core course content – videos, reading, discussion forums, supplemental resources, and practice problems for the expected duration of the course. You can configure it such that only verified learners will have access to graded problems and/or have unlimited access to course content after course end. This functionality is defaulted to off at the platform level, and can additionally be configured by course run or organization."
+msgstr ""
+
+#: ../../source/ironwood.rst:160
+msgid "Mobile Application Improvements"
+msgstr ""
+
+#: ../../source/ironwood.rst:162
+msgid "Between Hawthorn and Ironwood, the Mobile application releases spanned 2.15 → 2.17.1 The details of these releases are captured in our release documentation for the mobile applications. Included below is a summary of the learner facing and operator facing changes to mobile."
+msgstr ""
+
+#: ../../source/ironwood.rst:168
+msgid "Learner Facing Mobile Changes"
+msgstr ""
+
+#: ../../source/ironwood.rst:170
+msgid "A major experience improvement to landscape and rotation support arrived in version 2.15. This was a key driver of lower ratings and reviews for our applications as many of our mobile learners use tablets, in particular iPad devices. For mobile applications using web course discovery, we have added a way to add native cards that let users jump to a specific course discovery view. On edX.org’s mobile applications we used this to expose popular subjects in the mobile course discovery experience."
+msgstr ""
+
+#: ../../source/ironwood.rst:178
+msgid "Another improvement, delivered in version 2.16, was the introduction of programs through new program fragment views of the web edX platform pages. This new area enables learners to view their program dashboard and program progress pages, just as they do on the web browser experience."
+msgstr ""
+
+#: ../../source/ironwood.rst:183
+msgid "With version 2.17 we delivered many accessibility improvements into the mobile applications, including initial support for iOS 11’s recently introduced Dynamic Text Type sizing and scaling. This change means learners who have set their device text size to being larger now have that setting expressed within the open edX mobile application. Additionally, the mobile application now provides clarity into when learners will lose access to a course. More details around this are included in the `Feature Based Enrollments`_ update."
+msgstr ""
+
+#: ../../source/ironwood.rst:192
+msgid "Developer Facing Mobile Changes"
+msgstr ""
+
+#: ../../source/ironwood.rst:194
+msgid "For the iOS code base, we upgraded to support Xcode 10.1, we have updated our Firebase configuration now that Fabric has been deprecated as a service, and we removed the deprecated Parse code that was still in the code base. Additionally, we have mostly completed our deep linking integration with Branch with the v2.17.1 release, though other follow on improvements have merged since Ironwood was released."
+msgstr ""
+
+#: ../../source/ironwood.rst:201
+msgid "For the Android code base, we removed unnecessary permissions that were being requested from the earliest version of our application and implemented run time permissions instead to request permissions such as file storage access when learner’s trigger actions such as uploading a new profile photo. In terms of library upgrades, we updated the Facebook SDK to 4.36.0, upgraded minSdkVersion to KitKat (API Level 19), upgraded gradle and other libraries, updated Fabric and Firebase configurations,  and implemented pull to refresh functionality on the course outline page."
+msgstr ""
+
+#: ../../source/ironwood.rst:212
+msgid "Platform Operator Updates"
+msgstr ""
+
+#: ../../source/ironwood.rst:214
+msgid "Starting in Ironwood, the configuration repo will no longer ship with a default Django secret key for edx-platform.  This means that if you have been deploying with the default insecure secret key, your builds will break.  The change was made so that deployers are forced to make actual secret keys that are not predictable.  If you wish to use the old key still, you can add the following line to your config overrides::"
+msgstr ""
+
+#: ../../source/ironwood.rst:223
+msgid "As part of the work on :jira:`LEARNER-4674`, edX switched from using a custom-built password validator to Django's framework of password validation. This involved creating a new configuration value, ``AUTH_PASSWORD_VALIDATORS``, a list of Django and edX-created validators.  To facilitate code cleanliness, we have removed unnecessary configuration values preferring to specify the values in ``AUTH_PASSWORD_VALIDATORS``. The removed variables are ``PASSWORD_MIN_LENGTH``, ``PASSWORD_MAX_LENGTH``, and ``PASSWORD_COMPLEXITY``. The new values were added in `pull request #4810`_ and the unnecessary values were removed in `#4811`_."
+msgstr ""
+
+#: ../../source/ironwood.rst:237
+msgid "Two new settings files were added to edx-platform with this release, at ``lms/envs/production.py`` and ``cms/envs/production.py``.  These new files replace the existing aws.py settings files.  The aws.py settings files remain, but are deprecated as of Ironwood and will be removed in the next release.  If you are using the configuration repo to set up your environment, it will automatically start using the production.py file with this release without you needing to make any changes."
+msgstr ""
+
+#: ../../source/ironwood.rst:245
+msgid "With the changes in Studio to use LMS for login authentication, LMS and Studio have to be served from cookie-compatible domains. If the Studio domain name is a sub-domain of the LMS domain name, then the ``EDXAPP_SESSION_COOKIE_DOMAIN`` Ansible variable (translates to ``SESSION_COOKIE_DOMAIN`` in lms.env.json) has to be set to '.<LMS domain>'. The Studio domain has to be added to the ``EDXAPP_LOGIN_REDIRECT_WHITELIST`` Ansible variable (``LOGIN_REDIRECT_WHITELIST`` variable in lms.env.json) for the redirect from LMS to Studio after login to work."
+msgstr ""
+
+#: ../../source/ironwood.rst:254
+msgid "We added some new tooling to help us better monitor celery queues.  There is a `new python script`__ that will monitor redis queues and alert if a task has been sitting in the queue for too long."
+msgstr ""
+
+#: ../../source/ironwood.rst:260
+msgid "Abbey.py tooling to build AMIs from Ansible runs of the configuration repo has been removed.  If you wish to run Ansible and then create AMIs from those machines, use the Ansible scripts under the `continuous_delivery`__ folder."
+msgstr ""
+
+#: ../../source/ironwood.rst:266
+msgid "The e-commerce dependencies have been updated to django-oscar 1.5.4. The 1.5.3 release of django-oscar contains a security fix. If you use anonymous checkout, please see the `django-oscar 1.5.3 release notes`__ as you may need to rotate your keys."
+msgstr ""

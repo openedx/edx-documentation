@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Open edX Release Notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open edX Release Notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/birch.rst:3
+msgid "Open edX Birch Release"
+msgstr ""
+
+#: ../../source/birch.rst:5
+msgid "This page lists the highlights of the Birch release."
+msgstr ""
+
+#: ../../source/birch.rst:8
+msgid "With the :ref:`Open edX Cypress Release`, the Birch release is no longer supported. This page remains in these release notes as a record of when new features were included in Open edX."
+msgstr ""
+
+#: ../../source/birch.rst:18
+msgid "Split Mongo Modulestore"
+msgstr ""
+
+#: ../../source/birch.rst:20
+msgid "The edX Platform now supports the **split mongo** modulestore for course data storage. Split mongo refers to the separation of identity, structure, and content, and it enables you to use more advanced capabilities in developing and managing courses. For more information, see the `Open edX Developer's Guide`_."
+msgstr ""
+
+#: ../../source/birch.rst:27
+msgid "Cohorts for Discussions and Content"
+msgstr ""
+
+#: ../../source/birch.rst:29
+msgid "You can now define smaller communities of students within the larger, course- wide community. Learners in a cohort can have private discussions. In addition, you can create different course experiences, including presenting different content, for students in different cohorts."
+msgstr ""
+
+#: ../../source/birch.rst:34
+msgid "For more information, see `Including Student Cohorts`_ in the *Building and Running an Open edX Course* guide."
+msgstr ""
+
+#: ../../source/birch.rst:39
+msgid "Content Libraries and Randomized Content"
+msgstr ""
+
+#: ../../source/birch.rst:41
+msgid "You can now create a content library that contains a pool of components that can be used in randomized assignments."
+msgstr ""
+
+#: ../../source/birch.rst:44
+msgid "For more information, see `Working with Content Libraries`_ in the *Building and Running an Open edX Course* guide."
+msgstr ""
+
+#: ../../source/birch.rst:49
+msgid "Prerequisite Courses"
+msgstr ""
+
+#: ../../source/birch.rst:51
+msgid "You can now require that students pass a specific course before they enroll in your course."
+msgstr ""
+
+#: ../../source/birch.rst:54
+msgid "For more information, see `Specify Prerequisite Courses`_ in the *Building and Running an Open edX Course* guide."
+msgstr ""
+
+#: ../../source/birch.rst:59
+msgid "Entrance Exams"
+msgstr ""
+
+#: ../../source/birch.rst:61
+msgid "You can now require that students pass an entrance exam before they access your course materials."
+msgstr ""
+
+#: ../../source/birch.rst:63
+msgid "For more information, see `Require an Entrance Exam`_ in the *Building and Running an Open edX Course* guide."
+msgstr ""
+
+#: ../../source/birch.rst:68
+msgid "Student Notes"
+msgstr ""
+
+#: ../../source/birch.rst:70
+msgid "A learner can highlight text and make notes while progressing through a course. The learner can then review his notes in the body of the course or on a separate Notes tab."
+msgstr ""
+
+#: ../../source/birch.rst:74
+msgid "For more information, see `Student Notes Tool`_ in the *Building and Running an Open edX Course* guide."
+msgstr ""
+
+#: ../../source/birch.rst:79
+msgid "Course Reruns"
+msgstr ""
+
+#: ../../source/birch.rst:81
+msgid "You can create a new course easily by re-running an existing course. When you re-run a course, most, but not all, of the original course content is copied into the new course."
+msgstr ""
+
+#: ../../source/birch.rst:85
+msgid "For more information, see `Rerunning a Course`_ in the *Building and Running an Open edX Course* guide."
+msgstr ""
+
+#: ../../source/birch.rst:90
+msgid "Google Calendar and Google Drive Components"
+msgstr ""
+
+#: ../../source/birch.rst:92
+msgid "You can embed Google calendars and Google Drive files in your course. Learners see the calendar or file directly in the courseware. Learners can also interact with Google Forms files, completing forms or surveys."
+msgstr ""
+
+#: ../../source/birch.rst:96
+msgid "For more information, see `Google Calendar Tool`_ and `Google Drive Files Tool`_ in the *Building and Running an Open edX Course* guide."
+msgstr ""
+
+#: ../../source/birch.rst:101
+msgid "Support for Graded Problems in Content Experiments"
+msgstr ""
+
+#: ../../source/birch.rst:103
+msgid "Content experiments can now include graded problems."
+msgstr ""
+
+#: ../../source/birch.rst:107
+msgid "REST APIs"
+msgstr ""
+
+#: ../../source/birch.rst:109
+msgid "EdX has built and published documentation for the first versions of several REST APIs:"
+msgstr ""
+
+#: ../../source/birch.rst:112
+msgid "`Mobile API`_"
+msgstr ""
+
+#: ../../source/birch.rst:113
+msgid "`Enrollment API`_"
+msgstr ""
+
+#: ../../source/birch.rst:114
+msgid "`Open edX Data Analytics API`_"
+msgstr ""
+
+#: ../../source/birch.rst:119
+msgid "Other Changes"
+msgstr ""
+
+#: ../../source/birch.rst:121
+msgid "In addition to the new features listed above, the Birch release includes many small changes and bug fixes. See the `edX Release Notes`_ for changes listed after the Aspen release."
+msgstr ""

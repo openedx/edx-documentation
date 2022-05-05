@@ -1,0 +1,3526 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Building and Running an Open edX Course package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Building and Running an Open edX Course \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:5
+msgid "Controlling Content Visibility and Access"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:7
+msgid "As a member of the course team, you must carefully control which content is available to which learners, and when. Visibility settings, together with publishing states, are used to hide content from learners while still allowing course staff to view it. Access settings are used to specify which learner groups can access particular components or units."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:13
+msgid "You can control content visibility and access using the following Studio features."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:22
+msgid "You can also configure Open edX so that courses or course outlines are visible to anyone, not just registered and enrolled learners. For information, see :ref:`installation:Enable Public Course Content`."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:31
+msgid "Release Dates"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:33
+msgid "In instructor-paced courses, you can specify release dates and times for sections and subsections. By defining release dates, you ensure that course content is available to learners on a planned schedule, without requiring manual intervention while the course is running."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:38
+msgid "Self-paced courses do not have release dates for sections and subsections. For more information about instructor-paced and self-paced courses, see :ref:`Setting Course Pacing`."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:42
+msgid "By default, a subsection inherits the release date and time of the section it is in. You can change the release date of the subsection to another date."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:45
+msgid "Published units are not visible to learners until the scheduled release date and time. When the section and subsection have different release schedules, published units are not visible until both dates have passed."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:49
+msgid "Course team members can access content that has not been released by :ref:`previewing the course <Preview Unpublished Content>`."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:53
+msgid "When you set release times in Studio, times are in Coordinated Universal Time (UTC). You might want to verify that you have specified the times that you intend by using a time zone converter such as `Time and Date Time Zone Converter <https://www.timeanddate.com/worldclock/converter.html>`_."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:58
+#: ../../../shared/developing_course/course_subsections.rst:62
+#: ../../../shared/developing_course/course_subsections.rst:235
+#: ../../../shared/developing_course/course_subsections.rst:281
+msgid "Learners who have specified a time zone in their account settings see course dates and times converted to their specified time zone. Learners who have not specified a time zone in their account settings see course dates and times on their dashboards, in the body of the course, and on their **Progress** pages in the time zone that their browsers specify. Learners see other course dates and times in UTC."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:65
+msgid "For more information about setting release dates in an instructor-paced course, see the following topics."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:68
+#: ../../../shared/developing_course/course_outline.rst:149
+msgid ":ref:`Set a Section Release Date`"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:69
+#: ../../../shared/developing_course/course_outline.rst:151
+msgid ":ref:`Set a Subsection Release Date`"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:73
+msgid "Unit Publishing Status"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:75
+msgid "You publish units to make them visible to learners. In both instructor-paced and self-paced courses, units must be published to be visible to learners. Learners see the last published version of a unit if the section and subsection it is in are released."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:80
+msgid "Learners do not see units that have never been published, and they do not see unpublished changes to units or components within units. Therefore, you can make changes to units in released subsections without disrupting the learner experience."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:85
+msgid "For more information, see :ref:`Unit Publishing Status`."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:87
+msgid "You can publish all changes in a section or subsection at once, or publish changes to individual units. For more information about publishing units, see the following topics."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:91
+#: ../../../shared/developing_course/course_outline.rst:191
+msgid ":ref:`Publish all Units in a Section`"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:92
+#: ../../../shared/developing_course/course_outline.rst:192
+msgid ":ref:`Publish all Units in a Subsection`"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:93
+#: ../../../shared/developing_course/course_outline.rst:193
+msgid ":ref:`Publish a Unit`"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:100
+msgid "Visibility Settings"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:102
+msgid "You can use the visibility controls in Studio to hide content from learners in both instructor-paced and self-paced courses."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:105
+msgid "You might choose to hide a unit from learners, for example, when that unit contains an answer to a problem in another unit in the same subsection. After the problem's due date, you can make the unit that contains the answer visible. You might also permanently hide a unit from learners if that unit provides instructions or guidance that is intended only for the course team. Only course team members would see that unit in the course."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:112
+msgid "Content that is hidden by being excluded from the course outline is never available to learners, regardless of the release and publishing status."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:116
+msgid "Content that you make \"invisible\" to learners by excluding it from the course outline is also excluded from grading. As a best practice, do not hide sections, subsections, or units that contain graded content by excluding them from the course outline."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:121
+msgid "Instead, if you want to prevent learners from accessing graded content at certain times, you can use options to hide content based on due date or course end date. For more information, see :ref:`Hiding Graded Content` and :ref:`Hide a Subsection After its Due Date`."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:126
+msgid "You can hide content at different levels, as described in the following topics."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:128
+#: ../../../shared/developing_course/course_outline.rst:150
+msgid ":ref:`Hide a Section from Students`"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:129
+#: ../../../shared/developing_course/course_outline.rst:153
+msgid ":ref:`Hide a Subsection from Students`"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:130
+#: ../../../shared/developing_course/course_outline.rst:154
+msgid ":ref:`Hide a Unit from Students`"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:131
+msgid ":ref:`Problem Results Visibility`"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:134
+msgid "Units and subsections inherit visibility settings from their parent subsections or sections. Be aware that when you make a previously hidden section or subsection visible to learners, all child subsections or units also become visible, unless you have explicitly hidden the subsection or unit. Subsections or units that are explicitly hidden remain hidden even when you change the visibility of their parent section or subsection."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:145
+msgid "Hiding Graded Content"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:147
+msgid "Grading is affected if you hide sections, subsections, or units that contain graded problems in such a way that they are not included in the course navigation. When the platform performs grading for a learner, the grading process does not include problems that are not included in that learner's course outline."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:153
+msgid "If you want the problems in the subsection to remain visible, but you want to hide learners' results for these problems, see :ref:`Problem Results Visibility`."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:157
+msgid "As a best practice, do not hide graded sections, subsections, or units by excluding them from the course outline. Content that is hidden in this way is not included when the platform performs grading for learners."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:161
+msgid "Instead, if you want to prevent learners from accessing the content of a subsection while the subsection itself remains visible in the course navigation, you can use the option to hide a subsection or timed exam's content based on date. In instructor-led courses, you can hide a subsection based on its due date. In self-paced courses, you can hide a subsection based on the course's end date. For more details, see :ref:`Hide a Subsection After its Due Date`."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:174
+msgid "Access Settings"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:176
+msgid "In the course outline in Studio, you can use access settings to specify which learner groups can access particular components or units. You can restrict access based on one group type, such as :ref:`content group<About Content Groups>` or :ref:`enrollment track<enrollment_track_g>`."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:181
+msgid "For example, if you have cohorts enabled in your course, you can use content groups to give access to particular components or units in your course only to learners in specific cohorts. If your course has more than one enrollment track, you might provide the same practice assignments to all learners yet provide learners in the certificate track with different exams from non- certificate learners."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:189
+msgid ":ref:`Modify access settings for a unit<Set Access Restrictions For a Unit>`"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:191
+msgid ":ref:`Modify access settings for a component<Set Access Restrictions For a Component>`"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:194
+msgid "For information about creating differentiated content based on cohorts, see :ref:`Cohorted Courseware Overview`."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:197
+msgid "For information about creating differentiated content based on enrollment track, see :ref:`Enrollment Track Specific Courseware Overview`."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:205
+msgid "Prerequisite Course Subsections"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:207
+msgid "You can lock subsections of your course until learners complete other, prerequisite subsections. If a subsection has a prerequisite, it is displayed in the course outline with a lock icon, and learners cannot view the subsection content until they have earned a minimum score in the prerequisite subsection."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:213
+msgid "You must first :ref:`Enable Course Prerequisites` before prerequisite course subsections can be used."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:220
+msgid "Enable Subsection Prerequisites"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:222
+msgid "To enable prerequisite subsections in a course, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:224
+msgid "From the **Settings** menu, select **Advanced Settings**."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:226
+msgid "In the **Enable Subsection Prerequisites** field, enter ``true``."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:228
+msgid "Select **Save Changes**."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:234
+msgid "Create a Prerequisite Subsection"
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:236
+msgid "To prevent learners from seeing a subsection of your course until they have earned a minimum score or completed a minimum portion in a prerequisite subsection, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:241
+msgid "Make sure that you configure subsection prerequisites in the order that you intend for learners to encounter them in the course content. The prerequisite configuration controls do not prevent you from creating a circular chain of prerequisites that will permanently hide them from learners."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:248
+msgid "You cannot use :ref:`open response assessments<Open Response Assessments Two>` that have a point value of 0 as the prerequisite for other course subsections."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:252
+msgid "Enable subsection prerequisites for your course. For more information, see :ref:`enabling_subsection_gating`."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:255
+msgid "Select the **Configure** icon for the subsection that must be completed first. This is the prerequisite subsection."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:0
+msgid "A subsection in the course outline with the configure icon\n"
+"indicated."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:263
+msgid "Select the **Advanced** tab."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:265
+msgid "Under **Use as a Prerequisite**, select **Make this subsection available as a prerequisite to other content**."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:268
+#: ../../../shared/developing_course/controlling_content_visibility.rst:305
+#: ../../../shared/developing_course/course_components.rst:118
+#: ../../../shared/developing_course/course_components.rst:172
+#: ../../../shared/developing_course/course_sections.rst:180
+#: ../../../shared/developing_course/course_sections.rst:311
+#: ../../../shared/developing_course/course_sections.rst:385
+#: ../../../shared/developing_course/course_subsections.rst:242
+#: ../../../shared/developing_course/course_subsections.rst:291
+#: ../../../shared/developing_course/course_subsections.rst:362
+#: ../../../shared/developing_course/course_subsections.rst:435
+#: ../../../shared/developing_course/course_subsections.rst:483
+#: ../../../shared/developing_course/course_units.rst:448
+#: ../../../shared/developing_course/course_units.rst:611
+msgid "Select **Save**."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:270
+msgid "Select the **Configure** icon for the subsection that will be hidden until the prerequisite is met."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:273
+msgid "Select the **Advanced** tab, and then locate the **Limit Access** section."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:275
+msgid "In the **Prerequisite** list, select the name of the subsection you want to specify as the prerequisite."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:0
+msgid "The Limit Access section in the Advanced settings, showing the\n"
+"Prerequisite, Minimum Score, and Minimum Completion Percentage\n"
+"controls."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:283
+msgid "To require that learners achieve a minimum score in the prerequisite subsection before the current subsection opens, enter the percent of the total score that learners must earn in the **Minimum Score** field. If the prerequisite section is not a problem set, set **Minimum Score** to ``0`` and set **Minimum Completion Percentage** to a value greater than zero."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:290
+msgid "For example, if the prerequisite subsection includes four problems and each problem is worth the same number of points, set the **Minimum Score** to ``75`` to require at least three correct answers."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:294
+msgid "To require that learners complete a minimum portion of the prerequisite subsection before the current subsection opens, enter the percent of the prerequisite subsection that learners must complete in the **Minimum Completion Percentage** field."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:299
+msgid "If you set both the **Minimum Score** field and the **Minimum Completion Percentage** field to a value greater than zero, then learners must satisfy both conditions in the prerequisite section before they can view the current subsection. The default value for both the **Minimum Score** field and the **Minimum Completion Percentage** field is ``100``."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:307
+msgid "In the course outline, if a subsection has a prerequisite, the prerequisite name appears under the subsection name."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:0
+msgid "A subsection in the course outline with a prerequsitie indicated."
+msgstr ""
+
+#: ../../../shared/developing_course/controlling_content_visibility.rst:314
+msgid "Prerequisite course subsection settings are not retained when you :ref:`export or import a course<Exporting and Importing a Course>`, or when you :ref:`re-run a course<Rerun a Course>`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:5
+msgid "Developing Course Components"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:7
+msgid "This section describes how you develop course components."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:13
+msgid "For more information about specific component types, see the following topics."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:15
+msgid ":ref:`Course Components Index`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:16
+msgid ":ref:`Exercises and Tools Index`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:22
+msgid "What is a Component?"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:24
+msgid "A component is the part of a unit that contains your actual course content. A unit can contain one or more components."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:27
+msgid "By default, Studio includes four basic types of components for you to add to your course."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:30
+msgid "**Discussion** components provide discussion spaces in the body of your course. Learners can explore ideas about a lesson with their peers in a discussion space."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:33
+msgid "**Text** components allow you to add text, images, and some types of learning tools to your course. Content in Text components is formatted as HTML."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:35
+msgid "**Problem** components enable you to add many different types of exercises and problems to your course, from simple multiple choice problems to complex circuit schematic exercises."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:38
+msgid "**Video** components contain the videos that you want to include in your course."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:45
+msgid "Add a Component"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:47
+msgid "To add a component to the unit, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:49
+msgid "In Studio, open the page for the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:50
+msgid "Under **Add New Component**, select a component type. The default component types are discussion, HTML, problem, and video."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:53
+msgid "For more information, see the documentation for the specific component type that you want to work with."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:56
+#: ../../../shared/developing_course/course_components.rst:392
+msgid ":ref:`Working with Discussion Components`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:57
+#: ../../../shared/developing_course/course_components.rst:393
+msgid ":ref:`Working with Text Components`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:58
+#: ../../../shared/developing_course/course_components.rst:394
+msgid ":ref:`Working with Problem Components`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:59
+#: ../../../shared/developing_course/course_components.rst:395
+msgid ":ref:`Working with Video Components`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:61
+msgid "After you add a component, it is not visible to learners until you :ref:`publish the unit<Publish a Unit>`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:68
+msgid "Edit a Component"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:70
+msgid "To edit a component, you select **Edit** in the component's title bar in Studio."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:None
+msgid "A component with the Edit icon indicated in the toolbar."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:77
+#: ../../../shared/developing_course/course_components.rst:210
+msgid "Then, follow instructions for the type of component you are editing."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:79
+msgid "After you edit a component, the changes are not visible to learners until you :ref:`publish the unit<Publish a Unit>`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:84
+msgid "Set the Display Name for a Component"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:86
+msgid "The display name identifies the component. This name appears as a heading above the component in the LMS, and it identifies the component for you in Insights."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:90
+msgid "The following illustration shows the display name of a problem in Studio, in the LMS, and in Insights."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:None
+msgid "The identifying display name for a problem in Studio, the LMS, and\n"
+"Insights."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:98
+msgid "Unique, descriptive display names help you and your learners identify components quickly and accurately."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:101
+msgid "To set the display name for a component, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:103
+msgid "Edit the component. A dialog box opens."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:105
+msgid "For a discussion or video component, the dialog box opens to the list of settings, including the **Display Name** field."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:108
+msgid "For an HTML or problem component, the dialog box opens to an editing view. Select **Settings** to show the list of settings, including the **Display Name** field."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:112
+msgid "Edit the **Display Name** field."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:0
+msgid "The settings dialog box for a problem component."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:120
+msgid "Different types of components have different fields in the **Settings** dialog box, but all of them have a **Display Name** field."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:128
+msgid "Set Access Restrictions for a Component"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:130
+msgid "If you have more than one enrollment track in your course, or if you have enabled cohorts, you can limit a component's availability to specific groups of learners. For information about offering different content to different learner groups, see :ref:`Offering Differentiated Content`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:135
+msgid "Components inherit any group access restrictions that are set for their parent unit. If you set additional group access restrictions for a component, make sure the component access settings do not contradict the unit access settings. For example, you cannot give Group A of learners access to a component if Group A does not have access to the unit that contains the component."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:142
+msgid "To specify a component's access settings, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:144
+#: ../../../shared/developing_course/course_units.rst:403
+msgid "In Studio, select **Content**, and then select **Outline**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:146
+msgid "On a unit page, for each component for which you want to restrict access to, select the **Access Settings** icon."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:0
+msgid "The access settings icon for a component on a Studio unit page"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:153
+msgid "In the **Editing access** dialog box, for the **Restrict access to** option, select the group type by which you want to restrict access."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:156
+#: ../../../shared/developing_course/course_units.rst:425
+msgid "The **Enrollment Track Groups** option is available only if your course has more than one :ref:`enrollment track<enrollment_track_g>`. The **Content Groups** option is available only if you have created :ref:`content groups<About Content Groups>` for use with cohorts."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:None
+msgid "The access settings dialog for a component, with a dropdown list for\n"
+"selecting the type of learner group you will use for restricting access."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:166
+msgid "After you have selected a group type, you see a list of the groups that exist for that group type."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:169
+msgid "Select the checkbox for each group for which you want the current component to be available."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:174
+msgid "The groups which have access to the component are listed under the component title in the Studio course outline."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:0
+msgid "When a component has restricted access, a message listing the groups\n"
+"which have access to the component appears under the component title in\n"
+"the Studio course outline."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:183
+msgid "In addition, on the unit page in Studio, a message in the publishing status bar indicates that some content in the unit is restricted to specific groups of learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:0
+msgid "When any component in a unit has restricted access, a message\n"
+"appears in the unit's publishing status bar."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:197
+msgid "Duplicate a Component"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:199
+msgid "When you duplicate a component, a new copy of that component is added directly beneath the first component. You can then modify the duplicate. In many cases, duplicating a component and editing the copy is a faster way to create new content."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:204
+msgid "To duplicate a component, select the **Duplicate** icon in the component header."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:None
+msgid "A unit with the Duplicate icon selected and highlighted."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:212
+msgid "After you duplicate a component, the new component is not visible to learners until you :ref:`publish the unit<Publish a Unit>`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:215
+msgid "Duplicating content experiments after you have configured them is not supported."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:223
+msgid "Delete a Component"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:226
+msgid "Be sure you want to delete the component. You cannot undo the deletion."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:228
+msgid "To delete a component, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:230
+msgid "Select the **Delete** icon in the component header."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:None
+msgid "A unit with the Delete icon circled."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:235
+msgid "When you receive the confirmation prompt, select **Yes, delete this component**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:238
+msgid "After you delete a component in Studio, the component remains visible to learners until you :ref:`publish the unit<Publish a Unit>`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:246
+msgid "Reorganizing Components"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:248
+msgid "You can drag and drop components to a new position within their current unit, or you can move components from one unit to another unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:257
+msgid "Reorganize Components Within a Unit"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:259
+msgid "To reorganize components within their current unit, you drag and drop components in the same way that you can drag and drop units, subsections, and sections on the **Course Outline** page. For more information, see :ref:`Reorganize the Course Outline`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:264
+msgid "For components that consist of nested components (for example, a content experiment), you can also use drag and drop to move a child component into a different parent component, if both parents are expanded. For example, you can select the video component that is in Child Component A and drag it into Child Component B. Select the video component, and as you drag it into Child Component B, release the mouse button when a dashed outline of the component you are moving appears in the new location."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:None
+msgid "A child component being dragged to a new location in a different parent\n"
+"component."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:277
+msgid "You can also drag a child component outside of a parent, so that the child moves to the same level as the parent."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:282
+msgid "Move Components to Other Units"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:284
+msgid "To move components to another unit in the course outline, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:286
+msgid "Select the **Move** icon for the component that you want to move."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:None
+msgid "The action icons for components, with the Move icon highlighted."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:291
+msgid "A dialog box appears that displays your course outline tree, starting at the section level."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:294
+msgid "In the **Move** dialog box, navigate to the location where you want to move the component by selecting the section, the subsection, and then the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:None
+msgid "The Move dialog box displays your course outline tree for\n"
+"navigating to the unit that you want to move your component to."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:302
+msgid "The **Move** button is enabled only when your selected location is a valid level and location for moving your component. For example, when you move a component, the **Move** button is enabled only when you have navigated to a unit to which the component can be moved."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:307
+msgid "Select **Move**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:309
+msgid "The component moves to the new location. A success message appears that provides options to go to the new location or to undo the move."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:314
+msgid "If the old and new locations of the component that you moved were previously published, your changes are not reflected in the learner's view of the course until you republish the affected units."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:323
+msgid "Components that Contain Other Components"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:325
+msgid "For specific use cases, you configure course content so that components contain other components. For example, if you want to include conditional components or content experiments, you have to create components inside components. See :ref:`Creating Content Experiments` for more information."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:330
+msgid "The component that contains other components is referred to as the *parent*; the contained components are referred to as child components, or children."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:333
+msgid "On a unit page, a parent component appears with its display name and a **View** link."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:None
+msgid "A unit page with a parent component."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:343
+msgid "Edit a Parent Component"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:345
+msgid "A parent component does not directly contain content. Content such as HTML, videos, or problems are in the child components."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:348
+msgid "A parent component has a display name. When the unit is private or in draft, select **Edit** in the parent component to change the display name."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:352
+msgid "Parent components of a specific type, such as content experiments, have additional attributes that you edit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:358
+msgid "View Child Components"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:360
+msgid "When you select **View** in the parent component, the parent component page opens, showing all child components. In this example, Child Component A contains a Text component and a video."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:None
+msgid "An expanded child component."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:368
+msgid "Select the arrow next to a child component name to collapse it and hide the component's contents. Select the arrow again to expand the component."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:371
+#: ../../../shared/developing_course/course_outline.rst:188
+#: ../../../shared/developing_course/testing_courseware.rst:21
+msgid "For more information, see the following topics."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:373
+msgid "`Edit a Component`_"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:374
+msgid "`Set the Display Name for a Component`_"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:375
+msgid "`Duplicate a Component`_"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:376
+msgid "`Delete a Component`_"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:380
+msgid "Add a Child Component"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:382
+msgid "If the containing unit is private or in draft, you can add a child component in its parent component."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:385
+msgid "To add a child component, open and expand the parent component. Then, select the component type that you want under **Add New Component** within the parent component."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:389
+msgid "For more information, see the section for the specific component type that you want."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:400
+msgid "XML for Parent and Child Components"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:402
+msgid "You develop parent and child components in XML, then import the XML course into Studio to verify that the structure is as you intended."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:405
+msgid "For more information about working with your course's XML files, including information about terminology, see the `EdX Open Learning XML Guide <https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/>`_."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:408
+msgid "The following examples show the XML used to create the unit and components shown in Studio above."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:411
+msgid "The XML for the unit is as follows."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:420
+msgid "The ``<vertical url_name=\"131a499ddaa3474194c1aa2eced34455\"/>`` element above references the parent component file that contains the child components."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:430
+msgid "The two verticals referenced by the parent component refer to the child components, which contain the actual content of your course."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:447
+msgid "Theoretically, there is no limit to the levels of component nesting you can use in your course."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:453
+msgid "The Learner View of Nested Components"
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:455
+msgid "For learners, all parent and child components appear on the unit page."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:458
+msgid "The visibility of nested components depends on the visibility of the parent unit. The parent unit must be public for learners to see nested components. For more information, see :ref:`Unit States and Visibility to Students`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:462
+msgid "The following example shows the learner view of the unit described above."
+msgstr ""
+
+#: ../../../shared/developing_course/course_components.rst:None
+msgid "The learner's view of nested components."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:5
+msgid "Developing Your Course Outline"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:7
+msgid "As you develop your course, you work primarily in the edX Studio course outline. This section includes the following information about working with the course outline."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:15
+msgid "See the following sections for information about working with the course building blocks in the course outline."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:18
+msgid ":ref:`Developing Course Sections`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:19
+msgid ":ref:`Developing Course Subsections`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:20
+msgid ":ref:`Developing Course Units`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:21
+msgid ":ref:`Developing Course Components`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:25
+msgid "Open the Course Outline"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:27
+msgid "To view the course outline, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:29
+msgid "Sign in to edX Studio."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:30
+msgid "On the **My Courses** page, select the course you want to develop."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:32
+msgid "The course outline opens by default when you open a course."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:34
+msgid "To open the outline when you are working in a course, from the **Content** menu, select **Outline**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:37
+msgid "The first time you view an outline for a course, it contains no content. The following message is visible."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:44
+msgid "To add content, you :ref:`create a section<Create a Section>`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:48
+msgid "Understanding a Course Outline"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:50
+msgid "Course authors build a course outline on the **Course Outline** page in Studio. Learners see this course outline in the LMS."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:53
+msgid "To view the course outline in the LMS, go to the **Course Outline** page in Studio, and then select either **Preview** or **View Live**."
+msgstr ""
+
+#: ../../../shared/developing_course/outline_studio_lms.rst:1
+#: ../../../shared/developing_course/outline_studio_lms.rst:1
+#: ../../../shared/developing_course/outline_studio_lms.rst:1
+#: ../../../shared/developing_course/outline_studio_lms.rst:1
+msgid "In the following image, the Studio view of the course outline is on the left. On the right is the view of the course outline in the LMS."
+msgstr ""
+
+#: ../../../shared/developing_course/outline_studio_lms.rst:None
+#: ../../../shared/developing_course/outline_studio_lms.rst:None
+#: ../../../shared/developing_course/outline_studio_lms.rst:None
+#: ../../../shared/developing_course/outline_studio_lms.rst:None
+msgid "Sections, subsections, and units in the course outline in Studio and\n"
+"in the LMS."
+msgstr ""
+
+#: ../../../shared/developing_course/outline_studio_lms.rst:9
+#: ../../../shared/developing_course/outline_studio_lms.rst:9
+#: ../../../shared/developing_course/outline_studio_lms.rst:9
+#: ../../../shared/developing_course/outline_studio_lms.rst:9
+msgid "The numbers represent the following levels."
+msgstr ""
+
+#: ../../../shared/developing_course/outline_studio_lms.rst:11
+#: ../../../shared/developing_course/outline_studio_lms.rst:11
+#: ../../../shared/developing_course/outline_studio_lms.rst:11
+#: ../../../shared/developing_course/outline_studio_lms.rst:11
+msgid ":ref:`Sections<Developing Course Sections>`"
+msgstr ""
+
+#: ../../../shared/developing_course/outline_studio_lms.rst:12
+#: ../../../shared/developing_course/outline_studio_lms.rst:12
+#: ../../../shared/developing_course/outline_studio_lms.rst:12
+#: ../../../shared/developing_course/outline_studio_lms.rst:12
+msgid ":ref:`Subsections<Developing Course Subsections>`"
+msgstr ""
+
+#: ../../../shared/developing_course/outline_studio_lms.rst:13
+#: ../../../shared/developing_course/outline_studio_lms.rst:13
+#: ../../../shared/developing_course/outline_studio_lms.rst:13
+#: ../../../shared/developing_course/outline_studio_lms.rst:13
+msgid ":ref:`Units<Developing Course Units>`"
+msgstr ""
+
+#: ../../../shared/developing_course/outline_studio_lms.rst:16
+#: ../../../shared/developing_course/outline_studio_lms.rst:16
+#: ../../../shared/developing_course/outline_studio_lms.rst:16
+#: ../../../shared/developing_course/outline_studio_lms.rst:16
+msgid "The **Course Outline** page does not show :ref:`components<Developing Course Components>`. You add or access components by selecting the units that contain the components."
+msgstr ""
+
+#: ../../../shared/developing_course/outline_studio_lms.rst:22
+#: ../../../shared/developing_course/outline_studio_lms.rst:22
+#: ../../../shared/developing_course/outline_studio_lms.rst:22
+#: ../../../shared/developing_course/outline_studio_lms.rst:22
+msgid "Course Progress Information"
+msgstr ""
+
+#: ../../../shared/developing_course/outline_studio_lms.rst:24
+#: ../../../shared/developing_course/outline_studio_lms.rst:24
+#: ../../../shared/developing_course/outline_studio_lms.rst:24
+#: ../../../shared/developing_course/outline_studio_lms.rst:24
+msgid "The course outline in the LMS also indicates a learner's progress through the course. A green check mark next to the name of a section, subsection, or unit indicates that a learner has completed all the following actions in the section, subsection, or unit."
+msgstr ""
+
+#: ../../../shared/developing_course/outline_studio_lms.rst:29
+#: ../../../shared/developing_course/outline_studio_lms.rst:29
+#: ../../../shared/developing_course/outline_studio_lms.rst:29
+#: ../../../shared/developing_course/outline_studio_lms.rst:29
+#: ../../../shared/developing_course/course_units.rst:79
+msgid "Viewed all of each video."
+msgstr ""
+
+#: ../../../shared/developing_course/outline_studio_lms.rst:30
+#: ../../../shared/developing_course/outline_studio_lms.rst:30
+#: ../../../shared/developing_course/outline_studio_lms.rst:30
+#: ../../../shared/developing_course/outline_studio_lms.rst:30
+#: ../../../shared/developing_course/course_units.rst:80
+msgid "Submitted answers for all of the problems."
+msgstr ""
+
+#: ../../../shared/developing_course/outline_studio_lms.rst:31
+#: ../../../shared/developing_course/outline_studio_lms.rst:31
+#: ../../../shared/developing_course/outline_studio_lms.rst:31
+#: ../../../shared/developing_course/outline_studio_lms.rst:31
+#: ../../../shared/developing_course/course_units.rst:81
+msgid "Viewed all HTML content for at least five seconds."
+msgstr ""
+
+#: ../../../shared/developing_course/outline_studio_lms.rst:33
+#: ../../../shared/developing_course/outline_studio_lms.rst:33
+#: ../../../shared/developing_course/outline_studio_lms.rst:33
+#: ../../../shared/developing_course/outline_studio_lms.rst:33
+msgid "If a learner selects the **Resume Course** option, the course opens to the unit that the learner most recently completed."
+msgstr ""
+
+#: ../../../shared/developing_course/outline_studio_lms.rst:36
+#: ../../../shared/developing_course/outline_studio_lms.rst:36
+#: ../../../shared/developing_course/outline_studio_lms.rst:36
+#: ../../../shared/developing_course/outline_studio_lms.rst:36
+msgid "For information about more specific learner data, including the learner's grades or answers for individual problems, see :ref:`Manage Student Progress Index`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:62
+msgid "Navigate the Course Outline"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:64
+msgid "In Studio, you navigate the course outline by expanding and collapsing sections and subsections. Use the \"drop-down\" icon next to a section or subsection name to expand or collapse its contents."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:None
+msgid "The outline showing an expanded section and a collapsed subsection, with\n"
+"expand and collapse icons circled."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:73
+msgid "When you expand a subsection, all units in the subsection are visible."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:None
+msgid "The outline showing an expanded subsection."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:79
+msgid "Select the name of a unit to open the :ref:`unit page<Developing Course Units>`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:86
+msgid "Add Content in the Course Outline"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:88
+msgid "You can add content in the course outline by creating a new section, subsection, or unit, or by duplicating an existing unit, subsection, or section."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:92
+msgid "For information about adding content to a unit, see :ref:`Developing Course Components`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:100
+msgid "If you want to require an entrance exam for your course, you also create the exam in the course outline. Before you can create an exam, you must set your course to require an entrance exam in Studio. For more information, see :ref:`Require an Entrance Exam`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:108
+msgid "Adding New Sections, Subsections, or Units"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:110
+msgid "To add a section to the outline, select **New Section**. This option appears at both the top of the page and below the current sections in the outline. For more information, see :ref:`Create a Section`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:114
+msgid "To add a subsection to the end of the section, expand the section and select **New Subsection**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:117
+msgid "To add a unit to the end of a subsection, expand the subsection and select **New Unit**. The :ref:`unit<Developing Course Units>` page opens."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:123
+msgid "Duplicating Existing Sections, Subsections, or Units"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:125
+msgid "To add a section, subsection, or unit by duplicating content that already exists in the course outline, select the **Duplicate** icon for the item that you want to duplicate. You see a **Duplicating** indicator at the bottom of the Studio page."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:130
+msgid "Duplicated items are added to the course outline immediately below the original item, with the name \"Duplicate of <original item name>\"."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:133
+msgid "Duplicated items inherit the release date of the item that they are duplicated from, but you must explicitly publish duplicated subsections and units before they are visible to learners. For more information about release statuses and visibility of sections to learners, see :ref:`Sections and Visibility to Learners`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:144
+msgid "Modify Settings for Objects in the Course Outline"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:146
+msgid "You modify settings for sections, subsections, and units in the course outline. Specifically, you can complete the following tasks."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:152
+msgid ":ref:`Set the Assignment Type and Due Date for a Subsection`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:156
+msgid "To modify settings for a section, subsection, or unit, select the **Configure** icon for that object. In the following example, the **Configure** icon is circled for a section, a subsection, and two units."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:None
+msgid "Configure icons in the course outline."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:164
+msgid "For more information, see the links above."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:171
+msgid "Publish Content from the Course Outline"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:173
+msgid "You can publish new and changed units for an entire section or subsection. You can also publish individual units."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:176
+msgid "To publish new and changed units, select the **Publish** icon for a section, subsection, or unit. In the following example, the **Publish** icon is circled for a section, subsection, and unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:None
+msgid "Publishing icons in the course outline."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:185
+msgid "The **Publish** icon only appears when there is new or changed content within the object."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:190
+msgid ":ref:`Unit Publishing Status`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:199
+msgid "Reorganize the Course Outline"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:201
+msgid "You can reorganize your course content by dragging and dropping sections, subsections, and units to new locations in the outline."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:204
+msgid "You can reorganize components by dragging and dropping them within the same unit, or by moving them from one unit to another unit. For more information, see :ref:`Reorganizing Components`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:208
+msgid "To drag a section, subsection, or unit to another position in the course outline, move your cursor over the handle on the right of the object's box until the cursor changes to a four-headed arrow. For example, in the image below, the handle for the subsection Lesson 1 - Getting Started is selected."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:None
+msgid "A subsection handle selected to drag it."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:217
+msgid "Then, select and drag the object to the location that you want."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:219
+msgid "If you expanded the section or subsection you are moving the object to, when you move the object, a blue line indicates where the object will land when you release the mouse button. For example, in the image below, the subsection Lesson 1 - Getting Started is being moved to the end of the section Introduction."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:None
+#: ../../../shared/developing_course/course_outline.rst:None
+msgid "A subsection being dragged to a new section."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:229
+msgid "If you did not expand the section or subsection you are moving the object to, the outline of that section or subsection turns blue when you have moved the object to a valid location. You can then release the mouse button. For example, in the image below, the subsection Lesson 1 - Getting Started is being moved to the collapsed section Introduction."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:239
+msgid "When you move a subsection to a different section, the release date and time for that subsection does not change."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:246
+msgid "Delete Content in the Course Outline"
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:248
+msgid "You delete sections, subsections, and units from the course outline."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:251
+#: ../../../shared/developing_course/course_sections.rst:407
+msgid "You cannot restore course content after you delete it. To ensure you do not delete content you may need later, you can move any unused content to a section in your course that you set to never release."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:255
+msgid "Select the **Delete** icon in the box for the object you want to delete."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:None
+msgid "The outline with Delete icons circled."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:261
+msgid "You are prompted to confirm the deletion."
+msgstr ""
+
+#: ../../../shared/developing_course/course_outline.rst:264
+msgid "When you delete an object, all objects that it contains are deleted. For example, when you delete a subsection, all units in that subsection are deleted."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:5
+msgid "Developing Course Sections"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:7
+msgid "To develop sections in your course, you must first understand the following topics."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:16
+msgid "What Is a Section?"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:18
+msgid "A section is the topmost category in your course. A section can represent a time period in your course, a chapter, or another organizing principle. A section contains one or more subsections."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:24
+msgid "Viewing Sections in the Outline"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:32
+msgid "Sections and Visibility to Learners"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:34
+msgid "Learners cannot see any content in a section if the section's release date is unscheduled or has not passed."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:37
+msgid "If a section's release date has passed, learners can see content in the section if:"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:40
+msgid "The release date for the subsection that contains that content has passed."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:41
+msgid "The unit has been published."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:42
+msgid "The unit is not hidden from learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:46
+msgid "Release Statuses of Sections"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:48
+msgid "As an course author, you control the release status of sections.  For the content of a section to be visible to learners, the section must be released. See the following topics for more information about the possible release statuses of sections."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:59
+#: ../../../shared/developing_course/course_subsections.rst:101
+msgid "Unscheduled"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:61
+msgid "If you do not change the :ref:`course start date<Set Start and End Dates>` default value, ``1/1/2030 00:00:00 UTC``, when you create a new section, its release date will appear as ``Unscheduled``. When the section release date is unscheduled, learners cannot see any content in that section, regardless of the publishing status of that content."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:67
+#: ../../../shared/developing_course/course_sections.rst:117
+msgid "If you have modified the course start date, when you create a new section, the default release date is the course start date."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:70
+msgid "To make the content available to learners, you must schedule the release date."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:74
+msgid "Scheduled"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:76
+msgid "A section that is scheduled for release on a future date will not be visible to learners until after the release date. Regardless of the publishing status of content within the section, the entire section will not be visible to learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:80
+msgid "The scheduled date must pass for the section to be visible to learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:84
+#: ../../../shared/developing_course/course_subsections.rst:161
+msgid "Released"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:86
+msgid "A section that is released is visible to learners; however, learners see only subsections within the section that are also released, and units that are published."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:92
+#: ../../../shared/developing_course/course_subsections.rst:149
+msgid "Released with Unpublished Changes"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:94
+msgid "If you change a unit in a released section but do not publish the changes, learners see the last published version of the modified unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:97
+msgid "You must publish the unit for learners to see the updates."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:101
+#: ../../../shared/developing_course/course_subsections.rst:171
+msgid "Staff Only Content"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:103
+msgid "A section can contain a unit that is hidden from learners and available to members of the course team only. That unit is not visible to learners, regardless of the release date of the section or subsection."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:111
+msgid "Create a Section"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:113
+msgid "If you do not change the :ref:`course start date<Set Start and End Dates>` default value, ``1/1/2030``, when you create a new section, its release date will be ``Unscheduled``."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:121
+msgid "If the course start date is in the past, newly created sections are immediately visible to learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:124
+msgid "To create a new section, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:126
+msgid "On the **Course Outline** page, select **New Section**. This option appears at both the top of the page and below the current sections in the outline."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:129
+msgid "A new section appears at the end of the course content, with the section name selected."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:132
+msgid "Enter the name for the new section. A descriptive name can help learners locate content in the course. It can also help you select content when you analyze performance in edX Insights."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:136
+msgid ":ref:`Add subsections<Create a Subsection>` to the new section as needed."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:138
+msgid "It is recommended that you :ref:`test course content <Testing Your Course Content>` as you create new sections."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:143
+msgid "Change a Section Name"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:145
+msgid "To edit a section name, move your cursor over the section name to show the **Edit** icon."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:None
+msgid "The Edit Section Name icon."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:152
+msgid "Select the **Edit** icon next to the section name. The name field becomes editable. Enter the new name, and then tab or click outside of the field to save the name."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:160
+msgid "Set a Section Release Date"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:162
+msgid "To set the section release date, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:164
+#: ../../../shared/developing_course/course_sections.rst:375
+msgid "Select the **Configure** icon in the section box."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:None
+#: ../../../shared/developing_course/course_sections.rst:None
+msgid "The section settings icon circled."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:170
+#: ../../../shared/developing_course/course_sections.rst:381
+#: ../../../shared/developing_course/course_subsections.rst:340
+#: ../../../shared/developing_course/course_units.rst:607
+msgid "The **Settings** dialog box opens."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:172
+msgid "Enter the release date and time for the section."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:175
+#: ../../../shared/developing_course/course_subsections.rst:230
+#: ../../../shared/developing_course/course_subsections.rst:276
+msgid "The time that you set is in Coordinated Universal Time (UTC). You might want to verify that you have specified the time that you intend by using a time zone converter such as `Time and Date Time Zone Converter <https://www.timeanddate.com/worldclock/converter.html>`_."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:182
+#: ../../../shared/developing_course/course_subsections.rst:244
+msgid "For more information, see :ref:`Release Dates`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:188
+msgid "Set Section Highlights for Highlight Emails"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:192
+msgid "To improve learner engagement, edX can send an automatic email message to enrolled learners. These messages correspond to course sections in Studio, and contain three to five \"highlights\" for each upcoming course section. A highlight is a brief description of an important concept, idea, or activity. EdX provides most of the text for this course highlight email in a template, and you enter the highlights for the email in Studio. For an example email, see :ref:`Course Highlight Message Text`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:200
+msgid "For more information about email messages that edX sends to learners automatically, see :ref:`Automatic Email`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:203
+msgid "When you add highlights for a section, keep the following information in mind."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:206
+msgid "Each highlight has a limit of 250 characters."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:207
+msgid "If you include a hyperlink in your highlights, we recommend that you use a URL shortener to shorten any long URLs, and then enter the shortened URL in the highlight. Most HTML email renderers automatically convert URLs into hyperlinks."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:211
+msgid "**If you do not add highlights for a section, edX does not send learners a message for that section.** We strongly encourage you to add highlights for all course sections."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:214
+msgid "Learners who enroll in the course before you :ref:`enable highlights <Enable Course Highlight Messages>` do not receive any course highlight messages for the duration of the course. To make sure that all of your learners receive course highlight messages, :ref:`enable highlights<Enable Course Highlight Messages>` for each section before any learners enroll in your course."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:221
+msgid "If you update a highlight for a section, the change takes effect immediately for all subsequent messages that contain that highlight."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:224
+msgid "In Instructor-paced Courses:"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:226
+msgid "EdX sends the first highlight email seven days after the learner enrolls in a course, and sends additional highlight emails every seven days."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:228
+msgid "Additionally, edX uses consecutive numbers for each message, even if some sections do not have highlights. For example, if you add highlights for section 1 and section 3, but you do not add highlights for section 2, learners receive a message on day 14 that contains the highlights for section 3."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:234
+msgid "In Self-paced Courses:"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:236
+msgid "Highlights are sent based on the due dates calculated from the learner's enrollment date, the number of sections in the course, and the expected duration of the course (known as a Personalized Learner Schedule). Once the calculated due date for a section has passed, the highlights for the next section are sent out."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:237
+msgid "Example: Section 2 ends on December 3, 2020 for a specific learner based on their Schedule. Section 3 highlights will be sent out on December 4, 2020 for that learner."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:238
+msgid "**Note**: This could result in highlights being sent out every few days (3/4 days) in shorter expected duration courses with many sections or longer than a week (10+ days) in longer expected duration courses with few sections."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:242
+msgid "If your Open edX system adminstrator has configured your instance of the Open edX platform to send course highlight emails, you can send automatic email messages to learners in your course that contain three to five \"highlights\" of upcoming course content. A highlight is a brief description of an important concept, idea, or activity in the section. Your Open edX system administrator provides the template for this course highlight email, and you enter the highlights for the email in Studio."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:250
+msgid "For more information, contact your Open edX system administrator."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:253
+msgid "The highlights that you specify persist when you re-run your course."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:261
+msgid "Highlight Email Text"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:263
+msgid "The following example shows the edX email template with three example highlights."
+msgstr ""
+
+#: ../../../shared/developing_course/course_highlight_message_text.rst:18
+msgid "In addition, edX appends the following message to the end of the course highlight message for weeks 2 and 3 if the learner hasn't upgraded to the verified enrollment track."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:272
+msgid "Send Highlight Emails"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:274
+msgid "To send highlight emails to your learners, you must first set highlights for each section. When you have set section highlights, you then enable the **Course Highlight Emails** setting."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:278
+msgid "The number of highlights that you have set for a section is visible in the course outline, below the name of the section."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:None
+msgid "The Course Outline page, showing a section name and \"3 Section\n"
+"Highlights\" under the name."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:288
+msgid "Set Course Section Highlights"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:292
+msgid "If you do not enter highlights for a section, the edX platform does not send an email message for that section. Instead, edX sends an email message for the next section that has highlights."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:299
+msgid "If your Open edX system adminstrator has not configured your instance of the Open edX platform to send course highlight messages, learners do not receive messages even if you enable highlights and enter highlights for each section."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:304
+msgid "To set highlights for a course section, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:306
+msgid "On the **Course Outline** page, locate the section you want, and then select **Section Highlights** under the section name."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:308
+msgid "In the **Highlights for <section name>** dialog box, enter three to five highlights for the section. Enter one highlight in each field. Each highlight can include up to 250 characters."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:316
+msgid "You can also enter course highlights in OLX."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:321
+msgid "Enable Highlight Emails"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:325
+msgid "After you have set and reviewed the highlights for each course section, you enable highlight emails."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:327
+msgid "To enable highlight emails, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:329
+msgid "On the **Course Outline** page, locate the **Course Highlight Emails** setting, and then select **Enable Now**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:331
+msgid "In the dialog box that opens, select **Enable**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:334
+msgid "If you do not enable highlights, the edX platform does not send course highlight emails, even if you enter highlights for one or more sections."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:338
+msgid "You cannot disable highlight emails after you enable them. If you do not want to send highlight emails after you enable them, you can delete highlights in all sections."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:346
+msgid "Publish All Units in a Section"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:348
+msgid "To publish all new and changed units in a section, select the **Publish** icon in the box for the section."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:None
+msgid "Publishing icon for a section."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:356
+msgid "The **Publish** icon only appears when there is new or changed content within the section."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:359
+msgid "For more information about statuses and visibility to learners, see :ref:`Unit Publishing Status`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:366
+msgid "Hide a Section from Learners"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:368
+msgid "You can hide all content in a section from learners, regardless of the status of subsections and units within the section."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:371
+#: ../../../shared/developing_course/course_subsections.rst:407
+#: ../../../shared/developing_course/course_units.rst:581
+msgid "For more information, see :ref:`Content Hidden from Students`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:373
+msgid "To hide a section from learners, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:383
+msgid "In the **Section Visibility** section, select **Hide from learners**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:387
+msgid "Now, none of the content in the section is visible to learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:389
+msgid "To make the section visible to learners, repeat these steps and deselect **Hide from learners**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:392
+msgid "When you deselect **Hide from learners** for a section, not all content in the section is necessarily made visible to learners. If you explicitly set a subsection or unit to be hidden from learners, it remains hidden from learners. Unpublished units remain unpublished, and changes to published units remain unpublished."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:401
+msgid "Delete a Section"
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:403
+msgid "When you delete a section, you delete all subsections and units within the section."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:411
+msgid "To delete a section, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:413
+msgid "Select the **Delete** icon in the section that you want to delete."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:0
+msgid "The section with Delete icon circled."
+msgstr ""
+
+#: ../../../shared/developing_course/course_sections.rst:419
+msgid "When you receive the confirmation prompt, select **Yes, delete this section**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:5
+msgid "Developing Course Subsections"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:7
+msgid "To develop subsections in your course, you must first understand the following topics."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:16
+msgid "What Is a Subsection?"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:18
+msgid "Sections are divided into subsections, which in turn contain one or more units. A subsection may represent a topic in your course, or another organizing principle. Subsections are sometimes called \"lessons\" or they might represent a week's worth of material."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:25
+msgid "Viewing Subsections in the Outline"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:31
+msgid "Subsections and Visibility to Learners"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:33
+msgid "Learners cannot see any content in a subsection until you schedule a release date, and that release date has passed."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:36
+msgid "If a subsection's release date has passed, learners can see content in the subsection if the following conditions are met."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:39
+msgid "The release date of the parent section has passed."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:40
+msgid "The units have been published."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:41
+msgid "The subsection or the units are not hidden from learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:43
+msgid "To control whether learners have access to the subsection and its units after a subsection's release date, you can apply various visibility settings."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:46
+msgid "By default, the subsection and its units are available to learners, except for any units that you have explicitly hidden from learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:49
+msgid "You can also choose to entirely hide a subsection so that the subsection and its units are not visible to learners at all in the course navigation, or you can hide the contents of a subsection after the subsection due date has passed. For more information about subsection visibility settings, see :ref:`Hide a Subsection from Students`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:57
+msgid "Release dates and times that you set are in Coordinated Universal Time (UTC). You might want to verify that you have specified the time that you intend by using a time zone converter such as `Time and Date Time Zone Converter <https://www.timeanddate.com/worldclock/converter.html>`_."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:72
+msgid "Release Statuses of Subsections"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:74
+msgid "As a course author, you control the release status of subsections. For the content of a subsection to be visible to learners, the subsection must be released. See the following topics for more information about the possible release statuses of subsections."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:85
+msgid "Scheduled with the Section"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:87
+msgid "When you create a subsection, it is set by default to release on the same date and time as the section it is in. Therefore, published content in the subsection is visible to learners at the date and time the section is released."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:91
+msgid "When a subsection is in the \"Scheduled with Section\" state, and the section is scheduled, the subsection is visible in the outline with a vertical green bar next to the subsection's display name."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:95
+msgid "You can change the release date for a subsection to be different from the section it is in. For more information, see :ref:`Set a Subsection Release Date`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:103
+msgid "If the parent section is unscheduled, when you create a new subsection it will also be unscheduled."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:106
+msgid "Regardless of the publishing status of units within the subsection, no content in an unscheduled subsection is visible to learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:109
+msgid "When a subsection is unscheduled, the subsection is visible in the outline with a vertical gray bar next to the subsection's display name."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:112
+msgid "Content in the subsection is not visible to learners until you set a release date and the date passes."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:117
+msgid "Scheduled Later than the Section"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:119
+msgid "You can set a subsection to release on a date after the section releases."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:121
+msgid "Content in a subsection that is scheduled for release on a future date is not visible to learners, even if some or all of the units in the subsection are published."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:125
+msgid "When a subsection is scheduled, even if the subsection is scheduled to release later than the section, the subsection is visible in the outline with a vertical green bar next to the subsection's display name."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:129
+msgid "The scheduled date must pass for the subsection to be visible to learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:133
+msgid "Scheduled with Unpublished Changes"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:135
+msgid "You can make changes to a published unit before its parent subsection is released."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:138
+msgid "In this situation, when the release date for the subsection passes, the last published version of units within the subsection are made visible to learners. The changes in units are not visible to learners until you publish them."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:142
+#: ../../../shared/developing_course/course_subsections.rst:154
+msgid "When a subsection is scheduled but has unpublished changes, the subsection is visible in the outline with a vertical yellow bar next to the subsection's display name. When you expand the subsection, the unit that has unpublished changes is visible."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:151
+msgid "If you modify a unit within a released subsection, those modifications are not visible to students until you publish them."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:163
+msgid "A subsection that is released is visible to learners; however, learners see only units within the subsection that are published."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:166
+msgid "When a subsection is released, the subsection is visible in the outline with a vertical blue bar next to the subsection's display name."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:173
+msgid "A subsection can contain a unit that is hidden from learners and available to members of the course team only. That unit is not visible to learners, even if the subsection has been released."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:177
+msgid "When a subsection contains a unit that has staff-only content, the subsection is visible in the outline with a vertical black bar next to the subsection's display name."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:185
+msgid "Create a Subsection"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:187
+msgid "To create a new subsection, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:189
+msgid "In the outline, expand the section in which you want to create a new subsection."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:191
+msgid "Select **New Subsection** at the bottom of the expanded section. A new subsection appears at the end of the section, with the subsection name selected."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:194
+msgid "Enter the name for the new subsection. A descriptive name can help learners locate content in the course. It can also help you select content when you analyze performance in edX Insights."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:197
+msgid ":ref:`Add units<Create a Unit>` to the new subsection as needed."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:199
+msgid "It is recommended that you :ref:`test course content <Testing Your Course Content>` as you create new subsections."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:204
+msgid "Change a Subsection Name"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:206
+msgid "To change a subsection name, select the **Edit** icon next to the subsection name. The name field becomes editable. Enter the new name, and then tab or click outside of the field to save the name."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:214
+msgid "Set a Subsection Release Date"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:216
+msgid "To set the subsection release date, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:218
+#: ../../../shared/developing_course/course_subsections.rst:266
+#: ../../../shared/developing_course/course_subsections.rst:338
+#: ../../../shared/developing_course/course_subsections.rst:423
+#: ../../../shared/developing_course/course_subsections.rst:472
+msgid "Select the **Configure** icon in the subsection box."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:None
+#: ../../../shared/developing_course/course_subsections.rst:None
+msgid "A subsection in the course outline with an arrow pointing to the\n"
+"configure icon."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:225
+#: ../../../shared/developing_course/course_subsections.rst:268
+#: ../../../shared/developing_course/course_subsections.rst:430
+#: ../../../shared/developing_course/course_subsections.rst:474
+msgid "The subsection settings dialog box opens."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:227
+msgid "On the **Basic** tab, under **Release Date and Time**, enter the release date and time for the subsection."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:250
+msgid "Set the Assignment Type and Due Date for a Subsection"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:252
+msgid "You set the assignment type for problems at the subsection level."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:254
+msgid "When you set the assignment type for a subsection, all problems in the subsection are graded and weighted as a single type. For example, if you designate the assignment type for a subsection as **Homework**, then all problem types in that subsection are graded as homework."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:260
+msgid "Unlike other problem types, ORA assignments are not governed by the subsection due date. Due dates for each ORA assignment are set in the assignment's settings. For details, see :ref:`PA Specify Name and Dates`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:264
+msgid "To set the assignment type and due date for a subsection, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:270
+msgid "On the **Basic** tab, locate the **Grading** section."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:271
+msgid "In the **Grade as** list, select the assignment type for this subsection."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:273
+msgid "For **Due Date** and **Due Time in UTC**, enter or select a due date and time for problems in this subsection."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:288
+msgid "Optionally, for a course that has the timed exam feature enabled, select the **Advanced** tab to set the subsection to be :ref:`timed<Timed Exams>`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:293
+msgid "For more information, see :ref:`Grading Index`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:299
+msgid "Set Problem Results Visibility"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:301
+msgid "By default, when learners submit answers to problems, they immediately receive the results of the problem: whether they answered the problem correctly, as well as their scores. However, you might want to temporarily hide problem results from learners when you run an exam, or permanently hide results when you administer a survey. You can do this by using the **Assessment Results Visibility** setting."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:309
+msgid "The **Assessment Results Visibility** setting is a subsection setting. You cannot change the visibility of individual problems. The **Assessment Results Visibility** subsection setting overrides the **Show Answer** setting for individual problems. Answers to problems are not visible when results are hidden."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:314
+msgid "The **Assessment Results Visibility** setting can be used with the following common problem types."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:317
+msgid ":ref:`Checkbox`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:318
+msgid ":ref:`Dropdown`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:319
+msgid ":ref:`Multiple Choice`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:320
+msgid ":ref:`Numerical Input`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:321
+msgid ":ref:`Text Input`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:323
+msgid "The **Assessment Results Visibility** setting can be used with the following advanced problem types."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:326
+msgid ":ref:`Annotation`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:327
+msgid ":ref:`Circuit Schematic Builder`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:328
+msgid ":ref:`Custom JavaScript Display and Grading<Custom JavaScript>`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:329
+msgid ":ref:`Custom Python-Evaluated Input<Write Your Own Grader>`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:330
+msgid ":ref:`Image Mapped Input`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:331
+msgid ":ref:`Math Expression Input`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:332
+msgid ":ref:`Problem Written in LaTeX`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:333
+msgid ":ref:`Problem with Adaptive Hint`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:334
+msgid ":ref:`Molecular Structure<Molecule Editor>`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:336
+msgid "To change the results visibility for your subsection, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:342
+msgid "Select the **Visibility** tab, and locate **Assessment Results Visibility**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:344
+msgid "Select one of the available options."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:346
+msgid "**Always show results**: This is the default setting. Problem results and subsection scores are visible immediately when learners and staff submit answers."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:349
+msgid "**Never show results**: Subsection scores are visible, but problem results are never visible to learners or to course staff."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:351
+msgid "**Show results when subsection is past due**: For learners, results are not visible until the subsection due date (for instructor-paced courses) or the course end date (for self-paced courses) has passed. For course staff, results are always visible unless the staff member is :ref:`previewing or viewing the course as a learner<Roles for Viewing Course Content>`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:359
+msgid "If the subsection does not have a due date, or the course does not have an end date, results are always visible."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:369
+msgid "Publish All Units in a Subsection"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:371
+msgid "To publish all new and changed units in a subsection, select the **Publish** icon in the box for the subsection."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:None
+msgid "Part of a course outline with the publishing icon for a subsection\n"
+"circled."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:380
+msgid "The **Publish** icon only appears when there is new or changed content within the subsection."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:383
+msgid "See :ref:`Unit Publishing Status` for information about statuses and visibility to learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:390
+msgid "Hiding a Subsection from Learners"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:392
+msgid "You can hide a subsection from learners in the following ways."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:394
+msgid ":ref:`Entirely hide the subsection <Entirely Hide a Subsection>` so that it does not appear in course navigation. Subsections that are hidden in this way are not included when grades are calculated."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:398
+msgid ":ref:`Prevent learners from accessing <Hide a Subsection After its Due Date>` a subsection's contents after its due date (for instructor-led courses) or the course end date (for self-paced courses) has passed, but keep the subsection visible in course navigation. Subsections that are hidden based on date remain included when grades are calculated."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:404
+msgid "You can also hide just the answers to problems in the subsection, leaving the problems visible. For more information, see :ref:`Problem Results Visibility`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:414
+msgid "Entirely Hide a Subsection from Learners"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:416
+msgid "You can completely hide a subsection and its content from learners, regardless of the status of units within the section. Subsections hidden in this way are not shown in the course navigation, and are not included when grades are calculated."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:421
+msgid "To entirely hide a subsection from learners, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:432
+msgid "On the **Visibility** tab, locate **Subsection Visibility**, and then select **Hide entire subsection**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:437
+msgid "None of the content in the subsection is visible to learners. In the course outline, the subsection is shown with a lock icon, indicating that it is available only to course staff."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:441
+msgid "To make the subsection visible to learners, repeat these steps and select **Show entire subsection**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:444
+msgid "When you make a previously hidden subsection visible, not all content in the subsection is necessarily made visible to learners. Units that were explicitly hidden from learners remain hidden."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:453
+msgid "Hide a Subsection Based on Date"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:455
+msgid "You can make a subsection's content unavailable based on date. For example, you might want to make exam questions unavailable after a certain date. For instructor-led courses, this option uses the subsection's due date. For self- paced courses, this option uses the course's end date."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:460
+msgid "Subsections that are hidden in this way remain visible in the course navigation, and are included when grades are calculated. However, learners can no longer access the subsection's content after the due date or the course end date."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:466
+msgid "If you want to continue to show a subsection's content, but hide learners' results for problems in the subsection, see :ref:`Problem Results Visibility`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:470
+msgid "To hide a subsection based on date, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:476
+msgid "On the **Visibility** tab, locate **Subsection Visibility**, and then select the appropriate option."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:479
+msgid "In instructor-led courses, select **Hide content after due date**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:481
+msgid "In self-paced courses, select **Hide content after course end date**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:485
+msgid "Learners who access the subsection after the due date or course end date has passed are shown a message indicating that the subsection is no longer available because the due date (or course end date) has passed."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:489
+msgid "In the course outline in Studio, the subsection is shown with an icon and a \"Subsection is hidden after due date\" or \"Subsection is hidden after course end date\" message under the subsection's display name."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:498
+msgid "Delete a Subsection"
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:500
+msgid "When you delete a subsection, you delete all units within the subsection."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:503
+msgid "You cannot restore course content after you delete it. To ensure you do not delete content that you might need later, you can move any unused content to a section in your course that you set to never release."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:507
+msgid "To delete a subsection, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:509
+msgid "In the subsection that you want to delete, select the **Delete** icon."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:0
+msgid "Part of a course outline showing a subsection with the Delete icon\n"
+"circled."
+msgstr ""
+
+#: ../../../shared/developing_course/course_subsections.rst:515
+msgid "When the confirmation prompt appears, select **Yes, delete this subsection**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:5
+msgid "Developing Course Units"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:7
+msgid "To work with units in the course outline and develop your course, you need to understand the following concepts and complete the following tasks."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:14
+msgid "You add content to units with :ref:`course components<Developing Course Components>`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:21
+msgid "What Is a Unit?"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:23
+msgid "A unit is a part of a :ref:`subsection<Developing Course Subsections>` that learners view as a single page."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:26
+msgid "A unit contains one or more :ref:`components<Developing Course Components>`, such as text with :ref:`HTML<Working with Text Components>` markup, :ref:`problems<Working with Problem Components>`, a :ref:`discussion<Working with Discussion Components>`, or a :ref:`video<Working with Video Components>`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:34
+msgid "Viewing Units in the Outline"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:40
+msgid "Viewing the Unit Page"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:42
+msgid "In Studio, when you select a unit name in the outline, the **Unit** page opens."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:44
+msgid "The following example shows a unit page in Studio with two components, with circles and text to show different areas and controls in the page."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:None
+msgid "The unit page with numbered indicators."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:51
+msgid "A component in the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:52
+msgid "Options for testing the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:53
+msgid "Status panel for the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:54
+msgid "A unit navigation bar that shows where in the subsection this unit is located, and provides easy navigation options to nearby unit pages."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:55
+msgid "A way to add new units to a subsection through the unit navigation bar."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:56
+msgid "Navigation tools to quickly get to other sections or subsections."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:60
+msgid "Viewing Units as a Learner"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:62
+msgid "To a learner using the edX learning management system (LMS), each unit in the subsection is represented by an icon in the unit navigation bar at the top of the **Course** page. The current unit is indicated with bold underlining in the unit navigation bar. The components in the current unit appear below the unit navigation bar."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:68
+msgid "The following image shows a subsection in the LMS that contains several units."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:None
+msgid "A unit in the LMS, with all of the unit icons in the unit navigation bar\n"
+"indicated. Green check marks are visible for some units."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:75
+msgid "A green check mark next to a unit icon indicates that a learner has completed the unit. A learner has completed the unit if the learner has completed all the following actions."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:87
+msgid "The Unit Workflow"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:89
+msgid "When you have set up the :ref:`section<Developing Course Sections>` and :ref:`subsection<Developing Course Subsections>` in the course outline, you then work with units."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:93
+msgid "The typical workflow includes these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:95
+msgid ":ref:`Create a unit<Create a Unit>`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:96
+msgid ":ref:`Add components to the unit<Add a Component>`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:97
+msgid ":ref:`Modify components in the unit<Developing Course Components>`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:None
+msgid "Diagram of the unit development workflow."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:105
+msgid "You :ref:`publish the unit<Publish a Unit>` after you add all of its components. If you make additional modifications, you must publish the unit again for the changes to be visible to learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:109
+msgid "As you work through these steps, the publishing status of the unit changes. The publishing status controls the content available to learners, along with :ref:`release dates<Release Dates>` (in an instructor-paced course). See the next section for more information."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:114
+msgid "Release dates apply only to instructor-paced courses. For more information about instructor-paced and self-paced courses, see :ref:`Setting Course Pacing`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:122
+msgid "Unit Publishing Status and Visibility to Learners"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:124
+msgid "The following information summarizes whether or not learners can see a unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:126
+msgid "Learners never see a unit with the publishing status `Draft (Never Published)`_."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:129
+msgid "Learners never see a unit with the publishing status `Visible to Staff Only`_. For more information, see :ref:`Hide a Unit from Students`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:132
+msgid "Learners do not see a unit with the publishing status `Published Not Yet Released`_ until the :ref:`release date <Release Dates>` (in an instructor-paced course). On the release date, the status changes to `Published and Live`_."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:137
+msgid "If the publishing status is `Published and Live`_, learners see the current version of the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:140
+msgid "If the publishing status is `Draft (Unpublished Changes)`_, learners see the last published version of the unit if the :ref:`release dates<Release Dates>` for the containing section and subsection have passed."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:144
+msgid "If you used :ref:`access settings<Access Settings>` to specify that a unit is available only to specific groups of learners (such as content groups associated with particular cohorts, or enrollment track groups), only those learners who are in groups to which you have given access can see the unit after it is published and live."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:150
+msgid "For more information, see :ref:`Controlling Content Visibility`. For information about testing content, see :ref:`Testing Your Course Content`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:158
+msgid "Unit Publishing Statuses"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:160
+msgid "As a course author, you work with units that have the following statuses."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:171
+msgid "Draft (Never Published)"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:173
+msgid "When you create a new unit and add components to it, the unit's publishing status is **Draft (Never Published)**, as shown in the status panel."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:None
+msgid "Status panel of a unit that has never been published, with \"Draft (Never\n"
+"published)\" at the top."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:181
+msgid "The **Release** section applies only to instructor-paced courses. It does not appear for units in self-paced courses. For more information about instructor-paced and self-paced courses, see :ref:`Setting Course Pacing`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:185
+msgid "In Studio, you see the draft content as you develop the unit. Though you do not see the unit in the LMS, you can :ref:`preview the unit<Preview Unpublished Content>`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:189
+msgid "Learners never see a unit with this status, even after the release date (in an instructor-paced course). You must :ref:`publish the unit<Publish a Unit>` for it to be included in the LMS."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:197
+msgid "Published and Live"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:199
+msgid "You published the unit and have not modified it. The release dates for the section and subsection have passed (in an instructor-paced course). You, and enrolled learners, see the current version of the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:None
+msgid "Status panel of a unit that is published, with \"Published and Live\" at\n"
+"the top."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:208
+msgid "The **Release** section applies only to instructor-paced courses. It does not appear for units in self-paced courses. For more information, see :ref:`Setting Course Pacing`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:216
+msgid "Published (not yet released)"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:218
+msgid "You published the unit, but the release date is still in the future. Learners cannot see this unit until the release date passes."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:None
+msgid "Status panel of a unit that is published but not released, with\n"
+"\"Published (not yet released)\" at the top."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:226
+msgid "This status applies only to instructor-paced courses. It does not apply to self-paced courses."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:233
+msgid "Draft (Unpublished changes)"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:235
+msgid "When you edit a published unit, whether or not it is released, the unit's publishing status changes to **Draft (Unpublished Changes)**, as shown in the status panel."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:None
+msgid "Status panel of a unit that has pending changes, with \"Draft\n"
+"(Unpublished Changes)\" at the top."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:244
+#: ../../../shared/developing_course/course_units.rst:277
+#: ../../../shared/developing_course/course_units.rst:591
+msgid "The **Release** section applies only to instructor-paced courses. It does not appear for units in self-paced courses."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:247
+msgid "In Studio, you see the draft content as you develop the unit. You can :ref:`preview the changes to a unit<Preview Unpublished Content>` to test how your changes will appear to learners after you publish the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:251
+msgid "If the release date has passed in an instructor-paced course, learners see the last published version of the unit. If the release date is in the future, learners cannot see your content. You must :ref:`publish the unit<Publish a Unit>` for learners to see your changes."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:260
+msgid "Visible to Staff Only"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:262
+msgid "When you :ref:`hide a unit from learners<Hide a Unit from Students>`, the unit's publishing status changes to **Visible to Staff Only**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:265
+msgid "The publishing status of a unit also changes to **Visible to Staff Only** if you hide the parent :ref:`section<Hide a Section from Students>` or :ref:`subsection<Hide a Subsection from Students>` from learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:269
+msgid "Learners never see a unit with this status, even if it has been published and the release date has passed (in an instructor-paced course)."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:None
+msgid "Status panel of a unit that is hidden from learners, with an icon and\n"
+"\"Hide from learners\" text visible."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:284
+msgid "Create a Unit"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:286
+msgid "You can create a unit from the outline or create a unit in the same subsection from the unit page."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:289
+msgid "To create a unit from the outline, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:291
+msgid "In the outline, expand the subsection in which you want to create a new unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:293
+msgid "Select **New Unit** at the bottom of the expanded subsection. A new page opens for you to add components to the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:295
+#: ../../../shared/developing_course/course_units.rst:310
+msgid "On the unit page, the unit name is selected. Supply an identifying name. A descriptive name can help learners locate content in the course. It can also help you select content when you analyze performance in edX Insights."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:298
+#: ../../../shared/developing_course/course_units.rst:314
+msgid ":ref:`Add components<Add a Component>` to the new unit as needed."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:300
+msgid "To create a unit from a unit page, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:302
+msgid "In the **Unit Navigation Bar** area, select **New Unit**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:None
+msgid "The Unit Navigation Bar in the Unit page."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:308
+msgid "The unit page for the new unit opens automatically."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:316
+msgid "You must then :ref:`publish the unit<Publish a Unit>` to make it visible to learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:324
+msgid "Edit a Unit"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:326
+msgid "You can edit a unit in the following ways."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:328
+msgid "`Edit the unit name`_"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:329
+msgid ":ref:`Add components to units<Developing Course Components>`"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:330
+msgid "`Reorganize Components in Units`_"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:332
+msgid "When you make any of these changes, if you previously published the unit, the state changes to `Draft (Unpublished Changes)`_. You must then :ref:`publish the unit<Publish a Unit>` to make your edits visible to learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:336
+msgid "If you are designing your course to :ref:`offer different content<Offering Differentiated Content>` to different groups of learners, you can also :ref:`Set access restrictions for the unit<Set Access Restrictions For a Unit>` to specify which learner groups a unit is available to."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:344
+msgid "Edit the Unit Name"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:346
+msgid "To edit a unit name, on the unit page in Studio, select **Edit** next to the name."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:None
+msgid "The Edit icon for the unit name with the mouseover help showing."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:353
+msgid "The name field becomes editable. Enter the new name, and then tab or click outside of the field to save the name."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:359
+msgid "Reorganize Components in Units"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:361
+msgid "You can reorganize components within a unit by dragging and dropping them to new locations."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:364
+msgid "To change the location of a component, move your mouse pointer over the **Drag to reorder** handle on the component toolbar. The pointer changes to a four- headed arrow. You can then drag the component to the location that you want."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:368
+msgid "In the image that follows, the handle for the discussion component is selected."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:None
+msgid "A discussion component selected so that it can be dragged."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:374
+msgid "A blue outline indicates where the component will land when you release the mouse button. For example, in the image below, the discussion component is being moved to the top of the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:None
+msgid "A component being dragged to a new location.\n"
+":width: 600"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:387
+msgid "Set Access Restrictions For a Unit"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:389
+msgid "If you have more than one enrollment track in your course, or if you have enabled cohorts, you can limit a unit's availability to specific groups of learners. For information about offering different content to different learner groups, see :ref:`Offering Differentiated Content`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:394
+msgid "A unit's group access settings are inherited by components in the unit. If you set additional group access restrictions for a component, make sure the component access settings do not contradict the unit access settings. For example, you cannot give Group A of learners access to a component if Group A does not have access to the unit that contains the component."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:401
+msgid "Tp specify a unit's access settings, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:405
+msgid "For the unit that you want to restrict access to, select the **Configure** icon in the unit's toolbar."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:0
+msgid "The configure icon in a unit's toolbar in the Studio course outline."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:412
+msgid "You can also access the **Restrict access to** option from the gear icon next to a unit's name on a unit page in Studio."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:0
+msgid "The gear icon next to a unit's title on the unit page in Studio is\n"
+"another way to launch the unit access settings dialog."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:422
+msgid "In the unit's **Settings** dialog box, for the **Restrict access to** option, select the group type by which you want to restrict access."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:None
+msgid "The visibility and access settings dialog for a unit, with a"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:435
+msgid "After you select a group type, you see a list of the groups that exist for that group type."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:439
+msgid "Select the checkbox for each group for which you want the current unit to be available."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:0
+msgid "The visibility and access settings dialog for a unit, with\n"
+"enrollment track groups selected, and two enrollment tracks available for\n"
+"selecting."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:450
+msgid "The groups which have access to the unit are listed under the unit title in the Studio course outline, as well as under the unit title on the unit page in Studio."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:0
+msgid "When a unit has restricted access, a message listing the groups\n"
+"which have access to a unit appears under the unit title in the Studio\n"
+"course outline."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:466
+msgid "Preview a Unit"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:468
+msgid "You preview a unit to review and test the content before it is visible to learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:471
+msgid "You can preview a unit before it is published and before the course is live. In a live course, after the unit is published and if there are no pending changes, previewing a unit is exactly the same as viewing the live version of the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:476
+msgid "To preview the unit, select **Preview** above the status panel in the Studio unit page."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:479
+msgid "The unit opens in preview mode in the LMS."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:481
+msgid "When you are revising a previously published unit, it can be helpful to preview your changes in one browser window and :ref:`view the published unit<View a Published Unit>` in a second window."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:485
+msgid "For information about previewing and testing content, see :ref:`Testing Your Course Content`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:493
+msgid "Publish a Unit"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:495
+msgid "Publishing a unit makes the current version of the unit in Studio available to learners. In an instructor-paced course, the release dates for the section and subsection must also have passed for learners to access a published unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:499
+msgid "You publish a unit that has a status of `Draft (Never Published)`_ or `Draft (Unpublished Changes)`_. When you publish a unit, the status changes to `Published and Live`_ or `Published Not Yet Released`_."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:503
+msgid "You can publish a unit from the unit page or the course outline."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:505
+msgid "For more information about instructor-paced and self-paced courses, see :ref:`Setting Course Pacing`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:510
+msgid "Use the Unit Page to Publish a Unit"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:512
+msgid "To publish the unit, select **Publish** in the status panel."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:518
+msgid "Use the Outline to Publish a Unit"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:520
+msgid "To publish a unit from the outline, select the **Publish** icon in the box for the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:None
+msgid "The Course Outline page with an arrow pointing to the Publish icon for a\n"
+"unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:529
+msgid "The **Publish** icon only appears when there is new or changed content in the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:536
+msgid "Discard Changes to a Unit"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:538
+msgid "When you modify a published unit, your changes are saved in Studio, though the changes are not visible to learners until you publish the unit again."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:541
+msgid "If you decide that you never want to publish your changes, you can discard the changes so that Studio reverts to the last published version of the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:544
+msgid "To discard changes and revert the Studio version of the unit to the last published version, select **Discard Changes** in the status panel."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:548
+msgid "When you discard changes to a unit, the changes are permanently deleted. You cannot retrieve discarded changes or undo the action."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:555
+msgid "View a Published Unit"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:557
+msgid "To view the last published version of a unit in the LMS, select **View Live Version** at the top of the page."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:560
+msgid "The unit page opens in the LMS in Staff view. You might be prompted to log in to the LMS."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:563
+msgid "If the unit status is `Draft (Unpublished Changes)`_, you do not see your changes in the LMS until you publish the unit again."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:566
+msgid "If the unit status is `Draft (Never Published)`_, **View Live Version** is not enabled."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:569
+msgid "For information about viewing and testing content, see :ref:`Testing Your Course Content`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:576
+msgid "Hide a Unit from Learners"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:578
+msgid "You can prevent learners from seeing a unit regardless of the unit status or the release schedules of the section and subsection."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:583
+msgid "You can hide a unit from learners using the course outline or the unit page."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:587
+msgid "Use the Unit Page to Hide a Unit"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:589
+msgid "In the status panel, select **Hide from learners**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:594
+#: ../../../shared/developing_course/workflow.rst:99
+msgid "For more information, see :ref:`Controlling Content Visibility`."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:598
+msgid "Use the Outline to Hide a Unit"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:600
+msgid "Select the **Configure** icon in the unit box."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:None
+msgid "The Course Outline page with the Configure icon for a unit\n"
+"indicated."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:609
+msgid "In the **Unit Visibility** section, select **Hide from learners**."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:615
+msgid "Make a Hidden Unit Visible to Learners"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:617
+msgid "Before you make a hidden unit visible to learners, be aware that course content will immediately be visible to learners, as follows."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:620
+msgid "For a hidden unit that previously was published, deselecting **Hide from learners** publishes the current content for the unit. If you made changes to the unit while is was hidden, those draft changes are published."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:624
+msgid "When you make a section or subsection that was previously hidden visible to learners, draft content in units is *not* published. Changes you made since last publishing units are not made visible to learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:628
+msgid "You can make a hidden unit visible to learners from the unit page or the course outline. Follow the instructions above and clear the **Hide from learners** check box."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:632
+msgid "You are prompted to confirm that you want to make the unit visible to learners."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:636
+msgid "Delete a Unit"
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:638
+msgid "You delete a unit from the course outline in Studio."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:640
+msgid "When you delete a unit, you delete all components within the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:643
+msgid "You cannot restore course content after you delete it. To ensure that you do not delete any content that you need later, move the unit to a hidden section or subsection instead of deleting it."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:647
+msgid "To delete a unit, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:649
+msgid "On the course outline page in Studio, select the **Delete** icon in the box for the unit you want to delete."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:0
+msgid "The Course Outline page with the Delete icons for several units\n"
+"circled."
+msgstr ""
+
+#: ../../../shared/developing_course/course_units.rst:657
+msgid "When you receive the confirmation prompt, select **Yes, delete this unit**."
+msgstr ""
+
+#: ../../source/developing_course/index.rst:5
+msgid "Developing Your Course"
+msgstr ""
+
+#: ../../source/developing_course/index.rst:7
+msgid "Use the topics in this section to understand how to develop your course content in the Studio Outline page."
+msgstr ""
+
+#: ../../source/developing_course/index.rst:10
+msgid "For information on building specific course component types, see :ref:`Course Components Index`."
+msgstr ""
+
+#: ../../source/developing_course/index.rst:13
+msgid "For information on creating exercises and tools, see :ref:`Exercises and Tools Index`."
+msgstr ""
+
+#: ../../source/developing_course/index.rst:16
+msgid "For information on creating content libraries from which you can randomly draw content for randomized assigments, see :ref:`Content Libraries`."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:5
+msgid "Course Licensing"
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:7
+msgid "You can specify licensing options for your course content as well as for each video in your course. By specifying the license, you communicate to learners whether and how they can reuse your course content."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:11
+msgid "You specify licensing options in Studio. For more information, see :ref:`Set Course Content Licensing`."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:22
+msgid "License Options"
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:24
+msgid "For your course content and for each video in your course, you can select one of the following license options."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:27
+#: ../../../shared/developing_course/licensing_course.rst:34
+msgid "All Rights Reserved"
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:28
+msgid "Creative Commons"
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:36
+msgid "All Rights Reserved indicates to learners that you own the copyright but reserve all rights for sharing copies of course content or videos. Learners cannot reuse or republish course content or videos that have All Rights Reserved licenses."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:45
+msgid "Creative Commons License"
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:47
+msgid "The Creative Commons license indicates to learners that you own the copyright but are granting certain permissions for reuse, depending on the license options that you select."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:51
+msgid "When you create a new course, the default terms are set to All Rights Reserved. You can change the terms for your course in the **Schedule & Details** page in Studio."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:59
+msgid "License Option"
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:60
+msgid "Description"
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:61
+msgid "**Attribution**"
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:62
+msgid "This option allows others to copy, distribute, display, and perform your copyrighted work but only if they give credit to you in the way that you request. This option is enabled for all Creative Commons licenses on edX course content. You cannot clear this option."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:66
+msgid "**Noncommercial**"
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:67
+msgid "This option allows others to distribute, display, and perform your work -- and derivative works based upon it -- but for non-commercial purposes only."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:70
+msgid "**No Derivatives**"
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:71
+msgid "This option allows others to distribute, display, and perform only verbatim copies of your work, not derivative works based upon it. You cannot use this option with the **Share Alike** option."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:74
+msgid "**Share Alike**"
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:75
+msgid "This option allows others to distribute derivative works only under a license identical to the license that governs your work. You cannot use this option with the **No Derivatives** option."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:79
+msgid "For more information, see the `Creative Commons website`_."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:87
+msgid "Set Course Content Licensing in Studio"
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:89
+msgid "When you have determined what licenses you want your course content to have, you set course content licensing in Studio."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:92
+msgid "For more information about licensing options, see :ref:`Licensing a Course`."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:94
+msgid "When you create a new course, the license is set to **All Rights Reserved**. You can change the license for your course in the **Schedule & Details** page in Studio."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:98
+msgid "The license options that you select apply to all course content, including videos, unless you explicitly specify different licensing options for your videos. Learners see the license at the bottom of all pages in the course."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:102
+msgid "From the **Settings** menu, select **Schedule & Details**."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:104
+msgid "Scroll to the bottom of the page to view the **Course Content License** section."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:0
+msgid "The Course Content License section of the Schedule & Details page."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:111
+msgid "Select the license option for your course."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:113
+msgid "To grant learners to right to share and use course content, select **Creative Commons**. The Creative Commons options are displayed."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:0
+msgid "The Creative Commons license options."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:120
+msgid "Select the :ref:`Creative Commons license options <Creative Commons License>` to apply."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:123
+msgid "To reserve all course content rights, select **All Rights Reserved**."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:125
+msgid "Select **Save** at the bottom of the page to save your changes."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:131
+msgid "Set Video Licensing"
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:133
+msgid "If you intend for a specific video to have a different license than the course as a whole, you must set the license in the :ref:`video advanced options <Video Advanced Options>`."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:137
+msgid "For example, you might license for your course under Creative Commons, but use a video from another party that is copyrighted. In this case, you can set the license for that particular video to **All Rights Reserved**."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:141
+msgid "If a video is to have the same license as the course as a whole, you do not need to set the license for the video."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:148
+msgid "Learners' View of Licenses"
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:150
+msgid "When they view content in the **Course** tab, learners see the license that you set for the course at the bottom of the page."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:None
+msgid "A course unit page with a pointer to the license."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:157
+msgid "If the video has a different license than the course as a whole, learners see the license at the bottom right of the video player."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:None
+msgid "A video with a pointer to the license."
+msgstr ""
+
+#: ../../../shared/developing_course/licensing_course.rst:164
+msgid "For the course and for videos, if you choose **All Rights Reserved**, learners see **All Rights Reserved**; if you choose **Creative Commons** and select any allowed combination of options, learners see **Some Rights Reserved** and can select the link to see details."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:5
+msgid "Testing Your Course Content"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:7
+msgid "The way your course looks in Studio is different from the way that learners will see and experience it when it is live in the LMS. As a best practice, you should test content continually as you build your course, by interacting with the course content from a learner's point of view."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:12
+msgid "The method that you choose for experiencing the course content as a learner depends on the publishing status of the content."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:15
+msgid "For published and released content, use :ref:`View Live<View Published Content>`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:18
+msgid "For draft and unreleased content, use :ref:`Preview<Preview Unpublished Content>`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:27
+msgid "Beta testing your course is another way to evaluate course content. For information about setting up a beta test for your course, see :ref:`Beta_Testing`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:31
+msgid "To test content before a course has started, you can add yourself as a beta tester on the instructor dashboard. Make sure to set the course start date and the appropriate **Days Early for Beta** value. For more information, see :ref:`Beta_Testing`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:41
+msgid "Viewing Published and Released Content"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:43
+msgid "If your course has started, you can view published and released course content from the point of view of a learner. When you select **View Live** or **View Live Version** from the course outline in Studio, you can choose specific views in the LMS to experience the course content exactly as a particular learner would."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:49
+msgid "For courses that have not started, **View Live** mode provides only **Staff** view, and you can only view content that has a publishing status of Published."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:53
+msgid "In courses that have started, when you use **Staff** view in **View Live** mode, keep the following points in mind."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:56
+msgid "In addition to units that have a publishing status of :ref:`published and live<Published and Live>` you also see units that are published but not yet released."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:60
+msgid "You see published units that are in :ref:`Visible to Staff Only` or :ref:`Draft (Unpublished Changes)` status, regardless of the release dates of the containing section or subsection, but you see only the latest published version of such units."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:65
+msgid "You do not see units that are in :ref:`Draft (Never Published)` status. To see these units, you must use Preview mode, as described in :ref:`Preview Unpublished Content`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:69
+msgid "If you view the course in a role other than **Staff**, you do not have access to the **Instructor** tab or to staff functions such as **View Unit in Studio**, **Staff Debug Info**, or **Submission History**."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:73
+msgid "For information about unit publishing statuses, see :ref:`Unit Publishing Status`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:78
+msgid "View Published and Released Content"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:80
+msgid "To view published and released content as it would appear to members of different groups, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:83
+msgid "From the Studio **Course Outline** page, select **View Live**. Alternatively, from a unit page, select **View Live Version**."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:86
+#: ../../../shared/developing_course/testing_courseware.rst:132
+msgid "A separate browser tab opens for the course in the LMS."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:88
+#: ../../../shared/developing_course/testing_courseware.rst:134
+msgid "In the LMS, select one of the **View this course as** options, as described in :ref:`Roles for Viewing Course Content`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:91
+msgid "The course view refreshes to present published course content as a learner in the selected group would see it."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:94
+msgid "For more information about each view, see :ref:`Staff View`, :ref:`Student View`, or :ref:`Specific Student View`. For more information about viewing cohort-specific course content, see :ref:`Viewing Cohort Specific Courseware`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:103
+msgid "Previewing Draft Content"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:105
+msgid "Before your course has started, or before you release content to learners, you can test how the content will appear when it is released."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:108
+msgid "Similar to :ref:`viewing published content<View Published Content>`, you can choose specific views in the LMS to experience draft or unreleased course content as learners belonging to different groups would, but you select **Preview** from the course outline in Studio instead of **View Live**."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:113
+msgid "In **Preview** mode, if you use one of the student-based **View course as** options, you can see draft course content unrestricted by release date. You see any content that has a publishing status of :ref:`Published and Live` as well as content with publishing statuses of :ref:`Draft (Never Published)` or :ref:`Draft (Unpublished Changes)`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:119
+msgid "When you use **Staff** view in preview mode, you also see any content that is :ref:`Visible to Staff Only`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:125
+msgid "Preview Draft Content"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:127
+msgid "To preview draft content and see how it would appear to members of different groups when it is released, follow these steps."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:130
+msgid "From a unit page in the **Course Outline** in Studio, select **Preview**."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:137
+msgid "The course view refreshes to present course content as it is currently configured in Studio, and as a learner in the selected group would see it."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:140
+msgid "If you use randomized content blocks in your course, you cannot preview unpublished units that contain content from randomized content blocks, because the randomized content is not assigned until after the unit is published. For information about viewing the actual content that has been assigned to a particular learner from a randomized content block in a live course, see :ref:`Specific Student View`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:152
+msgid "Viewing Course Content Based on Roles"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:154
+msgid "When you select **View Live** or **Preview** from the course outline in Studio, you can see how it would appear to members of different groups by selecting one of the **View this course as** options in the LMS."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:0
+msgid "The \"View this course as\" drop down list, with a group selected."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:161
+msgid "The following table summarizes the content that is available in either **View Live** mode or **Preview** mode when you choose a role for viewing the content."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:169
+msgid "\"View this course as\" Role"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:170
+msgid "In \"View Live\" Mode"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:171
+msgid "In \"Preview\" Mode"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:173
+msgid ":ref:`Staff<Staff View>`"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:174
+msgid "You see content that has any of the publishing statuses :ref:`Published and Live`, :ref:`Published Not Yet Released`, or :ref:`Draft (Unpublished Changes)`. In **Staff** view, you also see content that is :ref:`Visible to Staff Only`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:178
+msgid "In addition to the content you would see in \"View Live\" mode, you also see content that is in :ref:`Draft (Never Published)` status. In **Staff** view, you also see content that is :ref:`Visible to Staff Only`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:183
+msgid ":ref:`Learner<Student View>`"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:184
+msgid "You see content that has a status of :ref:`Published and Live`, and that is intended for all learners. For example, you see content that is not intended for a specific cohort group. In **Student** view, you do not see content that is :ref:`Visible to Staff Only`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:188
+msgid "In addition to the content that you would see in \"View Live\" mode, you also see content that has a status of :ref:`Draft (Never Published)` or :ref:`Draft (Unpublished Changes)`. In **Student** view, you do not see content that is :ref:`Visible to Staff Only`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:193
+msgid ":ref:`Specific Learner<Specific Student View>`"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:194
+msgid "You see content that has a status of :ref:`Published and Live`, and is intended for the specific learner whose email or username you enter."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:196
+msgid "**Specific student** view is not available for unpublished content or if the course has not started."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:199
+msgid ":ref:`Learner in a Specific Content Group<Student in Content Group View>`"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:201
+msgid "You see content that has a status of :ref:`Published and Live` that would be available to learners who belong to the specified content group."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:204
+msgid "In addition to the content you would see in \"View Live\" mode, you also see content that has a status of :ref:`Draft (Never Published)` or :ref:`Draft (Unpublished Changes)` that would be available to learners who belong to the specified content group."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:209
+msgid ":ref:`Learner in an Enrollment Track<Learner in Enrollment Track Group View>`"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:211
+msgid "You see content that has a status of :ref:`Published and Live` that would be available to learners who are in the specified enrollment track."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:214
+msgid "In addition to the content you would see in \"View Live\" mode, you also see content that has a status of :ref:`Draft (Never Published)` or :ref:`Draft (Unpublished Changes)` that would be available to learners who are in the specified enrollment track."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:219
+msgid "When a unit's state is :ref:`Published and Live`, the preview and the live versions of the course are exactly the same. In this case, selecting either **View Live** or **Preview** gives you the same view of that unit."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:229
+msgid "Staff View"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:231
+msgid "Staff view displays content in your course as any member of the course team would experience it."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:234
+msgid "When you view your course content using **Staff** view, you can execute tests to make sure that your course works the way you intend. For example, before the release date of a subsection, members of the course team can work through the problems to verify that the correct answer receives a green check for correct, and that any answer other than the correct one receives a red X for incorrect."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:241
+msgid "When you use **Staff** view in the LMS, you can go back to Studio to edit course content in the following ways."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:244
+msgid "On a unit page, select **View Unit in Studio** to open the unit within the course outline in Studio."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:247
+msgid "From the instructor dashboard, select **View Course in Studio** to open the course outline in Studio."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:250
+msgid "On the **Progress** page, select **View Grading in Studio** to open the **Grading** page in Studio."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:258
+msgid "Learner View"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:260
+msgid "Learner view displays content in your course as an enrolled learner in your course would experience it."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:263
+msgid "If your course uses randomized content blocks, or if your course is designed so that learners in different enrollment track groups or content groups are shown different content, you can select an option from the **View Course As** dropdown list to see the content that a specific learner sees, or that a learner in a specific group sees. For more information, see :ref:`Specific Student View` or :ref:`Viewing Cohort Specific Courseware`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:275
+msgid "Specific Learner View"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:277
+msgid "This view is available only if your course has started, and only for content that has a status of :ref:`Published and Live`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:280
+msgid "Specific learner view displays published content in your live course as the learner that you specify experiences it. When you view the **Progress** page, the page displays grades and progress for the learner that you have specified."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:284
+msgid "When you view your course content as **Specific student**, be aware of the following limitations."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:287
+msgid "You cannot view open response assessment problems as a specific learner."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:289
+msgid "In courses with randomized content blocks, you see the actual problem that was assigned to a specific learner. This view allows you to evaluate a request to adjust a grade or reset the number of attempts for a problem. For details about adjusting grades or resetting attempts, see :ref:`Adjust_grades`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:300
+msgid "Learner in a Content Group View"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:302
+msgid "This view displays content as a learner who belongs to the specified content group would experience it. You can use this view to verify that content designed for learners in a specific content group is displaying as intended."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:306
+msgid "For details about content groups, and about creating and previewing cohort-specific content, see :ref:`About Content Groups`, :ref:`Cohorted Courseware Overview`, and :ref:`Viewing Cohort Specific Courseware`."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:314
+msgid "Learner in an Enrollment Track Group View"
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:316
+msgid "This view displays content as a learner who is in a specific enrollment track would experience it. You can use this view to verify that content designed for learners in a specific enrollment track is displaying as intended."
+msgstr ""
+
+#: ../../../shared/developing_course/testing_courseware.rst:320
+msgid "For more information about enrollment track groups, and about creating and previewing enrollment track based content, see :ref:`About Enrollment Track Groups and Access` and :ref:`Enrollment Track Specific Courseware Overview`."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:5
+msgid "Getting Started with Course Content Development"
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:7
+msgid "When you have finished :ref:`setting up your course<Setting up your Course Index>`, you are ready to build your course content."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:10
+msgid "This section provides an outline of the steps involved in developing your course content, with links to more details."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:21
+msgid "Understanding Course Building Blocks"
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:23
+msgid "Before you begin, you should understand the building blocks of an edX course."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:25
+msgid ":ref:`The course outline<Developing Your Course Outline>` is the container for all of your course content. The outline contains one or more sections."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:27
+msgid ":ref:`Course sections<Developing Course Sections>` are at the top level of your course and typically represent a time period. A section contains one or more subsections."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:30
+msgid ":ref:`Course subsections<Developing Course Subsections>` are parts of a section, and usually represent a topic or other organizing principle. A subsection contains one or more units."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:33
+msgid ":ref:`Course units <Developing Course Units>` are lessons in a subsection that learners view as single pages. A unit contains one or more components."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:35
+msgid ":ref:`Course components<Developing Course Components>` are objects within units that contain your actual course content."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:42
+msgid "Creating New Course Content"
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:44
+msgid "Once you understand the way edX courses are structured, you can start organizing your content and entering it into Studio."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:47
+msgid "You create :ref:`sections<Create a Section>`, :ref:`subsections<Create a Subsection>`, and :ref:`units<Create a Unit>` in the :ref:`course outline<Developing Your Course Outline>`."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:51
+msgid "For graded subsections, you also :ref:`set the assignment type and due date<Set the Assignment Type and Due Date for a Subsection>`."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:55
+msgid "You :ref:`create components<Add a Component>` in the unit page."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:58
+msgid "In addition, you :ref:`control content visibility<Controlling Content Visibility>` by setting release dates on the outline and publishing units."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:61
+msgid "The following diagram summarizes the content creation workflow:"
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:None
+#: ../../../shared/developing_course/workflow.rst:None
+msgid "Diagram of the content creation process"
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:67
+msgid "It is recommended that you :ref:`test course content <Testing Your Course Content>` throughout the creation process, including making sure that the content is available for learners who access courses using the edX mobile apps. For more information, see :ref:`Designing For a Mobile Experience`."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:72
+#: ../../../shared/developing_course/workflow.rst:151
+msgid "Keep in mind that course updates that you make might take longer to appear in the edX mobile apps than on the edX site. In particular, newly published content can take up to an hour to update on the Android app."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:81
+msgid "Making Course Content Visible to Students"
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:83
+msgid "Course content visibility depends on the following factors."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:85
+msgid "The :ref:`course start date <Set Start and End Dates>`."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:86
+msgid "The release dates of the :ref:`section<Set a Section Release Date>` and :ref:`subsection<Set a Subsection Release Date>`."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:88
+msgid "The :ref:`prerequisite subsections<configuring_prerequisite_content>` that you configure."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:90
+msgid "The :ref:`publishing status<Hide a Unit from Students>` of the unit."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:91
+msgid "The :ref:`Hide content from learners<Hide a Unit from Students>` setting."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:93
+msgid "The :ref:`content groups<About Content Groups>` or :ref:`enrollment track groups<About Enrollment Track Groups and Access>` that you have allowed to access the content."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:96
+msgid "The use of the :ref:`Results Visibility<Problem Results Visibility>` setting."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:107
+msgid "Making Course Content Searchable"
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:109
+msgid "Learners can search course text in :ref:`Text components<Working with Text Components>` and video transcripts by using the **Search** box at the top of the **Course** page."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:113
+msgid "Before learners can search your course, Studio must index the content. Studio indexes all new course content automatically when you :ref:`publish<Publish a Unit>` the content."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:117
+msgid "If necessary, you can manually reindex all of the content in your course at any time. Typically, you would only manually reindex your course content if learners see unexpected search results. To reindex your course content, select **Reindex Content** at the top of the **Course Outline** page. Reindexing usually takes less than 30 seconds."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:127
+msgid "Revising Content"
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:129
+msgid "You can revise your course content at any time."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:131
+msgid "When you :ref:`reorganize sections, subsections, and units<Reorganize the Course Outline>` in the outline, the new order is immediately visible to learners if the section and subsection are released."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:135
+msgid "When you :ref:`edit a unit<Edit a Unit>`, or :ref:`components<Add a Component>` within a unit, you must :ref:`publish<Publish a Unit>` those changes to make them visible to learners."
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:139
+msgid "The following diagram summarizes the content revision workflow and content visibility:"
+msgstr ""
+
+#: ../../../shared/developing_course/workflow.rst:146
+msgid "It is recommended that you :ref:`test course content <Testing Your Course Content>` during the revision process, including making sure that the content is available for learners who access courses using the edX mobile apps. For more information, see :ref:`Designing For a Mobile Experience`."
+msgstr ""

@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Open edX Release Notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open edX Release Notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/hawthorn.rst:5
+msgid "Open edX Hawthorn Release"
+msgstr ""
+
+#: ../../source/hawthorn.rst:7
+msgid "This page lists the highlights of the Hawthorn release of the Open edX platform."
+msgstr ""
+
+#: ../../source/hawthorn.rst:9
+msgid "The `edX Release Notes`_ contain a summary of changes that are deployed to edx.org. Those changes are part of the master branch of the edX Platform in GitHub. You can also find `release announcements`_ on the open.edx.org website."
+msgstr ""
+
+#: ../../source/hawthorn.rst:14
+msgid "Changes listed for July 6, 2018 and before are included in the Hawthorn release of Open edX. Changes after that point will be in future Open edX releases."
+msgstr ""
+
+#: ../../source/hawthorn.rst:23
+msgid "New and Improved Features"
+msgstr ""
+
+#: ../../source/hawthorn.rst:25
+msgid "The Open edX Hawthorn release includes the following updates."
+msgstr ""
+
+#: ../../source/hawthorn.rst:34
+msgid "LMS and Learner Features"
+msgstr ""
+
+#: ../../source/hawthorn.rst:36
+msgid "We’ve enhanced the learner profiles so that they now include the date a learner joined the platform and any course credentials they have received. Learner profiles link to social media accounts and help learners share information with one another."
+msgstr ""
+
+#: ../../source/hawthorn.rst:40
+msgid "Learners now have the ability to purchase all the courses in a program in just one transaction. This avoids the hassle of having to enter payment information multiple times."
+msgstr ""
+
+#: ../../source/hawthorn.rst:43
+msgid "New discussion notifications now send an email message the first time a learner's post receives a comment. The message contains the comment and a link back to the course discussions for easy access. Inline discussions are expanded by default. This change has led to a threefold increase in discussion participation on edx.org.​"
+msgstr ""
+
+#: ../../source/hawthorn.rst:52
+msgid "Studio and Course Author Tools"
+msgstr ""
+
+#: ../../source/hawthorn.rst:54
+msgid "Course teams now have the ability to override learner scores for individual problems. This can be done through a setting on both the instructor dashboard and the Staff Debug viewer."
+msgstr ""
+
+#: ../../source/hawthorn.rst:57
+msgid "Course Reviews can now be viewed and added by learners from within the course experience. Open edX system administrators can configure a reviews provider, such as CourseTalk, to allows learners to leave reviews for a particular course."
+msgstr ""
+
+#: ../../source/hawthorn.rst:60
+msgid "Proctored exams have been improved, enabling course teams to add specific exam instructions in the Studio proctored exam settings."
+msgstr ""
+
+#: ../../source/hawthorn.rst:62
+msgid "The Files & Uploads page has been updated to significantly simplify the experience of adding all types of files to a course. This includes the ability to search and a Hide File Preview option."
+msgstr ""
+
+#: ../../source/hawthorn.rst:65
+msgid "The ORA problem editor has been improved. A new interface offers the same formatting options for the prompt that are available for HTML components. You no longer have to create a separate HTML component above the ORA assignment."
+msgstr ""
+
+#: ../../source/hawthorn.rst:69
+msgid "Weekly course highlight messages can now be sent to encourage learners to remain engaged with self-paced courses. Specify a few highlights for each course section, and the platform sends out a weekly email message that lists these highlights. Courses on edx.org that enabled weekly highlights had higher verification rates than ones without."
+msgstr ""
+
+#: ../../source/hawthorn.rst:74
+msgid "The HTML components have been updated to give you even more easy formatting options such as aligning your text the way you want: aligned to the left or right, centered, or fully justified. Images in HTML components can be added right inside the HTML component itself, without having to upload files beforehand."
+msgstr ""
+
+#: ../../source/hawthorn.rst:79
+msgid "The Video Uploads page is enabled by default. For course teams who partner with 3Play Media and cielo24, transcripts (including translations of transcripts) are added to Studio automatically.​"
+msgstr ""
+
+#: ../../source/hawthorn.rst:82
+msgid "You can establish a password policy to require a minimum strength and complexity for passwords. For more information, see `Password Policy`_"
+msgstr ""
+
+#: ../../source/hawthorn.rst:86
+msgid "Changes to OLX <transcript> Element for Videos"
+msgstr ""
+
+#: ../../source/hawthorn.rst:88
+msgid "The primary storage for video transcripts on edx.org is now Amazon S3. In connection with this change, we have made changes to the ``<transcript>`` element for videos in OLX, which is the XML-based standard for course export and import on edX. The ``<transcript>`` element, which was formerly a child of the ``<video>`` element, is now a child of a ``<transcripts>`` element, which is in turn a child of the ``<video_asset>`` element. Here is an example of an OLX ``<video>`` element, showing the way transcripts are now handled."
+msgstr ""
+
+#: ../../source/hawthorn.rst:115
+msgid "Transcript content files are stored in the course's ``/static`` directory, using the file name format ``[edx_video_id]-[language_code].srt``. For example, in the preceding example, there should be a transcript file with the name ``9c563e7d-c86c-en.srt`` in the ``/static`` directory."
+msgstr ""
+
+#: ../../source/hawthorn.rst:122
+msgid "System Upgrades and Updates"
+msgstr ""
+
+#: ../../source/hawthorn.rst:124
+msgid "The Hawthorn release makes version updates to a number of system components."
+msgstr ""
+
+#: ../../source/hawthorn.rst:130
+msgid "System"
+msgstr ""
+
+#: ../../source/hawthorn.rst:131
+msgid "Upgraded Version"
+msgstr ""
+
+#: ../../source/hawthorn.rst:132
+msgid "edxapp"
+msgstr ""
+
+#: ../../source/hawthorn.rst:133
+msgid "Django 1.11.x"
+msgstr ""
+
+#: ../../source/hawthorn.rst:134
+msgid "Mongo"
+msgstr ""
+
+#: ../../source/hawthorn.rst:135
+msgid "Mongo 3.2"
+msgstr ""
+
+#: ../../source/hawthorn.rst:136
+msgid "Search"
+msgstr ""
+
+#: ../../source/hawthorn.rst:137
+msgid "ElasticSearch 1.5"
+msgstr ""
+
+#: ../../source/hawthorn.rst:138
+msgid "Node"
+msgstr ""
+
+#: ../../source/hawthorn.rst:139
+msgid "Node 8"
+msgstr ""
+
+#: ../../source/hawthorn.rst:140
+msgid "xblock-lti-consumer"
+msgstr ""
+
+#: ../../source/hawthorn.rst:141
+msgid "1.1.5"
+msgstr ""
+
+#: ../../source/hawthorn.rst:142
+msgid "Queueing"
+msgstr ""
+
+#: ../../source/hawthorn.rst:143
+msgid "Redis replaces Rabbit"
+msgstr ""
+
+#: ../../source/hawthorn.rst:148
+msgid "Deprecated Features"
+msgstr ""
+
+#: ../../source/hawthorn.rst:150
+msgid "Several features are deprecated or deleted in the Open edX Hawthorn release."
+msgstr ""
+
+#: ../../source/hawthorn.rst:152
+msgid "The waffle flag ``unified_course_view``, which can be used for the new view of the course outline on a separate page, was deprecated in Ginkgo.  The old sidebar navigation and this waffle flag will be fully removed in the next release. We recommend switching this flag to ``True``, so that you will not experience any change with the next release."
+msgstr ""
+
+#: ../../source/hawthorn.rst:157
+msgid "``django-simple-history`` has been deprecated and removed."
+msgstr ""
+
+#: ../../source/hawthorn.rst:158
+msgid "The ``LogoutViewConfiguration`` model has been removed. Single logout is now permanently enabled. This meants that logging out of the LMS or an IDA logs you out of all systems."
+msgstr ""

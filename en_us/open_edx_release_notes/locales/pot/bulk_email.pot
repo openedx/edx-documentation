@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Open edX Release Notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open edX Release Notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/bulk_email.rst:5
+msgid "Enabling the Bulk Email Feature"
+msgstr ""
+
+#: ../../source/bulk_email.rst:7
+msgid "This section describes a change to the process for enabling or disabling the bulk email feature. This change was released to the edx-platform repository on 24 May 2016. On that date, the bulk email feature was disabled on all Open edX installations. To re-enable the bulk email feature, you must follow the new procedure described in this section."
+msgstr ""
+
+#: ../../source/bulk_email.rst:19
+msgid "About This Change"
+msgstr ""
+
+#: ../../source/bulk_email.rst:21
+msgid "Prior to this change, you enabled or disabled the bulk email feature by making manual updates to several files, including the ``lms/envs/common.py`` Python file. The two relevant settings in the FEATURES section of this file were ``ENABLE_INSTRUCTOR_EMAIL`` and ``REQUIRE_COURSE_EMAIL_AUTH``."
+msgstr ""
+
+#: ../../source/bulk_email.rst:26
+msgid "As of 21 May 2016, ``ENABLE_INSTRUCTOR_EMAIL: False`` is set for all Open edX sites that follow the edx-platform repository closely."
+msgstr ""
+
+#: ../../source/bulk_email.rst:29
+msgid "To simplify the process of changing the bulk email settings, a **Bulk_Email** option is now available in the Django administration console."
+msgstr ""
+
+#: ../../source/bulk_email.rst:34
+msgid "Changing the Bulk Email Setting"
+msgstr ""
+
+#: ../../source/bulk_email.rst:36
+msgid "To enable or disable the bulk email feature for an Open edX site, follow these steps."
+msgstr ""
+
+#: ../../source/bulk_email.rst:39
+msgid "Sign in to the Django administration console for your base URL. For example, ``http://{your_URL}/admin``."
+msgstr ""
+
+#: ../../source/bulk_email.rst:42
+msgid "In the **Bulk_Email** section, next to **Bulk email flags**, select **Add**."
+msgstr ""
+
+#: ../../source/bulk_email.rst:44
+msgid "To enable the bulk email feature, select the **Enabled** check box."
+msgstr ""
+
+#: ../../source/bulk_email.rst:46
+msgid "To disable the bulk email feature, clear the **Enabled** check box."
+msgstr ""
+
+#: ../../source/bulk_email.rst:48
+msgid "If you previously set ``REQUIRE_COURSE_EMAIL_AUTH: True``, select the **Require course email auth** check box."
+msgstr ""
+
+#: ../../source/bulk_email.rst:51
+msgid "At the bottom of the page, select **Save**."
+msgstr ""
