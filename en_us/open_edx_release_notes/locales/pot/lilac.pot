@@ -1,0 +1,519 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Open edX Release Notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open edX Release Notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/lilac.rst:5
+msgid "Open edX Lilac Release"
+msgstr ""
+
+#: ../../source/lilac.rst:7
+msgid "These are the release notes for the Lilac release, the 12th community release of the Open edX Platform, spanning changes from November 12 2020 to April 9 2021.  You can also review details about `earlier releases`_ or learn more about the `Open edX Platform`_."
+msgstr ""
+
+#: ../../source/lilac.rst:18
+msgid "Learner Experiences"
+msgstr ""
+
+#: ../../source/lilac.rst:21
+#: ../../source/lilac.rst:97
+msgid "Open-Response Assessments"
+msgstr ""
+
+#: ../../source/lilac.rst:23
+msgid "Learners can submit rich text responses"
+msgstr ""
+
+#: ../../source/lilac.rst:24
+msgid "Grading status message"
+msgstr ""
+
+#: ../../source/lilac.rst:25
+msgid "Allow viewing ORA steps after peer review"
+msgstr ""
+
+#: ../../source/lilac.rst:26
+msgid "See the Authoring Experience section below for more ORA enhancements"
+msgstr ""
+
+#: ../../source/lilac.rst:29
+msgid "Account Micro-frontend"
+msgstr ""
+
+#: ../../source/lilac.rst:31
+msgid "The Account MFE is enabled by default and provides private user settings UIs, including:"
+msgstr ""
+
+#: ../../source/lilac.rst:33
+msgid "Account settings page"
+msgstr ""
+
+#: ../../source/lilac.rst:34
+msgid "Demographics collection"
+msgstr ""
+
+#: ../../source/lilac.rst:35
+msgid "IDV (Identity Verification)"
+msgstr ""
+
+#: ../../source/lilac.rst:38
+msgid "Checkout Micro-frontend"
+msgstr ""
+
+#: ../../source/lilac.rst:40
+msgid "The Checkout MFE is enabled by default. Prior checkout UIs may not be PCI compliant."
+msgstr ""
+
+#: ../../source/lilac.rst:43
+msgid "Learning Micro-frontend"
+msgstr ""
+
+#: ../../source/lilac.rst:45
+msgid "The Learning MFE is *not* enabled by default, because theming and internationalizations support is incomplete. However, we expect that this is the last named release to support the Legacy courseware frontend."
+msgstr ""
+
+#: ../../source/lilac.rst:47
+msgid "If the Learning MFE is installed using the MFE Deployer Ansible role then certain features can be opted in to the micro-frontend. These LMS CourseWaffleFlags can be toggled on (globally, per-user, or per-course) to switch certain features over the Learning MFE:"
+msgstr ""
+
+#: ../../source/lilac.rst:49
+msgid "courseware.courseware_mfe : Enable to host courseware (ie, the learning sequence experience) in the MFE."
+msgstr ""
+
+#: ../../source/lilac.rst:50
+msgid "courseware.microfrontend_course_team_preview : Enable to show global and course-level staff members the ability to preview courseware in the MFE. Does not affect learners."
+msgstr ""
+
+#: ../../source/lilac.rst:51
+msgid "course_home.course_home_mfe : Enable in conjunction with one or more of the following:"
+msgstr ""
+
+#: ../../source/lilac.rst:53
+msgid "course_home.course_home_mfe_dates_tab : Display the “Dates” course tab in the MFE."
+msgstr ""
+
+#: ../../source/lilac.rst:54
+msgid "course_home.course_home_mfe_outline_tab : Display the course outline (the target of the “Course” course tab) in the MFE."
+msgstr ""
+
+#: ../../source/lilac.rst:55
+msgid "course_home.course_home_mfe_progress_tab: Display the “Progress” course tab in the MFE."
+msgstr ""
+
+#: ../../source/lilac.rst:58
+msgid "Course Dates & Milestones"
+msgstr ""
+
+#: ../../source/lilac.rst:60
+msgid "When a learner reaches the end of the course, they will see a new navigation button directing them to “Complete the course” if they’ve passed or completed an audit course. The new Course Completion page also provides clarity for common learner questions - Did I complete the course? Did I achieve a certificate? Am I still eligible to upgrade?"
+msgstr ""
+
+#: ../../source/lilac.rst:62
+msgid "The 3-day Streak Milestone is live and celebrates learners who engage with their course on 3 consecutive days. It also provides normative insights into how learners’ behavior connects to successful course outcomes. (TBD Image)"
+msgstr ""
+
+#: ../../source/lilac.rst:64
+msgid "See https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_MILESTONES_APP'] for information on how to turn on and configure these Milestones features."
+msgstr ""
+
+#: ../../source/lilac.rst:67
+msgid "Mobile Experience"
+msgstr ""
+
+#: ../../source/lilac.rst:69
+msgid "The fonts, text and colors have been updated to match the rebrand, giving users a consistent cross platform experience."
+msgstr ""
+
+#: ../../source/lilac.rst:70
+msgid "Mobile learners can now understand the benefits of the upgrade option, especially when they encounter locked content."
+msgstr ""
+
+#: ../../source/lilac.rst:71
+msgid "Learners can now complete ORAs in their mobile devices without having to leave the application."
+msgstr ""
+
+#: ../../source/lilac.rst:72
+msgid "Learners can now complete Drag and Drop assessments on their mobile devices without having to leave the application. (iOS only)"
+msgstr ""
+
+#: ../../source/lilac.rst:73
+msgid "When learners open the app, they are asked permission to enable notifications. Using firebase, notifications can be sent to all mobile app learners who have their notifications enabled."
+msgstr ""
+
+#: ../../source/lilac.rst:74
+msgid "Learners can now see green checkmarks next to the subsections and components in the course and section outline pages. (iOS only)"
+msgstr ""
+
+#: ../../source/lilac.rst:75
+msgid "A resume button, similar to the one in web, is now available in the mobile application. When learners click on the resume button, they will be navigated to the component after the last completed one. The state of this resume button syncs across web and mobile. In other words, if a component is completed on web, the user can use the mobile application to resume to the next incomplete component."
+msgstr ""
+
+#: ../../source/lilac.rst:76
+msgid "Learners will not see a celebratory modal, similar to web, when they complete their first section."
+msgstr ""
+
+#: ../../source/lilac.rst:77
+msgid "Previously, the links to assignments shown in the course dates page  in the app took learners to the mobile browser. Now, they are navigated directly to that component in the mobile application, removing the need to re-login to access the assignment."
+msgstr ""
+
+#: ../../source/lilac.rst:81
+#: ../../source/lilac.rst:120
+msgid "Special Exams Experience"
+msgstr ""
+
+#: ../../source/lilac.rst:83
+msgid "Proctortrack Onboarding UX Improvements: Based on learner feedback, we’ve added new messaging and entrance locations to the Proctortrack onboarding experience to make the process more clear. (TBD image)"
+msgstr ""
+
+#: ../../source/lilac.rst:89
+msgid "Authoring Experiences"
+msgstr ""
+
+#: ../../source/lilac.rst:92
+msgid "Studio"
+msgstr ""
+
+#: ../../source/lilac.rst:94
+msgid "In-Context Unit Naming: Authors can now rename units from the course outline."
+msgstr ""
+
+#: ../../source/lilac.rst:99
+msgid "Toggle rubric visibility for learners: Course staff can now choose to show learners the rubric for an ORA as they complete their ORA submission, more easily allowing learners to understand how they will be evaluated."
+msgstr ""
+
+#: ../../source/lilac.rst:100
+msgid "ORA Problems as Component Category: We have elevated Open Response components as a category in the Studio Unit page so that they are easier to drop into a unit page with pre-configured templates. You can quickly add some of the most commonly configured ORA problems"
+msgstr ""
+
+#: ../../source/lilac.rst:101
+msgid "Allow Viewing ORA Steps After Peer Review: Learners can now proceed to the next assessment step when reaching a peer assessment step. This change makes all peer-related steps non-blocking, though they will still be required to complete the problem. Some problems for example situate self assessment after peer assessment, but previously learners were blocked from completing this step."
+msgstr ""
+
+#: ../../source/lilac.rst:102
+msgid "Support Flexible Peer Grading Averaging for Learners delayed / in Peer Grading step: As part of reducing the number of students delayed in the peer grading step, we have introduced a new grading setting for ORA peer reviews called “Enable Flexible Peer Grading Averaging.” When enabled, learners who have received at least 30% of the required “Graded By” peer reviews and who have waited longer than seven days for a peer review will be assigned a peer review grade using available peer reviews. If enabled, the effect is that fewer learners will be waiting for additional peer reviews, requiring less manual staff intervention for this edge case."
+msgstr ""
+
+#: ../../source/lilac.rst:103
+msgid "Added username details to ORA report download"
+msgstr ""
+
+#: ../../source/lilac.rst:104
+msgid "Added problem name and location to ORA report download"
+msgstr ""
+
+#: ../../source/lilac.rst:105
+msgid "Added ORA zipped file download for submission text + attached files"
+msgstr ""
+
+#: ../../source/lilac.rst:106
+msgid "Open response assessment problems as a component category"
+msgstr ""
+
+#: ../../source/lilac.rst:107
+msgid "Separate assessment steps & schedule authoring areas in Studio"
+msgstr ""
+
+#: ../../source/lilac.rst:108
+msgid "See the Learner Experience section above for more ORA enhancements"
+msgstr ""
+
+#: ../../source/lilac.rst:112
+msgid "LTI 1.3 and LTI Advantage Support"
+msgstr ""
+
+#: ../../source/lilac.rst:113
+msgid "lti-consumer-xblock (also known as xblock-lti-consumer) has been updated to support LTI 1.3, as well as the Deep Linking (LTI-DL) and Assignments and Grades services (LTI-AGS) features of LTI Advantage. Note that this xBlock is not installed in Lilac by default. Information on configuring lti-consumer-xblock can be found at https://github.com/edx/xblock-lti-consumer/blob/master/README.rst"
+msgstr ""
+
+#: ../../source/lilac.rst:116
+msgid "Gradebook MFE"
+msgstr ""
+
+#: ../../source/lilac.rst:117
+msgid "The Gradebook MFE is *not* enabled by default because theming and internationalizations support is incomplete. It allows editing of individual learners' grades. Also supports bulk uploads of grades, but requires additional configuration. See https://github.com/edx/frontend-app-gradebook/blob/open-release/lilac.master/README.md for more information."
+msgstr ""
+
+#: ../../source/lilac.rst:122
+msgid "Proctortrack Onboarding Status Menu: Helps course teams better identify which learners have been onboarded and which have not. See https://partners.edx.org/announcements/proctortrack-onboarding-status-menu for more information. The dashboard can be found under *Instructor Dashboard > Special Exams > Student Onboarding Status*. Requires integration with the `ProctorTrack Service from Verificient`_."
+msgstr ""
+
+#: ../../source/lilac.rst:123
+msgid "Reset an Errored Proctortrack Exam Attempt: We added the ability to reset an errored Proctortrack exam attempt to be “Ready to resume” status. Learners will be able to resume the exam immediately once the course team allows it. The exam time will resume from where they last experienced an error.  For example, if the learner errored 45 minutes into the exam, and the allowed duration of the exam is 2 hours, the learner will only have 1 hour and 15 minutes to complete the rest of the exam."
+msgstr ""
+
+#: ../../source/lilac.rst:126
+msgid "Credentials (for Programs)"
+msgstr ""
+
+#: ../../source/lilac.rst:128
+msgid "Program Completion Emails: Added `ProgramCompletionEmailConfiguration`_ that enables an email to be customized and sent to learners when triggered by the generation of a program certificate. These email messages are especially useful to remind a learner of their accomplishment at the appropriate time if a course in the program has a `certificate availability date`_ set in the future. These messages can be customized on a per program basis."
+msgstr ""
+
+#: ../../source/lilac.rst:132
+msgid "Administrator Experiences"
+msgstr ""
+
+#: ../../source/lilac.rst:135
+msgid "Migrations"
+msgstr ""
+
+#: ../../source/lilac.rst:137
+msgid "An index was added to the ``courseware_studentmodule`` table. This can be a VERY EXPENSIVE MIGRATION which may take hours or days to run depending on size. Depending on your database, it may also lock this table, causing courseware to be non-functional during that time."
+msgstr ""
+
+#: ../../source/lilac.rst:139
+msgid "If you want to run this migration manually in a more controlled way (separate from your release pipeline), the SQL needed is::"
+msgstr ""
+
+#: ../../source/lilac.rst:144
+msgid "You can then `fake the migration`_."
+msgstr ""
+
+#: ../../source/lilac.rst:147
+msgid "Course Upsell Messaging and Payment"
+msgstr ""
+
+#: ../../source/lilac.rst:149
+msgid "Reduce PCI compliance burden by replacing checkout fields which collect relevant PII data with Cybersource hosted fields. This way we do not collect and sensitive information and do not have to"
+msgstr ""
+
+#: ../../source/lilac.rst:150
+msgid "Allows setting default currency from environment"
+msgstr ""
+
+#: ../../source/lilac.rst:151
+msgid "Get and pipe-through the current datetime from the server, so that we don't need to use the browser time in preparation for the redesigned value proposition’s expiration box’s countdown to access expiration."
+msgstr ""
+
+#: ../../source/lilac.rst:155
+msgid "Settings and Toggles Documentation"
+msgstr ""
+
+#: ../../source/lilac.rst:156
+msgid "Documentation for settings and toggles is much improved, but still incomplete. See https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/index.html"
+msgstr ""
+
+#: ../../source/lilac.rst:158
+msgid "New settings introduced in Lilac include:"
+msgstr ""
+
+#: ../../source/lilac.rst:160
+msgid "TBD"
+msgstr ""
+
+#: ../../source/lilac.rst:164
+msgid "Dependency updates"
+msgstr ""
+
+#: ../../source/lilac.rst:166
+msgid "Mongo was upgraded from 3.0 to 4.0."
+msgstr ""
+
+#: ../../source/lilac.rst:167
+msgid "Switched from Elasticsearch 1 to Elasticsearch 7 across Open edX. This may require some syntax changes for custom scripts that used search APIs."
+msgstr ""
+
+#: ../../source/lilac.rst:169
+msgid "Please change queries that used ``__not`` to ``__exclude``"
+msgstr ""
+
+#: ../../source/lilac.rst:170
+msgid "Please properly URL-encode any plus signs in query URLs (like in course run key parameters) to ``%2b``. Our Elasticsearch 7 implementation is more strict in that regard."
+msgstr ""
+
+#: ../../source/lilac.rst:171
+msgid "Please change queries against course-discovery that used pacing to pacing_type"
+msgstr ""
+
+#: ../../source/lilac.rst:174
+msgid "New Settings"
+msgstr ""
+
+#: ../../source/lilac.rst:176
+msgid "Use of edx-proctoring with the ProctorTrack vendor now requires a setting PROCTORING_USER_OBFUSCATION_KEY – it should be initially set to the same value as SECRET_KEY, in both LMS and Studio. This allows it to be changed independently, although there is not yet a way to rotate it without breaking integration."
+msgstr ""
+
+#: ../../source/lilac.rst:179
+msgid "Changes to edx-organizations"
+msgstr ""
+
+#: ../../source/lilac.rst:181
+msgid "Uniqueness constraint added to Organization.short_name"
+msgstr ""
+
+#: ../../source/lilac.rst:183
+msgid "This was added in edx-organizations 6.0.0. See release notes for details."
+msgstr ""
+
+#: ../../source/lilac.rst:184
+msgid "For instances that did not enable FEATURES['ORGANIZATIONS_APP'], this is a no-op"
+msgstr ""
+
+#: ../../source/lilac.rst:185
+msgid "For instances the DID enable FEATURES['ORGANIZATIONS_APP'], any Organizations with conflicting short_names need to be removed (can be done via Django admin), else the migration for edx-organizations 6.0.0 will fail to apply."
+msgstr ""
+
+#: ../../source/lilac.rst:187
+msgid "Organizations feature globally enabled for all LMS and Studio instances."
+msgstr ""
+
+#: ../../source/lilac.rst:189
+msgid "See https://github.com/edx/edx-organizations/blob/master/docs/decisions/0001-phase-in-db-backed-organizations-to-all.rst  for reasoning and details."
+msgstr ""
+
+#: ../../source/lilac.rst:190
+msgid "If you don’t care about this change, then it shouldn’t affect you, although we still recommend running the backfill command (see below)."
+msgstr ""
+
+#: ../../source/lilac.rst:192
+msgid "Added ORGANIZATIONS_AUTOCREATE Django setting for Studio."
+msgstr ""
+
+#: ../../source/lilac.rst:194
+msgid "Defaults to True."
+msgstr ""
+
+#: ../../source/lilac.rst:195
+msgid "When True, creating a new course run or content library with an unrecognized org slug (that is, “edX” in course-v1:edX+DemoX+2T2020 will silently auto-create an organization in the background."
+msgstr ""
+
+#: ../../source/lilac.rst:196
+msgid "When False, creating a new course run or content library with an unrecognized org slug will raise an error. This is helpful if you wish to restrict the set of organizations under which course runs and content libraries may be created."
+msgstr ""
+
+#: ../../source/lilac.rst:198
+msgid "The FEATURES['ORGANIZATIONS_APP'] is no longer supported."
+msgstr ""
+
+#: ../../source/lilac.rst:200
+msgid "The Organization and OrganizationCourse model are now available on all instances."
+msgstr ""
+
+#: ../../source/lilac.rst:201
+msgid "If you previously enabled FEATURES['ORGANIZATIONS_APP'], then you should override the Studio setting ORGANIZATIONS_AUTOCREATE to Falsewhen upgrading to Lilac to achieve the same functionality."
+msgstr ""
+
+#: ../../source/lilac.rst:203
+msgid "Added Studio management command: ./manage.py cms backfill_orgs_and_org_courses"
+msgstr ""
+
+#: ../../source/lilac.rst:205
+msgid "This back-populates the organizations_organization and organizations_organizationcourse tables, for Open edX instances that did not previously enable FEATURES['ORGANIZATIONS_APP']."
+msgstr ""
+
+#: ../../source/lilac.rst:206
+msgid "It is not critical to run this for the Lilac upgrade, since no features depend on these tables being populated yet."
+msgstr ""
+
+#: ../../source/lilac.rst:207
+msgid "However, future releases may make use of the data in these tables; hence, it is best to run the backfill now."
+msgstr ""
+
+#: ../../source/lilac.rst:210
+msgid "Certificates"
+msgstr ""
+
+#: ../../source/lilac.rst:212
+msgid "Various bug fixes and updates around course certificate generation"
+msgstr ""
+
+#: ../../source/lilac.rst:214
+msgid "In an effort to be more inclusive, code referencing the course CertificateWhitelist model is being updated to instead refer to a Certificate Allowlist. The model itself has not yet been renamed."
+msgstr ""
+
+#: ../../source/lilac.rst:215
+msgid "Temporary CourseWaffleFlag added to control access to updated behavior of the CertificateWhitelist (aka Certificate Allowlist)"
+msgstr ""
+
+#: ../../source/lilac.rst:216
+msgid "Temporary CourseWaffleFlag added to control access to updated behavior of the course certificates"
+msgstr ""
+
+#: ../../source/lilac.rst:217
+msgid "The management command named create_fake_cert has been removed. The Certificate Allowlist should be used in its place."
+msgstr ""
+
+#: ../../source/lilac.rst:218
+msgid "The management command named gen_cert_report has been removed. To view the status of generated course certificates, query the certificates_generatedcertificate database table."
+msgstr ""
+
+#: ../../source/lilac.rst:219
+msgid "A user can no longer be added to both the Certificate Allowlist (meaning the user should be granted certificate) and the Certificate Invalidation list (meaning the user should not be granted a certificate) for the same course run."
+msgstr ""
+
+#: ../../source/lilac.rst:220
+msgid "Removal of the allow_certificate field on the UserProfile model has begun"
+msgstr ""
+
+#: ../../source/lilac.rst:222
+msgid "Added a new export-course-metadata-to-storage feature. In order to use it set COURSE_METADATA_EXPORT_BUCKET and COURSE_METADATA_EXPORT_STORAGE. Useful for external services you might have that want to scrape course data.'"
+msgstr ""
+
+#: ../../source/lilac.rst:225
+msgid "Deprecations"
+msgstr ""
+
+#: ../../source/lilac.rst:227
+msgid "The sysadmin dashboard is no longer supported."
+msgstr ""
+
+#: ../../source/lilac.rst:229
+msgid "The feature has been deprecated according to DEPR-118, Its ADR can be found at ADR-DEPR-118 and related discussions at Discussion-DEPR-118."
+msgstr ""
+
+#: ../../source/lilac.rst:230
+msgid "The related feature flag FEATURES['ENABLE_SYSADMIN_DASHBOARD'] is also removed."
+msgstr ""
+
+#: ../../source/lilac.rst:231
+msgid "A separate pluggable app named edx-sysadmin has been developed at and can be used as an alternative to sysadmin dashboard."
+msgstr ""
+
+#: ../../source/lilac.rst:233
+msgid "CourseTalk integration has been removed."
+msgstr ""
+
+#: ../../source/lilac.rst:235
+msgid "Xblock URL token signing can now be migrated to use a new multi-key mechanism rather than being tied to SECRET_KEY. It is recommended that you perform this migration, as it permits easier rotation of SECRET_KEY."
+msgstr ""
+
+#: ../../source/lilac.rst:238
+msgid "Branding Update"
+msgstr ""
+
+#: ../../source/lilac.rst:240
+msgid "Open edX logos, colors and fonts have been updated."
+msgstr ""
+
+#: ../../source/lilac.rst:244
+msgid "Researcher & Data Experiences"
+msgstr ""
+
+#: ../../source/lilac.rst:246
+msgid "Tracking metrics based on the anonymized session ID will experience a discontinuity or other anomaly at the time of deployment, as the anonymized IDs will change. [PR] This will likely appear as if everyone logged out and back in again, although only from a metrics perspective. In a green-blue deployment scenario, it may briefly appear as if there are twice as many sessions active."
+msgstr ""
+
+#: ../../source/lilac.rst:250
+msgid "Developer Experiences"
+msgstr ""
+
+#: ../../source/lilac.rst:252
+msgid "Import unqualified packages from lms/djangoapps, cms/djangoapps, or common/djangoapps is no longer supported. Doing so will cause instances of import_shims.warn.DeprecatedEdxPlatformImportError to be raised. See https://github.com/edx/edx-platform/blob/master/docs/decisions/0007-sys-path-modification-removal.rst  for details and context."
+msgstr ""
+
+#: ../../source/lilac.rst:254
+msgid "In common.djangoapps.student.models, the save parameter is deprecated for functions anonymous_id_for_user and unique_id_for_user, and these functions will always save generated IDs to the database. This allows future decoupling of ID generation from SECRET_KEY. Including the parameter will result in a DeprecationWarning; after Lilac we plan to remove the parameter (which will be a separate breaking change – DEPR-148)."
+msgstr ""

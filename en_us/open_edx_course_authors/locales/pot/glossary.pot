@@ -1,0 +1,1180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Building and Running an Open edX Course package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Building and Running an Open edX Course \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../shared/glossary/glossary.rst:5
+msgid "Glossary"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:7
+msgid ":ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F` - :ref:`G` - :ref:`H` - :ref:`I` - :ref:`K` - :ref:`L` - :ref:`M` - :ref:`N` - :ref:`O` - :ref:`P` - :ref:`R` - :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:12
+msgid "Most of the links to documentation provided in this glossary are to the :ref:`partnercoursestaff:document index` guide, for edX partners. Many of the same topics are available in the Open edX version of this guide, :ref:`opencoursestaff:Building and Running an Open edX Course`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:21
+msgid "A"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:25
+msgid "**AAC**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:27
+msgid "Advanced audio coding (AAC) is an audio coding standard for digital audio compression. AAC is the standard format for YouTube."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:32
+msgid "**A/B test**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:34
+msgid "See :ref:`partnercoursestaff:Content Experiment`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:39
+msgid "**About page**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:41
+msgid "The course page that provides potential learners with a course summary, prerequisites, a course video and image, and important dates."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:46
+msgid "For more information, see :ref:`partnercoursestaff:Pub Creating and Announcing a Course`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:50
+msgid "**accessible label**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:52
+msgid "In a problem component, you use special formatting to identify the specific question that learners will answer by selecting options or entering text or numeric responses."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:56
+msgid "This text is referred to as the accessible label because screen readers read all of the text that you supply for the problem and then repeat the text that is identified with this formatting immediately before reading the answer choices for the problem. This text is also used by reports and Insights to identify each problem."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:62
+msgid "All problems require accessible labels."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:64
+msgid "For more information, see :ref:`partnercoursestaff:Simple Editor`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:69
+msgid "**advanced editor**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:71
+msgid "An OLX (open learning XML) editor in a problem component that allows you to create and edit any type of problem. For more information, see :ref:`partnercoursestaff:Advanced Editor`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:77
+msgid "**Amazon Web Services (AWS)**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:79
+msgid "A third-party file hosting site where course teams can store course assets, such as problem files and videos. If videos are posted on both YouTube and AWS, the AWS version of the video serves as a backup in case the YouTube video does not play."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:86
+msgid "**assignment type**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:88
+msgid "The category of graded student work, such as homework, exams, and exercises. For more information, see :ref:`partnercoursestaff:Grading Index`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:95
+msgid "C"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:97
+msgid "**CAPA problem**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:99
+msgid "A CAPA (computer assisted personalized approach) problem refers to any of the problem types that are implemented in the edX platform by the ``capa_module`` XBlock. Examples range from text input, drag and drop, and math expression input problem types to circuit schematic builder, custom JavaScript, and chemical equation problem types."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:105
+msgid "Other assessment methods are also available, and implemented using other XBlocks. An open response assessment is an example of a non-CAPA problem type."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:111
+msgid "**certificate**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:113
+msgid "A document issued to an enrolled learner who successfully completes a course with the required passing grade. Not all edX courses offer certificates, and not all learners enroll as certificate candidates."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:117
+msgid "For information about setting up certificates for your course, see :ref:`Setting Up Certificates`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:120
+msgid "**chapter**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:122
+msgid "See :ref:`Section<S>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:126
+msgid "**checkbox problem**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:128
+msgid "A problem that prompts learners to select one or more options from a list of possible answers. For more information, see :ref:`partnercoursestaff:Checkbox`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:135
+msgid "**chemical equation response problem**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:137
+msgid "A problem that allows learners to enter chemical equations as answers. For more information, see :ref:`partnercoursestaff:Chemical Equation`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:143
+msgid "**circuit schematic builder problem**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:145
+msgid "A problem that allows learners to construct a schematic answer (such as an electronics circuit) on an interactive grid. For more information, see :ref:`partnercoursestaff:Circuit Schematic Builder`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:149
+msgid "**closed captions**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:151
+msgid "The spoken part of the transcript for a video file, which is overlaid on the video as it plays. To show or hide closed captions, you select the **CC** icon. You can move closed captions to different areas on the video screen by dragging and dropping them."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:156
+msgid "For more information, see :ref:`learners:Video Player`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:160
+msgid "**codec**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:162
+msgid "A portmanteau of \"code\" and \"decode\". A computer program that can encode or decode a data stream."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:167
+msgid "**cohort**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:169
+msgid "A group of learners who participate in a class together. Learners who are in the same cohort can communicate and share experiences in private discussions."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:173
+msgid "Cohorts are an optional feature of courses on the edX platform. For information about how you enable the cohort feature, set up cohorts, and assign learners to them, see :ref:`partnercoursestaff:Cohorts Overview`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:179
+msgid "**component**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:181
+msgid "The part of a unit that contains your actual course content. A unit can contain one or more components. For more information, see :ref:`partnercoursestaff:Developing Course Components`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:187
+msgid "**content experiment**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:189
+msgid "You can define alternative course content to be delivered to different, randomly assigned groups of learners. Also known as A/B or split testing, you use content experiments to compare the performance of learners who have been exposed to different versions of the content. For more information, see :ref:`partnercoursestaff:Overview of Content Experiments`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:196
+msgid "**content library**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:198
+msgid "See :ref:`Library<Library_g>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:203
+msgid "**content-specific discussion topic**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:205
+msgid "A category within the course discussion that appears at a defined point in the course to encourage questions and conversations. To add a content- specific discussion topic to your course, you add a discussion component to a unit. Learners cannot contribute to a content-specific discussion topic until the release date of the section that contains it. Content-specific discussion topics can be divided by cohort, so that learners only see and respond to posts and responses by other members of the cohort that they are in."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:214
+msgid "For more information, see :ref:`partnercoursestaff:Working with Discussion Components`. For information about making content-specific discussion topics divided by cohort, see :ref:`partnercoursestaff:Set up Discussions in Cohorted Courses`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:222
+msgid "**course catalog**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:224
+msgid "The page that lists all courses offered in the edX learning management system."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:230
+msgid "**course handouts**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:232
+msgid "Course handouts are files you make available to learners on the **Home** page. For more information, see :ref:`partnercoursestaff:Adding Course Updates and Handouts`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:236
+msgid "**course mode**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:238
+#: ../../../shared/glossary/glossary.rst:279
+#: ../../../shared/glossary/glossary.rst:419
+#: ../../../shared/glossary/glossary.rst:937
+msgid "See :ref:`enrollment track<enrollment_track_g>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:240
+msgid "**course navigation pane**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:242
+msgid "The navigation frame that appears at one side of the **Course** page in the LMS. The course navigation pane shows the sections in the course. When you select a section, the section expands to show subsections. When you select a subsection, the first unit in that subsection appears on the course page."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:247
+msgid "See also :ref:`Unit Navigation Bar<U>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:251
+msgid "**Course page**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:253
+msgid "The page that opens first when learners access your course. On the **Course** page, learners can view the course outline and directly access the course, either by clicking a specific section or subsection on the outline, or by clicking the **Start Course** button (**Resume Course** if the learner has previously accessed the course)."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:259
+msgid "The latest course update, such as a course welcome message, appears above the course outline. Links to various **Course Tools** including **Bookmarks**, **Reviews** and **Updates** appear at the side of this page. This page is a combination of the former **Home** and **Courseware** pages."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:266
+msgid "**course run**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:268
+msgid "A version of the course that runs at a particular time. Information about a course run includes start and end dates, as well as staff and the languages the course is available in. You can create a course run when you create a course."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:275
+msgid "For more information, see :ref:`Planning Course Run Information`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:277
+msgid "**course track**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:283
+msgid "**courseware**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:285
+msgid "In OLX (open learning XML) and in data packages, \"courseware\" refers to the main content of your course, consisting mainly of lessons and assessments. Courseware is organized into sections, subsections, units, and components. Courseware does not include handouts, the syllabus, or other course materials."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:291
+msgid "Note that the **Course** page was formerly called the **Courseware** page."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:294
+msgid "**course-wide discussion topic**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:296
+msgid "Optional discussion categories that you create to guide how learners find and share information in the course discussion. Course-wide discussion topics are accessed from the **Discussion** page in your course. Examples of course-wide discussion topics include Announcements and Frequently Asked Questions. Learners can contribute to these topics as soon as your course starts. For more information, see :ref:`partnercoursestaff:Discussions` and :ref:`partnercoursestaff:Create CourseWide Discussion Topics`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:304
+msgid "If you use cohorts in your course, you can divide course-wide discussion topics by cohort, so that although all learners see the same topics, they only see and respond to posts and responses by other members of the cohort that they are in. For information about configuring discussion topics in courses that use cohorts, see :ref:`partnercoursestaff:Set up Discussions in Cohorted Courses`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:314
+msgid "**custom response problem**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:316
+msgid "A custom response problem evaluates text responses from learners using an embedded Python script. These problems are also called \"write-your-own-grader\" problems. For more information, see :ref:`partnercoursestaff:Write Your Own Grader`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:325
+msgid "D"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:329
+msgid "**data czar**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:331
+msgid "A data czar is the single representative at a partner institution who is responsible for receiving course data from edX, and transferring it securely to researchers and other interested parties after it is received."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:335
+msgid "For more information, see the :ref:`data:edX Research Guide`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:337
+msgid "**discussion**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:339
+msgid "The set of topics defined to promote course-wide or unit-specific dialog. Learners use the discussion topics to communicate with each other and the course team in threaded exchanges. For more information, see :ref:`partnercoursestaff:Discussions`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:346
+msgid "**discussion component**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:348
+msgid "Discussion topics that course teams add directly to units. For example, a video component can be followed by a discussion component so that learners can discuss the video content without having to leave the page. When you add a discussion component to a unit, you create a content-specific discussion topic. See also :ref:`Content Specific Discussion Topic <Content Specific Discussion Topic_g>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:355
+msgid "For more information, see :ref:`partnercoursestaff:Working with Discussion Components`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:358
+msgid "**discussion thread list**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:360
+msgid "The navigation frame that appears at one side of the **Discussion** page in the LMS. The discussion thread list shows the discussion categories and subcategories in the course. When you select a category, the list shows all of the posts in that category. When you select a subcategory, the list shows all of the posts in that subcategory. Select a post to read it and its responses and comments, if any."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:369
+msgid "**dropdown problem**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:371
+msgid "A problem that asks learners to choose from a collection of answer options, presented as a drop-down list. For more information, see :ref:`partnercoursestaff:Dropdown`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:380
+msgid "E"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:384
+msgid "**edX101**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:386
+msgid "An online course about how to create online courses. The intended audience for `edX101`_ is faculty and university administrators."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:391
+msgid "**edX Edge**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:393
+msgid "`edX Edge`_ is a less restricted site than edX.org. While only edX employees and consortium members can create and post content on edX.org, any users with course creator permissions for Edge can create courses with Studio on studio.edge.edx.org, then view the courses on the learning management system at edge.edx.org."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:401
+msgid "**edX Studio**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:403
+msgid "The edX tool that you use to build your courses. For more information, see :ref:`Getting Started with Studio`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:408
+msgid "**embargo**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:410
+msgid "An embargo is an official ban on trade or commercial activity with a particular country. For example, due to U.S. federal regulations, edX cannot offer certain courses (for example, particular advanced STEM courses) on the edx.org website to learners in embargoed countries. Learners cannot access restricted courses from an embargoed country. In some cases, depending on the terms of the embargo, learners cannot access any edX courses at all."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:417
+msgid "**enrollment mode**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:423
+msgid "**enrollment track**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:425
+msgid "Also called **certificate type**, **course mode**, **course seat**, **course track**, **course type**, **enrollment mode**, or **seat type**."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:428
+msgid "The enrollment track specifies the following items about a course."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:430
+msgid "The type of certificate, if any, that learners receive if they pass the course."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:432
+msgid "Whether learners must verify their identity to earn a certificate, using a webcam and a photo ID."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:434
+msgid "Whether the course requires a fee."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:436
+msgid "**audit**: This is the default enrollment track when learners enroll in a course. This track does not offer certificates, does not require identity verification, and does not require a course fee."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:440
+msgid "**professional**: This enrollment track is only used for specific professional education courses. The professional enrollment track offers certificates, requires identity verification, and requires a fee. Fees for the professional enrollment track are generally higher than fees for the verified enrollment track. Courses that offer the professional track do not offer a free enrollment track."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:448
+msgid "If your course is part of a MicroMasters or professional certificate program, your course uses the verified track. These courses do not use the professional enrollment track."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:452
+msgid "**verified**: This enrollment track offers verified certificates to learners who pass the course, verify their identities, and pay a required course fee. A course that offers the verified enrollment track also automatically offers a free non-certificate enrollment track."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:457
+msgid "**honor**: This enrollment track was offered in the past and offered an honor code certificate to learners who pass the course. This track does not require identity verification and does not require a fee. Note, however, that as of December 2015, edx.org no longer offers honor code certificates. For more information, see `News About edX Certificates`_."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:465
+msgid "**credit**: In this enrollment track, learners who pass the course and comply with additional requirements, including identity verification, can receive academic credit for the course. For more information, see :ref:`partnercoursestaff:Academic Course Credit`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:472
+msgid "**professional (no ID)**: Like the professional enrollment track, this track offers certificates and requires a fee. However, this track does not require identity verification. Courses that offer the professional (no ID) track do not offer a free enrollment track."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:480
+msgid "**exercises**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:482
+msgid "Practice or practical problems that are interspersed in edX course content to keep learners engaged. Exercises are also an important measure of teaching effectiveness and learner comprehension. For more information, see :ref:`partnercoursestaff:Exercises and Tools Index`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:490
+msgid "**export**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:492
+msgid "A tool in edX Studio that you use to export your course or library for backup purposes, or so that you can edit the course or library directly in OLX format. See also :ref:`Import<I>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:496
+msgid "For more information, see :ref:`partnercoursestaff:Export a Course` or :ref:`partnercoursestaff:Export a Library`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:503
+msgid "F"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:505
+msgid "**forum**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:507
+msgid "See :ref:`Discussion<D>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:511
+msgid "**fps**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:513
+msgid "Frames per second. In video, the number of consecutive images that appear every second."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:521
+msgid "G"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:525
+msgid "**grade range**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:527
+msgid "Thresholds that specify how numerical scores are associated with grades, and the score that learners must obtain to pass a course."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:530
+msgid "For more information, see :ref:`partnercoursestaff:Set the Grade Range`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:533
+msgid "**grading rubric**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:535
+msgid "See :ref:`Rubric<R>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:542
+msgid "H"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:546
+msgid "**H.264**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:548
+msgid "A standard for high definition digital video."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:552
+msgid "**Home page**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:554
+msgid "See :ref:`Course Page`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:558
+msgid "**Text component**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:560
+msgid "A type of component that you can use to add and format text for your course. A Text component can contain text, lists, links, and images. For more information, see :ref:`partnercoursestaff:Working with Text Components`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:570
+msgid "I"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:575
+msgid "**Image mapped input problem**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:577
+msgid "A problem that presents an image and accepts clicks on the image as an answer. For more information, see :ref:`partnercoursestaff:Image Mapped Input`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:584
+msgid "**Import**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:586
+msgid "A tool in Studio that you use to load a course or library in OLX format into your existing course or library. When you use the Import tool, Studio replaces all of your existing course or library content with the content from the imported course or library. See also :ref:`Export<E>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:591
+msgid "For more information, see :ref:`partnercoursestaff:Import a Course` or :ref:`partnercoursestaff:Import a Library`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:594
+msgid "**instructor dashboard**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:596
+msgid "A user who has the Admin or Staff role for a course can access the instructor dashboard in the LMS by selecting **Instructor**. Course team members use the tools, reports, and other features that are available on the pages of the instructor dashboard to manage a running course."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:601
+msgid "For more information, see :ref:`partnercoursestaff:Managing Live Course Index`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:608
+msgid "K"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:610
+msgid "**keyword**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:612
+msgid "A variable in a bulk email message. When you send the message, a value that is specific to the each recipient is substituted for the keyword."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:619
+msgid "L"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:621
+msgid "**label**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:623
+msgid "See :ref:`Accessible Label<A>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:627
+msgid "**LaTeX**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:629
+msgid "A document markup language and document preparation system for the TeX typesetting program. In edX Studio, you can :ref:`partnercoursestaff:import LaTeX code`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:636
+msgid "**learning management system (LMS)**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:638
+msgid "The platform that learners use to view courses, and that course team members use to manage learner enrollment, assign team member privileges, moderate discussions, and access data while the course is running."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:642
+msgid "**learning sequence**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:644
+msgid "See :ref:`Unit Navigation Bar<U>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:646
+msgid "**left pane**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:648
+msgid "See :ref:`Course Navigation Pane<C>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:652
+msgid "**library**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:654
+msgid "A pool of components for use in randomized assignments that can be shared across multiple courses from your organization. Course teams configure randomized content blocks in course outlines to reference a specific library of components, and randomly provide a specified number of problems from that content library to each learner."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:660
+msgid "For more information, see :ref:`partnercoursestaff:Content Libraries` and :ref:`partnercoursestaff:Randomized Content Blocks`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:666
+msgid "**live mode**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:668
+msgid "A view that allows the course team to review all published units as learners see them, regardless of the release dates of the section and subsection that contain the units. For more information, see :ref:`partnercoursestaff:View Published Content`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:673
+msgid "**LON-CAPA**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:675
+msgid "The Learning Online Network with Computer-Assisted Personalized Approach e-learning platform. The structure of CAPA problem types in the edX platform is based on the `LON-CAPA`_ assessment system, although they are not compatible."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:680
+msgid "See also :ref:`CAPA Problems<C>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:686
+msgid "M"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:690
+msgid "**math expression input problem**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:692
+msgid "A problem that requires learners to enter a mathematical expression as text, such as e=m*c^2."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:695
+msgid "For more information, see :ref:`learners:Math Formatting` in the *EdX Learner's Guide*."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:701
+msgid "**MathJax**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:703
+msgid "A LaTeX-like language that you use to write equations. Studio uses MathJax to render text input such as x^2 and sqrt(x^2-4) as \"beautiful math.\""
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:706
+msgid "For more information, see :ref:`partnercoursestaff:MathJax in Studio`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:711
+msgid "**module**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:713
+msgid "An item of course content, created in an XBlock, that appears on the **Course** page in the edX learning management system. Examples of modules include videos, HTML-formatted text, and problems."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:717
+msgid "Module is also used to refer to the structural components that organize course content. Sections, subsections, and units are modules; in fact, the course itself is a top-level module that contains all of the other course content as children."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:725
+msgid "**multiple choice problem**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:727
+msgid "A problem that asks learners to select one answer from a list of options. For more information, see :ref:`partnercoursestaff:Multiple Choice`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:735
+msgid "N"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:739
+msgid "**NTSC**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:741
+msgid "National Television System Committee. The NTSC standard is a color encoding system for analog videos that is used mostly in North America."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:746
+msgid "**numerical input problem**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:748
+msgid "A problem that asks learners to enter numbers or specific and relatively simple mathematical expressions. For more information, see :ref:`partnercoursestaff:Numerical Input`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:757
+msgid "O"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:759
+msgid "**OLX**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:761
+msgid "OLX  (open learning XML) is the XML-based markup language that is used to build courses on the Open edX platform."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:764
+msgid "For more information, see :ref:`olx:What is Open Learning XML?`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:769
+msgid "**open response assessment**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:771
+msgid "A type of assignment that allows learners to answer with text, such as a short essay and, optionally, an image or other file. Learners then evaluate each others' work by comparing each response to a :ref:`rubric <Rubric_g>` created by the course team."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:776
+msgid "These assignments can also include a self assessment, in which learners compare their own responses to the rubric, or a staff assessment, in which members of course staff evaluate learner responses using the same rubric."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:780
+msgid "For more information, see :ref:`partnercoursestaff:Open Response Assessments Two`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:787
+msgid "P"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:791
+msgid "**pages**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:793
+msgid "Pages organize course materials into categories that learners select in the learning management system. Pages provide access to the course content and to tools and uploaded files that supplement the course. Links to each page appear in the course material navigation bar."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:798
+msgid "For more information, see :ref:`partnercoursestaff:Adding Pages to a Course`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:803
+msgid "**PAL**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:805
+msgid "Phase alternating line. The PAL standard is a color encoding system for analog videos. It is used in locations such as Brazil, Australia, south Asia, most of Africa, and western Europe."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:809
+msgid "**partner manager**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:811
+msgid "Each EdX partner institution has an edX partner manager. The partner manager is the primary contact for the institution's course teams."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:815
+msgid "**pre-roll video**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:817
+msgid "A short video file that plays before the video component selected by the learner. Pre-roll videos play automatically, on an infrequent schedule."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:820
+msgid "For more information, see :ref:`partnercoursestaff:Adding a PreRoll Video`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:825
+msgid "**preview mode**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:827
+msgid "A view that allows you to see all the units of your course as learners see them, regardless of the unit status and regardless of whether the release dates have passed."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:831
+msgid "For more information, see :ref:`partnercoursestaff:Preview Unpublished Content`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:837
+msgid "**problem component**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:839
+msgid "A component that allows you to add interactive, automatically graded exercises to your course content. You can create many different types of problems."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:843
+msgid "For more information, see :ref:`partnercoursestaff:Working with Problem Components` and :ref:`partnercoursestaff:Exercises and Tools Index`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:848
+msgid "**proctored exam**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:850
+msgid "At edX, proctored exams are timed, impartially and electronically monitored exams designed to ensure the identity of the test taker and determine the security and integrity of the test taking environment. Proctored exams are often required in courses that offer verified certificates or academic credit. For more information, see :ref:`partnercoursestaff:Managing Proctored Exams`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:859
+msgid "**program**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:861
+msgid "A program is a collection of related courses. Learners enroll in a program by enrolling in any course that is part of a program, and earn a program certificate by passing each of the courses in the program with a grade that qualifies them for a verified certificate."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:866
+msgid "Several types of program are available on edx.org, including MicroMasters, Professional Certificate, and XSeries programs."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:872
+msgid "**program offer**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:874
+msgid "A program offer is a discount offered for a specific program. The discount can be either a percentage amount or an absolute (dollar) amount."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:880
+msgid "**Progress page**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:882
+msgid "The page in the learning management system that shows learners their scores on graded assignments in the course. For more information, see :ref:`learners:SFD Check Progress` in the *EdX Learner's Guide*."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:891
+msgid "Q"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:893
+msgid "**question**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:895
+msgid "A question is a type of post that you or a learner can add to a course discussion topic to bring attention to an issue that the discussion moderation team or learners can resolve."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:899
+msgid "For more information, see :ref:`partnercoursestaff:Discussions`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:905
+msgid "R"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:907
+msgid "**Research Data Exchange (RDX)**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:909
+msgid "An edX program that allows participating partner institutions to request data for completed edx.org courses to further approved educational research projects. Only partner institutions that choose to participate in RDX contribute data to the program, and only researchers at those institutions can request data from the program."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:915
+msgid "For more information, see :ref:`data:Research Data Exchange`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:919
+msgid "**rubric**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:921
+msgid "A list of the items that a learner's response should cover in an open response assessment. For more information, see the :ref:`partnercoursestaff:PA Rubric` topic in :ref:`partnercoursestaff:Open Response Assessments Two`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:926
+msgid "See also :ref:`Open Response Assessment<Open Response Assessment_g>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:933
+msgid "S"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:935
+msgid "**seat type**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:941
+msgid "**section**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:943
+msgid "The topmost category in your course outline. A section can represent a time period or another organizing principle for course content. A section contains one or more subsections."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:947
+msgid "For more information, see :ref:`partnercoursestaff:Developing Course Sections`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:951
+msgid "**sequential**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:953
+msgid "See :ref:`Subsection<Subsection>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:958
+msgid "**short description**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:960
+msgid "The description of your course that appears on the edX `Course List <https://www.edx.org/course-list>`_ page."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:963
+msgid "For more information, see :ref:`Course Short Description Guidelines`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:968
+msgid "**simple editor**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:970
+msgid "The graphical user interface in a problem component that contains a toolbar for adding Markdown formatting to the text you supply. The simple editor is available for some problem types. For more information, see :ref:`partnercoursestaff:Problem Studio View`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:975
+msgid "**single sign-on (SSO)**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:977
+msgid "SSO is an authentication service that allows a user to access multiple related applications, such as Studio and the LMS, with the same username and password. The term SSO is sometimes used to refer to third party authentication, which is a different type of authentication system. For information about third party authentication, see :ref:`Third Party Authentication<T>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:986
+msgid "**special exam**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:988
+msgid "A general term that applies to proctored and timed exams in edX courses. See :ref:`Timed Exam<T>` and :ref:`Proctored Exam<P>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:993
+msgid "**split test**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:995
+msgid "See :ref:`Content Experiment<C>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1000
+msgid "**subsection**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1002
+msgid "A division in the course outline that represents a topic in your course, such as a lesson or another organizing principle. Subsections are defined inside sections and contain units."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1006
+msgid "For more information, see :ref:`partnercoursestaff:Developing Course Subsections`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1014
+msgid "T"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1018
+msgid "**text input problem**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1020
+msgid "A problem that asks learners to enter a line of text, which is then checked against a specified expected answer."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1023
+msgid "For more information, see :ref:`partnercoursestaff:Text Input`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1027
+msgid "**timed exam**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1029
+msgid "Timed exams are sets of problems that a learner must complete in the amount of time you specify. When a learner begins a timed exam, a countdown timer displays, showing the amount of time allowed to complete the exam. If needed, you can grant learners additional time to complete the exam. For more information, see :ref:`partnercoursestaff:Timed Exams`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1037
+msgid "**third party authentication**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1039
+msgid "A system-wide configuration option that allows users who have a username and password for one system, such as a campus or institutional system, to log in to that system and automatically be given access to the LMS. These users do not enter their system credentials in the LMS."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1044
+msgid "For more information about how system administrators can integrate an instance of Open edX with a campus or institutional authentication system, see :ref:`installation:Enabling Third Party Authentication`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1050
+msgid "**transcript**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1052
+msgid "A text version of the content of a video. You can make video transcripts available to learners."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1055
+msgid "For more information, see :ref:`Obtain a Video Transcript`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1061
+msgid "U"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1063
+msgid "**unit**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1065
+msgid "A unit is a division in the course outline that represents a lesson. Learners view all of the content in a unit on a single page."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1068
+msgid "For more information, see :ref:`partnercoursestaff:Developing Course Units`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1070
+msgid "**unit navigation bar**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1072
+msgid "The horizontal control that appears at the top of the **Course** page in the LMS. The unit navigation bar contains an icon for each unit in the selected subsection. When you move your pointer over one of these icons, the name of the unit appears. If you have bookmarked a unit, the unit navigation bar includes an identifying flag above that unit's icon."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1078
+msgid "See also :ref:`Course Navigation Pane<C>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1084
+msgid "V"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1088
+msgid "**VBR**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1090
+msgid "Variable bit rate. The bit rate is the number of bits per second that are processed or transferred. A variable bit rate allows the bit rate to change according to the complexity of the media segment."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1094
+msgid "**vertical**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1096
+msgid "See :ref:`Unit<U>`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1100
+msgid "**video component**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1102
+msgid "A component that you can use to add recorded videos to your course."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1104
+msgid "For more information, see :ref:`partnercoursestaff:Working with Video Components`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1112
+msgid "W"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1116
+msgid "**whitelist**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1118
+msgid "In edX courses, a whitelist is a list of learners who are being provided with a particular privilege. For example, whitelisted learners can be specified as being eligible to receive a certificate in a course, regardless of whether they would otherwise have qualified based on their grade."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1123
+msgid "In the grade report for a course, whitelisted learners have a value of \"Yes\" in the **Certificate Eligible** column, regardless of the grades they attained. For information about the grade report, see :ref:`partnercoursestaff:Interpret the Grade Report`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1131
+msgid "**wiki**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1133
+msgid "The page in each edX course that allows both learners and members of the course team to add, modify, or delete content. Learners can use the wiki to share links, notes, and other helpful information with each other. For more information, see :ref:`partnercoursestaff:Course_Wiki`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1143
+msgid "XYZ"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1147
+msgid "**XBlock**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1149
+msgid "EdX's component architecture for writing course components: XBlocks are the components that deliver course content to learners."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1152
+msgid "Third parties can create components as web applications that can run within the edX learning management system. For more information, see :ref:`xblocktutorial:Open edX XBlock Tutorial`."
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1157
+msgid "**XSeries**"
+msgstr ""
+
+#: ../../../shared/glossary/glossary.rst:1159
+msgid "A set of related courses in a specific subject. Learners qualify for an XSeries certificate when they pass all of the courses in the XSeries. For more information, see `XSeries Programs`_."
+msgstr ""

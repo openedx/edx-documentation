@@ -1,0 +1,385 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Building and Running an Open edX Course package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Building and Running an Open edX Course \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../shared/rerun_course/course_rerun.rst:5
+msgid "Re-running a Course"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:7
+msgid "Another way to create a course in Studio is to re-run an existing course. When you re-run a course, most, but not all, of the original course content is duplicated to the new course. The original course is not changed in any way."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:19
+msgid "Data Duplicated When You Re-Run a Course"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:25
+msgid "Type of Content"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:26
+msgid "Duplicated to New Course?"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:27
+msgid "Course start date"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:28
+msgid "No. Set to midnight on January 1, 2030 (UTC)."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:29
+msgid "All other course dates"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:30
+msgid "Yes. You must update all release dates and due dates."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:31
+msgid "Course structure (sections, subsections, units) and state (published, hidden)"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:33
+#: ../../../shared/rerun_course/course_rerun.rst:35
+#: ../../../shared/rerun_course/course_rerun.rst:37
+#: ../../../shared/rerun_course/course_rerun.rst:41
+#: ../../../shared/rerun_course/course_rerun.rst:45
+#: ../../../shared/rerun_course/course_rerun.rst:47
+#: ../../../shared/rerun_course/course_rerun.rst:58
+msgid "Yes."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:34
+msgid "Individual problems and other components"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:36
+msgid "Files uploaded to the course, including videos and textbooks"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:38
+msgid "Pages added to the course"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:39
+msgid "Yes, including all page content and the defined page order."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:40
+msgid "Course updates"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:42
+msgid "Prerequisite course subsection settings"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:43
+#: ../../../shared/rerun_course/course_rerun.rst:49
+#: ../../../shared/rerun_course/course_rerun.rst:54
+#: ../../../shared/rerun_course/course_rerun.rst:56
+#: ../../../shared/rerun_course/course_rerun.rst:60
+#: ../../../shared/rerun_course/course_rerun.rst:62
+msgid "No."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:44
+msgid "Advanced settings"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:46
+msgid "Grading policy"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:48
+msgid "Student enrollment data"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:50
+msgid "Course team privileges, including admins, discussion moderators, beta testers"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:52
+msgid "No. Only the user who created the new course has access to it."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:53
+msgid "Manually created cohorts"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:55
+msgid "Student answers, progress, and grading data"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:57
+msgid "Certificates"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:59
+msgid "Discussion posts, responses, comments, and other data"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:61
+msgid "Wiki contributions"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:64
+msgid "After you create a re-run course, modifications to the original course and the re-run course are independent. Changes to either course have no effect on the other course. Therefore, you should ensure that the original course content is as complete as possible before you re-run the course."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:69
+msgid "For more information, see :ref:`Re-Run Course` and :ref:`Update the New Course`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:76
+msgid "Re-Run a Course"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:79
+msgid "After the end date for a course has passed, the course moves to the **Archived Courses** tab on the Studio dashboard. If the course that you want to re-run is not visible on the **Courses** tab, look for the course on the **Archived Courses** tab."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:86
+msgid "Options for creating a course re-run differ for courses on edx.org and Edge."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:88
+msgid "For courses on edx.org, the course team uses :ref:`Publisher <Pub Creating and Announcing a Course>` to re-run courses. For more information about how to create a course run, see :ref:`Pub Creating a Course Run`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:92
+msgid "For courses on Edge, the course team can :ref:`use the course Import and Export options <Export and Import the Previous Course>` to re-run a course, or your edX project coordinator can :ref:`use the Re-Run Course option <Use Re-Run to Create a Course>`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:98
+msgid "A course team member who has course creation privileges must create a new course when you use the **Import** and **Export** options."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:100
+msgid "We strongly encourage course teams to use the **Import** and **Export** options to create a course re-run. This method takes less time than the **Course Re-Run** option because this method does not require action from edX."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:107
+msgid "To re-run a course, the course team can :ref:`use the course Import and Export options <Export and Import the Previous Course>`, or a system administrator can :ref:`use the Re-Run Course option <Use Re-Run to Create a Course>`. Note that the **Import** and **Export** method takes less time than the **Course Re-Run** option because this method does not require action from a system administrator."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:118
+msgid "Export and Import the Previous Course"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:123
+#: ../../../shared/rerun_course/course_rerun.rst:158
+msgid "Courses on edx.org must :ref:`use Publisher to re-run courses <Pub Creating a Course Run>`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:126
+msgid "To use the import and export options to re-run a course, follow these steps."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:128
+msgid "In Studio, open the course that you want to re-run."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:130
+msgid ":ref:`Export your course <Export a Course>`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:132
+msgid "In Studio, :ref:`create a new course <Creating a New Course>`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:135
+msgid "You must have course creation privileges to create a new course. If you do not have course creation privileges, contact a member of the course team who has these privileges, or your organization's administrator."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:139
+msgid "In the new course, :ref:`import the content from the previous course <Import a Course>`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:142
+msgid "After the import operation is complete, :ref:`review and update the settings and content <Update the New Course>` for the new course."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:149
+msgid "Use the Course Re-Run Option"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:151
+msgid "Before you re-run a course, make sure that its settings and content are complete. Additions and changes that you make to the original course after you create the new course have no effect on the new course."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:161
+msgid "For courses on Edge, we strongly recommend that you use the **Import** and **Export** options."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:164
+msgid "To use the **Re-Run Course** option, you must contact your project coordinator."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:170
+msgid "Only global or system administrators have the permissions needed to re-run a course. To re-run a course, contact your system administrator. After your system administrator creates a new course using the re-run feature, you can complete the steps to :ref:`update the new course<Update the New Course>`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:175
+msgid "To re-run a course, users who have the required permissions follow these steps."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:178
+msgid "Sign in to Studio. Your dashboard lists the courses that you have access to as a course team member."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:181
+msgid "Move your cursor over each row in the list of courses. The **Re-Run Course** and **View Live** options appear for each course."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:184
+msgid "Locate the course you want to re-run and select **Re-Run Course**. The **Create a re-run of a course** page opens with values already supplied in the **Course Name**, **Organization**, and **Course Number** fields."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:188
+msgid "In the **Course Run** field, indicate when the new course will be offered."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:190
+msgid "Together, the course number, the organization, and the course run are used to create the URL for the new course. The combination of these three values must be unique for the new course. In addition, the total number of characters used for the name, organization, number, and run must be 65 or fewer."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:196
+msgid "Select **Create Re-Run**. Your **My Courses** dashboard opens with a status message about the course creation process."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:199
+msgid "Duplication of the course structure and content takes several minutes. You can work in other parts of Studio or in the LMS, or on other web sites, while the process runs. The new course appears on your **My Courses** dashboard in Studio when configuration is complete."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:208
+msgid "Update the New Course"
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:210
+msgid "When you create a course by re-running another course, you must carefully review the settings and content of the new course. To assure a quality experience for learners, be sure to test the course thoroughly before the course start date. See :ref:`Testing Your Course Content` and :ref:`Beta_Testing`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:216
+msgid "At a minimum, you must make the following changes to prepare the new course for release."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:219
+msgid "Add course team members, including discussion admins, moderators, and community TAs. See :ref:`Add Course Team Members` or :ref:`Course_Staffing`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:222
+msgid "Update course-wide dates, including course and enrollment start and end dates. See :ref:`Scheduling Your Course`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:225
+msgid "Change the release dates of course sections, subsections, and units. See :ref:`Release Dates`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:228
+msgid "Change the due dates of subsections that are part of your grading policy. See :ref:`Set the Assignment Type and Due Date for a Subsection`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:231
+msgid "Delete or edit posts on the **Course Updates** page in Studio. See :ref:`Add a Course Update`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:234
+msgid "For a course that includes :ref:`learner cohorts<Enabling and Configuring Cohorts>`, set up the cohorts and select a strategy for assigning learners to the cohorts."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:238
+msgid "For a course that includes drag and drop problems, replace any problems created prior to April 2016 with the newer drag and drop problem component, which is accessible and mobile ready. For more information about enabling the new drag and drop problem type and adding these problems to your course, see :ref:`drag_and_drop_problem`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:244
+msgid "The following additional changes can also improve the experience of learners who enroll in the new course run."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:247
+msgid "Review the files on the **Files & Uploads** page. To update a file that contains references to course-related dates, you must complete the following steps."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:251
+msgid "Locate the source file."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:252
+msgid "Change course-related dates in the file."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:253
+msgid "Upload the revised version of the file."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:255
+msgid "If you use the same file name when you upload a revised file, links to that file in course components and course handouts will continue to work correctly. If you rename a file and then upload it, you must also update all links to the original file name. See :ref:`Add Course Handouts` or :ref:`Add a Link to a File`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:261
+msgid "Review the staff biographies and other information on the course About page and make needed updates. See :ref:`Planning Course Information` and :ref:`Planning Course Run Information`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:265
+msgid "Create initial posts for discussion topics and an \"introduce yourself\" post. See :ref:`Discussions`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:268
+msgid "Add initial wiki articles."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:270
+msgid "For a course that includes core problem types, including checkbox, text input, or math expression input problems, review the :ref:`Markdown-style formatting <Simple Editor>` or :ref:`OLX markup <Advanced Editor>` of any problems created before September 2016. For more information about the updates that you can make to improve the accessibility of these problem types, see the `Release Notes <http://edx.readthedocs.io/projects/edx-release-notes/en/latest/studio_index.html#updates-to-capa-problem-types>`_."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:278
+msgid "If your course uses prerequisite course subsections to hide course subsections until learners complete other, prerequisite subsections, configure the prerequisite course subsections. See :ref:`configuring_prerequisite_content`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:283
+msgid "If your course includes instructions for learners, verify that the instructions reflect the current user interface of the LMS."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:286
+msgid "For example, you could revise a description of the problem **Check** button, which was accurate before October 2016, to reflect its new label, **Submit**."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:291
+msgid "Another example of a user interface change is for courses on the edx.org website. A new **Help** option was added to the LMS in September 2016 to provide access to the *EdX Learner's Guide*. When this option was added, the previous **Help** option was renamed **Support**."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:296
+msgid "For more information about tools and ideas that can help you prepare a course for launch, see :ref:`Launch`."
+msgstr ""
+
+#: ../../../shared/rerun_course/course_rerun.rst:300
+msgid "Changes you make in the new course have no effect on the original course."
+msgstr ""
+
+#: ../../source/rerun_course/index.rst:5
+msgid "Re-running Your Course"
+msgstr ""
+
+#: ../../source/rerun_course/index.rst:7
+msgid "Use the topics in this section to learn about re-running your course."
+msgstr ""
+
+#: ../../source/rerun_course/index.rst:9
+msgid "For information on how to develop your course content in the Studio Outline, see :ref:`Developing Your Course Index`."
+msgstr ""

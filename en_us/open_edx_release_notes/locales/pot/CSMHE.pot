@@ -1,0 +1,529 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Open edX Release Notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open edX Release Notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/CSMHE/CSMHE_overview.rst:5
+msgid "Overview of the ``courseware_studentmodulehistory`` Changes"
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:7
+msgid "This topic provides background information about the ``courseware_studentmodulehistory`` table and why a new database configuration is needed."
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:15
+msgid "For procedures about how to upgrade all Open edX instances that follow master, see :ref:`CSMHE Procedures`."
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:18
+#: ../../source/CSMHE/index.rst:10
+msgid "The changes described in this section are a part of the upgrade to the Open edX Eucalyptus release."
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:23
+msgid "What Is the ``courseware_studentmodulehistory`` Table?"
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:25
+msgid "The ``courseware_studentmodulehistory`` database table contains a record for each attempt that learners make to answer problem types that are implemented in the edX platform by the ``capa_module`` XBlock correctly. This database table is a standard Django model. It has an ``id`` column with a type of 32-bit signed integer, and therefore has a maximum capacity of 2,147,483,647 records."
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:35
+msgid "What Is the Issue?"
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:37
+msgid "Typically, ``courseware_studentmodulehistory`` is the largest table in the database. It can be twice as large as the next largest table, ``courseware_studentmodule``."
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:41
+msgid "On the edx.org site, two records are written to this table every second. Before this table for edx.org reached even half of its maximum capacity, edX began to design a replacement with a higher capacity form."
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:47
+msgid "What Is the Replacement Table?"
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:49
+msgid "The new database table, ``coursewarehistoryextended_studentmodulehistoryextended``, uses a custom Django field type to give the ``id`` column a type of 64-bit unsigned integer, which offers an exponentially larger storage capacity than the ``courseware_studentmodulehistory`` table."
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:59
+msgid "Why Is A New Database Needed?"
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:61
+msgid "By design, the ``coursewarehistoryextended_studentmodulehistoryextended`` table must be created in a new database, ``edxapp_csmh``. The new database will coexist alongside the existing ``edxapp`` database."
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:65
+msgid "Depending on your operational needs, you can either create this database in your existing database infrastructure or stand a new database server up."
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:68
+msgid "EdX chose to set up a new database to address several requirements."
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:70
+msgid "Distribute write load across different backends."
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:71
+msgid "Reclaim storage on our main database instance, shifting that storage to a less powerful and less expensive system."
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:73
+msgid "Enable smaller, faster, and less disruptive backups."
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:74
+msgid "Ensure faster disaster recovery by having smaller backups."
+msgstr ""
+
+#: ../../source/CSMHE/CSMHE_overview.rst:76
+msgid "The edx-platform repository master branch writes records to this database and table as of 5 May 2016."
+msgstr ""
+
+#: ../../source/CSMHE/index.rst:5
+msgid "Replacing the ``courseware_studentmodulehistory`` Table"
+msgstr ""
+
+#: ../../source/CSMHE/index.rst:7
+msgid "This section describes a change to the ``courseware_studentmodulehistory`` database table."
+msgstr ""
+
+#: ../../source/CSMHE/index.rst:13
+msgid "The change to the ``courseware_studentmodulehistory`` database table requires a new database configuration, and offers an optional data migration. This change will be released to the edx-platform repository on 5 May 2016, and will affect all Open edX installations that follow master on that date."
+msgstr ""
+
+#: ../../source/CSMHE/index.rst:18
+msgid "If you are responsible for maintaining an Open edX instance, including a devstack, fullstack, or production installation, you must prepare for this change before you upgrade to the 5 May 2016 version of master."
+msgstr ""
+
+#: ../../source/CSMHE/index.rst:22
+msgid "This section presents an overview of the change followed by options for completing the required and optional procedures. EdX recommends that you review all of the topics in this section before you choose an option for your Open edX installation."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:5
+msgid "Options for Updating ``courseware_studentmodulehistory``"
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:7
+msgid "This topic outlines the options for updating to the new database and table configuration required by the ``courseware_studentmodulehistory`` change."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:14
+msgid "Because each Open edX installation has a unique set of constraints and requirements, edX recommends that you review all of these options before selecting one for your instance or instances."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:20
+msgid "Keep, and Query, Both Tables"
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:22
+msgid "This option is suitable for many instances with small databases, such as a fullstack or small production instance, that do not have the performance considerations or other operational needs described in the :ref:`overview<CSMH Overview>`."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:27
+msgid "For instances with relatively small databases, you set up the new database and table and then configure the system to read from both tables, without migrating data. An outline of the steps you need to complete follows."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:31
+#: ../../source/CSMHE/migration_options.rst:121
+msgid "Create the ``edxapp_csmh`` database."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:33
+#: ../../source/CSMHE/migration_options.rst:123
+msgid "Update ``lms.yml`` with a new entry in the DATABASES section."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:35
+msgid "Update ``lms.yml`` to set ``\"ENABLE_CSMH_EXTENDED\": true``. Leave ``\"ENABLE_READING_FROM_MULTIPLE_HISTORY_TABLES\": true``."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:38
+msgid "Run django migrations to generate the new table."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:40
+msgid "A system with this configuration writes only to the new ``coursewarehistoryextended_studentmodulehistoryextended`` table, but it reads from both that table and the ``courseware_studentmodulehistory`` table in the ``edxapp`` database."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:45
+#: ../../source/CSMHE/migration_options.rst:151
+msgid "For more information, see :ref:`CSMHE Procedures`."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:49
+msgid "Reprovision or Reinstall Your Devstack"
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:51
+msgid "This option is suitable only for devstacks that were provisioned recently. If your devstack dates from before March 2016, follow the destroy and reprovision instructions."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:55
+msgid "To set up devstack with the new database and SQL table, you can reprovision. If you choose this option for updating devstack, no further configuration or migration procedures are required. Before you reprovision, make sure that any active development is committed in your devstack's edx-platform GitHub repository. If that repository has changes, Ansible™ will fail to provision because it cannot update. After vagrant provision completes, your devstack will be running the release branch of edx-platform."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:68
+msgid "Reprovisioning adds the ``edxapp_csmh`` database and its ``coursewarehistoryextended_studentmodulehistoryextended`` table. The ``lms.yml`` feature flags that control use of the ``coursewarehistoryextended_studentmodulehistoryextended`` table have the following settings."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:79
+msgid "A system with this configuration writes to the new ``coursewarehistoryextended_studentmodulehistoryextended`` table only, but queries both tables."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:83
+msgid "Only set ``ENABLE_READING_FROM_MULTIPLE_HISTORY_TABLES`` to ``true``  for an existing site that does not choose the data migration option. For new installations, this setting should be ``false``."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:87
+msgid "You can also completely destroy and rebuild your devstack if you prefer by using ``vagrant destroy`` before running ``vagrant provision``. If you use this approach, update your Vagrantfile to ensure that you retrieve the newest base box. For more information, see the \"Download the Vagrantfile\" section of the devstack `wiki`_."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:99
+msgid "Please note, this procedure does not remove your git source control directories under the devstack directory."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:106
+msgid "Migrate All Data to One Table"
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:108
+msgid "This option is suitable for installations that have a large number of records in the ``coursewarehistoryextended_studentmodulehistoryextended`` table, such as large production instances."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:112
+msgid "If you select this option, you set up the new database and table and then migrate all existing data to the new table. When the process is complete, the system uses only the new table. This is the procedure that edX followed for edx.org and edX Edge."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:117
+msgid "For more information, see :ref:`Why Is A New Database Needed`."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:119
+msgid "An outline of the steps you complete follows."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:125
+msgid "If you use the edxapp Ansible role to update ``lms.yml``, the system automatically merges an update to the ``edxapp_databases`` dictionary in `edxapp/defaults/main.yml`_."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:129
+msgid "Update ``lms.yml`` to set ``\"ENABLE_CSMH_EXTENDED\": true``."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:131
+msgid "Run migrations to create the new database table."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:133
+msgid "Deploy so that all new data is being written to the new ``coursewarehistoryextended_studentmodulehistoryextended`` table."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:136
+msgid "Migrate all data from ``courseware_studentmodulehistory`` to ``coursewarehistoryextended_studentmodulehistoryextended``."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:139
+msgid "Update ``lms.yml`` to set ``\"ENABLE_READING_FROM_MULTIPLE_HISTORY_TABLES\": false``."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:142
+msgid "Truncate ``courseware_studentmodulehistory``."
+msgstr ""
+
+#: ../../source/CSMHE/migration_options.rst:144
+msgid "As soon as you deploy a system with ``ENABLE_CSMH_EXTENDED`` enabled, the system writes only to the ``coursewarehistoryextended_studentmodulehistoryextended`` table, but it reads from both that table and the ``courseware_studentmodulehistory`` table. To reduce the overhead of querying two tables in two databases, you migrate data and then set ``\"ENABLE_READING_FROM_MULTIPLE_HISTORY_TABLES\": false``."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:5
+msgid "Procedures for Replacing ``courseware_studentmodulehistory``"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:7
+msgid "This topic provides procedures for updating to the new database and table configuration required by the ``courseware_studentmodulehistory`` change. It also includes the optional procedure for migrating all data from ``courseware_studentmodulehistory`` to ``coursewarehistoryextended_studentmodulehistoryextended``."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:17
+msgid "Before you follow these procedures for your Open edX instance, be sure to review the different :ref:`options<Options for Updating Your Open edX Instances>` for updating ``courseware_studentmodulehistory``."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:23
+msgid "Step 1: Create the Database"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:31
+msgid "Options for Creating the Database"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:33
+msgid "For all fullstack and production instances that follow master, you must create a MySQL database and set users up. To do so, you can use one of these options."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:37
+msgid "Use the `create_db_and_users.yml playbook`_ to create the database and user automatically. For more information, see :ref:`Use the Playbook to Create the Database`."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:41
+msgid "Create the database and users manually. If you select this option, you must also complete other configuration steps manually. For more information, see :ref:`Create the Database Manually`."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:45
+msgid "You must follow one of these procedures for all of your fullstack and production instances."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:51
+msgid "Use the Playbook to Create the Database"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:53
+msgid "Follow the `create_db_and_users.yml playbook`_ to create the ``edxapp_csmh`` database and its users automatically."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:56
+msgid "You then choose an option for :ref:`configuring<Options for Configuring the Database>` the ``edxapp_csmh`` database."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:62
+msgid "Create the Database Manually"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:64
+msgid "Create the MySQL database. For the edx.org and edX Edge instances, edX named this database ``edxapp_csmh``."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:67
+msgid "Modify the following example command for your database users and naming schemes."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:76
+msgid "You then choose an option for :ref:`configuring<Options for Configuring the Database>` your new database."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:81
+msgid "Step 2: Configure the Database"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:91
+msgid "Options for Configuring the Database"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:93
+msgid "After you create the MySQL database and set users up, you update ``lms.yml`` to add configuration settings to the DATABASES section. To do so, you can use one of these options."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:97
+msgid "Use the `edxapp.yml playbook`_ to update your edxapp instances. If you choose to use this playbook, then master after 5 May 2016 will update ``lms.yml`` to set ``edxapp_databases`` in the DATABASES section for you."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:102
+msgid "The playbook requires ``EDXAPP_MYSQL_CSMH_DB_NAME``, ``EDXAPP_MYSQL_CSMH_USER``, ``EDXAPP_MYSQL_CSMH_PASSWORD``, ``EDXAPP_MYSQL_CSMH_HOST``, ``EDXAPP_MYSQL_CSMH_PORT`` to be populated in the same way that the ``EDXAPP_MYSQL_...`` variables are populated in your Ansible overrides."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:108
+msgid "Update the DATABASES section in ``lms.yml`` manually. If you create the MySQL database yourself, you must use this option. For more information, see :ref:`Update DATABASES Manually`."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:115
+msgid "Update DATABASES Manually"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:117
+msgid "If you create the MySQL database yourself, you configure the database by adding a clause to the ``lms.yml`` file."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:120
+msgid "Open the ``edx/app/edxapp/lms.yml`` file in your text editor."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:122
+msgid "In the DATABASES section, add configuration details for your new database. An example follows."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:138
+msgid "Step 3: Enable Writes to the New Table"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:140
+msgid "Edit the ``lms.yml`` file to set the ``ENABLE_CSMH_EXTENDED`` feature flag."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:147
+msgid "Alternatively, you can use your current Ansible overrides for updating feature flags to make this change."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:152
+msgid "Step 4: Create the Table"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:162
+msgid "Options for Creating the Table"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:164
+msgid "After you create and configure the MySQL database and enable the new table, you create the new table. To do so, you can use one of these options."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:167
+msgid "Run Django migrations to create the ``coursewarehistoryextended_studentmodulehistoryextended`` table. The `edxapp.yml playbook`_ uses these scripts to run migrations. * ``/edx/bin/edxapp-migrate-lms`` * ``/edx/bin/edxapp-migrate-cms``"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:173
+msgid "Run migrations manually. For more information, see :ref:`Run Migrations Manually`."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:176
+msgid "After you bring your servers back online with this configuration, the system only writes records for interactions with CAPA problems to the ``coursewarehistoryextended_studentmodulehistoryextended`` table."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:183
+msgid "Run Migrations Manually"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:185
+msgid "A summary of the manual steps for running migrations follows."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:187
+msgid "Run cms migrations against the default database."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:188
+msgid "Run lms migrations against the default database."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:189
+msgid "Run cms migrations against the ``student_module_history`` database."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:190
+msgid "Run lms migrations against the ``student_module_history`` database."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:192
+msgid "If you choose to run migrations manually, refer to the last few lines of the ``/edx/bin/edxapp-migrate-lms`` and ``/edx/bin/edxapp-migrate-cms`` scripts for the commands that you must run."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:199
+msgid "Optional Step 5: Migrate All Data to the New Table"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:201
+msgid "After you complete all of the deployment steps (1-4) described above, you have the option to migrate all data from ``courseware_studentmodulehistory`` to ``coursewarehistoryextended_studentmodulehistoryextended``. For more information about this optional procedure, see :ref:`Migrate All Data to One Table`."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:211
+msgid "This procedure is suitable only for large production instances that require the operational benefits described in the :ref:`Why Is A New Database Needed` topic."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:219
+msgid "Script Options for Migrating Data"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:221
+msgid "EdX provides the following `migration scripts`_. You select the one that applies to your database architecture."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:224
+msgid "``migrate-separate-database-instances.sh`` applies to installations that set up the new database on a different database server than the default database."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:228
+msgid "``migrate-same-database-instance.sh`` applies to installations that set up the new database on the same database server as the default database."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:231
+msgid "Implementing this database architecture is simpler than setting up a separate database server, but it offers different operational benefits."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:234
+msgid "Both options require your installation to be running a deploy of Open edX that writes only to ``coursewarehistoryextended_studentmodulehistoryextended``. You can :ref:`restart<Restart a Migration>` either of the migrations if necessary."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:239
+msgid "Run the Script for Separate Database Servers"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:241
+msgid "EdX selected the database architecture with separate database servers, and implemented it by creating a read replica and then severing it from production. This process ensures that you have a mostly up to date ``courseware_studentmodulehistory`` table, which is then copied to ``coursewarehistoryextended_studentmodulehistoryextended``."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:247
+msgid "Do a final mysqldump from the first (default) database server to the second (new) database server."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:254
+msgid "Allow the mysqldump to run to completion, so that ``courseware_studentmodulehistory`` is caught up."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:257
+msgid "Run ``migrate-separate-database-instances.sh`` to copy data slowly."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:263
+msgid "Be sure to monitor your progress to ensure that the process runs slowly, and does not cause disk contention or other performance issues on the new database instance."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:268
+msgid "Run the Script for A Single Database Server"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:270
+msgid "Run ``migrate-same-database-instance.sh``."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:276
+msgid "Restart a Migration"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:278
+msgid "If you need to restart either migration, you can use the following command to find the largest ID value that was successfully inserted into the new table."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:285
+msgid "You can then rerun with MINID set to the result of this query."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:289
+msgid "Disable Reads from the Old Table"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:291
+msgid "Edit the ``lms.yml`` file to set the ``ENABLE_READING_FROM_MULTIPLE_HISTORY_TABLES`` feature flag."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:298
+msgid "After you bring your servers back online with this configuration, the system only writes to and queries from the ``coursewarehistoryextended_studentmodulehistoryextended`` table."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:304
+msgid "Truncate the Old Table"
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:306
+msgid "Select one of the available MySQL techniques for slowly draining the ``courseware_studentmodulehistory`` table."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:309
+msgid "The preferred technique for installations with small or moderately sized databases is the ``TRUNCATE TABLE courseware_studentmodulehistory`` command. However, this command can cause a lot of disk activity."
+msgstr ""
+
+#: ../../source/CSMHE/migration_procedures.rst:313
+msgid "If your table is very large, you can choose to use the ``slow-delete.sh`` script instead. EdX prepared and used this script to truncate ``courseware_studentmodulehistory``."
+msgstr ""

@@ -1,0 +1,1618 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Building and Running an Open edX Course package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Building and Running an Open edX Course \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../shared/course_assets/course_files.rst:5
+msgid "Adding Files to a Course"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:7
+msgid "Adding files, such as images, that you can use in your course has the following steps."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:None
+msgid "A workflow diagram showing the steps to add and show a file in a course\n"
+"or on the internet."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:14
+msgid "The course team uploads a file on the **Files & Uploads** page in Studio."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:15
+msgid "Studio generates two URLs for the file."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:17
+msgid "The Studio URL is used to add the file inside the course, such as in a component or on a page."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:20
+msgid "The web URL is used to add the file outside the course, such as in an email message or external web page."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:23
+msgid "The course team adds a link to the file inside or outside the course."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:25
+msgid "To add the file inside the course, the course team adds the Studio URL in the course content, such as in a component or on a page."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:28
+msgid "To add the file outside the course, the course team adds the web URL in an email message or external web page."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:31
+msgid "The file is visible in the course, email, or external web page."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:33
+msgid "For more information, see the following topics."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:43
+msgid "The Files & Uploads Page"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:45
+msgid "You manage most files for your course, including image files, on the **Files & Uploads** page. This page lists the files that you upload, along with the following information about the files."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:49
+msgid "The file name."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:50
+msgid "A preview of the file (if the file is an image) or an icon that represents the file."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:54
+msgid "If you do not want to see a preview of your files, select the **Hide File Preview** checkbox in the left pane. To show a preview again, clear this checkbox."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:58
+msgid "The file type."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:59
+msgid "The date the file was added."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:60
+msgid "The URLs that you use to make your files visible in your course or on the internet."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:62
+msgid "An indication of whether the file is :ref:`locked<Lock a File>`."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:64
+msgid "This page also includes a **Search** option to help you find specific files. For more information, see :ref:`Find Files`."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:68
+msgid "For textbooks or for course handouts that you want to make available in the sidebar of the **Course** page, see :ref:`Adding Textbooks` or :ref:`Add Course Handouts`."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:76
+msgid "File Size"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:78
+msgid "The maximum size for each file is 10 MB. We recommend that you use standard compression tools to reduce PDF and image file sizes before you add the files to your course."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:82
+msgid "You can upload multiple files at a time."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:84
+msgid "If you have very large audio files or large data sets to share with your students, do not use the **Files & Uploads** page to add these files to your course. Instead, use another hosting service to host these files."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:92
+msgid "Upload Files"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:95
+msgid "Ensure that you obtain copyright permissions for files and images you upload to your course, and that you cite sources appropriately."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:98
+msgid "To upload one or more files, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:100
+msgid "Create or locate the files on your computer."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:103
+msgid "When Studio generates URLs for an uploaded file, the file name becomes part of the URL and is visible to students when they access the file. Avoid using file names that contain information that you do not want to share about the file contents, such as \"Answerkey.pdf\"."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:108
+msgid "On the **Content** menu, select **Files & Uploads**."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:110
+msgid "On the **Files & Uploads** page, drag your file or files into the **Drag and Drop** area."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:114
+msgid "If you upload a file that has the same name as an existing course file, the original file is overwritten without warning."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:117
+msgid "The **Files & Uploads** page refreshes to show the uploaded file or files."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:119
+msgid "To upload additional files, drag more files into the **Drag and Drop** area of the page."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:126
+msgid "Find an Uploaded File"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:128
+msgid "The **Files & Uploads** page lists up to 50 files at one time.  If your course has more than 50 files, additional files are listed on other pages."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:131
+msgid "To find a file on the **Files & Uploads** page, you can use the **Search** option, or you can view the page that lists the file."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:134
+msgid "To use the **Search** option, enter one of the following search terms in the **Search** field, and then select the magnifying glass icon."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:137
+msgid "The full file name."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:138
+msgid "The file name extension, or file type."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:139
+msgid "Part of the file name. You can also enter multiple parts of a file name."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:141
+msgid "For example, if the file is named FirstCourseImage.jpg, you can enter any of the following search terms in the **Search** field."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:144
+msgid "``FirstCourseImage.jpg``"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:145
+msgid "``.jpg``"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:146
+msgid "``First`` ``Image``"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:147
+msgid "``First`` ``.jpg``"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:149
+msgid "To view the page that lists the file, select **Previous** or **Next** to view the previous or next page, or select the number of the page that you want to view."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:153
+msgid "You can also sort files by name, type, or date added, or filter files by type. For more information, see :ref:`Sort Files` or :ref:`Filter files`."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:160
+msgid "Sort Files"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:162
+msgid "On the **Files & Uploads** page, you can sort your files by name, type, or date added. To sort by one of these columns, select the name of the column. For example, to sort your files by type, select the **Type** column name."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:166
+msgid "The arrow or arrows to the right of the column name indicate the column sort order. Files are sorted by the column that has one arrow. The direction of the arrow indicates whether the order is ascending or descending."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:170
+msgid "To change between ascending and descending order, select the column name again."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:176
+msgid "Filter Files"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:178
+msgid "You can filter the list of files by type so that only a selected type of file is visible. The list remains in the current sort order."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:181
+msgid "You can filter by the following file types."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:187
+msgid "Type"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:188
+msgid "Possible File Name Extensions"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:189
+msgid "Audio"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:190
+msgid ".aac, .mpeg, .mp3, .ogg, .wav"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:191
+msgid "Code"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:192
+msgid ".css, .html, .json, .php, .sql"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:193
+msgid "Documents"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:194
+msgid ".pdf, .txt, Microsoft Office and Open Office documents, presentations, spreadsheets"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:196
+msgid "Images"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:197
+msgid ".gif, .ico, .jpg, .jpeg, .png, .tif, .tiff"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:198
+msgid "Other"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:199
+msgid "Files not included in the other types, such .sjson"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:201
+msgid "To filter the list of files by type, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:203
+msgid "On the **Files & Uploads** page, locate **Filter by File Type**."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:204
+msgid "In the list, select the checkboxes for the types of file that you want."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:206
+msgid "The list refreshes to show only the type or types of file you selected. You can sort the resulting list by name, type, and date added."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:209
+msgid "To reset the list and view files of all types, clear all checkboxes."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:215
+msgid "Use an Uploaded File Inside or Outside the Course"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:217
+msgid "When you upload a file, Studio assigns a Studio URL and a web URL to the file. The **Copy URLs** column on the **Files & Uploads** page lists these URLs. To use an uploaded file, you add a link to the Studio URL or the web URL in your content."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:223
+msgid "If you do not want to allow access to a file from outside your course, you can lock the file so that only learners who are signed in and enrolled in your course can access the file. For more information, see :ref:`Lock a File`."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:232
+msgid "Add a File or Image Inside the Course"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:234
+msgid "To add a file or image inside the course, such as to a component, a course update, or a course handout, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:237
+msgid "On the **Files & Uploads** page, select the **Studio** option in the **Copy URLs** column."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:240
+msgid "The **Studio** option text briefly changes to **Copied**."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:242
+msgid "In the component or other content, paste the Studio URL."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:244
+msgid "For more information, see :ref:`Add an Image to a Text Component`."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:250
+msgid "Add a File or Image Outside the Course"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:252
+msgid "To add a file or image outside the course, such as to a bulk email message that you send from the LMS, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:255
+msgid "On the **Files & Uploads** page, select the **Web** option in the **Copy URLs** column."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:258
+msgid "The **Web** option text briefly changes to **Copied**."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:260
+msgid "In the external content, paste the web URL."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:263
+msgid "Be sure that you do not use the Studio URL in an email message. For more information about sending email messages, see :ref:`Send_Bulk_Email`."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:271
+msgid "Lock a File"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:273
+msgid "By default, anyone can access a file you upload if they know the web URL, even if they are not enrolled in your course. You can prevent outside access to a file by locking the file. When you lock a file, the web URL only allows learners who are enrolled in your course and signed in to access the file."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:278
+msgid "To lock a file, select the lock icon in the row for the file."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:284
+msgid "Delete a File"
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:286
+msgid "To delete a file, select the delete icon in the row for file, and then select **Permanently delete** in the confirmation dialog box."
+msgstr ""
+
+#: ../../../shared/course_assets/course_files.rst:290
+msgid "After you delete a file, any links to the file from inside or outside the course are broken. You must update links to files that you delete."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:5
+msgid "Using the Course Wiki"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:7
+msgid "Wikis provide a way for the course team and learners to access, share, and collaboratively edit information both about, and for, your course."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:16
+msgid "About the Course Wiki"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:18
+msgid "Courses can optionally configure a wiki application and set it up for appropriate use in your course. If you have specific expectations for how the wiki should be used, communicate these expectations to your learners and staff. You can :ref:`seed the wiki<Seeding the Wiki>` with specific content and provide a skeleton structure and some exemplars. At the beginning of the course, explain how you want the course wiki to be used, and provide clear instructions and guidelines for its use."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:26
+msgid "Common uses for the course wiki might include the following activities."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:28
+msgid "Sharing answers to course FAQs and collecting new FAQs."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:29
+msgid "Sharing editable course information, such as download and installation instructions for software required for the course"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:31
+msgid "Providing shared access to learner-created resources, perhaps as part of a collaborative exercise."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:33
+msgid "Sharing errata for the course."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:34
+msgid "Collecting suggestions for future runs of the course."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:36
+msgid "As learners and course team members create and edit wiki articles, they contribute to a repository of information about your course that can be immediately useful to other learners, or useful for you and your course team as you develop other courses or future runs of the same course."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:41
+msgid "The wiki for each course is a \"child\" wiki of the edX-wide wiki. From within any course wiki, select the top level **Wiki** link in the breadcrumb trail at the top of the page to visit the edX-wide wiki."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:51
+msgid "Managing the Course Wiki"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:53
+msgid "Keep these points in mind as you design the wiki for your course."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:55
+msgid "Be clear about the purpose for the wiki or for different parts of the wiki. For example, are some parts of the wiki only for disseminating information? If that is the case, then make sure that only your course team has write access for those articles."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:60
+msgid "Decide whether some parts of the wiki are intended for learner collaboration or learner input. Make sure that learners are able to create and edit wiki articles in those sections, and use text to clearly indicate to learners that these pages can be edited."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:65
+msgid "Think about the different tasks that will be performed by people in different roles. Typically you want your course team to have some privileges that learners do not have. For example, course team members can delete wiki articles, but learners cannot."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:70
+msgid "Members of the course team can perform these tasks to manage the wiki."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:72
+msgid ":ref:`Show or Hide the Wiki<Showing or Hiding the Wiki>`"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:73
+msgid ":ref:`Control Wiki Access<Controlling Wiki Access>`"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:74
+msgid ":ref:`Seed the Wiki<Seeding the Wiki>`"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:75
+msgid ":ref:`Lock a Wiki Article<Locking a Wiki Article>`"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:76
+msgid ":ref:`Delete a Wiki Article<Deleting a Wiki Article>`"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:77
+msgid ":ref:`Purge a Wiki Article<Purging a Wiki Article>`"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:78
+msgid ":ref:`Restore a Deleted Wiki Article<Restoring a Deleted Wiki Article>`"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:80
+msgid "All users, including learners, can perform the following tasks, depending on the permissions that you set for an article."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:83
+msgid ":ref:`Add a Wiki Article<Adding a Wiki Article>`"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:84
+msgid ":ref:`Edit a Wiki Article<Editing a Wiki Article>`"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:85
+msgid ":ref:`Manage Versions of a Wiki Article<Managing Versions of a Wiki Article>`"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:86
+msgid ":ref:`Search for Wiki Articles<Searching for Wiki Articles>`"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:92
+msgid "Showing or Hiding the Wiki"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:94
+#: ../../../shared/course_assets/pages.rst:113
+msgid "To disable or enable the Wiki application, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:96
+#: ../../../shared/course_assets/course_wiki.rst:118
+#: ../../../shared/course_assets/pages.rst:75
+#: ../../../shared/course_assets/pages.rst:94
+#: ../../../shared/course_assets/pages.rst:115
+#: ../../../shared/course_assets/pages.rst:137
+#: ../../../shared/course_assets/pages.rst:177
+#: ../../../shared/course_assets/pages.rst:209
+#: ../../../shared/course_assets/pages.rst:301
+#: ../../../shared/course_assets/pages.rst:335
+msgid "In Studio, from the **Content** menu select **Pages & Resources**."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:97
+#: ../../../shared/course_assets/course_wiki.rst:119
+#: ../../../shared/course_assets/pages.rst:117
+#: ../../../shared/course_assets/pages.rst:302
+msgid "Click the gear icon on the **Wiki** card shown on this page."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:98
+msgid "From the **Configure wiki** modal, select the toggle to enable or disable the **wiki**."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:99
+#: ../../../shared/course_assets/course_wiki.rst:121
+#: ../../../shared/course_assets/pages.rst:81
+#: ../../../shared/course_assets/pages.rst:100
+#: ../../../shared/course_assets/pages.rst:121
+#: ../../../shared/course_assets/pages.rst:143
+#: ../../../shared/course_assets/pages.rst:255
+#: ../../../shared/course_assets/pages.rst:304
+msgid "Select **Apply** to save your configuration changes."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:101
+msgid "When you hide the wiki in your course, any existing articles remain in the edX- wide wiki, but the Wiki page is removed from your course pages."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:110
+msgid "Controlling Access to the Wiki"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:112
+#: ../../../shared/course_assets/pages.rst:296
+msgid "You can control access to the wiki in various ways: by changing access to the wiki as a whole, by changing the read/write permissions settings of articles within the wiki, or by locking articles."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:116
+#: ../../../shared/course_assets/pages.rst:299
+msgid "To change access to the course wiki, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:120
+msgid "From the **Configure wiki** modal, check or uncheck the toggle of the **Enable public wiki access** setting."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:124
+msgid "The **Enable public wiki access** wiki setting is disabled by default, meaning that only course team members and enrolled learners can see the course wiki. If you enable this setting, then any registered edX user can access the course wiki, even if they are not enrolled in your course. However, public users would have to explicitly navigate to your wiki via the edX-wide wiki structure, or a link that has been provided to them."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:129
+msgid "To modify viewing or editing permissions for specific groups of users by article, see :ref:`Setting Permissions for Wiki Articles`."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:132
+msgid "To lock an article and prevent further editing, see :ref:`Locking a Wiki Article`."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:139
+msgid "Setting Permissions for Wiki Articles"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:141
+msgid "To prevent certain groups of users from being able to add or edit articles, you need to modify the read/write permissions for articles. For example, as a member of the course team, you likely want to prevent learners from creating wiki articles at the top level, so you should remove write access to course- level wiki articles for most users. (Top-level wiki articles are children of the edX-wide wiki, and cannot be found within the course wiki)."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:148
+msgid "To modify the permissions for wiki articles, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:150
+#: ../../../shared/course_assets/course_wiki.rst:216
+#: ../../../shared/course_assets/course_wiki.rst:237
+msgid "View the live version of your course."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:151
+#: ../../../shared/course_assets/course_wiki.rst:217
+#: ../../../shared/course_assets/course_wiki.rst:238
+msgid "Select **Wiki**."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:152
+msgid "Navigate to the article whose permissions you are modifying, and then select **Settings**."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:154
+msgid "In the **Permissions** section of the **Settings** page, select or clear the checkboxes for read or write access for **Group** or **Other**."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:156
+#: ../../../shared/course_assets/course_wiki.rst:221
+msgid "At the bottom of the page, select the **Save changes** button for the **Permissions** section."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:159
+msgid "Note that there are two different **Save changes** buttons, one near the top of the page for the **Notifications** section, and one at the bottom of the page for the **Permissions** section. If you are modifying permissions, make sure you select the **Save changes** button at the bottom of the page for your changes to be saved."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:167
+msgid "Groups Used in Wiki Permissions"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:169
+msgid "Each course has the following groups."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:171
+msgid "Beta Testers (by default there are no beta testers until you add them)"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:172
+msgid "Admins (by default, the course author is always in this group)"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:173
+msgid "Staff (these are course team members)"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:175
+msgid "You add users to these groups in the LMS by selecting **Instructor** and then **Membership**."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:178
+msgid "The permissions for the **Others** group apply to users who are not in the three course groups, including learners."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:187
+msgid "Seeding the Wiki"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:189
+msgid "To ensure that learners get the most out of your course wiki, design the wiki space before the course starts by seeding the course wiki with articles that give it the desired structure."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:193
+msgid "For example, you could create wiki articles to mirror the course outline. At the top level, you could provide a course outline, FAQs, and links to the main articles for each section. In the child articles for each section, you could provide information specific to the units and components in that section, and a page for learners to share their feedback and experiences."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:3
+msgid "This section describes how you can contribute to the course wiki."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:13
+msgid "Adding a Wiki Article"
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:15
+msgid "When you add an article to the wiki, be aware of what level you are currently viewing, to make sure that you add your new article to the correct level in the course wiki."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:19
+msgid "To move down a level in the wiki, select **See all children**; to move up, select the appropriate level in the wiki breadcrumb trail links at the top of the page."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:25
+msgid "Add Articles at the Same Level"
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:27
+msgid "To add a wiki article at your current level, follow these steps. If you do not have permissions to add an article, when you select **Add Article**, a message indicates \"Permission Denied\" ."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:31
+#: ../../../shared/course_assets/wiki_tasks.rst:51
+#: ../../../shared/course_assets/wiki_tasks.rst:75
+#: ../../../shared/course_assets/wiki_tasks.rst:112
+msgid "In your course, select **Wiki**."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:32
+msgid "Navigate to the level where you want to add a new article."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:33
+msgid "Select the **Add Article** button near the top right of the page."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:34
+#: ../../../shared/course_assets/wiki_tasks.rst:55
+msgid "On the new article page, add a title for the page, and optionally a few keywords to create a \"slug\" that provides a more specific location identifier for your article."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:37
+#: ../../../shared/course_assets/wiki_tasks.rst:58
+msgid "Add contents to the article. You can enter plain text and use Markdown syntax to add formatting. For help with Markdown syntax, select the link to the cheat sheet at the upper right corner of the **Contents** field."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:40
+#: ../../../shared/course_assets/wiki_tasks.rst:61
+msgid "When you have finished entering content for your wiki article, select **Create Article**."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:45
+msgid "Add Articles Below the Current Level"
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:47
+msgid "To add a child article to your current article, follow these steps. If you do not have permissions to add an article, when you select **Add Article**, a message indicates \"Permission Denied\" ."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:52
+msgid "Navigate to the level above where you want to add the new child article."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:53
+msgid "Select **See all children**."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:54
+msgid "Select the **Add Article** button under the wiki title."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:68
+msgid "Editing a Wiki Article"
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:70
+msgid "If you have permissions to edit an article, you see an **Edit** button and icon to the right of the article content."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:73
+msgid "To make changes to a wiki article, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:76
+msgid "Navigate to the article you want to edit."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:77
+msgid "Select **Edit**."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:78
+msgid "Make your changes. For help with Markdown syntax, select the link to the cheat sheet at the upper right corner of the **Contents** field."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:80
+msgid "In the **Summary** field at the bottom left, below the **Contents** field, enter a short description of the changes you made. This description appears in the **Changes** list, and helps other users of the wiki understand what changes you made to the article."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:84
+msgid "When you have finished making edits, select **Save changes**."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:90
+msgid "Searching for Wiki Articles"
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:92
+msgid "A **Filter** field is available only if any level of the wiki contains multiple articles."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:95
+msgid "Enter a text string in the **Filter** field to find a list of all articles with that text string in their titles."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:102
+msgid "Managing Versions of Wiki Articles"
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:104
+msgid "The wiki includes a change history for each article. You can view each past version of the article, roll back to a selected earlier version of the article, or merge the current version of the article with a selected earlier version."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:110
+msgid "View a List of Previous Versions of a Wiki Article"
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:113
+msgid "Navigate to the wiki article for which you want to see the change history."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:114
+msgid "Select **Changes**. Previously saved versions of the current article are listed, with the most recent at the top."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:119
+msgid "View a Previous Version of a Wiki Article"
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:121
+#: ../../../shared/course_assets/wiki_tasks.rst:130
+msgid "On the **Changes** page for your wiki, select the revision of the article that you want to view."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:123
+msgid "Select **Preview this revision** to see the article as it appeared after the revision was made."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:128
+msgid "See Line by Line Changes in a Previous Version"
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:132
+msgid "Select the linked date, time, and author information to see the line-by-line changes made in that revision. Text that is highlighted in red has been replaced by the text that is highlighted in green below it."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:138
+msgid "Replace a Current Version with a Previous Version"
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:140
+msgid "On the **Changes** page for your wiki, select the revision of the article that you want to roll back to."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:142
+msgid "Select **Switch to selected version** to replace the current version with the selected one."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:147
+msgid "Combine a Current Version with a Previous Version"
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:149
+msgid "On the **Changes** page for your wiki, select the revision of the article that you want to merge with the current version."
+msgstr ""
+
+#: ../../../shared/course_assets/wiki_tasks.rst:151
+msgid "Select **Merge selected with current** to combine the current and the selected versions."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:205
+msgid "Locking a Wiki Article"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:207
+msgid "Locking a wiki article prevents further changes from being made to it. To lock a wiki article either after you create it, or after you make specific edits, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:218
+msgid "Navigate to the article you want to lock, and then select **Settings**."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:219
+msgid "In the **Permissions** section of the **Settings** page, select the **Lock article** checkbox."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:228
+msgid "Deleting a Wiki Article"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:230
+msgid "Only course team members can delete articles. In addition, you can only delete an article if you have permissions to edit that article. If you have the required permissions, you see a **Delete article** button at the bottom of the **Edit** page."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:235
+msgid "To delete an article, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:239
+msgid "Navigate to the article you want to delete, and then select **Edit**."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:240
+msgid "Select **Delete article**."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:241
+msgid "On the deletion confirmation page, select **Yes, I am sure**."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:242
+msgid "Optionally, also select the **Purge** checkbox. For details, see :ref:`Purging a Wiki Article`."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:244
+msgid "Select **Delete article** to confirm the deletion."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:251
+msgid "Purging a Wiki Article"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:253
+msgid "When you delete and purge an article, it is completely removed from the wiki, with no option to undo the deletion. Select this option only if you are sure you will not want to restore the content."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:257
+msgid "To purge an article as you delete it, select the **Purge** checkbox on the deletion confirmation page."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:265
+msgid "Restoring a Deleted Wiki Article"
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:267
+msgid "Articles that have been deleted but not purged can be restored. A link to the article remains visible at the level at which it was created."
+msgstr ""
+
+#: ../../../shared/course_assets/course_wiki.rst:270
+msgid "To restore a deleted article, select the link to the article and select **Restore**."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:5
+msgid "Adding Course Updates and Handouts"
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:7
+msgid "You can create course updates and handouts in Studio."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:9
+msgid "Course updates are communications, especially a welcome message, that learners see at the top of the **Course** page when they enter the course. A welcome message is an important way of making each learner feel personally welcomed to the course, and of providing orienting information that helps learners succeed with the course."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:15
+msgid "After learners have read the welcome message, they can dismiss the message. The message is automatically dismissed seven days after the learner first views it if the learner doesn't actively dismiss it first. Learners can access the dismissed message and any other updates from the **Updates** link in the sidebar on the **Course** page."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:21
+msgid "Handouts are links to files that you upload in Studio, for example, a PDF version of the course syllabus, or an article that you want learners to read. Learners see the list of course handouts under **Handouts** in the sidebar."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:None
+msgid "The **Course** page as it appears to learners, showing the course\n"
+"welcome message in the main reading area, and in the sidebar, the\n"
+"**Updates** link under the **Course Tools** heading and links to handouts\n"
+"under the **Course Handouts** heading."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:33
+msgid "Section Contents"
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:39
+msgid "Add a Course Update"
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:41
+msgid "You create course updates in Studio. On entering the course, learners see the update that has the latest date chronologically (including dates in the future) on their **Course** page."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:45
+msgid "Learners can dismiss the update that displays on their **Course** page after they have read it. When learners have dismissed a message, they can access the dismissed message and any other updates from the **Updates** link in the sidebar on the **Course** page."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:50
+msgid "On the **Updates** page in Studio, you see the list of updates sorted in the order that they were created (most recent at the top of the list). If you create a new update, learners do not see the update on the **Course** page unless it has the latest chronological date of all existing updates."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:55
+msgid "To add a course update, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:57
+#: ../../../shared/course_assets/handouts_updates.rst:122
+msgid "In Studio, select **Updates** from the **Content** menu."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:58
+msgid "Select **New Update**."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:59
+msgid "Create your update in the text editor that opens."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:61
+msgid "Enter text for the update, using HTML tags for formatting. This editor is like the :ref:`raw HTML editor<The Raw HTML Editor>` in Text components. The course update editor does not have a :ref:`visual editor<The Visual Editor>`."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:67
+msgid "To make sure that your announcements are accessible, if you use headings inside an announcement, make sure that you use only level 6 headings (``<h6>``). The structure of the course **Course** page uses heading levels 1-5."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:72
+msgid "If you copy text from another source and paste it into the text editor, proofread the result carefully. Some applications automatically change quotation marks and apostrophes from the \"straight\" version to the \"smart\" or \"curly\" version. The editor requires \"straight\" quotation marks and apostrophes."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:78
+msgid "Specify a date for this update. By default, today's date is already entered. You can change the date using the calendar tool, or by entering some other valid date."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:82
+msgid "Learners do not see the update on the **Course** page unless it has the latest chronological date of all existing updates."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:85
+msgid "Select **Post**."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:87
+msgid "Your new update becomes available to learners immediately. If the update has the latest chronological date, it is shown to learners on the **Course** page, otherwise the update appears on the **Updates** page."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:97
+msgid "Optionally, choose whether to send a notification about your update to the edX mobile app."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:100
+msgid "Learners can choose to turn off notifications for individual courses or for all courses. The **Course** page continues to show updates."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:102
+msgid "Updates appear on the **Course** page, even if you do not send notifications."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:110
+msgid "Add a Course Handout"
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:112
+msgid "To add a course handout, you :ref:`upload a file in Studio<Add Files to a Course>`, then add an entry to an HTML-formatted list of handouts, specifying the URL to your uploaded file and providing a handout title."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:116
+msgid "You can open the Studio **Files & Uploads** page in another browser window to make this process easier."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:119
+msgid "To add a course handout, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:124
+msgid "On the **Updates** page, you see a **Course Updates** panel and a **Course Handouts** panel."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:0
+msgid "The **Course Updates** page in Studio, showing the Course Handouts\n"
+"panel."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:133
+msgid "In the **Course Handouts** panel, select **Edit**."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:135
+msgid "In the editor that opens, use HTML formatting to add a link to your uploaded file and a title for the handout. If there are no existing handouts, by default an empty ordered list tag is provided."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:139
+msgid "An example using paragraph tags rather than a list, follows."
+msgstr ""
+
+#: ../../../shared/course_assets/handouts_updates.rst:146
+#: ../../../shared/course_assets/pages.rst:190
+#: ../../../shared/course_assets/pages.rst:216
+#: ../../../shared/course_assets/textbooks.rst:45
+msgid "Select **Save**."
+msgstr ""
+
+#: ../../source/course_assets/index.rst:5
+msgid "Adding Course Assets"
+msgstr ""
+
+#: ../../source/course_assets/index.rst:7
+msgid "Use the topics in this section to learn about managing assets in your course."
+msgstr ""
+
+#: ../../source/course_assets/index.rst:9
+msgid "For information on how to develop your course content in the Studio Outline, see :ref:`Developing Your Course Index`."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:5
+msgid "Managing the Pages in Your Course"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:7
+msgid "This topic describes the applications and resources that your course experience has enabled outside of the core content experience and how you can modify these tools to fit your course needs."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:20
+msgid "Working with the Default Pages"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:22
+msgid "By default, every new course has the following key areas enabled:"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:24
+msgid "Course"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:25
+msgid "Progress"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:26
+msgid "Date"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:27
+msgid "Discussion"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:30
+msgid "In the learner experience, these will be shown in the primary navigation bar at the top of every page, consistently in this order for all courses."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:None
+msgid "The navigation bar in the LMS, showing the default pages."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:36
+msgid "As a course team member with the **Staff** or **Admin** role, you also see the Instructor option in the navigation bar, shown at the end of the list of pages. Learners do not see the Instructor option."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:41
+msgid "The progress page can be disabled and thus hidden from the learner experience, though this is not commonly done and is not recommended. The information on the Progress page is critical for motivating learners, particularly in courses that include graded subsections, but also for courses that include only ungraded exercises. Before choosing to hide the Progress page for your course, consider the possible effect on learner engagement."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:52
+msgid "Enabling Additional Applications & Resources"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:54
+msgid "Additional applications and resources can be enabled depending on your course needs, including:"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:56
+msgid "Notes"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:57
+msgid "Teams"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:58
+msgid "Wiki"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:59
+msgid "Calculator"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:60
+#: ../../../shared/course_assets/textbooks.rst:5
+msgid "Textbooks"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:61
+msgid "Custom Pages"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:67
+msgid "Enabling the Notes Application"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:69
+msgid "The notes application can be optionally enabled to allow learners to easily create organized text notes for any text, problem, or video transcript content within a course. These notes are then centrally stored for review in the Notes area of the course"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:73
+msgid "To disable or enable the Notes application, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:77
+msgid "Click the gear icon on the **Notes** card shown on this page."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:79
+msgid "From the **Configure notes** modal, select the toggle to enable or disable the notes application."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:87
+msgid "Enabling the Teams Application"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:89
+msgid "When you create a course, the teams application can be optionally enabled to provide a mechanism for instructor and learner-driven team formation or assignment."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:92
+msgid "To disable or enable the Teams application, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:96
+msgid "Click the gear icon on the **Teams** card shown on this page."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:98
+msgid "From the **Configure teams** modal, select the toggle to enable or disable the teams application."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:102
+msgid "Additional configuration for the Teams application can be found at :ref:`11.3.3.3 Configuring the Teams application<Teams Configuration>`"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:109
+msgid "Enabling the Wiki Application"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:111
+msgid "When you create a course, a wiki can be optionally enabled to create and share resources that can be edited and updated by any course team member or learner."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:119
+msgid "From the **Configure Wiki** modal, select the toggle to enable or disable the wiki."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:123
+msgid "When you disable the wiki application in your course, any existing articles remain in the edX- wide wiki, but the Wiki page is removed from your course pages."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:125
+msgid "Additional details for configuring the wiki application can be found at :ref:`11.3.3.2 Configuring the wiki application<Wiki Configuration>`."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:131
+msgid "Enabling the Calculator Resource"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:132
+msgid "Courses can optionally render a calculator resource that helps learners use an in-platform tool for mathematical operations and computations."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:135
+msgid "To disable or enable the Calculator resource, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:139
+msgid "Click the gear icon on the **Calculator** card shown on this page."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:141
+msgid "From the **Configure calculator** modal, select the toggle to enable or disable the calculator."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:151
+msgid "Adding Custom Page Resources"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:153
+msgid "You can customize your course by adding pages. Each page that you add appears in the navigation bar for your course. When you add a page, you also add its content using an HTML editor. The following example shows the navigation bar for a course that has added a custom page named Syllabus."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:0
+msgid "The navigation bar in the LMS, showing a custom page named Syllabus."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:161
+msgid "When you add a page, you can specify whether it and its content are visible only to course team members who have the Admin or Staff role, or to all enrolled learners as well as the course team. For more information about assigning course team roles, see :ref:`Course_Staffing`."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:165
+msgid "If you add a custom page to a course after its start date, and have specified that the page should be visible to learners, the page is visible in the LMS as soon as you save your work."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:168
+msgid "As a best practice, be sure the following aspects of your page design are ready before you add a page in Studio."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:171
+msgid "The content for the page, which can include HTML markup."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:172
+msgid "The name of the page."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:173
+msgid "The audience for the page (everyone, or course team members with the Admin or Staff roles only)."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:175
+msgid "To add a custom page and its content to your course, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:178
+#: ../../../shared/course_assets/pages.rst:336
+msgid "Select the **Custom Pages** card on this page."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:179
+msgid "Click **New Page**, which prompts the system to add a page named **Empty** to the end of the list."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:180
+msgid "In the row for the new page, select **Edit**. The :ref:`visual editor<The Visual Editor>` opens."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:181
+msgid "Enter the content for your page."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:183
+msgid "To add HTML tags to your content, select HTML to open the :ref:`the raw HTML editor<The Raw HTML Editor>`. For more information about entering content, see :ref:`Options for Editing Text Components`."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:186
+msgid "If you copy text from another source and paste it into the visual editor,be sure to proofread the result carefully. Some applications automatically change quotation marks and apostrophes from the “straight” version to the “smart” or “curly” version. The raw HTML editor requires “straight” quotation marks and apostrophes."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:188
+msgid "To rename the page, select Settings, and then enter a Display Name. The display name is the label that course participants use in the course navigation bar."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:189
+msgid "To hide the page from learners, select **Settings**, and then select true for **Hide Page from Learners**. By default, pages are visible to learners."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:192
+msgid "The new page is immediately available to the specified audience if the course has started."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:194
+msgid "For details on reordering course pages, see additional detail in :ref:`11.3.4. Reordering and Deleting Custom Pages<Reordering and deleting custom pages>`."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:200
+msgid "Enabling the Textbooks Resources"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:202
+msgid "You can add textbooks in PDF format to your course using the Textbooks resource area. Each textbook that you add is displayed to learners as a page, or tab, in the course navigation bar."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:205
+#: ../../../shared/course_assets/textbooks.rst:10
+msgid "Do not use image files (for example, .png files) as textbooks for your course, because they are not accessible to learners who use screen readers. For more information, review :ref:`Creating Accessible PDFs`."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:207
+msgid "To add a textbook resource to your course, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:210
+msgid "Select the **Textbooks** card on this page."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:211
+#: ../../../shared/course_assets/textbooks.rst:34
+msgid "Select either **Add your first textbook** or **New Textbook**."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:212
+#: ../../../shared/course_assets/textbooks.rst:36
+msgid "On the page that opens, enter the **Textbook Name**."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:213
+#: ../../../shared/course_assets/textbooks.rst:38
+msgid "Enter the **Chapter Name**."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:214
+#: ../../../shared/course_assets/textbooks.rst:40
+msgid "Next to **Chapter Asset**, select **Upload PDF** to upload a PDF from your computer, and then follow the prompts to upload your file."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:215
+#: ../../../shared/course_assets/textbooks.rst:43
+msgid "To add more chapters, select **Add a Chapter** and repeat steps 5 and 6."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:218
+msgid "When you add a textbook to your course, Studio automatically adds each PDF file that you upload to the Files & Uploads page. EdX recommends that you upload a separate PDF for each chapter of your textbook. When learners open the textbook page in the course, they can navigate the textbook by chapter."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:220
+msgid "You can delete a custom textbook from your course using the delete icon shown on each textbook from the Textbooks Studio page. It is also possible to delete a specific chapter from a textbook when editing a textbook using the close icon to the right of each listed chapter."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:224
+msgid "After you delete your textbook on the Textbooks page, edX strongly recommends that you :ref:`lock <Lock a File>` or :ref:`delete <Delete a File>` the PDF files for the textbook on the Files & Uploads page to avoid copyright issues."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:230
+msgid "Configuring Applications & Resources"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:232
+msgid "As a best practice, you should avoid changing the visibility of your course pages after the course starts. For example, your course includes the Wiki page when it starts. A learner adds a page to the course wiki, and adds a browser bookmark to that page. If you later hide the Wiki page, the learner’s browser bookmark will continue to provide access to the entire course wiki."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:237
+msgid "Included below are detailed instructions for the configuration of applications and resources that have additional settings and options."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:243
+msgid "Configuring the Discussions application"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:245
+msgid "There are several configuration options available to the Discussions application. Many basic configuration options are provided within Studio’s Pages & Resources area, and moderation capabilities are available to instructors, moderators, and community TAs directly from the Discussions application. Included below are details about both the configuration options and management tools."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:250
+msgid "To change how the discussion experience is configured, follow these steps:"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:252
+msgid "In **Studio**, from the Content menu select **Pages & Resources**."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:253
+msgid "Click the gear icon on the **Discussion** card shown on this page."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:254
+msgid "From the **Configure discussion** modal, adjust any of the configuration settings as described below to fit your course needs."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:257
+msgid "The discussion configuration experience is comprised of two steps: provider selection and provider configuration. By default, courses are created with the edX discussion experience and its default configuration. Other providers and configuration options can be selected to fit the needs of courses."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:261
+msgid "**Step 1: Provider Selection**"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:263
+msgid "In this step, educators can select to use the default edX discussion experience or LTI based integrations with other providers. Below the grid of available providers is a table summarizing the features each integration provides."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:266
+msgid "**Step 2: Configuration Options**"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:268
+msgid "Each provider supports its own set of features depending on the discussion features they support. The edX discussion application has various settings and controls that are described below. All integrations use LTI 1.1 configuration, and may additionally support platform settings from the list below. Any special instructions or details specific to a given provider are described in this step as well."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:271
+msgid "**Anonymous Posting**"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:273
+msgid "If this setting is enabled, learners can create posts that are anonymous to all users."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:275
+msgid "**Allow Anonymous Discussion Posts to Peers**"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:277
+msgid "When enabled learners will be able to post anonymously to other peers but all posts will be visible to course staff."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:279
+msgid "**General Discussion Topics**"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:281
+msgid "It is possible to include general topics not associated with the course content structure. All courses have an initial general topic by default to start that can be renamed."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:283
+msgid "**Discussion Blackout Dates**"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:285
+msgid "Course teams can specify one or multiple times during which the discussion forums are not available for new content additions. This can be helpful during exam periods or other course time periods."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:292
+msgid "Configuring the Wiki application"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:294
+msgid "For instructions on how to enable the wiki application see :ref:`11.3.2.3 Enabling the Wiki Application<Enable Wiki>`."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:303
+msgid "From the **Configure** wiki modal, check or uncheck the toggle of the **Enable public wiki access** setting."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:306
+msgid "The **Enable public wiki** access wiki setting is disabled by default, meaning that only course team members and enrolled learners can see the course wiki. If you enable this setting, then any registered edX user can access the course wiki, even if they are not enrolled in your course. However, public users would have to explicitly navigate to your wiki via the edX-wide wiki structure, or a link that has been provided to them."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:315
+msgid "Configuring the Teams application"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:317
+msgid "Additional management and configuration of the teams application can be done through the main Team application tab in the learner experience, and is detailed in :ref:`12.4.1 Using the Teams application<Teams Setup>`."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:324
+msgid "Reordering and Deleting Custom Pages"
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:326
+msgid "For instructions on how to add custom pages see :ref:`11.3.2.5 Adding Custom Page Resources<Add Custom Page>`."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:328
+msgid "You can reorder the custom pages in your course in the same way that you :ref:`reorganize the course outline<Reorganize the Course Outline>`: you drag a page to a different location in the list of pages and drop it there."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:331
+msgid "All default course pages (Course, Progress, Dates, Discussion) and optional course applications (Notes, Teams, Wiki) appear in the navigation before any configured custom page resources. If you have configured any textbook resources, these are listed after custom pages."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:333
+msgid "To reorder the pages, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:337
+msgid "On the list of pages, each page that you can move includes a Drag to reorder icon."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:338
+msgid "Move your pointer over the Drag to reorder icon for the page. Your pointer changes to a four-headed arrow."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:339
+msgid "Click and drag the page to the new location, and then release."
+msgstr ""
+
+#: ../../../shared/course_assets/pages.rst:341
+msgid "You can also delete a custom page from your course using the delete icon shown on each custom page from the **Custom Pages** Studio page. If you delete a page after the course start date, note that the visibility of the page in the learner experience changes immediately."
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:7
+msgid "You can add textbooks in PDF format to your course."
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:14
+msgid "Each textbook that you add is displayed to learners as a page, or tab, in the course navigation bar. EdX recommends that you upload a separate PDF for each chapter of your textbook."
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:18
+msgid "When learners open the textbook page in the course, they can navigate the textbook by chapter."
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:24
+msgid "Add a Textbook"
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:27
+msgid "When you add a textbook to your course, Studio automatically adds each PDF file that you upload to the **Files & Uploads** page."
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:30
+msgid "Prepare PDFs of your textbook on your computer."
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:32
+#: ../../../shared/course_assets/textbooks.rst:57
+#: ../../../shared/course_assets/textbooks.rst:77
+msgid "On the **Content** menu, select **Textbooks**."
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:51
+msgid "Delete a Textbook"
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:54
+msgid "This method deletes the entire textbook. To delete an individual chapter, see :ref:`Delete a Chapter`."
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:59
+msgid "On the **Textbooks** page, hover the cursor over the textbook that you want to delete, and then select the trash can icon."
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:62
+msgid "In the confirmation dialog box, select **Delete**."
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:65
+msgid "When you add a textbook to your course, Studio adds each PDF file that you upload to the **Files & Uploads** page. After you delete your textbook on the **Textbooks** page, edX strongly recommends that you :ref:`lock<Lock a File>` or :ref:`delete<Delete a File>` the PDF files for the textbook on the **Files & Uploads** page to avoid copyright issues."
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:75
+msgid "Delete a Chapter"
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:79
+msgid "On the **Textbooks** page, hover the cursor over the textbook that contains the chapter that you want to delete, and then select **Edit**."
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:82
+msgid "On the textbook editing page, locate the chapter that you want to delete, and then select the X icon next to that chapter."
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:0
+msgid "Textbook editing page with a callout for the X icon"
+msgstr ""
+
+#: ../../../shared/course_assets/textbooks.rst:90
+msgid "When you add a textbook to your course, Studio adds each PDF file that you upload to the **Files & Uploads** page. After you delete a chapter on the **Textbooks** page, edX strongly recommends that you :ref:`lock<Lock a File>` or :ref:`delete<Delete a File>` the PDF file for the chapter on the **Files & Uploads** page to avoid copyright issues."
+msgstr ""
