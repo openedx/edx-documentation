@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Open edX Release Notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open edX Release Notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/ginkgo.rst:5
+msgid "Open edX Ginkgo Release"
+msgstr ""
+
+#: ../../source/ginkgo.rst:7
+msgid "This page lists the highlights of the Ginkgo release."
+msgstr ""
+
+#: ../../source/ginkgo.rst:9
+msgid "The `edX Release Notes`_ contain a summary of changes that are deployed to edx.org. Those changes are part of the master branch of the edX Platform in GitHub. You can also find `release announcements`_ on the open.edx.org website."
+msgstr ""
+
+#: ../../source/ginkgo.rst:14
+msgid "Changes listed for July 7, 2017 and before are included in the Ginkgo release of Open edX. Changes after that point will be in future Open edX releases."
+msgstr ""
+
+#: ../../source/ginkgo.rst:23
+msgid "New Features"
+msgstr ""
+
+#: ../../source/ginkgo.rst:25
+msgid "The Open edX Ginkgo release includes the following updates."
+msgstr ""
+
+#: ../../source/ginkgo.rst:34
+msgid "LMS"
+msgstr ""
+
+#: ../../source/ginkgo.rst:36
+msgid "The **Course** page now opens to a course outline that serves as the basis for a new course home experience. This course outline features a full-page course outline that lists all sections and subsections at once. It replaces the course outline sidebar on course content pages that listed sections and subsections. It allows learners to focus on content consumption and progression through the course. For more information, see `Course Navigation Changes`_ on the Open edX portal."
+msgstr ""
+
+#: ../../source/ginkgo.rst:44
+msgid "The **Course** page now includes breadcrumb navigation that learners can select from any course page to return to the course outline."
+msgstr ""
+
+#: ../../source/ginkgo.rst:47
+msgid "The video player now uses HLS video playback when YouTube videos are not available. HLS causes the player to continually check each learner's internet connection and adjust video playback, so that learners are always viewing the highest quality video possible for their internet connection."
+msgstr ""
+
+#: ../../source/ginkgo.rst:52
+msgid "Search functionality is available on the **Outline** page."
+msgstr ""
+
+#: ../../source/ginkgo.rst:54
+msgid "Learners now receive an email when they've submitted a proctored exam that lets them know their exam has been received, as well as when to expect scores. This email also provides information about whether the learner has passed or failed proctoring and why."
+msgstr ""
+
+#: ../../source/ginkgo.rst:59
+msgid "Learners can now sort inline discussions by most votes, most activity, and recent activity."
+msgstr ""
+
+#: ../../source/ginkgo.rst:62
+msgid "Learner responses for open responsesassessments can now include more than one file. The maximum cumulative upload size has been increased to 10 MB."
+msgstr ""
+
+#: ../../source/ginkgo.rst:65
+msgid "The LMS is compliant with Web Content Accessibility Guidelines (WCAG) 2.0 level AA. We have made a number of accessibility improvements that, among other things, provide easier navigation using keyboards, screen readers, or other assistive technology."
+msgstr ""
+
+#: ../../source/ginkgo.rst:73
+msgid "Studio and Course Author Tools"
+msgstr ""
+
+#: ../../source/ginkgo.rst:75
+msgid "Course teams that use cohorts can now select specific content groups from the View this course as option in the LMS to preview content exactly as a learner in that content group would see it."
+msgstr ""
+
+#: ../../source/ginkgo.rst:79
+msgid "Course staff can now send emails to learners based on their enrollment track, so you can reach all verified or audit track learners at one time. For more information, see :ref:`opencoursestaff:Bulk Email`."
+msgstr ""
+
+#: ../../source/ginkgo.rst:83
+msgid "Course authors can move components from one location to another in a course."
+msgstr ""
+
+#: ../../source/ginkgo.rst:85
+msgid "Drag and drop problems can be rescored."
+msgstr ""
+
+#: ../../source/ginkgo.rst:87
+msgid "The default permissions have been changed so that new Studio users cannot author courses unless an admin has added them to the course creator group."
+msgstr ""
+
+#: ../../source/ginkgo.rst:90
+msgid "The student profile report that is available from the **Data Download** page on the instructor dashboard includes two new columns: enrollment mode and verification status."
+msgstr ""
+
+#: ../../source/ginkgo.rst:94
+msgid "The **Video ID** field is now available on the **Basic** tab of a video component as well as on the **Advanced** tab."
+msgstr ""
+
+#: ../../source/ginkgo.rst:97
+msgid "You can upload transcripts for videos that are not hosted on YouTube on the **Basic** tab of a video component."
+msgstr ""
+
+#: ../../source/ginkgo.rst:100
+msgid "The problem component for open response assessments has been renamed from \"Peer Assessment\" to \"Open Response Assessment.\""
+msgstr ""
+
+#: ../../source/ginkgo.rst:103
+msgid "The instructor dashboard includes an **Open Response Assessent** tab to help locate and access open response assessments and provide data about learner progress in completing responses and peer assessments."
+msgstr ""
+
+#: ../../source/ginkgo.rst:107
+msgid "The **Show Results** setting for problems allows course teams to hide problem results from learners, including both whether the learner answered the problem correctly and the learner's score, either temporarily or permanently. Using this feature, course teams can hide exam scores until the exam due date, or administer surveys without revealing responses."
+msgstr ""
+
+#: ../../source/ginkgo.rst:115
+msgid "Insights and Analytics"
+msgstr ""
+
+#: ../../source/ginkgo.rst:117
+msgid "A new **Courses** page in Insights provides a dashboard view of all of your courses. For information, see :ref:`insights:Courses_Page`."
+msgstr ""
+
+#: ../../source/ginkgo.rst:122
+msgid "Service Upgrades"
+msgstr ""
+
+#: ../../source/ginkgo.rst:126
+#: ../../source/ginkgo.rst:180
+msgid "Catalog Service"
+msgstr ""
+
+#: ../../source/ginkgo.rst:128
+msgid "The Catalog service has been upgraded to RabbitMQ 3.6.9."
+msgstr ""
+
+#: ../../source/ginkgo.rst:132
+#: ../../source/ginkgo.rst:182
+msgid "Credentials Service"
+msgstr ""
+
+#: ../../source/ginkgo.rst:134
+msgid "The Credentials service now requires Python 3.5."
+msgstr ""
+
+#: ../../source/ginkgo.rst:138
+#: ../../source/ginkgo.rst:186
+msgid "E-Commerce Service"
+msgstr ""
+
+#: ../../source/ginkgo.rst:140
+msgid "The Open edX platform now supports only the integrated Otto receipt page. Users can no longer redirect to the ``LMS/shopping_cart`` receipt page."
+msgstr ""
+
+#: ../../source/ginkgo.rst:144
+msgid "The Open edX platform now supports only the Secure Acceptance Silent Order POST integration for CyberSource. To use this integration, users must create a new profile in the business center."
+msgstr ""
+
+#: ../../source/ginkgo.rst:148
+msgid "The merchant notifications endpoint has been removed."
+msgstr ""
+
+#: ../../source/ginkgo.rst:150
+msgid "Django Oscar has been upgraded to version 1.4."
+msgstr ""
+
+#: ../../source/ginkgo.rst:152
+msgid "The Course Administration Tool has been updated to use the user account associated with the OAuth credentials rather than individual users' accounts. The user associated with the OAuth credentials (at edx.org, we use the username ``ecommerce_worker``) must  have full create/read/update/delete permissions for the following models on LMS."
+msgstr ""
+
+#: ../../source/ginkgo.rst:158
+msgid "``commerce.CommerceConfiguration``"
+msgstr ""
+
+#: ../../source/ginkgo.rst:159
+msgid "``course_modes.CourseMode``"
+msgstr ""
+
+#: ../../source/ginkgo.rst:160
+msgid "``credit.CreditCourse``"
+msgstr ""
+
+#: ../../source/ginkgo.rst:161
+msgid "``credit.CreditRequest``"
+msgstr ""
+
+#: ../../source/ginkgo.rst:163
+msgid "In addition, if you are using Specially Designated Nationals (SDN) verification, this user must have the ``student:userprofile:can_deactivate_users`` permission."
+msgstr ""
+
+#: ../../source/ginkgo.rst:169
+msgid "System Upgrades and Updates"
+msgstr ""
+
+#: ../../source/ginkgo.rst:171
+msgid "The Ginkgo release makes version updates to a number of system components."
+msgstr ""
+
+#: ../../source/ginkgo.rst:178
+msgid "System"
+msgstr ""
+
+#: ../../source/ginkgo.rst:179
+msgid "Upgraded Version"
+msgstr ""
+
+#: ../../source/ginkgo.rst:181
+#: ../../source/ginkgo.rst:183
+msgid "Django 1.11.x"
+msgstr ""
+
+#: ../../source/ginkgo.rst:184
+msgid "Django Waffle"
+msgstr ""
+
+#: ../../source/ginkgo.rst:185
+msgid "0.12.0"
+msgstr ""
+
+#: ../../source/ginkgo.rst:187
+msgid "Django 1.10.x"
+msgstr ""
+
+#: ../../source/ginkgo.rst:188
+msgid "Search"
+msgstr ""
+
+#: ../../source/ginkgo.rst:189
+msgid "ElasticSearch 1.5"
+msgstr ""
+
+#: ../../source/ginkgo.rst:190
+msgid "Node"
+msgstr ""
+
+#: ../../source/ginkgo.rst:191
+msgid "Node 6.9"
+msgstr ""
+
+#: ../../source/ginkgo.rst:192
+msgid "xblock-lti-consumer"
+msgstr ""
+
+#: ../../source/ginkgo.rst:193
+msgid "1.1.5"
+msgstr ""
+
+#: ../../source/ginkgo.rst:195
+msgid "Webpack, a JavaScript module bundler, is now supported in Studio and the LMS. See `Webpack`_ for more information."
+msgstr ""
+
+#: ../../source/ginkgo.rst:198
+msgid "ESLint is now used for JavaScript linting. The edX rules are defined in https://github.com/edx/eslint-config-edx. Packages are provided for ES5 and ES2015+. See `ESLint`_ for more details."
+msgstr ""
+
+#: ../../source/ginkgo.rst:205
+msgid "Deprecated Features"
+msgstr ""
+
+#: ../../source/ginkgo.rst:207
+msgid "Several features are deprecated or deleted in the Open edX Ginkgo release."
+msgstr ""
+
+#: ../../source/ginkgo.rst:209
+msgid "The Programs service was deprecated in Ficus. It has been replaced by the Catalog service in Ginkgo."
+msgstr ""
+
+#: ../../source/ginkgo.rst:211
+msgid "The Credentials API v2 has replaced the Credentials API v1, which has been removed."
+msgstr ""
+
+#: ../../source/ginkgo.rst:213
+msgid "The waffle flag ``unified_course_view``, which can be used for the new view of the course outline on a separate page, is deprecated in Ginkgo.  The old sidebar navigation and this waffle flag will be fully removed in the next release."
+msgstr ""

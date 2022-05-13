@@ -1,0 +1,428 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Building and Running an Open edX Course package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Building and Running an Open edX Course \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/CA_dashboard_profile_SectionHead.rst:5
+msgid "Exploring Your Dashboard and Profile"
+msgstr ""
+
+#: ../../source/CA_dashboard_profile_SectionHead.rst:7
+msgid "Your dashboard is available only from the LMS. If you are currently working in Studio, view the live version of your course to access your dashboard."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:5
+msgid "You can access course, account, or profile information from any page on the website, whether you are in a course or browsing the course catalog. Select the dropdown menu icon next to your username, and then choose one of the following menu options."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:10
+msgid ":ref:`Dashboard<SFD Learner Dashboard>` gives you access to the courses and programs that you have enrolled in, and to information such as course start and end dates, certificates, and email settings."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:14
+msgid ":ref:`Profile <SFD Profile Page>` gives you the option to provide personal information about yourself that other course participants can see, such as an image and biographical information."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:18
+msgid ":ref:`Account<SFD Update Account Settings>` gives you access to your account settings and preferences. For example, you can update your password or email address and set your :ref:`time zone<Time Zones>`."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:24
+msgid "On the **Account Settings** page, you can also view your :ref:`edX order history<View Order History>` and link your edX account to a social media or organization account."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:33
+msgid "Accessing Your Courses from the Dashboard"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:35
+msgid "Your dashboard lists all of the courses that you are enrolled in. When you create an account or enroll in a course, you automatically go to your dashboard. You can also access your dashboard by selecting the dropdown menu icon next to your username at the top of any page."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:None
+msgid "The menu that appears on the website when you select the\n"
+"dropdown icon next to your username. The Dashboard option is circled, and\n"
+"the other options are Profile, Account, and Sign Out."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:46
+msgid "You can find information about your courses and change course-specific email subscription settings on your dashboard. For more information, see :ref:`Find or Change Course Information`."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:52
+msgid "Your dashboard has two pages."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:54
+msgid "The **Courses** page lists all the courses you have enrolled in, whether the course is current or has ended. The **Courses** page provides information about your courses and allows you to change course settings. By default, the dashboard opens to the **Courses** page."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:59
+msgid "The **Programs** page lists any programs, such as XSeries or MicroMasters programs, that edX offers for courses that you are enrolled in. Programs appear on this page if you are enrolled in any course that is part of that program. For more information, see :ref:`Programs Page`."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:68
+msgid "Sharing Your Courses on Social Media"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:70
+msgid "On your dashboard, you can share the courses you are enrolled in on social media sites such as Facebook and Twitter."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:75
+msgid "This feature is available only if it has been enabled by your course provider."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:77
+msgid "Sign in to the social media site on which you want to share your course enrollment."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:80
+msgid "From your dashboard, find the course that you want to share."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:82
+msgid "Select the icon for the social media site where you want to share. A dialog box for the social media site you selected opens, with the course URL entered and a default social media message."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:86
+msgid "Optionally, modify the text of the social media message."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:88
+msgid "Select the appropriate button to publish your message on the social media site."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:97
+msgid "Explore edX Programs"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:99
+msgid "The **Programs** page lists the :ref:`programs<About Programs>` that you have enrolled in. You see a program on this page if you are enrolled in any courses that are part of that program."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:103
+msgid "On the **Programs** page, you can perform the following actions."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:105
+msgid "Access information about a program and enroll in more of the program's courses."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:108
+msgid "To access information about a program, select that program. A page opens that provides details about the program, as well as links to enroll in or upgrade to the verified track in all courses in that program."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:112
+msgid "View your progress for each program."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:114
+msgid "Under the name of each program are indications of your progress through the program. You see the number of courses in the program that you have completed, the number of courses in the program that you are enrolled in, and the number of courses in the program that you are not yet enrolled in."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:119
+msgid "Access any program certificates you have earned."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:121
+msgid "In the right pane, a **Program Certificates** list shows the names of programs for which you have earned certificates. For more information about the program, or to view the certificate, select the name of the program."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:131
+msgid "Adding Profile Information"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:133
+msgid "Your personal profile allows you to optionally share information about yourself with other participants in the courses that you take. If you choose to add profile information, course teams and other learners in your courses can view the information that you share."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:138
+msgid "You can share either a limited profile or a full profile."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:140
+#: ../../../shared/students/SFD_dashboard_profile.rst:177
+msgid "If you are under 13 years of age, your limited profile only includes your username. You cannot add a profile picture."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:143
+msgid "A limited profile shares only your username. You can also add a profile picture, if you are over 13 years of age."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:0
+msgid "A learner's limited profile showing only username and image."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:150
+msgid "A full profile includes the following details."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:152
+msgid "Your full name"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:153
+msgid "Your username"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:154
+msgid "Your profile image (optional)"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:155
+msgid "The date that you joined edX"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:156
+msgid "Your language (optional)"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:157
+msgid "Your location (optional)"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:158
+msgid "Information about you (optional)"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:159
+msgid "Links to any course certificates that you have earned"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:160
+msgid "Links to your social media accounts (optional)"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:0
+msgid "A learner's full profile shows full name, join date, location,\n"
+"language, biographical information, links to course certificates, and\n"
+"linked social media icons, in addition to username and profile image."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:173
+msgid "Add or Update a Limited Profile"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:175
+msgid "A limited profile includes only your username and, optionally, an image."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:180
+msgid "To add or update a limited profile, follow these steps."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:183
+#: ../../../shared/students/SFD_dashboard_profile.rst:236
+msgid "At the top of any page, select **Dashboard** from the dropdown menu icon next to your username, then select the **Profile** tab."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:186
+msgid "In the header area of your profile page, for **Profile Visibility**, select **Limited Profile**."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:189
+msgid "(optional) Add an image that you want to associate with your username. Your image must be a .gif, .jpg, or .png file. The image must be between 100 bytes and 1 MB in size. If you do not add an image, the placeholder image appears as your profile image."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:194
+#: ../../../shared/students/SFD_dashboard_profile.rst:248
+msgid "Move your cursor over the placeholder image, and click **Upload an image**."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:0
+msgid "A profile with the image upload area selected."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:201
+#: ../../../shared/students/SFD_dashboard_profile.rst:251
+msgid "In the file navigation window, select the image file that you want to use as your profile image, and then click **Open**."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:204
+#: ../../../shared/students/SFD_dashboard_profile.rst:254
+msgid "To change or remove your profile image, move your cursor over your image, and then select either **Change image** or **Remove**. When you remove your profile image, the placeholder image appears as your profile image."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:208
+#: ../../../shared/students/SFD_dashboard_profile.rst:263
+msgid "The site saves your changes automatically."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:213
+msgid "Add or Update a Full Profile"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:215
+msgid "You must specify your year of birth on the **Account Settings** page before you can share a full profile. If you are under 13 years of age, you can share only a :ref:`limited profile <Create or Edit a Limited Profile>`."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:219
+msgid "If you create a full profile, you share the following information in addition to your username and profile image."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:222
+msgid "Your full name."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:224
+msgid "Your location."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:226
+msgid "Your language."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:228
+msgid "A paragraph about yourself. You might include your interests, goals, or other information that you want to share. This paragraph can contain up to 300 characters."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:232
+msgid "Links to your personal social media accounts."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:234
+msgid "To add or update your profile, follow these steps."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:239
+msgid "In the header area of your profile page, for **Profile Visibility**, select **Full Profile**."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:242
+msgid "(optional) Add a profile image."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:244
+msgid "Your image must be a .gif, .jpg, or .png file that is less than 1 MB in size. If you do not add an image, the placeholder image appears as your profile image."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:258
+msgid "On your profile page, move your cursor over the information that you want to change."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:261
+msgid "Click inside the field to choose an option from the list, or enter text."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:265
+msgid "If you change your profile type from **Full Profile** to **Limited Profile**, your full name, location, language, and descriptive paragraph are no longer visible on your profile page. However, this information is saved, and becomes visible again to other learners and course teams if you change your profile back to **Full Profile**."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:276
+msgid "Add Links to Your Personal Social Media Accounts"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:278
+msgid "If you select the **Full Profile** option, you can add social media icons on your profile that link to your personal Twitter, Facebook, or LinkedIn account pages."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:282
+msgid "To add links to your social media accounts to your profile, follow these steps."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:284
+msgid "At the top of any page, select **Account** from the dropdown menu icon next to your username."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:287
+msgid "On the **Account Settings** page, under **Social Media Links**, enter either your username or the URL to the profile page for each social media account that you want to add to your profile."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:291
+msgid "For example, if your Facebook username is ``edx``, you can enter either ``edx`` or ``https://www.facebook.com/edx``."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:294
+msgid "For LinkedIn, note that your username might include numbers. For example, if the URL of your LinkedIn profile page is ``https://www.linkedin.com/in /firstname-lastname-123456/``, your LinkedIn username is ``firstname- lastname-123456``."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:299
+msgid "The site saves your changes when you click outside the text field."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:301
+msgid "When you view your profile, icons for the social media icons that you added links for appear below your username. Other learners or course team members can click those icons to visit your social media account page."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:0
+msgid "A learner's full profile, with social media icons circled."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:312
+msgid "View Another Learner's Profile"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:314
+msgid "You can view other learners' profiles through their posts, responses, or comments in course discussions."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:317
+msgid "On the **Discussion** page, select the username of any learner in a post, a response, or a comment."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:320
+msgid "A page that displays the discussion activity only for the selected learner opens."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:323
+msgid "On the learner's **Discussion** page, select their linked username."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:325
+msgid "The learner's account profile page opens."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:333
+msgid "Updating Course-Specific Settings"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:335
+msgid "From the dashboard, access the courses that you are enrolled in and change course-specific settings. You can also :ref:`unenroll from a course<Unenroll from a Course>` from the dashboard."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:343
+msgid "Change a Course Email Preference"
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:345
+msgid "To subscribe or unsubscribe to emails from a course, follow these steps."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:347
+msgid "On your dashboard, locate the course."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:349
+msgid "Select the course settings icon. The course settings icon resembles a gear and appears next to **View Course** or **View Archived Course**."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:0
+msgid "The course settings icon next to the View Course button on the\n"
+"learner dashboard."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:357
+msgid "Select **Email Settings**."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:359
+msgid "Select or clear the **Receive course emails** check box, and then select **Save Settings**."
+msgstr ""
+
+#: ../../../shared/students/SFD_dashboard_profile.rst:362
+msgid "If you clear this check box, you will not receive any of the email messages that course teams send to communicate with enrolled learners in the course."
+msgstr ""

@@ -18,27 +18,27 @@ The following endpoints are available in the Enterprise API.
 
 - **/enterprise-catalogs** - You can make GET calls to the
   ``/enterprise/v1/enterprise-catalogs`` endpoint to get a list of all the course catalogs
-  that are available to your organization. 
+  that are available to your organization.
   For details, see :ref:`enterprise_catalogs Endpoint`.
 
 - **/enterprise-catalogs/{catalog_id}** - You can make GET calls to the
   ``/enterprise/v2/enterprise-catalogs/{catalog_id}`` endpoint to get a list of all the
   active courses in a specified course catalog. Active courses are courses
   that are currently open for enrollment or that will open for enrollment in
-  the future. 
+  the future.
   For details, see :ref:`enterprise_catalogs_catalogID Endpoint`.
 - **/enterprise-catalogs/{catalogID}/courses/{course_key}** - You can make GET
   calls to the ``/enterprise/v2/enterprise-catalogs/{catalog_id}/courses/{course_key}``
-  endpoint to get information about a single course. 
+  endpoint to get information about a single course.
   For details, see :ref:`enterprise_catalogs_courses Endpoint`.
 - **/enterprise-catalogs/{catalogID}/course-runs/{course_run_ID}** - You can make GET calls to the
   ``/enterprise/v2/enterprise-catalogs/{catalog_id}/course-runs/{course_run_ID}`` endpoint
-  to get information about a single course run. 
+  to get information about a single course run.
   For details, see :ref:`enterprise_catalogs_courserun Endpoint`.
 
 - **/enterprise-catalogs/{catalogID}/programs/{program_ID}** - You can make GET calls to the
   ``/enterprise/v2/enterprise-catalogs/{catalog_id}/programs/{program_ID}`` endpoint
-  to get information about a single program. 
+  to get information about a single program.
   For details, see :ref:`enterprise_catalogs_programs Endpoint`.
 
 - **/learner-summary** - You can make GET calls to the
@@ -46,7 +46,7 @@ The following endpoints are available in the Enterprise API.
   enterprise learners and their status in the courses they are enrolled in.
   For details, see :ref:`learner_summary Endpoint`.
 
-  `Use this JSON file <https://raw.githubusercontent.com/openedx/edx-documentation/master/en_us/enterprise_api/source/api_reference/edX_Enterprise_API_Reference%20Collection.postman_collection.json>`_ to import into your `Postman enviroment <https://learning.postman.com/docs/getting-started/importing-and-exporting-data/>`_ . It includes the endpoints mentioned above. 
+  `Use this JSON file <https://raw.githubusercontent.com/openedx/edx-documentation/master/en_us/enterprise_api/source/api_reference/edX_Enterprise_API_Reference%20Collection.postman_collection.json>`_ to import into your `Postman enviroment <https://learning.postman.com/docs/getting-started/importing-and-exporting-data/>`_ . It includes the endpoints mentioned above.
 
 .. _Returning XML Data:
 
@@ -102,8 +102,8 @@ Example Request
 =====================
 Response Values
 =====================
-The ``GET /enterprise/v1/enterprise-catalogs`` request returns  the values: ``count``, ``next``, ``previous``, ``results`` described here: :ref:`response_Values`. 
-The ``results`` response value include these fields: 
+The ``GET /enterprise/v1/enterprise-catalogs`` request returns  the values: ``count``, ``next``, ``previous``, ``results`` described here: :ref:`response_Values`.
+The ``results`` response value include these fields:
 
 .. list-table::
    :widths: 25 20 80
@@ -807,7 +807,7 @@ request returns the following data.
      - The date the course ends, in YYYY-MM-DD format. This is the last date on which learners can submit answers or assessments, or otherwise be credited with completion of a course subsection.
    * - ``course_key``
      - string
-     - The unique identifier for the overall course.  
+     - The unique identifier for the overall course.
    * - ``course_list_price``
      - decimal
      -  The original price of the course, before any discount were applied.
@@ -834,7 +834,7 @@ request returns the following data.
      - The title of the edX course.
    * - ``courserun_key``
      - string
-     - The unique identifier for the individual courserun.  
+     - The unique identifier for the individual courserun.
    * - ``created``
      - timestamp
      - The date and time the learner progress report was last updated.
@@ -874,7 +874,7 @@ request returns the following data.
    * - ``last_activity_date``
      - date
      - The most recent date, YYYY-MM-DD,the learner was active in an edX.
-   * - ``letter_grade ``
+   * - ``letter_grade``
      - string
      - The learner's letter grade, if they have passed the course.
    * - ``offer_name``

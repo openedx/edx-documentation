@@ -1,0 +1,646 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Open edX Release Notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open edX Release Notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/eucalyptus.rst:5
+msgid "Open edX Eucalyptus Release"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:7
+msgid "This page lists the highlights of the Eucalyptus release."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:15
+msgid "New Features"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:17
+msgid "The following new features are included in the Open edX Eucalyptus release."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:25
+msgid "Self-Paced Course Configuration"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:27
+msgid "When course teams create a course, they can now select the way a course is delivered to learners. You can set a schedule for the course, including due dates for assignments or exams, or you can specify that the course is self-paced, which allows learners to work at their own pace. For more information, see :ref:`opencoursestaff:Setting Course Pacing`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:35
+msgid "Subsection Prerequisites"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:37
+msgid "Course teams can now control the visibility of subsections based on the scores that learners earn in other subsections. This feature prevents learners from viewing content before they earn a minimum score for previous content. For more information, see :ref:`opencoursestaff:configuring_prerequisite_content`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:44
+msgid "Course Navigation"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:46
+msgid "Several changes have been made to navigation options in the LMS."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:48
+msgid "The **Home** page replaces the **Course Info** page. The **Home** page appears first among the page navigation options, and opens automatically when a learner selects a course on the learner dashboard. This page now includes important course dates in addition to course updates and course handouts."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:53
+msgid "**Course** is the new name for the **Courseware** page. This page appears after **Home** among the page navigation options."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:56
+msgid "Learners can now use the left and right arrow buttons at the ends of the unit navigation bar to move to the previous unit or the next unit."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:61
+msgid "Teams"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:63
+msgid "With the teams feature, a learner can browse a list of topics, and then create a team and invite other learners to take part in group activities relating to one of the topics. Team activities provide opportunities for small group interactions and projects in your course. For more information, see :ref:`opencoursestaff:CA_Teams_Overview`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:71
+msgid "Bookmarks"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:73
+msgid "The bookmarks feature allows a learner to add a bookmark to any unit in the LMS so that the page can be found later on the **My Bookmarks** page. For more information, see :ref:`openlearners:SFD Bookmarks`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:79
+msgid "Drag and Drop Problem XBlock"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:81
+msgid "A new, mobile-ready and accessible drag and drop problem type is now available. This version replaces the original drag and drop problem type, which is now deprecated. For more information, see :ref:`opencoursestaff:drag_and_drop_problem`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:88
+msgid "Peer Instruction XBlock"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:90
+msgid "The peer instruction tool emulates the classroom experiences of the Peer Instruction learning system. A multiple choice question gives online learners an opportunity to review the answers, and rationales, provided by other course participants, and arrive at a deeper understanding of concepts. For more information for course teams, see :ref:`opencoursestaff:UBC Peer Instruction`. For more information for learners, see :ref:`openlearners:interactive_multiple_choice`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:100
+msgid "Completion XBlock"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:102
+msgid "The completion XBlock adds a toggle control that allows learners to mark the associated section of course content as complete. For more information, see :ref:`opencoursestaff:completion`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:108
+msgid "CourseTalk for Course Reviews"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:110
+msgid "The CourseTalk widget allows learners to post course ratings and reviews that then appear on the course's **About** page. When you add the CourseTalk widget to an Open edX instance, the widget is enabled for every course on that instance. For more information, see :ref:`installation:Add CourseTalk (Deprecated)`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:117
+msgid "Configurable Data Storage Services"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:119
+msgid "Instead of specifically referencing the Amazon S3 service for data storage and retrieval, the Open edX platform now uses the Django file storage API. In addition to S3, you can now configure an OpenStack Swift Object Store as the cloud storage provider for certain system features."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:124
+msgid "For more information, see the `Configuring Data Storage`_ wiki page."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:130
+msgid "Themes for Multiple Sites"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:132
+msgid "With this release, it is now possible to configure themes for multiple sites in a single installation of the Open edX platform."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:135
+msgid "For more information about how to configure multiple sites for your installation, see :ref:`installation:Configuring Open edX Sites`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:138
+msgid "For more information about how to create themes for your sites, see `Changing the Appearance of Open edX Sites <http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/open-release-eucalyptus.master/configuration/changing_appearance/index.html>`_."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:147
+msgid "Staff Grading Options for Open Response Assessments"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:149
+msgid "This release adds the following options for course teams to grade learner responses in open response assessments."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:152
+msgid "In Studio, course teams can now include a staff assessment step as part of the assignment. For a staff assessment, a member of the course team uses the rubric to evaluate every response submitted by a learner ."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:156
+msgid "In the LMS, course teams can now override the grade that an individual learner received. To do so, a member of the course team uses the rubric to evaluate the learner's response. The learner's grade for the assignment is updated to the grade that results from the staff assessment."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:161
+msgid "For more information, see :ref:`opencoursestaff:Managing ORA Assignments`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:165
+msgid "Learner ORA Response Report"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:167
+msgid "A new report is available for ORA assignments that includes each learner's response, assessment details and scores, the final score for the assignment, and any feedback provided by the learner about the peer assessment process. For more information, see :ref:`opencoursestaff:Generate ORA Report`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:174
+msgid "Updates to E-Commerce Checkout"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:176
+msgid "This release includes updates to the user interface on the **Checkout** page that is presented by the edX e-commerce service. The functionality of this page has not changed, and learners can continue to check out using their credit cards or PayPal. For more information, see :ref:`installation:Adding ECommerce to Open edX`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:184
+msgid "Badges for Custom Course Events"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:186
+msgid "Open edX instances can now create and award badges to learners for certain milestone achievements. Example achievements include enrolling in a certain number of courses, completing a certain number of courses, or completing a specific set of courses. For more information, see :ref:`installation:Create Course Event Badges` and :ref:`opencoursestaff:Enable Badges in Course`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:195
+msgid "Updates to Course Discussions"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:197
+msgid "This release includes the following changes to course discussions."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:199
+msgid "When learners upload images and links in discussion posts, they can now include descriptions of the images or links. These descriptions are the accessible text descriptions of the uploaded material, and are required unless learners indicate that an image is decorative only. (:jira:`AC-73` and :jira:`AC-75`)"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:205
+msgid "In course discussions, learners can no longer vote for or report their own posts. (:jira:`TNL-4703`)"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:210
+#: ../../source/eucalyptus.rst:399
+msgid "Other Updates"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:212
+msgid "Previously, the course **About** page included an unnecessary heading labeled **overview**. This release removes the **overview** heading. (:jira:`OSPR-1146`)"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:216
+msgid "The LMS now supports internationalization and localization of static user interface text in XBlocks. For more information, see :ref:`xblocktutorial:EdX Learning Management System as an XBlock Runtime`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:220
+msgid "Learners must now enter or select an answer before they can use **Check** or **Final Check** to find out if their answers are correct. This change applies to checkbox, dropdown, multiple choice, and text, numerical, or math expression input problems. (:jira:`OSPR-1240`)"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:225
+msgid "In the LMS unit navigation bar, only the unit display name now appears or is read when learners move the pointer over a unit icon. Previously, the display names of the unit and all of its components appeared or were read. (:jira:`MA-2188`)"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:230
+msgid "The student profile report now includes columns for city and country.  For more information, see :ref:`opencoursestaff:Columns in the Student Profile Report`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:234
+msgid "Course teams can now send bulk email messages to one or more of the cohorts in their courses. For more information, see :ref:`opencoursestaff:bulk_email_message_addressing`. (:jira:`TNL-4357`)"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:238
+msgid "Studio now has a setting that course teams can use to keep timed exams hidden after the exam due date has passed. In the LMS, course team members who view the course as a specific learner see the timed exam content even if the exam is hidden. For more information, see :ref:`opencoursestaff:Timed Exams`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:244
+msgid "System administrators can now add custom fields to the registration page for their Open edX instances. Fields can be of different types, including dropdown and text entry. For more information, see :ref:`installation:Customize Registration Page`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:251
+msgid "Updates to Analytics Events and Database Tables"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:259
+msgid "New Non-Certificate Statuses"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:261
+msgid "The ``audit_notpassing`` and ``audit_passing`` statuses have been added to the ``certificates_generatedcertificate`` table."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:264
+msgid "``audit_notpassing`` applies to learners who did not earn a passing grade and who have a value of \"audit\" in ``student_courseenrollment.mode``."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:267
+msgid "``audit_passing`` applies to learners who earned a passing grade and who have a value of \"audit\" in ``student_courseenrollment.mode``."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:270
+msgid "No certificate is generated for learners who have either of these statuses. Learners who are enrolled in the audit track see a message on the **Progress** page that indicates that the audit track does not include a certificate."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:276
+msgid "New and Updated Video Player Events"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:278
+msgid "Changes to the video player's controls resulted in the following new and updated events."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:281
+msgid "The button that shows or hides a transcript file on the right of the video was relabeled from CC to ``\"``. The video player emits the existing ``show_transcript``/ ``edx.video.transcript.shown`` and ``hide_transcript``/ ``edx.video.transcript.hidden`` events when users interact with this control."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:286
+msgid "A button labeled CC was added to show or hide closed captions. The video player emits new events, ``edx.video.closed_captions.shown`` and ``edx.video.closed_captions.hidden``, when users interact with this control."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:290
+msgid "A menu for selecting a different language for the transcript and closed captions was added. The video player emits the existing ``video_hide_cc_menu`` and ``video_show_cc_menu`` when users interact with this control. In addition, these events now include ``name`` values of ``edx.video.language_menu.hidden`` and ``edx.video.language_menu.shown``, respectively, and the ``video_hide_cc_menu``/ ``edx.video.language_menu.hidden`` events include a new ``event`` member field, ``language``."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:301
+msgid "New Events"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:303
+msgid "The following analytics events reflect course navigation actions in the LMS."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:305
+msgid "``edx.ui.lms.link_clicked``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:306
+msgid "``edx.ui.lms.outline.selected``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:307
+msgid "``edx.ui.lms.sequence.next_selected``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:308
+msgid "``edx.ui.lms.sequence.previous_selected``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:309
+msgid "``edx.ui.lms.sequence.tab_selected``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:311
+msgid "For more information, see :ref:`data:navigational`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:313
+msgid "The following analytics events have been added for the new drag and drop problem XBlock."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:316
+msgid "``edx.drag_and_drop_v2.feedback.closed``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:317
+msgid "``edx.drag_and_drop_v2.feedback.opened``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:318
+msgid "``edx.drag_and_drop_v2.item.dropped``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:319
+msgid "``edx.drag_and_drop_v2.item.picked_up``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:320
+msgid "``edx.drag_and_drop_v2.loaded``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:322
+msgid "For more information, see :ref:`data:Drag and Drop Events`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:324
+msgid "The following analytics events have been added for the bookmarks feature."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:326
+msgid "``edx.bookmark.accessed``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:327
+msgid "``edx.bookmark.added``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:328
+msgid "``edx.bookmark.listed``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:329
+msgid "``edx.bookmark.removed``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:331
+msgid "For more information, see :ref:`data:bookmark_events`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:333
+msgid "The following analytics events have been added for the notes feature."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:335
+msgid "``edx.course.student_notes.added``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:336
+msgid "``edx.course.student_notes.deleted``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:337
+msgid "``edx.course.student_notes.edited``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:338
+msgid "``edx.course.student_notes.notes_page_viewed``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:339
+msgid "``edx.course.student_notes.searched``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:340
+msgid "``edx.course.student_notes.used_unit_link``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:341
+msgid "``edx.course.student_notes.viewed``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:343
+msgid "The following events have been added for the staff grading features in open response assessments."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:346
+msgid "``openassessmentblock.get_submission_for_staff_grading``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:347
+msgid "``openassessmentblock.staff_assess``"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:349
+msgid "For more information, see :ref:`data:ora2`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:351
+msgid "The ``edx.done.toggled`` event has been added for the completion XBlock. For more information, see :ref:`data:Course Content Completion Events`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:354
+msgid "In addition, documentation for events that reflect interactions with the :ref:`data:notes<notes>` feature and with :ref:`data:timed exams<special_exam_development_events>` is now available in the *EdX Research Guide*."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:361
+msgid "Accessibility Updates"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:363
+msgid "In keeping with edX's commitment to creating accessible content for everyone, everywhere, the Open edX Eucalyptus release contains numerous accessibility enhancements and improvements to readability and navigability."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:373
+msgid "Video Player"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:375
+msgid "The video player now includes closed captions, which are overlaid on the video while it plays. Users can view closed captions and transcripts separately or at the same time. Those who choose to view the closed captioning for a video can drag the captions to a different place on the video. In addition, the video player now includes accessible labels for every control."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:383
+msgid "HTML Component Templates"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:385
+msgid "To ensure that all headings on a course page in the LMS are rendered correctly by screen readers, the Heading 1 and Heading 2 options have been removed from the HTML component visual editor. The Heading 3 option remains available, and Heading 4, Heading 5, and Heading 6 options have been added. All of the examples provided for HTML component options include headings beginning with Heading 3. This release also includes styling and scalability changes to the toolbar icons in the HTML component visual editor."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:394
+msgid "For more information, see :ref:`opencoursestaff:Best Practices for HTML Markup` or :ref:`opencoursestaff:The Visual Editor`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:401
+msgid "This release includes a number of improvements to the appearance and accessibility of controls in the edX LMS."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:404
+msgid "When learners who use high contrast mode on their systems select an LMS page such as **Course** or **Discussion**, the selected page is now clearly distinguishable from the other pages. (:jira:`AC-386`)"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:408
+msgid "The **Calculator** control has been enhanced so that it appears for learners who use high contrast mode on their systems. (:jira:`AC-405`)"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:411
+msgid "The target of the **Skip to Content** links has been updated so that keyboard and screen reader users can more easily navigate to the unique content on each page. Screen reader users can now use the ``<main>`` element as a page landmark."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:416
+msgid "The editing options for circuit schematic builder problems, including the tools to cut, copy, paste, and show or hide the grid display, now include accessible labels. (:jira:`AC-399`)"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:420
+msgid "On wiki article pages, the options for an article, including **View**, **Edit**, and **Settings**, now appear next to, rather than in, the shaded area below the article. (:jira:`AC-474`)"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:426
+msgid "System Upgrades and Updates"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:428
+msgid "You can now enable or disable the bulk email feature from the Django administration console, rather than editing different configuration files. For more information, see :ref:`openreleasenotes:Enable Bulk Email`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:432
+msgid "As a result of this change, the bulk email feature is disabled until you manually re-enable it."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:435
+msgid "The OAuth 2.0 provider library has been updated to version 0.5.0. This update includes support for the client credentials grant."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:438
+msgid "The number of days before OAuth tokens expire for mobile OAuth clients can now be configured. For more information, see :ref:`installation:Configure OAuth Token Expiration Days`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:442
+msgid "In this release, Ruby has been removed from the edx-platform repository. As a result, the ``prereqs`` paver command no longer installs the prerequisite environment for Ruby, and the edxapp user on new instances of Devstack no longer has ``rbenv`` in the search path. However, discussion forums use Ruby, and the forums user continues to have ``rbenv`` in the search path."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:448
+msgid "The jQuery JavaScript library has been updated from version 1.7.2 to version 2.2.0. To support legacy API calls, this update also adds the JQuery Migrate library."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:452
+msgid "The JavaScript library Underscore.js has been upgraded to version 1.8.3."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:454
+msgid "A number of CoffeeScript files have been converted to JavaScript."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:456
+msgid "JavaScript tests are now run using Karma rather than JS-Test-Tool."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:461
+msgid "Mobile App Updates"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:463
+msgid "The Open edX Eucalyptus release supports versions 2.5.1 (Android) and 2.5.3 (iOS) of the mobile app, and includes the following mobile app features."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:466
+msgid "Course discussions are now supported in the mobile app, including content- specific discussion topics in course units. Discussions can be viewed in landscape mode."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:470
+msgid "Course search. Learners can search for courses using keywords, and filter courses by subject and availability."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:473
+msgid "User profiles. Learners can create and edit limited or full profile information in the mobile app. In discussions, selecting the linked username of the author of a post takes you to that person's profile page."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:477
+msgid "The mobile app now uses refresh tokens. Learners do not have to sign in again, even after a token expires."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:480
+msgid "Mobile-ready assessments now include the drag and drop and math expression input problem types as well as basic assessment types (checkbox, dropdown, multiple choice, text input, and numerical input)."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:487
+msgid "Deprecated Features"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:489
+msgid "Several features are deprecated, or deleted, by the Open edX Eucalyptus release."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:498
+msgid "Deprecated REST APIs"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:500
+msgid "The mobile, course structure, and profile images REST web services are deprecated."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:503
+msgid "Use the ``/api/courses/v1/courses/`` web service instead of the deprecated mobile and course structure web services."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:506
+msgid "Use the ``/api/user/v1/accounts/`` web service instead of the deprecated profile image web service."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:511
+msgid "Deprecated Tools and Problem Types"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:513
+msgid "The randomize component is now deprecated. To provide randomized content in your courses, add randomized content blocks to assign problems from a content library. For more information, see :ref:`opencoursestaff:Randomized Content Blocks`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:518
+msgid "The original drag and drop problem type is now deprecated. A new mobile- ready, accessible drag and drop problem type is available. For more information, see :ref:`opencoursestaff:drag_and_drop_problem`."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:524
+msgid "Deleted Tools and XModules"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:526
+msgid "The graphical slider tool is no longer available. (:jira:`TNL-3923`)"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:528
+msgid "The crowdsource hinter XModule is no longer available as a course tool."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:530
+msgid "To improve grade calculation performance for the **Progress** page in the LMS, support for the ``always_recalculate_grades`` XBlock field has been removed. (:jira:`TNL-4453`)"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:534
+msgid "The ``ENABLE_JWT_AUTH`` feature flag has been removed."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:538
+msgid "More Information on Eucalyptus Release Changes"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:540
+msgid "The `edX Release Notes`_ contain a summary of changes that are deployed to edx.org. Those changes are part of the master branch of the edX Platform in GitHub."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:544
+msgid "You can also find `release announcements`_ on the open.edx.org website. You can subscribe to have these weekly release announcements sent to your email account."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:548
+msgid "Changes listed for 13 July 2016 and before are included in the Eucalyptus release of Open edX."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:554
+msgid "Patch Releases"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:558
+msgid "2 September 2016: Eucalyptus.2"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:560
+msgid "A problem that caused the Django Debug Toolbar to raise a \"process() takes exactly 3 arguments (2 given)\" exception has been fixed."
+msgstr ""
+
+#: ../../source/eucalyptus.rst:563
+msgid "Course discussion performance has been improved. (:jira:`TNL-5173`)"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:565
+msgid "Learners can now correctly add a comment to a response in inline course discussions.  (:jira:`TNL-5389`)"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:568
+msgid "Links to vertical blocks have been fixed. (:jira:`TNL-5003`)"
+msgstr ""
+
+#: ../../source/eucalyptus.rst:570
+msgid "The install_stack.sh file now creates directories differently."
+msgstr ""

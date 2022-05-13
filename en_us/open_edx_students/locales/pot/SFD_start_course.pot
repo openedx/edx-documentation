@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Open edX Learner's Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open edX Learner's Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 12:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/SFD_start_course.rst:5
+msgid "Starting a Course"
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:7
+msgid "As soon as you enroll in a course, you can access some information about the course. However, if the course start date has not passed, you cannot access course lessons or assignments."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:14
+msgid "For more information, see :ref:`Course Availability` and :ref:`Differences Between Instructor- and Self-Paced Courses<SFD Course Pacing>`."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:20
+msgid "For information about availability of course content, see :ref:`course_content_availability`."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:32
+msgid "Find a Course Start Date"
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:34
+msgid "You can enroll in a course before the start date. You cannot access course materials before the start date."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:38
+msgid "If you want to start the course as soon as possible, you can find the start date for a course, and then set a calendar reminder for that date. Some courses also publish a start time."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:44
+msgid "The course start date is available in several locations."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:46
+msgid "The course card on edx.org. The course start date is located at the bottom of the card."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:0
+msgid "A course card, showing the course start date at the bottom of the\n"
+"card."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:53
+msgid "The course About page. The course start date is located above the **Enroll Now** option."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:0
+msgid "A course's About page with the start date above the Enroll Now\n"
+"button."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:61
+msgid "The course on your :ref:`dashboard<SFD Learner Dashboard>`. The course start date is located below the course title."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:0
+#: ../../source/SFD_start_course.rst:0
+msgid "A course listing on a learner's dashboard, with the start date under\n"
+"the name of the course."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:71
+msgid "After you enroll in a course, the course is visible on your dashboard. The course start date is located below the course title."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:79
+msgid "For more information about different course statuses, see :ref:`Course Availability`"
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:88
+msgid "Start or Resume a Course"
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:90
+msgid "After you enroll in a course, the course is visible on your :ref:`dashboard <SFD Dashboard>` together with the course :ref:`start date <Start Date and Duration>`. After the course start date has passed, you can access course content."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:96
+msgid "If a course is not visible on your dashboard, select the edX logo at the top of the page to view the `edX course catalog`_, and then select and :ref:`enroll <SFD Enrolling in a Course>` in the course that you want."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:100
+msgid "After the course start date has passed, you can access course content."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:104
+msgid "Start a Course"
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:107
+msgid "When you start a course, you do not need to sign in exactly when the course begins."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:110
+msgid "To start a course, locate the course on your dashboard, and then select **View Course**."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:113
+msgid "The course opens to the **Course** page. On this page, below any messages from the course team, the course outline is visible. Above the outline is a **Start Course** option."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:None
+msgid "The Course page, showing a welcome message and the course outline in\n"
+"the left pane."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:121
+msgid "To start the course at the first section, select **Start Course**."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:122
+msgid "To start the course at a different location, expand the course outline, and then select any part of the course."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:127
+msgid "Resume a Course"
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:129
+msgid "When you resume work in a course, you can return to the unit that you completed most recently in all of your courses, or in a specific course."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:133
+msgid "A unit is complete when you have completed all of the following actions."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:135
+msgid "Watch all videos."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:136
+msgid "Submit answers to all problems."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:137
+msgid "View all text or other content for at least five seconds."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:139
+msgid "When you complete a part of a course, a green check mark is visible on the course outline. For more information, see :ref:`SFD Progress Indicators`."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:143
+msgid "Return to the Most Recently Completed Unit in All Courses"
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:145
+msgid "To return to the unit you completed most recently in all of your courses, select the arrow next to your username on any page, and then select **Resume your last course**."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:149
+msgid "The course that you were most recently working in opens to the unit that you most recently completed."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:154
+msgid "Return to the Most Recently Completed Unit in a Specific Course"
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:156
+msgid "To return to the unit you completed most recently in a specific course, you have the following options."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:159
+msgid "On your edX dashboard, locate your course, and then select **Resume Course** next to the social media sharing options."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:161
+msgid "Open the course, and then select **Resume Course** on the **Course** page."
+msgstr ""
+
+#: ../../source/SFD_start_course.rst:163
+msgid "When you select **Resume Course**, the course opens to the unit that you most recently completed."
+msgstr ""

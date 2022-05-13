@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Open edX Release Notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open edX Release Notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/juniper.rst:5
+msgid "Open edX Juniper Release"
+msgstr ""
+
+#: ../../source/juniper.rst:7
+msgid "The Juniper release is the 10th named release of the Open edX Platform and our largest yet. Our previous release (Ironwood) was released in January 2019, so Juniper spans January 2019 through May 2020. You can also review details about `earlier releases`_ or learn more about the `Open edX Platform`_ if you are new to Open edX. Below is a summary of the changes for each of the main platform areas, along with a way to jump down to each section of the release notes."
+msgstr ""
+
+#: ../../source/juniper.rst:27
+msgid "Learner Experiences"
+msgstr ""
+
+#: ../../source/juniper.rst:29
+msgid "Many areas of the learner experience have started their necessary transitions to modern micro-frontends, including the Learner Profile, Account Settings, Order History, Checkout Page, and even the Course Experience. Additionally, advancements to our platform’s commerce capabilities enable feature based enrollments for more configurable content access gating. Improvements have also been added enabling learner schedule personalization, team assignment submissions, as well as major updates to the mobile application video experience."
+msgstr ""
+
+#: ../../source/juniper.rst:38
+msgid ":ref:`Read full Learner details <juniper_learner>`."
+msgstr ""
+
+#: ../../source/juniper.rst:42
+msgid "Educator Experiences"
+msgstr ""
+
+#: ../../source/juniper.rst:44
+msgid "For Educators many updates have been made to the Studio experience in support of improving authoring speed for frequent actions like component naming, unit creation, problem markdown editing, and learning sequence navigation. Additionally, updates to the platform grading tools are a key part of these updates. For instances using programs, various program operations have been updated through the introduction of a new registrar service and a way for external systems to set enrollments for program learners."
+msgstr ""
+
+#: ../../source/juniper.rst:52
+msgid ":ref:`Read full Educator details <juniper_educator>`."
+msgstr ""
+
+#: ../../source/juniper.rst:57
+msgid "Developer Experiences"
+msgstr ""
+
+#: ../../source/juniper.rst:59
+msgid "Many things have changed in our largest release yet, but a few key highlights include major core requirement upgrades to support Python 3 and Django 2. Additionally, a major shift toward micro-frontends and a component pattern library (Paragon) has led many platform areas to be marked for deprecation in favor of their future MFE replacements. On a related note, the deprecation process (DEPR project in Jira) has been a source of increased cleanup and visibility into keeping the platform healthy.  Also in the spirit of improved visibility and transparency, we have many new architecture decision records that locate platform decisions in context within the code. These serve as single repository versions of OEPs, and are also a key highlight for Juniper."
+msgstr ""
+
+#: ../../source/juniper.rst:70
+msgid ":ref:`Read full Developer details <juniper_developer>`."
+msgstr ""

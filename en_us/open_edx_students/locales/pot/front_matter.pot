@@ -1,0 +1,474 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Open edX Learner's Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open edX Learner's Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 12:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../shared/browsers.rst:7
+msgid "edX Browser Support"
+msgstr ""
+
+#: ../../../shared/browsers.rst:9
+msgid "Most current browsers will work on edX.org. For best performance, we recommend the latest versions of:"
+msgstr ""
+
+#: ../../../shared/browsers.rst:11
+msgid "`Chrome`_"
+msgstr ""
+
+#: ../../../shared/browsers.rst:12
+msgid "`Firefox`_"
+msgstr ""
+
+#: ../../../shared/browsers.rst:14
+msgid "We also support the latest versions of:"
+msgstr ""
+
+#: ../../../shared/browsers.rst:16
+msgid "`Microsoft Edge`_"
+msgstr ""
+
+#: ../../../shared/browsers.rst:17
+msgid "`Safari`_"
+msgstr ""
+
+#: ../../../shared/browsers.rst:20
+msgid "If you use the Safari browser, be aware that it does not support the search feature for the guides on `docs.edx.org`_. This is a known limitation."
+msgstr ""
+
+#: ../../source/front_matter/index.rst:3
+msgid "General Information"
+msgstr ""
+
+#: ../../../shared/preface.rst:5
+msgid "Other edX Resources"
+msgstr ""
+
+#: ../../../shared/preface.rst:12
+msgid "Learners, course teams, researchers, developers: the edX community includes groups with a range of reasons for using the platform and objectives to accomplish. To help members of each group learn about what edX offers, reach goals, and solve problems, edX provides a variety of information resources."
+msgstr ""
+
+#: ../../../shared/preface.rst:17
+msgid "To help you find what you need, browse the edX offerings in the following categories."
+msgstr ""
+
+#: ../../../shared/preface.rst:24
+msgid "All members of the edX community are encouraged to make use of the resources described in this preface. We welcome your feedback on these edX information resources. Contact the edX documentation team at `docs@edx.org`_."
+msgstr ""
+
+#: ../../../shared/preface.rst:32
+msgid "Resources for edx.org Learners"
+msgstr ""
+
+#: ../../../shared/preface.rst:36
+#: ../../../shared/preface.rst:231
+#: ../../../shared/preface.rst:299
+#: ../../../shared/preface.rst:353
+msgid "Documentation"
+msgstr ""
+
+#: ../../../shared/preface.rst:38
+msgid "The `edX Help Center for Learners`_ includes topics to help you understand how to use the edX learning management system. The Help Center is also available when you select **Help** while you are in a course, and from your edX dashboard."
+msgstr ""
+
+#: ../../../shared/preface.rst:44
+msgid "In a Course"
+msgstr ""
+
+#: ../../../shared/preface.rst:46
+msgid "If you have a question about something you encounter in an edX course, try these options for getting an answer."
+msgstr ""
+
+#: ../../../shared/preface.rst:50
+msgid "If you find an error or mistake in a course, contact the course staff by adding a post in the :ref:`course discussions<Explore Posts>`."
+msgstr ""
+
+#: ../../../shared/preface.rst:53
+msgid "Check the **Course** page in the course. Course teams use this page to post updates about the course, which can include explanations about course content, reminders about when graded assignments are due, or announcements for upcoming events or milestones."
+msgstr ""
+
+#: ../../../shared/preface.rst:58
+msgid "Look for an \"Introduction\", \"Overview\", or \"Welcome\" section in the course content. In the first section in the course, course teams often include general information about how the course works and what you can expect, and also what they expect from you, in the first section in the course."
+msgstr ""
+
+#: ../../../shared/preface.rst:63
+msgid "Participate in the :ref:`course discussions<Explore Posts>`. Other learners might be able to answer your question, or might have the same question themselves. If you encounter an unfamiliar word, phrase, or abbreviation, such as \"finger exercise\" or \"board work\", search for it on the **Discussion** page, or post a question about it yourself. Your comments and questions give the course team useful feedback for improving the course."
+msgstr ""
+
+#: ../../../shared/preface.rst:70
+msgid "Investigate other resources. Some courses have a :ref:`wiki<SFD Wiki>`, which can be a good source of information. Outside of the course, a course-specific Facebook page or Twitter feed might be available for learners to share information."
+msgstr ""
+
+#: ../../../shared/preface.rst:77
+msgid "Resources on the edx.org Website"
+msgstr ""
+
+#: ../../../shared/preface.rst:79
+msgid "To help you get started with the edX learning experience, edX offers a course (of course!). You can find the edX Demo_ course on the edx.org website."
+msgstr ""
+
+#: ../../../shared/preface.rst:82
+msgid "When you are working in an edX course, you can select **Help** to access a help center with `frequently asked questions`_  and answers."
+msgstr ""
+
+#: ../../../shared/preface.rst:85
+msgid "If you still have questions or suggestions, you can contact the `edX Support`_ team for help."
+msgstr ""
+
+#: ../../../shared/preface.rst:88
+msgid "For opportunities to meet others who are interested in edX courses, check the edX Global Community meetup_ group."
+msgstr ""
+
+#: ../../../shared/preface.rst:95
+msgid "The edX Partner Portal"
+msgstr ""
+
+#: ../../../shared/preface.rst:97
+msgid "The `edX Partner Portal`_ is the destination for partners to learn, connect, and collaborate with one another. Partners can explore rich resources and share success stories and best practices while staying up-to-date with important news and updates."
+msgstr ""
+
+#: ../../../shared/preface.rst:102
+msgid "To use the edX Partner Portal, you must register and request verification as an edX partner. If you are an edX partner and have not used the edX Partner Portal, follow these steps."
+msgstr ""
+
+#: ../../../shared/preface.rst:106
+msgid "Visit `partners.edx.org`_, and select **Create New Account**."
+msgstr ""
+
+#: ../../../shared/preface.rst:107
+msgid "Select **Request Partner Access**, then fill in your personal details."
+msgstr ""
+
+#: ../../../shared/preface.rst:108
+msgid "Select **Create New Account**. You will receive a confirmation email with your account access within 24 hours."
+msgstr ""
+
+#: ../../../shared/preface.rst:111
+msgid "After you create an account, you can sign up to receive email updates about edX releases, news from the product team, and other announcements. For more information, see :ref:`Release Announcements through the Open edX Portal`."
+msgstr ""
+
+#: ../../../shared/preface.rst:117
+msgid "Course Team Support in the edX Partner Portal"
+msgstr ""
+
+#: ../../../shared/preface.rst:119
+msgid "EdX partner course teams can get technical support in the `edX Partner Portal`_. To access technical support, submit a support ticket, or review any support tickets you have created, go to `partners.edx.org`_ and select **Course Staff Support** at the top of the page. This option is available on every page in the Partner Portal."
+msgstr ""
+
+#: ../../../shared/preface.rst:129
+msgid "The Open edX Portal"
+msgstr ""
+
+#: ../../../shared/preface.rst:131
+msgid "The `Open edX Portal`_ is the destination for learning about hosting an Open edX instance, extending the edX platform, and contributing to Open edX. In addition, the Open edX Portal provides product announcements and other community resources."
+msgstr ""
+
+#: ../../../shared/preface.rst:136
+msgid "All users can view content on the Open edX Portal without creating an account and logging in."
+msgstr ""
+
+#: ../../../shared/preface.rst:139
+msgid "To comment on blog posts or the edX roadmap, or subscribe to email updates, you must create an account and log in. If you do not have an account, follow these steps."
+msgstr ""
+
+#: ../../../shared/preface.rst:143
+msgid "Visit `open.edx.org/user/register`_."
+msgstr ""
+
+#: ../../../shared/preface.rst:144
+msgid "Fill in your personal details."
+msgstr ""
+
+#: ../../../shared/preface.rst:145
+msgid "Select **Create New Account**. You are then logged in to the `Open edX Portal`_."
+msgstr ""
+
+#: ../../../shared/preface.rst:152
+msgid "Release Announcements by Email"
+msgstr ""
+
+#: ../../../shared/preface.rst:154
+msgid "To receive and share product and release announcements by email, you can subscribe to announcements on one of the edX portal sites."
+msgstr ""
+
+#: ../../../shared/preface.rst:157
+msgid "Create an account on the `Open edX Portal`_ or the  `edX Partner Portal`_ as described above."
+msgstr ""
+
+#: ../../../shared/preface.rst:159
+msgid "Select **Community** and then **Announcements**."
+msgstr ""
+
+#: ../../../shared/preface.rst:160
+msgid "Under **Subscriptions**, select the different types of announcements that you want to receive through email. You might need to scroll down to see these options."
+msgstr ""
+
+#: ../../../shared/preface.rst:163
+msgid "Select **Save**."
+msgstr ""
+
+#: ../../../shared/preface.rst:165
+msgid "You will now receive email messages when new announcements of the types you selected are posted."
+msgstr ""
+
+#: ../../../shared/preface.rst:170
+msgid "System Status"
+msgstr ""
+
+#: ../../../shared/preface.rst:172
+msgid "For system-related notifications from the edX operations team, including outages and the status of error reports. On Twitter_, you can follow @edxstatus."
+msgstr ""
+
+#: ../../../shared/preface.rst:176
+msgid "Current system status and the uptime percentages for edX servers, along with the Twitter feed, are published on the `edX Status`_ web page."
+msgstr ""
+
+#: ../../../shared/preface.rst:183
+msgid "Resources for edx.org Course Teams"
+msgstr ""
+
+#: ../../../shared/preface.rst:185
+msgid "Course teams include faculty, instructional designers, course staff, discussion moderators, and others who contribute to the creation and delivery of courses on edx.org or edX Edge."
+msgstr ""
+
+#: ../../../shared/preface.rst:191
+msgid "The edX Course Creator Series"
+msgstr ""
+
+#: ../../../shared/preface.rst:193
+msgid "The courses in the edX Course Creator Series provide foundational knowledge about using the edX platform to deliver educational experiences. These courses are available on edx.org."
+msgstr ""
+
+#: ../../../shared/preface.rst:202
+msgid "edX101: Overview of Creating a Course"
+msgstr ""
+
+#: ../../../shared/preface.rst:204
+msgid "The `edX101`_ course is designed to provide a high-level overview of the course creation and delivery process using Studio and the edX LMS. It also highlights the extensive capabilities of the edX platform."
+msgstr ""
+
+#: ../../../shared/preface.rst:209
+msgid "StudioX: Creating a Course with edX Studio"
+msgstr ""
+
+#: ../../../shared/preface.rst:211
+msgid "After you complete edX101, `StudioX`_ provides more detail about using Studio to create a course, add different types of content, and configure your course to provide an optimal online learning experience."
+msgstr ""
+
+#: ../../../shared/preface.rst:216
+msgid "BlendedX: Blended Learning with edX"
+msgstr ""
+
+#: ../../../shared/preface.rst:218
+msgid "In `BlendedX`_ you explore ways to blend educational technology with traditional classroom learning to improve educational outcomes."
+msgstr ""
+
+#: ../../../shared/preface.rst:222
+msgid "VideoX: Creating Video for the edX Platform"
+msgstr ""
+
+#: ../../../shared/preface.rst:224
+msgid "`VideoX`_ presents strategies for creating videos for course content and course marketing. The course provides step-by-step instructions for every stage of video creation, and includes links to exemplary sample videos created by edX partner institutions."
+msgstr ""
+
+#: ../../../shared/preface.rst:233
+msgid "Documentation for course teams is available from the `docs.edx.org`_ web page."
+msgstr ""
+
+#: ../../../shared/preface.rst:235
+msgid "`Building and Running an edX Course`_ is a comprehensive guide with concepts and procedures to help you build a course in Studio and then use the Learning Management System (LMS) to run a course."
+msgstr ""
+
+#: ../../../shared/preface.rst:239
+msgid "You can access this guide by selecting **Help** in Studio or from the instructor dashboard in the LMS."
+msgstr ""
+
+#: ../../../shared/preface.rst:242
+msgid "`Using edX Insights`_ describes the metrics, visualizations, and downloadable .csv files that course teams can use to gain information about student background and activity."
+msgstr ""
+
+#: ../../../shared/preface.rst:246
+msgid "These guides open in your web browser. The left side of each page includes a **Search docs** field and links to the contents of that guide. To open or save a PDF version, select **v: latest** at the lower right of the page, then select **PDF**."
+msgstr ""
+
+#: ../../../shared/preface.rst:251
+#: ../../../shared/preface.rst:311
+msgid "If you use the Safari browser, be aware that it does not support the search feature for the HTML versions of the edX guides. This is a known limitation."
+msgstr ""
+
+#: ../../../shared/preface.rst:257
+msgid "Email"
+msgstr ""
+
+#: ../../../shared/preface.rst:259
+msgid "To receive and share information by email, course team members can:"
+msgstr ""
+
+#: ../../../shared/preface.rst:261
+msgid "Subscribe to announcements and other new topics in the edX Partner Portal or the Open edX Portal. For information about how to subscribe, see `Release Announcements through the Open edX Portal`_."
+msgstr ""
+
+#: ../../../shared/preface.rst:265
+msgid "Join the `openedx-studio`_ Google group to ask questions and participate in discussions with peers at other edX partner organizations and edX staffers."
+msgstr ""
+
+#: ../../../shared/preface.rst:270
+#: ../../../shared/preface.rst:386
+msgid "Wikis and Web Sites"
+msgstr ""
+
+#: ../../../shared/preface.rst:272
+msgid "The edX product team maintains public product roadmaps on :ref:`the Open edX Portal<The Open edX Portal>` and :ref:`the edX Partner Portal<The edX Partner Portal>`."
+msgstr ""
+
+#: ../../../shared/preface.rst:276
+msgid "The `edX Partner Support`_ site for edX partners hosts discussions that are monitored by edX staff."
+msgstr ""
+
+#: ../../../shared/preface.rst:283
+msgid "Resources for Researchers"
+msgstr ""
+
+#: ../../../shared/preface.rst:285
+msgid "At each partner institution, the data czar is the primary point of contact for information about edX data. To set up a data czar for your institution, contact your edX partner manager."
+msgstr ""
+
+#: ../../../shared/preface.rst:289
+msgid "Data for the courses on edx.org and edX Edge is available to the data czars at our partner institutions, and then used by database experts, statisticians, educational investigators, and others for educational research."
+msgstr ""
+
+#: ../../../shared/preface.rst:293
+msgid "Resources are also available for members of the Open edX community who are collecting data about courses running on their sites and conducting research projects."
+msgstr ""
+
+#: ../../../shared/preface.rst:301
+msgid "The `edX Research Guide`_ is available on the docs.edx.org web page. Although it is written primarily for data czars and researchers at partner institutions, this guide can also be a useful reference for members of the Open edX community."
+msgstr ""
+
+#: ../../../shared/preface.rst:306
+msgid "The *edX Research Guide* opens in your web browser, with a **Search docs** field and links to sections and topics on the left side of each page. To open or save a PDF version, select **v: latest** at the lower right of the page, and then select **PDF**."
+msgstr ""
+
+#: ../../../shared/preface.rst:317
+msgid "Discussion Forums and Email"
+msgstr ""
+
+#: ../../../shared/preface.rst:319
+msgid "Researchers, edX data czars, and members of the global edX data and analytics community can post and discuss questions in our public research forum: the `openedx-analytics`_ Google group."
+msgstr ""
+
+#: ../../../shared/preface.rst:323
+msgid "The edX partner portal also offers community `forums`_, including a Research and Analytics topic, for discussions among edX partners."
+msgstr ""
+
+#: ../../../shared/preface.rst:326
+msgid "Please do not post sensitive data to public forums."
+msgstr ""
+
+#: ../../../shared/preface.rst:328
+msgid "Data czars who have questions that involve sensitive data, or that are institution specific, can send them by email to data.support@edx.org with a copy to your edX partner manager."
+msgstr ""
+
+#: ../../../shared/preface.rst:334
+msgid "Wikis"
+msgstr ""
+
+#: ../../../shared/preface.rst:336
+msgid "The edX Analytics team maintains the `Open edX Analytics`_ wiki, which includes links to periodic release notes and other resources for researchers."
+msgstr ""
+
+#: ../../../shared/preface.rst:339
+msgid "The `edx-tools`_ wiki lists publicly shared tools for working with the edX platform, including scripts for data analysis and reporting."
+msgstr ""
+
+#: ../../../shared/preface.rst:346
+msgid "Resources for Developers"
+msgstr ""
+
+#: ../../../shared/preface.rst:348
+msgid "Software engineers, system administrators, and translators work on extending and localizing the code for the edX platform."
+msgstr ""
+
+#: ../../../shared/preface.rst:355
+msgid "Documentation for developers is available from the `edX Developer Documentation`_ landing page."
+msgstr ""
+
+#: ../../../shared/preface.rst:360
+msgid "GitHub"
+msgstr ""
+
+#: ../../../shared/preface.rst:362
+msgid "These are the main edX repositories on GitHub."
+msgstr ""
+
+#: ../../../shared/preface.rst:364
+msgid "The `edx/edx-platform`_ repo contains the code for the edX platform."
+msgstr ""
+
+#: ../../../shared/preface.rst:366
+msgid "The `edx/edx-analytics-dashboard`_ repo contains the code for edX Insights."
+msgstr ""
+
+#: ../../../shared/preface.rst:368
+msgid "The `edx/configuration`_ repo contains scripts to set up and operate the edX platform."
+msgstr ""
+
+#: ../../../shared/preface.rst:371
+msgid "Additional repositories are used for other projects. Our contributor agreement, contributor guidelines and coding conventions, and other resources are available in these repositories."
+msgstr ""
+
+#: ../../../shared/preface.rst:377
+msgid "Getting Help"
+msgstr ""
+
+#: ../../../shared/preface.rst:379
+msgid "The `Getting Help`_ page in the Open edX Portal lists different ways that you can ask, and get answers to, questions."
+msgstr ""
+
+#: ../../../shared/preface.rst:388
+msgid "The `Open edX Portal`_ is the entry point for new contributors."
+msgstr ""
+
+#: ../../../shared/preface.rst:390
+msgid "The edX Engineering team maintains an `open Confluence wiki`_, which provides insights into the plans, projects, and questions that the edX Open Source team is working on with the community."
+msgstr ""
+
+#: ../../../shared/preface.rst:394
+msgid "The `edx-tools`_ wiki lists publicly shared tools for working with the edX platform, including scripts and helper utilities."
+msgstr ""
+
+#: ../../../shared/preface.rst:401
+msgid "Resources for Open edX"
+msgstr ""
+
+#: ../../../shared/preface.rst:403
+msgid "Hosting providers, platform extenders, core contributors, and course staff all use Open edX. EdX provides release-specific documentation, as well as the latest version of all guides, for Open edX users. See the `Open edX documentation`_ page for a list of the documentation that is available."
+msgstr ""
+
+#: ../../source/front_matter/read_me.rst:3
+msgid "Read Me"
+msgstr ""
+
+#: ../../source/front_matter/read_me.rst:5
+msgid "The *Open edX Learner's Guide* is created using RST_ files and Sphinx_. You, the user community, can help update and revise this documentation project on GitHub."
+msgstr ""
+
+#: ../../source/front_matter/read_me.rst:9
+msgid "https://github.com/edx/edx-documentation/tree/master/en_us/open_edx_students/source"
+msgstr ""
+
+#: ../../source/front_matter/read_me.rst:11
+msgid "The edX documentation team welcomes contributions from Open edX community members. You can find guidelines for how to `contribute to edX Documentation`_ in the GitHub edx/edx-documentation repository."
+msgstr ""
