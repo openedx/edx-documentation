@@ -98,10 +98,8 @@ To access information about a specific learner, follow these steps.
 Perform Staff Assessments in an ORA Assignment
 *************************************************
 
-.. Note:: The staff grading experience is getting a makeover! Learn about the
-   :ref:`new ORA staff grading experience <ORA Staff Grading>` and
-   how to try out
-   :ref:`a live demo <Demo the New ORA Staff Grading Experience>`.
+.. Note:: The staff grading experience has gotten a makeover! Learn about the
+   :ref:`new ORA staff grading experience <ORA Staff Grading>`.
 
 When a staff assessment is included in an open response assessment assignment,
 course team members see a **Grade Available Responses** option at the end of
@@ -144,10 +142,8 @@ To perform a staff assessment in an assignment, follow these steps.
 Performing Staff Assessments in a Team ORA Assignment
 *******************************************************
 
-.. Note:: The staff grading experience is getting a makeover! Learn about the
-   :ref:`new ORA staff grading experience <ORA Staff Grading>` and
-   how to try out
-   :ref:`a live demo <Demo the New ORA Staff Grading Experience>`.
+.. Note:: The staff grading experience has gotten a makeover! Learn about the
+   :ref:`new ORA staff grading experience <ORA Staff Grading>`.
 
 Team-based open response assessments can only be assessed by staff.
 Learners will see this as a Staff Assessment step in their assignment.
