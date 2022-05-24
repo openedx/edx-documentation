@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Open edX Release Notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open edX Release Notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/os_documentation.rst:3
+msgid "Open edX Documentation"
+msgstr ""
+
+#: ../../source/os_documentation.rst:5
+msgid "All Open edX documentation is available at `docs.edx.org`_."
+msgstr ""
+
+#: ../../source/os_documentation.rst:9
+msgid "Maple Release Documentation"
+msgstr ""
+
+#: ../../source/os_documentation.rst:11
+msgid "The current release of Open EdX is named Maple. The following documentation is available for the Open edX Maple release."
+msgstr ""
+
+#: ../../source/os_documentation.rst:13
+msgid "`Installing, Configuring, and Running the Open edX Platform: Maple Release`_"
+msgstr ""
+
+#: ../../source/os_documentation.rst:15
+msgid "`Building and Running an Open edX Course: Maple Release`_"
+msgstr ""
+
+#: ../../source/os_documentation.rst:17
+msgid "`Open edX Learner's Guide: Maple Release`_"
+msgstr ""
+
+#: ../../source/os_documentation.rst:21
+msgid "Latest Documentation"
+msgstr ""
+
+#: ../../source/os_documentation.rst:23
+msgid "In addition to the documentation for the most recent release of Open edX, edX also maintains the latest version of the following documents for Open edX users."
+msgstr ""
+
+#: ../../source/os_documentation.rst:28
+msgid "The latest versions of these documents might contain changes related to functionality that is not present in the most recent release."
+msgstr ""
+
+#: ../../source/os_documentation.rst:31
+msgid "`Installing, Configuring, and Running the Open edX Platform`_"
+msgstr ""
+
+#: ../../source/os_documentation.rst:33
+msgid "`Building and Running an Open edX Course`_"
+msgstr ""
+
+#: ../../source/os_documentation.rst:35
+msgid "`Open edX Learner's Guide`_"
+msgstr ""
+
+#: ../../source/os_documentation.rst:37
+msgid "`Open edX Developer's Guide`_"
+msgstr ""
+
+#: ../../source/os_documentation.rst:39
+msgid "`EdX XBlock Tutorial`_"
+msgstr ""
+
+#: ../../source/os_documentation.rst:41
+msgid "`EdX XBlock API Guide`_"
+msgstr ""
+
+#: ../../source/os_documentation.rst:43
+msgid "`EdX Open Learning XML Guide`_"
+msgstr ""
+
+#: ../../source/os_documentation.rst:45
+msgid "`Open edX Platform APIs`_"
+msgstr ""
+
+#: ../../source/os_documentation.rst:47
+msgid "`Open edX Data Analytics API`_"
+msgstr ""

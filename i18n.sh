@@ -51,6 +51,9 @@ projects=(
     "en_us/open_edx_release_notes"
     )
 
+# Directory of .pot files used to create .po files
+POT_DIR="locales/pot/"
+
 # Iterating over each project defined above, to generate the pot the files
 # and then mapping the files accordingly in the tx config file
 for project in "${projects[@]}"; do
@@ -58,14 +61,14 @@ for project in "${projects[@]}"; do
     echo "--> Start generating the pot files for ${project#'en_us/'}"
 
     # Extract translatable messages into pot files
-    make gettext
+    sphinx-build -b gettext source $POT_DIR
 
     # Adding the pot files to tx config file
     echo "--> Start writing tx configuration for the ${project#'en_us/'}"
 
     cd $BASE_DIR
     sphinx-intl update-txconfig-resources \
-    --pot-dir $BASE_DIR/$project/build/locale/ \
+    --pot-dir $BASE_DIR/$project/$POT_DIR \
     --locale-dir $BASE_DIR/$project/locales/ \
     --transifex-project-name "$PROJECT_NAME"
 

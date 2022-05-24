@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Open edX Release Notes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open edX Release Notes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/ficus.rst:5
+msgid "Open edX Ficus Release"
+msgstr ""
+
+#: ../../source/ficus.rst:7
+msgid "This page lists the highlights of the Ficus release."
+msgstr ""
+
+#: ../../source/ficus.rst:15
+msgid "New Features"
+msgstr ""
+
+#: ../../source/ficus.rst:17
+msgid "The Open edX Ficus release includes the following updates."
+msgstr ""
+
+#: ../../source/ficus.rst:26
+msgid "LMS"
+msgstr ""
+
+#: ../../source/ficus.rst:28
+msgid "New **Next** and **Previous** buttons allow learners to navigate more intuitively through courses."
+msgstr ""
+
+#: ../../source/ficus.rst:31
+msgid "The **Progress** page loads significantly faster."
+msgstr ""
+
+#: ../../source/ficus.rst:33
+msgid "For course problems, the **Check** and **Final Check** buttons are now combined in one **Submit** button, and less frequently used actions (such as **Save** and **Show Answer**) have been moved to the side."
+msgstr ""
+
+#: ../../source/ficus.rst:37
+msgid "Learners can quickly see whether problems are graded or ungraded."
+msgstr ""
+
+#: ../../source/ficus.rst:41
+msgid "Discussions"
+msgstr ""
+
+#: ../../source/ficus.rst:43
+msgid "A post listing view that shows not only post titles, but also the first line of each post, is now available on the **Discussions** and **Teams** pages and in inline discussions."
+msgstr ""
+
+#: ../../source/ficus.rst:47
+msgid "Improvements to the discussions UI include a new header area, a more intuitive topic list, and an enhanced UI that indicates unread posts, comments, and responses. You can also now sort discussions by votes."
+msgstr ""
+
+#: ../../source/ficus.rst:53
+msgid "Studio & Course Author Tools"
+msgstr ""
+
+#: ../../source/ficus.rst:55
+msgid "Course teams can easily copy HTML components in Studio."
+msgstr ""
+
+#: ../../source/ficus.rst:57
+msgid "For rescoring, course teams can now specify that the system will only update a learner's score if the process improves the learner's score. For more information, see :ref:`opencoursestaff:rescore`."
+msgstr ""
+
+#: ../../source/ficus.rst:61
+msgid "CAPA problems now allow HTML formatting. See the following documentation for more information about specific functionality:"
+msgstr ""
+
+#: ../../source/ficus.rst:64
+msgid ":ref:`opencoursestaff:Multiple Responses in Numerical Input Problems` for numerical input problems."
+msgstr ""
+
+#: ../../source/ficus.rst:67
+msgid ":ref:`opencoursestaff:Using the Script Element in Multiple Choice Problems` for multiple choice problems."
+msgstr ""
+
+#: ../../source/ficus.rst:70
+msgid ":ref:`opencoursestaff:Using the Script Element in Checkbox Problems` for checkbox problems."
+msgstr ""
+
+#: ../../source/ficus.rst:73
+msgid "Randomized content block components no longer have the unused **Scored** field. Because grading is set at the subsection level, this action won't affect your course. See :ref:`opencoursestaff:Randomized Content Blocks` for more information."
+msgstr ""
+
+#: ../../source/ficus.rst:78
+msgid "Course teams can create custom pages that only course team members with the Staff or Admin role can see.  See :ref:`opencoursestaff:Add Page` for more information."
+msgstr ""
+
+#: ../../source/ficus.rst:82
+msgid "When course teams override grades from peer assessments in open response assessment (ORA) problems, the assignment is now correctly marked as complete. For more information, see :ref:`opencoursestaff:Override a learner assessment grade`."
+msgstr ""
+
+#: ../../source/ficus.rst:87
+msgid "Improvements to the word cloud tool include a new **Instructions** field and accessibility updates."
+msgstr ""
+
+#: ../../source/ficus.rst:90
+msgid "In drag and drop problems, course authors can prevent learners from receiving feedback until they've dropped all draggable items."
+msgstr ""
+
+#: ../../source/ficus.rst:93
+msgid "Users can now view a course as a member of a content group."
+msgstr ""
+
+#: ../../source/ficus.rst:95
+msgid "The Student Profile report has two added columns: \"enrollment mode\" and \"verification status\"."
+msgstr ""
+
+#: ../../source/ficus.rst:101
+msgid "Updates to Analytics Events and Database Tables"
+msgstr ""
+
+#: ../../source/ficus.rst:103
+msgid "Insights now offers per-learner data and a new \"Participated in Discussions Last Week\" metric."
+msgstr ""
+
+#: ../../source/ficus.rst:106
+msgid "Five grading events have been added:"
+msgstr ""
+
+#: ../../source/ficus.rst:108
+msgid "edx.grades.problem.submitted"
+msgstr ""
+
+#: ../../source/ficus.rst:110
+msgid "edx.grades.problem.rescored"
+msgstr ""
+
+#: ../../source/ficus.rst:112
+msgid "edx.grades.problem.state_deleted"
+msgstr ""
+
+#: ../../source/ficus.rst:114
+msgid "edx.grades.subsection.grade_calculated"
+msgstr ""
+
+#: ../../source/ficus.rst:116
+msgid "edx.grades.course.grade_calculated"
+msgstr ""
+
+#: ../../source/ficus.rst:122
+msgid "Accessibility Updates"
+msgstr ""
+
+#: ../../source/ficus.rst:124
+msgid "In keeping with edX's commitment to creating accessible content for everyone, everywhere, the Open edX Ficus release contains numerous accessibility enhancements and improvements to readability and navigability."
+msgstr ""
+
+#: ../../source/ficus.rst:132
+msgid "Improved video player controls make downloading videos, transcripts, and handouts easier."
+msgstr ""
+
+#: ../../source/ficus.rst:135
+msgid "For learners who use screen readers or keyboards only, core CAPA problem types, including checkbox and text input problems, have been updated to make identifying and responding to these problems easier."
+msgstr ""
+
+#: ../../source/ficus.rst:139
+msgid "Navigating among questions and reviewing survey results in the survey tool is now easier."
+msgstr ""
+
+#: ../../source/ficus.rst:142
+msgid "The contrast has been increased on the sign-in page for Open edX sites."
+msgstr ""
+
+#: ../../source/ficus.rst:144
+msgid "In Insights, the `<title>` element on learner pages now indicates the correct view when you switch between learner roster view and learner view."
+msgstr ""
+
+#: ../../source/ficus.rst:147
+msgid "The HTML structure of the **Progress** page has been reorganized to be more accessible."
+msgstr ""
+
+#: ../../source/ficus.rst:150
+msgid "The course **Home** page now uses heading levels 1-5 in a way that screen readers can more easily process."
+msgstr ""
+
+#: ../../source/ficus.rst:153
+msgid "For custom JavaScript problems, the `jsinput` tag includes a `title` attribute that helps orient non-visual learners."
+msgstr ""
+
+#: ../../source/ficus.rst:156
+msgid "The video playback and volume sliders are now visible when learners view videos in high contrast mode."
+msgstr ""
+
+#: ../../source/ficus.rst:159
+msgid "Made the visual chart on the **Progress** page more accessible to learners who use keyboards and screen readers."
+msgstr ""
+
+#: ../../source/ficus.rst:166
+msgid "System Upgrades and Updates"
+msgstr ""
+
+#: ../../source/ficus.rst:168
+msgid "Administrators can now configure third party authentication differently for each of their sites."
+msgstr ""
+
+#: ../../source/ficus.rst:171
+msgid "With Ficus, the operating system for the Open edX platform changes from Ubuntu 12.04 to Ubuntu 16.04, the latest long-term support (LTS) version of Ubuntu.  Ubuntu 12.04 reaches its end of life in April of this year. Unfortunately, upgrading Open edX from Ubuntu 12.04 to Ubunbu 16.04 is not possible. If your existing installation of Open edX is based on Ubuntu 12.04, we recommend that you build a new system."
+msgstr ""
+
+#: ../../source/ficus.rst:198
+msgid "More Information on Ficus Release Changes"
+msgstr ""
+
+#: ../../source/ficus.rst:200
+msgid "The `edX Release Notes`_ contain a summary of changes that are deployed to edx.org. Those changes are part of the master branch of the edX Platform in GitHub.  You can also find `release announcements`_ on the open.edx.org website."
+msgstr ""
+
+#: ../../source/ficus.rst:205
+msgid "Changes listed for 10 January 2017 and before are included in the Ficus release of Open edX.  Changes after that point will be in future Open edX releases."
+msgstr ""
+
+#: ../../source/ficus.rst:211
+msgid "Patch Releases"
+msgstr ""
+
+#: ../../source/ficus.rst:215
+msgid "29 March 2017: Ficus.2"
+msgstr ""
+
+#: ../../source/ficus.rst:217
+msgid "If you used the password randomization step during installation, a database user named \"edxapp_replica001\" is created. This username is invalid because it is too long. This issue is now fixed: the randomization step no longer creates a separate user for the replica database."
+msgstr ""
+
+#: ../../source/ficus.rst:222
+msgid "The certificates process was restarting constantly, due to not being able to communicate with XQueue.  This issue has been fixed."
+msgstr ""
+
+#: ../../source/ficus.rst:225
+msgid "The help links in LMS and Studio now display the Ficus version of the docs, rather than the latest version."
+msgstr ""
+
+#: ../../source/ficus.rst:228
+msgid "Fixes to some automated tests."
+msgstr ""
+
+#: ../../source/ficus.rst:233
+msgid "21 April 2017: Ficus.3"
+msgstr ""
+
+#: ../../source/ficus.rst:235
+msgid "In edx-platform, Django was upgraded from 1.8.17 to 1.8.18."
+msgstr ""
+
+#: ../../source/ficus.rst:237
+msgid "MathJax `announced`__ that its distribution point for the MathJax library will be shutting down at the end of April.  MathJax is now loaded from cdnjs instead."
+msgstr ""
+
+#: ../../source/ficus.rst:243
+msgid "The Analytics applications, including the analytics devstack, have been updated for Ubuntu 16.04."
+msgstr ""
+
+#: ../../source/ficus.rst:246
+msgid "To address a connection pooling issue in Ubuntu 16.04, we've changed how we launch new gunicorn web server processes."
+msgstr ""
+
+#: ../../source/ficus.rst:252
+msgid "10 August 2017: Ficus.4"
+msgstr ""
+
+#: ../../source/ficus.rst:254
+msgid "In edx-platform and edx-analytics-dashboard, the python-social-auth library was updated to apply migrations. This library is changing significantly in the Ginkgo release.  These migrations make it possible to update Ficus installations to Ginkgo."
+msgstr ""
+
+#: ../../source/ficus.rst:259
+msgid "A security fix was applied to prevent an attacker from poisoning a header and causing Open edX installations to send password reset emails where the reset link had been modified to a domain the attacker controls."
+msgstr ""

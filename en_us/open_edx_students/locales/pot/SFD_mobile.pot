@@ -1,0 +1,559 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Open edX Learner's Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open edX Learner's Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 12:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/SFD_mobile.rst:5
+msgid "If You Use the edX Mobile App"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:7
+msgid "This topic answers questions about how you can use the edX mobile app on a smartphone or tablet to take edX courses."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:16
+msgid "Overview of the edX Mobile App"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:20
+msgid "The edX app is a companion to the `edx.org`_ website."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:22
+msgid "You can use the app to do the following things."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:24
+msgid "Register and create an account"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:25
+msgid "Find and enroll in courses"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:26
+msgid "Complete :ref:`most course assignments<What problems in mobile app>`"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:27
+msgid "Watch course videos"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:28
+msgid "Read course handouts and announcements"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:29
+msgid "Participate in course discussions"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:30
+msgid "Download course videos for watching when you do not have an internet connection"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:36
+msgid "EdX recommends that you complete all graded assignments in a web browser on a computer. If your course includes timed exams or proctored exams, you cannot take them using the app."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:49
+msgid "General Questions"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:53
+msgid "How do I get the edX app?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:55
+msgid "The Android app is available in the `Google Play`_ Store. The iPhone app is available in the Apple `App Store`_."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:60
+msgid "How much does the app cost?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:62
+msgid "The app is free. You do not have to pay or buy anything to download or use it."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:66
+msgid "What platforms does the app run on?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:68
+msgid "The edX app is available for smartphones and tablets on both Android and iOS platforms. For the iPhone app, your device must be running iOS 7 or later."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:74
+msgid "How can I send questions or comments to edX?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:76
+msgid "EdX is glad to receive your feedback on the mobile app. On the **My Courses** page, select the menu in the upper left corner, and then select **Submit Feedback**."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:84
+msgid "Getting Started"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:88
+msgid "Do I need an edX account?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:90
+msgid "You do not need an edX account to browse courses and view course details. However, you need to have an edX account before you can enroll in courses."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:93
+msgid "You can register for an edX account in the edX app, or use a browser to go to the `edx.org`_ website. When you create your account, you need to be connected to the internet. For more information, see :ref:`Getting Started_account`."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:100
+msgid "How do I create an edX account?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:102
+msgid "Select **Register** in the edX app. You can create an edX account using your email address or a linked social media account."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:105
+msgid "When you create an account, you are asked for the following information."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:107
+msgid "Your full name. This name is used on certificates that you earn."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:109
+msgid "If you share a full profile, your full name is shown on your profile page on edx.org. For details, see :ref:`Adding Profile Information<SFD Profile Page>`."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:112
+msgid "The username that will identify you to course teams and to other learners."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:113
+msgid "A password."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:114
+msgid "The country or region that you live in."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:116
+msgid "When you register an account, you specify a username that will represent you on edX. Your username is used to identify you to course team members and other learners. You cannot change your public username after you register. EdX recommends that you select your username carefully."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:124
+msgid "How do I create or edit my user profile?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:126
+msgid "After you have created and activated your edX account, you can edit your user profile. Your edX profile allows you to share information about yourself with the edX community. Course teams and other learners in your courses can view your profile when they select your linked username in forums. You can share either a limited profile or a full profile."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:132
+msgid "You can change certain profile settings in the edX app, but be aware that the profile page on edx.org shows more information than the profile in the app shows."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:136
+msgid "You must specify your birth year before you can share a full profile. If you are under 13 years of age, you cannot share a full profile or add a profile picture."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:140
+msgid "In the edX app, follow these steps to view or edit your profile."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:142
+#: ../../source/SFD_mobile.rst:429
+msgid "From the main menu, select **Account**."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:0
+#: ../../source/SFD_mobile.rst:0
+msgid "The main menu of the edX mobile app, showing the My Courses,\n"
+"Discover, and Account options."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:149
+msgid "Select **Profile**."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:151
+msgid "Select **Edit** to change your profile details."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:154
+msgid "For more information about creating or editing your edX profile, see :ref:`Adding Profile Information<SFD Profile Page>`."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:160
+msgid "How do I find courses to take?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:162
+msgid "All of the courses on edx.org are available on the edX app. However, depending on the type of problems used in the course, you might not be able to complete all the course assignments or exams using the app."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:166
+msgid "To browse courses, select **Discover Courses** in the edX app, or select **Discover** from the app's main menu. You do not need to have an edX account or be logged in to browse courses. From the **My Courses** page in the app, you can also browse courses by tapping the search icon in the top corner."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:171
+msgid "When you find a course that interests you, select the course to view its About page. The About page includes course details such as the course start date, the length of the course and effort required, whether a certificate is offered, the language that the course is taught in, and so on. Many About pages include a informational video about the course."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:177
+msgid "For more information about edX courses and course availability, see :ref:`About Courses`."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:182
+msgid "How do I enroll in a course?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:184
+msgid "To enroll in a course, select **Enroll Now** from the course About page. You must log in or register on edx.org before you can enroll."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:187
+msgid "When you initially enroll in a course, you join the audit track for a course. If the course includes a verified track and the upgrade deadline for the course has not passed, you can upgrade to the verified track to earn a certificate."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:192
+msgid "For more information about enrolling and about course tracks, see :ref:`SFD Enrolling in a Course` and :ref:`Enrollment Tracks`"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:197
+msgid "How do I unenroll from a course?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:199
+msgid "To unenroll from a course, use a web browser to go to your :ref:`dashboard<SFD Learner Dashboard>` on the `edx.org`_ website. Follow the directions in :ref:`Unenroll from a Course`."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:205
+msgid "How do I upgrade to the verified track?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:207
+msgid "The edX app does not yet support payment options such as upgrading to the :ref:`verified track<SFD Verified Track>` for a course. To upgrade to the verified track for a course, sign in to edx.org and complete the payment on the website."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:212
+msgid "Courses for which you can earn verified certificates often require exams such as timed or proctored exams. While you can complete most of the course using the edX app, you cannot take these types of special exams using the app."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:219
+msgid "How do I pursue a program?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:221
+msgid "The edX app does not yet support upgrading to the verified track for all the courses in a program. To pay for upgrades to the verified track in a program, sign in to edx.org and complete the payment on the website. In the mobile app, the courses in your program are listed in **My Courses**."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:234
+msgid "Course Questions"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:240
+msgid "How do I take a course using the edX app?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:242
+msgid "After you enroll in a course, you find it listed under **My Courses** in the main menu."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:245
+msgid "Open a course to access the main course screen."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:0
+msgid "The main course menu on the mobile app, showing the Course, Videos,\n"
+"Discussions, Handouts, Announcement, and Important Dates sections."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:252
+msgid "Some courses might not have all of these options."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:254
+msgid "**Course** - Access course content including videos, organized based on the course outline."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:257
+msgid "**Videos** - Download or stream course videos, organized by course sections."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:259
+msgid "**Discussion** - Read and make posts in course discussions."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:261
+msgid "**Handouts** - Access any documents shared by the course team, such as the course syllabus or special reading material."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:264
+msgid "**Announcements** - Read a welcome message or course update messages from the course team."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:267
+msgid "**Important Dates** - View a summary of important course dates, including assignment and exam due dates."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:275
+msgid "Can I take a course entirely on my mobile device?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:277
+msgid "The answer depends on the types of problems that are used in the course you are taking. If a course contains mobile friendly problem types, you can complete those types of problems using the mobile app. For a list of the types of problems you can complete using the mobile app, see :ref:`What problems in mobile app` You cannot take timed exams or proctored exams using the mobile app."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:283
+msgid "You can watch course videos on the mobile app, and can also download videos to your mobile device for watching when you do not have an internet connection. When you have an internet connection, you can also read course announcements, participate in course discussions, and complete the mobile friendly problems in your assignments."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:289
+#: ../../source/SFD_mobile.rst:308
+msgid "EdX recommends that you complete all of your graded assignments in a web browser on a computer. If your course includes timed exams or proctored exams, you cannot take them using the edX app."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:298
+msgid "What types of problems can I complete in the edX app?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:300
+msgid "You can use the edX app to complete most of the problems in your assignments. EdX courses can use a variety of problem types, and some courses might include problem types that cannot be completed in the app."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:304
+msgid "For example, you can use the edX app to answer multiple choice questions, but you cannot use it to draw molecules or design circuits. To complete problems that require complex actions, you must use a web browser."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:312
+msgid "In the edX app, you can complete problems that you answer in one of these ways."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:314
+msgid "Checkbox selection"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:315
+msgid "Drag and drop selection"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:316
+msgid "Dropdown list selection"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:317
+msgid "Multiple choice selection"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:318
+msgid "Math expression input"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:319
+msgid "Numerical input"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:320
+msgid "Text input"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:325
+msgid "How do I post questions on the discussion board?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:327
+msgid "You can read and contribute to course discussions using the edX app whenever you have an internet connection. In your course, select **Discussion**."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:330
+msgid "At the top level of course discussions, you see categories of posts created by course staff, usually organized based on course structure. Within each category, you see lists of posts by learners. Each post has indicators to show the number of comments and responses the post has received. The number of unread comments for a post is shown until you have viewed a post."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:0
+msgid "The Topics view in course discussions in the mobile app."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:0
+msgid "The Posts view in course discussions in the mobile app."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:344
+msgid "When you view individual posts, you can add a comment or a response, or upvote a post. Posts by community TAs or course staff have a role indicator next to their username."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:348
+msgid "For more information about course discussions, see :ref:`Course Discussions Index`."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:353
+msgid "How do I share a link to a course I am taking?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:355
+msgid "After you enroll in a course, you can let family and friends know about the course by sharing a link to it on a connected social account, or in an email message."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:359
+msgid "From a course's main page, select the **Share** icon in the course's title display."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:0
+msgid "A course page on the mobile app, showing the sharing options in a\n"
+"dropdown after the share icon is pressed."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:367
+msgid "From the sharing options, select how you want to share the link."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:376
+msgid "Video Questions"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:380
+msgid "How much data do the videos in this app use?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:382
+msgid "Course videos are optimized for mobile playback, but watching or downloading any video can result in heavy data use. EdX recommends using a Wi-Fi connection if you intend to watch or download a lot of videos. The edX mobile apps have a **Download only on Wi-Fi** setting that is enabled by default to help you avoid using your cellular network accidentally."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:390
+msgid "How do I download videos?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:392
+msgid "To download videos, you must be connected to the internet. After you download a video, you can watch it at any time."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:395
+msgid "In your course, navigate to the video or to the section of the course that contains the video you want to download. You can find videos in the course outline under **Course**, or find all the videos in the course under **Videos**."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:400
+msgid "Select the download icon for an individual video to download a single video, or the download icon for a subsection to download all the videos in that subsection."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:404
+msgid "In a subsection, the number to the right of a subsection name indicates the number of videos in that subsection."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:0
+msgid "A list of subsections that contain videos, with one subsection\n"
+"selected and showing the number 4 next to the download icon."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:0
+msgid "A list of videos in a subsection, showing the download icon for a\n"
+"single video."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:417
+msgid "When a video completes downloading the download icon changes to a check mark."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:423
+msgid "How do I change my download settings?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:425
+msgid "By default, the edX app is set so that it only downloads content, including videos, if you are on a Wi-Fi network. If you change this setting, you might exceed the data allowance for your cellular plan."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:436
+msgid "Select **Settings**."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:438
+msgid "Change the **Wi-Fi only download** setting."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:443
+msgid "How can I make the video full screen?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:445
+msgid "Rotate your phone until the video changes to landscape mode, or select \"full screen\" in the bottom right corner of the video player."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:0
+msgid "Video with \"full screen\" icon circled."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:455
+msgid "Can I speed up the videos?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:457
+msgid "Only the iOS version of the edX app supports changing the video playing speed. While a video plays, select **Settings** (the \"gear\" icon) at the lower right of the video player, and then select **Video Speed**."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:461
+msgid "On the Android version of the app, you cannot change the video playing speed."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:466
+msgid "How do I delete downloaded videos?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:468
+msgid "You can delete downloaded videos one by one or, if you have downloaded all the videos in a course subsection, you can delete all of a subsection's videos at once."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:472
+msgid "In your course, navigate to the downloaded video or to the subsection containing the videos you want to delete."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:475
+msgid "You can only delete all the videos in a subsection if a checkmark icon appears for the subsection, indicating that you have downloaded all of the videos in that subsection."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:479
+msgid "Long press a downloaded video or a subsection of downloaded videos."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:481
+msgid "The screen title changes to **Delete Videos**, and a trash can icon appears in the header bar."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:0
+msgid "On the Delete Videos page, a list of subsections that contain\n"
+"videos, with one subsection selected and showing the number 4 next to\n"
+"checkmark icon, and a trash can icon available in the header bar."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:490
+msgid "Select the trash can icon to delete the selected video or videos."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:499
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:503
+msgid "I see \"This video is not available\" when I try to watch a video. What can I do?"
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:505
+msgid "If you have problems viewing videos, make sure that you have an internet connection and then try to view or download the video again."
+msgstr ""
+
+#: ../../source/SFD_mobile.rst:508
+msgid "If problems persist, let us know. On the **My Courses** page, select the \"menu\" icon, and then select **Submit Feedback**."
+msgstr ""

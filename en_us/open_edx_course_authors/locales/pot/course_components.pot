@@ -1,0 +1,2638 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Building and Running an Open edX Course package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Building and Running an Open edX Course \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../shared/course_components/create_discussion.rst:5
+msgid "Working with Discussion Components"
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:7
+msgid "This section describes how to work with discussion components in Studio."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:15
+msgid "Overview"
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:17
+msgid "You can add discussion components to a unit to pose questions about other components, such as videos or text, in the unit. A discussion component gives learners a chance to respond to and interact with each other about a specific subject."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:22
+msgid "Discussion topics that you create by adding discussion components in your course are known as content-specific discussion topics."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:25
+msgid "For more information about discussions, see these topics."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:27
+msgid ":ref:`Discussions`"
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:28
+msgid ":ref:`Guidance for Discussion Moderators`"
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:29
+msgid ":ref:`Set up Discussions in Cohorted Courses`"
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:35
+msgid "Create a Discussion Component"
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:37
+msgid "EdX recommends that you add a Text component before each discussion component to introduce the topic that you want learners to discuss. The discussion component itself does not contain any text and can be easy for learners to overlook."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:42
+msgid "Under **Add New Component**, select **Discussion**."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:44
+msgid "You should always use these steps to create a discussion component. Do not create discussion components by using the **Duplicate** button in Studio. Duplicated discussion components result in discussion topics containing the same conversations, even if users post in different discussions."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:50
+msgid "In the discussion component that appears, select **Edit**."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:52
+msgid "Follow the guidelines in the editor to fill in the **Category**, the **Display Name**, and the **Subcategory** fields."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:55
+msgid "Each **Category**/**Subcategory** pair for the discussion topics in your course must be unique."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:58
+msgid "The value in the **Display Name** field identifies the discussion in the course content. The default display name for new discussion components is \"Discussion\".  Changing the default to a unique, descriptive display name can help you and your learners identify different topics quickly and accurately. If you delete the default display name and do not enter your own identifying name, the platform supplies \"discussion\" for you."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:65
+msgid "The values in the **Category** (1) and **Subcategory** (2) fields are visible to learners in the list of discussion topics on the **Discussion** page."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:0
+msgid "A list of discussions with the \"Answering More Than Once\" topic\n"
+"indented under \"Getting Graded\"."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:74
+#: ../../../shared/course_components/create_html_component.rst:278
+msgid "Select **Save**."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:76
+msgid "On the **Discussion** page, you cannot see category and subcategory names of discussion components that you created until after the course has started and the unit is released. For more details about when discussion topics are visible, see :ref:`Visibility of Discussion Topics`."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:85
+msgid "A Learner's View of the Discussion"
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:87
+msgid "When you add a discussion component to a unit, in the LMS, learners see only the discussion, together with the display name of the discussion component, the category, and the subcategory. EdX recommends that you add an HTML component before each discussion component where you add some text to introduce the discussion topic."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:92
+msgid "In the following example, the discussion component follows an HTML component. Learners select **Add a Post** to post their own contributions."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:None
+msgid "An HTML text component and then a discussion component, as they appear\n"
+"in the LMS."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:99
+msgid "Content-specific topics that you add using discussion components are included on the course **Discussion** page in the same way as course-wide discussion topics as included. In the following example, the category (1) and the subcategory (2) of the discussion component is shown in the list of discussion topics."
+msgstr ""
+
+#: ../../../shared/course_components/create_discussion.rst:None
+msgid "The list of discussions on the Discussion page in the LMS, showing the\n"
+"category and subcategory of a content-specific discussion topic."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:9
+msgid "Working with Text Components"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:11
+msgid "This section describes how to work with Text components in Studio."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:19
+msgid "Text Component Overview"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:21
+msgid "HTML, or HyperText Markup Language, is the standard markup language used to create web pages. Web browsers present HTML code in a more readable format."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:24
+msgid "When students see text and images in your course, they are seeing HTML code that is formatted and presented by their browsers. For more information about HTML, see `Wikipedia <https://en.wikipedia.org/wiki/HTML>`_."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:30
+msgid "Text Components"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:32
+msgid "Text components are the basic building blocks of your course content. You use Text components to add and format text, links, images, and more. You can work with your Text components in a \"visual\" or WYSIWYG editor that hides the HTML code details, or in a \"raw\" editor that requires you to mark up your content."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:38
+msgid "Review :ref:`Developing Your Course Index` and :ref:`Best Practices for HTML Markup` before you start working with Text components."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:46
+msgid "Options for Editing Text Components"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:48
+msgid "You can use two different editing interfaces to work with a Text component."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:50
+msgid ":ref:`The Visual Editor`"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:52
+msgid "With the visual editor you create, edit, and format content in a word processing-like interface, without using HTML markup directly. With the visual editor, you can more easily format your content, and add links and images. The visual editor includes an **HTML** option for you to review the HTML markup and make small formatting changes to your content. However, this HTML option does not provide the detailed control you can get with the raw HTML editor, and does not support custom formatting or scripts."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:60
+msgid "If you add a Text component and select **Text**, when you select **Edit** the visual editor opens by default."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:63
+msgid ":ref:`The Raw HTML Editor`"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:65
+msgid "If you prefer to mark up your content directly with HTML markup, you can use the raw HTML editor. If you need to include custom formatting or scripts in your content, you must use the raw HTML editor."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:69
+msgid "If you add a Text component and select **Raw HTML**, when you select **Edit** the raw HTML editor opens by default."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:72
+msgid "You can switch back and forth between these two editing interfaces at any time. For more information, see :ref:`Set the Editor for a Text Component`."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:76
+msgid "If you copy text from another source and paste it into either the visual or raw HTML editor, be sure to proofread the result carefully. Some applications automatically change quotation marks and apostrophes from the \"straight\" version to the \"smart\" or \"curly\" version. Both editors require \"straight\" quotation marks and apostrophes."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:86
+msgid "Set the Editor for a Text Component"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:88
+msgid "Add or locate the Text component in your course."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:90
+msgid "Select **Edit**, and then select **Settings**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:92
+msgid "Select **Visual** or **Raw**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:94
+msgid "Select **Save**, and then reopen the component to use the new editor."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:97
+msgid "If you work with content in the raw HTML editor, then switch to the visual editor, custom HTML can be lost. If you need to create custom HTML, we recommend that you start by using the visual editor, and then switch to the raw HTML editor when you are ready to add the custom HTML."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:106
+msgid "The Visual Editor"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:108
+msgid "The visual editor provides a \"what you see is what you get\" (WYSIWYG) interface that allows you to format text by selecting options at the top of the editor."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:112
+msgid "The following image shows callouts for the editing options and is followed by descriptions."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:None
+msgid "An image of the visual editor toolbar, with numbers next to each of the\n"
+"formatting buttons."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:120
+msgid "Select a formatting style for the selected text, such as paragraph, ``preformatted`` (monospace), or a heading level."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:124
+msgid "The available heading levels in the Text component editor begin with heading 3 (``<h3>``). Text components are part of a complete page, and elements outside the Text component use heading levels 1 and 2 by default. Because tools such as screen readers use heading levels to navigate through pages, using heading levels 1 or 2 inside a Text component can interfere with the functionality of these tools."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:131
+msgid "Select a font family for selected text, such as Arial, Courier New, or Times New Roman."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:134
+msgid "Format the selected text in bold, or remove this formatting. The editor inserts ``<strong>`` tags around the selected text."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:137
+msgid "Format the selected text in italics, or remove this formatting. The editor inserts ``<em>`` tags around the selected text."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:140
+msgid "Underline the selected text, or remove this formatting. The editor encloses the selected text in the tag ``<span style=\"text-decoration: underline;\">``."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:143
+msgid "Change the color of the selected text. The editor encloses the selected text in the tag ``<span style=\"color: color-hex-code;\">``."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:146
+msgid "Format the selected text as a code block, or remove this formatting. The editor inserts ``<code>`` tags around the selected text, which is then displayed in a monospace font."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:150
+msgid "Align text and images to the left. The editor adds ``style=\"text-align: left;\"`` to the ``<p>`` tags that surround the text."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:153
+msgid "Center text and images. The editor adds ``style=\"text-align: center;\"`` to the ``<p>`` tags that surround the text."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:156
+msgid "Align text and images to the right. The editor adds ``style=\"text-align: right;\"`` to the ``<p>`` tags that surround the text."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:159
+msgid "Justify text and images. The editor adds ``style=\"text-align: justify;\"`` to the ``<p>`` tags that surround the text."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:162
+msgid "Create a bulleted list, or remove this formatting. The editor inserts ``<ul>`` tags around the selected text, and encloses each paragraph in ``<li>`` tags."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:166
+msgid "Create a numbered list, or remove this formatting. The editor inserts ``<ol>`` tags around the selected text, and encloses each paragraph in ``<li>`` tags."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:170
+msgid "Decrease and increase the indentation of the selected paragraph."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:172
+msgid "Format the selected paragraph as a blockquote. The editor inserts ``<blockquote>`` tags around the selected text, which is then displayed as a separate paragraph in a monospace font."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:176
+msgid "Create a hypertext link from the selected text. For more information, see :ref:`Add a Link in a Text Component`."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:179
+msgid "Remove a hypertext link from the selected text."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:181
+msgid "Insert an image at the cursor. For more information, see :ref:`Add an Image to a Text Component`."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:184
+msgid "Review the HTML markup."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:187
+msgid "The visual editor is not available for :ref:`course handouts <Adding Course Updates and Handouts>`."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:193
+msgid "Review HTML Markup in the Visual Editor"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:195
+msgid "To review the HTML markup added to  content in the visual editor, select **HTML** from the visual editor's toolbar. The HTML source code editor opens."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:None
+msgid "The HTML source code editor for the visual editor in Studio, showing\n"
+"HTML with markup."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:203
+msgid "You can edit text and the HTML markup in this editor. However, you cannot add custom styles or scripts in this editor. Use the :ref:`raw HTML editor<The Raw HTML Editor>` instead."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:207
+msgid "Select **OK** to return to the visual editor. The visual editor attempts to correct any problems with the markup that you entered. For example, if you do not provide a close paragraph tag, the editor adds the tag for you."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:211
+msgid "You can then continue working in the visual editor."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:214
+msgid "Selecting **OK** in the source code editor does not save your changes to the Text component. To save your changes and close the component, select **Save** in the visual editor. If you select **Cancel**, the changes you made in the HTML source code editor are discarded."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:223
+msgid "The Raw HTML Editor"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:225
+msgid "The raw HTML editor is a text editor. It does not offer a toolbar with formatting options."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:None
+msgid "The raw HTML editor, showing example HTML."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:232
+msgid "When you use this editor, you must supply valid HTML. The raw HTML editor does not validate your HTML code. If you use this editor, you should thoroughly test the HTML content in your course."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:237
+msgid "When you add a heading to a Text component, make sure that you use only heading level 3 ``<h3>`` through heading level 6 ``<h6>``. Text components are part of a complete page, and elements outside the Text component use heading levels 1 and 2 by default. Because tools such as screen readers use heading levels to navigate through pages, using heading levels 1 or 2 inside a Text component can interfere with the functionality of these tools."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:248
+msgid "Create a Text Component"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:250
+msgid "Under **Add New Component**, select **Text**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:252
+msgid "Select the template."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:254
+msgid "The rest of these instructions assume that you selected **Text**, which creates an empty Text component with the :ref:`visual editor<The Visual Editor>` selected."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:258
+msgid "An empty Text component appears at the bottom of the unit."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:260
+msgid "In the component, select **Edit**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:262
+msgid "The Text component opens in the visual editor."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:264
+msgid "Enter and format your content. You can :ref:`review the HTML markup<Work with HTML code>`."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:267
+msgid "To enter a display name for the component, select **Settings**, and then enter text in the **Display Name** field."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:270
+msgid "Each HTML template supplies a default display name. Changing the default to a unique, descriptive display name can help you and your learners identify course content quickly and accurately. If you delete the default display name and do not enter your own identifying name, the platform shows \"Text\" as the name of the component."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:276
+msgid "To return to the visual editor, select **Editor**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:280
+msgid "When you use the visual editor, you can also perform the following tasks."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:282
+msgid ":ref:`Add a Link in a Text Component`"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:283
+msgid ":ref:`Add an Image to a Text Component`"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:284
+msgid ":ref:`Import LaTeX Code`"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:291
+msgid "Text Component Templates"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:293
+msgid "When you create a Text component, you select one of the following templates."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:295
+msgid "Text"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:296
+msgid "Announcement"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:297
+msgid "IFrame Tool"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:298
+msgid "Raw HTML"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:300
+msgid "The raw HTML template uses the raw HTML editor by default. All of the other templates use the visual editor by default. You can switch between the editors in any Text component. For more information, see :ref:`Set the Editor for a Text Component`."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:309
+msgid "Add a Link in a Text Component"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:311
+msgid "When you use the visual editor, to add a link to a website, course unit, or file in a Text component, you work with the **Insert link** dialog box."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:314
+msgid "For more information, see the following tasks."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:316
+msgid ":ref:`Add a Link to a Website`"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:317
+msgid ":ref:`Add a Link to a Course Unit`"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:318
+msgid ":ref:`Add a Link to a File`"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:324
+msgid "Add a Link to a Website"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:326
+msgid "Select the text that you want to use as the link text."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:328
+#: ../../../shared/course_components/create_html_component.rst:371
+msgid "Select the link icon in the toolbar."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:330
+msgid "In the **Insert link** dialog box, enter the URL of the website that is the destination for your link in the **URL** field."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:333
+#: ../../../shared/course_components/create_html_component.rst:388
+msgid "If you want the link to open in a new window, select the dropdown arrow next to the **Target** field, and then select **New Window**. If not, you can leave the default value."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:337
+#: ../../../shared/course_components/create_html_component.rst:439
+msgid "Select **OK**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:339
+msgid "Save the Text component."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:341
+msgid "To test the link, select **View Live Version** or **Preview**. When the unit opens in the LMS, select the linked text and verify that the correct website opens."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:349
+msgid "Add a Link to a Course Unit"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:352
+msgid "When you create a link to another component, the unit of that destination component must be published for the link to work."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:355
+msgid "Obtain the location ID of the unit you want to link to."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:357
+msgid "In Studio, open the page for the unit that you want to link to in Studio, and then locate **Unit Location** in the right pane."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:360
+msgid "Under **Unit Location**, select and copy the alphanumeric text in the **Location ID** field."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:0
+msgid "The **Unit Location** area in the right pane of a unit page, with\n"
+"the unit's location ID circled."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:367
+msgid "Open the Text component where you want to add the link."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:369
+msgid "Select the text that you want to make into the link."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:373
+msgid "In the **Insert link** dialog box, enter a value that resembles the following value in the **URL** field."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:376
+msgid "``/jump_to_id/<location ID>``"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:378
+msgid "Make sure to replace <location ID> (including the brackets) with the location ID that you copied in step 1, and make sure that you include both forward slashes (/)."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:383
+msgid "Ensure you use ``/jump_to_id/<location ID>`` as the URL value. Do not use the URL of the unit that you see in the browser address bar.  If you do not use ``/jump_to_id/<location ID>``, the link will be broken if you export and then import the course."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:392
+msgid "Select **Insert**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:394
+#: ../../../shared/course_components/create_html_component.rst:441
+msgid "Save the Text component and test the link."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:400
+msgid "Add a Link to a File"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:403
+msgid "When you add links to files, open the Text component and the **Files & Uploads** page in separate browser windows. You can then more quickly copy file URLs."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:407
+msgid "You can add a link in a Text component to any file that is uploaded for the course. For more information about uploading files, see :ref:`Add Files to a Course`."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:412
+msgid "Do not use this method to add images to Text components. Instead, use the method in :ref:`Add an Image to a Text Component`."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:416
+msgid "On the **Files & Uploads** page, locate the file that you want, and then select **Studio** in the **Copy URLs** column."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:420
+msgid "You must use the **Studio** URL to link to the file, not the **Web** URL. For more information, see :ref:`Add Files to a Course`."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:423
+msgid "In the Text component where you want to add the link, select the text that you want to make into the link."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:426
+msgid "In the toolbar, select the link icon."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:428
+msgid "In the **Insert link** dialog box, paste the Studio URL for the file in the **URL** field. For example, the URL might resemble the following URL."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:431
+msgid "``/static/FileName.pdf``"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:433
+msgid "Make sure that you include both forward slashes (/)."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:435
+msgid "(optional) If you want the link to open in a new window, select the dropdown arrow next to the **Target** field, and then select **New Window**. If not, you can leave the default value."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:447
+msgid "Add an Image to a Text Component"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:449
+msgid "When you use the visual editor, you can add any image from your computer to a Text component. You can see a preview of the image before you add it to the component."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:454
+msgid "Before you add an image, make sure that you obtain copyright permissions for images you use in your course, and that you cite sources appropriately."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:456
+msgid "To add effective alternative text for images, review :ref:`Best Practices for Describing Images`."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:458
+msgid "You can only add one image at one time."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:459
+msgid "Each individual image file must be smaller than 10 MB."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:461
+msgid "To add an image to a Text component, you can use one of the following procedures."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:464
+msgid ":ref:`Drag an image <Drag an Image into the Add Image Dialog Box>` from your computer into the **Add Image** dialog box in the Text component."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:466
+msgid ":ref:`Locate an image <Locate an Image on Your Computer>` by using the **Browse Your Computer** option in the **Add Image** dialog box."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:468
+msgid ":ref:`Select an image <Select a Previously Uploaded Image>` that you have uploaded to the **Files & Uploads** page."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:475
+msgid "Drag an Image into the Add Image Dialog Box"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:477
+#: ../../../shared/course_components/create_html_component.rst:508
+#: ../../../shared/course_components/create_html_component.rst:548
+msgid "In the Text component, position the cursor where you want to add an image, and then select the image icon on the toolbar."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:480
+msgid "In the **Add an Image** dialog box, drag an image from your computer into the **Drag and Drop** area."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:483
+#: ../../../shared/course_components/create_html_component.rst:516
+msgid "As soon as your file uploads, the **Edit Image Settings** dialog box opens."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:485
+#: ../../../shared/course_components/create_html_component.rst:518
+msgid "In the **Edit Image Settings** dialog box, add an image description."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:487
+#: ../../../shared/course_components/create_html_component.rst:520
+#: ../../../shared/course_components/create_html_component.rst:557
+msgid "In the **Image Description (Alt Text)** field, enter alternative text for the image. This text becomes the value of the ``alt`` attribute in HTML and is required for your course to be fully accessible. For more information, see :ref:`Best Practices for Describing Images`."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:492
+#: ../../../shared/course_components/create_html_component.rst:525
+#: ../../../shared/course_components/create_html_component.rst:562
+msgid "If your image is a decorative image that does not convey important information, select the **This image is decorative only** checkbox."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:495
+#: ../../../shared/course_components/create_html_component.rst:528
+#: ../../../shared/course_components/create_html_component.rst:565
+msgid "(optional) Specify the width and height of your image. For more information, see :ref:`Change the Image Size`."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:498
+#: ../../../shared/course_components/create_html_component.rst:531
+#: ../../../shared/course_components/create_html_component.rst:568
+#: ../../../shared/course_components/create_html_component.rst:616
+msgid "Select **Insert Image**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:500
+#: ../../../shared/course_components/create_html_component.rst:533
+#: ../../../shared/course_components/create_html_component.rst:570
+msgid "Save the Text component and test the image."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:506
+msgid "Locate an Image on Your Computer"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:511
+msgid "In the **Add an Image** dialog box, **Browse Your Computer**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:513
+msgid "In the dialog box that opens, locate the file that you want to add, and then select **Open**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:539
+msgid "Select a Previously Uploaded Image"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:541
+msgid "If you have not already added the image that you want to add, open the **Files & Uploads** page, and then upload the image. For more information about uploading images, see :ref:`Add Files to a Course`."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:545
+msgid "When you upload an image, the image automatically becomes available in a list that opens when you add an image to a Text component."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:551
+msgid "In the **Add an Image** dialog box, locate the image in the **Select a previously uploaded image** list, and then select **Next**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:554
+msgid "In the **Edit Image Settings** dialog box, complete one of the following options."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:576
+msgid "Format an Image in a Text Component"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:578
+msgid "You have several options for formatting an image in a Text component."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:587
+msgid "Align an Image"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:589
+msgid "To align your image to the right, the left, or the center, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:591
+msgid "In the Text component, select the image."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:593
+msgid "On the toolbar, select the left align, right align, or center icon."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:598
+msgid "Change the Image Size"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:600
+msgid "To change the size of your image, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:602
+msgid "In the Text component, select the image that you want to edit, and then select the image icon on the toolbar."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:605
+msgid "In the **Edit Image Settings** dialog box, locate **Image Dimensions**, and then enter the values that you want for the **Width** and **Height** options."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:610
+msgid "To make sure that the image keeps the same proportions when you change the image size, make sure that **Lock proportions** is selected, and enter a number in only the **Width** field or the **Height** field. After you tab or click outside that field, the number in the other field changes to a value that maintains the image proportions."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:618
+msgid "If you want to change the image back to the original size, clear the values in the **Width** and **Height** fields."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:656
+msgid "Import LaTeX Code into a Text Component"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:658
+msgid "You can import LaTeX code into a Text component. You might do this, for example, if you want to create \"beautiful math\" such as the math in the following image."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:None
+msgid "Math formulas created with LaTeX in a Text component."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:666
+msgid "The LaTeX processor that Studio uses to convert LaTeX code to XML is a third party tool. We recommend that you use this feature with caution. If you use the tool, make sure that you work with your partner manager."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:672
+msgid "Enable the LaTeX Processor"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:674
+msgid "The LaTeX processor is not enabled by default. To enable it, you have to change the advanced settings in your course."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:677
+msgid "In Studio, select **Settings**, and then select **Advanced Settings**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:679
+msgid "In the field for the **Enable LaTeX Compiler** policy key, change **false** to **true**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:682
+msgid "At the bottom of the page, select **Save Changes**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:686
+msgid "Add a Text Component that Contains LaTeX Code"
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:688
+msgid "When the LaTeX processor is enabled, you can create a Text component that contains LaTeX code."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:691
+msgid "In the unit where you want to create the component, select **Text** under **Add New Component**, and then select **E-text Written in LaTeX**. The new component is added to the unit."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:695
+msgid "Select **Edit** to open the new component."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:697
+msgid "At the bottom of the component editor, select **Launch Latex Source Compiler**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:700
+msgid "The LaTeX editor opens."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:0
+msgid "The LaTeX editor."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:706
+msgid "Add your LaTeX code. To do this, complete either of the following procedures."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:709
+msgid "In the **High Level Source Editing** field, add your LaTeX code."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:711
+msgid "To upload a LaTeX file from your computer, select **Upload**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:713
+msgid "Select **Save & Compile to edX XML**."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:715
+msgid "On the unit page, select **Preview** to verify that your content looks correct in the LMS."
+msgstr ""
+
+#: ../../../shared/course_components/create_html_component.rst:718
+msgid "If you see errors, go back to the unit page. Select **Edit** to open the component again, and then select **Launch Latex Source Compiler** to edit the LaTeX code."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:5
+msgid "Working with Problem Components"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:7
+msgid "This section introduces the core set of problem types that course teams can add to any course by using the problem component. It also describes editing options and settings for problem components."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:15
+msgid "For information about specific problem types, and the other exercises and tools that you can add to your course, see :ref:`Create Exercises`."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:22
+msgid "Adding a Problem"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:24
+msgid "To add interactive problems to a course in Studio, in the course outline, at the :ref:`unit<The Unit Workflow>` level, you select **Problem**. You then choose the type of problem that you want to add from the **Common Problem Types** list or the **Advanced** list."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:29
+msgid "The common problem types include relatively straightforward CAPA problems such as multiple choice and text or numeric input. The advanced problem types can be more complex to set up, such as math expression input, open response assessment, or custom JavaScript problems."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:34
+msgid "The common and advanced problem types that the problem component lists are the core set of problems that every course team can include in a course. You can also enable more exercises and tools for use in your course. For more information, see :ref:`Enable Additional Exercises and Tools`."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:41
+msgid "Adding Graded or Ungraded Problems"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:43
+msgid "When you :ref:`establish the grading policy<Grading Index>` for your course, you define the assignment types that count toward learners' grades: for example, homework, labs, midterm, final, and participation. You specify one of these assignment types for each of the subsections in your course."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:48
+msgid "As you develop your course, you can add problem components to a unit in any subsection. The problem components that you add automatically inherit the assignment type that is defined at the subsection level. For example, all of the problem components that you add to a unit in the midterm subsection are graded."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:54
+msgid "For more information, see :ref:`Set the Assignment Type and Due Date for a Subsection`."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:5
+msgid "The Learner View of a Problem"
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:7
+msgid "All problems on the edX platform have these component parts, some of which can be configured. For configurable options, you can specify whether and when an option is available in problems."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:None
+msgid "A problem from a learner's point of view, with numbered callouts for\n"
+"elements of the problem."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:16
+msgid "**Problem text.** The problem text can contain any standard HTML formatting."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:19
+msgid "Within the problem text for each problem component, you must identify a question or prompt, which is, specifically, the question that learners need to answer. This question or prompt also serves as the required accessible label, and is used by screen readers, reports, and Insights. For more information about identifying the question text in your problem, see :ref:`Simple Editor`."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:26
+msgid "**Response field.** Learners enter answers in response fields. The appearance of the response field depends on the type of the problem."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:29
+msgid "**Rendered answer.** For some problem types, the LMS uses MathJax to render plain text as \"beautiful math.\""
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:32
+msgid "**Submit.** When a learner selects **Submit** to submit a response for a problem, the LMS saves the grade and current state of the problem. The LMS immediately provides feedback about whether the response is correct or incorrect, as well as the problem score. The **Submit** option remains available if the learner has unused attempts remaining, so that she can try to answer the problem again."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:40
+#: ../../../shared/course_components/Section_learner_problem_view.rst:98
+#: ../../../shared/course_components/Section_learner_problem_view.rst:108
+msgid "If you want to temporarily or permanently hide learners' results for the problem, see :ref:`Problem Results Visibility`."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:43
+msgid "**Attempts.** You can set a specific number of attempts or allow unlimited attempts for a problem. By default, the course-wide **Maximum Attempts** advanced setting is null, meaning that the maximum number of attempts for problems is unlimited."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:48
+msgid "In courses where a specific number has been specified for **Maximum Attempts** in Advanced Settings, if you do not specify a value for **Maximum Attempts** for an individual problem, the number of attempts for that problem defaults to the number of attempts defined in Advanced Settings."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:53
+msgid "**Save.** The learner can select **Save** to save his current response without submitting it for grading. This allows the learner to stop working on a problem and come back to it later."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:57
+msgid "**Reset.** You can specify whether the **Reset** option is available for a problem. This setting at the problem level overrides the default setting for the course in **Advanced Settings**."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:61
+msgid "If the **Reset** option is available, learners can select **Reset** to clear any input that has not yet been submitted, and try again to answer the question."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:65
+msgid "If the learner has already submitted an answer, selecting **Reset** clears the submission and, if the problem includes a Python script to randomize variables and the randomization setting is **On Reset**, changes the values the learner sees in the problem."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:70
+msgid "If the problem has already been answered correctly, **Reset** is not available."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:73
+msgid "If the number of **Maximum Attempts** that was set for this problem has been reached, **Reset** is not available."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:76
+msgid "**Show Answer.** You can specify whether this option is available for a problem. If a learner selects **Show Answer**, the learner sees both the correct answer and the explanation, if any."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:80
+msgid "If you specify a number in **Show Answer: Number of Attempts**, the learner must submit at least that number of attempted answers before the **Show Answer** option is available for the problem."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:84
+msgid "**Feedback.** After a learner selects **Submit**, an icon appears beside each response field or selection within a problem. A green check mark indicates that the response was correct, a green asterisk (*) indicates that the response was partially correct, and a red X indicates that the response was incorrect. Underneath the problem, feedback text indicates whether the problem was answered correctly, incorrectly, or partially correctly, and shows the problem score."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:0
+msgid "A problem from a learner's point of view, with callouts showing the\n"
+"feedback elements of an answered problem."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:101
+msgid "In addition to the items above, which are shown in the example, problems also have the following elements."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:104
+msgid "**Correct answer.** Most problems require that you specify a single correct answer."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:111
+msgid "**Explanation.** You can include an explanation that appears when a learner selects **Show Answer**."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:114
+msgid "**Grading.** You can specify whether a group of problems is graded."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:116
+msgid "**Due date.** The date that the problem is due. Learners cannot submit answers for problems whose due dates have passed, although they can select **Show Answer** to show the correct answer and the explanation, if any."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:121
+msgid "Problems can be **open** or **closed**. Closed problems, such as problems whose due dates are in the past, do not accept further responses and cannot be reset. Learners can still see questions, solutions, and revealed explanations, but they cannot submit responses or reset problems."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:126
+msgid "There are also some attributes of problems that are not immediately visible. You can set these attributes in Studio."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:129
+msgid "**Accessible Label.** Within the problem text, you can identify the text that is, specifically, the question that learners need to answer. The text that is labeled as the question is used by screen readers, reports, and Insights. For more information, see :ref:`Simple Editor`."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:134
+msgid "**Randomization.** In certain types of problems, you can include a Python script to randomize the values that are presented to learners. You use this setting to define when values are randomized. For more information, see :ref:`Randomization`."
+msgstr ""
+
+#: ../../../shared/course_components/Section_learner_problem_view.rst:139
+msgid "**Weight.** Different problems in a particular problem set can be given different weights. For more information, see :ref:`Problem Weight`."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:65
+msgid "Editing a Problem in Studio"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:67
+msgid "When you select **Problem** and choose one of the problem types, Studio adds an example problem of that type to the unit. To replace the example with your own problem, you select **Edit** to open the example problem in an editor."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:71
+msgid "The editing interface that opens depends on the type of problem you choose."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:73
+msgid "For common problem types, the :ref:`simple editor<Simple Editor>` opens. In this editor, you use Markdown-style formatting indicators to identify the elements of the problem, such as the prompt and the correct and incorrect answer options."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:78
+msgid "For advanced problem types (with the exception of :ref:`open response assessment<Open Response Assessments Two>`), the :ref:`advanced editor<Advanced Editor>` opens. In this editor you use open learning XML (OLX) elements and attributes to identify the elements of the problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:83
+msgid "For open response assessment problem types, you define the problem elements and options by using a graphical user interface. For more information, see :ref:`PA Create an ORA Assignment`."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:87
+msgid "You can switch from the simple editor to the advanced editor at any time by selecting **Advanced Editor** from the simple editor's toolbar."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:91
+msgid "After you save a problem in the advanced editor, you cannot open it again in the simple editor."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:98
+msgid "The Simple Editor"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:100
+msgid "When you edit one of the :ref:`common problem types<Adding a Problem>`, the simple editor opens with a template that you can use as a guideline for adding Markdown formatting. The following templates are available."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:104
+msgid ":ref:`Checkbox` and Checkboxes with Hints and Feedback"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:106
+msgid ":ref:`Dropdown` and Dropdown with Hints and Feedback"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:108
+msgid ":ref:`Multiple Choice` and Multiple Choice with Hints and Feedback"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:110
+msgid ":ref:`Numerical Input` and Numerical Input with Hints and Feedback"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:112
+msgid ":ref:`Text Input` and Text Input with Hints and Feedback"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:114
+msgid "Blank common problems also open in the simple editor but they do not provide a template."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:118
+msgid "Adding Markdown Formatting"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:120
+msgid "The following image shows the multiple choice template in the simple editor."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:None
+msgid "A template of required formatting for multiple choice problems, with\n"
+"numbered callouts for each formatting option."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:128
+msgid "The simple editor includes a toolbar with options that provide the required Markdown formatting for different types of problems. When you select an option from the toolbar, formatted sample text appears in the simple editor. Alternatively, you can apply formatting to your own text by selecting the text and then one of the toolbar options."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:134
+msgid "Descriptions of the Markdown formatting that you use in the simple editor follow."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:137
+msgid "**Heading**: Identifies a title or heading by adding a series of equals signs (``=``) below it on the next line."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:140
+msgid "**Multiple Choice**: Identifies an answer option for a multiple choice problem by adding a pair of parentheses (``( )``) before it. To identify the correct answer option, you insert an ``x`` within the parentheses: (``(x)``)."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:145
+msgid "**Checkboxes**: Identifies an answer option for a checkboxes problem by adding a pair of brackets (``[ ]``) before it. To identify the correct answer option or options, you insert an ``x`` within the brackets: (``[x]``)."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:150
+msgid "**Text Input**: Identifies the correct answer for a text input problem by adding an equals sign (``=``) before the answer value on the same line."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:153
+msgid "**Numerical Input**: Identifies the correct answer for a numerical input problem by adding an equals sign (``=``) before the answer value on the same line."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:157
+msgid "**Dropdown**: Identifies a comma-separated list of values as the set of answer options for a dropdown problem by adding two pairs of brackets (``[[ ]]``) around the list. To identify the correct answer option, you add parentheses (``( )``) around that option."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:162
+msgid "**Explanation**: Identifies the explanation for the correct answer by adding an ``[explanation]`` tag to the lines before and after the text. The explanation appears only after learners select **Show Answer**. You define when the **Show Answer** option is available to learners by using the :ref:`Show Answer` setting."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:168
+msgid "**Advanced Editor** link: Opens the problem in the :ref:`advanced editor<Advanced Editor>`, which shows the OLX markup for the problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:171
+msgid "**Toggle Cheatsheet**: Opens a list of formatting hints."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:173
+msgid "**Question or Prompt**: Identifies the question that learners need to answer. The toolbar does not have an option that provides this formatting, so you add two pairs of inward-pointing angle brackets (``>> <<``) around the question text. For example, ``>>Is this the question?<<``."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:178
+msgid "You must identify a question or prompt in every problem component. In problems that include :ref:`multiple questions<Multiple Problems in One Component>`, you must identify each one."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:182
+msgid "The :ref:`Student_Answer_Distribution` report uses the text with this formatting to identify each problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:185
+msgid "Insights also uses the text with this formatting to identify each problem. For more information, see `Using edX Insights`_."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:188
+msgid "**Description**: Identifies optional guidance that helps learners answer the question. For example, when you add a checkbox problem that is only correct when learners select three of the answer options, you might include the description, \"Be sure to select all that apply.\" The toolbar does not have an option that provides this formatting, so you add it after the question within the angle brackets, and then you separate the question and the description by inserting a pair of pipe symbols (``||``) between them. For example, ``>>Which of the following choices is correct? ||Be sure to select all that apply.<<``."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:199
+msgid "Adding Text, Symbols, and Mathematics"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:201
+msgid "You can also add text, without formatting, to a problem. Note that screen readers read all of the text that you supply for the problem, and then repeat the text that is identified as the question or prompt immediately before reading the answer choices for the problem. For problems that require descriptions or other text, you might consider adding a Text component for the text immediately before the problem component."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:208
+msgid "When you enter unformatted text, note that the simple editor cannot interpret certain symbol characters correctly. These symbols are reserved HTML characters: greater than (>), less than (<), and ampersand (&). If you enter text that includes these characters, the simple editor cannot save your edits. To resolve this problem, replace these characters in your problem text with the HTML entities that represent them."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:215
+msgid "To enter >, type ``&gt;``."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:216
+msgid "To enter <, type ``&lt;``."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:217
+msgid "To enter &, type ``&amp;``."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:219
+msgid "To add mathematics, you can use LaTeX, MathML, or AsciiMath notation. Studio uses MathJax to render equations. For more information, see :ref:`MathJax in Studio`."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:227
+msgid "The Advanced Editor"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:229
+msgid "When you edit one of the :ref:`advanced problem types<Adding a Problem>`, the advanced editor opens with an example problem. The advanced editor is an XML editor that shows the OLX markup for a problem. You edit the following advanced problem types in the advanced editor."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:234
+msgid ":ref:`Circuit Schematic Builder`"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:236
+msgid ":ref:`Custom JavaScript Display and Grading<Custom JavaScript>`"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:238
+msgid ":ref:`Custom Python-Evaluated Input<Write Your Own Grader>`"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:240
+msgid ":ref:`Drag and Drop<drag_and_drop_problem>` (Deprecated)"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:242
+msgid ":ref:`Image Mapped Input`"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:244
+msgid ":ref:`Math Expression Input`"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:246
+msgid ":ref:`Problem Written in LaTeX`"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:248
+msgid ":ref:`Problem with Adaptive Hint` and Problem with Adaptive Hint in LaTex"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:250
+msgid ":ref:`Molecular Structure<Molecule Editor>`"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:252
+msgid "For the :ref:`Open Response Assessment<Open Response Assessments Two>` advanced problem type, a dialog box opens for problem setup."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:255
+msgid "Blank advanced problems do not provide an example problem, but they also open in the advanced editor by default."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:258
+msgid "The following image shows the OLX markup in the advanced editor for the same example multiple choice problem that is shown in the simple editor above."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:None
+msgid "An example multiple choice problem in the advanced editor."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:265
+msgid "For more information about the OLX markup to use for a problem, see the topic that describes that problem type."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:272
+msgid "Defining Settings for Problem Components"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:274
+msgid "In addition to the text of the problem and its Markdown formatting or OLX markup, you define the following settings for problem components. To access these settings, you edit the problem and then select **Settings**."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:282
+msgid "If you do not edit these settings, default values are supplied for your problems."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:286
+msgid "If you want to temporarily or permanently hide problem results from learners, you use the subsection-level **Results Visibility** setting. You cannot change the visibility of individual problems. For more information, see :ref:`Problem Results Visibility`."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:293
+msgid "Display Name"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:295
+msgid "This required setting provides an identifying name for the problem. The display name appears as a heading above the problem in the LMS, and it identifies the problem for you in Insights. Be sure to add unique, descriptive display names so that you, and your learners, can identify specific problems quickly and accurately."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:301
+msgid "The following illustration shows the display name of a problem in Studio, in the LMS, and in Insights."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:None
+msgid "The identifying display name for a problem in Studio, the LMS, and\n"
+"Insights."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:309
+msgid "For more information about metrics for your course's problem components, see `Using edX Insights`_."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:314
+msgid "Maximum Attempts"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:316
+msgid "This setting specifies the number of times that a learner is allowed to try to answer this problem correctly. You can define a different **Maximum Attempts** value for each problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:320
+msgid "A course-wide **Maximum Attempts** setting defines the default value for this problem-specific setting. Initially, the value for the course-wide setting is null, meaning that learners can try to answer problems an unlimited number of times. You can change the course-wide default by selecting **Settings** and then **Advanced Settings**. Note that if you change the course-wide default from null to a specific number, you can no longer change the problem-specific **Maximum Attempts** value to unlimited."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:328
+msgid "Only problems that have a **Maximum Attempts** setting of 1 or higher are included in the answer distribution computations used in edX Insights and the Student Answer Distribution report."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:333
+msgid "EdX recommends setting **Maximum Attempts** to unlimited or a large number when possible. Problems that allow unlimited attempts encourage risk taking and experimentation, both of which lead to improved learning outcomes. However, allowing for unlimited attempts might not be feasible in some courses, such as those that use primarily multiple choice or dropdown problems in graded subsections."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:344
+msgid "Problem Weight"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:347
+msgid "The LMS scores all problems. However, only scores for problem components that are in graded subsections count toward a learner's final grade."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:351
+msgid "This setting specifies the total number of points possible for the problem. In the LMS, the problem weight appears near the problem's display name."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:None
+msgid "An example problem that contains three questions, with the possible\n"
+"number of points, 3, shown near the display name."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:359
+msgid "By default, each response field, or answer space, in a problem component is worth one point. You increase or decrease the number of points for a problem component by setting its **Problem Weight**."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:363
+msgid "In the example shown above, a single problem component includes three separate questions. To respond to these questions, learners select answer options from three separate dropdown lists, the response fields for this problem. By default, learners receive one point for each question that they answer correctly."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:369
+msgid "For information about how to define a problem that includes more than one question, see :ref:`Multiple Problems in One Component`."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:373
+msgid "Computing Scores"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:375
+msgid "The score that a learner earns for a problem is the result of the following formula."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:378
+msgid "**Score = Weight × (Correct answers / Response fields)**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:380
+msgid "**Score** is the point score that the learner receives."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:382
+msgid "**Weight** is the problem's maximum possible point score."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:384
+msgid "**Correct answers** is the number of response fields that contain correct answers."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:387
+msgid "**Response fields** is the total number of response fields in the problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:389
+msgid "**Examples**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:391
+msgid "The following are some examples of computing scores."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:393
+msgid "*Example 1*"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:395
+msgid "A problem's **Problem Weight** setting is left blank. The problem has two response fields. Because the problem has two response fields, the maximum score is 2.0 points."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:399
+msgid "If one response field contains a correct answer and the other response field contains an incorrect answer, the learner's score is 1.0 out of 2 points."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:403
+msgid "*Example 2*"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:405
+msgid "A problem's weight is set to 12. The problem has three response fields."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:407
+msgid "If a learner's response includes two correct answers and one incorrect answer, the learner's score is 8.0 out of 12 points."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:410
+msgid "*Example 3*"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:412
+msgid "A problem's weight is set to 2. The problem has four response fields."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:414
+msgid "If a learner's response contains one correct answer and three incorrect answers, the learner's score is 0.5 out of 2 points."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:421
+msgid "Randomization"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:424
+msgid "This **Randomization** setting serves a different purpose from \"problem randomization\". This **Randomization** setting affects how numeric values are randomized within a single problem and requires the inclusion of a Python script. Problem randomization presents different problems or problem versions to different learners. For more information, see :ref:`Problem Randomization`."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:431
+msgid "For problems that include a Python script to generate numbers randomly, this setting specifies how frequently the values in the problem change: each time a different learner accesses the problem, each time a single learner tries to answer the problem, both, or never."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:437
+msgid "This setting should only be set to an option other than **Never** for problems that are configured to do random number generation."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:440
+msgid "For example, in this problem, the highlighted values change each time a learner submits an answer to the problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:None
+msgid "An image of the same problem shown twice, with color highlighting on\n"
+"values that change."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:448
+msgid "If you want to randomize numeric values in a problem, you complete both of these steps."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:451
+msgid "Make sure that you edit your problem to include a Python script that randomly generates numbers."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:454
+msgid "Select an option other than **Never** for the **Randomization** setting."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:456
+msgid "The edX Platform has a 20-seed maximum for randomization. This means that learners see up to 20 different problem variants for every problem that has **Randomization** set to an option other than **Never**. It also means that every answer for the 20 different variants is reported by the Answer Distribution report and edX Insights. Limiting the number of variants to a maximum of 20 allows for better analysis of learner submissions by allowing you to detect common incorrect answers and usage patterns for such answers."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:464
+msgid "For more information, see :ref:`Student_Answer_Distribution` in this guide, or `Review Answers to Graded Problems`_ or `Review Answers to Ungraded Problems`_ in *Using edX Insights*."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:469
+msgid "Whenever you choose an option other than **Never** for a problem, the computations for the Answer Distribution report and edX Insights include up to 20 variants for the problem, **even if the problem was not actually configured to include randomly generated values**. This can make data collected for problems that cannot include randomly generated values, (including, but not limited to, all multiple choice, checkboxes, dropdown, and text input problems), extremely difficult to interpret."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:477
+msgid "You can choose the following options for the **Randomization** setting."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:483
+msgid "Option"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:484
+msgid "Description"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:485
+#: ../../../shared/course_components/create_problem.rst:528
+msgid "**Always**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:486
+msgid "Learners see a different version of the problem each time they select **Submit**."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:488
+msgid "**On Reset**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:489
+msgid "Learners see a different version of the problem each time they select **Reset**."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:491
+#: ../../../shared/course_components/create_problem.rst:565
+msgid "**Never**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:492
+msgid "All learners see the same version of the problem. For most courses, this option is supplied by default. Select this option for every problem in your course that does not include a Python script to generate random numbers."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:496
+msgid "**Per Student**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:497
+msgid "Individual learners see the same version of the problem each time they look at it, but that version is different from the version that other learners see."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:505
+msgid "Show Answer"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:507
+msgid "This setting adds a **Show Answer** option to the problem. The following options define when the answer is shown to learners."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:513
+msgid "**After All Attempts**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:514
+msgid "Learners will be able to **Show Answer** after they have used all of their attempts. Requires max attempts to be set on the problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:517
+msgid "**After All Attempts or Correct**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:518
+msgid "Learners will be able to **Show Answer** after they have used all of their attempts or have correctly answered the question. If max attempts are not set, the learner will need to answer correctly before they can **Show Answer**."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:523
+msgid "**After Some Number of Attempts**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:524
+msgid "Learners will be able to **Show Answer** after they have attempted the problem a minimum number of times (this value is set by the course team in Studio)."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:529
+msgid "Always present the **Show Answer** option."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:531
+msgid "Note: If you specify **Always**, learners can submit a response even after they select **Show Answer** to see the correct answer."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:534
+msgid "**Answered**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:535
+msgid "Learners will be able to **Show Answer** after they have correctly answered the problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:538
+msgid "**Attempted**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:539
+msgid "Learners will be able to **Show Answer** after they have made at least 1 attempt on the problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:542
+msgid "If the problem can be, and is, reset, the answer continues to show. (When a learner answers a problem, the problem is considered to be both attempted and answered. When the problem is reset, the problem is still considered to have been attempted, but is not considered to be answered.)"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:548
+msgid "**Attempted or Past Due**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:549
+msgid "Learners will be able to **Show Answer** after they have made at least 1 attempt on the problem or the problem’s due date is in the past."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:552
+msgid "**Closed**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:553
+msgid "Learners will be able to **Show Answer** after they have used all attempts on the problem or the due date for the problem is in the past."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:556
+msgid "**Correct or Past Due**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:557
+msgid "Learners will be able to **Show Answer** after they have correctly answered the problem or the due date for the problem is in the past."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:560
+msgid "**Finished**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:561
+msgid "Learners will be able to **Show Answer** after they have used all attempts on the problem or the due date for the problem is in the past or they have correctly answered the problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:566
+msgid "Learners and Staff will never be able to **Show Answer**."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:568
+msgid "**Past Due**"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:569
+msgid "Learners will be able to **Show Answer** after the due date for the problem is in the past."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:577
+msgid "Show Answer: Number of Attempts"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:579
+msgid "This setting limits when learners can select the **Show Answer** option for a problem. Learners must submit at least the specified number of attempted answers for the problem before the **Show Answer** option is available to them."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:587
+msgid "Show Reset Button"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:589
+msgid "This setting defines whether a **Reset** option is available for the problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:591
+msgid "Learners can select **Reset** to clear any input that has not yet been submitted, and try again to answer the problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:594
+msgid "If the learner has already submitted an answer, selecting **Reset** clears the submission and, if the problem contains randomized variables and randomization is set to **On Reset**, changes the values in the problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:598
+msgid "If the number of Maximum Attempts that was set for this problem has been reached, the **Reset** option is not visible."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:601
+msgid "This problem-level setting overrides the course-level **Show Reset Button for Problems** advanced setting."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:608
+msgid "Timer Between Attempts"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:610
+msgid "This setting specifies the number of seconds that a learner must wait between submissions for a problem that allows multiple attempts. If the value is 0, the learner can attempt the problem again immediately after an incorrect attempt."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:614
+msgid "Adding required wait time between attempts can help to prevent learners from simply guessing when multiple attempts are allowed."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:617
+msgid "If a learner attempts a problem again before the required time has elapsed, she sees a message below the problem indicating the remaining wait time. The format of the message is, \"You must wait at least {n} seconds between submissions. {n} seconds remaining.\""
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:626
+msgid "Including Multiple Questions in One Component"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:628
+msgid "In some cases, you might want to design an assessment that combines multiple questions in a single problem component. For example, you might want learners to demonstrate mastery of a concept by providing the correct responses to several questions, and only giving them credit for problem if all of the answers are correct."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:634
+msgid "Another example involves learners who have slow or intermittent internet connections. When every problem appears on a separately loaded web page, these learners can find the amount of time it takes to complete an assignment or exam discouraging. For these learners, grouping several questions together can promote increased engagement with course assignments."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:640
+msgid "When you add multiple questions to a single problem component, the settings that you define, including the display name and whether to show the **Reset** button, apply to all of the questions in that component. The answers to all of the questions are submitted when learners select **Submit**, and the correct answers for all of the questions appear when learners select **Show Answer**. By default, learners receive one point for each question they answer correctly. For more information about changing the default problem weight and other settings, see :ref:`Problem Settings`."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:650
+msgid "To assure that the data collected for learner interactions with your problem components is complete and accurate, include a maximum of 10 questions in a single problem component."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:656
+msgid "Adding Multiple Questions to a Problem Component"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:658
+msgid "To design an assignment that includes several questions, you add one problem component and then edit it to add every question and its answer options, one after the other, in that component. Be sure to identify the text of every question or prompt with the appropriate Markdown formatting (``>> <<``) or OLX ``<label>`` element, and include all of the other required elements for each question."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:665
+msgid "In the simple editor, you use three hyphen characters (``---``) on a new line to separate one question and its answer options from the next."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:668
+msgid "In the advanced editor, each question and its answer options are enclosed by the element that identifies the type of problem, such as ``<multiplechoiceresponse>`` for a multiple choice question or ``<formularesponse>`` for a math expression input question."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:673
+msgid "You can provide a different explanation for each question with the appropriate Markdown formatting (``[explanation]``) or OLX ``<solution>`` element."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:677
+msgid "As a best practice, edX recommends that you avoid including unformatted paragraph text between the questions. Screen readers can skip over text that is inserted among multiple questions."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:681
+msgid "The questions that you include can all be of the same problem type, such as a series of text input questions, or you can include questions that use different problem types, such as both numerical input and math expression input."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:686
+msgid "You cannot use a :ref:`Custom JavaScript` in a problem component that contains more than one question. Each custom JavaScript problem must be in its own component."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:690
+msgid "An example of a problem component that includes a text input question and a numerical input question follows. In the simple editor, the problem has the following Markdown formatting."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:708
+msgid "That is, you include three hyphen characters (``---``) on a new line to separate the problems."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:711
+msgid "In the advanced editor, the problem has the following OLX markup."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:5
+msgid "Adding Feedback and Hints to a Problem"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:7
+msgid "You can add feedback, hints, or both to the following core problem types."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:9
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:108
+msgid ":ref:`Checkbox`"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:10
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:109
+msgid ":ref:`Dropdown`"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:11
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:110
+msgid ":ref:`Multiple Choice`"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:12
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:111
+msgid ":ref:`Numerical Input`"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:13
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:112
+msgid ":ref:`Text Input`"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:15
+msgid "By using hints and feedback, you can provide learners with guidance and help as they work on problems."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:20
+msgid "Feedback in Response to Attempted Answers"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:22
+msgid "You can add feedback that displays to learners after they submit an answer."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:24
+msgid "For example, the following multiple choice problem provides feedback in response to the selected option when the learner selects **Submit**. In this case, feedback is given for an incorrect answer."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:None
+msgid "Image of a multiple choice problem with feedback."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:34
+msgid "Best Practices for Providing Feedback"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:36
+msgid "The immediacy of the feedback available to learners is a key advantage of online instruction and difficult to do in a traditional classroom environment."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:39
+msgid "You can target feedback for common incorrect answers to the misconceptions that are common for the level of the learner (for example, elementary, middle, high school, college)."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:43
+msgid "In addition, you can create feedback that provides some guidance to the learner about how to arrive at the correct answer. This is especially important in text input and numeric input problems, because without such guidance, learners might not be able to proceed."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:48
+msgid "You should also include feedback for the correct answer to reinforce why the answer is correct. Especially in questions where learners are able to guess, such as multiple choice and dropdown problems, the feedback should provide a reason why the selection is correct."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:55
+msgid "Providing Hints for Problems"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:57
+msgid "You can add one or more hints that are displayed to learners. When you add hints, the **Hint** button is automatically displayed to learners. Learners can access the hints by selecting **Hint** beneath the problem.  A learner can view multiple hints by selecting **Hint** multiple times."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:62
+msgid "For example, in the following multiple choice problem, the learner selects **Hint** after having made one incorrect attempt."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:None
+msgid "Image of a multiple choice problem with the first hint."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:69
+msgid "The hint text indicates that it is the first of two hints. After the learner selects **Next Hint**, both of the available hints appear. When all hints have been used, the **Hint** or **Next Hint** option is no longer available."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:None
+msgid "Image of a multiple choice problem with the second hint."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:79
+msgid "Best Practices for Providing Hints"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:81
+msgid "To ensure that your hints can assist learners with varying backgrounds and levels of understanding, you should provide multiple hints with different levels of detail."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:85
+msgid "For example, the first hint can orient the learner to the problem and help those struggling to better understand what is being asked."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:88
+msgid "The second hint can then take the learner further towards the answer."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:90
+msgid "In problems that are not graded, the third and final hint can explain the solution for learners who are still confused."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:95
+msgid "Create Problems with Feedback and Hints"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:97
+msgid "You create problems with feedback and hints in Studio. Templates with feedback and hints configured are available to make creating your own problems easier."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:100
+msgid "While editing a unit, in the **Add New Component** panel, select **Problem**. In the list that opens, select  **Common Problem Types**. Templates for problems with feedback and hints are listed."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_hints.rst:104
+msgid "Add the problem type you need to the unit, then edit the component.  The exact syntax you use to configure hints and feedback depends on the problem type. See the topic for the problem type for more information."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:5
+msgid "Awarding Partial Credit for a Problem"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:7
+msgid "You can configure the following problem types so that learners can receive partial credit for a problem if they submit an answer that is partly correct."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:10
+msgid ":ref:`Checkbox <Awarding Partial Credit in a Checkbox Problem>`"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:11
+msgid ":ref:`Multiple Choice <Awarding Partial Credit in a Multiple Choice Problem>`"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:12
+msgid ":ref:`Numerical Input <Awarding Partial Credit in a Numerical Input Problem>`"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:13
+msgid ":ref:`Write-Your-Own Grader <Award Half Credit>`"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:15
+msgid "By awarding partial credit for problems, you can motivate learners who have mastered some of the course content and provide a score that accurately demonstrates their progress."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:19
+msgid "For more information about configuring partial credit, see the topic for each problem type."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:25
+msgid "Support for the partial credit feature is provisional for courses on edx.org and edX Edge. Ensure that you test such problems thoroughly before you publish them to learners. For more information, contact your edX partner manager."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:32
+msgid "How Learners Receive Partial Credit"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:34
+msgid "Learners receive partial credit when they submit an answer in the LMS."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:36
+msgid "In the following example, the course team configured a multiple choice problem to award 25% of the possible points (instead of 0 points) for one of the incorrect answer options. The learner selected this incorrect option, and received 25% of the possible points."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:None
+msgid "A multiple choice problem with partial credit for an incorrect\n"
+"answer."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:49
+msgid "Partial Credit and Reporting on Learner Performance"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:51
+msgid "When a learner receives partial credit for a problem, the LMS only adds the points that the learner earned to the grade. However, the LMS reports any problem for which a learner receives credit, in full or in part, as correct in the following ways."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:56
+msgid "Events that the system generates when learners receive partial credit for a problem indicate that the answer was correct. Specifically, the ``correctness`` field has a value of ``correct``."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:60
+msgid "For more information about events, see :ref:`data:problem` in the *EdX Research Guide*."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:62
+msgid "The **AnswerValue** in the :ref:`Student_Answer_Distribution` report is **1**, for correct."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:65
+msgid "The edX Insights :ref:`insights:student performance reports<Performance Index>` count the answer as correct."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_partial_credit.rst:68
+msgid "Course teams can see that a learner received partial credit for a problem in the learner's submission history. The submission history shows the score that the learner received out of the total available score, and the value in the ``correctness`` field is ``partially-correct``.  For more information, see :ref:`Student_Answer_Submission`."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_tooltip.rst:5
+msgid "Adding Tooltips to a Problem"
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_tooltip.rst:7
+msgid "To help learners understand terminology or other aspects of a problem, you can add inline tooltips. Tooltips show text to learners when they move their cursors over a tooltip icon."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_tooltip.rst:11
+msgid "The following example problem includes two tooltips. The tooltip that provides a definition for \"ROI\" is being shown."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_tooltip.rst:None
+msgid "An example of a tooltip from a learner's point of view."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_tooltip.rst:19
+msgid "For learners using a screen reader, the tooltip expands to make its associated text accessible when the screen reader focuses on the tooltip icon."
+msgstr ""
+
+#: ../../../shared/exercises_tools/Section_adding_tooltip.rst:23
+msgid "To add the tooltip, you wrap the text that you want to appear as the tooltip in the ``clarification`` element.  For example, the following problem contains two tooltips."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:753
+msgid "Problem Randomization"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:755
+msgid "Presenting different learners with different problems or with different versions of the same problem is referred to as \"problem randomization\"."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:758
+msgid "You can provide different learners with different problems by using randomized content blocks, which randomly draw problems from pools of problems stored in content libraries. For more information, see :ref:`Randomized Content Blocks`."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:763
+msgid "Problem randomization is different from the **Randomization** setting that you define in Studio. Problem randomization presents different problems or problem versions to different learners, while the **Randomization** setting controls when a Python script randomizes the variables within a single problem. For more information about the **Randomization** setting, see :ref:`Randomization`."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:772
+msgid "Creating randomized problems by exporting your course and editing some of your course's XML files is no longer supported."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:779
+msgid "Modifying a Released Problem"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:782
+msgid "Be careful when you modify problems after they have been released. Changes that you make to published problems can affect the learner experience in the course and analysis of course data."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:786
+msgid "After a learner submits a response to a problem, the LMS stores that response, the score that the learner received, and the maximum score for the problem. For problems with a **Maximum Attempts** setting greater than 1, the LMS updates these values each time the learner submits a new response to a problem. However, if you change a problem or its attributes, existing learner information for that problem is not automatically updated."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:793
+msgid "For example, you release a problem and specify that its answer is 3. After some learner have submitted responses, you notice that the answer should be 2 instead of 3. When you update the problem with the correct answer, the LMS does not update scores for learners who originally answered 2 for the problem and received the wrong score."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:799
+msgid "For another example, you change the number of response fields to three. Learners who submitted answers before the change have a score of 0, 1, or 2 out of 2.0 for that problem. Learners who submitted answers after the change have scores of 0, 1, 2, or 3 out of 3.0 for the same problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:805
+msgid "If you change the weight setting for the problem in Studio, however, existing scores update when the learner's **Progress** page is refreshed. In a live section, learners will see the effect of these changes."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:811
+msgid "Workarounds"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:813
+msgid "If you have to modify a released problem in a way that affects grading, you have two options to ensure that every learner has the opportunity to submit a new response and be regraded. Note that both options require you to ask your learners to go back and resubmit answers to a problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:818
+msgid "In the problem component that you changed, increase the number of attempts for the problem, and then ask all of your learners to redo the problem."
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:821
+msgid "Delete the entire problem component in Studio and replace it with a new problem component that has the content and settings that you want. Then ask all of your learners to complete the new problem. (If the revisions you must make are minor, you might want to duplicate the problem component before you delete it, and then revise the copy.)"
+msgstr ""
+
+#: ../../../shared/course_components/create_problem.rst:827
+msgid "For information about how to review and adjust learner grades in the LMS, see :ref:`Adjust_grades`."
+msgstr ""
+
+#: ../../../shared/course_components/create_video.rst:5
+msgid "Working with Video Components"
+msgstr ""
+
+#: ../../../shared/course_components/create_video.rst:7
+msgid "You use video components to add videos to your course in Studio. In video components, you add the name and location of your video, as well as the video transcript. Learners view your videos in the LMS."
+msgstr ""
+
+#: ../../../shared/course_components/create_video.rst:13
+msgid "For information about the way learners interact with videos, see :ref:`learners:Video Player`."
+msgstr ""
+
+#: ../../../shared/course_components/create_video.rst:18
+msgid "For information about the way learners interact with videos, see :ref:`openlearners:Video Player`."
+msgstr ""
+
+#: ../../../shared/course_components/create_video.rst:21
+msgid "For more information about adding videos to your course, see :ref:`Creating and Adding Video Content`."
+msgstr ""
+
+#: ../../../shared/course_components/create_video.rst:24
+msgid "For more information about options in the video component, see :ref:`Additional Video Options`."
+msgstr ""
+
+#: ../../source/course_components/index.rst:5
+msgid "Adding Course Components"
+msgstr ""
+
+#: ../../source/course_components/index.rst:7
+msgid "Use the topics in this section to understand how to create course content of different types."
+msgstr ""
+
+#: ../../source/course_components/index.rst:10
+msgid "For information on creating exercises and tools, see :ref:`Exercises and Tools Index`."
+msgstr ""
+
+#: ../../source/course_components/index.rst:13
+msgid "For information on how to develop your course content in the Studio Outline page, see :ref:`Developing Your Course Index`."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:5
+msgid "Working with Content Libraries"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:7
+msgid "This section describes how to work with content libraries in Studio."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:17
+msgid "Content Libraries Overview"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:19
+msgid "In Studio, you can create a library to build a pool of components for use in randomized assignments in your courses. You can add Text components, problems, and video components to a library. Open response assessment and discussion components are not supported in libraries."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:24
+msgid "Content libraries are available only for courses that have course identifiers in this format: ``{key type}:{org}+{course}+{run}``. For example, ``course-v1:edX+DemoX+Demo_2015``. Your course identifier appears in the browser address bar as the final part of the URL when you open your course in Studio. For more details, see :ref:`Create a New Course`."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:30
+msgid "After creating a library and adding components to it, if you have :ref:`enabled content libraries<Enable Content Libraries>` in your course, you can use these library components in randomized assignments in your course. You do this by adding a randomized content block to a course unit and specifying the name of the library from which the randomized content is to drawn. You also specify the number and type of problems that each learner is assigned. For information about randomized content blocks, see :ref:`Randomized Content Blocks`."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:37
+msgid "Libraries have separate users and levels of access from courses. Initially, only the person who created the library has access. She can add other users to the library. For details, see :ref:`Give Other Users Access to Your Library`. The libraries that you create or have access to are listed on the **Libraries** tab on the Studio Home page."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:47
+msgid "Create a New Library"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:49
+msgid "Use :ref:`content libraries<Content Libraries>` to build a pool of components that can be used in randomized assignments in your courses."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:52
+msgid "To create a new library, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:54
+#: ../../../shared/course_components/libraries.rst:108
+#: ../../../shared/course_components/libraries.rst:136
+#: ../../../shared/course_components/libraries.rst:168
+msgid "Log in to Studio."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:56
+msgid "Select **New Library**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:58
+msgid "Enter the required information for your new library, then select **Create**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:60
+msgid "Enter new library information carefully. The values in these fields become part of the URL for your library, therefore the total number of characters in the **Library Name**, **Organization**, and **Library Code** fields must be 65 or fewer."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:0
+msgid "Image of the library creation page."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:69
+msgid "For **Library Name**, enter the public display name for your library. Choose a meaningful name that will help you and other course team members to identify the library. For example, \"Level 200 Math Problems\". When you add a randomized content block to a course unit, you use the library name to specify this library as a source for the randomized assignment."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:75
+msgid "For **Organization**, enter the identifier for your university. For example, enter HarvardX or MITx. Do not include spaces or special characters."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:79
+msgid "For **Library Code**, enter an identifier for your library that is unique within your organization. This code becomes part of the URL for your library, so do not include spaces or special characters in the code."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:83
+msgid "Select **Create**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:85
+msgid "You see the new library, to which you can now add components. For information about adding components to a library, see :ref:`Add Components to a Library`."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:88
+msgid "After you create a library, you are automatically assigned an **Admin** role for the library. For information about adding other users to a library after you create it, see :ref:`Give Other Users Access to Your Library`."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:97
+msgid "Edit a Library"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:99
+msgid "After you create a library, the only change you can make to the initial library information is to the name. However, at any time, you can make changes to the components in your library, including adding or deleting components or editing the settings of components. For details about editing the contents of a library, see :ref:`Edit Components in a Library` and :ref:`Add Components to a Library`."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:106
+msgid "To change the name of a library, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:110
+msgid "Select **Libraries**, then select the library whose name you want to edit."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:112
+msgid "Select the **Edit** icon next to the library name."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:114
+msgid "The library name field becomes editable."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:0
+msgid "The Edit icon to the right of the Library Name."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:120
+msgid "In the library name field, make edits or enter a new library name."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:122
+msgid "Select anywhere outside the library name field to save your changes."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:124
+msgid "For details about giving other users access to the library, see :ref:`Give Other Users Access to Your Library`."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:131
+msgid "Add Components to a Library"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:133
+msgid "To add new :ref:`components<Developing Course Components>` to your library, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:138
+msgid "Select **Libraries**, then select the library that you want to add components to."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:141
+msgid "Select **Add Component**, then select the component type that you want to add under **Add New Component**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:144
+msgid "For more information about the types of components you can add to a library, see these topics."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:147
+msgid ":ref:`Working with Text Components`"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:148
+msgid ":ref:`Working with Problem Components`"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:149
+msgid ":ref:`Working with Video Components`"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:151
+msgid "After you add a component to a library, you can edit its settings. These settings are retained when the component is selected from the library and used in a course."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:155
+msgid "When a component from the library is used in a randomized content block, you can further edit the component as it exists in the unit, without affecting the original version in the library. For details, refer to :ref:`Edit Components in a Library` and :ref:`Get the Latest Version of Library Content`."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:164
+msgid "View the Contents of a Library"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:166
+msgid "To view the entire contents of a library in Studio, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:170
+msgid "Select **Libraries**, then select the library whose components you want to view."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:173
+msgid "Optionally, select **Hide Previews** at the top right of the library page to collapse the component previews and see only the list of component display names. To return to the full preview of components in the library, select **Show Previews**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:178
+msgid "The components in the library are shown in the order in which they were added, with the most recently added at the bottom. If your library has more than 10 components, additional components are shown on other pages."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:182
+msgid "The range of the components shown on the current page, and the total number of components, are shown at the top of the page."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:185
+msgid "You can navigate through the pages in the following ways."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:187
+msgid "Use the **<** and **>** buttons at the top and bottom of the list to navigate to the previous and next pages."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:190
+msgid "At the bottom of the page, you can edit the first number in the page range. Select the number to place your cursor in the field, then enter the page number you want to jump to."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:0
+msgid "Image showing a pair of page numbers with the first number circled."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:198
+msgid "To view the list of matching components in the library, see :ref:`View the Matching Components in a Randomized Content Block`."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:201
+msgid "To view the randomized content that was assigned to a specific learner, see :ref:`Specific Student View`."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:209
+msgid "Edit Components in a Library"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:211
+msgid "After you have added components to a library, you can edit, duplicate, or delete them."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:214
+msgid "For step-by-step instructions for editing, duplicating, or deleting components, refer to the following topics."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:217
+msgid ":ref:`Edit a Component`"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:218
+msgid ":ref:`Duplicate a Component`"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:219
+msgid ":ref:`Delete a Component`"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:221
+msgid "If you modify components in your library that are in use in a course, these updates in the \"source\" library are not reflected in the course unless you manually update the randomized content block in the course unit. For details about updating library components used in your course to match the latest version in the library, see :ref:`Get the Latest Version of Library Content`."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:232
+msgid "Delete a Library"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:234
+msgid "You cannot delete a library. Instead, you can discontinue use of an unwanted library. To do so, first make sure that none of its components are in use in any courses, then delete all components in the library. You can also :ref:`edit the name of the library<Edit a Library>` to make it clear to other course team members that the library should not be used as a source of randomized assignment content in courses."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:241
+msgid "For details about deleting components in a library, see :ref:`Edit Components in a Library`."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:248
+msgid "Give Other Users Access to Your Library"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:250
+msgid "When you create a library, you are automatically assigned an Admin role in that library."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:253
+msgid "You can give other Studio users access to your library. Depending on the level of access  that you give them in the library, additional library users can view and use library content in courses, edit library content, or add and manage other library users. All users to whom you give library access must be registered with Studio and have an active account."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:259
+msgid "These are the levels of access for libraries."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:261
+msgid "**User** -- Users can view library content and can use library components in their courses, but they cannot edit the contents of a library."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:264
+msgid "**Staff** -- Staff can use library components in their courses. In addition, as content co-authors, they have full editing privileges in a library."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:267
+msgid "**Admin** -- Admins have full editing privileges for a library. In addition, they can add and remove other team members from library access. There must be at least one user with Admin privileges in a library."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:271
+#: ../../../shared/course_components/libraries.rst:326
+msgid "The levels of access for libraries are hierarchical. You can add new library members only with the **User** level of access, after which you can give them the **Staff** level of access. You can give the **Admin** level of access only to people who already have the **Staff** level of access."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:278
+msgid "Add a User to the Library"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:280
+msgid "To grant a user initial **User** access to a library, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:282
+msgid "Only library users with the **Admin** level of access can add users to the library."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:285
+msgid "Ensure that the new library member has an active Studio account."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:287
+msgid "On the Studio home page, select the **Libraries** tab and locate the library to which you are adding this user."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:290
+#: ../../../shared/course_components/libraries.rst:310
+#: ../../../shared/course_components/libraries.rst:336
+#: ../../../shared/course_components/libraries.rst:364
+msgid "From the **Settings** menu select **User Access**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:292
+msgid "On the **User Access** page, select **Add a New User**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:294
+msgid "Enter the new user's email address, then select **ADD USER**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:296
+msgid "The new user is added to the list of library members with the **User** level of access."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:301
+msgid "Remove a User from the Library"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:303
+msgid "You can remove users from the library at any time, regardless of the level of access that they have."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:306
+msgid "To remove a user from the library, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:308
+#: ../../../shared/course_components/libraries.rst:334
+#: ../../../shared/course_components/libraries.rst:362
+msgid "In Studio, select the **Libraries** tab and locate your library."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:312
+msgid "On the **User Access** page, locate the user that you want to remove."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:314
+msgid "Hover over the user's box and select the trash can icon."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:316
+msgid "You are prompted to confirm the deletion."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:318
+msgid "Select **Delete**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:320
+msgid "The user is removed from the library."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:324
+msgid "Add Staff or Admin Access"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:331
+msgid "To give a library member a higher level of access to the library, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:338
+msgid "On the **User Access** page, locate the user to whom you are giving additional privileges."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:341
+msgid "If he currently has **User** access, select **Add Staff Access**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:342
+msgid "If he currently has **Staff** access, select **Add Admin Access**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:344
+msgid "The user's display listing is updated to indicate the new level of access. In addition, their listing now includes a button to remove their current level of access and move them back to their previous level of access. For details about reducing a user's level of access to a library, see :ref:`Remove Staff or Admin Access`."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:354
+msgid "Remove Staff or Admin Access"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:356
+msgid "After you have granted users **Staff** or **Admin** access, you (or other **Admin** library users) can reduce their levels of access."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:359
+msgid "To remove **Staff** or **Admin** access from a library user, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:366
+msgid "On the **User Access** page, locate the user whose access level you are changing."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:369
+msgid "If she currently has **Staff** access, select **Remove Staff Access**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:370
+msgid "If she currently has **Admin** access, select **Remove Admin Access**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:372
+msgid "The user's display listing is updated to indicate the new role."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:374
+msgid "There must always be at least one Admin for a library. If there is only one user with the Admin role, you cannot remove him or her from the Admin role unless you first assign another user to the Admin role."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:382
+msgid "Exporting and Importing a Library"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:384
+msgid "You can :ref:`export<Export a Library>` and :ref:`import<Import a Library>` a content library in Studio."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:387
+#: ../../../shared/course_components/libraries.rst:436
+msgid "When you import a library, the imported library completely replaces the existing library and its contents. You cannot undo a library import. Before you proceed, we recommend that you export the current library, so that you have a backup copy of it."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:397
+msgid "Export a Library"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:399
+msgid "There are several reasons why you might want to export your library."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:401
+msgid "To save your work in progress"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:402
+msgid "To edit the XML in your library directly"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:403
+msgid "To create a backup copy of your library"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:404
+msgid "To share with another course team member"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:406
+msgid "When you export your library, Studio creates a **.tar.gz** file (that is, a .tar file compressed using GNU Zip). This export file contains the problems in the library, including any customizations you made in the library to problem settings. The export does not include library settings such as user access permissions."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:412
+msgid "To export a library, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:414
+#: ../../../shared/course_components/libraries.rst:446
+msgid "In Studio, select the **Libraries** tab."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:416
+msgid "Locate the library that you want to export."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:418
+msgid "From the **Tools** menu, select **Export**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:420
+msgid "Select **Export Library Content** and specify where you want the file to be saved."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:423
+msgid "When the export process finishes, you can access the .tar.gz file on your computer."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:430
+msgid "Import a Library"
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:432
+msgid "You might want to import a library if you developed or updated library content outside of Studio, or if you want to overwrite a problematic or outdated version of the library."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:441
+msgid "The library file that you import must be a .tar.gz file (that is, a .tar file compressed using GNU Zip). This .tar.gz file must contain a library.xml file."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:444
+msgid "To import a library, follow these steps."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:448
+msgid "Locate the library to which you want to import the new library content."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:450
+msgid "From the **Tools** menu, select **Import**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:452
+msgid "Select **Choose a File to Import** and select the .tar.gz file that you want to import."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:455
+msgid "Select **Replace my library with the selected file**."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:457
+msgid "The import process has five stages. During the first two stages (Uploading and Unpacking), do not navigate away from the **Library Import** page. Doing so causes the import process to end. You can leave the page only after the Unpacking stage completes. We recommend that you do not make important changes to the library until all stages of the import process have finished."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:464
+msgid "When the import process finishes, select **View Updated Library** to view the imported library."
+msgstr ""
+
+#: ../../../shared/course_components/libraries.rst:467
+msgid "If your imported library includes changes to components that are in use in a course, the course does not reflect these library updates until you manually update the randomized content block in the course unit. For details about updating library components used in your course to match the latest version in the content library, see :ref:`Get the Latest Version of Library Content`."
+msgstr ""

@@ -1,0 +1,1380 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Open edX Learner's Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open edX Learner's Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 12:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:5
+msgid "Completing Mathematical and Scientific Assignments"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:7
+msgid "This topic describes how to enter mathematical and scientific expressions for problems in your edX course."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:16
+msgid "Overview of Mathematical and Scientific Expressions"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:18
+msgid "You might want to enter a mathematical or scientific expression into an assignment in the body of your course, into the edX calculator tool, or into a course discussion."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:22
+msgid "For assignments in the body of the course and for the calculator tool, you enter plain text, and the edX system then converts your text into numbers and symbols that appear below the response field. For more information, see :ref:`Math Expressions in Assignments`."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:None
+#: ../../source/completing_assignments/SFD_mathformatting.rst:None
+#: ../../source/completing_assignments/SFD_mathformatting.rst:None
+#: ../../source/completing_assignments/SFD_mathformatting.rst:None
+msgid "Image of a numerical input probem rendered by the parser."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:40
+msgid "For course discussions, you use MathJax to format the text that you type, and the system then converts your text into a mathematical expression. For more information, see :ref:`Math Expressions in Discussions`."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:48
+msgid "Completing Mathematical Problems with Screen Readers"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:50
+msgid "EdX has carefully designed assessments that are accessible to screen readers. However, because of a limitation with HTML and screen reader technology, screen readers may not be able to read math problems in edX courses by default."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:54
+msgid "To access these problems with a screen reader, use one of the following methods."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:57
+msgid "If your browser and screen reader both support MathML, specify MathML as your preferred math renderer in MathJax."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:60
+msgid "Switch from your screen reader's Interactive mode to Reading mode."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:63
+msgid "Your screen reader may use different names for Interactive mode and Reading mode."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:66
+msgid "In Interactive mode, learners use the Tab key to move from one interactive element to the next."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:68
+msgid "In Reading mode, learners use the arrow keys to read all of the content in a document, and not just the interactive elements."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:71
+msgid "For more information about how to make sure that your screen reader reads all available content, see the instructions for your screen reader."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:78
+msgid "Entering Math Expressions in Assignments or the Calculator"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:80
+msgid "Both the calculator and the response fields in math problems accept a selection of characters that represent numbers, operators, constants, functions, and other mathematical concepts. You might recognize parts of this system if you have used math programs before."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:86
+msgid "If your course offers the calculator tool, the calculator appears as a small icon on all pages in the body of the course. To open the calculator, select the calculator icon. To close the calculator, select the X that appears when the calculator is open."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:0
+msgid "Course page with an arrow pointing to the calculator."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:95
+msgid "The calculator includes an information page that shows an abbreviated version of the information in this topic. To see the information page, select the circled ``i`` icon next to the input field."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:0
+msgid "Course page with the calculator visible and showing the\n"
+"information page."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:104
+msgid "When you enter your plain text into the calculator or the response field, follow these guidelines."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:107
+msgid "**Arithmetical operations**: Use standard characters for addition (+), subtraction (-), multiplication (*), and division (/)."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:110
+msgid "**Multiplication**: Be sure to indicate multiplication explicitly. That is, instead of ``mc^2`` type ``m*c^2``, and instead of ``5a+4b+3c`` type ``5*a+4*b+3*c``."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:114
+msgid "**Operation order**: Use parentheses (``( )``) to specify the order of operations and to make your expression as clear as possible. Use curved parentheses (``( )``) only. Do not use brackets (``[ ]``) or braces (``{ }``)."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:119
+msgid "**Exponents or superscripts**: Insert a caret (^) before an exponent or superscript. If the exponent or superscript includes multiple characters or is an expression, surround the expression with parentheses. For example, you can enter ``x^n`` or ``x^(n-1)``."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:124
+msgid "**Subscripts**: Insert an underscore (_) before a subscript to indicate a subscript. If the subscript has multiple characters, type the characters without a space. For example, you can enter ``v_IN-v_OUT``. Note, however, that subscripts cannot currently include operators or parentheses."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:129
+msgid "Avoid whitespace."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:131
+msgid "Do not use equal signs (=)."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:133
+msgid "Because the system is case-sensitive, make sure you use uppercase and lowercase letters carefully."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:136
+msgid "For more information about the types of characters you can use, see below."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:142
+msgid "The edX system accepts both constants and metric affixes. Be careful to distinguish between constants and metric affixes. Constants stand alone, while metric affixes must be combined with numbers."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:146
+msgid "For example, ``c`` can be a constant representing the speed of light or a metric affix meaning \"centi\". When you use ``c`` as a metric affix, do not include a space between ``c`` and the number. When you use ``c`` as a constant, indicate multiplication explicitly. The following examples show the difference:"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:152
+msgid "``2c`` = ``0.02`` (2 multiplied by 0.01)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:153
+msgid "``2*c`` = ``599584916.0`` (the speed of light multiplied by 2)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:155
+msgid "``2M`` = ``2,000,000`` (2 multiplied by 1,000,000)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:156
+msgid "``2*M`` = 2 multiplied by the variable M"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:158
+msgid "For more information, see :ref:`Scientific Notation` or :ref:`Constants`."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:162
+msgid "Numbers"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:164
+msgid "You can use the following types of numbers."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:166
+msgid "Integers: 2520"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:167
+msgid "Fractions: 2/3"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:168
+msgid "Normal floats: 3.14"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:169
+msgid "Floats with no integer part: .98"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:171
+msgid "The largest number you can use is **1.7977e+308**, which is the largest float possible in the Python programming language."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:178
+msgid "Scientific Notation and Metric Affixes"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:180
+msgid "You can enter metric affixes or scientific notation to indicate very large or very small numbers. For scientific notation, you can type either a caret (^) or the letter ``e`` followed by a number to indicate an exponent. You can use both positive and negative exponents."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:185
+msgid "For example, to indicate ``0.012``, you can enter either of the following expressions:"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:188
+msgid "``1.2*10^-2``"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:189
+msgid "``1.2e-2``"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:191
+msgid "To indicate ``-440,000``, you can enter either of the following expressions:"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:193
+msgid "``-4.4*10^5``"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:194
+msgid "``-4.4e5``"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:196
+msgid "The following table shows how to enter numbers with metric affixes, with scientific notation, and with ``e`` notation."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:202
+msgid "To enter this number"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:203
+msgid "Use this metric affix"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:204
+msgid "Use this scientific notation"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:205
+msgid "Use this ``e`` notation"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:206
+msgid "Other notation"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:207
+msgid "0.1"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:208
+msgid "1d (deci)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:209
+msgid "10^-1"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:210
+msgid "1e-1"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:212
+msgid "0.01"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:213
+msgid "1c (centi)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:214
+msgid "10^-2"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:215
+msgid "1e-2"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:216
+msgid "1% (percent)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:217
+msgid "0.001"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:218
+msgid "1m (milli)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:219
+msgid "10^-3"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:220
+msgid "1e-3"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:222
+msgid "0.000001"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:223
+msgid "1u (micro)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:224
+msgid "10^-6"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:225
+msgid "1e-6"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:227
+msgid "0.000000001"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:228
+msgid "1n (nano)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:229
+msgid "10^-9"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:230
+msgid "1e-9"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:232
+msgid "0.000000000001"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:233
+msgid "1p (pico)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:234
+msgid "10^-12"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:235
+msgid "1e-12"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:237
+msgid "1000"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:238
+msgid "1k (kilo)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:239
+msgid "10^3"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:240
+msgid "1e3"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:242
+msgid "1,000,000"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:243
+msgid "1M (mega)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:244
+msgid "10^6"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:245
+msgid "1e6"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:247
+msgid "1,000,000,000"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:248
+msgid "1G (giga)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:249
+msgid "10^9"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:250
+msgid "1e9"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:252
+msgid "1,000,000,000,000"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:253
+msgid "1T (tera)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:254
+msgid "10^12"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:255
+msgid "1e12"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:258
+msgid "When you use metric affixes or ``e`` notation, make sure you do not include spaces between the number and the metric affix or the ``e``."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:265
+msgid "Constants"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:267
+msgid "You can use several different constants in your mathematical expressions."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:269
+msgid "When you enter constants multiplied by a number, make sure to indicate the multiplication explicitly. For example, enter ``2*c`` instead of ``2c`` and ``-4*i`` instead of ``-4i``."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:279
+msgid "Constant"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:280
+msgid "Value"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:281
+msgid "``c``"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:282
+msgid "The speed of light in m/s (2.998^8)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:283
+msgid "``e``"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:284
+msgid "Euler's number (2.718...)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:285
+msgid "``g``"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:286
+msgid "Gravity (9.80 m/s^2)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:287
+msgid "``i``"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:288
+#: ../../source/completing_assignments/SFD_mathformatting.rst:290
+msgid "The square root of -1"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:289
+msgid "``j``"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:291
+msgid "``k``"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:292
+msgid "The Boltzmann constant (~1.38^-23 in Joules/Kelvin)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:293
+msgid "``pi``"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:294
+msgid "The ratio of a circle's circumference to its diameter (3.14159...)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:295
+msgid "``q``"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:296
+msgid "The fundamental charge (~1.602^-19 Coloumbs)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:297
+msgid "``T``"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:298
+msgid "The positive difference between 0K and 0°C (273.15)"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:302
+msgid "Greek Letters"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:304
+msgid "To use any of the following Greek letters, type the name of the letter in the calculator or the response field."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:311
+msgid "Name"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:312
+msgid "Letter"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:313
+msgid "alpha"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:314
+msgid "α"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:315
+msgid "beta"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:316
+msgid "β"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:317
+msgid "gamma"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:318
+msgid "γ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:319
+msgid "delta"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:320
+msgid "δ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:321
+msgid "epsilon"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:322
+msgid "ϵ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:323
+msgid "varepsilon"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:324
+msgid "ε"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:325
+msgid "zeta"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:326
+msgid "ζ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:327
+msgid "eta"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:328
+msgid "η"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:329
+msgid "theta"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:330
+msgid "θ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:331
+msgid "vartheta"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:332
+msgid "ϑ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:333
+msgid "iota"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:334
+msgid "ι"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:335
+msgid "kappa"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:336
+msgid "ϰ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:337
+msgid "lambda"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:338
+msgid "λ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:339
+msgid "mu"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:340
+msgid "μ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:341
+msgid "nu"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:342
+msgid "ν"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:343
+msgid "xi"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:344
+msgid "ξ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:345
+msgid "pi"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:346
+msgid "π"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:347
+msgid "rho"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:348
+msgid "ρ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:349
+msgid "sigma"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:350
+msgid "σ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:351
+msgid "tau"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:352
+msgid "τ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:353
+msgid "upsilon"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:354
+msgid "υ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:355
+msgid "phi"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:356
+msgid "ϕ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:357
+msgid "varphi"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:358
+msgid "φ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:359
+msgid "chi"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:360
+msgid "χ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:361
+msgid "psi"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:362
+msgid "ψ"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:363
+msgid "omega"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:364
+msgid "ω"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:369
+msgid "Functions"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:371
+msgid "To use a function, type the letters that represent the function, and then surround the expression in that function with parentheses. For example, to represent the square root of ``4*a+b``, type ``sqrt(4*a+b)``."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:375
+msgid "You can use the following functions."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:377
+msgid "Common functions"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:379
+msgid "sqrt"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:380
+msgid "log10"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:381
+msgid "log2"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:382
+msgid "ln"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:383
+msgid "exp"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:384
+msgid "abs"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:386
+msgid "Trigonometric functions and their inverses, as well as hyperbolic trigonometric functions and their inverses."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:393
+msgid "Function"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:394
+#: ../../source/completing_assignments/SFD_mathformatting.rst:396
+msgid "Inverse"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:395
+msgid "Hyperbolic Function"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:397
+msgid "sin"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:398
+msgid "arcsin"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:399
+msgid "sinh"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:400
+msgid "arcsinh"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:401
+msgid "cos"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:402
+msgid "arccos"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:403
+msgid "cosh"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:404
+msgid "arccosh"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:405
+msgid "tan"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:406
+msgid "arctan"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:407
+msgid "tanh"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:408
+msgid "arctanh"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:409
+msgid "sec"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:410
+msgid "arcsec"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:411
+msgid "sech"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:412
+msgid "arcsech"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:413
+msgid "csc"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:414
+msgid "arccsc"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:415
+msgid "csch"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:416
+msgid "arccsch"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:417
+msgid "cot"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:418
+msgid "arccot"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:419
+msgid "coth"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:420
+msgid "arccoth"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:423
+msgid "Factorials: Enter factorials as ``fact(3)`` or ``factorial(3)``. You must use integers. For example, you cannot enter ``fact(1.5)``."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:426
+msgid "A \"parallel resistors\" operator (``||``). For example, ``1 || 2`` represents the resistance of a pair of parallel resistors (of resistance 1 and 2 ohms), evaluating to 2/3 (ohms)."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:434
+msgid "Entering Math Expressions in Course Discussions"
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:436
+msgid "Entering math expressions in course discussions is different from entering math expressions in a math problem or in the calculator. In course discussions, you use MathJax to format the text that you type."
+msgstr ""
+
+#: ../../source/completing_assignments/SFD_mathformatting.rst:440
+msgid "For detailed information about how to enter math expressions in course discussions, see `Math Formatting in Course Discussions`_."
+msgstr ""
+
+#: ../../source/completing_assignments/index.rst:5
+msgid "Completing Different Types of Assignments"
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:5
+msgid "Explaining Multiple Choice Answers"
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:7
+msgid "If you encounter a multiple choice question that is followed by a field for an explanation, there are actually several more steps that you need to complete for the assignment. These assignments involve sharing what you have learned with other people in your online course. They give you an opportunity to learn from each other."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:13
+msgid "In a classroom setting, this type of assignment is sometimes called a \"peer instruction\" or \"clicker\" question."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:16
+msgid "This section describes how you complete these interactive assignments."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:24
+msgid "Assignment Overview"
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:26
+msgid "When a multiple choice question also requires an explanation, the next step in the assignment is to share your rationale for your answer with other learners, and to see the choices and explanation that other learners shared."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:30
+msgid "Names are not shown with the responses. As a result, you can focus on contributing the best answer possible, without worrying about whether your reasoning, or your spelling, is exactly correct."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:34
+msgid "Then, you get to apply what you learned from the others: you have another chance to answer the question."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:39
+msgid "Completing the Assignment"
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:41
+msgid "In this type of assignment, you see a multiple choice question. After you select an answer you complete these steps."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:46
+msgid "Step 1. Explain Your Choice"
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:48
+msgid "Write an explanation for why you chose your answer."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:50
+msgid "This step is your opportunity to provide a persuasive argument about why your answer is the correct one. You might include references to a course video or textbook, or describe how you arrived at the choice you made."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:54
+msgid "Together, the answer that you chose and this explanation are your initial response. When you select **Next**, your initial response is added to the collection of initial responses by all of the other course participants."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:None
+msgid "A question with a selected answer choice and a short description for\n"
+"that choice."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:65
+msgid "Step 2. Review Other Initial Responses"
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:67
+msgid "Review the initial responses that other participants in the course submitted. The course team decides how many you see. You might see one response for each of the possible answer choices, or a set that is chosen completely at random."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:71
+msgid "This step gives you a chance to learn from the explanations that other learners submitted, and reassess your own understanding of the topic."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:74
+msgid "Because they are part of the collection of initial responses, your answer and explanation are likely to be shown to other learners when they get to this part of the assignment."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:None
+msgid "The answers and explanations submitted by three other learners."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:84
+msgid "Step 3. Revise Your Response"
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:86
+msgid "Decide whether you want to change your initial response by selecting a different answer choice, revising your explanation, or both."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:89
+msgid "This step is optional. You can submit a final response that is the same as your initial response, or change it completely. When you select **Next Step**, you learn the correct answer."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:None
+msgid "The same answer choice with an edited explanation."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:99
+msgid "Step 4. Review the Correct Answer"
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:101
+msgid "Review the correct answer choice and the explanation provided by the course team."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:None
+msgid "The correct answer choice and its explanation."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:110
+msgid "Step 5. Compare Answers"
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:112
+msgid "Use the graphs to compare the percentage of your fellow learners who selected each answer. The first graph shows the percentage of learners who selected each answer initially, and the second graph shows the percentage of learners who selected each answer after they had the opportunity to review the explantions that other learners provided. Compare your own choices, and the correct one, to your peers'."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:119
+msgid "This step might be just as thought provoking as the other steps."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:None
+msgid "Histograms of percentage of learners that selected each answer choice\n"
+"for their initial response and their final response."
+msgstr ""
+
+#: ../../source/completing_assignments/interactive_multiple_choice.rst:126
+msgid "The graphs appear after 10 learners submit their final responses. If the graphs do not appear, give the others taking the course some time, and then refresh your browser page."
+msgstr ""
+
+#: ../../source/completing_assignments/proctored_exams.rst:5
+msgid "Proctored Exams"
+msgstr ""
+
+#: ../../source/completing_assignments/proctored_exams.rst:7
+msgid "Some courses require learners to pass at least one proctored exam. Proctored exams typically differ from regular exams in the following ways."
+msgstr ""
+
+#: ../../source/completing_assignments/proctored_exams.rst:10
+msgid "Proctored exams might have time limits."
+msgstr ""
+
+#: ../../source/completing_assignments/proctored_exams.rst:11
+msgid "You might have to install proctoring software on your computer."
+msgstr ""
+
+#: ../../source/completing_assignments/proctored_exams.rst:12
+msgid "You might have to verify your identity."
+msgstr ""
+
+#: ../../source/completing_assignments/proctored_exams.rst:13
+msgid "You might have to scan your test environment with a webcam."
+msgstr ""
+
+#: ../../source/completing_assignments/proctored_exams.rst:14
+msgid "The proctoring software might monitor your computer, including the programs that you have open, and record video and sounds during your exam."
+msgstr ""
+
+#: ../../source/completing_assignments/proctored_exams.rst:19
+msgid "Proctored Exam Technical Requirements"
+msgstr ""
+
+#: ../../source/completing_assignments/proctored_exams.rst:21
+msgid "Proctored exams might have specific technical requirements. Before you take a proctored exam, read any requirements carefully. If you are not sure that your computer meets the requirements, contact your instructor or support organization."
+msgstr ""
+
+#: ../../source/completing_assignments/proctored_exams.rst:28
+msgid "Practice Proctored Exams"
+msgstr ""
+
+#: ../../source/completing_assignments/proctored_exams.rst:30
+msgid "Your course might include an optional practice proctored exam. In a practice exam, you set up the proctoring software on your computer and perform any required identity checks and environment scans so that you know how to complete these tasks for the actual exam. The practice exam usually includes several example problems. This exam is not graded."
+msgstr ""
+
+#: ../../source/completing_assignments/proctored_exams.rst:38
+msgid "Proctored Exam Rules for Learners"
+msgstr ""
+
+#: ../../source/completing_assignments/proctored_exams.rst:40
+msgid "The rules for each proctored exam depend on the proctoring service that your course team or system administrator has chosen. However, the following rules are common for \"closed book\" exams. The starting page for every proctored exam includes a link to these rules."
+msgstr ""
+
+#: ../../source/completing_assignments/proctored_exams.rst:45
+msgid "The starting page also includes any additional rules that your instructor has specified, such as allowing you to use a handheld calculator."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:10
+msgid "Learner Rules for Online Proctored Exams"
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:12
+msgid "The following proctored exam rules are the basic rules for \"closed book\" exams."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:15
+msgid "Some proctored exams have different or additional rules. For example, some proctored exams allow you to use reference material or a calculator. Any additional rules are visible along with the exam instructions before you start the exam."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:26
+msgid "Test Environment Rules"
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:28
+msgid "You must take the exam in the same room that you scanned during the proctoring setup for the current exam."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:32
+msgid "You must complete a webcam scan of the room where you will take the exam every time you take a proctored exam. However, you do not have to take all of your proctored exams in the same room."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:36
+msgid "No other person is allowed to enter the room while you are taking the proctored exam."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:39
+msgid "The lighting in the room must be bright enough to be considered \"daylight\" quality. Overhead lighting is preferred. If overhead lighting is not available, the source of light must not be behind you."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:43
+msgid "You must sit at a clean desk or table."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:45
+msgid "The following items must not be on your desk or used during your proctored exam, unless posted rules for the exam specifically permit these materials."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:48
+msgid "Books."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:49
+msgid "Paper."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:50
+msgid "Pens."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:51
+msgid "Calculators."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:52
+msgid "Textbooks."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:53
+msgid "Notebooks."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:54
+msgid "Phones."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:56
+msgid "The desk or walls around you must not have any writing."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:58
+msgid "The room must be as quiet as possible. Sounds such as music or television are not permitted."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:63
+msgid "The Computer You Use to Take the Test"
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:65
+msgid "The computer you are using to take the exam must not have more than one display or monitor. For example, if you usually use a laptop with a monitor connected, disconnect your monitor and use only the laptop screen."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:69
+msgid "You must close all other programs or windows on your testing computer before you begin the exam."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:72
+msgid "You must not use the following tools."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:74
+msgid "Programs such as Excel, Word, or PowerPoint."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:75
+msgid "Communication programs such as Skype."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:76
+msgid "Any website page other than the exam window in your course, including other content on edX.org."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:81
+msgid "Your Behavior"
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:83
+msgid "You must establish your identity by using a government-issued photo ID with a name that matches the full name you use in your edx.org account."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:86
+msgid "You must dress as though you were in a public setting."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:88
+msgid "You must not use headphones, ear buds, or any other type of listening equipment."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:91
+msgid "You must not communicate with any other person by any means."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:93
+msgid "You must not use a phone for any reason."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:95
+msgid "You must not leave the room during the exam for any reason, unless posted rules for the exam specifically permit you to do so."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:102
+msgid "Additional Time or Special Allowances"
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:104
+msgid "If you have a disability and need additional time or specific accommodations to take the exam, consult your organization’s disability resources or the course team before you make any choices on the exam page. The course team must approve your request and make any adjustments before you start your exam."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:113
+msgid "Consequences of Rule Violations"
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:115
+msgid "If you violate the online proctoring rules and receive an **Unsatisfactory** status, you automatically receive a score of 0 for the exam. For most courses, you are no longer eligible for academic credit."
+msgstr ""
+
+#: ../../../shared/students/completing_assignments/Section_proctoring_rules.rst:119
+msgid "If you have questions about your proctoring exam status, go to https://edx.org to contact edX Support, or consult your course team."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:5
+#: ../../source/completing_assignments/timed_exams.rst:47
+msgid "Taking a Timed Exam"
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:7
+msgid "This section describes timed exams and explains how to complete them."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:15
+msgid "Timed Exam Overview"
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:17
+msgid "Timed exams are sets of problems that you must complete in a limited amount of time. The score you receive becomes part of your course progress record."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:20
+msgid "Timed exams are indicated on the **Course** page by a clock icon and the label **Timed Exam**."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:None
+msgid "A Course page in the LMS showing an exam with a clock icon and\n"
+"the label \"Timed Exam.\""
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:29
+msgid "After you begin taking a timed exam, a timer on the course page displays the amount of time that you have remaining to complete the exam. You cannot pause or reset a timed exam. When there is no time remaining, the course page automatically submits your exam."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:34
+msgid "The time limit for an exam applies to all of the units in an exam section. If an exam includes problems on multiple unit pages, you must complete the problems on each unit page before you submit the exam or before the time runs out."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:39
+msgid "You can request additional time to complete a timed exam. Course teams can increase the time allowed for individual learners if needed. You can only request additional time before you start a timed exam. For more information, see :ref:`requesting_additional_time`."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:49
+msgid "To take a timed exam, follow these steps."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:51
+msgid "Open the timed exam page in the course."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:53
+msgid "Find the length of the time limit on the exam page. Make sure that you have enough time available to complete the exam."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:57
+msgid "You will not be able to pause or restart the exam after you begin."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:59
+msgid "Course teams can give individual learners additional time to complete the exam, if needed. For more information, see :ref:`requesting_additional_time`."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:63
+msgid "Select **I am ready to start this timed exam**."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:65
+msgid "Complete the problems in each unit of the exam. Select **Submit** to score the problems in the unit. If you do not select **Submit**, your responses will not be scored."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:69
+msgid "Monitor the amount of time remaining in the time display at the top of the course page."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:72
+msgid "When 20% of the time remains, the time display bar darkens to alert you. When 5% of the time remains, the text on the time display bar becomes bold."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:76
+msgid "You can hide the amount of time that remains in your exam. To do this, select the icon that is located next to the timer. To show the remaining time, select the icon again."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:80
+msgid "After you have completed and checked all the units in the exam, select **End My Exam** at the top of the course page. If you run out of time, the exam will end automatically."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:85
+msgid "You must select **Submit** to score the problems in each unit of an exam. If you submit an exam without selecting **Submit** in a unit, your exam results will not include scores for any of the problems in that unit."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:93
+msgid "Hiding the Exam Timer"
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:95
+msgid "By default, the amount of time that remains in the exam is visible. You can hide or show the time that remains."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:98
+msgid "To hide the remaining time, select the \"eye\" icon that is located next to the timer."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:101
+msgid "To show the remaining time, select the \"eye\" icon again."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:None
+msgid "The End My Exam button next to an eye icon that shows and hides the exam\n"
+"timer."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:113
+msgid "Requesting Additional Time"
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:115
+msgid "You can request additional time to complete a timed exam. Course teams and instructors can increase the time allowed for individual learners to accommodate specific needs."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:119
+msgid "You can only request additional time before you begin a timed exam. After you start an exam, the course team cannot allow more time for that exam attempt."
+msgstr ""
+
+#: ../../source/completing_assignments/timed_exams.rst:123
+msgid "Course teams decide whether or not to grant additional time based on the criteria that they choose. You can get information about the availability of additional time from your course team."
+msgstr ""

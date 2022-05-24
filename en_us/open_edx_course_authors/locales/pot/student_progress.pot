@@ -1,0 +1,2400 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, edX Inc.
+# This file is distributed under the same license as the Building and Running an Open edX Course package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Building and Running an Open edX Course \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 15:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../shared/student_progress/certificate_data.rst:5
+msgid "Obtaining Certificate Data"
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:7
+msgid "This topic describes how to access data about certificates that have been issued for a course."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:14
+#: ../../../shared/student_progress/checking_student_progress.rst:13
+msgid "For more information, see the following other topics about certificates."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:16
+#: ../../../shared/student_progress/checking_student_progress.rst:15
+msgid ":ref:`Setting Up Certificates`"
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:17
+msgid ":ref:`Checking Student Progress and Issuing Certificates`"
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:23
+msgid "Access Certificate Data"
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:25
+msgid "You can view data about the certificates that have been issued for your course in the LMS by selecting **Instructor** to access the instructor dashboard. You can also download a .csv (comma-separated values) file with the certificate data."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:32
+msgid "View Certificate Data"
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:34
+msgid "To view certificate data, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:36
+#: ../../../shared/student_progress/certificate_data.rst:52
+#: ../../../shared/student_progress/course_answers.rst:45
+#: ../../../shared/student_progress/course_answers.rst:230
+#: ../../../shared/student_progress/course_answers.rst:472
+#: ../../../shared/student_progress/course_grades.rst:47
+#: ../../../shared/student_progress/course_grades.rst:103
+#: ../../../shared/student_progress/course_grades.rst:285
+#: ../../../shared/student_progress/course_grades.rst:370
+#: ../../../shared/student_progress/course_grades.rst:438
+#: ../../../shared/student_progress/course_grades.rst:491
+#: ../../../shared/student_progress/course_grades.rst:572
+#: ../../../shared/student_progress/course_grades.rst:830
+#: ../../../shared/student_progress/course_grades.rst:890
+#: ../../../shared/student_progress/course_grades.rst:927
+#: ../../../shared/student_progress/course_grades.rst:964
+#: ../../../shared/student_progress/course_grades.rst:1000
+#: ../../../shared/student_progress/course_grades.rst:1044
+#: ../../../shared/student_progress/course_grades.rst:1068
+#: ../../../shared/student_progress/course_grades.rst:1124
+#: ../../../shared/student_progress/course_grades.rst:1172
+#: ../../../shared/student_progress/course_student.rst:187
+#: ../../../shared/student_progress/course_student.rst:216
+#: ../../../shared/student_progress/course_student.rst:241
+msgid "View the live version of your course."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:38
+#: ../../../shared/student_progress/certificate_data.rst:54
+#: ../../../shared/student_progress/course_answers.rst:474
+#: ../../../shared/student_progress/course_grades.rst:105
+#: ../../../shared/student_progress/course_grades.rst:287
+#: ../../../shared/student_progress/course_student.rst:189
+#: ../../../shared/student_progress/course_student.rst:243
+msgid "Select **Instructor**, and then select **Data Download**."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:40
+msgid "Select **View Certificates Issued**."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:42
+msgid "A table of certificate data is displayed, with one row for each type of certificate issued. For more information on the contents of this report, see :ref:`Columns in the Certificate Report`."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:48
+msgid "Download Certificate Data"
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:50
+msgid "To download certificate data, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:56
+msgid "Select **Download CSV of Certificates Issued**."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:58
+msgid "The CSV file is downloaded to your computer."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:60
+msgid "For more information on the contents of this file, see :ref:`Columns in the Certificate Report`."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:67
+msgid "Columns in the Certificate Report"
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:69
+msgid "The certificate report includes a row for each type of certificate issued for the course."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:76
+#: ../../../shared/student_progress/course_answers.rst:267
+#: ../../../shared/student_progress/course_answers.rst:291
+#: ../../../shared/student_progress/course_answers.rst:409
+#: ../../../shared/student_progress/course_student.rst:96
+msgid "Column"
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:77
+#: ../../../shared/student_progress/course_answers.rst:268
+#: ../../../shared/student_progress/course_answers.rst:292
+#: ../../../shared/student_progress/course_answers.rst:410
+#: ../../../shared/student_progress/course_student.rst:97
+msgid "Description"
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:78
+msgid "CourseID"
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:79
+msgid "The unique ID of the course for which you are viewing certificate data."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:80
+msgid "Certificate Type"
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:81
+msgid "The type of certificate issued. For example, Verified or Honor."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:82
+msgid "Total Certificates Issued"
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:83
+msgid "The number of certificates of the specific type that have been issued to learners as of the report date."
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:85
+msgid "Date Report Run"
+msgstr ""
+
+#: ../../../shared/student_progress/certificate_data.rst:86
+msgid "The date the report was created."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:5
+msgid "Ending a Course"
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:7
+msgid "This topic describes how to complete several end-of-course tasks."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:16
+msgid ":ref:`Reporting Certificate Data`"
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:20
+msgid "Sending a Farewell Message"
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:22
+msgid "As you prepare for the end of your course, you can send learners a :ref:`course farewell<Course Farewell and Certificates>` email message."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:27
+msgid "Assigning Final Grades"
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:29
+msgid "To assign a final grade to each learner enrolled in a course, you generate grades after the course end date and time have passed. For more information, see :ref:`Access_grades`."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:33
+msgid "The learner's final grade and the grading configuration you set in Studio determine whether the learner has earned a certificate for the course."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:41
+msgid "Issuing Certificates"
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:46
+msgid "Before you can issue certificates, the administrator for your instance of Open edX must configure the platform to allow course teams to generate and issue certificates. For more information, see :ref:`installation:Enable Automatic Certificate Generation` and :ref:`installation:Enable Certificates` in *Installing, Configuring, and Running the Open edX Platform*."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:53
+msgid "The platform can automatically generate certificates for both self-paced courses and instructor-paced courses. When certificates become available, options for learners to view their certificates are available on the learner dashboard, the learner **Profile** page, and the course **Progress** page."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:58
+msgid "You can specify when you want to make certificates available."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:60
+msgid "For self-paced courses, by default, certificates are generated for learners when they have completed enough of the course, and with a high enough grade, to qualify for a certificate."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:64
+msgid "If you want to generate certificates only after learners have completed the course, you can disable this feature. For more information, see :ref:`Allow Learners to Receive Early Certificates`."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:68
+msgid "For instructor-paced courses, three options are available."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:70
+msgid "By default, certificates become available to learners 48 hours after your course end date. If you change your course end date, Studio automatically adjusts the date for certificates as well."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:74
+msgid "You can specify a different date to make certificates available. For more information, see :ref:`Specify an Alternative Certificates Available Date`."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:78
+msgid "You can allow learners to receive their certificates when they have completed enough of the course, and with a high enough grade, to qualify for a certificate. For more information, see :ref:`Allow Learners to Receive Early Certificates`."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:87
+msgid "Issue Certificates on a Specified Date"
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:89
+msgid "If you do not want to generate certificates 48 hours after the course end date, you can specify the date when you want the platform to generate certificates. You can change this date at any time."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:93
+msgid "For more information about how to specify a day to issue certificates, see :ref:`Specify an Alternative Certificates Available Date`."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:100
+msgid "Allow Learners to Receive Early Certificates"
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:102
+msgid "If the administrator has configured the site correctly (see :ref:`installation:Enable Automatic Certificate Generation` in *Installing, Configuring, and Running the Open edX Platform*), self-paced courses issue certificates to learners as soon as learners have completed enough of the course, with a high enough grade, to earn a certificate. You do not have to change any settings."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:109
+msgid "Earlier Open edX versions had an **Enable Student-Generated Certificates** option in the LMS instructor dashboard; this option has been removed."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:116
+msgid "Allow Learners to Download Early Certificates"
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:118
+msgid "To allow learners to download early certificates, you modify the **Certificates Display Behavior** advanced setting in Studio."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:121
+msgid "In Studio, on the **Settings** menu, select **Advanced Settings**."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:123
+msgid "On the **Advanced Settings** page, locate **Certificates Display Behavior**."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:125
+msgid "In the **Certificates Display Behavior** field, enter ``\"early_no_info\"``. Be sure that you include the double quotation marks."
+msgstr ""
+
+#: ../../../shared/student_progress/checking_student_progress.rst:128
+msgid "Select **Save Changes**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:5
+msgid "Answer Data"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:7
+msgid "To review learner answers to the problems in your course, you can review the answer submitted by a selected learner for a specific problem or download a course-wide report of any learner answers to a specific problem. You can also download an answer distribution report for course problems."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:16
+msgid "Learner answer distribution data, including both charts and reports, is also available from edX Insights. For more information, see :ref:`insights:Using edX Insights`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:24
+msgid "Learner Answer Submissions"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:26
+msgid "You can review a single learner's complete submission history for a specific problem, or the answers submitted by all learners for that problem. For either a single learner or all learners, you can review the exact response submitted, the number of attempts made, and the date and time of the submission."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:37
+msgid "View One Learner's Submission History"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:39
+msgid "Before you can check the answer or answers submitted by a learner, you need the learner's username. For more information about how to obtain usernames, see :ref:`View and download student data`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:43
+msgid "To review a response submitted by a learner, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:47
+msgid "Select **Course** and navigate to the unit that contains the problem you want to review."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:50
+msgid "Display the problem, and then select **Submission History** below the problem."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:53
+msgid "Enter the username for the learner whose work you want to review, and then select **View History** at the end of the page."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:56
+msgid "Information about the response or responses provided by the learner displays. For more information, see :ref:`Interpret a Student Submission History`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:59
+msgid "To close the Submission History Viewer, click on the browser page outside of the viewer."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:66
+msgid "Interpret a Learner's Submission History"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:68
+msgid "The Submission History Viewer shows every timestamped database record of the interactions between a learner and a problem, which can include processes completed both in the browser and on the server. These records appear with the most recent interaction at the top of the Submission History Viewer, followed by each previous interaction."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:74
+msgid "This topic provides an example submission history for a CAPA problem with guidelines that can help you interpret a submission history. The number and complexity of the records that appear in this report vary based on the type of problem and the settings and features defined."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:79
+msgid "**Record 1: Problem Viewed (Server)**"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:81
+msgid "The first interaction, shown at the bottom of the Submission History, records when the server delivered the problem component to the browser for the learner to view."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:99
+msgid "**Record 2: Problem Checked (Browser)**"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:101
+msgid "The next interaction shown as you scroll up from the bottom records when the learner selected **Submit** in the browser to submit an answer. Note that this record does not contain the actual answer submitted. The answer choice is indicated using a choice identifier: ``choice_1`` in this example."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:106
+msgid "The numbering of choice identifiers starts at ``choice_0``, so that ``choice_0`` represents your first answer choice, ``choice_1`` represents your second answer choice, and so on."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:127
+msgid "**Record 3: Problem Checked (Server)**"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:129
+msgid "The next interaction records the results of the server processing that occurred after the learner submitted the answer. This record includes ``student_answers`` with the submitted answer value, along with ``attempts``, ``correctness``, and other values."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:165
+msgid "**Record 4: Problem Retried (Browser)**"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:167
+msgid "When a problem gives learners multiple attempts at the correct answer, and the learner tries again, an additional record is added when a learner selects **Submit** again. The server has not yet processed the new submission, so the data in the record is almost identical to the data in record 3."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:172
+msgid "**Record 5: Problem Retried (Server)**"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:174
+msgid "The most recent interaction in this example records the results after the learner attempts the problem again and submits a different answer. Note the differences between values in this record and in record 3, including the reported ``Score`` and the values for ``student_answers``, ``attempts``, and ``correctness``."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:215
+msgid "Report All Learners' Answer Submissions"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:217
+msgid "The Student State report lists the answers that every learner has submitted for one or more problems. You can download this report for just one problem, or for all of the problems in a course, section, subsection, or unit at one time."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:222
+msgid "The report is limited to 5000 responses. If you expect more than 5000 responses, try generating the report on a section, subsection, or unit basis. Contact your site administrator if you want to increase your response limit."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:227
+msgid "To download the Student State report for one or more problems, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:232
+msgid "On the **Instructor** tab, select **Data Download**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:234
+msgid "In the **Reports** section, locate and select **Select a section or problem**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:236
+msgid "Use the arrow icons in the dropdown list to select the section, subsection, unit, or problem that you want. You can also select the entire course."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:239
+msgid "If you select a course, section, subsection, or unit, the Student State report includes all of the problems in that part of the course."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:242
+msgid "Select **Download a CSV of problem responses**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:244
+msgid "At the bottom of the page, select the ``{course_id}_student_state_from_{problem_location}_{date}.csv`` file."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:247
+msgid "Use a text editor or spreadsheet application to open the file. For more information, see :ref:`Interpret the Student State Report`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:254
+msgid "Interpret the Student State Report"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:256
+msgid "The Student State report contains a row for each learner who has viewed a problem or submitted an answer for a problem, identified by username."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:259
+#: ../../../shared/student_progress/course_answers.rst:403
+msgid "The .csv file contains the following columns."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:269
+#: ../../../shared/student_progress/course_answers.rst:293
+msgid "Username"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:270
+#: ../../../shared/student_progress/course_answers.rst:294
+msgid "The student's username."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:271
+#: ../../../shared/student_progress/course_answers.rst:295
+msgid "Title"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:272
+#: ../../../shared/student_progress/course_answers.rst:296
+msgid "The display name or title of the problem or course component."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:273
+#: ../../../shared/student_progress/course_answers.rst:297
+#: ../../../shared/student_progress/course_answers.rst:450
+msgid "Question"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:274
+#: ../../../shared/student_progress/course_answers.rst:298
+msgid "The question(s) that were asked to the student."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:275
+#: ../../../shared/student_progress/course_answers.rst:299
+msgid "Answer"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:276
+#: ../../../shared/student_progress/course_answers.rst:300
+msgid "The student's answer(s), in human-readable text."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:277
+#: ../../../shared/student_progress/course_answers.rst:301
+msgid "Location"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:278
+#: ../../../shared/student_progress/course_answers.rst:302
+msgid "The location of the problem or component in the course. For example, **Introduction > Overview > Testing Your Knowledge** (section, subsection, and unit)."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:281
+#: ../../../shared/student_progress/course_answers.rst:305
+msgid "State"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:282
+#: ../../../shared/student_progress/course_answers.rst:306
+msgid "The detailed JSON data with details in the student's submission (not human-readable)."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:308
+msgid "Block_key"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:309
+msgid "The ID or key of the XBlock. Note that non-interactive XBlocks, such as HTML/text blocks, will not appear in the report."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:312
+msgid "The **State** column reports the results of the server processing for each learner's most recently submitted answer. When you open the report, the value in the **State** column appears on a single line. This value is a record in JSON format. An example record for a text input CAPA problem follows."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:317
+msgid "``{\"correct_map\": {\"e58b639b86db44ca89652b30ea566830_2_1\": {\"hint\": \"\", \"hintmode\": null, \"correctness\": \"correct\", \"msg\": \"\", \"answervariable\": null, \"npoints\": null, \"queuestate\": null}}, \"input_state\": {\"e58b639b86db44ca89652b30ea566830_2_1\": {}}, \"last_submission_time\": 2015-10-26T17:32:20Z\", \"attempts\": 3, \"seed\": 1, \"done\": true, student_answers\": {\"e58b639b86db44ca89652b30ea566830_2_1\": \"choice_2\"}}``"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:323
+msgid "You can use a JSON \"pretty print\" tool or script to make the value in the **State** column more readable, as in the following example."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:354
+msgid "When you add line breaks and spacing to the value in the **State** column for this CAPA problem, it becomes possible to recognize its similarity to the server problem check records in the Submission History. For more information, see :ref:`Interpret a Student Submission History`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:359
+msgid "A **State** value that appears as follows indicates a learner who has viewed a CAPA problem, but not yet submitted an answer."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:362
+msgid "``{\"seed\": 1, \"input_state\": {\"e58b639b86db44ca89652b30ea566830_2_1\": {}}}``"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:364
+msgid "For open response assessment problems, the **State** value appears as follows for learners who have submitted an answer."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:367
+msgid "``{\"submission_uuid\": \"c359b484-5644-11e5-a166-0a4a2062d211\", \"no_peers\": false}``"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:369
+msgid "For open response assessment problems, ``\"no_peers\": false`` indicates that the learner has completed at least one peer assessment, while ``\"no_peers\": true`` indicates that no peer assessments have been submitted."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:377
+msgid "Student Answer Distribution"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:379
+msgid "For certain types of problems in your course, you can download a .csv file with data about the distribution of learner answers. Student answer distribution data is included in the file for problems of these types."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:383
+msgid "Checkboxes (``<choiceresponse>``)"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:384
+msgid "Dropdown (``<optionresponse>``)"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:385
+msgid "Multiple choice (``<multiplechoiceresponse>``)"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:386
+msgid "Numerical input (``<numericalresponse>``)"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:387
+msgid "Text input (``<stringresponse>``)"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:388
+msgid "Math expression input (``<formularesponse>``)"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:390
+msgid "The file includes a row for each problem-answer combination selected by your learners. For example, for a problem that has a total of five possible answers the file includes up to five rows, one for each answer selected by at least one learner. For problems with **Randomization** enabled in Studio (sometimes called rerandomization), there is one row for each problem-variant-answer combination selected by your learners. For more information, see :ref:`Problem Settings`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:398
+msgid "Certain types of problems can be set up to :ref:`award partial credit<Awarding Partial Credit for a Problem>`. When a learner receives either the full or a partial score for a problem, this report includes that answer as correct."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:411
+msgid "ModuleID"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:412
+msgid "The internal identifier for the problem component."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:413
+msgid "PartID"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:414
+msgid "For a problem component that contains multiple problems, the internal identifier for each individual problem. For a problem component that contains a single problem, the internal identifier of that problem."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:417
+msgid "Correct Answer"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:418
+msgid "0 if this **AnswerValue** is incorrect, or 1 if this **AnswerValue** is correct."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:421
+msgid "For a problem that is set up to award partial credit, 1 if the **AnswerValue** awards either the full or a partial score."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:424
+msgid "Count"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:425
+msgid "The number of times that learners entered or selected this answer as their most recent submission for the problem or problem variant. For problems with the number of **Attempts** set to a value greater than 1, this means that each learner contributes a maximum of 1 to this count, even if the same answer is provided in multiple attempts."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:430
+msgid "ValueID"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:431
+msgid "The internal identifier of the answer choice for checkboxes and multiple choice problems. Blank for dropdown, numerical input, text input, and math expression input problems."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:435
+msgid "Note that the numbering of choice identifiers starts at ``choice_0``, so that ``choice_0`` represents your first answer choice, ``choice_1`` represents your second answer choice, and so on."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:439
+msgid "AnswerValue"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:440
+msgid "The text label of the answer choice for checkboxes, dropdown, and multiple choice problems. The value entered by the learner for numerical input, text input, and math expression input problems."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:443
+msgid "Variant"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:444
+msgid "For problems that use the **Randomization** setting in Studio, contains the unique identifier for a variant of the problem. Blank for problems that do not use the **Randomization** setting, or that use the **Never** option for this setting."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:448
+msgid "Problem Display Name"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:449
+msgid "The **Display Name** defined for the problem."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:451
+msgid "The text in the problem that is identified with accessible label formatting. In Studio's :ref:`Simple Editor`, this text appears with two angle brackets on either side pointing inward. For example, ``>>Is this the question text?<<``. This column does not include a value for problems that do not have an accessible label defined."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:457
+msgid "Entries are sorted by the value in each column, starting with the ModuleID on the left and continuing through the columns to the right."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:464
+msgid "Download the Student Answer Distribution Report"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:466
+msgid "An automated process runs periodically on the edX servers to update the .csv file of learner answer data. A link to the most recently updated version of the .csv file is available on the Instructor Dashboard."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:470
+msgid "To download the most recent file of learner answer data, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:476
+msgid "At the bottom of the page, select the ``{course_id}_answer_distribution.csv`` file. You may have to scroll down to find this file."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:482
+msgid "Frequently Asked Questions about the Student Answer Distribution Report"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:484
+msgid "Answers to questions about the student answer distribution report follow."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:486
+msgid "**My course doesn't have a student answer distribution report. How can I generate it?**"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:489
+msgid "Student answer distribution reports are generated automatically, and refreshed several times each day. The ``{course_id}_answer_distribution.csv`` file displays after all of the ``{course_id}_grade_report_{date}.csv`` files. Be sure to scroll to the end of the list of available reports."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:494
+msgid "**Why are some problems missing from this report? The ones that are missing do have the problem types listed under** :ref:`Review_Answers`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:497
+msgid "This report includes only problems that at least one learner has answered since early March 2014. For those problems, this report only includes activity that occurred after October 2013."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:501
+msgid "**Why don't I see an AnswerValue for some of my problems?**"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:503
+msgid "For checkboxes and multiple choice problems, the answer choices actually selected by a learner after early March 2014 display as described in the previous answer. Answer choices selected by at least one learner after October 2013, but not selected since early March 2014, are included on the report but do not include an **AnswerValue**. The **ValueID** does display the internal identifiers, such as choice_1 and choice_2, for those answers."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:510
+msgid "**Why don't I see a Question for some of my problems?**"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:512
+msgid "The value in the **Question** column is the question text that you identified for the problem with the accessible label formatting. If you did not identify question text for the problem, you will not see a question. For more information about how to set up accessible labels for problems, see :ref:`Simple Editor`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:518
+msgid "Also, for problems that use the **Randomization** setting in Studio, if a particular answer has not been selected since early March 2014, the **Question** is blank for that answer."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:522
+msgid "**My learners are saying that they answered a question, but it isn't showing up in the report. How can that be?**"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:525
+msgid "Only questions that have a **Maximum Attempts** setting of 1 or higher are included on the report."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:528
+msgid "**I made a correction to a problem after it was released. How can I tell which learners tried to answer it before I made the change?**"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:531
+msgid "Problem **Count** values reflect the entire problem history. If you change a problem after it is released, it may not be possible for you to determine which answers were given before and after you made the change."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:535
+msgid "**Why is the same answer showing up in two different rows when I view the report in a spreadsheet?**"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:538
+msgid "Some spreadsheet applications can alter the data in the .csv report for display purposes. For example, for different learner answers of \"0.5\" and \".5\" Excel correctly includes the two different lines from the .csv, but displays the **AnswerValue** on both of them as \"0.5\". If you notice answers that appear to be the same on separate lines with separate counts, you can review the actual, unaltered data by opening the .csv file in a text editor."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:545
+msgid "**Why are there strange characters in the report when I view it in a spreadsheet?**"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:548
+msgid "The .csv file is UTF-8 encoded, but not all spreadsheet applications interpret and render UTF-8 encoded characters correctly. For example, a student answer distribution report with answer values in French displays differently in Microsoft Excel for Mac than in OpenOffice Calc."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:553
+msgid "Answer Values in Microsoft Excel for Mac:"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:0
+msgid "A spreadsheet that replaces accented French characters with\n"
+"underscores."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:559
+msgid "Answer Values in OpenOffice Calc:"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:0
+msgid "A spreadsheet that displays accented French characters correctly."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:564
+msgid "If you notice characters that do not display as expected in a spreadsheet, try a different spreadsheet application such as LibreOffice or Apache OpenOffice to open the .csv file."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:570
+msgid "Interpret the Student Answer Distribution Report"
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:572
+msgid "You can use the Student Answer Distribution report to review learner responses to assignments, which can then help you evaluate the structure and completeness of your course content and problem components."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:576
+msgid "As an example, you define a text input question in Studio to have a single correct answer, \"Warfarin\". When you produce the Student Answer Distribution report, you verify that this answer was in fact marked correct: there is a 1 in the **Correct Answer** column for this **AnswerValue**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:None
+msgid "In Excel, 5 rows show 5 answer values, 4 of which show comprehension\n"
+"of the question, but only 1 answer is marked as correct."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:585
+msgid "However, as you view the report you notice other learner answers that you did not set up to be marked as correct in Studio, but that you might (or might not) also consider to be correct, such as \"Warfarin or Coumadin\". The **Correct Answer** column shows that the other answers were marked incorrect (0), but for future iterations of your course you may want to revise the question or update the problem to evaluate additional variations of the answer as correct."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:592
+msgid "Many spreadsheet applications offer data visualization options, such as charts or graphs. Charts can help make your learners' common misconceptions easier to identify."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:None
+msgid "In Excel, AnswerValue and Count columns next to each other, values\n"
+"for 4 rows selected, and a column chart of the count for the 4 answers."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:600
+msgid "In this example, the Student Answer Distribution report is open in Microsoft Excel. To create a chart that shows how many of your learners chose various answers to a multiple choice question, you move the **AnswerValue** and **Count** columns next to each other. After you click and drag to select the report cells that contain the data you want to chart, you select the Charts toolbar and then select the type of chart you want."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:607
+msgid "Refer to the help for the spreadsheet application that you use for information on using these options. You may have to make changes to your spreadsheet, such as reordering columns. Save a copy of the file you originally downloaded as a backup before you begin."
+msgstr ""
+
+#: ../../../shared/student_progress/course_answers.rst:612
+msgid "You can adjust your course content based on common mistakes. While most learners in this example selected the correct answer, the number of incorrect answer(s) can guide future changes to the course content."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:5
+msgid "Learner Grades and Grading"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:7
+msgid "You can review information about how grading is configured for your course, and access learner grades, at any time after you create the course. You can also make adjustments to learner grading for a problem, for a single learner or all learners. For information about the grading data that you can access and the changes you can make, see the following topics."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:17
+msgid "To review learner answers to course problems, you can check the answer submissions for a specific problem, either for a selected learner or for all learners. You can also review answer distribution data for all of the problems. See :ref:`Review_Answers`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:22
+msgid "For open response assessments, you can generate an ORA data report that provides details of each learner's response and of assessments that were performed on each response. For details, see :ref:`Generate ORA Report`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:26
+msgid "For information about how you establish a grading policy and work with the Problem components in your course, see :ref:`Grading Index` or :ref:`Working with Problem Components`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:34
+msgid "Review How Grading Is Configured for Your Course"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:36
+msgid "You can review the assignment types that are graded and their respective weights in the LMS by selecting **Instructor** to access the instructor dashboard."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:40
+msgid "You establish a grading policy for your course when you create it in Studio. While the course is running, you can view an XML representation of the assignment types in your course and how they are weighted to determine learners' grades."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:49
+msgid "Select **Instructor**, and then select **Data Download** > **Grading Configuration**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:52
+msgid "A list of the assignment types in your course displays. In this example, Homework is weighted as 0.3 (30%) of the grade."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:0
+msgid "XML of course assignment types and weights for grading."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:58
+msgid "In Studio, you define this information by selecting **Settings** and then **Grading**. For more information, see :ref:`Configure the Assignment Types`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:0
+msgid "Studio example of homework assignment type and grading weight."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:66
+msgid "Any changes that you make to the course grading policy, to graded subsections, or to graded components after the course begins will affect learners' grades and their experience in the course as well as analysis of course data."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:71
+msgid "EdX recommends that you announce any unavoidable grading related changes to learners by using, for example, updates on the **Course** page. You should also carefully track such changes for researchers."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:79
+msgid "Generate a Grade Report for All Learners in a Course"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:81
+msgid "For any course, you can generate grades and then download a file with the results for all learners in the course, including unenrolled learners. EdX recommends that you generate a grade report as soon as certificates have been issued for your course."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:86
+msgid "When you initiate calculations to grade learner work, a process starts on the edX servers. The complexity of your grading configuration and the number of learners in your course affect how long this process takes. You can download a report of the calculated grades in a comma-separated values (.csv) file when the grading process is complete."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:92
+msgid "You also have the option to review learner grades on the instructor dashboard. For more information, see :ref:`gradebook`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:95
+msgid "To generate and download the grade report for the learners in your course, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:99
+msgid "Because the grade report file contains confidential, personally identifiable data, be sure to follow your institution's data stewardship policies when you open or save this file."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:107
+msgid "To start the grading process, select **Generate Grade Report**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:109
+msgid "A status message indicates that the grading process is in progress. This process can take some time to complete, but you can navigate away from this page and do other work while it runs."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:113
+msgid "To check the progress of the grading process, reload the page in your browser and scroll down to the **Pending Tasks** section. The status of active tasks is shown in the table."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:117
+msgid "When the report is complete, a linked .csv file name becomes available above the **Pending Tasks** section. File names are in the format ``{course_id}_grade_report_{datetime}.csv``. The most recently generated reports appear at the top of the list."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:122
+msgid "To open or save a grade report file, locate and select the link for the grade report you requested."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:125
+#: ../../../shared/student_progress/course_grades.rst:308
+msgid "You can open .csv files in a spreadsheet application to sort, graph, and compare data."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:129
+msgid "To prevent the accidental distribution of learner data, you can download grade report files only by selecting the links on this page. Do not copy these links for reuse elsewhere, as they expire within 5 minutes. The links on this page also expire if the page is open for more than 5 minutes. If necessary, refresh the page to generate new links."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:139
+msgid "Interpreting the Grade Report"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:141
+msgid "A grade report for your course is a time-stamped .csv file that identifies each learner by ID, email address, and username, and provides a snapshot of their cumulative course scores."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:145
+msgid "Scores in the grade report are presented by assignment. There is a column for every assignment that is included in your grading configuration: each homework, lab, midterm, final, and any other assignment type you added to your course."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:150
+msgid "The grade report does not include information about individual problems within assignments, or include learner answer distributions. For a report that shows problem-level information, see :ref:`problem_report`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:154
+msgid "The report indicates the enrollment track for each learner. For professional and verified track learners it also shows whether they have verified their identity. The report shows whether each learner is eligible to receive a certificate (determined by whether he has earned a passing grade at the time the report was requested), whether a certificate has been generated, and the type of certificate earned."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:161
+msgid "If your course includes :ref:`cohorts<Cohorts Overview>`, :ref:`content experiments<Overview of Content Experiments>`, or :ref:`teams<CA_Teams_Overview>`, the grade report includes additional columns indicating the name of the cohort, experiment group, or team that each learner belongs to."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:None
+msgid "A course grade report, opened in Excel, showing the grades achieved by\n"
+"learners on several homework assignments and the midterm."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:171
+msgid "The grade report .csv file contains one row of data for each learner, and columns that provide the following information."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:174
+#: ../../../shared/student_progress/course_grades.rst:342
+msgid "Learner identifiers, including an internal **Student ID**, **Email** address, and **Username**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:177
+msgid "The overall **Grade**, with the total score a learner has currently attained in the course. This value is expressed as a decimal: a learner with a grade of 0.65 has earned 65% of the credit in the course, and a learner with a grade of 1 has earned 100%."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:182
+msgid "Each **{assignment type} {number}** defined in your grading configuration, with the score that the learner attained for that specific assignment. For example, column Homework 3 shows the scores for the third homework assignment. If the learner did not attempt the assignment, the value is \"Not Attempted\". If the assignment was not available for the learner, the value is \"Not Available\"."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:189
+msgid "An **{assignment type} (Avg)** with each learner's current average score for that assignment type: for example, \"Homework (Avg)\". This column is not included if a particular assignment type has only one assignment."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:193
+msgid "This assignment type average takes both dropped assignments and the assignment weight into account. For example, if the course includes five homework assignments and the course grading policy allows one homework assignment with the lowest score to be dropped, the homework assignment average in this grade report is calculated over four homework assignments rather than five. This average is then multiplied by the assignment weight to calculate the assignment type average."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:201
+msgid "If :ref:`cohorts<Cohorts Overview>` are used in the course, a **Cohort Name** column indicates the name of the cohort that each learner belongs to, including the default cohort. The column is empty for learners who are not yet assigned to a cohort."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:206
+msgid "If :ref:`content experiments<Overview of Content Experiments>` are used in the course, an **Experiment Group** column indicates the name of the experiment group that each learner belongs to within a group configuration. The column heading includes the name of the group configuration. The column is empty for learners who are not assigned to an experiment group. If you have more than one experiment group configuration in your course, you see one column for each group configuration."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:214
+msgid "If :ref:`teams<CA_Teams_Overview>` are enabled in the course, a **Team Name** column indicates the name of the team that each learner belongs to. The column is empty for learners who have not joined a team."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:218
+msgid "The **Enrollment Track** column indicates whether each learner is enrolled in the course in the honor code, verified, or professional education track."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:221
+msgid "The **Verification Status** column indicates whether learners who are enrolled in course tracks that require ID verification have successfully verified their identities to edX by submitting an official photo ID via webcam. The value in this column is \"N/A\" for learners enrolled in course tracks that do not require ID verification, such as \"Audit\"."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:227
+msgid "A value of \"Not ID Verified\" in this column indicates that the learner is enrolled in a course mode that requires ID verification, such as \"Verified\", but she has not attempted ID verification, or her ID verification has failed or expired. A value of \"ID Verified\" indicates that the learner is enrolled in a course mode that requires ID verification, and her ID verification is current and valid."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:234
+msgid "The **Certificate Eligible** column indicates whether a learner is eligible for a certificate for your course."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:237
+msgid "The value in this column is \"Y\" for the following learners."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:239
+msgid "Verified learners who attained a passing grade before this report was requested. For example, the learner could have earned a passing grade in an earlier session, or run, of the course."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:243
+msgid "All whitelisted learners, regardless of grade or enrollment track."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:245
+msgid "The value is \"N\" for the following learners."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:247
+msgid "Learners who did not attain a passing grade."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:249
+msgid "Learners who are in the audit track."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:251
+msgid "Learners who live in embargoed countries."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:253
+msgid "For learners who are eligible to receive a certificate, the **Certificate Delivered** column has a value of \"Y\" when the certificates for a course have been generated. The value is \"N\" for learners who are not eligible to receive a certificate."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:258
+msgid "The **Certificate Type** column indicates the type of certificate that the learner is eligible for, such as \"honor\" or \"verified\". If a learner is not eligible for a certificate, or if the certificates for a course have not yet been generated, the value in this column is \"N/A\"."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:263
+msgid "The **Enrollment Status** column indicates whether the learner is currently enrolled or unenrolled in the course."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:270
+msgid "Generate a Problem Grade Report for All Learners in a Course"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:272
+msgid "For any course, you can calculate grades for problems and generate a report that can be downloaded. The problem grade report for a course shows the number of points that each learner has earned for each problem, and the number of possible points for every problem in the course. In addition, the report shows the final grade score for each learner."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:278
+msgid "To generate and download the problem grade report for all learners who have ever enrolled in your course, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:281
+msgid "Because the problem grade report file contains confidential, personally identifiable data, be sure to follow your institution's data stewardship policies when you open or save this file."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:289
+msgid "To start the problem grading process, select **Generate Problem Grade Report**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:292
+msgid "A status message indicates that the problem grading process is in progress. This process can take some time to complete, but you can navigate away from this page and do other work while it runs."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:296
+msgid "To check the progress of the problem grading process, reload the page in your browser and scroll down to the **Pending Tasks** section. The status of active tasks is shown in the table."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:300
+msgid "When the report is complete, a linked .csv file name becomes available above the **Pending Tasks** section. File names are in the format ``{course_id}_problem_grade_report_{datetime}.csv``. The most recently generated reports appear at the top of the list."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:305
+msgid "To open or save a problem grade report file, locate and select the link for the problem grade report you requested."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:311
+msgid "To prevent the accidental distribution of learner data, you can download problem grade report files only by selecting the links on this page. Do not copy these links for reuse elsewhere, as they expire within 5 minutes. The links on this page also expire if the page is open for more than 5 minutes. If necessary, refresh the page to generate new links."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:321
+msgid "Interpreting the Problem Grade Report"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:323
+msgid "A problem grade report for your course is a time-stamped .csv file that identifies each learner by ID, email address, and username, and provides a snapshot of earned scores compared with the possible scores for each problem."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:327
+msgid "The problem grade report includes two columns for every problem that is included in your grading configuration. For each homework, lab, midterm, or final exam problem, there is one column for earned points, and one column for possible points. In addition, the report shows the final grade score for each learner, expressed as a decimal."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:None
+msgid "An example problem grade report shown in Excel, showing the decimal\n"
+"final grade for learners as well as the earned vs possible points that they\n"
+"each achieved on several quiz assignments. A column for a midterm is only\n"
+"partially visible."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:339
+msgid "The .csv file contains one row of data for each learner, and columns that provide the following information."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:345
+msgid "The **Grade** column shows the total score that a learner has currently attained in the course. This value is expressed as a decimal: a learner with a grade of 0.65 has earned 65% of the credit in the course, and a learner with a grade of 1 has earned 100%."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:350
+msgid "For each problem (identified by assignment, subsection, and problem name), a column showing the number of points actually earned by each learner. If the learner did not attempt the assignment, the value is \"Not Attempted\". If the assignment is not available to the learner, the value in this column is \"Not Available\"."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:356
+msgid "For each problem (identified by assignment, subsection, and problem name), a column showing the number of points that it is possible to earn for the problem. If the assignment is not available to the learner, the value in this column is \"Not Available\"."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:365
+msgid "Review Learner Grades on the Instructor Dashboard"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:367
+msgid "You can review a gradebook for a course on the instructor dashboard. To review grades for a course, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:372
+#: ../../../shared/student_progress/course_grades.rst:440
+#: ../../../shared/student_progress/course_grades.rst:493
+#: ../../../shared/student_progress/course_grades.rst:773
+#: ../../../shared/student_progress/course_grades.rst:801
+#: ../../../shared/student_progress/course_grades.rst:966
+#: ../../../shared/student_progress/course_grades.rst:1002
+#: ../../../shared/student_progress/course_grades.rst:1070
+#: ../../../shared/student_progress/course_grades.rst:1142
+#: ../../../shared/student_progress/course_student.rst:218
+msgid "Select **Instructor**, and then select **Student Admin**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:374
+msgid "Select **View Gradebook**. Grades are calculated and the Gradebook displays."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:0
+msgid "Course gradebook with rows for learners and columns for assignments."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:379
+msgid "The gradebook displays a table, with a row for each learner (\\*see note) enrolled in the course, listed by user name, and a column for each assignment in the course."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:382
+msgid "By default, the gradebook will not include any user enrolled in the course who also has a \"Course Access Role\". This includes course staff, course administrators, course data researchers, and beta testers. To see a listing of users who fall into this category, navigate to the Insurector Dashboard and refer to the Course Team Management section of the Membership tab."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:387
+msgid "The gradebook includes the following features:"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:389
+msgid "**Filtering:** There are several options for filtering the data shown on the gradebook."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:391
+msgid "*Assignment Type:* only show grades for a certain Assignment Type."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:393
+msgid "*Assignment:* only show grades for a single Assignment."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:395
+msgid "*Assignemnt Grade:* when filtering by *Assignment*, only show users with a grade for that assignment within a certain range."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:398
+msgid "*Overall Grade:* only show learners whose total course grade is within a certain range."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:400
+msgid "*Track:* only show learners of a certain enrollment mode (e.g. verified, audit, masters)."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:402
+msgid "*Cohort:* only show learners in a certain cohort."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:404
+msgid "*Include Course Team Members:* By default, users with certain course roles (Staff, Admin, Beta Tester, Course Data Researcher) will be excluded from gradebook results. To include those users, you can select this option, which will include those excluded users in the gradebook."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:409
+msgid "**Searching:** You can search for individual learners by their username, using the search field. Searches are case-insensitive."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:411
+msgid "**Grade Override:** You can override the grade that a learner has received for a specific graded subsection. For information about how to do this, see :ref:`Override in Gradebook`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:415
+msgid "**Master’s courses:** The edX gradebook has several features for high-touch courses. For learners in the Master’s track:"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:417
+msgid "You can search by email or university student key."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:419
+msgid "You can override grades in bulk. For more information, see :ref:`Override Subsection Bulk`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:421
+msgid "You can download and view a detailed per-learner report for tracking learner progress and planning learning interventions. For more information, see :ref:`Interventions Report`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:428
+msgid "Override Learner Subsection Scores in Bulk"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:430
+#: ../../../shared/student_progress/course_grades.rst:485
+msgid "Master’s-only feature"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:432
+msgid "This feature is available in courses with a Master’s track, to support bulk grade adjustments or curving. It allows you to override subsection (i.e. assignment or exam) grades for in bulk by uploading a file."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:434
+msgid "Grade overrides apply to all learners enrolled in supported courses. There is a size limit of 4MB (~10k learners) for uploaded files. If your Master’s track course is bigger than this, you’ll have to upload grading files in chunks."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:436
+msgid "To override grades in bulk, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:442
+#: ../../../shared/student_progress/course_grades.rst:495
+msgid "Select **View Gradebook**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:444
+msgid "Set up the filters to identify the segment of learners you want to grade."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:446
+msgid "Click the **Download Grades** button to download a CSV of subsection assignment grades for learners matching the currently specified filters."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:448
+msgid "The CSV contains one row per learner, and the following columns:"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:450
+msgid "**username**: The user's edX username"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:451
+msgid "**student_key**: The user's external university ID, if configured"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:452
+msgid "**course_id**: The course ID"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:453
+msgid "**track**: The user's enrollment track (e.g. audit, verified, etc.)"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:454
+msgid "**cohort**: The user's assigned cohort, if any"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:456
+msgid "In addition, there are five columns per graded subsection. **<id>** is a unique internal identifier for each graded subsection."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:458
+msgid "**name-<id>**: The name of the subsection"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:459
+msgid "**grade-<id>**: The “effective” grade for the subsection. This is equal to the override grade if there is an override, otherwise it is equal to the “original grade”"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:460
+msgid "**original_grade-<id>**: The grade that the user earned through answering problems and being scored through the LMS"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:461
+msgid "**previous_override-<id>**: The overridden grade (if any) that the learner has received through gradebook grade overrides"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:462
+msgid "**new_override-<id>**: This column will always be blank. This is where you will enter the user's new grade for the subsection"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:464
+msgid "Fill in the points to award in the new_override column for the assignment(s) you want to override grades for and save the file."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:466
+msgid "Return to the Gradebook and click the **Import Grades** button."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:468
+msgid "Select your updated grades file and click **Open**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:470
+msgid "The Gradebook will process your file, update learner grades, and provide a summary of grades updated and any errors."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:473
+msgid "It can take several minutes for the file upload to complete and grades to be fully updated."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:475
+msgid "You can find a history of files uploaded and summary of results by clicking the **View Bulk Management History** link at the top of the page."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:483
+msgid "Per-Learner Interventions Report"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:487
+msgid "This feature is available in courses with a Master’s track, to support manual learning interventions. It allows you to export per-learner progress and grade information for Master’s track learners, and enables you to identify and reach out to learners who may need additional help."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:489
+msgid "To download and view the interventions report, follow these steps:"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:497
+msgid "Set up the filters to identify the segment of learners you want to view"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:499
+msgid "Click the **Download Interventions** button to download a CSV report of progress and grades information for these learners."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:502
+msgid "The report file contains per-learner information for learners in the Master’s track, including:"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:504
+msgid "edX user ID"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:506
+msgid "edX username"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:508
+msgid "Student Key"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:510
+msgid "Email"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:512
+msgid "Full Name"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:514
+msgid "Course ID"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:516
+msgid "Cohort"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:518
+msgid "Activity in this course -- number of videos, problems, and discussion forum posts submitted over the last week and overall in this course"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:520
+msgid "Assignment grades"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:522
+msgid "Letter Course Grade"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:524
+msgid "Numeric Course Grade to-date"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:526
+msgid "Learner data is updated every day to include activity through the end of the previous day (23:59 UTC)."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:533
+msgid "Check the Progress of a Specific Learner"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:535
+msgid "To check a single learner's progress in your course, you can review the data in the :ref:`grade report<Access_grades>` or :ref:`problem grade report<problem_report>`, or review the learner's **Progress** page."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:539
+msgid "The **Progress** page includes a variety of features which allow learners to gauge their performance in a course. The main features of the **Progress** page are:"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:542
+msgid "the :ref:`Course Completion<course_completion>` chart, which represents all course content completed, both graded and ungraded,"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:544
+msgid "the :ref:`Grades<grades_chart>` chart, which compares the current weighted grade compared to the grade required to pass the course and receive a certificate,"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:546
+msgid "the :ref:`Grade Summary<grade_summary>` table, which lists all assignment types and their weights,"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:548
+msgid "the :ref:`Detailed Grades<detailed_grades>` display, which lists each graded assignment in the course and the score earned,"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:550
+msgid "and the :ref:`Certificate Status<certificate_status>` display, which describes whether the learner has earned a certificate."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:561
+msgid "View a Specific Learner's Progress Page"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:563
+msgid "To view a specific learner's **Progress** page, you need their email address or username. You can check the progress for learners who are either enrolled in, or who have unenrolled from, the course."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:567
+msgid "Learners can view their own progress chart and assignment scores when they are logged in to the course."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:570
+msgid "To view the **Progress** page for a specific learner, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:574
+msgid "Next to **View this course as**, select **Specific student**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:576
+msgid "In the **Username or email** field that appears, enter the learner's username or email address, and then press the Enter key on your keyboard."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:579
+msgid "Select the **Progress** page."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:581
+msgid "It is important to keep in mind that some of the performance displays may be impacted by content or grade visibility settings in Studio. The implications of these settings will be discussed in the following section."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:589
+msgid "Understanding the Progress Page"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:594
+msgid "Course Completion"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:596
+msgid "This chart represents how much of the course content learner’s have completed. All units that can be completed are accounted for in this chart, including readings, videos, graded assignments, practice assignments, and assignments with future scheduled release dates."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:600
+msgid "The :ref:`Subsection Visibility Setting<Content Hidden from Students>` in Studio impacts what content is represented in the Course Completion chart."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:602
+msgid "Course content with a **Subsection Visibility Setting** of “Entirely Hide Subsection” will not appear in the chart."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:604
+msgid "Course content in self-paced courses with a **Subsection Visibility Setting** of “Hide content after course end date” will not appear in the chart once the course has ended."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:606
+msgid "Course content in instructor-paced courses with a **Subsection Visibility Setting** of “Hide content after due date” will not appear in the chart once the assignment’s due date has passed."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:0
+msgid "Pie chart representing how much course content has been completed."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:614
+msgid "Grades"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:616
+msgid "This feature displays the minimum passing grade in the course against the learner's current grade. The :ref:`Assessment Visibility Setting<Problem Results Visibility>` in Studio impacts the grade calculation on the **Progress** page. Different settings determine whether a graded assignment is considered when calculating the grade to display to the learner."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:620
+msgid "If “Always Show Results” has been selected, the assignment will be factored into this grade."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:622
+msgid "If “Never Show Results” has been selected, the assignment will not be factored into this grade. This does not change the learner’s grade within Gradebook. This also does not impact the learner’s eligibility for a certificate."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:624
+msgid "If “Show When Subsection is Past Due” has been selected, the assignment will only be factored into this grade when the assignment due date has passed."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:626
+msgid "Regardless of which **Assessment Visibility Setting** is selected, it will not impact the grade within the **Gradebook** of the **Student Admin** tab. A learner's certificate eligibility is based on the grade in the **Gradebook**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:629
+msgid "Additionally, the Grades display includes a description of the :ref:`grade range<Set the Grade Range>` set for the course. The default grade range for a course is a binary Pass/Fail. If your course has additional ranges, they will be displayed here."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:0
+msgid "Example of the Grades feature where the learner's current grade is not above the minimum passing grade."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:638
+msgid "Grade Summary"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:640
+msgid "The Grade Summary table breaks down each :ref:`assignment type<Configure the Assignment Types>` available in the course and the learner's performance in each type. The grades displayed in this section follow the same calculation criteria as the :ref:`Grades<grades_chart>` feature. To recap, an assignment will be factored into this grade calculation if its :ref:`Assessment Visibility Setting<Problem Results Visibility>` has been set to \"Always Show Results\" or \"Show When Subsection is Past Due\"."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:0
+msgid "Grade Summary table displaying assignment types and weighted grades."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:650
+msgid "Detailed Grades"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:652
+msgid "The Detailed Grades section is a list of all graded assignments in a course. Both the overall subsection grade and the individual problem scores are included in this list. Assignments will not appear in this display if any of the following criteria are true:"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:655
+msgid "The assignment has its :ref:`Subsection Visibility Setting<Content Hidden from Students>` set to \"Entirely Hide Subsection\"."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:657
+msgid "The assignment has a future scheduled release date."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:659
+msgid "The assignment is not graded."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:0
+msgid "Detailed Grades feature that displays subsection scores."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:667
+msgid "Certificate Status"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:669
+msgid "Certificate Status will only be displayed if your course has a certificate option. If your course is eligible, this feature will describe which of the following states the learner is in:"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:672
+msgid "**Passing**, where the learner has earned the minimum grade required to earn a certificate."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:674
+msgid "**Not passing**, where the learner has not earned the minimum grade required to earn a certificate."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:676
+msgid "**Audit learner**, where the learner is in an audit track and does not qualify for a certificate."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:678
+msgid "**Certificate not yet available**, where the course is instructor-paced, and the certificate will not be available until after the course end date."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:680
+msgid "**ID not verified**, where the learner has not completed their ID verification."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:682
+msgid "**Can request certificate**, where the learner has earned a certificate, but the certificate has yet to be generated. In this case, the learner can request a certificate."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:0
+msgid "Certificate Status feature describing the learner has passed and can view their certificate."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:692
+msgid "Grant Due Date Extensions for a Specific Learner"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:694
+msgid "We’re providing a way to allow extending subsection due dates per individual learner."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:696
+msgid "This could be used to support special circumstances, personal emergencies, and disabilities accommodations."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:698
+msgid "*Note: This feature currently only extends assignment due dates - it does not cover other due dates - e.g. for Open Response Assessments*"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:702
+msgid "Instructions"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:704
+msgid "To extend a deadline for a learner, visit the **Extensions** tab on the **Instructor Dashboard**"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:706
+msgid "Look up learner by email address or username"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:708
+msgid "Choose the graded subsection from the dropdown"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:710
+msgid "Enter new due date"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:712
+msgid "Specify the reason for the extension"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:714
+msgid "Click **Change due date for student**"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:717
+msgid "You can also use this tab to **view all deadlines** or **reset a deadline**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:719
+msgid "*This feature is supported in courses published after June 1, 2019. To enable for an older course, first Publish the course from Studio. If you have questions, please contact your edX Project Coordinator.*"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:727
+msgid "Adjust Grades for One or All Learners"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:729
+msgid "If you :ref:`modify a problem or its settings<Modifying a Released Problem>` after learners have attempted to answer it, we recommend that you rescore the changed problem so that learners' grades are updated."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:733
+msgid "You can adjust an individual learner's score for a problem using either the **Staff Debug Info** option in the course, the gradebook that you can access from the **Student Admin** tab of the instructor dashboard in the LMS,  or on the **Student Admin** tab of the instructor dashboard in the LMS. To adjust the scores for all enrolled learners at once, you use the options on the **Student Admin** tab of the instructor dashboard in the LMS. If you use the options in the instructor dashboard **Student Admin** tab, you need to :ref:`obtain the unique location identifier<find_URL>` of the problem."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:742
+msgid "The following sections describe the various ways in which you can adjust learners' scores when you cannot avoid making a correction or other change to a problem."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:754
+msgid "Override a Learner's Score for a Problem"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:756
+msgid "In some cases, you might want to change, or override, the score that Studio has given a learner for a specific problem. For example, you might receive an email message that explains extenuating circumstances for a learner. You can change an individual learner's score for a problem using either the instructor dashboard Gradebook, the instructor dashboard **Student Admin** page, or the Staff Debug viewer for the problem."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:766
+msgid "Override a Learner's Subsection Score Using the Instructor Dashboard Gradebook"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:768
+msgid "To override a learner's score for a specific subsection by using the instructor dashboard Gradebook, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:771
+#: ../../../shared/student_progress/course_grades.rst:799
+msgid "View the live version of your course in the LMS."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:775
+msgid "Select **View Gradebook.**"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:777
+msgid "Enter the learner's user name in the **Search** field."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:779
+msgid "Click the score for the assignment that you want to modify. The **Edit Grades** dialog opens, displaying the assignment name, the learner's user name, and the current grade for the assignment."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:0
+msgid "The Edit Grades dialog, which enables you to adjust a learner's\n"
+"grade for an assignment."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:787
+msgid "In the **Adjusted grade** field, enter the new grade for the learner on this assignment and select **Save Grade**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:791
+msgid "Override a Learner's Score Using the Instructor Dashboard Student Admin"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:793
+msgid "To override a learner's score for a specific problem by using the instructor dashboard Student Admin page, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:796
+msgid "Obtain the location identifier for the problem that you want to rescore. For more information, see :ref:`find_URL`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:803
+msgid "Under **Adjust a learner's grade for a specific problem**, enter the learner's email address or username, and then enter the location of the problem in the course. For more information, see :ref:`find_URL`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:807
+msgid "Under **Score Override**, enter the new score for the problem, and then select **Override Learner's Score**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:811
+msgid "Make sure that the new score is out of the weighted total points for the problem."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:814
+#: ../../../shared/student_progress/course_grades.rst:972
+#: ../../../shared/student_progress/course_grades.rst:1008
+msgid "In the confirmation dialog box, select **OK** for each of the confirmation and status messages."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:817
+#: ../../../shared/student_progress/course_grades.rst:979
+#: ../../../shared/student_progress/course_grades.rst:1015
+msgid "To view the results of the rescore process, select **Show Task Status**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:819
+msgid "A table displays the status of the override process."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:823
+msgid "Override a Learner's Score Using the Staff Debug Viewer"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:825
+msgid "To override a learner's score for a specific problem by using the Staff Debug viewer, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:828
+msgid "Obtain the username or email address of the learner whose score you want to change."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:831
+msgid "Select **Course** and navigate to the component that contains the problem you want."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:833
+#: ../../../shared/student_progress/course_grades.rst:895
+#: ../../../shared/student_progress/course_grades.rst:932
+#: ../../../shared/student_progress/course_grades.rst:1049
+#: ../../../shared/student_progress/course_grades.rst:1129
+msgid "Display the problem, and then select **Staff Debug Info**. The Staff Debug viewer opens."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:835
+msgid "In the **Username** field, enter the learner’s email address or username."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:836
+msgid "In the **Score (for override only)** field, enter the correct score for the learner, and then select **Override Score**. A message indicates a successful adjustment."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:839
+#: ../../../shared/student_progress/course_grades.rst:902
+#: ../../../shared/student_progress/course_grades.rst:939
+#: ../../../shared/student_progress/course_grades.rst:1056
+#: ../../../shared/student_progress/course_grades.rst:1136
+#: ../../../shared/student_progress/course_grades.rst:1186
+msgid "To close the Staff Debug viewer, click on the browser page outside of the viewer."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:846
+msgid "Rescore Learner Submissions for a Problem"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:848
+msgid "Each problem that you create for your course includes the definition of a correct answer, and might also include a tolerance or acceptable alternatives. If you make a change to the accepted answers for a problem, you can rescore any learner responses that were already submitted."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:855
+msgid "You can only rescore problems that have a correct answer defined in edX Studio, including CAPA problems and drag and drop problems. This procedure cannot be used to rescore open response assessment (ORA) problems or problems that are scored by an external grader. For ORA problems, you can :ref:`override a learner assessment grade<Override a learner assessment grade>` in Studio."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:862
+msgid "Additionally, errors might occur if you rescore a problem that has multiple response fields and you have completed any of the following actions."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:865
+msgid "You removed a response field."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:866
+msgid "You added a response field."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:867
+msgid "You reordered any of the response fields."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:878
+msgid "Rescore an Individual Learner's Submission Only if the Score Improves"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:880
+msgid "This method of rescoring updates a learner's score only if it improves with the rescoring. If the score is unchanged or might be lower after the rescoring, the learner's score is not updated."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:884
+msgid "To rescore a problem for a single learner and update the score only if it improves, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:887
+#: ../../../shared/student_progress/course_grades.rst:924
+msgid "Obtain the username or email address of the learner whose submission you are rescoring."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:892
+#: ../../../shared/student_progress/course_grades.rst:929
+msgid "Select **Course** and navigate to the component that contains the problem you want to rescore."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:898
+msgid "In the **Username** field, enter the learner's email address or username, and then select **Rescore Only If Score Improves**. A message indicates a successful adjustment."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:905
+#: ../../../shared/student_progress/course_grades.rst:942
+msgid "You can also rescore an individual's submission in the **Adjust a learner's grade for a specific problem** section on the **Student Admin** tab of the instructor dashboard. To do this, you need to obtain :ref:`the location ID<find_URL>` of the problem as well as the learner's username or email address."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:915
+msgid "Rescore an Individual Learner's Submission"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:917
+msgid "Depending on the type of change you made to the problem, this method of rescoring might decrease the learner's score. To avoid negatively affecting learner scores, you can instead :ref:`rescore a learner's submission only if the score improves<rescore_only_improve>`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:922
+msgid "To rescore an individual learner's submission, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:935
+msgid "In the **Username** field, enter the learner's email address or username, and then select **Rescore Learner's Submission**. A message indicates a successful adjustment."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:952
+msgid "Rescore Submissions for All Learners Only if Scores Improve"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:954
+msgid "This method of rescoring updates learners' scores only if they improve with the rescoring. Learners' scores that are unchanged or lower after the rescoring are not updated."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:958
+msgid "To rescore a problem for all enrolled learners in your course, and update scores only if they improve, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:961
+#: ../../../shared/student_progress/course_grades.rst:997
+msgid "Obtain the location identifier for the problem that you want to rescore. For information, see :ref:`find_URL`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:968
+msgid "In the **Adjust all enrolled learners' grades for a specific problem** section of the page, enter the location of the problem, and then select **Rescore Only If Scores Improve**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:975
+#: ../../../shared/student_progress/course_grades.rst:1011
+msgid "The rescoring process can take some time to complete for all enrolled learners. You can navigate away from this page and do other work while the process runs in the background."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:981
+#: ../../../shared/student_progress/course_grades.rst:1017
+msgid "A table displays the status of the rescore process."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:987
+msgid "Rescore Submissions for All Learners"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:989
+msgid "Depending on the type of change you made to the problem, this method of rescoring might decrease learners' scores. To avoid negatively affecting learners' scores, you can instead :ref:`rescore learners' submissions only if scores improve<rescore_all_learners_only_improve>`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:994
+msgid "To rescore a problem for all enrolled learners in your course, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1004
+msgid "In the **Adjust all enrolled learners' grades for a specific problem** section of the page, enter the location of the problem, and then select **Rescore All Learners' Submissions**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1024
+msgid "Reset Learner Attempts for a Problem"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1026
+msgid "When you create a problem, you can limit the number of times that a learner can try to answer that problem correctly. If unexpected issues occur for a problem, you can reset the value for one particular learner's attempts back to zero so that the learner can begin work over again. If the unexpected behavior affects all of the learners in your course, you can reset the number of attempts for all learners to zero."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1033
+msgid "You cannot use this method with open response assessment (ORA) problems. To allow a learner to start an ORA problem again and resubmit responses, you must :ref:`delete the learner's state<delete_state>`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1038
+msgid "Reset Attempts for an Individual Learner"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1040
+msgid "To reset the number of attempts for a single learner, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1042
+msgid "Obtain the learner's username or email address."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1046
+msgid "Select **Course** and navigate to the component that contains the problem you want to reset."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1052
+msgid "In the **Username** field, enter the learner's email address or username, and then select **Reset Learner's Attempts to Zero**. A message indicates a successful adjustment."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1060
+msgid "Reset Attempts for All Learners"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1062
+msgid "To reset the number of attempts that all enrolled learners have for a problem, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1065
+msgid "Obtain the location identifier for the problem whose attempts you are resetting. For more information, see :ref:`find_URL`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1072
+msgid "To reset the number of attempts for all enrolled learners, you work in the **Adjust all enrolled learners' grades for a specific problem** section of the page. Enter the unique problem location, and then select **Reset Attempts to Zero**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1077
+msgid "A dialog opens to indicate that the reset process is in progress. Select **OK**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1080
+msgid "This process can take some time to complete. The process runs in the background, so you can navigate away from this page and do other work while it runs."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1084
+msgid "To view the results of the reset process, select **Show Task Status**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1086
+msgid "A table displays the status of the reset process for each learner or problem."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1089
+msgid "You can use a similar procedure to reset problem attempts for a single learner. You work in the **Student-Specific Grade Adjustment** section of the page to enter both the learner's email address or username and the unique problem identifier, and then select **Reset Student Attempts**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1098
+msgid "Delete a Learner's State for a Problem"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1100
+msgid "You can completely delete a learner's database history, or \"state\", for a problem. You can only delete learner state for one learner at a time."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1103
+msgid "For example, you realize that a problem needs to be rewritten after only a few of your learners have answered it. To resolve this situation, you rewrite the problem and then delete learner state only for the affected learners so that they can try again."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1108
+msgid "To delete a learner's entire history for a problem from the database, you need that learner's username or email address."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1111
+msgid "Learner state is deleted permanently by this process. This action cannot be undone."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1114
+msgid "When you delete a learner's state for an open response assessment (ORA) problem, the learner will have to start the assignment from the beginning, including submitting responses and going through the required assessment steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1119
+msgid "You can use either the **Staff Debug Info** option or the instructor dashboard to delete learner state."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1122
+msgid "To use the **Staff Debug Info** option, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1126
+msgid "Select **Course** and navigate to the component that contains the problem."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1132
+msgid "In the **Username** field, enter the learner's email address or username, and then select **Delete Learner's State**. A message indicates a successful adjustment."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1139
+msgid "To use the instructor dashboard, you must first obtain the unique identifier of the problem. See :ref:`find_URL`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1144
+msgid "In the **Adjust a learner's grade for a specific problem** section of the page, enter both the learner's email address or username and the unique problem identifier, and then select **Delete Learner's State**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1153
+msgid "Find the Unique Location Identifier for a Problem"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1155
+msgid "When you create each of the problems for a course, edX assigns a unique location to it. To make grading adjustments for a problem, or to view data about it, you need to specify the problem location."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1159
+msgid "Location identifiers for problems can be in one of these formats."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1161
+msgid "``location = block-v1:{org}+{course}+{run}+type@problem+block@{id}``, for example, ``location = block-v1:edX+BlendedX+1T2015+type@problem+block@72e0f73cdf5c4d648ebec0022854f18b``"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1164
+msgid "``location = i4x://{org}/{course}/problem/{id}``, for example, ``location = i4x://edX/edX101/problem/680cc746e8ee473490841334f0235635``"
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1167
+msgid "Courses created since Fall 2014 typically have usage IDs in the first format, while older courses have usage IDs in the second format."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1170
+msgid "To find the unique location identifier for a problem, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1174
+msgid "Select **Course**, and then navigate to the unit that contains the problem."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1177
+msgid "Display the problem, and find the **Submission History** and **Staff Debug Info** options that appear below it."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1180
+msgid "Select **Staff Debug Info**. Information about the problem appears, including its **location**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_grades.rst:1183
+msgid "To copy the location of the problem, select the entire value after ``location =``, right click, and then select **Copy**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:5
+msgid "Learner Data"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:7
+msgid "You can access data about the individuals who are enrolled in your course at any time after you create the course."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:14
+msgid "To supplement the learner data that is available from the instructor dashboard in the LMS, you can use the charts and reports that are available from edX Insights. With Insights, you can review demographic and geographic distributions for enrolled learners. You can also monitor learner activity and review the number of learners who, each week, interacted with your course. For more information, see :ref:`Using edX Insights<insights:Overview>`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:25
+msgid "Guidance for Working with Personal Information"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:27
+msgid "The information that edX collects from site registrants includes personal information that can be used to identify, contact, and locate individuals. This information is available to course team members with the Admin or Staff role for the learners who are enrolled in their courses."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:32
+msgid "Members of the course team should follow the policies established by their organizations and comply with the legal requirements of their locales to prevent public distribution or misuse of this information."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:40
+msgid "Accessing Learner Data"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:42
+msgid "In the LMS, you can download data about the individuals who are currently enrolled in your course in a .csv (comma-separated values) file. You can also view data for enrolled learners on the instructor dashboard. For more information, see :ref:`View and download student data`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:47
+msgid "For information about course enrollment, see :ref:`Enrollment`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:51
+msgid "About Learner-Reported Data"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:53
+msgid "When learners create, or register, their user accounts, they select a public username and supply their full names and email addresses. Learners also have the option to provide personal demographic information, including highest level of education completed, gender, year of birth, and preferred language. Because this information is optional, not all of the learners who are enrolled in your course provide it."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:60
+msgid "After learners create an account, they can enroll in as many individual courses as they choose."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:63
+msgid "The learner data that is available from the instructor dashboard reflects the set of live, current enrollments. Data for the course team, who are also enrolled in the course, is included."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:67
+msgid "Learners can enroll in your course throughout the defined enrollment period, and they can unenroll from a course at any time."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:70
+msgid "Learners can update their personal information at any time on the :ref:`Account Settings<SFD Update Account Settings>` page."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:73
+msgid "As a result, you might want to download learner data periodically to gain an understanding of how the learner population changes over time."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:80
+msgid "Columns in the Student Profile Report"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:82
+msgid "The student profile report includes a row for each enrolled learner or course team member and the following columns."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:87
+msgid "The descriptions of columns in the following table apply to edx.org. Required or optional fields shown to learners during registration and available for editing in **Account Settings** might vary for Open edX sites."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:98
+msgid "id"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:99
+msgid "The user account ID number that the system assigns to each registrant."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:100
+msgid "username"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:101
+msgid "The public username entered by the learner. Usernames are required and cannot be changed."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:103
+msgid "name"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:104
+msgid "The full name entered by the learner. A name is required. Learners can update this value on the **Account Settings** page."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:106
+msgid "email"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:107
+msgid "The email address entered by the learner. An email address is required. Learners can update this value on the **Account Settings** page."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:109
+msgid "language"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:110
+msgid "This column is included for backward compatibility only. This data is no longer collected during account creation. The selection that a learner makes for language on the **Account Settings** page is not included in this report."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:114
+msgid "location"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:115
+msgid "This column is included for backward compatibility only. The selection that a learner makes for **Country** during registration or for **Country or Region** on the **Account Settings** page is displayed in the \"country\" column of this report."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:119
+msgid "year_of_birth"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:120
+#: ../../../shared/student_progress/course_student.rst:123
+msgid "This value is optional and can be updated on the **Account Settings** page."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:122
+msgid "gender"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:125
+msgid "level_of_education"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:126
+msgid "This value is optional and can be updated on the **Account Settings** page. For a list of the possible values, see the description of the :ref:`data:auth_userprofile` table's level_of_education column in the *EdX Research Guide*."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:130
+msgid "mailing_address"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:131
+msgid "No longer collected during registration. Previously, this value was optional and was supplied only at registration."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:133
+msgid "goals"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:134
+msgid "This value is optional and is supplied only at registration."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:135
+msgid "enrollment_mode"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:136
+msgid "Indicates the enrollment track that the learner is enrolled in, such as \"audit\" or \"verified\"."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:138
+msgid "verification_status"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:140
+msgid "Indicates whether learners who are enrolled in course tracks that require ID verification have successfully verified their identities to edX by submitting an official photo ID via webcam. The value in this column is \"N/A\" for learners enrolled in course tracks that do not require ID verification."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:146
+msgid "A value of \"Not ID Verified\" in this column indicates that the learner is enrolled in a course track that requires ID verification (such as \"verified\") but she has not attempted ID verification, or the ID verification has failed or expired."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:151
+msgid "A value of \"ID Verified\" indicates that the learner is enrolled in a course track that requires ID verification, and her ID verification is current and valid."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:155
+msgid "cohort"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:156
+msgid "This column is included only if the course has cohorts enabled. For courses that include learner cohorts, shows the name of the cohort group that is assigned to the learner. If a learner is not assigned to a cohort, the value is ``[unassigned]``."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:160
+msgid "team"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:161
+msgid "This column is included only if the course has teams enabled. For courses that include teams, shows the name of the team that the learner belongs to. If a learner has not joined a team, the value is ``[unavailable]``."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:164
+msgid "city"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:165
+msgid "Data for this column is not currently collected on edx.org."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:166
+msgid "country"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:167
+msgid "Learners are required to specify **Country** during registration, and can update this value on the **Account Settings** page."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:176
+msgid "Download or View Learner Data"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:178
+msgid "You can download a report of learner data to gain more information about the individuals who are enrolled in your course. You also have the option to view learner data on the instructor dashboard."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:183
+msgid "Download Learner Data"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:185
+msgid "To download learner data, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:191
+msgid "To download data about enrolled learners in a .csv file, select **Download profile information as a CSV**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:194
+msgid "A status message indicates that report generation is in progress. The number of learners enrolled in your course, and whether your course has the cohort feature enabled, affect how long this process takes. This process can take some time to complete, but you can navigate away from this page and do other work while it runs."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:200
+msgid "To track the progress of the report process, reload the page in your browser and scroll down to the **Pending Tasks** section."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:203
+msgid "To open or save a student profile report, select the ``{course_id}_student_profile_info_{date}.csv`` file name at the bottom of the page."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:207
+msgid "All learner-supplied data is included in this file without truncation. For more information, see :ref:`Columns in the Student Profile Report`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:211
+msgid "View Learner Data"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:213
+msgid "To view learner data, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:220
+msgid "To display data about enrolled learners, select **List enrolled students' profile information**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:223
+msgid "A table of profile data displays, with one row for each enrolled learner. Longer values, such as goals, are truncated. For more information, see :ref:`Columns in the Student Profile Report`."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:231
+msgid "Accessing Anonymized Learner IDs"
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:233
+msgid "Some of the tools that are available for use with the edX platform, including external graders and surveys, work with anonymized learner data. If it becomes necessary for you to deanonymize previously anonymized data, you can download a CSV file to use for that purpose."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:238
+msgid "To download a file of assigned user IDs and anonymized user IDs, follow these steps."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:245
+msgid "Select **Get Student Anonymized IDs CSV**."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:247
+msgid "You are prompted to open or save the {course-id}-anon-id.csv file for your course. This file contains the user ID that is assigned to each learner at registration and its corresponding edX-wide anonymized user ID and course specific anonymized user ID. Values are included for every learner who ever enrolled for your course."
+msgstr ""
+
+#: ../../../shared/student_progress/course_student.rst:253
+msgid "To research and deanonymize learner data, you can use this file together with the ``{course_id}_student_profile_info_{date}.csv`` file of learner data or the ``{course_id}_grade_report_{date}.csv`` file of grades."
+msgstr ""
+
+#: ../../source/student_progress/index.rst:5
+msgid "Managing Learner Progress and Grades"
+msgstr ""
+
+#: ../../source/student_progress/index.rst:7
+msgid "Use the topics in this section to learn about accessing learner data and managing learners' answers and grades in your course."
+msgstr ""
