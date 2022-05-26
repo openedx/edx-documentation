@@ -1,5 +1,5 @@
 ###################
-EdX Documentation
+EdX Duckumentation
 ###################
 
 The edx-documentation repository contains source files for most of the
