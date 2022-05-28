@@ -79,6 +79,8 @@ Mobile Experience
 Special Exams Experience
 ------------------------
 
+To take a proctored exam, the learner must now be enrolled in a `verified` course track. Note that ID verification (IDV) is not required.
+
 
 ======================
 Instructor Experiences
