@@ -78,8 +78,8 @@ Open-Response Assessments
 -------------------------
 
 
-Account Micro-frontend
-----------------------
+Account Micro-frontend (MFE)
+----------------------------
 
 The Account Micro-frontend is now enabled by default. The legacy account pages will be removed in the next release, Olive.
 
