@@ -70,6 +70,8 @@ Open-Response Assessments
 Account Micro-frontend
 ----------------------
 
+The Account Micro-frontend is now enabled by default. The legacy account pages will be removed in the next release, Olive.
+
 Payment Micro-frontend
 -----------------------
 
@@ -238,6 +240,7 @@ Deprecated in Nutmeg (or earlier) and scheduled to be removed in the Olive relea
 * the `frontend-learner-portal-base`_ library
 * The `xblock.fragment module`_ and deprecated :code:`id_generator` method parameters in :code:`xblock.runtime`
 * The legacy courseware experience (rendered server-side by Django) will be removed. The Learner MFE will be required.
+* The legacy account pages will be removed. The Account MFE will be required.
 * EdxRestApiClient is no longer supported, as you may have been able to tell from the many, many deprecation warnings.
 * DraftModuleStore (also know as Old Mongo Modulestore) will be removed. "Old Mongo" course access was already removed in nutmeg.
 * microsites djangoapp
