@@ -99,12 +99,12 @@ To take a proctored exam, the learner must now be enrolled in a `verified` cours
 Instructor Experiences
 ======================
 
-Studio
-------
+Course Authoring Micro-frontend (MFE)
+-------------------------------------
 
+The Course Authoring MFE is available as an experimental feature, but support for theming, internationalization and path-based deployments are incomplete. It will be supported in the next release, Olive.
 
-Course Authoring Import Messaging & Validation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The Course Authoring MFE replaces the "Pages" menu item in Studio with "Pages and Resources" and gives access to new features, like the "Live xBlock" for Zoom integration.
 
 
 Open-Response Assessments
