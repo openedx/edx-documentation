@@ -29,6 +29,7 @@ Default Django admin login window is disabled and now one has to login from LMS.
 Learner Experiences
 ===================
 
+
 User Tours
 ----------
 User Tours are walkthroughs that can be presented to users in micro-frontends (MFEs). The default tours that exist are: "Course Home New User Tour" (`screencast`_), "Course Home Existing User Tour", and "Courseware New User Tour".
@@ -51,6 +52,16 @@ The Dates Tab has been added as a default static tab on all courses. All new cou
 Weekly Course Goals
 -------------------
 The old course goals feature has been replaced with a new weekly learning goals feature. Users set a goal for how frequently they want to learn per course and get reminder emails about their goals. See `4.30. Enabling the Weekly Learning Goals Feature in "Installing, Configuring, and Running the Open edX Platform"`_ for instructions on how to configure this feature and more details on how the feature works. The new weekly learning goals feature is controlled with the same flag as the previous course goals feature.
+
+Authentication Micro-Frontend (MFE)
+-----------------------------------
+
+The Authentication Micro-Frontend is available as an experimental feature, but support for theming, internationalization and path-based deployments are incomplete. It will be supported in the next release, Olive.
+
+Discussions
+-----------
+
+The Discussions Micro-Frontend (MFE) is available as an experimental feature, but support for theming, internationalization and path-based deployments are incomplete. It will be supported in the next release, Olive.
 
 
 Learning Micro-Frontend (MFE)
