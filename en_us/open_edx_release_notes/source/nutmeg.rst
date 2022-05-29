@@ -92,7 +92,7 @@ Mobile Experience
 Special Exams Experience
 ------------------------
 
-To take a proctored exam, the learner must now be enrolled in a `verified` course track. Note that ID verification (IDV) is not required.
+To take a proctored exam, the learner must now be enrolled in a :code:`verified` course track. Note that ID verification (IDV) is not required.
 
 
 ======================
@@ -109,6 +109,8 @@ The Course Authoring MFE replaces the "Pages" menu item in Studio with "Pages an
 
 Open-Response Assessments
 -------------------------
+
+The ORA Grading Micro-frontend (MFE) is available as an experimental feature, but support for theming, internationalization and path-based deployment maybe be incomplete. It will be support in the next release, Olive. The MFE can be enabled by setting a value for :code:`ORA_GRADING_MICROFRONTEND_URL`.
 
 
 LTI 1.3 and LTI Advantage Support
