@@ -292,6 +292,8 @@ Major deprecation work is being funded between now and the Olive release, schedu
 Researcher & Data Experiences
 =============================
 
+* added a :code:`complete_video` event that fires when a user has watched a video to the end. Requires the waffle switch :code:`completion.enable_completion_tracking`
+
 
 =====================
 Developer Experiences
