@@ -49,6 +49,8 @@ The Dates Tab has been added as a default static tab on all courses. All new cou
 
     $ python manage.py cms backfill_course_tabs
 
+The Dates Tab has also been removed from the legacy learner experience. It is only available in the Learner MFE. This is the first step in remove the legacy learner experience altogether, which will be completed in the Olive release.
+
 Weekly Course Goals
 -------------------
 The old course goals feature has been replaced with a new weekly learning goals feature. Users set a goal for how frequently they want to learn per course and get reminder emails about their goals. See `4.30. Enabling the Weekly Learning Goals Feature in "Installing, Configuring, and Running the Open edX Platform"`_ for instructions on how to configure this feature and more details on how the feature works. The new weekly learning goals feature is controlled with the same flag as the previous course goals feature.
