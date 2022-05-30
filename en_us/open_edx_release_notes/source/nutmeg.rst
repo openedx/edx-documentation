@@ -150,7 +150,9 @@ Administrators & Operators
 
 * Add another field to the registration form, :code:`marketing_emails_opt_in`, for marketing email opt-in.
 
-* Waffle overrides can be set at the org level now (in between course level and global)
+* Waffle overrides can be set at the org level now (in between course level and global).
+
+* To customize the template for course emails, set :code:`BULK_EMAIL_SEND_USING_EDX_ACE` to true.
 
 Bulk Course Email Tool
 ----------------------
