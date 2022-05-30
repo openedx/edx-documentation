@@ -70,6 +70,8 @@ Learning Micro-Frontend (MFE)
 -----------------------------
 
 * When an XBlock fails to render, the user will not see an error message "An unexpected error occurred. Please click the button below to refresh the page."
+* RTL languages are now supported
+* Support for the experimental Discussions MFE and "Course Live" feature was added
 
 
 Certificates
@@ -155,6 +157,8 @@ Administrators & Operators
 * Waffle overrides can be set at the org level now (in between course level and global).
 
 * To customize the template for course emails, set :code:`BULK_EMAIL_SEND_USING_EDX_ACE` to true.
+
+* Course Discovery now supports Learner Pathways.
 
 Bulk Course Email Tool
 ----------------------
