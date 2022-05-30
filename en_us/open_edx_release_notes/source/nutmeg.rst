@@ -158,7 +158,7 @@ Administrators & Operators
 
 * To customize the template for course emails, set :code:`BULK_EMAIL_SEND_USING_EDX_ACE` to true.
 
-* Course Discovery now supports Learner Pathways.
+* Course Discovery API now supports Learner Pathways and Course Recommendations
 
 Bulk Course Email Tool
 ----------------------
