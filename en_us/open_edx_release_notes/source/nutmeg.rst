@@ -158,6 +158,7 @@ Administrators & Operators
 
 * Course Discovery API now supports Learner Pathways and Course Recommendations
 
+* Bug fix: When using GMSTP (Gmail) for sending bulk email, retriable SMTP exceptions were not caught and bulk sending failed. This has been fixed.
 
 Bulk Course Email Tool
 ----------------------
