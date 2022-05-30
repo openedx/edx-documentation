@@ -99,6 +99,8 @@ To take a proctored exam, the learner must now be enrolled in a :code:`verified`
 Instructor Experiences
 ======================
 
+* Course tabs have a new, standard order. When course authors change the order of static tabs, the ordering of default tabs will be enforced for a more uniform location across courses.
+
 Course Authoring Micro-frontend (MFE)
 -------------------------------------
 
