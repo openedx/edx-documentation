@@ -74,14 +74,6 @@ Learning Micro-Frontend (MFE)
 * Support for the experimental Discussions MFE and "Course Live" feature was added
 
 
-Certificates
-------------
-
-
-Open-Response Assessments
--------------------------
-
-
 Account Micro-frontend (MFE)
 ----------------------------
 
@@ -95,6 +87,8 @@ Mobile Experience
 
 * Added support for notices in apps.
 * Added an activation opt in, opt out checkbox in the registration page.
+* Mobile apps can now support LTI by opening it in a browser
+
 
 Special Exams Experience
 ------------------------
@@ -109,6 +103,7 @@ Instructor Experiences
 * Course tabs have a new, standard order. When course authors change the order of static tabs, the ordering of default tabs will be enforced for a more uniform location across courses.
 * When setting grading policies, course authors can now set the minimum grade cutoff to 99. Previously it could not be higher than 97.
 * When exporting teams csv, username and external key are now separate columns (previously, an external key would override the username, leading to ambiguity when importing teams csv)
+
 
 Course Authoring Micro-frontend (MFE)
 -------------------------------------
@@ -128,6 +123,7 @@ LTI Support
 -----------
 
 * Can now add custom parameter template values in order to be substituted by a processor. See `PR 215`_ for configuration details.
+* Mobile apps can now support LTI by opening it in a browser
 
 .. _PR 215: https://github.com/openedx/xblock-lti-consumer/pull/215
 
@@ -136,10 +132,6 @@ Gradebook Micro-FrontEnd
 
 * Added support for transifex translations.
 * Added support for custom theming.
-
-
-Special Exams Experience
-------------------------
 
 
 ==========================
@@ -165,6 +157,7 @@ Administrators & Operators
 * To customize the template for course emails, set :code:`BULK_EMAIL_SEND_USING_EDX_ACE` to true.
 
 * Course Discovery API now supports Learner Pathways and Course Recommendations
+
 
 Bulk Course Email Tool
 ----------------------
