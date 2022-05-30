@@ -100,6 +100,7 @@ Instructor Experiences
 ======================
 
 * Course tabs have a new, standard order. When course authors change the order of static tabs, the ordering of default tabs will be enforced for a more uniform location across courses.
+* When setting grading policies, course authors can now set the minimum grade cutoff to 99. Previously it could not be higher than 97.
 
 Course Authoring Micro-frontend (MFE)
 -------------------------------------
