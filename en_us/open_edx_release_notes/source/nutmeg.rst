@@ -101,6 +101,7 @@ Instructor Experiences
 
 * Course tabs have a new, standard order. When course authors change the order of static tabs, the ordering of default tabs will be enforced for a more uniform location across courses.
 * When setting grading policies, course authors can now set the minimum grade cutoff to 99. Previously it could not be higher than 97.
+* When exporting teams csv, username and external key are now separate columns (previously, an external key would override the username, leading to ambiguity when importing teams csv)
 
 Course Authoring Micro-frontend (MFE)
 -------------------------------------
@@ -116,10 +117,12 @@ Open-Response Assessments (ORA)
 The ORA Grading Micro-frontend (MFE) is available as an experimental feature, but support for theming, internationalization and path-based deployment maybe be incomplete. It will be support in the next release, Olive. The MFE can be enabled by setting a value for :code:`ORA_GRADING_MICROFRONTEND_URL`.
 
 
-LTI 1.3 and LTI Advantage Support
----------------------------------
+LTI Support
+-----------
 
+* Can now add custom parameter template values in order to be substituted by a processor. See `PR 215`_ for configuration details.
 
+.. _PR 215: https://github.com/openedx/xblock-lti-consumer/pull/215
 
 Gradebook Micro-FrontEnd
 ------------------------
@@ -144,6 +147,10 @@ Administrators & Operators
 * It's now possible to add optional, but not toggled, extra fields to the registration form. See the `PR and example config`_ for more information.
 
 .. _PR and example config: https://github.com/openedx/edx-platform/pull/29047
+
+* Add another field to the registration form, :code:`marketing_emails_opt_in`, for marketing email opt-in.
+
+* Waffle overrides can be set at the org level now (in between course level and global)
 
 Bulk Course Email Tool
 ----------------------
