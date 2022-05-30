@@ -301,6 +301,11 @@ xBlock
 
 * support for custom xBlock editors in Studio
 
+Instructor Dashboard
+--------------------
+
+* It is now possible to reference a plugin context in Instructor Dashboard templates.
+
 Learning Micro-Frontend (MFE)
 -----------------------------
 
