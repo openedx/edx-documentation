@@ -289,7 +289,7 @@ Deprecated in Nutmeg (or earlier) and scheduled to be removed in the Olive relea
 Future deprecations and removals
 --------------------------------
 
-Major deprecation work is being funded between now and the Olive release, scheduled for December 2022. Please review the `DEPR: Deprecation & Removal`_ board on Github to be sure you have stopped using deprecated technologies.
+.. note:: Major deprecation work is being funded between now and the Olive release, scheduled for December 2022. Please review the `DEPR: Deprecation & Removal`_ board on Github to be sure you have stopped using deprecated technologies.
 
 .. _DEPR\: Deprecation & Removal: https://github.com/orgs/openedx/projects/9/views/4
 
