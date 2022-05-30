@@ -93,6 +93,9 @@ Payment Micro-frontend
 Mobile Experience
 -----------------
 
+* Added support for notices in apps.
+* Added an activation opt in, opt out checkbox in the registration page.
+
 Special Exams Experience
 ------------------------
 
@@ -130,6 +133,9 @@ LTI Support
 
 Gradebook Micro-FrontEnd
 ------------------------
+
+* Added support for transifex translations.
+* Added support for custom theming.
 
 
 Special Exams Experience
