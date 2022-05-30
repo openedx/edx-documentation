@@ -138,7 +138,9 @@ Administrators & Operators
 
 * By setting the :code:`ENABLE_NEW_RELIC` to false, the new relic logging integration will be disabled across all MFEs.
 
+* It's now possible to add optional, but not toggled, extra fields to the registration form. See the `PR and example config`_ for more information.
 
+.. _PR and example config: https://github.com/openedx/edx-platform/pull/29047
 
 Bulk Course Email Tool
 ----------------------
