@@ -107,8 +107,8 @@ The Course Authoring MFE is available as an experimental feature, but support fo
 The Course Authoring MFE replaces the "Pages" menu item in Studio with "Pages and Resources" and gives access to new features, like the "Live xBlock" for Zoom integration.
 
 
-Open-Response Assessments
--------------------------
+Open-Response Assessments (ORA)
+-------------------------------
 
 The ORA Grading Micro-frontend (MFE) is available as an experimental feature, but support for theming, internationalization and path-based deployment maybe be incomplete. It will be support in the next release, Olive. The MFE can be enabled by setting a value for :code:`ORA_GRADING_MICROFRONTEND_URL`.
 
@@ -130,13 +130,15 @@ Special Exams Experience
 Administrators & Operators
 ==========================
 
-Learning Sequences
-------------------
-An internal performance improvement called “learning sequences” has been opt-in for a few releases, but is now always-on for Nutmeg. If you have any courses that have not been re-published on Koa or later, run the :code:`simulate_publish` cms django command on your courses before upgrading, to populate the learning sequence data.
+* An internal performance improvement called “learning sequences” has been opt-in for a few releases, but is now always-on for Nutmeg. If you have any courses that have not been re-published on Koa or later, run the :code:`simulate_publish` cms django command on your courses before upgrading, to populate the learning sequence data.
 
 .. code-block:: shell
 
     $ python manage.py cms simulate_publish
+
+* By setting the :code:`ENABLE_NEW_RELIC` to false, the new relic logging integration will be disabled across all MFEs.
+
+
 
 Bulk Course Email Tool
 ----------------------
@@ -259,7 +261,7 @@ Deprecated in Nutmeg (or earlier) and scheduled to be removed in the Olive relea
 * microsites djangoapp
 * the ability to import legacy OLX attributes :code:`slug`, :code:`name`, :code:`id` (discussion block), :code:`for`, and :code:`attempts`
 
-.. _bokchoy test suites: https://github.com/openedx/public-engineering/issues/13
+.. _bokchoy test suites: https://github.com/gedx/public-engineering/issues/13
 .. _frontend-learner-portal-base: https://github.com/openedx/frontend-learner-portal-base/issues/31
 .. _xblock.fragment module: https://github.com/openedx/public-engineering/issues/15
 .. _microsites djangoapp: https://github.com/openedx/public-engineering/issues/69
@@ -289,9 +291,10 @@ Open edX Events: this standardized version of Django Signals allows extension de
 
 Open edX Filters: through configuration only, extension developers can set a list of functions to be executed before a key process starts, e.g before enrollment, login, register, etc.
 
-Course Certificate Generation Logic Improvement
------------------------------------------------
+xBlock
+------
 
+* support for custom xBlock editors in Studio
 
 Learning Micro-Frontend (MFE)
 -----------------------------
