@@ -299,6 +299,10 @@ Researcher & Data Experiences
 Developer Experiences
 =====================
 
+* support for custom xBlock editors in Studio
+* added an API for updating user's email opt-in setting
+* It is now possible to reference a plugin context in Instructor Dashboard templates.
+
 Events and Filters Extension Framework
 --------------------------------------
 Core extensibility: added a new way of extending the core through `Open edX Events & Filters`_ (part of `OEP-50: Hooks Extension Framework`_)
@@ -306,20 +310,6 @@ Core extensibility: added a new way of extending the core through `Open edX Even
 Open edX Events: this standardized version of Django Signals allows extension developers to extend functionality just by listening to the event that’s sent after a key process finishes, e.g after enrollment, login, register, etc.
 
 Open edX Filters: through configuration only, extension developers can set a list of functions to be executed before a key process starts, e.g before enrollment, login, register, etc.
-
-xBlock
-------
-
-* support for custom xBlock editors in Studio
-
-Instructor Dashboard
---------------------
-
-* It is now possible to reference a plugin context in Instructor Dashboard templates.
-
-Learning Micro-Frontend (MFE)
------------------------------
-
 
 
 .. include:: links.rst
