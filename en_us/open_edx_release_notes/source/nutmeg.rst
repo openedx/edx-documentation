@@ -69,7 +69,7 @@ The Discussions Micro-Frontend (MFE) is available as an experimental feature, bu
 Learning Micro-Frontend (MFE)
 -----------------------------
 
-(Was the legacy learner experience removed in Nutmeg? I don't think so)
+* When an XBlock fails to render, the user will not see an error message "An unexpected error occurred. Please click the button below to refresh the page."
 
 
 Certificates
