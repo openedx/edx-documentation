@@ -32,3 +32,7 @@ test: ## build all the docs
 
 i18n: ## Creates the .pot files and .tx/config file for uploading translation strings to Transifex
 	./i18n.sh
+
+install_transifex_client: ## Install the Transifex client
+	curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
+	git checkout -- LICENSE README.md

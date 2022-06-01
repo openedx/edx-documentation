@@ -39,3 +39,7 @@ health.csv
 ### Translations and Transifex
 .tx/
 .doctrees
+
+# transifex exe
+tx
+
