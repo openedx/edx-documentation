@@ -7,7 +7,6 @@ Course Live
 Live app can be used to configure video conferencing LTI tools like Zoom. These tools
 will help connect educators and learners within the platform.
 
-.. _Enable or disable course live app
 ***********************************
 Enable or disable course live app
 ***********************************
@@ -68,7 +67,7 @@ To generate LTI credentials in LTI pro app:
    b. Add "https://learning.edx.org" to `Approved Domains` setting.
 
 
-To configure Zoom, navigate to Live app configurations (see :ref:`Enable or disable course live app`):
+To configure Zoom, navigate to Live app configurations (see `Enable or disable course live app`):
 
 
 1. Copy LTI URL, LTI Secret, and LTI Key from LTI pro app and paste in LTI input fields
