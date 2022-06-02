@@ -36,19 +36,20 @@ Once successfully enabled, the LTI provider will be accessible in "Live" tab in 
 Provider specific configuration
 ********************************
 
-At present, edX supports 1 video conferencing LTI provider: Zoom
+At present, edX supports one video conferencing LTI provider: Zoom
 
 
 Zoom setup
 ==========
 
-Zoom LTI pro app can be used to integrate Zoom video conferencing at the course level.
+`Zoom LTI pro app <https://marketplace.zoom.us/apps/f8JUB3eeQv2lXsjKq5B2FA>`_
+can be used to integrate Zoom video conferencing at the course level.
 Course authors will need to generate their own credentials for the Zoom LTI pro app and
 add those credentials in Live app configuration for Zoom.
 
 Instructors can use the the LTI Pro app to schedule and start Zoom meetings and students can
 see and join these meetings to attend classes, office hours, study groups etc. Learn more about
-the app here.
+the app `here <https://marketplace.zoom.us/apps/f8JUB3eeQv2lXsjKq5B2FA>`_.
 
 To generate LTI credentials in LTI pro app:
 
