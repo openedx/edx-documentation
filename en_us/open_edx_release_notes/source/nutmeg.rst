@@ -23,7 +23,7 @@ Before upgrade: Check that your logs do not contain warnings starting with "Safe
 
 Django Admin login disabled by default
 --------------------------------------
-Default Django admin login window is disabled and now one has to login from LMS.
+Default Django admin login window is disabled and now one has to login from the LMS.
 
 ===================
 Learner Experiences
