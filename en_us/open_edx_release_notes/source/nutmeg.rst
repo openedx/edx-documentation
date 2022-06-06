@@ -311,7 +311,7 @@ Developer Experiences
 
 Events and Filters Extension Framework
 --------------------------------------
-Core extensibility: added a new way of extending the core through `Open edX Events & Filters`_ (part of `OEP-50: Hooks Extension Framework`_)
+Core extensibility: We have added a new way of extending the core through `Open edX Events & Filters`_ (part of `OEP-50: Hooks Extension Framework`_)
 
 Open edX Events: this standardized version of Django Signals allows extension developers to extend functionality just by listening to the event that’s sent after a key process finishes, e.g after enrollment, login, register, etc.
 
