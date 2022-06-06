@@ -236,7 +236,8 @@ following list.
 
 * ``expires_in``: The length of time, in seconds, that the access token will be
   accepted. The period of time starts when the authentication service issues
-  the token.
+  the token. Note that this value may change at any time and should not be
+  hard-coded in any scripts that make requests for an access token.
 
 * ``scope``: The internal resources that your API client has access to. You do
   not need to use the information in the ``scope`` value.
@@ -250,14 +251,18 @@ the access token string.
 
 .. code-block:: json
 
-    { "access_token": "4IHZlbCB2aXZlcnJhIGdyYXZpZGEsIHJpc3V.TG9yZW0gaXBzdW0gZG9
-        sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdC4gRXRpYW0gdGluY2
-        lkdW50IG9kaW8gZWdldCB0aW5jaWR1bnQgcG9ydGEuIEZ1c2NlIHZlaGljdWxhIGFyY3Ugd
-        GVsbHVzLCBzaXQgYW1ldCBmcmluZ2lsbGEgZXN0IHByZXRpdW0gc2VkLiBDdXJhYml0dXIg
-        Y29uc2VxdWF0IHVsdHJpY2llcyB0cmlzdGlxdWUuIEluIGVzdCBwdXJ1cywgZmFjaWxpc2l
-        zIGFjIGxlY3R1cyBxdWlzLCBsdWN0dXMgdGVtcG9yIG9yY2kuIEludGVnZXIgdml0.YWUgb
-        mVxdWUgbGlndWxhLiBVdCBjb25zZXF1YXQsIGV", "expires_in": 36000, "scope":
-        "read write profile email", "token_type": "JWT" }
+    {
+      "access_token": "4IHZlbCB2aXZlcnJhIGdyYXZpZGEsIHJpc3V.TG9yZW0gaXBzdW0gZG9
+      sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdC4gRXRpYW0gdGluY2
+      lkdW50IG9kaW8gZWdldCB0aW5jaWR1bnQgcG9ydGEuIEZ1c2NlIHZlaGljdWxhIGFyY3Ugd
+      GVsbHVzLCBzaXQgYW1ldCBmcmluZ2lsbGEgZXN0IHByZXRpdW0gc2VkLiBDdXJhYml0dXIg
+      Y29uc2VxdWF0IHVsdHJpY2llcyB0cmlzdGlxdWUuIEluIGVzdCBwdXJ1cywgZmFjaWxpc2l
+      zIGFjIGxlY3R1cyBxdWlzLCBsdWN0dXMgdGVtcG9yIG9yY2kuIEludGVnZXIgdml0.YWUgb
+      mVxdWUgbGlndWxhLiBVdCBjb25zZXF1YXQsIGV",
+      "expires_in": 180,
+      "scope": "read write profile email",
+      "token_type": "JWT"
+    }
 
 .. _using_an_access_token:
 
