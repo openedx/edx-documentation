@@ -58,7 +58,9 @@ The old course goals feature has been replaced with a new weekly learning goals 
 Authentication Micro-Frontend (MFE)
 -----------------------------------
 
-The Authentication Micro-Frontend is available as an experimental feature, but support for theming, internationalization and path-based deployments are incomplete. It will be supported in the next release, Olive.
+The `Authentication Micro-Frontend`_ is available as an experimental feature, but is not yet supported in Tutor. It will be supported in the next release, Olive.
+
+.. _Authentication Micro-Frontend: https://github.com/openedx/frontend-app-authn
 
 Discussions
 -----------
@@ -137,6 +139,11 @@ Gradebook Micro-FrontEnd
 ==========================
 Administrators & Operators
 ==========================
+
+* Various improvements and bugfixes have been applied to `Tutor`_, the officialy-supported Open edX distribution and installation method. Notable features include an overhauled Tutor Plugin API and a new CLI for mounting repositories during development. You can see the full list by viewing `Tutor's changelog, starting at v13.0.1`_ (the first Tutor release after Maple) and reading upwards until v14.0.0 (the first Tutor release supporting Nutmeg).
+
+.. _Tutor's changelog, starting at v13.0.1: https://github.com/overhangio/tutor/blob/master/CHANGELOG.md#v1301-2021-12-20
+
 
 * An internal performance improvement called “learning sequences” has been opt-in for a few releases, but is now always-on for Nutmeg. If you have any courses that have not been re-published on Koa or later, run the :code:`simulate_publish` cms django command on your courses before upgrading, to populate the learning sequence data.
 
