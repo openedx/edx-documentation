@@ -58,14 +58,16 @@ The old course goals feature has been replaced with a new weekly learning goals 
 Authentication Micro-Frontend (MFE)
 -----------------------------------
 
-The `Authentication Micro-Frontend`_ is available as an experimental feature, but is not yet supported in Tutor. It will be supported in the next release, Olive.
+The `Authentication Micro-Frontend (MFE)`_ is available as an experimental feature, but is not yet supported in Tutor. It will be supported in the next release, Olive.
 
 .. _Authentication Micro-Frontend: https://github.com/openedx/frontend-app-authn
 
 Discussions
 -----------
 
-The Discussions Micro-Frontend (MFE) is available as an experimental feature, but support for theming, internationalization and path-based deployments are incomplete. It will be supported in the next release, Olive.
+The `Discussions Micro-Frontend (MFE)`_ is available as an experimental feature, but support for theming, internationalization and path-based deployments are incomplete. It will be supported in the next release, Olive.
+
+.. _Discussions Micro-Frontend (MFE): https://github.com/openedx/frontend-app-discussions
 
 
 Learning Micro-Frontend (MFE)
