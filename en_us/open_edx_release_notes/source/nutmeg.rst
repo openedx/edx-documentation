@@ -245,8 +245,6 @@ New settings and toggles added since the Maple release:
 
 the following settings were removed:
 
-* ENABLE_COMPREHENSIVE_THEMING
-
 * agreements.enable_integrity_signature
 
 * course_experience.latest_update
