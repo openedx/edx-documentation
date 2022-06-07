@@ -69,6 +69,30 @@ submit further requests to the edX Enterprise API. For example:
     “access_token”:
     “g1Bb0usqwe345ty…”,
     “token_type”: “JWT”,
-    “expires_in”: “36000”,
+    “expires_in”: “180”,
     “scope”: “read write profile email”
   }
+
+==================================================
+Understanding the Authentication Endpoint Response
+==================================================
+
+The edX API authentication endpoint returns JSON data that includes an
+access token string and information about that access token.
+
+The values in the authentication endpoint response data are described in the
+following list.
+
+* ``access_token``: The access token string that you can use to make API
+  requests.
+
+* ``expires_in``: The length of time, in seconds, that the access token will be
+  accepted. The period of time starts when the authentication service issues
+  the token. Note that this value may change at any time and should not be
+  hard-coded in any scripts that make requests for an access token.
+
+* ``scope``: The internal resources that your API client has access to. You do
+  not need to use the information in the ``scope`` value.
+
+* ``token_type``: A description of the format of the access token. You specify
+  the format of an access token when you use that token to make API requests.
