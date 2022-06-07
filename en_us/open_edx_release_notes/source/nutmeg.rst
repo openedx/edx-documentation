@@ -99,7 +99,7 @@ Mobile Experience
 Special Exams Experience
 ------------------------
 
-To take a proctored exam, the learner must now be enrolled in a :code:`verified` course track. Note that ID verification (IDV) is not required.
+To take a proctored exam, the learner must now be enrolled in a :code:`verified` course track. Previously, a learner enrolled in any track could take a proctored exam. Note that ID verification (IDV) is not required.
 
 
 ======================
