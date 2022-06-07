@@ -182,7 +182,8 @@ Before upgrade: Check that your logs do not contain warnings starting with "Safe
 
 Migrations
 ----------
-(there's no notes in https://openedx.atlassian.net/wiki/spaces/COMM/pages/3205201949/Nutmeg on migrations. I presume that does not mean there are none. Is there a standard way to do migrations that we could write out here?)
+
+There are no known migrations that will cause compatibility issues when deployed. As always migrations should be run before the new code is deployed.
 
 
 Settings and Toggles
