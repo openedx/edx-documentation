@@ -81,7 +81,9 @@ Learning Micro-Frontend (MFE)
 Account Micro-frontend (MFE)
 ----------------------------
 
-The Account Micro-frontend is now enabled by default. The legacy account pages will be removed in the next release, Olive.
+The `Account Micro-frontend (MFE)`_ is now enabled by default. The legacy account pages will be removed in the next release, Olive.
+
+.. _Account Micro-frontend (MFE): https://github.com/openedx/frontend-app-account
 
 Payment Micro-frontend
 -----------------------
