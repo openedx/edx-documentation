@@ -90,9 +90,10 @@ Mobile Experience
 -----------------
 
 * Added support for notices in apps.
-* Added an activation opt in, opt out checkbox in the registration page.
+* Added an activation opt in checkbox (default checked) so user can agree to receive marketing messages. See `LEARNER-8652`_ for a screenshot.
 * Mobile apps can now support LTI by opening it in a browser
 
+.. _LEARNER-8652: https://openedx.atlassian.net/browse/LEARNER-8652
 
 Special Exams Experience
 ------------------------
