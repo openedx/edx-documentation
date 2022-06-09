@@ -107,7 +107,7 @@ Instructor Experiences
 
 * Default course tabs have a new, standard order. Course authors may still change the order of their custom static tabs, but the ordering of the default tabs cannot be changed. This ensures a more uniform location across courses.
 * When setting grading policies, course authors can now set the minimum grade cutoff to 99. Previously it could not be higher than 97.
-* When exporting teams csv, username and external key are now separate columns (previously, an external key would override the username, leading to ambiguity when importing teams csv)
+* When downloading the team membership csv from the **Teams > Manage** page, username and external key are now separate columns (previously, an external key would override the username, leading to ambiguity when importing teams csv)
 
 
 Course Authoring Micro-frontend (MFE)
