@@ -85,8 +85,6 @@ The `Account Micro-frontend (MFE)`_ is now enabled by default. The legacy accoun
 
 .. _Account Micro-frontend (MFE): https://github.com/openedx/frontend-app-account
 
-Payment Micro-frontend
------------------------
 
 Mobile Experience
 -----------------
