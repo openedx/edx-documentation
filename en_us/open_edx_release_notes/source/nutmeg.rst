@@ -178,7 +178,7 @@ Bulk Course Email Tool
 
 * Added a simple :code:`bulk_email_disabledcourse` table that allows for the bulk email tool to be disabled for specific course runs, even if the bulk email flag is on and the course is enabled in the :code:`bulk_email_courseauthorization` table. A course team will not be able to see the bulk email tab on the instructor dashboard for whatever course runs are in this table.
 
-* the setting :code:`EMAIL_USE_DEFAULT_FROM_FOR_BULK` was changed to :code:`EMAIL_USE_COURSE_ID_FROM_FOR_BULK`. The behavior was also changed, such that those who wish to use their course id  in the from address for bulk email must now enable the flag to true.These changes were made in order to avoid non existent from address to fail in email servers. (In progress?)
+* the setting :code:`EMAIL_USE_DEFAULT_FROM_FOR_BULK` was changed to :code:`EMAIL_USE_COURSE_ID_FROM_FOR_BULK`. Additionally, the behavior was changed.  Previously, it was possible for a "from" address constructed out of a course id to be non existent, and thus fail in email servers. Now, those who wish to use their course id  in the "from" address for bulk email must enable the flag to true.
 
 
 SafeSessionMiddleware rejects mismatching requests and sessions
