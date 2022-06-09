@@ -132,8 +132,8 @@ LTI Support
 
 .. _Custom LTI Parameter section of the LTI Consumer XBlock Readme: https://github.com/openedx/xblock-lti-consumer/blob/master/README.rst#custom-lti-parameters
 
-Gradebook Micro-FrontEnd
-------------------------
+Gradebook Micro-frontend (MFE)
+------------------------------
 
 * Added support for transifex translations.
 * Added support for custom theming.
