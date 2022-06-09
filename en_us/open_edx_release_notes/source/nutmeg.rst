@@ -251,7 +251,8 @@ the following settings were removed:
 
 Dependency updates
 ------------------
-(any significant dependency updates?)
+
+There are no notable dependency updates in nutmeg.
 
 ============
 Deprecations
