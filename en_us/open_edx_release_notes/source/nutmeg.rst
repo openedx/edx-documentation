@@ -55,21 +55,6 @@ Weekly Course Goals
 -------------------
 The old course goals feature has been replaced with a new weekly learning goals feature. Users set a goal for how frequently they want to learn per course and get reminder emails about their goals. See `4.30. Enabling the Weekly Learning Goals Feature in "Installing, Configuring, and Running the Open edX Platform"`_ for instructions on how to configure this feature and more details on how the feature works. The new weekly learning goals feature is controlled with the same flag as the previous course goals feature.
 
-Authentication Micro-Frontend (MFE)
------------------------------------
-
-The `Authentication Micro-Frontend (MFE)`_ is available as an experimental feature, but is not yet supported in Tutor. It will be supported in the next release, Olive.
-
-.. _Authentication Micro-Frontend: https://github.com/openedx/frontend-app-authn
-
-Discussions
------------
-
-The `Discussions Micro-Frontend (MFE)`_ is available as an experimental feature, but support for theming, internationalization and path-based deployments are incomplete. It will be supported in the next release, Olive.
-
-.. _Discussions Micro-Frontend (MFE): https://github.com/openedx/frontend-app-discussions
-
-
 Learning Micro-Frontend (MFE)
 -----------------------------
 
@@ -108,20 +93,6 @@ Instructor Experiences
 * Default course tabs have a new, standard order. Course authors may still change the order of their custom static tabs, but the ordering of the default tabs cannot be changed. This ensures a more uniform location across courses.
 * When setting grading policies, course authors can now set the minimum grade cutoff to 99. Previously it could not be higher than 97.
 * When downloading the team membership csv from the **Teams > Manage** page, username and external key are now separate columns (previously, an external key would override the username, leading to ambiguity when importing teams csv)
-
-
-Course Authoring Micro-frontend (MFE)
--------------------------------------
-
-The Course Authoring MFE is available as an experimental feature, but support for theming, internationalization and path-based deployments are incomplete. It will be supported in the next release, Olive.
-
-The Course Authoring MFE replaces the "Pages" menu item in Studio with "Pages and Resources" and gives access to new features, like the "Course Live xBlock" for Zoom integration.
-
-
-Open-Response Assessments (ORA)
--------------------------------
-
-The ORA Grading Micro-frontend (MFE) is available as an experimental feature, but support for theming, internationalization and path-based deployment maybe be incomplete. It will be support in the next release, Olive. The MFE can be enabled by setting a value for :code:`ORA_GRADING_MICROFRONTEND_URL`.
 
 
 LTI Support
@@ -188,7 +159,7 @@ Background: :code:`SafeSessionMiddleware` is an existing middleware that provide
 
 Changed: Previously if a user mismatch was detected between request or session and response, the middleware would log warnings; now, it will invalidate the session and send an error response. The toggle :code:`ENFORCE_SAFE_SESSIONS` is enabled by default, but can be disabled to return to just log warnings.
 
-Before upgrade: Check that your logs do not contain warnings starting with "SafeCookieData user at request", or that these warnings are very rare. If they are common, there is likely a false positive caused by some custom login, masquerading, or registration code. You will need to update you custom code to call :code:`mark_user_change_as_expected``. Otherwise, valid requests may be rejected.
+Before upgrade: Check that your logs do not contain warnings starting with "SafeCookieData user at request", or that these warnings are very rare. If they are common, there is likely a false positive caused by some custom login, masquerading, or registration code. You will need to update your custom code to call :code:`mark_user_change_as_expected``. Otherwise, valid requests may be rejected.
 
 
 Migrations
@@ -196,6 +167,21 @@ Migrations
 
 There are no known migrations that will cause compatibility issues when deployed. As always migrations should be run before the new code is deployed.
 
+
+Pre-Alpha Features
+-------------------
+
+The following Micro-frontends (MFEs) are in a "pre-alpha" state. They exist on GitHub but are not yet supported in Tutor. Additionally, they may lack key features such as support for theming, internationalization, and path-based deployments. We include mention of them because we expect all of them to be supported in the next release, Olive.
+
+* `Authentication Micro-Frontend (MFE)`_
+* `Discussions Micro-Frontend (MFE)`_
+* `Course Authoring Micro-frontend (MFE)`_
+* `Open-Response Assessments (ORA) Grading Micro-frontend (MFE)`_
+
+.. _Authentication Micro-Frontend (MFE): https://github.com/openedx/frontend-app-authn
+.. _Discussions Micro-Frontend (MFE): https://github.com/openedx/frontend-app-discussions
+.. _Course Authoring Micro-frontend (MFE): https://github.com/openedx/frontend-app-course-authoring
+.. _Open-Response Assessments (ORA) Grading Micro-frontend (MFE): https://github.com/edx/frontend-app-ora-grading
 
 Settings and Toggles
 --------------------
