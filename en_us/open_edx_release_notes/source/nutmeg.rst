@@ -157,9 +157,9 @@ Administrators & Operators
 
 * By setting the :code:`ENABLE_NEW_RELIC` to false, the new relic logging integration will be disabled across all MFEs.
 
-* It's now possible to add optional, but not toggled, extra fields to the registration form. See the `PR and example config`_ for more information.
+* It's now possible to add optional fields to the registations form that are always visible, and do not require the user to click the checkbox "Support education research by providing additional information." Use the new :code:`optional-exposed` setting in the `REGISTRATION_EXTRA_FIELDS`_ setting.
 
-.. _PR and example config: https://github.com/openedx/edx-platform/pull/29047
+.. _REGISTRATION_EXTRA_FIELDS: https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-REGISTRATION_EXTRA_FIELDS
 
 * Add another field to the registration form, :code:`marketing_emails_opt_in`, for marketing email opt-in.
 
