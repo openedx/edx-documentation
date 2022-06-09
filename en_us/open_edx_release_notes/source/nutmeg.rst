@@ -60,7 +60,7 @@ Learning Micro-Frontend (MFE)
 
 * When an XBlock fails to render, the user will now see an error message "An unexpected error occurred. Please click the button below to refresh the page."
 * RTL languages are now supported
-* Support for the experimental Discussions MFE was added
+* Support for the pre-alpha Discussions MFE was added
 
 
 Account Micro-frontend (MFE)
