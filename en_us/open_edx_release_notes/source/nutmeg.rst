@@ -29,6 +29,7 @@ Default Django admin login window is disabled and now one has to login from the 
 Learner Experiences
 ===================
 
+* Bug fix: facebook share links now work on the course about page.
 
 User Tours
 ----------
@@ -41,6 +42,7 @@ In order for User Tours to properly work, the backpopulate user tours management
 
     $ python ./manage.py lms backpopulate_user_tours
 
+
 Dates Tab
 ---------
 The Dates Tab has been added as a default static tab on all courses. All new courses will automatically include the Dates Tab. In order to properly have the Dates Tab show up for all your existing courses, a backfill course tabs management command has been created.
@@ -51,9 +53,11 @@ The Dates Tab has been added as a default static tab on all courses. All new cou
 
 The Dates Tab has also been removed from the legacy learner experience. It is only available in the Learner MFE. This is the first step in remove the legacy learner experience altogether, which will be completed in the Olive release.
 
+
 Weekly Course Goals
 -------------------
 The old course goals feature has been replaced with a new weekly learning goals feature. Users set a goal for how frequently they want to learn per course and get reminder emails about their goals. See `4.30. Enabling the Weekly Learning Goals Feature in "Installing, Configuring, and Running the Open edX Platform"`_ for instructions on how to configure this feature and more details on how the feature works. The new weekly learning goals feature is controlled with the same flag as the previous course goals feature.
+
 
 Learning Micro-Frontend (MFE)
 -----------------------------
