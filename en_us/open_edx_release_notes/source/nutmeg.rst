@@ -148,8 +148,9 @@ Administrators & Operators
 .. _Tutor's changelog, starting at v13.0.1: https://github.com/overhangio/tutor/blob/master/CHANGELOG.md#v1301-2021-12-20
 
 
-* An internal performance improvement called “learning sequences” has been opt-in for a few releases, but is now always-on for Nutmeg. If you have any courses that have not been re-published on Koa or later, run the :code:`simulate_publish` cms django command on your courses before upgrading, to populate the learning sequence data.
+* An internal performance improvement called `learning sequences`_ has been opt-in for a few releases, but is now always-on for Nutmeg. If you have any courses that have not been re-published on Koa or later, run the :code:`simulate_publish` cms django command on your courses before upgrading, to populate the learning sequence data.
 
+.. _learning sequences: https://github.com/openedx/edx-platform/blob/db32ff2cdf678fa8edd12c9da76a76eef0478614/openedx/core/djangoapps/content/learning_sequences/README.rst
 .. code-block:: shell
 
     $ python manage.py cms simulate_publish
