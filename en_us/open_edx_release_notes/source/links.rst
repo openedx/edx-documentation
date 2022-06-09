@@ -39,6 +39,23 @@
 
 .. _Profile Images API Version 1.0: http://edx.readthedocs.io/projects/edx-platform-api/en/latest/profile_images/index.html
 
+.. Nutmeg doc links
+
+.. _4.30. Enabling the Weekly Learning Goals Feature in "Installing, Configuring, and Running the Open edX Platform": https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_weekly_learning_goals.html#enabling-the-weekly-learning-goals-feature
+
+.. _Open edX Events & Filters: https://github.com/openedx/edx-platform/blob/master/docs/guides/hooks/index.rst#openedx-hooks-extension-framework
+
+.. _OEP-50\: Hooks Extension Framework: https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0050-hooks-extension-framework.html
+
+.. _edx-certificates repo: https://github.com/openedx-unsupported/edx-certificates
+
+.. _DEPR-150: https://openedx.atlassian.net/browse/DEPR-150
+
+.. _DEPR-160: https://openedx.atlassian.net/browse/DEPR-160
+
+.. _[DEPR] Issue #62: https://github.com/openedx/public-engineering/issues/62
+
+
 .. Maple doc links:
 
 .. _Tutor: https://docs.tutor.overhang.io/
