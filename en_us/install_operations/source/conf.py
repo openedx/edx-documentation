@@ -6,7 +6,7 @@ sys.path.append('../../../')
 from shared.conf import *
 
 # General information about the project.
-project = u'Installing, Configuring, and Running the Open edX Platform'
+project = u'Installing, Configuring, and Running the Open edX Platform: Nutmeg Release'
 set_audience(OPENEDX, DEVELOPERS)
 
 # remove directory when content is first added to it, and add it to index
