@@ -105,7 +105,7 @@ To take a proctored exam, the learner must now be enrolled in a :code:`verified`
 Instructor Experiences
 ======================
 
-* Course tabs have a new, standard order. When course authors change the order of static tabs, the ordering of default tabs will be enforced for a more uniform location across courses.
+* Default course tabs have a new, standard order. Course authors may still change the order of their custom static tabs, but the ordering of the default tabs cannot be changed. This ensures a more uniform location across courses.
 * When setting grading policies, course authors can now set the minimum grade cutoff to 99. Previously it could not be higher than 97.
 * When exporting teams csv, username and external key are now separate columns (previously, an external key would override the username, leading to ambiguity when importing teams csv)
 
