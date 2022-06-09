@@ -161,7 +161,7 @@ Administrators & Operators
 
 .. _REGISTRATION_EXTRA_FIELDS: https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-REGISTRATION_EXTRA_FIELDS
 
-* Add another field to the registration form, :code:`marketing_emails_opt_in`, for marketing email opt-in.
+* Added an activation opt in checkbox to the registration form (default checked) so user can agree to receive marketing messages. The field :code:`marketing_emails_opt_in` is now enabled by default in the `REGISTRATION_EXTRA_FIELDS`_ setting.
 
 * Waffle overrides can be set at the org level now (in between course level and global).
 
