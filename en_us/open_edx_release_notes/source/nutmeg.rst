@@ -127,10 +127,10 @@ The ORA Grading Micro-frontend (MFE) is available as an experimental feature, bu
 LTI Support
 -----------
 
-* Can now add custom parameter template values in order to be substituted by a processor. See `PR 215`_ for configuration details.
+* Course authors can now define static and dynamic custom parameters that will be sent to the LTI Tool Provider at launch. See the `Custom LTI Parameter section of the LTI Consumer XBlock Readme`_ for more details.
 * Mobile apps can now support LTI by opening it in a browser
 
-.. _PR 215: https://github.com/openedx/xblock-lti-consumer/pull/215
+.. _Custom LTI Parameter section of the LTI Consumer XBlock Readme: https://github.com/openedx/xblock-lti-consumer/blob/master/README.rst#custom-lti-parameters
 
 Gradebook Micro-FrontEnd
 ------------------------
