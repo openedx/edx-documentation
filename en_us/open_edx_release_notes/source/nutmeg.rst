@@ -184,11 +184,11 @@ Bulk Course Email Tool
 SafeSessionMiddleware rejects mismatching requests and sessions
 ---------------------------------------------------------------
 
-Background: This is an existing middleware that provides several protections against vulnerabilities that could result from cache misconfigurations or other bugs resulting in one user getting a different user's session.
+Background: :code:`SafeSessionMiddleware` is an existing middleware that provides several protections against vulnerabilities that could result from cache misconfigurations or other bugs resulting in one user getting a different user's session.
 
 Changed: Previously if a user mismatch was detected between request or session and response, the middleware would log warnings; now, it will invalidate the session and send an error response. The toggle :code:`ENFORCE_SAFE_SESSIONS` is enabled by default, but can be disabled to return to just log warnings.
 
-Before upgrade: Check that your logs do not contain warnings starting with "SafeCookieData user at request", or that these warnings are very rare. If they are common, there is likely a false positive caused by some custom login, masquerading, or registration code that needs to call mark_user_change_as_expected. Otherwise, valid requests may be rejected.
+Before upgrade: Check that your logs do not contain warnings starting with "SafeCookieData user at request", or that these warnings are very rare. If they are common, there is likely a false positive caused by some custom login, masquerading, or registration code. You will need to update you custom code to call :code:`mark_user_change_as_expected``. Otherwise, valid requests may be rejected.
 
 
 Migrations
