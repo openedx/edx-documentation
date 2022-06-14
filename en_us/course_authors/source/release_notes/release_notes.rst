@@ -4,6 +4,6 @@
 Releasey Notes Here
 #######################################################
 
-This section provides information about Releasey Notes
+This is new and updated!
 
 
