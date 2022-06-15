@@ -12,12 +12,11 @@ Enabling the Weekly Learning Goals Feature
 Overview
 ***************
 
-The feature adds a new Weekly Learning Goal widget to the course home page.
+The feature adds a new Weekly Learning Goal widget to the course home page. Goal setting and planning supports learner success.  It also supports learners’ time management efforts and accountability. By prompting learners to set their goals when beginning a course and subscribe to helpful reminder emails, we expect to increase engagement and completion rates.
 
-To use it, learners select a weekly learning goal and are automatically subscribed to goal reminder emails. The weekly reminders continue until the learner completes their course and/or their audit access ends. Learners can modify/cancel their goal and reminder settings at any time from the widget or via links in the email.
+To use it, learners use the Weekly Learning Goal widget from the course home page to select a weekly learning goal and are automatically subscribed to goal reminder emails. The weekly reminders continue until the learner completes their course and/or their audit access ends. Learners can modify/cancel their goal and reminder settings at any time from the widget or via links in the email.
 
-For more details on this feature or screenshots see this `blog post <https://openedx.atlassian.net/wiki/spaces/PROD/blog/2021/12/07/3266805795/Course+Goal+Setting>`_.
-
+The Weekly Learning Goals feature was discussed in this `Nutmeg blog post <https://openedx.org/blog/nutmeg-feature-round-up/>`_.
 
 .. note:: This feature is only available on the new learning micro frontend. If that is not already enabled for you, you can view `instructions here <https://openedx.atlassian.net/wiki/spaces/COMM/pages/2023915819/Lilac>`_.
 
