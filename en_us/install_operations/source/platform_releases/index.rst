@@ -10,6 +10,7 @@ platform:
 .. toctree::
     :maxdepth: 2
 
+    nutmeg
     maple
     lilac
     koa
