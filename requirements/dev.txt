@@ -8,12 +8,12 @@ alabaster==0.7.12
     # via
     #   -r requirements/base.txt
     #   sphinx
-babel==2.10.1
+babel==2.10.3
     # via
     #   -r requirements/base.txt
     #   sphinx
     #   sphinx-intl
-certifi==2022.5.18.1
+certifi==2022.6.15
     # via
     #   -r requirements/base.txt
     #   requests
@@ -26,7 +26,7 @@ click==8.1.3
     #   -r requirements/base.txt
     #   pip-tools
     #   sphinx-intl
-docutils==0.18.1
+docutils==0.17.1
     # via
     #   -r requirements/base.txt
     #   sphinx
@@ -84,7 +84,7 @@ snowballstemmer==2.2.0
     # via
     #   -r requirements/base.txt
     #   sphinx
-sphinx==5.0.1
+sphinx==4.5.0
     # via
     #   -r requirements/base.txt
     #   edx-sphinx-theme
