@@ -6,11 +6,11 @@
 #
 alabaster==0.7.12
     # via sphinx
-babel==2.10.1
+babel==2.10.3
     # via
     #   sphinx
     #   sphinx-intl
-certifi==2022.5.18.1
+certifi==2022.6.15
     # via requests
 charset-normalizer==2.0.12
     # via requests
@@ -38,7 +38,7 @@ pyparsing==3.0.9
     # via packaging
 pytz==2022.1
     # via babel
-requests==2.27.1
+requests==2.28.0
     # via sphinx
 six==1.16.0
     # via edx-sphinx-theme
