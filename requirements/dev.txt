@@ -8,12 +8,12 @@ alabaster==0.7.12
     # via
     #   -r requirements/base.txt
     #   sphinx
-babel==2.10.1
+babel==2.10.3
     # via
     #   -r requirements/base.txt
     #   sphinx
     #   sphinx-intl
-certifi==2022.5.18.1
+certifi==2022.6.15
     # via
     #   -r requirements/base.txt
     #   requests
@@ -72,7 +72,7 @@ pytz==2022.1
     # via
     #   -r requirements/base.txt
     #   babel
-requests==2.27.1
+requests==2.28.0
     # via
     #   -r requirements/base.txt
     #   sphinx
