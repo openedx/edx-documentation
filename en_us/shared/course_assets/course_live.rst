@@ -91,7 +91,7 @@ Big Blue Button setup
 
 Instructors can use the big blue button to schedule and start meetings and students can
 see and join these meetings to attend classes. Learn more about
-the app `here <https://bigbluebutton.org/teachers/features/>`_.
+the app on `Big Blue button site <https://bigbluebutton.org/teachers/features/>`_.
 
 There are multiple ways to integrate BBB in course, which are discussed below.
 
