@@ -76,7 +76,7 @@ In this case, the ``html`` element contains no children.
      - Required. The value that is displayed to students as the name of the
        HTML component. If you do not supply a ``display_name`` value, "html" is
        supplied for you.
-   * - ``file_name``
+   * - ``filename``
      - The name of the HTML file that contains the content for the HTML
        component, without the ``.HTML`` extension.
 
