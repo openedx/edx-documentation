@@ -95,22 +95,27 @@ the app on `Big Blue button site <https://bigbluebutton.org/teachers/features/>`
 
 There are multiple ways to integrate BBB in course, which are discussed below.
 
-1.  If the organization has configured the free tier for the Big blue button, you can select the Free tier and save the settings.
-no further configuration is required.
 
-.. image:: ../../../shared/images/course_live_bbb_free.png
+#. If the organization has configured the free tier for the Big blue button,
+   you can select the Free tier and save the settings. No further configuration is required.
 
-2.  If the Free tier is not configured or you do not want to use free tier, you can deploy BBB on your own server or use third-party hosting providers.
+   .. image:: ../../../shared/images/course_live_bbb_free.png
 
-3.  You can use the services listed on this page. These services provide complete BBB deployment and support.
+#. If the Free tier is not configured or you do not want to use free tier,
+   you can deploy BBB on your own server or use third-party hosting providers.
+   Please find more information on features available for free tier and commercial
+   version in this `document <https://bigbluebutton.org/free-bigbluebutton-service-for-edx/>`_.
 
-    https://bigbluebutton.org/commercial-support/
+#. You can use the services listed on this page. These services provide complete
+   BBB deployment and support.
 
-4.  If you want to deploy BBB on your server please follow this documentation provided by BBB.
+   https://bigbluebutton.org/commercial-support/
 
-    https://docs.bigbluebutton.org/2.5/install.html
+#. If you want to deploy BBB on your server please follow this documentation provided by BBB.
 
-    https://docs.bigbluebutton.org/admin/lti.html
+   https://docs.bigbluebutton.org/2.5/install.html
+
+   https://docs.bigbluebutton.org/admin/lti.html
 
 To configure Big blue button, navigate to Live app configurations (see `Enable or disable course live app`):
 
