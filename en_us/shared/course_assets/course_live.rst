@@ -93,8 +93,7 @@ Instructors can use the big blue button to schedule and start meetings and stude
 see and join these meetings to attend classes. Learn more about
 the app on `Big Blue button site <https://bigbluebutton.org/teachers/features/>`_.
 
-There are multiple ways to integrate BBB in course, which are discussed below.
-
+BBB is available in multiple variants, which are discussed below.
 
 #. If the organization has configured the free tier for the Big blue button,
    you can select the Free tier and save the settings. No further configuration is required.
@@ -106,7 +105,7 @@ There are multiple ways to integrate BBB in course, which are discussed below.
    Please find more information on features available for free tier and commercial
    version in this `document <https://bigbluebutton.org/free-bigbluebutton-service-for-edx/>`_.
 
-#. You can use the services listed on this page. These services provide complete
+#. You can use the services listed on the link below. These services provide complete
    BBB deployment and support.
 
    https://bigbluebutton.org/commercial-support/
