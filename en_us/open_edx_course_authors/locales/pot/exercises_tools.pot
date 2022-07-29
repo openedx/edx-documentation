@@ -7104,7 +7104,7 @@ msgid "A composite image of four views of the same multiple choice problem. The\
 msgstr ""
 
 #: ../../../shared/exercises_tools/molecule_editor.rst:5
-msgid "Molecule Editor Tool"
+msgid "Molecule Editor Tool (Deprecated)"
 msgstr ""
 
 #: ../../../shared/exercises_tools/molecule_editor.rst:9
