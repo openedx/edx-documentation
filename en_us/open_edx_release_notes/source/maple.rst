@@ -204,7 +204,58 @@ Course Authoring Import Messaging & Validation
 
 While many course teams do not commonly use this course import, educators cannot continue course authoring when it does fail. Previously, course teams would occasionally encounter issues importing a new version of their course through Studio. Existing error messaging made the root cause hard to discern, requiring course teams to reach out to an admin for assistance. Educators blocked by the import tool were not unable to update or launch their course without admin intervention, delaying authoring and publishing timelines for courses.
 
-Now educators will see specific error messages in the course import area of Studio. A full list of messages shown to educators is `documented in Confluence`_. For developers, these errors are logged and can exported to a New Relic, Splunk, etc.
+Now educators will see specific error messages in the course import area of Studio. For developers, these errors are logged and can exported to a New Relic, Splunk, etc.
+
+
+Uploading Errors
+================
+
+- **File Chunk Missed During Upload** - The most common error that was captured, “Chunk Missed Error”. When a Course Import file (tar.gz) is larger than 20MB, it is divided into equal chunks and uploaded to the server. Due to our server configuration, it is possible to lose a chunk that could fail the course import while combing on the server
+
+- **File Chunk Failed To Upload Error** - This error is raised when a file chunk has been lost during the upload process. Due to this the file is corrupted and can not be processed.
+
+- **Incompatible File** - This error is raised for the sanity check if a user accidentally tries to upload an incompatible file. This check exists in the frontend as well.
+
+Unpacking Errors
+================
+
+There are a few validation checks before the unpacking of the tar file begins. These validation checks look redundant and similar to file upload but these errors are in place because this is an asynchronous task and can be triggered from the API. Currently, this work was out of scope so this is added in the “What’s Next” section.
+
+- **Invalid User** - In case the user_id provided does not exist. This is highly unlikely to occur from the front end, but this check is in place for the sanity check.
+
+- **Permission Denied** - This error occurs if the user does not have the required permissions to perform the course import. Once that case occurs, the system throws the error to the user.
+
+- **Incompatble File** - This error is raised if the file to unpack is not in tar.gz format. This check verifies that the process of unpacking does not execute if the file is not in a valid format.
+
+- **File Not Found** - This error occurs if the uploaded file is not available in the storage or has been deleted.
+
+- **Unsafe Tar File** - This is a system-level error that occurs when the tar file tries to unpack itself at the root where it does not have permissions.
+
+- **Unknown Exception** - There can still be unknown events that may occur during the course import, for those further information will be logged in the system logs but there is not a clear and useful user facing error.
+
+Verifying Stage
+===============
+
+- **Verify Root Name** - The root name for a course import is ``course.xml`` and for a library it's ``library.xml``. If that file does not exist then this error is thrown.
+
+Updating Errors
+===============
+
+The errors can occur after the XML validation and during the data update in the course.
+
+- **Error while parsing asset XML** - Error while reading ``assets.xml`` file when it has syntax or other errors.
+
+- **Duplicate CourseID** - Aborting import because a course with this id already exists
+
+- **Module Import Error** - A module in the coures failed to import correctly.
+
+- **Proctoring Provider Error** - This error is raised when a ``courserun.xml`` file contains an attribute ``proctoring_provider`` e.g. ``proctoring_provider="proctortrack"`` and that provider is not available/enabled on the server.
+
+- **Unknown Error** - An unknown error occured whyl updating the course.
+
+.. note::
+
+   More information about the development process can be found in this `documented in Confluence`_.  However that is not a public document and only left here for admins and future reference. The error details above have been extracted from that document.
 
 Open-Response Assessments
 -------------------------
