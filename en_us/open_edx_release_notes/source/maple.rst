@@ -210,18 +210,16 @@ Now educators will see specific error messages in the course import area of Stud
 Uploading Errors
 ================
 
-- **File Chunk Missed During Upload** - The most common error that was captured, “Chunk Missed Error”. When a Course Import file (tar.gz) is larger than 20MB, it is divided into equal chunks and uploaded to the server. Due to our server configuration, it is possible to lose a chunk that could fail the course import while combing on the server
+- **File Chunk Missed During Upload** - The most common error that was captured, “Chunk Missed Error”. When a Course Import file (tar.gz) is larger than 20MB, it is divided into equal chunks and uploaded to the server. Due to our server configuration, it is possible to lose a chunk that could fail the course import while combining on the server.
 
-- **File Chunk Failed To Upload Error** - This error is raised when a file chunk has been lost during the upload process. Due to this the file is corrupted and can not be processed.
+- **File Chunk Failed To Upload Error** - This error is raised when a file chunk has been lost during the upload process. Due to this the file is corrupted and cannot be processed.
 
-- **Incompatible File** - This error is raised for the sanity check if a user accidentally tries to upload an incompatible file. This check exists in the frontend as well.
+- **Incompatible File** - This error is raised if a user accidentally tries to upload an incompatible file. This check exists in the frontend as well.
 
 Unpacking Errors
 ================
 
-There are a few validation checks before the unpacking of the tar file begins. These validation checks look redundant and similar to file upload but these errors are in place because this is an asynchronous task and can be triggered from the API. Currently, this work was out of scope so this is added in the “What’s Next” section.
-
-- **Invalid User** - In case the user_id provided does not exist. This is highly unlikely to occur from the front end, but this check is in place for the sanity check.
+- **Invalid User** - Raised if the provided user_id does not exist. The check is redundant if the import is submitted via Studio frontend, but is a valid sanity check for API submissions
 
 - **Permission Denied** - This error occurs if the user does not have the required permissions to perform the course import. Once that case occurs, the system throws the error to the user.
 
@@ -243,19 +241,19 @@ Updating Errors
 
 The errors can occur after the XML validation and during the data update in the course.
 
-- **Error while parsing asset XML** - Error while reading ``assets.xml`` file when it has syntax or other errors.
+- **Error while parsing asset XML** - Error while parsing ``assets.xml``.
 
-- **Duplicate CourseID** - Aborting import because a course with this id already exists
+- **Duplicate CourseID** - Aborting import because a course with this id already exists.
 
-- **Module Import Error** - A module in the coures failed to import correctly.
+- **Module Import Error** - A module in the course failed to import correctly.
 
 - **Proctoring Provider Error** - This error is raised when a ``courserun.xml`` file contains an attribute ``proctoring_provider`` e.g. ``proctoring_provider="proctortrack"`` and that provider is not available/enabled on the server.
 
-- **Unknown Error** - An unknown error occured whyl updating the course.
+- **Unknown Error** - An unforeseen error occured while updating the course.
 
 .. note::
 
-   More information about the development process can be found in this `documented in Confluence`_.  However that is not a public document and only left here for admins and future reference. The error details above have been extracted from that document.
+   More information about the development process can be found in this `document in Confluence`_.  However that is not a public document and only left here for admins and future reference. The error details above have been extracted from that document.
 
 Open-Response Assessments
 -------------------------
