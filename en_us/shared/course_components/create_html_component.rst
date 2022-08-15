@@ -104,10 +104,10 @@ descriptions.
 
    .. note::
      The available heading levels in the Text component editor begin with
-     heading 3 (``<h3>``). Text components are part of a complete page, and
-     elements outside the Text component use heading levels 1 and 2 by default.
+     heading 2 (``<h2>``). Text components are part of a complete page, and
+     elements outside the Text component use heading level 1 by default.
      Because tools such as screen readers use heading levels to navigate
-     through pages, using heading levels 1 or 2 inside a Text component can
+     through pages, using heading level 1 inside a Text component can
      interfere with the functionality of these tools.
 
 #. Format the selected text in bold, or remove this formatting. The editor
