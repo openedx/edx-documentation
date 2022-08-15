@@ -49,13 +49,14 @@ You can use two different editing interfaces to work with a Text component.
 
 * :ref:`The Visual Editor`
 
-  With the visual editor you create, edit, and format content in a word
-  processing-like interface, without using HTML markup directly. With the
-  visual editor, you can more easily format your content, and add links and
-  images. The visual editor includes an **HTML** option for you to review the
-  HTML markup and make small formatting changes to your content. However, this
-  HTML option does not provide the detailed control you can get with the raw
-  HTML editor, and does not support custom formatting or scripts.
+With the visual editor you create, edit, and format content in a word
+processing-like interface, without using HTML markup directly. With the
+visual editor, you can more easily format your content, and add links and
+images. The visual editor includes an **HTML** option for you to review the
+HTML markup and make small formatting changes to your content. However, this
+HTML option does not provide the detailed control you can get with the raw
+HTML editor, and does not support custom formatting or scripts.
+
 
   If you add a Text component and select **Text**, when you select **Edit**
   the visual editor opens by default.
@@ -69,8 +70,7 @@ You can use two different editing interfaces to work with a Text component.
   If you add a Text component and select **Raw HTML**, when you select
   **Edit** the raw HTML editor opens by default.
 
-You can switch back and forth between these two editing interfaces at any time.
-For more information, see :ref:`Set the Editor for a Text Component`.
+There is no way to switch between types once selected.
 
 .. note::
     If you copy text from another source and paste it into either the visual or
@@ -78,26 +78,6 @@ For more information, see :ref:`Set the Editor for a Text Component`.
     applications automatically change quotation marks and apostrophes from the
     "straight" version to the "smart" or "curly" version. Both editors require
     "straight" quotation marks and apostrophes.
-
-.. _Set the Editor for a Text Component:
-
-======================================
-Set the Editor for a Text Component
-======================================
-
-#. Add or locate the Text component in your course.
-
-#. Select **Edit**, and then select **Settings**.
-
-#. Select **Visual** or **Raw**.
-
-#. Select **Save**, and then reopen the component to use the new editor.
-
-.. warning::
- If you work with content in the raw HTML editor, then switch to the visual
- editor, custom HTML can be lost. If you need to create custom HTML, we
- recommend that you start by using the visual editor, and then switch to the
- raw HTML editor when you are ready to add the custom HTML.
 
 .. _The Visual Editor:
 
@@ -117,6 +97,8 @@ descriptions.
    formatting buttons.
   :width: 600
 
+#. Arrows enable undo/redo actions capability
+
 #. Select a formatting style for the selected text, such as paragraph,
    ``preformatted`` (monospace), or a heading level.
 
@@ -127,9 +109,6 @@ descriptions.
      Because tools such as screen readers use heading levels to navigate
      through pages, using heading levels 1 or 2 inside a Text component can
      interfere with the functionality of these tools.
-
-#. Select a font family for selected text, such as Arial, Courier New, or Times
-   New Roman.
 
 #. Format the selected text in bold, or remove this formatting. The editor
    inserts ``<strong>`` tags around the selected text.
@@ -143,9 +122,8 @@ descriptions.
 #. Change the color of the selected text. The editor encloses the selected text
    in the tag ``<span style="color: color-hex-code;">``.
 
-#. Format the selected text as a code block, or remove this formatting. The
-   editor inserts ``<code>`` tags around the selected text, which is then
-   displayed in a monospace font.
+#. Change the background color of the selected text. The editor encloses the 
+   selected text in the tag ``<span style="background-color: color-hex-code;">``.
 
 #. Align text and images to the left. The editor adds ``style="text-align:
    left;"`` to the ``<p>`` tags that surround the text.
@@ -158,7 +136,7 @@ descriptions.
 
 #. Justify text and images. The editor adds ``style="text-align: justify;"`` to
    the ``<p>`` tags that surround the text.
-
+   
 #. Create a bulleted list, or remove this formatting. The editor inserts
    ``<ul>`` tags around the selected text, and encloses each paragraph in
    ``<li>`` tags.
@@ -169,19 +147,38 @@ descriptions.
 
 #. Decrease and increase the indentation of the selected paragraph.
 
-#. Format the selected paragraph as a blockquote. The editor inserts
-   ``<blockquote>`` tags around the selected text, which is then displayed as a
-   separate paragraph in a monospace font.
+#. Insert an image at the cursor. For more information, see :ref:`Add an Image
+   to a Text Component`.
 
 #. Create a hypertext link from the selected text. For more information, see
    :ref:`Add a Link in a Text Component`.
 
 #. Remove a hypertext link from the selected text.
 
-#. Insert an image at the cursor. For more information, see :ref:`Add an Image
-   to a Text Component`.
+#. Format the selected paragraph as a blockquote. The editor inserts
+   ``<blockquote>`` tags around the selected text, which is then displayed as a
+   separate indented paragraph.
 
-#. Review the HTML markup.
+#. Format the selected text as a code block, or remove this formatting. The
+   editor inserts ``<code>`` tags around the selected text, which is then
+   displayed in a monospace font.
+   
+#. The table toolbar icon lets you drop in a table component and selecting a 
+   given cell lets you create, remove, or adjust rows and columns. 
+
+#. You can easily add emoticons to your text content. This can be a way to break  
+   up long stretches of content. 
+
+#. We have introduced a way to to include special characters into your text  
+   content, including mathematical and symbolic elements.
+
+#. Inject a horizontal line in the highlighted content.
+
+#. Clear formatting button which removes all font formatting from the selected 
+   text.  This does not remove paragraph formatting (e.g. blockquote).
+
+#. Review the HTML markup.  For more information, see 
+   :ref:`Review HTML Markup in the Visual Editor`.
 
 .. note::
   The visual editor is not available for :ref:`course handouts <Adding Course
@@ -192,7 +189,7 @@ descriptions.
 Review HTML Markup in the Visual Editor
 *****************************************
 
-To review the HTML markup added to  content in the visual editor, select
+To review the HTML markup added to content in the visual editor, select
 **HTML** from the visual editor's toolbar. The HTML source code editor opens.
 
 .. image:: ../../../shared/images/HTML_source_code.png
@@ -201,10 +198,10 @@ To review the HTML markup added to  content in the visual editor, select
  :width: 600
 
 You can edit text and the HTML markup in this editor. However, you cannot add
-custom styles or scripts in this editor. Use the
+custom styles or scripts in this editor. To do this, you must use the
 :ref:`raw HTML editor<The Raw HTML Editor>` instead.
 
-Select **OK** to return to the visual editor. The visual editor attempts to
+Select **Save** to return to the visual editor. The visual editor attempts to
 correct any problems with the markup that you entered. For example, if you do
 not provide a close paragraph tag, the editor adds the tag for you.
 
@@ -235,10 +232,10 @@ the HTML content in your course.
 
 .. important::
  When you add a heading to a Text component, make sure that you use only
- heading level 3 ``<h3>`` through heading level 6 ``<h6>``. Text components are
+ heading level 2 ``<h2>`` through heading level 6 ``<h6>``. Text components are
  part of a complete page, and elements outside the Text component use heading
- levels 1 and 2 by default. Because tools such as screen readers use heading
- levels to navigate through pages, using heading levels 1 or 2 inside a Text
+ level 1 by default. Because tools such as screen readers use heading
+ levels to navigate through pages, using heading level 1 inside a Text
  component can interfere with the functionality of these tools.
 
 .. _Create a Text Component:
@@ -255,25 +252,17 @@ Create a Text Component
    creates an empty Text component with the :ref:`visual editor<The Visual
    Editor>` selected.
 
-   An empty Text component appears at the bottom of the unit.
-
-#. In the component, select **Edit**.
-
-   The Text component opens in the visual editor.
+   An empty Text component appears at the bottom of the unit, and the Text 
+   component opens in the visual editor.
 
 #. Enter and format your content. You can :ref:`review the HTML markup<Work
    with HTML code>`.
 
-#. To enter a display name for the component, select **Settings**, and then
-   enter text in the **Display Name** field.
-
-   Each HTML template supplies a default display name. Changing the default to
-   a unique, descriptive display name can help you and your learners identify
-   course content quickly and accurately. If you delete the default display
-   name and do not enter your own identifying name, the platform shows
-   "Text" as the name of the component.
-
-   To return to the visual editor, select **Editor**.
+#. To enter a display name for the component, select the Pencil icon next to 
+   the title in the top left corner of the visual editor. Changing the default 
+   to a unique, descriptive display name can help you and your learners 
+   identify course content quickly and accurately. If no title is present, 
+   the platform shows "Text" as the name of the component when in Studio.
 
 #. Select **Save**.
 
@@ -290,17 +279,18 @@ When you use the visual editor, you can also perform the following tasks.
 Text Component Templates
 =========================
 
-When you create a Text component, you select one of the following templates.
+When you create a Text component, you select from a list of templates, 
+inlcuding the following:
 
 * Text
 * Announcement
 * IFrame Tool
 * Raw HTML
 
-The raw HTML template uses the raw HTML editor by default. All of the other
-templates use the visual editor by default. You can switch between the editors
-in any Text component. For more information, see :ref:`Set the Editor for a
-Text Component`.
+The Raw HTML template uses the raw HTML editor by default. All of the other
+templates use the visual editor by default. There is no way to switch between 
+Visual and Raw editor types once selected. 
+
 
 .. _Add a Link in a Text Component:
 
@@ -327,12 +317,12 @@ Add a Link to a Website
 
 #. Select the link icon in the toolbar.
 
-#. In the **Insert link** dialog box, enter the URL of the website that is the
-   destination for your link in the **URL** field.
+#. In the **Insert/Edit link** dialog box, enter the URL of the website that 
+   is the destination for your link in the **URL** field.
 
 #. If you want the link to open in a new window, select the dropdown arrow
-   next to the **Target** field, and then select **New Window**. If not, you
-   can leave the default value.
+   next to the **Open Link In...** field, and then select **New Window**. 
+   If not, you can leave the default value.
 
 #. Select **OK**.
 
@@ -386,8 +376,8 @@ Add a Link to a Course Unit
     export and then import the course.
 
 #. If you want the link to open in a new window, select the dropdown arrow
-   next to the **Target** field, and then select **New Window**. If not, you
-   can leave the default value.
+   next to the **Open Link In...** field, and then select **New Window**. If 
+   not, you can leave the default value.
 
 #. Select **Insert**.
 
@@ -433,8 +423,8 @@ Course`.
    Make sure that you include both forward slashes (/).
 
 #. (optional) If you want the link to open in a new window, select the dropdown
-   arrow next to the **Target** field, and then select **New Window**. If not,
-   you can leave the default value.
+   arrow next to the **Open Link In...** field, and then select **New Window**. 
+   If not, you can leave the default value.
 
 #. Select **OK**.
 
@@ -461,43 +451,10 @@ component.
 To add an image to a Text component, you can use one of the following
 procedures.
 
-* :ref:`Drag an image <Drag an Image into the Add Image Dialog Box>` from your
-  computer into the **Add Image** dialog box in the Text component.
 * :ref:`Locate an image <Locate an Image on Your Computer>` by using the
   **Browse Your Computer** option in the **Add Image** dialog box.
 * :ref:`Select an image <Select a Previously Uploaded Image>` that you have
-  uploaded to the **Files & Uploads** page.
-
-.. _Drag an Image into the Add Image Dialog Box:
-
-===========================================
-Drag an Image into the Add Image Dialog Box
-===========================================
-
-#. In the Text component, position the cursor where you want to add an image,
-   and then select the image icon on the toolbar.
-
-#. In the **Add an Image** dialog box, drag an image from your computer into
-   the **Drag and Drop** area.
-
-   As soon as your file uploads, the **Edit Image Settings** dialog box opens.
-
-#. In the **Edit Image Settings** dialog box, add an image description.
-
-   * In the **Image Description (Alt Text)** field, enter alternative text for
-     the image. This text becomes the value of the ``alt`` attribute in HTML
-     and is required for your course to be fully accessible. For more
-     information, see :ref:`Best Practices for Describing Images`.
-
-   * If your image is a decorative image that does not convey important
-     information, select the **This image is decorative only** checkbox.
-
-#. (optional) Specify the width and height of your image. For more information,
-   see :ref:`Change the Image Size`.
-
-#. Select **Insert Image**.
-
-#. Save the Text component and test the image.
+  previously uploaded.
 
 .. _Locate an Image on Your Computer:
 
@@ -508,27 +465,30 @@ Locate an Image on Your Computer
 #. In the Text component, position the cursor where you want to add an image,
    and then select the image icon on the toolbar.
 
-#. In the **Add an Image** dialog box, **Browse Your Computer**.
+#. In the **Add an Image** dialog box, **Upload a New Image (10 MB max)**.
 
 #. In the dialog box that opens, locate the file that you want to add, and
-   then select **Open**.
+   then select **Open**, or locate the image in the Image Gallery, and then 
+   select **Next**.
 
-   As soon as your file uploads, the **Edit Image Settings** dialog box opens.
+   As soon as your image is selected, the **Image Settings** dialog box 
+   opens.
 
 #. In the **Edit Image Settings** dialog box, add an image description.
 
-   * In the **Image Description (Alt Text)** field, enter alternative text for
+   * In the **Alt Text** field, enter alternative text for
      the image. This text becomes the value of the ``alt`` attribute in HTML
      and is required for your course to be fully accessible. For more
      information, see :ref:`Best Practices for Describing Images`.
 
    * If your image is a decorative image that does not convey important
-     information, select the **This image is decorative only** checkbox.
+     information, select the **This image is decorative (no alt text required)** 
+     checkbox.
 
 #. (optional) Specify the width and height of your image. For more information,
    see :ref:`Change the Image Size`.
 
-#. Select **Insert Image**.
+#. Select **Save**.
 
 #. Save the Text component and test the image.
 
@@ -538,34 +498,32 @@ Locate an Image on Your Computer
 Select a Previously Uploaded Image
 ==================================
 
-#. If you have not already added the image that you want to add, open the
-   **Files & Uploads** page, and then upload the image. For more information
-   about uploading images, see :ref:`Add Files to a Course`.
-
-   When you upload an image, the image automatically becomes available in a
-   list that opens when you add an image to a Text component.
+#. When you upload an image, the image automatically becomes available in a 
+   gallery list that opens when you add an image to a Text component.
 
 #. In the Text component, position the cursor where you want to add an image,
    and then select the image icon on the toolbar.
 
-#. In the **Add an Image** dialog box, locate the image in the **Select a
-   previously uploaded image** list, and then select **Next**.
+#. In the **Add an Image** dialog box, locate the image in the gallery list, 
+   and then select **Next**.  There are sort and filter options available for 
+   the gallery list to make it easy to find the image you need.
 
-#. In the **Edit Image Settings** dialog box, complete one of the following
+#. In the **Image Settings** dialog box, complete one of the following
    options.
 
-   * In the **Image Description (Alt Text)** field, enter alternative text for
+   * In the **Alt Text** field, enter alternative text for
      the image. This text becomes the value of the ``alt`` attribute in HTML
      and is required for your course to be fully accessible. For more
      information, see :ref:`Best Practices for Describing Images`.
 
    * If your image is a decorative image that does not convey important
-     information, select the **This image is decorative only** checkbox.
+     information, select the **This image is decorative (no alt text required)**
+      checkbox.
 
 #. (optional) Specify the width and height of your image. For more information,
    see :ref:`Change the Image Size`.
 
-#. Select **Insert Image**.
+#. Select **Save**.
 
 #. Save the Text component and test the image.
 
@@ -600,9 +558,9 @@ Change the Image Size
 To change the size of your image, follow these steps.
 
 #. In the Text component, select the image that you want to edit, and then
-   select the image icon on the toolbar.
+   select the Contextual image icon that appears above the image.
 
-#. In the **Edit Image Settings** dialog box, locate **Image Dimensions**, and
+#. In the **Image Settings** dialog box, locate **Image Dimensions**, and
    then enter the values that you want for the **Width** and **Height**
    options.
 
@@ -613,41 +571,10 @@ To change the size of your image, follow these steps.
     or click outside that field, the number in the other field changes to a
     value that maintains the image proportions.
 
-#. Select **Insert Image**.
+#. Select **Save**.
 
 If you want to change the image back to the original size, clear the values in
 the **Width** and **Height** fields.
-
-.. SP 4/9/18: The following sections are commented out because the current
-.. version of this modal does not include the Advanced tab. The Advanced tab
-.. may be re-added in a future version.
-
-
-.. .. _Add a Border to an Image:
-
-.. Add a Border to an Image
-.. ************************
-
-.. #. In the Text component, select the image that you want to edit, and then
-..   select the image icon on the toolbar.
-.. #. In the **Add or Edit Image** dialog box, select **Advanced**.
-.. #. In the **Border** field, enter the width in pixels of the border for
-..    the image.
-
-
-.. .. _Add Margins to an Image:
-
-.. Add Margins to an Image
-.. ************************
-
-.. #. In the Text component, select the image that you want to edit, and then
-..   select the image icon on the toolbar.
-.. #. In the **Add or Edit Image** dialog box, select **Advanced**.
-.. #. In the **Vertical space** and **Horizontal space** fields, enter the
-..    width in pixels of the margin that you want around the image.
-
-
-.. The following information is inaccurate and may need to be removed.
 
 .. _Import LaTeX Code:
 
