@@ -49,13 +49,13 @@ You can use two different editing interfaces to work with a Text component.
 
 * :ref:`The Visual Editor`
 
-With the visual editor you create, edit, and format content in a word
-processing-like interface, without using HTML markup directly. With the
-visual editor, you can more easily format your content, and add links and
-images. The visual editor includes an **HTML** option for you to review the
-HTML markup and make small formatting changes to your content. However, this
-HTML option does not provide the detailed control you can get with the raw
-HTML editor, and does not support custom formatting or scripts.
+  With the visual editor you create, edit, and format content in a word
+  processing-like interface, without using HTML markup directly. With the
+  visual editor, you can more easily format your content, and add links and
+  images. The visual editor includes an **HTML** option for you to review the
+  HTML markup and make small formatting changes to your content. However, this
+  HTML option does not provide the detailed control you can get with the raw
+  HTML editor, and does not support custom formatting or scripts.
 
 
   If you add a Text component and select **Text**, when you select **Edit**
@@ -70,7 +70,7 @@ HTML editor, and does not support custom formatting or scripts.
   If you add a Text component and select **Raw HTML**, when you select
   **Edit** the raw HTML editor opens by default.
 
-There is no way to switch between types once selected.
+  There is no way to switch between types once selected.
 
 .. note::
     If you copy text from another source and paste it into either the visual or
