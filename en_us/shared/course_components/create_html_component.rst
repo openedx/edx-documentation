@@ -52,11 +52,12 @@ You can use two different editing interfaces to work with a Text component.
   With the visual editor you create, edit, and format content in a word
   processing-like interface, without using HTML markup directly. With the
   visual editor, you can more easily format your content, and add links and
-  images. The visual editor includes an **HTML** option for you to review the
+  images. 
+  
+  The visual editor includes an **HTML** option for you to review the
   HTML markup and make small formatting changes to your content. However, this
   HTML option does not provide the detailed control you can get with the raw
-  HTML editor, and does not support custom formatting or scripts.
-
+  HTML editor, nor does it support custom formatting or scripts.
 
   If you add a Text component and select **Text**, when you select **Edit**
   the visual editor opens by default.
@@ -70,7 +71,8 @@ You can use two different editing interfaces to work with a Text component.
   If you add a Text component and select **Raw HTML**, when you select
   **Edit** the raw HTML editor opens by default.
 
-  There is no way to switch between types once selected.
+  There is no way to switch between the Visual Editor and the Raw HTML editor 
+  once one is selected.
 
 .. note::
     If you copy text from another source and paste it into either the visual or
@@ -97,7 +99,7 @@ descriptions.
    formatting buttons.
   :width: 600
 
-#. Arrows enable undo/redo actions capability
+#. Arrows that perform undo/redo actions.
 
 #. Select a formatting style for the selected text, such as paragraph,
    ``preformatted`` (monospace), or a heading level.
@@ -259,10 +261,11 @@ Create a Text Component
    with HTML code>`.
 
 #. To enter a display name for the component, select the Pencil icon next to 
-   the title in the top left corner of the visual editor. Changing the default 
-   to a unique, descriptive display name can help you and your learners 
-   identify course content quickly and accurately. If no title is present, 
-   the platform shows "Text" as the name of the component when in Studio.
+   the title in the top left corner of the visual editor. Changing the 
+   display name from it's default value to a unique, descriptive display name 
+   can help you and your learners identify course content quickly and 
+   accurately. If no title is present, the platform shows "Text" as the name 
+   of the component when in Studio.
 
 #. Select **Save**.
 
@@ -279,18 +282,23 @@ When you use the visual editor, you can also perform the following tasks.
 Text Component Templates
 =========================
 
-When you create a Text component, you select from a list of templates, 
-inlcuding the following:
+When you create a Text component, you select from a list of templates and 
+editor types, inlcuding the following:
 
 * Text
 * Announcement
 * IFrame Tool
 * Raw HTML
 
-The Raw HTML template uses the raw HTML editor by default. All of the other
-templates use the visual editor by default. There is no way to switch between 
-Visual and Raw editor types once selected. 
+The **Text** template loads the Visual Editor with no pre-canned text.
 
+The **Announcement** and the **IFrame Tool** templates load the Visual Editor 
+with pre-canned text that instructs the user how to format Announcements, 
+or how to use IFrames.
+
+The **Raw HTML** editor type uses the raw HTML editor by default. All other
+options use the visual editor by default. There is no way to switch between 
+Visual and Raw editor types once selected. 
 
 .. _Add a Link in a Text Component:
 
@@ -436,7 +444,7 @@ Course`.
 Add an Image to a Text Component
 *********************************
 
-When you use the visual editor, you can add any image from your computer to
+When you use the Visual Editor, you can add any image from your computer to
 a Text component. You can see a preview of the image before you add it to the
 component.
 
