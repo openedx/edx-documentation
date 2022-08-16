@@ -1,8 +1,8 @@
 .. _Molecule Editor:
 
-#######################
-Molecule Editor Tool
-#######################
+#################################
+Molecule Editor Tool (Deprecated)
+#################################
 
 .. note:: EdX does not support this tool.
 
