@@ -179,8 +179,7 @@ descriptions.
 #. Clear formatting button which removes all font formatting from the selected 
    text.  This does not remove paragraph formatting (e.g. blockquote).
 
-#. Review the HTML markup.  For more information, see 
-   :ref:`Review HTML Markup in the Visual Editor`.
+#. Review the HTML markup.
 
 .. note::
   The visual editor is not available for :ref:`course handouts <Adding Course
@@ -525,8 +524,8 @@ Select a Previously Uploaded Image
      information, see :ref:`Best Practices for Describing Images`.
 
    * If your image is a decorative image that does not convey important
-     information, select the **This image is decorative (no alt text required)**
-      checkbox.
+     information, select the **This image is decorative (no alt text 
+     required)** checkbox.
 
 #. (optional) Specify the width and height of your image. For more information,
    see :ref:`Change the Image Size`.
