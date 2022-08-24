@@ -88,7 +88,7 @@
 
 .. _DEPR-159: https://openedx.atlassian.net/browse/DEPR-159
 
-.. _documented in Confluence: https://openedx.atlassian.net/wiki/spaces/PT/pages/2594275334/Course+Import+Work
+.. _document in Confluence: https://openedx.atlassian.net/wiki/spaces/PT/pages/2594275334/Course+Import+Work
 
 .. _edx-val: https://github.com/edx/edx-val
 
