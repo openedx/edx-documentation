@@ -172,7 +172,7 @@ In addition to the components detailed above, the Open edX project also has
 services for other capabilities, such as one that manages e-commerce functions
 like order work flows and coupons.
 
-.. _edx-platform: https://github.com/edx/edx-platform
+.. _edx-platform: https://github.com/openedx/edx-platform
 .. _Python: https://www.python.org/
 .. _Django: https://www.djangoproject.com/
 .. _MongoDB: http://www.mongodb.org/

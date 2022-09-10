@@ -181,7 +181,7 @@ version of our `Paragon component library`_. If configured, this new experience
 provides improved visibility controls and new optional fields that can be shown
 on the profile. 
 
-.. __: https://github.com/edx/frontend-app-profile
+.. __: https://github.com/openedx/frontend-app-profile
 
 .. _Paragon component library: https://edx.github.io/paragon/
 
@@ -202,7 +202,7 @@ updated account settings experience on the platform. The account settings page
 can now be more easily extended with plugins, and all features available on the
 previous account settings page were migrated over to this updated experience. 
 
-.. __: https://github.com/edx/frontend-app-account
+.. __: https://github.com/openedx/frontend-app-account
 
 .. image:: ../images/juniper/account_settings.png
     :alt: Screenshot of the new account settings page.
@@ -243,7 +243,7 @@ A `new micro-frontend`__ was created for ecommerce related views, and the Order
 History page experience was added to this new tool. The new experience shows
 all ecommerce orders with links to the order detail pages. 
 
-.. __: https://github.com/edx/frontend-app-ecommerce
+.. __: https://github.com/openedx/frontend-app-ecommerce
 
 .. image:: ../images/juniper/order_history.png
     :alt: Screenshot of the new Order History page.
@@ -303,7 +303,7 @@ Cybersource credit card payment types. The improved checkout flow should
 improve checkout conversion rates and provide avenues for other plugins or
 integrations as well. 
 
-.. __: https://github.com/edx/frontend-app-payment
+.. __: https://github.com/openedx/frontend-app-payment
 
 **First Purchase Discount** is a configurable time-limited offer to extend to
 first time purchasers. In our experimentation, we have found a meaningful

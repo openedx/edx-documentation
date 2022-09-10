@@ -2222,7 +2222,7 @@ understand which of your learners received a certificate.
 
 For the latest information course certificates, see the `certificate models`_.
 
-.. _`certificate models`: https://github.com/edx/edx-platform/blob/master/lms/djangoapps/certificates/models.py
+.. _`certificate models`: https://github.com/openedx/edx-platform/blob/master/lms/djangoapps/certificates/models.py
 
 A sample of the heading row and two data rows in the
 ``certificates_generatedcertificate`` table follows.

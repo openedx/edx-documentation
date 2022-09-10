@@ -316,8 +316,8 @@ Select one of the available MySQL techniques for slowly draining the
 
 
 
-.. _migration scripts: https://github.com/edx/configuration/blob/master/util/csmh-extended
+.. _migration scripts: https://github.com/openedx/configuration/blob/master/util/csmh-extended
 
-.. _edxapp.yml playbook: https://github.com/edx/configuration/blob/master/playbooks/edx-east/edxapp.yml
+.. _edxapp.yml playbook: https://github.com/openedx/configuration/blob/master/playbooks/edx-east/edxapp.yml
 
-.. _create_db_and_users.yml playbook:   https://github.com/edx/configuration/blob/master/playbooks/edx-east/create_db_and_users.yml
+.. _create_db_and_users.yml playbook:   https://github.com/openedx/configuration/blob/master/playbooks/edx-east/create_db_and_users.yml

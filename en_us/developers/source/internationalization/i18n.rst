@@ -480,7 +480,7 @@ preview language.  Use the **Reset** button to reset the preview language to
 your default setting.  Refresh your browser page to display the page in the
 selected language. The  language persists for the duration of your session.
 
-.. _RTL UI Guidelines: https://github.com/edx/edx-platform/wiki/RTL-UI-Best-Practices
+.. _RTL UI Guidelines: https://github.com/openedx/edx-platform/wiki/RTL-UI-Best-Practices
 
 
 .. _i18n Style Guidelines:

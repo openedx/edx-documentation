@@ -19,9 +19,9 @@ There are currently two edX mobile applications, one for iOS and one for
 Android. You can find the source code and additional documentation for each
 application in the following repositories.
 
-* iOS: http://github.com/edx/edx-app-ios
+* iOS: http://github.com/openedx/edx-app-ios
 
-* Android: http://github.com/edx/edx-app-android
+* Android: http://github.com/openedx/edx-app-android
 
 *****************************************
 Configuring Mobile Application Features

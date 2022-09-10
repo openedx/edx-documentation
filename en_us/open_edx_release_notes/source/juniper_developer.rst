@@ -38,7 +38,7 @@ logging, authentication, internationalization, as well as a set of other
 miscellaneous utilities and configuration details that affect all
 micro-frontends.
 
-.. _Frontend Platform: https://github.com/edx/frontend-platform
+.. _Frontend Platform: https://github.com/openedx/frontend-platform
 
 **MFE Template Application:** For new micro-frontends, you can start from the
 `Frontend Template Application`_ GitHub repository, a way to quickly spin up a
@@ -46,7 +46,7 @@ new MFE using consistent tools and configuration details employed by other open
 edx platform MFEs. It is flagged as a template repository, meaning it can be
 used as a basis for new GitHub repositories via the "Use this Template" action.
 
-.. _Frontend Template Application: https://github.com/edx/frontend-template-application
+.. _Frontend Template Application: https://github.com/openedx/frontend-template-application
 
 **MFE Service - Build:**  In order to standardize MFE configuration of styles,
 tests, and builds, a GitHub repository was created called `Frontend Build`_ to
@@ -54,21 +54,21 @@ package as a single dev dependency. It aims to provide common sense defaults
 that should be good for most edX projects out of the box, but can be extended
 or overridden where needed.
 
-.. _Frontend Build: https://github.com/edx/frontend-build
+.. _Frontend Build: https://github.com/openedx/frontend-build
 
 **MFE Service - Logging:** In support of expanded use of micro-frontends, a
 foundational service focused on logging and reporting was built into the
 `Frontend Platform repository`__, with an out-of-the-box concrete
 implementation for NewRelic.
 
-.. __: https://github.com/edx/frontend-platform/blob/master/src/logging/interface.js
+.. __: https://github.com/openedx/frontend-platform/blob/master/src/logging/interface.js
 
 **MFE Service - Analytics:** In support of expanded use of micro-frontends, a
 foundational service focused on eventing and analytics was built into the
 `Frontend Platform repository`__, with an out-of-the-box concrete implementation
 for Segment.
 
-.. __: https://github.com/edx/frontend-platform/blob/master/src/analytics/interface.js
+.. __: https://github.com/openedx/frontend-platform/blob/master/src/analytics/interface.js
 
 Mobile Site Build Pipeline
 --------------------------
@@ -77,7 +77,7 @@ Mobile Site Build Pipeline
 automation tooling`__ and containers for both the iOS and Android applications,
 enabling improved mobile app test suite automation and builds.
 
-.. __: https://github.com/edx/edx-app-test
+.. __: https://github.com/openedx/edx-app-test
 
 Authentication & Account Services
 ---------------------------------
@@ -87,7 +87,7 @@ micro-frontends, a foundational service focused on configuring authentication
 access and maintaining JSON web tokens through to the MFE was built into the
 `Frontend Platform repository`__.
 
-.. __: https://github.com/edx/frontend-platform
+.. __: https://github.com/openedx/frontend-platform
 
 **Deprecation of Legacy Implementations:** A number of legacy implementations
 and views to power login and registration pages on edX platform were cleaned up
@@ -106,7 +106,7 @@ was built into the `Frontend Platform repository`__. The goal of this service
 is to standardize the way micro-frontends reference and update their text
 strings from Transifex, our crowdsource platform text translation community.
 
-.. __: https://github.com/edx/frontend-platform
+.. __: https://github.com/openedx/frontend-platform
 
 
 Devstack
@@ -184,7 +184,7 @@ site or product experience to which it is connected. We have published various
 components, including the commonly `configured header and footer elements, a
 cookie message banner, and others`__.
 
-.. __: https://github.com/edx?q=frontend-component&type=&language=
+.. __: https://github.com/openedx?q=frontend-component&type=&language=
 
 
 ==========================
@@ -248,7 +248,7 @@ Towards this end, we've created various simple checks in `edx-repo-health`_.
 The checks answer questions like: Does the openedx.yaml file exist in repo? Is
 it parseable? Does Makefile have an upgrade target?
 
-.. _edx-repo-health: https://github.com/edx/edx-repo-health
+.. _edx-repo-health: https://github.com/openedx/edx-repo-health
 
 To run the checks, we've created the pytest plugin `pytest-repo-health`_. The
 plugin will find the checks in the specified directory and run them on the
@@ -256,7 +256,7 @@ directory of your choice. The instructions to run the plugin can be found in
 its readme file. For now, data from individual repos is output as a yaml file.
 The aggregated data for many files is output as a csv.
 
-.. _pytest-repo-health: https://github.com/edx/pytest-repo-health
+.. _pytest-repo-health: https://github.com/openedx/pytest-repo-health
 
 
 ==========================

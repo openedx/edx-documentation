@@ -466,7 +466,7 @@ msgid "The edX *Building and Running an Open edX Course* guide is created using 
 msgstr ""
 
 #: ../../source/front_matter/read_me.rst:9
-msgid "https://github.com/edx/edx-documentation/tree/master/en_us/open_edx_course_authors/source"
+msgid "https://github.com/openedx/edx-documentation/tree/master/en_us/open_edx_course_authors/source"
 msgstr ""
 
 #: ../../source/front_matter/read_me.rst:11

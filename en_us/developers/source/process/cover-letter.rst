@@ -64,5 +64,5 @@ includes before and after screenshots, so the UX team can quickly understand
 what changes were made and make suggestions. Further, the pull request
 indicates how to manually test the feature and what date it is needed by.
 
-.. _Pull Request 4675: https://github.com/edx/edx-platform/pull/4675
-.. _Pull Request 4983: https://github.com/edx/edx-platform/pull/4983
+.. _Pull Request 4675: https://github.com/openedx/edx-platform/pull/4675
+.. _Pull Request 4983: https://github.com/openedx/edx-platform/pull/4983

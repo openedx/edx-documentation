@@ -126,7 +126,7 @@ edx-platform (both the LMS and Studio), installation and testing will be much
 more straightforward.
 
 To enable an XBlock for testing in your devstack
-(https://github.com/edx/configuration/wiki/edX-Developer-Stack), follow these
+(https://github.com/openedx/configuration/wiki/edX-Developer-Stack), follow these
 steps.
 
 #.  Install your block.

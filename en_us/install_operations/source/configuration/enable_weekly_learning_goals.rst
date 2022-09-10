@@ -29,8 +29,8 @@ The following waffle flag needs to be enabled:
 
    ``course_experience.enable_course_goals``
 
-To send goal reminder emails, you need to regularly run the following `management command <https://github.com/edx/edx-platform/blob/master/lms/djangoapps/course_goals/management/commands/goal_reminder_email.py#L101>`_.
+To send goal reminder emails, you need to regularly run the following `management command <https://github.com/openedx/edx-platform/blob/master/lms/djangoapps/course_goals/management/commands/goal_reminder_email.py#L101>`_.
 
 edx.org runs this command at the following cron schedule H \*/3 \* \* \*
 
-.. note:: For the emails to work you will need to have at least one email channel configured within https://github.com/edx/edx-ace
+.. note:: For the emails to work you will need to have at least one email channel configured within https://github.com/openedx/edx-ace

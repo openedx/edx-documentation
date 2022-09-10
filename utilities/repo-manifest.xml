@@ -25,7 +25,7 @@ the following commands.
 
 curl https://storage.googleapis.com/git-repo-downloads/repo > repo
 chmod a+x repo
-./repo init -u https://github.com/edx/edx-documentation.git -m utilities/repo-manifest.xml
+./repo init -u https://github.com/openedx/edx-documentation.git -m utilities/repo-manifest.xml
 ./repo sync
 
  -->

@@ -4,7 +4,7 @@
 Setting Up the User Retirement Driver Scripts
 #############################################
 
-Tubular (`edx/tubular on github <https://github.com/edx/tubular>`_) is a
+Tubular (`edx/tubular on github <https://github.com/openedx/tubular>`_) is a
 repository of Python 3 scripts designed to plug into various automation
 tooling. Included in Tubular are two scripts intended to drive the user 
 retirement workflow.
@@ -57,7 +57,7 @@ of execution for each environment. Each item is a list in the form of:
 #. End state name
 #. IDA to call against (LMS, ECOMMERCE, or CREDENTIALS currently)
 #. Method name to call in Tubular's
-   `edx_api.py <https://github.com/edx/tubular/blob/master/tubular/edx_api.py>`_
+   `edx_api.py <https://github.com/openedx/tubular/blob/master/tubular/edx_api.py>`_
 
 For example: ``['RETIRING_CREDENTIALS', 'CREDENTIALS_COMPLETE', 'CREDENTIALS',
 'retire_learner']`` will set the user's state to ``RETIRING_CREDENTIALS``, call
@@ -78,7 +78,7 @@ Set up your execution environment.
 
 .. code-block:: bash
 
-   git clone https://github.com/edx/tubular.git
+   git clone https://github.com/openedx/tubular.git
    cd tubular
    virtualenv --python=`which python3` venv
    source venv/bin/activate

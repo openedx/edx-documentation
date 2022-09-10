@@ -137,7 +137,7 @@ running on that instance.
 
     .. code-block:: bash
 
-        git clone https://github.com/edx/edx-analytics-configuration.git
+        git clone https://github.com/openedx/edx-analytics-configuration.git
 
 #. Configure the shell to use the AWS credentials of the administrative AWS
    user.

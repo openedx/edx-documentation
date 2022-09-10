@@ -64,7 +64,7 @@ This tool also replaces the course creation action within Studio when enabled,
 and a link to the Publisher tool settings for a given course run is also
 provided with the authoring experience.
 
-.. __: https://github.com/edx/frontend-app-publisher
+.. __: https://github.com/openedx/frontend-app-publisher
 
 .. image:: ../images/juniper/publisher.png
    :alt: Screenshot of the new Publisher tool.

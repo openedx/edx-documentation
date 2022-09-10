@@ -13,7 +13,7 @@ requirements. To do this, complete the following steps at a command prompt.
 
    .. code-block:: bash
 
-      (venv) $ git clone https://github.com/edx/xblock-sdk.git
+      (venv) $ git clone https://github.com/openedx/xblock-sdk.git
 
 #. Run the following command to change to the ``xblock-sdk`` directory.
 
