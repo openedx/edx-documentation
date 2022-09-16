@@ -65,6 +65,6 @@ Custom Interpolation Tag Example:
     {% endblocktrans %}
     {% interpolate_html msg start_anchor='<ahref="'|add:site.siteconfiguration.certificate_help_url|add:'">'|safe end_anchor='</a>'|safe %}
 
-See an `example of this custom tag <https://github.com/edx/credentials/blob/57d02cb5d5bde7fce4f4862fd03cd42879e6f123/credentials/templates/credentials/programs/base.html#L116-L120>`__ used in the credentials codebase.
+See an `example of this custom tag <https://github.com/openedx/credentials/blob/57d02cb5d5bde7fce4f4862fd03cd42879e6f123/credentials/templates/credentials/programs/base.html#L116-L120>`__ used in the credentials codebase.
 
-The `interpolate_html tag <https://github.com/edx/xss-utils/blob/f2333be958e1f2e0970cf92c9da5a707999f6aad/xss_utils/templatetags/django_markup.py#L11>`__ is now available in a shared library for use in all IDAs.
+The `interpolate_html tag <https://github.com/openedx/xss-utils/blob/f2333be958e1f2e0970cf92c9da5a707999f6aad/xss_utils/templatetags/django_markup.py#L11>`__ is now available in a shared library for use in all IDAs.

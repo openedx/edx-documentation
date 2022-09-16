@@ -59,7 +59,7 @@ This should instead be written as::
 
 .. _CSS Rules: https://github.com/stylelint/stylelint/blob/master/docs/user-guide/rules.md#possible-errors
 .. _default flag: http://sass-lang.com/documentation/file.SASS_REFERENCE.html#Variable_Defaults___default
-.. _edX Stylelint Config: https://github.com/edx/stylelint-config-edx
-.. _edX Stylelint Config README: https://github.com/edx/stylelint-config-edx#sass-style-guide
+.. _edX Stylelint Config: https://github.com/edx-unsupported/stylelint-config-edx
+.. _edX Stylelint Config README: https://github.com/edx-unsupported/stylelint-config-edx#sass-style-guide
 .. _SCSS-Specific Rules: https://www.npmjs.com/package/stylelint-scss#list-of-rules
 .. _Stylelint: https://stylelint.io/

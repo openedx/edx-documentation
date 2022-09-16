@@ -66,37 +66,37 @@
 
 .. _Tutor: https://docs.tutor.overhang.io/
 
-.. _Studio OAuth migration runbook: https://github.com/edx/edx-platform/blob/open-release/maple.master/docs/guides/studio_oauth.rst
+.. _Studio OAuth migration runbook: https://github.com/openedx/edx-platform/blob/open-release/maple.master/docs/guides/studio_oauth.rst
 
-.. _edX configuration: https://github.com/edx/configuration/
+.. _edX configuration: https://github.com/openedx/configuration/
 
-.. _devstack: https://github.com/edx/devstack
+.. _devstack: https://github.com/openedx/devstack
 
 .. _ARCHBOM-1860: https://openedx.atlassian.net/browse/ARCHBOM-1860
 
 .. _OEP-42: https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0042-bp-authentication.html
 
-.. _Allowlist ADR: https://github.com/edx/edx-platform/blob/master/lms/djangoapps/certificates/docs/decisions/001-allowlist-cert-requirements.rst
+.. _Allowlist ADR: https://github.com/openedx/edx-platform/blob/master/lms/djangoapps/certificates/docs/decisions/001-allowlist-cert-requirements.rst
 
-.. _cert_generation command: https://github.com/edx/edx-platform/blob/master/lms/djangoapps/certificates/management/commands/cert_generation.py
+.. _cert_generation command: https://github.com/openedx/edx-platform/blob/master/lms/djangoapps/certificates/management/commands/cert_generation.py
 
 .. _tutor mfe plugin README: https://github.com/overhangio/tutor-mfe#customise-mfes-logos
 
 .. _DEPR-156: https://openedx.atlassian.net/browse/DEPR-156
 
-.. _PR 27646: https://github.com/edx/edx-platform/pull/27646
+.. _PR 27646: https://github.com/openedx/edx-platform/pull/27646
 
 .. _DEPR-159: https://openedx.atlassian.net/browse/DEPR-159
 
 .. _document in Confluence: https://openedx.atlassian.net/wiki/spaces/PT/pages/2594275334/Course+Import+Work
 
-.. _edx-val: https://github.com/edx/edx-val
+.. _edx-val: https://github.com/openedx/edx-val
 
 .. Lilac doc links:
 
 .. _ProctorTrack Service from Verificient: https://www.verificient.com/proctortrack/
 
-.. _ProgramCompletionEmailConfiguration: https://github.com/edx/credentials/blob/27fbfe88a91e5111595655f3dfab3ce493958a4f/credentials/apps/credentials/models.py#L306-L322
+.. _ProgramCompletionEmailConfiguration: https://github.com/openedx/credentials/blob/27fbfe88a91e5111595655f3dfab3ce493958a4f/credentials/apps/credentials/models.py#L306-L322
 
 .. _certificate availability date: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/studio_add_course_information/studio_creating_certificates.html#specify-a-different-certificates-available-date
 
@@ -139,11 +139,11 @@
 
 .. _Upload a Badge to Mozilla Backpack: http://edx.readthedocs.io/projects/open-edx-learner-guide/en/named-release-cypress/SFD_certificates.html?highlight=badges#upload-a-badge-to-mozilla-backpack
 
-.. _base.py: https://github.com/edx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/base.py
+.. _base.py: https://github.com/openedx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/base.py
 
-.. _S3.py: https://github.com/edx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/s3.py
+.. _S3.py: https://github.com/openedx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/s3.py
 
-.. _init file: https://github.com/edx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/__init__.py
+.. _init file: https://github.com/openedx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/__init__.py
 
 .. _Version 3 of the YouTube API: https://developers.google.com/youtube/v3/
 

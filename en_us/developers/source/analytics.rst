@@ -391,6 +391,6 @@ code. Old calls to ``server_track`` should be replaced with calls to
 handling do not currently have a suitable alternative approach, so they
 continue to be supported.
 
-.. _event-tracking: https://github.com/edx/event-tracking
+.. _event-tracking: https://github.com/openedx/event-tracking
 .. _event-tracking documentation: http://event-tracking.readthedocs.io/en/latest/overview.html#event-tracking
 .. _Segment: https://segment.com/

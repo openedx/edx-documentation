@@ -231,8 +231,8 @@ The new values were added in `pull request #4810`_ and the unnecessary values
 were removed in `#4811`_.
 
 .. _LEARNER-4674: https://openedx.atlassian.net/browse/LEARNER-4674
-.. _pull request #4810: https://github.com/edx/configuration/pull/4810
-.. _#4811: https://github.com/edx/configuration/pull/4811
+.. _pull request #4810: https://github.com/openedx/configuration/pull/4810
+.. _#4811: https://github.com/openedx/configuration/pull/4811
 
 Two new settings files were added to edx-platform with this release, at
 ``lms/envs/production.py`` and ``cms/envs/production.py``.  These new files
@@ -255,13 +255,13 @@ We added some new tooling to help us better monitor celery queues.  There is a
 `new python script`__ that will monitor redis queues and alert if a task has
 been sitting in the queue for too long.
 
-.. __: https://github.com/edx/configuration/tree/36ed093d6db6a719d12a65057bcd19aae1588a84/util/jenkins/check_celery_progress
+.. __: https://github.com/openedx/configuration/tree/36ed093d6db6a719d12a65057bcd19aae1588a84/util/jenkins/check_celery_progress
 
 Abbey.py tooling to build AMIs from Ansible runs of the configuration repo has
 been removed.  If you wish to run Ansible and then create AMIs from those
 machines, use the Ansible scripts under the `continuous_delivery`__ folder.
 
-.. __: https://github.com/edx/configuration/tree/36ed093d6db6a719d12a65057bcd19aae1588a84/playbooks/continuous_delivery
+.. __: https://github.com/openedx/configuration/tree/36ed093d6db6a719d12a65057bcd19aae1588a84/playbooks/continuous_delivery
 
 The e-commerce dependencies have been updated to django-oscar 1.5.4. The 1.5.3
 release of django-oscar contains a security fix. If you use anonymous checkout,

@@ -64,8 +64,8 @@ overview of the process is here:
    :target: ../_images/pr-process.png
 
 .. _Open edX Proposal (OEP) process: http://open-edx-proposals.readthedocs.io/en/latest/
-.. _The instructions here: https://github.com/edx/edx-platform/blob/master/CONTRIBUTING.rst#step-0-join-the-conversation
-.. _contribution agreement: https://github.com/edx/edx-platform/blob/master/CONTRIBUTING.rst#step-1-sign-a-contribution-agreement
+.. _The instructions here: https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst#step-0-join-the-conversation
+.. _contribution agreement: https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst#step-1-sign-a-contribution-agreement
 
 General Guidelines
 ------------------
@@ -84,7 +84,7 @@ For XBlocks you intend to install on edx.org, please also read the `XBlock
 Review Guidelines`_.
 
 .. _Internationalization Coding Guidelines: https://openedx.atlassian.net/wiki/edx.readthedocs.io/projects/edx-developer-guide/en/latest/internationalization/i18n.html
-.. _RTL UI Best Practices: https://github.com/edx/edx-platform/wiki/RTL-UI-Best-Practices
+.. _RTL UI Best Practices: https://github.com/openedx/edx-platform/wiki/RTL-UI-Best-Practices
 .. _Accessibility Guidelines: http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/accessibility.html
 .. _Analytics Guidelines: http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/analytics.html
 .. _Eventing Design and Review Process: https://openedx.atlassian.net/wiki/display/AN/Eventing+Design+and+Review+Process

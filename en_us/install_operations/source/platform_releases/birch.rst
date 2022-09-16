@@ -52,7 +52,7 @@ Upgrading from Aspen to Birch
 
 You can upgrade your Open edX instance that is running the Aspen release to the
 Birch release, using the ``migrate.sh`` script in the configuration repository,
-`available here <https://github.com/edx/configuration/blob/master/util/vagrant/migrate.sh>`_.
+`available here <https://github.com/openedx/configuration/blob/master/util/vagrant/migrate.sh>`_.
 
 .. note::
   The upgrade scripts provided are verified only for upgrading instances

@@ -656,7 +656,7 @@ Legacy JavaScript files
 JavaScript files are often used to perform DOM manipulation, and must properly
 HTML-escape text before inserting it into the DOM.
 
-The `UI Toolkit <https://github.com/edx/edx-ui-toolkit>`_ introduces various
+The `UI Toolkit <https://github.com/openedx/edx-ui-toolkit>`_ introduces various
 ``StringUtils`` and ``HtmlUtils`` that are useful for handling escaping in
 JavaScript. You can declare ``StringUtils`` and ``HtmlUtils`` as dependencies
 using RequireJS ``define``, as seen in the following example.

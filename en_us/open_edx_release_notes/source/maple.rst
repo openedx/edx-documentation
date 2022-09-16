@@ -282,7 +282,7 @@ Other ORA features
 LTI 1.3 and LTI Advantage Support
 ---------------------------------
 
-lti-consumer-xblock (also known as xblock-lti-consumer) has been updated to support LTI 1.3, as well as the Deep Linking (LTI-DL) and Assignments and Grades services (LTI-AGS) features of LTI Advantage. Information on configuring lti-consumer-xblock can be found at https://github.com/edx/xblock-lti-consumer/blob/master/README.rst
+lti-consumer-xblock (also known as xblock-lti-consumer) has been updated to support LTI 1.3, as well as the Deep Linking (LTI-DL) and Assignments and Grades services (LTI-AGS) features of LTI Advantage. Information on configuring lti-consumer-xblock can be found at https://github.com/openedx/xblock-lti-consumer/blob/master/README.rst
 
 - LTI 1.3 and LTI Advantage features are now enabled by default.
 - LTI 1.3 settings were simplified to reduce confusion when setting up a LTI tool.
@@ -297,7 +297,7 @@ lti-consumer-xblock (also known as xblock-lti-consumer) has been updated to supp
 Gradebook Micro-FrontEnd
 ------------------------
 
-Gradebook allows course staff to view, filter, and override subsection grades for a course. For configuration details, see https://github.com/edx/frontend-app-gradebook
+Gradebook allows course staff to view, filter, and override subsection grades for a course. For configuration details, see https://github.com/openedx/frontend-app-gradebook
 
 There are some limitations to the version in Maple:
 
@@ -320,7 +320,7 @@ Administrator Experiences
 Password Complexity
 -------------------
 
-Implemented and rolled out new password complexity requirements to meet PCI compliance. For more detail, see https://github.com/edx/edx-platform/blob/open-release/maple.master/common/djangoapps/util/password_policy_validators.py
+Implemented and rolled out new password complexity requirements to meet PCI compliance. For more detail, see https://github.com/openedx/edx-platform/blob/open-release/maple.master/common/djangoapps/util/password_policy_validators.py
 
 
 Migrations
@@ -377,7 +377,7 @@ Learners and partners should not notice any change. The only effect is that they
 
 Learning Micro-Frontend (MFE)
 -----------------------------
-To increase development speed and site performance, we've made improvements to the learning sequence experience (Learning MFE) on edX-platform, to use a React-based frontend that emulates the legacy experience. The Learning MFE code repository is at https://github.com/edx/frontend-app-learning
+To increase development speed and site performance, we've made improvements to the learning sequence experience (Learning MFE) on edX-platform, to use a React-based frontend that emulates the legacy experience. The Learning MFE code repository is at https://github.com/openedx/frontend-app-learning
 
 After a year of diligently working to overhaul the learning sequence experience to use a React-based micro-frontend, it is now live for learners. This update to the underlying infrastructure of the learning sequence experience aims to drive innovation and experimentation that will ultimately foster greater learner engagement. With the new experience, learners will notice a reduction in load times and better site performance. However, the true beneficiaries of this work are internal development teams who will be able to quickly and efficiently build in this area of the system.
 

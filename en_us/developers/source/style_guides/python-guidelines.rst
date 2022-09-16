@@ -236,7 +236,7 @@ Not like this::
 We intentionally stray from `PEP 257`_ in this case.  The formatting
 inconsistency between single and multi-line docstrings can result in merge
 conflicts when upstream and downstream branches change the same docstring.  See
-this `GitHub comment <https://github.com/edx/edx-documentation/pull/999#issuecomment-215537490>`_
+this `GitHub comment <https://github.com/openedx/edx-documentation/pull/999#issuecomment-215537490>`_
 for more context.
 
 **********
