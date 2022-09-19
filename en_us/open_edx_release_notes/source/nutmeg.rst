@@ -21,9 +21,9 @@ SafeSessionMiddleware
 ---------------------
 Before upgrade: Check that your logs do not contain warnings starting with "SafeCookieData user at request", or that these warnings are very rare. If they are common, see the SafeSessionMiddleware section below in the Administrators and Operators Section.
 
-Django Admin login disabled by default
---------------------------------------
-Default Django admin login window is disabled and now one has to login from the LMS.
+Django Admin login removed
+--------------------------
+With the removal of django-ratelimit-backend, the default Django admin login was also removed and now one has to login from the LMS. See the Deprecations section below for more information.
 
 ===================
 Learner Experiences
