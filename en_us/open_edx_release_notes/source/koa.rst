@@ -79,7 +79,7 @@ Open Response Assessments
 
 **Ability to limit file uploads**: Course staff now have the ability in ORA settings to limit students to one file upload as part of their ORA submission, if file uploads are set to optional or required. This work was one of many `community contributions`__!
 
-__ https://github.com/edx/edx-ora2/pulls?q=is%3Apr+is%3Aclosed+merged%3A%3E2019-01-01+-author%3Aedx-transifex-bot
+__ https://github.com/openedx/edx-ora2/pulls?q=is%3Apr+is%3Aclosed+merged%3A%3E2019-01-01+-author%3Aedx-transifex-bot
 
 **Separate Assessment Steps & Schedule Authoring Areas**: To support improved authoring ease, we have added a new “Assessment Steps” tab to the ORA authoring experience, making it easier to see at a glance which steps you have enabled for your ORA problem. A new “Schedule” tab summarizes all the configured dates for the ORA problem, including the overall problem submission deadline if set, as well as the release dates for each of the ORA steps if those have been specified.
 
@@ -167,8 +167,8 @@ __ https://edx.github.io/paragon/components/toast
 
   - The component offering in Paragon has been expanded by offering pass-through exports to React Bootstrap components (`10.0.0`_, `12.0.0`_). These include: Alert, Badge, Button, ButtonGroup, Card,  Carousel, Dropdown, Figure, Form, InputGroup, Image, Nav, Navbar, Overlay, Popover, ProgressBar, Spinner, Tabs, Tooltip
 
-.. _10.0.0: https://github.com/edx/paragon/releases/tag/v10.0.0
-.. _12.0.0: https://github.com/edx/paragon/releases/tag/v12.0.0
+.. _10.0.0: https://github.com/openedx/paragon/releases/tag/v10.0.0
+.. _12.0.0: https://github.com/openedx/paragon/releases/tag/v12.0.0
 
 - **Component improvements and fixes**
 
@@ -176,10 +176,10 @@ __ https://edx.github.io/paragon/components/toast
   - Minor bug fixes in SearchField (`9.0.2`_)
   - Bug fixes in Modal (`12.0.2`_)
 
-.. _12.2.0: https://github.com/edx/paragon/releases/tag/v12.2.0
-.. _12.3.0: https://github.com/edx/paragon/releases/tag/v12.3.0
-.. _9.0.2: https://github.com/edx/paragon/releases/tag/v9.0.2
-.. _12.0.2: https://github.com/edx/paragon/releases/tag/v12.0.2
+.. _12.2.0: https://github.com/openedx/paragon/releases/tag/v12.2.0
+.. _12.3.0: https://github.com/openedx/paragon/releases/tag/v12.3.0
+.. _9.0.2: https://github.com/openedx/paragon/releases/tag/v9.0.2
+.. _12.0.2: https://github.com/openedx/paragon/releases/tag/v12.0.2
 
 - **Improved theming support**
 
@@ -193,7 +193,7 @@ __ https://edx.github.io/paragon/components/toast
 
 .. _@edx/brand-edx.org: https://github.com/edx/brand-edx.org/tree/master/paragon
 .. _OEP-48 Brand Customization: https://open-edx-proposals.readthedocs.io/en/latest/oep-0048-brand-customization.html
-.. _v12.1.0 release notes: https://github.com/edx/paragon/releases/tag/v12.1.0
+.. _v12.1.0 release notes: https://github.com/openedx/paragon/releases/tag/v12.1.0
 
 Deprecations
 ------------

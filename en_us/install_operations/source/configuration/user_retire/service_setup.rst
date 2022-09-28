@@ -18,7 +18,7 @@ feature. Note that some of these settings values are lambda functions rather
 than standard string literals. This is intentional; it is a pattern for
 defining *derived* settings specific to Open edX. Read more about it in
 `openedx/core/lib/derived.py
-<https://github.com/edx/edx-platform/blob/fdc50c3/openedx/core/lib/derived.py>`_.
+<https://github.com/openedx/edx-platform/blob/fdc50c3/openedx/core/lib/derived.py>`_.
 
 .. list-table::
    :header-rows: 1
@@ -53,7 +53,7 @@ defining *derived* settings specific to Open edX. Read more about it in
      - ``'RETIREMENT_SERVICE_USER'``
      - The username of the retirement service worker.
    * - RETIREMENT_STATES
-     - See `lms/envs/common.py <https://github.com/edx/edx-platform/blob/fe82954/lms/envs/common.py#L3421-L3449>`_
+     - See `lms/envs/common.py <https://github.com/openedx/edx-platform/blob/fe82954/lms/envs/common.py#L3421-L3449>`_
        in the ``RETIREMENT_STATES`` setting
      - A list that defines the name and order of states for the retirement
        workflow.  See `Retirement States`_ for details.
@@ -73,7 +73,7 @@ installations, so it is the responsibility of the administrator to populate
 the state list.
 
 The default states are defined in `lms/envs/common.py
-<https://github.com/edx/edx-platform/blob/fe82954/lms/envs/common.py#L3421-L3449>`_
+<https://github.com/openedx/edx-platform/blob/fe82954/lms/envs/common.py#L3421-L3449>`_
 in the ``RETIREMENT_STATES`` setting.  There must be, at minimum, a ``PENDING``
 state at the beginning, and ``COMPLETED``, ``ERRORED``, and ``ABORTED`` states
 at the end of the list.  Also, for every ``RETIRING_foo`` state, there must be

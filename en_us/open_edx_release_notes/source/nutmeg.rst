@@ -311,7 +311,7 @@ Developer Experiences
 * django plugins can now return context for the Instructor Dashboard template, by adding it to the constant :code:`INSTRUCTOR_DASHBOARD_PLUGIN_VIEW_NAME`. See `PR 29376`_ for more details.
 
 .. _pluggable_override docstring: https://github.com/openedx/edx-django-utils/blob/master/edx_django_utils/plugins/pluggable_override.py#L11-L58
-.. _django plugins: https://github.com/edx/edx-platform/blob/master/openedx/core/djangoapps/plugins/README.rst
+.. _django plugins: https://github.com/openedx/edx-platform/blob/master/openedx/core/djangoapps/plugins/README.rst
 .. _PR 29376: https://github.com/openedx/edx-platform/pull/29376
 
 Events and Filters Extension Framework

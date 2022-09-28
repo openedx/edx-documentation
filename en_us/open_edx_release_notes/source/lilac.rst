@@ -110,11 +110,11 @@ Open-Response Assessments
 
 LTI 1.3 and LTI Advantage Support
 ---------------------------------
-lti-consumer-xblock (also known as xblock-lti-consumer) has been updated to support LTI 1.3, as well as the Deep Linking (LTI-DL) and Assignments and Grades services (LTI-AGS) features of LTI Advantage. Note that this xBlock is not installed in Lilac by default. Information on configuring lti-consumer-xblock can be found at https://github.com/edx/xblock-lti-consumer/blob/master/README.rst
+lti-consumer-xblock (also known as xblock-lti-consumer) has been updated to support LTI 1.3, as well as the Deep Linking (LTI-DL) and Assignments and Grades services (LTI-AGS) features of LTI Advantage. Note that this xBlock is not installed in Lilac by default. Information on configuring lti-consumer-xblock can be found at https://github.com/openedx/xblock-lti-consumer/blob/master/README.rst
 
 Gradebook MFE
 -------------
-The Gradebook MFE is *not* enabled by default because theming and internationalizations support is incomplete. It allows editing of individual learners' grades. Also supports bulk uploads of grades, but requires additional configuration. See https://github.com/edx/frontend-app-gradebook/blob/open-release/lilac.master/README.md for more information.
+The Gradebook MFE is *not* enabled by default because theming and internationalizations support is incomplete. It allows editing of individual learners' grades. Also supports bulk uploads of grades, but requires additional configuration. See https://github.com/openedx/frontend-app-gradebook/blob/open-release/lilac.master/README.md for more information.
 
 Special Exams Experience
 ------------------------
@@ -186,7 +186,7 @@ Changes to edx-organizations
 
 - Organizations feature globally enabled for all LMS and Studio instances.
 
-    - See https://github.com/edx/edx-organizations/blob/master/docs/decisions/0001-phase-in-db-backed-organizations-to-all.rst  for reasoning and details.
+    - See https://github.com/openedx/edx-organizations/blob/master/docs/decisions/0001-phase-in-db-backed-organizations-to-all.rst  for reasoning and details.
     - If you don’t care about this change, then it shouldn’t affect you, although we still recommend running the backfill command (see below).
 
 - Added ORGANIZATIONS_AUTOCREATE Django setting for Studio.
@@ -249,7 +249,7 @@ Researcher & Data Experiences
 Developer Experiences
 =====================
 
-- Import unqualified packages from lms/djangoapps, cms/djangoapps, or common/djangoapps is no longer supported. Doing so will cause instances of import_shims.warn.DeprecatedEdxPlatformImportError to be raised. See https://github.com/edx/edx-platform/blob/master/docs/decisions/0007-sys-path-modification-removal.rst  for details and context.
+- Import unqualified packages from lms/djangoapps, cms/djangoapps, or common/djangoapps is no longer supported. Doing so will cause instances of import_shims.warn.DeprecatedEdxPlatformImportError to be raised. See https://github.com/openedx/edx-platform/blob/master/docs/decisions/0007-sys-path-modification-removal.rst  for details and context.
 
 - In common.djangoapps.student.models, the save parameter is deprecated for functions anonymous_id_for_user and unique_id_for_user, and these functions will always save generated IDs to the database. This allows future decoupling of ID generation from SECRET_KEY. Including the parameter will result in a DeprecationWarning; after Lilac we plan to remove the parameter (which will be a separate breaking change – DEPR-148).
 

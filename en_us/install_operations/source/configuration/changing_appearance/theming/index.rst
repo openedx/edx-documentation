@@ -33,5 +33,5 @@ site looks, without changing how it works.
    enable_themes
    compiling_theme
 
-In addition, an `example theme <https://github.com/edx/sample-themes>`_ is
+In addition, an `example theme <https://github.com/openedx/sample-themes>`_ is
 available for review.

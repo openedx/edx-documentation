@@ -55,7 +55,7 @@ Upgrading from Birch to Cypress
 You can upgrade an Open edX instance that is running the Birch release to the
 Cypress release, by using the ``migrate.sh`` script in the configuration
 repository, `available here
-<https://github.com/edx/configuration/blob/master/util/vagrant/migrate.sh>`_.
+<https://github.com/openedx/configuration/blob/master/util/vagrant/migrate.sh>`_.
 
 .. note::
   The upgrade scripts provided are verified only for upgrading instances

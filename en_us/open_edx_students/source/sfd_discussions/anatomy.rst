@@ -106,32 +106,19 @@ course team, be sure to create your post as a question, so that the course
 team sees that a response is required and responds appropriately.
 
 ********************
-The Discussion Page
+The Discussion page
 ********************
 
 You browse and contribute to course discussions on the **Discussion** page for
-your course.
+your course. Discussions page is broadly divided into three areas, as seen below:
 
-======================
-How to Use Discussions
-======================
+1. Navigation bar: For navigating forum content like threads, topics, learners, post creation etc.
+2. Content view area: To view posts, responses and comments
+3. Content list area: List of posts, learners, topics, search results etc.
 
-The **How to use edX discussions** graphic appears in the main area of the
-**Discussion** page when you have not selected any topics or posts.
-
-This graphic shows the basic actions you can take with course discussions.
-
-.. image:: ../../../shared/images/Discussion_HowToUse.png
+.. image:: ../../../shared/images/discussion_page.png
    :width: 600
-   :alt: The "How to use edX discussions" graphic on the Discussion page lists
-       the basic actions you can take with course discussions, including
-       filtering and sorting topics, voting on or following posts, and
-       reporting abuse.
-
-When you browse topics and posts from the :ref:`Discussion Navigation Pane
-<discussion navigation pane>`, the **How to use edX discussions** graphic is
-replaced by the contents of the topic or post that you selected.
-
+   :alt: Different elements of Discussion Experience.
 
 .. _Discussion Navigation Pane:
 
@@ -139,65 +126,57 @@ replaced by the contents of the topic or post that you selected.
 Discussion Navigation Pane
 ===========================
 
-Use the discussion navigation pane on the left side of the **Discussions**
-page to access discussion topics and posts in your course, including
-discussions that appear inline in course content.
+Use tabs on top of the Discussions page to access forum content in your course:
 
-You can view all discussion topics or only the posts that you are following,
-or you can view a specific topic. You can also filter posts by entering
-keywords or phrases that you want to find in post titles or text.
+ * **All posts** tab lists all the posts in the course.
+ * **My posts** tab lists all the posts that you have created.
+ * **Topics** tab lists all discussion topics in the course.
 
-.. image:: ../../../shared/images/Discussion_NavPane.png
+''''''''''''''
+All posts tab
+''''''''''''''
+
+The **All posts** tab shows the list of all posts in the forum for this course.
+Post summaries in the list show various icons and labels to provide you with information about the status or content of posts:
+
+1. Post summary shows title, author and the beginning of the post content.
+
+2. Summary for a post that you have not read appears with a white background and bold title font.
+
+3. Summary for a post that you have read appears with a gray background.
+
+4. A “question mark” icon next to the avatar indicates that a post is a question. For more information, see :ref:`Determine Post Type`.
+
+5. The response or comment count indicator shows the number of responses and comments for a post.
+
+6. The number of new responses or comments that were added after you previously read a post is displayed next to the response count indicator. For more information, see :ref:`Keep Up with New Activity`.
+
+7. A “Pinned” icon shows that a post has been pinned by moderators so that it always stays at the top of the topic list regardless of sort order.
+
+8. A filled "star" button indicates that you are following the post. You can click on the button to follow/unfollow the post. By default, you’ll be following the posts that you have created.
+
+9. A filled "like" button indicates that you have liked the post. You can click the like button to like and unlike a post. The count next to the like button indicates how many likes does the post have.
+
+10. The “Staff” or “TA” label next to the username indicates that the user belongs to the course team or has a community teaching assistant (TA) role, respectively.
+
+11. The “Answered” label on summary of a question and indicates that a response to this question has been marked as an answer by a user having moderation privileges.
+
+12. Time elapsed since post creation is visible on the bottom right of the post summary. Hovering over the time will show the exact timestamp of post creation. Symbols “s”, “m”, “h”, “w” and “y” in time elapsed info indicate seconds, minutes, hours, weeks and years respectively.
+
+A labeled screenshot of features described above, is presented below:
+
+.. image:: ../../../shared/images/post_summary_labelled.png
    :width: 300
-   :alt: Use the navigation pane on the Discussion page to read posts in your
-       course discussion. You can view all topics or only topics that you are
-       following. You can also filter and sort posts, and you are notified
-       about new unread responses and comments in posts.
+   :alt: image to describe all the possible parts of side navigation bar of discussion experience.
 
-The breadcrumb path above the navigation pane shows you the topic that you are
-currently viewing. In the following example, **Posts I'm Following** is
-selected.
+''''''''''''
+My post tab
+''''''''''''
+**My posts** tab shows a list of all posts that you have created. You can use this tab to follow up on your forum contributions.
 
-.. image:: ../../../shared/images/Discussion_Indicators.png
-   :width: 300
-   :alt: Posts in the navigation pane have states and icons to indicate whether
-       you have read them, and whether they are questions, discussions, or
-       answered questions. Icons also indicate posts that you are following, that
-       were pinned by discussion administrators, and that were posted by Staff
-       or a Community Teaching Assistant.
-
-When you view topics and posts, the navigation pane shows various icons and
-labels to provide you with information about the status or content of posts.
-
-.. image:: ../../../shared/images/Discussion_ReadUnreadNew.png
-  :width: 300
-  :alt: The discussion navigation pane, showing some unread and some read
-     posts, including a post that has been read but now has additional new
-     responses or comments.
-
-*  Posts that appear in blue type with a blue bar indicate posts that you have
-   not read.
-
-*  Posts that appear in gray type without a bar indicate posts that you have
-   read.
-
-*  The post type icon indicates whether a post is a question or a discussion.
-   For more information, see :ref:`Determine Post Type`.
-
-*  The check mark icon indicates a "correct answer". The check mark icon
-   indicates that one of the responses to the post correctly answers the
-   question asked in the post.
-
-*  The response or comment count indicator shows the number of responses and
-   comments for a post. The number of new responses or comments that were
-   added after you previously read a post is displayed next to the indicator.
-   For more information, see :ref:`Keep Up with New Activity`.
-
-*  A "Pinned" label shows that a post has been pinned by administrators
-   so that it always stays at the top of the topic list regardless of sort
-   order.
-
-*  A "Following" label marks posts that you are following.
-
-*  A "Staff" or "Community TA" label marks posts that were added by course
-   staff or community teaching assistants (TAs).
+'''''''''''
+Topics tab
+'''''''''''
+The **Topics** tab lists all the discussion topics in your course.
+Course-wide discussion topics appear on top of the list followed by content specific discussion topics.You can click on each topic to see the posts in that topic.
+To learn more about exploring content in topics, see :ref:`Discussion Topics`.

@@ -401,4 +401,4 @@ will have been generated for eligible learners.
 
 .. include:: ../../../links/links.rst
 
-.. _edx/credentials: https://github.com/edx/credentials
+.. _edx/credentials: https://github.com/openedx/credentials

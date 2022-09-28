@@ -86,8 +86,8 @@ In addition to GNU Gettext, it is also possible to utilize the Open edX "i18n-to
 your XBlock locales and domains.  You will need to modify the i18n-tools YAML configuration file to work with your
 XBlock project.  More information about the i18n-tools project and its configuration file can be found at:
 
-* https://github.com/edx/i18n-tools
-* https://github.com/edx/i18n-tools/blob/master/conf/locale/config.yaml
+* https://github.com/openedx/i18n-tools
+* https://github.com/openedx/i18n-tools/blob/master/conf/locale/config.yaml
 
 Adding Translated Strings to your XBlock
 ****************************************
@@ -112,7 +112,7 @@ Adding Translated Strings to your XBlock
    * Gettext: https://www.gnu.org/software/gettext/manual/gettext.html
    * Gettext: http://phptal.org/manual/en/split/gettext.html
    * Django: https://docs.djangoproject.com/en/dev/topics/i18n/translation/#localization-how-to-create-language-files
-   * i18n-tools: https://github.com/edx/i18n-tools
+   * i18n-tools: https://github.com/openedx/i18n-tools
 
 #. Repeat the domain file creation process for each language/locale you support.
 

@@ -31,7 +31,7 @@ process is different:
   pull request should be closed, inform the community managers, and they will
   handle it.
 
-.. _the documentation for doing so: https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request
+.. _the documentation for doing so: https://github.com/openedx/edx-platform/wiki/How-to-Rebase-a-Pull-Request
 
 Each Scrum team should decide for themselves how to estimate stories related to
 reviewing external pull requests, and how to claim points for those stories,

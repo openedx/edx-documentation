@@ -23,7 +23,7 @@ into their courses and students.
 The *edX Research Guide* is created using RST_ files and Sphinx_. You, as a
 member of the user community, can help update and revise this documentation
 project on GitHub, using the edx-documentation repository at
-https://github.com/edx/edx-documentation/tree/master/en_us/data/source
+https://github.com/openedx/edx-documentation/tree/master/en_us/data/source
 
 The edX documentation team welcomes contributions from Open edX community
 members. You can find guidelines for how to `contribute to edX Documentation`_

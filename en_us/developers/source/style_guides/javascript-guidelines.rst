@@ -87,9 +87,9 @@ produces HTML documentation for it. An example follows.
 
 .. _Airbnb JavaScript Style Guide: https://github.com/airbnb/javascript
 .. _Babel: https://babeljs.io/
-.. _description of testing for the edx-platform repository: https://github.com/edx/edx-platform/blob/master/docs/en_us/internal/testing.rst
-.. _edX ESLint Config: https://github.com/edx/eslint-config-edx/tree/master/packages/eslint-config-edx
-.. _edX ESLint Config for ES5: https://github.com/edx/eslint-config-edx/tree/master/packages/eslint-config-edx-es5
+.. _description of testing for the edx-platform repository: https://github.com/openedx/edx-platform/blob/master/docs/en_us/internal/testing.rst
+.. _edX ESLint Config: https://github.com/edx-unsupported/eslint-config-edx/tree/master/packages/eslint-config-edx
+.. _edX ESLint Config for ES5: https://github.com/edx-unsupported/eslint-config-edx/tree/master/packages/eslint-config-edx-es5
 .. _edX UI Toolkit: http://ui-toolkit.edx.org/
 .. _ES5: https://www.ecma-international.org/ecma-262/5.1/
 .. _ES2015: http://www.ecma-international.org/ecma-262/6.0/
