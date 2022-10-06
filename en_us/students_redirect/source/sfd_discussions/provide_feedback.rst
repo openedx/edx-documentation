@@ -1,6 +1,6 @@
 .. _Provide Feedback:
 
-.. _Vote for Posts or Responses:
+.. _Like Posts or Responses:
 .. _Follow Posts:
 .. _Answer Questions:
 .. _Report Discussion Misuse:
