@@ -16,35 +16,28 @@ complete response or comment.
 Feedback Options
 ****************
 
-When you open a post, response, or comment, the **Vote** and **Follow**
+When you open a post, response, or comment, the **Like** and **Follow**
 feedback option icons appear at the top right. Move your cursor over these
 icons to show the full label.
 
-.. image:: ../../../shared/students/Images/Discussion_options_mouseover.png
- :width: 120
- :alt: The "Vote", "Follow", and "More" feedback icons in a post, response, or
-    comment.
+.. image:: ../../../shared/students/Images/discussion_feedback_options.png
+    :width: 300
+    :align: center
+    :alt: The "Like", "Follow", feedback icons in a post, response, or comment.
 
-Select the "More" icon to show a menu of additional options. Options vary
-depending on whether the contribution is a post, response, or comment, and on
-whether you are a learner in the course, or a member of the discussion
-moderation team.
-
-
-.. _Vote for Posts or Responses:
+.. _Like Posts or Responses:
 
 ************************************
-Vote for Posts or Responses
+Like Posts or Responses
 ************************************
 
-To provide positive feedback for a post or one of its responses, you can vote
-for it. Open the post or response, and select the plus sign (+) icon next to the
-number of **Votes**. You can only vote for posts added by other discussion
-participants. You cannot vote for your own posts.
+To provide positive feedback for a post or one of its responses, you can like
+it. Open the post or response, and click the thumbs up icon next to the
+number of **Likes**.
 
 In the discussion navigation pane, you can sort the list of posts so that the
-posts with the most votes appear at the top. To do this, select the drop-down
-list of sorting options and select **by most votes**. For more information
+posts with the most likes appear at the top. To do this, select the drop-down
+list of sorting options and select **Most Likes**. For more information
 about ways to sort the list of discussion topics, see :ref:`Read New or
 Updated Posts`.
 
@@ -61,12 +54,12 @@ follow it so that you can return to it easily.
 To follow a post, move your cursor over the star icon for the post, and then
 select **Follow**.
 
-Each post that you follow appears with a "Following" indicator in the list of
+Each post that you follow appears with a *Filled Star* indicator in the list of
 posts.
 
 In the discussion navigation pane, you can list only the posts that you are
 following, regardless of the discussion topic they apply to. To do this,
-select **All Topics** and then select **Posts I'm Following**.
+select **All Posts** tab and then select **Following** filter from list.
 
 
 .. _Answer Questions:
@@ -81,16 +74,23 @@ the course, add a response with your answer to the question post.
 
 If you have received a helpful or correct response to a question that you
 yourself have asked, you can mark the response as the correct answer. To do
-this, move your cursor over the check mark icon for the response, and then
-select **Mark as Answer**.
+this, open actions menu by clicking top right icon on the response and select **Mark as Answered**.
+
+.. image:: ../../../shared/students/Images/mark_as_answered_option.png
+    :width: 500
+    :align: center
+    :alt: the image showing mark as answered response options
 
 .. note:: The discussion moderation team can mark any response as correct.
    Learners can only mark responses as correct for their own posts.
 
-After at least one response to a question post is marked as a correct answer, a
-check mark icon replaces the post's question mark indicator in the discussion
-navigation pane.
+After at least one response to a question post is marked as answer, a
+label is added to the post summary card in the discussion navigation pane.
 
+.. image:: ../../../shared/students/Images/answer_label.png
+    :width: 300
+    :align: center
+    :alt: the image showing mark as answered response options
 
 .. _Report Discussion Misuse:
 
@@ -100,14 +100,12 @@ Report Discussion Misuse
 
 On rare occasions you might come across a discussion contribution that is
 inappropriate. You can flag any post, response, or comment for a discussion
-moderator to review. To do so, open the contribution, select **More**, and then
+moderator to review. To do so, open the contribution, select top right icon to open actions menu, and then
 select **Report**.
 
 The discussion moderation team can investigate any flagged posts, responses,
 or comments and take the appropriate action.
 
-.. note:: Only the person who flagged a contribution and the discussion
-   moderation team can see that a contribution has been reported.
 
 
 .. Future: DOC-121 As a course author, I need a template of discussion guidelines to give to students
