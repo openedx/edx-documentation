@@ -20,21 +20,27 @@ For information about finding new or updated posts in discussions, see
 
 .. _Search Discussions:
 
-*************
-Search Posts
-*************
+***********************
+Search Posts or Topics
+***********************
+The **Search** field on top of the **Discussion** page enables you to search all posts,
+the posts that you have created or discussion topics when *All posts*, *My post* or
+*Topics tab* is selected, respectively.
 
-To search for posts, responses, or comments containing a particular keyword or
-phrase, enter the word or phrase, or a partial word in the **Search all posts**
+To search for all posts, responses, or comments containing a particular keyword or
+phrase, select the *All posts* tab and enter the word or phrase, or a partial word in the **Search**
 field at the top of the **Discussion** page.
 
-Search results are displayed in the discussion navigation pane. If an exact
-match is not found, search results are shown for a similar value.
+To search for a particular keyword or phrase in the posts that you have authored,
+select the *My posts* tab and enter the word or phrase, or a partial word in the
+Searchfield at the top of the **Discussion** page.
 
-You can also enter a username to search for posts added by a specific person.
-Select the linked username in the search result to show a list of posts made by
-that person. For more information about viewing contributions from a specific
-user, see :ref:`View from Participant`.
+To search for a discussion topic containing a particular keyword, select the
+*Topics* tab and enter the word or phrase, or a partial word in the **Search**
+field at the top of the **Discussion** page.
+
+Search results are displayed in the content list area. If an exact
+match is not found, search results are shown for a similar value.
 
 .. _Discussion Topics:
 
@@ -55,15 +61,16 @@ question.
 View Topics on the Discussion Page
 =======================================
 
-On the **Discussion** page, you can view both course-wide and content-specific
-discussions. Select **All Topics** above the discussion navigation pane to see
-all of the discussion topics in the course. To see all of the posts in an
-individual topic, select the topic name in the discussion navigation pane.
+On the **Discussion** page, select the *Topics* tab in discussion navigation pane to see
+all of the discussion topics in the course. Topics tab will list course-wide discussion
+topics first, followed by content-specific discussion topics. Select a topic from the list
+to see all posts associated with that topic.
 
 Note that course-wide topics do not have other topics indented below them,
 while content-specific topics are indented under a category name.
+You can also see the count of Discussion and Question type posts in each topic, in the topic list.
 
-.. image:: ../../../shared/students/Images/Disc_TopicList.png
+.. image:: ../../../shared/students/Images/topic_summary_diagram.png
   :width: 400
   :alt: Discussion topic list expanded, showing all course discussion
          topics.
@@ -92,51 +99,42 @@ where that topic is located.
 
 
 *****************************************
-View Only Unread or Unanswered Posts
+Filter or Sort Posts
 *****************************************
 
-To limit the posts shown on the **Discussion** page or shown for a content-
-specific discussion, you can select one of the filter options. By default, the
-**Show all** option is selected.
+You can filter or sort the posts in *All post*, *My post* and *Topics* tab in following ways:
 
-* To show posts (both discussions and questions) that you have not yet viewed,
-  select **Unread**.
+1. You can filter the posts by status: *Unread*, *Following* and *Unanswered* (question type posts only).
+2. You can filter the posts by type: *Discussion* or *Question*.
+3. You can sort the posts by *Recent activity*, *Most activity* and *Most likes*.
 
-* To show only question posts that do not yet have any responses marked as
-  answers, select **Unanswered**.
+By default, both types of posts are displayed, having any status and sorted by *Recent activity*.
+In this context, activity means creation of the post itself or a response or comment on the post.
 
+.. image:: ../../../shared/students/Images/filter_menu.png
+   :width: 700
+   :alt: Discussion filters and sorting menu.
 
 *****************************************
 View Pinned Posts
 *****************************************
 
-Pinned posts appear at the top of the list of posts in the discussion
-navigation pane when you view all discussions. Pinned posts can contain
-important information about the course or any part of the course, such as a
+Pinned posts appear at the top of the list of posts in *All posts*, *My posts* and *Topics* tab.
+Pinned posts can contain important information about the course or any part of the course, such as a
 particular video or problem. The pinned post can originate from anyone in the
 course, including other learners or members of the discussion moderation team,
 but only members of the moderation team can pin a post.
+Look for the pin icon on top-right of the summary of a post to identify a pinned post.
+
+.. image:: ../../../shared/students/Images/pin_post_icon.png
+   :width: 400
+   :height: 700
+   :alt: Discussion filters and sorting menu.
 
 
 *****************************************
 View Followed Posts
 *****************************************
 
-In the discussion navigation pane select **Posts I'm Following**. The
-navigation pane refreshes to show only posts that you are following.
-
-
-.. _View from Participant:
-
-*************************************************
-View Contributions from a Specific Participant
-*************************************************
-
-You can review all the posts, responses, and comments that any learner in the
-course or member of the course team has made. To do this, select the username
-that appears at the top of any one of the participant's contributions. You can
-also enter a username in the **Search all posts** field and select the linked
-username in the search result.
-
-
-.. include:: ../../../links/links.rst
+In the discussion navigation pane select *All posts* tab and then select *Following* filter from the
+filter menu. The content list area refreshes to show only posts that you are following.

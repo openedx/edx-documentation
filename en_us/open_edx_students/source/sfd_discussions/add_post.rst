@@ -51,9 +51,18 @@ course and need an answer from the course team, be sure to create your post as
 a question, so that the course team sees that a response is required and
 responds appropriately.
 
+.. image:: ../../../shared/students/Images/discussion_or_question.png
+    :width: 500
+    :align: center
+    :alt: post type card on the add post section.
+
 After you make your post, on the **Discussion** page for your course, a
-question mark image identifies posts that ask questions and a conversation
-bubble image identifies posts that start discussions.
+question mark next to the avatar identifies posts that ask questions.
+
+.. image:: ../../../shared/students/Images/post_type_identification.png
+    :width: 700
+    :align: center
+    :alt: how to identify type of  past from summary list.
 
 .. note:: You can change the post type from discussion to question or vice
    versa at any time after you add your post. For more information, see
@@ -105,21 +114,38 @@ topics on the **Discussion** page.
    read your post in a web browser. The edX mobile app currently does
    not display added formatting or images.
 
-   .. note:: If you include an image with your post, include a description so
+#. Click the **Show preview** button to see how the post will look after submission.
+
+#. Click the **Submit** if you are satisfied with the appearance or click **Cancel**, if you want to discard the post.
+
+.. image:: ../../../shared/students/Images/add_post_sections_details.png
+    :width: 700
+    :align: center
+    :alt: identify different elements of post creation section.
+
+.. _Add image on a post:
+
+============================================
+Add Image to a Post on the Discussion Page
+============================================
+
+You can add an image while creating a post, click the **Insert image** button visible on top of the text editor to
+open a dialog box. Use this dialog box to upload and resize the image and add description and source of the image.
+
+.. image:: ../../../shared/students/Images/add_image_dialogue.png
+    :width: 500
+    :align: center
+    :alt: dialogue box for adding images to post.
+
+.. note:: If you include an image with your post, include a description so
       that learners who use screen readers to access the course can understand
       the image's content and purpose. The description also displays in place
       of the image if problems occur with the image file. If the image has no
-      functional purpose, leave the **Description** field empty and select
-      **This image is for decorative purposes only and does not require a
-      description**.
+      functional purpose, leave the **Alternative description** field empty and check the  image is decorative.
 
       The maximum size for an uploaded file is 1 MB.
 
-In some courses, you can add posts, responses, and comments anonymously. If
-this is the case, a **Post Anonymously** option is available under the field
-where you enter your text. When you post anonymously, the discussion
-moderation team can see your username, but other learners cannot.
-
+.. _add post in course unit:
 
 ************************************
 Add a Post in a Course Unit
@@ -151,24 +177,43 @@ The following steps apply only to content-specific discussions.
    To respond to an existing post or comment on an existing response, follow
    the steps described in :ref:`Add Response`.
 
-.. note:: In some courses, you can add posts, responses, and comments
-   anonymously. If this is the case, a **Post Anonymously** option is
-   available under the field where you enter your text. When you post
-   anonymously, the discussion moderation team can see your username, but
-   other learners cannot.
+
+.. _Add image in course unit:
+
+=====================================
+Add Image to a Post in a Course Unit
+=====================================
+
+You can add an image while creating a post, click the Insert image button visible on top of the
+text editor to open a dialog box. Use this dialog box to upload and resize the image and add
+description and source of the image.
 
 
-.. _Add Response:
+.. note:: If you include an image with your post, include a description so that learners who use
+    screen readers to access the course can understand the image’s content and purpose. The description
+    also displays in place of the image if problems occur with the image file. If the image has no
+    functional purpose, leave the **Image Description** field empty and select
+    **This image is for decorative purposes only and does not require a description**.
 
-==============================
-Add a Response or Comment
-==============================
+    The maximum size for an uploaded file is 1 MB.
 
-To participate in an ongoing discussion, you reply to the initial post by
-adding a response, or expand on a particular response by adding a comment.
 
-The same options for formatting the text and for adding links or images are
-available for responses and comments as for posts.
+.. _Posting Anonymously:
+
+**********************
+Posting Anonymously
+**********************
+
+If the course staff has enabled the option to allow anonymous posts, a **Post anonymously to peers** checkbox
+will be available under the field where you enter your text, when creating a post. When you post anonymously,
+the course team and discussion moderation team including community TAs can see your username, but other learners cannot.
+
+.. image:: ../../../shared/students/Images/anonymous_post_card.png
+    :width: 500
+    :align: center
+    :alt: anonymous post summary card  view.
+
+.. _Add response on discussion page:
 
 **************************************************
 Add a Response or Comment on the Discussion Page
@@ -192,6 +237,8 @@ discussion topics on the **Discussion** page.
   * To add a comment to a response, move your cursor inside the **Add a
     comment** field below the response. When you have finished entering your
     comment, select **Submit**.
+
+.. _add response in post in course unit:
 
 *******************************************
 Add a Response or Comment in a Course Unit
@@ -226,22 +273,23 @@ edit or delete contributions from other learners.
 #. Locate the contribution that you want to edit or delete, either in the body
    of the course or on the **Discussion** page.
 
-#. In the upper corner of the contribution, select the "More" icon (...).
-   A menu opens.
+#. In the top-right corner of the contribution, open the actions menu by clicking on the three dots (...)
 
-   .. image:: ../../../shared/students/Images/Disc_EditDelete.png
+.. image:: ../../../shared/students/Images/post_actions_menu.png
     :width: 500
+    :align: center
     :alt: Response with the "More" menu expanded, showing Edit, Delete, and
         Report options.
 
 #. Edit or delete the contribution.
 
   * To edit the contribution, select **Edit**, make the changes that you want
-    in the text editor that opens, and then select **Update Response**. For
+    in the text editor that opens, and then select **Submit**. For
     posts, you can change the post topic and the post type as well as the text
     of the post.
 
-  * To delete the contribution, select **Delete**, and then select **OK** in
+  * To delete the contribution, select **Delete**, and then select **Delete** in
     the confirmation box.
 
 .. include:: ../../../links/links.rst
+
