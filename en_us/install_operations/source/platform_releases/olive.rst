@@ -60,13 +60,5 @@ Upgrading a Docker Installation
 Devstack is installed using Docker. To upgrade from one Olive
 release to another, follow the instructions in `devstack`_.
 
-===============================
-Upgrading a Native Installation
-===============================
-
-If you installed Open edX using the `Open edX Native Installation`_, you can
-upgrade from one Olive release to another by re-running those steps using
-your desired Olive tag as the new value for ``OPENEDX_RELEASE``.
-
 
 .. include:: ../../../links/links.rst
