@@ -107,7 +107,8 @@ Configuration options for BBB are presented below:
    *Select a plan* dropdown menu and click *Save*. No further configuration
    is required.
 
-   .. image:: ../../../shared/images/course_live_bbb_free.png
+.. image:: ../../../shared/images/course_live_bbb_free.png
+   :width: 300
 
 #. **Commercial/self-hosted**: You can deploy BBB on your own server or use
    third-party hosting providers. Please find more information on features
