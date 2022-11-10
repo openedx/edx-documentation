@@ -487,17 +487,12 @@ release, edX will release a new version of that release that includes the fix. W
 before the most recent one. We are still working on the details of how often to update Open edX releases. We will
 publicly announce the security issue, and encourage the Open edX community to update their installations to close the
 vulnerability. If you have found a security vulnerability in the Open edX codebase, please report it by sending an
-email to security@edx.org. Please do not post the vulnerability to the public mailing lists.
+email to security@openedx.org. Please do not post the vulnerability to the public.
 
 Feedback
 --------
 
-If you find a problem in the release candidate, please report them on the mailing list (openedx-ops_ for operations
-problem, edx-code_ for other problems), or even better, create issues in JIRA_.  We are very interested to hear from
-the community about what you value about Open edX releases. Please let us know what you would like to see in future
-releases.  Discussion on the `mailing list`_ is always welcome, of course!
+If you find a problem in the release candidate, please report them to the Build-Test-Release Working Group.  You can
+do so by `creating a new issue`_.
 
-.. _openedx-ops: https://groups.google.com/forum/#!forum/openedx-ops
-.. _edx-code: https://groups.google.com/forum/#!forum/edx-code
-.. _JIRA: https://openedx.atlassian.net/
-.. _mailing list: http://groups.google.com/forum/#!forum/edx-code
+.. _creating a new issue: https://github.com/openedx/build-test-release-wg/issues/new/choose
