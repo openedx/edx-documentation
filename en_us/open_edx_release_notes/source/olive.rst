@@ -37,7 +37,7 @@ Learner Records Micro-frontend (MFE)
 - Even if the the Learner Records MFE is turned on, the old UI is still used for public links to records. This will be changed in the Palm release. (this may have been backported already)
 - Masquerading is not supported, as it is in the legacy UI. Use the "Records" tab in support tools as an alternative.
 
-.. _Learner Records MFE README : https://github.com/openedx/frontend-app-learner-record/blob/open-release/olive.master/README.rst
+.. _Learner Records MFE README: https://github.com/openedx/frontend-app-learner-record/blob/open-release/olive.master/README.rst
 
 
 Administrators & Operators
@@ -53,9 +53,14 @@ Legacy learner experience
 -------------------------
 A few pieces of the legacy/deprecated learner experience have been removed entirely in favor of the Learning MFE experience, specifically, the outline, dates, and courseware tabs. Instead, you must run the Learning MFE, and its tabs will be used. Along with the legacy code, a few old waffle flags have been removed: :code:`course_experience.latest_update`, :code:`course_experience.show_upgrade_msg_on_course_home`, :code:`course_experience.upgrade_deadline_message`, :code:`course_home.course_home_use_legacy_frontend`, :code:`courseware.microfrontend_course_team_preview`, and :code:`courseware.use_legacy_frontend`.
 
-frontend-learner-portal-base repository
----------------------------------------
-This library code for MFEs is no longer used.
+Other removals/deprecations
+---------------------------
+
+- The `frontend-learner-portal-base repo`_ has been archived. Any MFEs that depend on this library have been updated
+- `Removed the last vestiges of the save option from anonymous_id_for_user`_
+
+.. _frontend-learner-portal-base repo: https://github.com/openedx-unsupported/frontend-learner-portal-base
+.. _Removed the last vestiges of the save option from anonymous_id_for_user: https://github.com/openedx/public-engineering/issues/35
 
 
 .. include:: links.rst
