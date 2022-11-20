@@ -16,10 +16,24 @@ These are the release notes for the Olive release, the 15th community release of
 Breaking Changes
 ================
 
+
 Learning MFE is now required
 ----------------------------
 The Learning Micro Frontend (MFE) is no longer optional, and must be run as part of your installation now. It has been the default since the Maple release, with a setting that allowed for opting out. The setting :code:`courseware.use_legacy_frontend` has been removed. (See Deprecations & Removals below for more).
 
+
+Learner Experiences
+===================
+
+
+Learner Records Micro-frontend (MFE)
+------------------------------------
+
+- The Learner records MFE is now available as an optional frontend for the Credentials application (or is it a plugin?). See the `Learner Records MFE README`_ for configuration information.
+- Even if the the Learner Records MFE is turned on, the old UI is still used for public links to records. This will be changed in the Palm release. (this may have been backported already)
+- Masquerading is not supported, as it is in the legacy UI. Use the "Records" tab in support tools as an alternative.
+
+.. _Learner Records MFE README : https://github.com/openedx/frontend-app-learner-record/blob/open-release/olive.master/README.rst
 
 Deprecations & Removals
 =======================
