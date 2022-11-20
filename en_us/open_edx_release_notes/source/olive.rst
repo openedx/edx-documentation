@@ -35,6 +35,13 @@ Learner Records Micro-frontend (MFE)
 
 .. _Learner Records MFE README : https://github.com/openedx/frontend-app-learner-record/blob/open-release/olive.master/README.rst
 
+
+Administrators & Operators
+==========================
+
+- fixed a performance issue when using multiple themes when running in docker. Now by using LRU cache when searching themes,  the performance was improved.
+
+
 Deprecations & Removals
 =======================
 
