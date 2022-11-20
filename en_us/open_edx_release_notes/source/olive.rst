@@ -51,7 +51,7 @@ Deprecations & Removals
 
 Legacy learner experience
 -------------------------
-A few pieces of the legacy/deprecated learner experience have been removed entirely in favor of the Learning MFE experience, specifically, the outline, dates, and courseware tabs. Instead, you must run the Learning MFE, and its tabs will be used. Along with the legacy code, a few old waffle flags have been removed: course_experience.latest_update, course_experience.show_upgrade_msg_on_course_home, course_experience.upgrade_deadline_message, course_home.course_home_use_legacy_frontend, courseware.microfrontend_course_team_preview, and  @Michael Terry (Deactivated)
+A few pieces of the legacy/deprecated learner experience have been removed entirely in favor of the Learning MFE experience, specifically, the outline, dates, and courseware tabs. Instead, you must run the Learning MFE, and its tabs will be used. Along with the legacy code, a few old waffle flags have been removed: :code:`course_experience.latest_update`, :code:`course_experience.show_upgrade_msg_on_course_home`, :code:`course_experience.upgrade_deadline_message`, :code:`course_home.course_home_use_legacy_frontend`, :code:`courseware.microfrontend_course_team_preview`, and :code:`courseware.use_legacy_frontend`.
 
 frontend-learner-portal-base repository
 ---------------------------------------
