@@ -79,9 +79,10 @@ media sites such as Facebook and Twitter.
 
 #. From your dashboard, find the course that you want to share.
 
-#. Select the icon for the social media site where you want to share.
-   A dialog box for the social media site you selected opens, with the course
-   URL entered and a default social media message.
+#. Click or tap the menu button (triple dot icon) at the top of the course
+   card. In the dropdown select the "Share to (social media site)" item for the
+   social media site of your choice (e.g. Twitter, Facebook). This will open a
+   pop up which will allow you to share info about the course to social media.
 
 #. Optionally, modify the text of the social media message.
 

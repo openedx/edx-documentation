@@ -41,21 +41,17 @@ most responses or comments appear at the top of the list.
 
 
 ==================
-Sorting by Votes
+Sorting by Likes
 ==================
 
-In the discussion navigation pane you can sort posts by the number of votes
+In the discussion navigation pane you can sort posts by the number of likes
 received. To do this, select the drop-down list of sorting options at the top
-of the discussion navigation pane, and select **by most votes**.
+of the discussion navigation pane, and select by **Most Likes**.
 
-Sorting by the most votes changes the order of the posts so that posts that
-have received the most votes appear at the top of the list. In this view,
-instead of the response and comments count indicator, the number of votes that
-each post has received is shown. Votes for responses are not included in the
-number.
+Sorting by the most likes changes the order of the posts so that posts that
+have received the most likes appear at the top of the list.
 
-For more information about voting for posts, see :ref:`Vote for Posts or
-Responses`.
+For more information about voting for posts, see :ref:`Like Posts or Responses`.
 
 .. _Receiving Discussion Notifications:
 
