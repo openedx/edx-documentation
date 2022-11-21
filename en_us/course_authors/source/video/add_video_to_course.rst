@@ -75,45 +75,32 @@ To add a video and its transcript to an edx.org course, follow these steps.
 #. In Studio, locate the unit that you want, and then select **Video** under
    **Add New Component**.
 
-#. When the new video component appears, select **Edit**.
-
-   The video editor opens to the **Basic** page.
-
-#. In the **Component Display Name** field, enter the name that you want
-   learners to see for this video.
+#. Select the **pencil icon** in the top left hand corner, and enter the name
+   that you want learners to see for this video.
 
    This name appears as a heading above the video in the LMS, and it identifies
    the video for you in Insights. If you do not enter a display name, the
-   platform specifies “video” for you.
+   platform specifies “Video” for you. Clicking the “Check” icon will save your
+   changes, the “X” icon will discard them.
 
-#. In the **Video ID** field, enter the video ID.
+#. Under Video Source, in the **Video ID or URL** field, enter the Video ID, 
+   YouTube link, or the URL that was created when you uploaded the video to the
+   hosting site.
 
-     .. note::
-         When you add the video ID, you do not need to add values to the
-         **Default Video URL**, **Video File URLs**, or **YouTube ID** fields.
-         The URLs that are associated with the video ID
-         override any existing values in other fields.
+   .. note::
+     If you have created multiple versions that use different encodings or
+     hosting services, add the URL for each video by selecting **Add a video
+     URL** below the **Fallback Videos** field, and then enter the URL in the
+     **Video URL** field. The first listed video that is compatible with the
+     learner's device plays.
 
-#. For videos that do not have integrated transcripts, add the transcript to
-   the video. (Videos that have integrated transcripts can skip this step.)
+     For the best experience for mobile users, make sure that the URL for the
+     360p version of the video is the first URL in the list.
 
-   To do this, locate **Default Timed Transcript**, select **Upload
-   New Transcript**, and then select the .srt file from your computer.
-
-    .. note::
-      Only use this option for transcripts in .srt format. If you want to
-      provide a transcript in any other format, such as .pdf, see
-      :ref:`Additional Transcripts`.
-
-6. Optionally, select **Advanced** to set more options for the video. For a
-   description of each option, see :ref:`Video Advanced Options`.
+#. Optionally, you can set more options for the video. For a
+   description of each option, see :ref:`Video Additional Options`.
 
 #. Select **Save** to save the video component.
-
-To test the transcript with the video, after you have saved the video, select
-the **Show transcript** (”) icon in the video player’s control bar. The
-transcript file scrolls while the video file plays. You can also test the
-transcript by selecting the **CC** icon.
 
 .. _Add a Video to an Edge Course:
 
@@ -130,7 +117,3 @@ For courses on Edge, you add the following information to the video
 component.
 
 .. include:: ../../../shared/video/add_video_to_course.rst
-
-
-
-
