@@ -21,6 +21,8 @@ All grades are persisted
 ------------------------
 The Persistent Grades feature was added as an option in Hawthorne. Legacy, non-persistent grades were deprecated in Nutmeg. Now, persistent grades are required. If you have not turned on persistent grades in your installation yet, you will need to follow the instructions in `How to Enable Persistent Grades`_. This process can take a significant amount of time, depending on how many graded problems are in your installation, and how long those grades take to be calculated. It can be run before or after the upgrade.
 
+.. _How to Enable Persistent Grades: https://openedx.atlassian.net/wiki/spaces/AC/pages/755171487/WIP+How+to+Enable+Persistent+Grades+in+Hawthorne
+
 Learning MFE is now required
 ----------------------------
 The Learning Micro Frontend (MFE) is no longer optional, and must be run as part of your installation now. It has been the default since the Maple release, with a setting that allowed for opting out. The setting :code:`courseware.use_legacy_frontend` has been removed. (See Deprecations & Removals below for more).
