@@ -69,10 +69,12 @@ Other removals/deprecations
 - The `frontend-learner-portal-base repo`_ has been archived. Any MFEs that depend on this library have been updated.
 - `Removed the last vestiges of the save option from anonymous_id_for_user`_.
 - The `Molecular Structure Problem type`_ was removed.
+- Removed all dependencies on `django-ratelimit-backend library`_.
 
 .. _frontend-learner-portal-base repo: https://github.com/openedx-unsupported/frontend-learner-portal-base
 .. _Removed the last vestiges of the save option from anonymous_id_for_user: https://github.com/openedx/public-engineering/issues/35
 .. _Molecular Structure Problem type: https://github.com/openedx/public-engineering/issues/14
+.. _django-ratelimit-backend library: https://github.com/openedx/public-engineering/issues/12
 
 .. include:: links.rst
 .. include:: ../../links/links.rst
