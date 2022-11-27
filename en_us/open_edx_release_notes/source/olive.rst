@@ -59,15 +59,20 @@ Legacy OLX attributes translations removed
 ------------------------------------------
 Support for importing courses that use obsolete XML attributes has been removed. Courses with attributes :code:`slug`, :code:`name` in course tags, :code:`display_name` and :code:`id` in discussion tags and :code:`attempts` in problem tags, will no longer import properly. A simple import and export before upgrading will update the XML attributes. See https://github.com/openedx/public-engineering/issues/74 for more details.
 
+Molecular Structure Problem type removed
+----------------------------------------
+This seldom-used problem type was no longer being maintained and has been deprecated for some time. It was removed in Olive. Similar functionality could be
+
 Other removals/deprecations
 ---------------------------
 
-- The `frontend-learner-portal-base repo`_ has been archived. Any MFEs that depend on this library have been updated
-- `Removed the last vestiges of the save option from anonymous_id_for_user`_
+- The `frontend-learner-portal-base repo`_ has been archived. Any MFEs that depend on this library have been updated.
+- `Removed the last vestiges of the save option from anonymous_id_for_user`_.
+- The `Molecular Structure Problem type`_ was removed.
 
 .. _frontend-learner-portal-base repo: https://github.com/openedx-unsupported/frontend-learner-portal-base
 .. _Removed the last vestiges of the save option from anonymous_id_for_user: https://github.com/openedx/public-engineering/issues/35
-
+.. _Molecular Structure Problem type: https://github.com/openedx/public-engineering/issues/14
 
 .. include:: links.rst
 .. include:: ../../links/links.rst
