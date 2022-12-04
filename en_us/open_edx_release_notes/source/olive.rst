@@ -45,21 +45,46 @@ Learner Records Micro-frontend (MFE)
 Instructor Experiences
 ======================
 
+.. _course-authoring-mfe:
+
 Course Authoring Micro-frontend (MFE)
 -------------------------------------
 
-The Course Authoring Micro-frontend is included in the Olive release. It is enabled by setting :code:`COURSE_AUTHORING_MICROFRONTEND_URL`. The Course Authoring MFE allows for several new features, including two new tabs in Studio, and new xBlock editors, for the HTML, problem and video xBlocks. More details on each of these features are below, and in the `Course Authoring MFE README`_.
+The Course Authoring Micro-frontend is included in the Olive release. It is enabled by setting :code:`COURSE_AUTHORING_MICROFRONTEND_URL`. The Course Authoring MFE allows for several new features, including :ref:`pages-and-resources` in Studio, and a new :ref:`text-html-editor` and a new :ref:`video-editor`. More details on each of these features are below, and in the `Course Authoring MFE README`_.
 
 .. _Course Authoring MFE README: https://github.com/openedx/frontend-app-course-authoring/blob/open-release/olive.master/README.rst
+
+.. _pages-and-resources:
 
 Pages & Resources
 -----------------
 
-Part of the Course Authoring MFE, when this feature is enabled course authors can now get to the Pages & Resources view from the Content menu (it replaces the "Pages" menu item). This is a modular interface for settings for various course applications and tools. Depending on which ones are enabled, they can include Progress, Discussion, Notes, Wiki, Calculator, Custom pages, Proctoring, and Textbooks. The waffle flag :code:`discussions.pages_and_resources_mfe` must be set to enable access to Pages & Resources.
+Part of the :ref:`course-authoring-mfe`, when this feature is enabled course authors can now get to the Pages & Resources view from the Content menu (it replaces the "Pages" menu item). This is a modular interface for settings for various course applications and tools. Depending on which ones are enabled, they can include Progress, Discussion, Notes, Wiki, Calculator, Custom pages, Proctoring, and Textbooks. The waffle flag :code:`discussions.pages_and_resources_mfe` must be set to enable access to Pages & Resources.
 
 .. image:: ../images/olive/page_and_resources_view.png
     :alt: new Pages & Resources page in Studio
 
+.. _text-html-editor:
+
+Text / HTML Editor
+-------------------
+
+Part of the :ref:`course-authoring-mfe` the new Text Editor includes updates that make it even easier to include text and images in your course content. Set the waffle flag :code:`new_core_editors.use_new_text_editor` to enable it. The newly updated editor:
+
+- makes incorporating special characters and symbols easier,
+- adds undo / redo actions,
+- lets you author tables without going into HTML mode,
+- makes emoticons easy to include
+- and more.
+
+.. _video-editor:
+
+Video Editor
+------------
+Part of the :ref:`course-authoring-mfe`, the new video editor can be enabled by setting the waffle flag :code:`new_core_editors.use_new_text_editor`
+
+.. image:: ../images/olive/video_editor_view.png
+    :alt: new Video Editor in Studio
 
 Administrators & Operators
 ==========================
