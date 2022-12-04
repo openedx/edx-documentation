@@ -42,6 +42,25 @@ Learner Records Micro-frontend (MFE)
 .. _Learner Records MFE README: https://github.com/openedx/frontend-app-learner-record/blob/open-release/olive.master/README.rst
 
 
+Instructor Experiences
+======================
+
+Course Authoring Micro-frontend (MFE)
+-------------------------------------
+
+The Course Authoring Micro-frontend is included in the Olive release. It is enabled by setting :code:`COURSE_AUTHORING_MICROFRONTEND_URL`. The Course Authoring MFE allows for several new features, including two new tabs in Studio, and new xBlock editors, for the HTML, problem and video xBlocks. More details on each of these features are below, and in the `Course Authoring MFE README`_.
+
+.. _Course Authoring MFE README: https://github.com/openedx/frontend-app-course-authoring/blob/open-release/olive.master/README.rst
+
+Pages & Resources
+-----------------
+
+Part of the Course Authoring MFE, when this feature is enabled course authors can now get to the Pages & Resources view from the Content menu (it replaces the "Pages" menu item). This is a modular interface for settings for various course applications and tools. Depending on which ones are enabled, they can include Progress, Discussion, Notes, Wiki, Calculator, Custom pages, Proctoring, and Textbooks. The waffle flag :code:`discussions.pages_and_resources_mfe` must be set to enable access to Pages & Resources.
+
+.. image:: ../images/olive/page_and_resources_view.png
+    :alt: new Pages & Resources page in Studio
+
+
 Administrators & Operators
 ==========================
 
