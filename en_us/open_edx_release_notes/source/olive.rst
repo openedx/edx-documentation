@@ -109,11 +109,52 @@ The following Micro-frontends (MFEs) are in a "pre-alpha" state. They exist on G
 
 * `Authentication Micro-Frontend (MFE)`_
 * `Discussions Micro-Frontend (MFE)`_
-* `Learner Record Micro-Frontend (MFE)`
+* `Learner Record Micro-Frontend (MFE)`_
 
 .. _Authentication Micro-Frontend (MFE): https://github.com/openedx/frontend-app-authn
 .. _Discussions Micro-Frontend (MFE): https://github.com/openedx/frontend-app-discussions
 .. _Learner Record Micro-Frontend (MFE): https://github.com/openedx/frontend-app-learner-record
+
+Settings and Toggles
+--------------------
+
+New settings and toggles added since the Nutmeg release:
+
+* `LEARNER_RECORD_MFE_URL <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-LEARNER_RECORD_MFE_URL>`_
+* `MFE_CONFIG <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-MFE_CONFIG>`_
+* `MFE_CONFIG_API_CACHE_TIMEOUT <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-MFE_CONFIG_API_CACHE_TIMEOUT>`_
+* `MFE_CONFIG_OVERRIDES <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-MFE_CONFIG_OVERRIDES>`_
+* `CUSTOM_RESOURCE_TEMPLATES_DIRECTORY <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-CUSTOM_RESOURCE_TEMPLATES_DIRECTORY>`_
+* `ENABLE_DYNAMIC_REGISTRATION_FIELDS <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-ENABLE_DYNAMIC_REGISTRATION_FIELDS>`_
+* `ENABLE_MFE_CONFIG_API <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-ENABLE_MFE_CONFIG_API>`_
+* `DISABLE_UNENROLLMENT <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['DISABLE_UNENROLLMENT']>`_
+* `ENABLE_CERTIFICATES_IDV_REQUIREMENT <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_CERTIFICATES_IDV_REQUIREMENT']>`_
+* `SEND_CATALOG_INFO_SIGNAL <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-SEND_CATALOG_INFO_SIGNAL>`_
+* `contentstore.bypass_olx_failure <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-contentstore.bypass_olx_failure>`_
+* `contentstore.individualize_anonymous_user_id <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-contentstore.individualize_anonymous_user_id>`_
+* `contentstore.split_library_on_studio_dashboard <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-contentstore.split_library_on_studio_dashboard>`_
+* `course_apps.exams_ida <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-course_apps.exams_ida>`_
+* `course_live.enable_big_blue_button <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-course_live.enable_big_blue_button>`_
+* `credentials.use_learner_record_mfe <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-credentials.use_learner_record_mfe>`_
+* `discussions.enable_learners_stats <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-discussions.enable_learners_stats>`_
+* `discussions.enable_reported_content_email_notifications <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-discussions.enable_reported_content_email_notifications>`_
+* `student.enable_2u_recommendations <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-student.enable_2u_recommendations>`_
+* `student.enable_amplitude_recommendations <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-student.enable_amplitude_recommendations>`_
+* `student.enable_enrollment_confirmation_email <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-student.enable_enrollment_confirmation_email>`_
+
+The following settings were removed:
+
+* :code:`DISCUSSIONS_MFE_FEEDBACK_URL`
+* :code:`bypass_olx_failure`
+* :code:`PersistentGradesEnabledFlag.enabled`
+* :code:`course_experience.latest_update`
+* :code:`course_home.course_home_use_legacy_frontend`
+* :code:`courseware.microfrontend_course_team_preview`
+* :code:`courseware.use_legacy_frontend`
+* :code:`grades.assume_zero_grade_if_absent`
+* :code:`split_library_on_studio_dashboard`
+
+
 
 Deprecations & Removals
 =======================
