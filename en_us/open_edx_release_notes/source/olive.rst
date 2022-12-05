@@ -93,6 +93,10 @@ ORA Staff Grading App is a staff grading experience for Open Response Assessment
 
 .. _Staff Grading for Open Response Assignments: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/ORA_Staff_Grading.html#staff-grading-for-open-response-assignments
 
+.. image:: ../images/olive/new_ora_grading_experience.png
+    :alt: new ORA Staff Grading experience
+
+
 Administrators & Operators
 ==========================
 
