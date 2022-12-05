@@ -103,10 +103,6 @@ Legacy OLX attributes translations removed
 ------------------------------------------
 Support for importing courses that use obsolete XML attributes has been removed. Courses with attributes :code:`slug`, :code:`name` in course tags, :code:`display_name` and :code:`id` in discussion tags and :code:`attempts` in problem tags, will no longer import properly. A simple import and export before upgrading will update the XML attributes. See https://github.com/openedx/public-engineering/issues/74 for more details.
 
-Molecular Structure Problem type removed
-----------------------------------------
-This seldom-used problem type was no longer being maintained and has been deprecated for some time. It was removed in Olive. Similar functionality could be
-
 Other removals/deprecations
 ---------------------------
 
