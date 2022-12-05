@@ -86,6 +86,13 @@ Part of the :ref:`course-authoring-mfe`, the new video editor can be enabled by 
 .. image:: ../images/olive/video_editor_view.png
     :alt: new Video Editor in Studio
 
+ORA Grading Micro-frontend (MFE)
+--------------------------------
+
+ORA Staff Grading App is a staff grading experience for Open Response Assessments (ORAs). This experience was designed to streamline the grading process and enable richer previews of submission content. To enable it, you must set :code:`ORA_GRADING_MICROFRONTEND_URL` and enable the waffle flag :code:`openresponseassessment.enhanced_staff_grader`. When enabled, ORAs with a staff grading step will link to this new MFE when clicking "Grade Available Responses" from the ORA or link in the instructor dashboard. See the `Staff Grading for Open Response Assignments`_ section of Building and Running an edX Course for usage information.
+
+.. _Staff Grading for Open Response Assignments: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/ORA_Staff_Grading.html#staff-grading-for-open-response-assignments
+
 Administrators & Operators
 ==========================
 
