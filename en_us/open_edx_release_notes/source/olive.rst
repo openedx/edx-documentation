@@ -102,6 +102,18 @@ Administrators & Operators
 
 - fixed a performance issue when using multiple themes when running in docker. Now by using LRU cache when searching themes,  the performance was improved.
 
+Pre-Alpha Features
+-------------------
+
+The following Micro-frontends (MFEs) are in a "pre-alpha" state. They exist on GitHub but are not yet supported in Tutor. Additionally, they may lack key features such as support for theming, internationalization, and path-based deployments. We include mention of them because we expect all of them to be supported in the next release, Palm.
+
+* `Authentication Micro-Frontend (MFE)`_
+* `Discussions Micro-Frontend (MFE)`_
+* `Learner Record Micro-Frontend (MFE)`
+
+.. _Authentication Micro-Frontend (MFE): https://github.com/openedx/frontend-app-authn
+.. _Discussions Micro-Frontend (MFE): https://github.com/openedx/frontend-app-discussions
+.. _Learner Record Micro-Frontend (MFE): https://github.com/openedx/frontend-app-learner-record
 
 Deprecations & Removals
 =======================
