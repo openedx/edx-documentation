@@ -59,6 +59,7 @@ select a language.
    :alt: The video player with the language menu selected to show English and
    Spanish as transcript options
 
+
 ***************************
 Edit a Video Transcript
 ***************************
