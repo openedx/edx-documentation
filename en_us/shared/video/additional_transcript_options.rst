@@ -56,8 +56,7 @@ When your learners view the video, they can select the **Language menu** to
 select a language.
 
 .. image:: ../../../shared/images/Video_LanguageTranscripts_LMS.png
-   :alt: The video player with the language menu selected to show English and
-   Spanish as transcript options
+   :alt: The video player with the language menu selected to show English and Spanish as transcript options
 
 
 ***************************
