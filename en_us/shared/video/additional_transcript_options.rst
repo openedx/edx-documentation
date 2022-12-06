@@ -1,57 +1,63 @@
-.. _Additional Transcript Options:
+.. _Specifying Transcript Options:
 
 ########################################
-Specifying Additional Transcript Options
+Specifying Transcript Options
 ########################################
 
 .. contents::
   :local:
   :depth: 1
 
-  .. _Transcripts in Additional Languages:
+.. _Add a Transcript:
+.. _Transcripts in Additional Languages:
 
-  ************************************
-  Add a Transcript
-  ************************************
+************************************
+Add a Transcript
+************************************
 
-  You can provide transcripts for your video in more than one language. To do
-  this, you work with a third-party service to obtain an .srt transcript file for
-  each language, and then associate the .srt file with the video in Studio.
+.. note::
+   This section is for videos that do not have integrated transcripts. Only use
+   this option for transcripts in .srt format. If you want to provide a 
+   transcript in any other format, such as .pdf, see
+   ::ref:`Additional Transcripts`.
 
-  Before you add a transcript file, make sure that each file has a unique name.
-  If you use the same transcript name more than once, only the most recently
-  added transcript will appear for every video component that is set up to use a
-  transcript with that name. To avoid this problem, a best practice is to name
-  additional transcript files by appending the transcript's language to the video
-  file name.
+You can provide transcripts for your video in more than one language. To do
+this, you work with a third-party service to obtain an .srt transcript file for
+each language, and then associate the .srt file with the video in Studio.
 
-  For example, you have two videos, named video1.mp4 and video2.mp4, and their
-  original transcripts are named video1.srt and video2.srt. When you add Hindi
-  transcripts for these videos, you name them video1_hi.srt and video2_hi.srt.
-  When you add Spanish transcripts for the videos, you name them video1_es.srt
-  and video2_es.srt.
+Before you add a transcript file, make sure that each file has a unique name.
+If you use the same transcript name more than once, only the most recently
+added transcript will appear for every video component that is set up to use a
+transcript with that name. To avoid this problem, a best practice is to name
+additional transcript files by appending the transcript's language to the video
+file name.
 
-  To add a transcript to a video component, follow these steps.
+For example, you have two videos, named video1.mp4 and video2.mp4, and their
+original transcripts are named video1.srt and video2.srt. When you add Hindi
+transcripts for these videos, you name them video1_hi.srt and video2_hi.srt.
+When you add Spanish transcripts for the videos, you name them video1_es.srt
+and video2_es.srt.
 
-  #. After you obtain the .srt files for additional languages, open the
-     video component for the video.
+To add a transcript to a video component, follow these steps.
 
-  #. Scroll down to the **Transcript** section, and then select **Add a
-     transcript**.
+#. After you obtain the .srt files, open the video component for the video.
 
-  #. Select the language for the transcript that you want to add.
+#. Scroll down to the **Transcript** section, and then select **Add a
+   transcript**.
 
-  #. In the dialog box, browse to the .srt file for the transcript in that
-     language, and then select **Open**.
+#. Select the language for the transcript that you want to add.
 
-  #. Repeat steps 2 - 5 for any additional languages.
+#. In the dialog box, browse to the .srt file for the transcript in that
+   language, and then select **Open**.
 
-  When your learners view the video, they can select the **Language menu** to
-  select a language.
+#. Repeat steps 2 - 5 for any additional languages.
 
-  .. image:: ../../../shared/images/Video_LanguageTranscripts_LMS.png
-     :alt: The video player with the language menu selected to show English and
-      Spanish as transcript options
+When your learners view the video, they can select the **Language menu** to
+select a language.
+
+.. image:: ../../../shared/images/Video_LanguageTranscripts_LMS.png
+   :alt: The video player with the language menu selected to show English and
+   Spanish as transcript options
 
 ***************************
 Edit a Video Transcript
@@ -73,7 +79,6 @@ these steps.
    want.
 #. Select the **menu icon (•••)** and select **Replace** to upload the edited
    file for the same language.
-
 
 .. _Additional Transcripts:
 

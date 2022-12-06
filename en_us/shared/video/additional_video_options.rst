@@ -4,9 +4,9 @@
 Specifying Additional Video Options
 ###################################
 
-When you create a video component, you can specify additional options such as
-download options for the video and transcript, video license options, and a
-start and stop time for the video.
+When you create a video component, you can customize additonal settings such as
+specifying download options for the video and transcript, video license options,
+and a start and stop time for the video.
 
 .. contents::
   :local:
@@ -33,7 +33,7 @@ To test transcript downloads for the video, select **Download transcript** in
 the video player’s control bar. You can download either the SubRip (.srt)
 format or text (.txt) format.
 
-.. _Video Additional Options:
+.. _Video Settings:
 
 **************************
 Set Video Settings
@@ -49,15 +49,8 @@ The following options appear on the **Edit** page of the video component.
     :widths: 30 70
 
     * - **Component Display Name**
-      - The name that you want your learners to see.
-
-    * - **Video Available on Web Only**
-      - If you select **True**, learners can only play this video in a web
-        browser. If you select **False**, learners can use any compatible
-        application to play the video, including web browsers and mobile apps.
-
-    * - **YouTube IDs**
-      - As of March 2018, edX no longer supports videos on YouTube.
+      - The name that you want your learners to see. To edit the display name,
+        select the pencil icon inthe top left hand corner.
 
 .. _Video Source:
 
@@ -88,9 +81,11 @@ Video Source
         To help make sure all standard browsers can play your video, we
         **strongly** recommend that you use the .mp4 format.
 
-    * - **Video ID**
-      - The identifier that the video process assigns to the video. Only
-        courses on edx.org use this field.
+    * - **Video ID or URL**
+      - The Video ID or URL is the source for your video. Video IDs are the
+        identifiers that the video process assigns to the video. Only ourses on
+        edx.org use Video IDs. All other videos and Edge, use the URL to the
+        externally hosted video.
 
 .. _Thumbnail:
 
@@ -114,8 +109,6 @@ To add a thumbnail to a video component, follow these steps:
 
 To replace the current thumbnail, delete the thumbnail, and then follow the
 steps above for adding a thumbnail
-
-
 
 .. _Transcript:
 
@@ -161,7 +154,6 @@ Duration
 .. note::
    To keep the full length of the video, both the start and stop time should be
    set to 00:00:00.
-
 
 .. list-table::
     :widths: 30 70
