@@ -9,6 +9,7 @@ Specifying Additional Transcript Options
   :depth: 1
 
 
+.. _Add a Video and Transcript:
 .. _Transcripts in Additional Languages:
 
 ************************************
