@@ -34,6 +34,18 @@ The default expiration for JWT access tokens is now one hour. This default setti
 Learner Experiences
 ===================
 
+Discussions Micro-frontend (MFE)
+--------------------------------
+
+The Discussions MFE is included in the Olive release, but is not enabled by default. You can control which learners will see it with the waffle flag :code:`discussions.enable_discussions_mfe`. To configure course discussions, the :ref:`course-authoring-mfe` must be enabled as well.
+
+.. image:: ../images/olive/discussions.png
+    :alt: Learner view of Discussions Micro-frontend
+
+See the `New discussions forum experience wiki page`_ for a detailed explanation of new and improved functionality.
+
+.. _New discussions forum experience wiki page: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3509551260/New+discussions+forum+experience+-+Course+teams+and+moderators
+
 
 Learner Records Micro-frontend (MFE)
 ------------------------------------
