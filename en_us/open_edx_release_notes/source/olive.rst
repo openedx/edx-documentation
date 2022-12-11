@@ -34,6 +34,19 @@ The default expiration for JWT access tokens is now one hour. This default setti
 Learner Experiences
 ===================
 
+Authentication Micro-Frontend (MFE)
+-----------------------------------
+
+The Authentication MFE is responsible for the login, registration and password reset functionality. It is enabled by default in Olive and has all the same features as the legacy login and registration pages. You can revert to the legacy experience by setting :code:`FEATURES['ENABLE_AUTHN_MICROFRONTEND']` to False.
+
+.. image:: ../images/olive/authn.png
+    :alt: The authentication Micro-frontend
+
+There are a number of settings that affect this experience. See the `Authentication MFE README`_ for a complete list.
+
+.. _Authentication MFE README: https://github.com/openedx/frontend-app-authn/blob/master/README.rst
+
+
 Discussions Micro-frontend (MFE)
 --------------------------------
 
