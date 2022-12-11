@@ -143,15 +143,15 @@ Settings and Toggles
 
 New settings and toggles added since the Nutmeg release:
 
+* `CUSTOM_RESOURCE_TEMPLATES_DIRECTORY <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-CUSTOM_RESOURCE_TEMPLATES_DIRECTORY>`_
 * `LEARNER_RECORD_MFE_URL <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-LEARNER_RECORD_MFE_URL>`_
 * `MFE_CONFIG <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-MFE_CONFIG>`_
 * `MFE_CONFIG_API_CACHE_TIMEOUT <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-MFE_CONFIG_API_CACHE_TIMEOUT>`_
 * `MFE_CONFIG_OVERRIDES <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-MFE_CONFIG_OVERRIDES>`_
 * `PREPEND_LOCALE_PATHS <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-PREPEND_LOCALE_PATHS>`_`
-* `CUSTOM_RESOURCE_TEMPLATES_DIRECTORY <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-CUSTOM_RESOURCE_TEMPLATES_DIRECTORY>`_
+* `DISABLE_UNENROLLMENT <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['DISABLE_UNENROLLMENT']>`_
 * `ENABLE_DYNAMIC_REGISTRATION_FIELDS <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-ENABLE_DYNAMIC_REGISTRATION_FIELDS>`_
 * `ENABLE_MFE_CONFIG_API <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-ENABLE_MFE_CONFIG_API>`_
-* `DISABLE_UNENROLLMENT <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['DISABLE_UNENROLLMENT']>`_
 * `ENABLE_CERTIFICATES_IDV_REQUIREMENT <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_CERTIFICATES_IDV_REQUIREMENT']>`_
 * `SEND_CATALOG_INFO_SIGNAL <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-SEND_CATALOG_INFO_SIGNAL>`_
 * `contentstore.bypass_olx_failure <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-contentstore.bypass_olx_failure>`_
