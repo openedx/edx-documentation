@@ -119,18 +119,6 @@ Other Instructor Experience changes
 - upgraded TinyMCE version 4 to version 5.5.1.
 
 
-ORA Grading Micro-frontend (MFE)
---------------------------------
-
-ORA Staff Grading App is a staff grading experience for Open Response Assessments (ORAs). This experience was designed to streamline the grading process and enable richer previews of submission content. To enable it, you must set :code:`ORA_GRADING_MICROFRONTEND_URL` and enable the waffle flag :code:`openresponseassessment.enhanced_staff_grader`. When enabled, ORAs with a staff grading step will link to this new MFE when clicking "Grade Available Responses" from the ORA or link in the instructor dashboard. See the `Staff Grading for Open Response Assignments`_ section of Building and Running an edX Course for usage information.
-
-.. _Staff Grading for Open Response Assignments: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/ORA_Staff_Grading.html#staff-grading-for-open-response-assignments
-
-.. image:: ../images/olive/new_ora_grading_experience.png
-    :alt: new ORA Staff Grading experience
-
-
-
 
 Administrators & Operators
 ==========================
@@ -146,10 +134,12 @@ The following Micro-frontends (MFEs) are in a "pre-alpha" state. They exist on G
 * `Authentication Micro-Frontend (MFE)`_
 * `Discussions Micro-Frontend (MFE)`_
 * `Learner Record Micro-Frontend (MFE)`_
+* `ORA Grading Micro-frontend (MFE)`_ `
 
 .. _Authentication Micro-Frontend (MFE): https://github.com/openedx/frontend-app-authn
 .. _Discussions Micro-Frontend (MFE): https://github.com/openedx/frontend-app-discussions
 .. _Learner Record Micro-Frontend (MFE): https://github.com/openedx/frontend-app-learner-record
+.. _ORA Grading Micro-frontend (MFE): https://github.com/edx/frontend-app-ora-grading
 
 Settings and Toggles
 --------------------
