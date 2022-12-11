@@ -44,6 +44,11 @@ Learner Records Micro-frontend (MFE)
 
 .. _Learner Records MFE README: https://github.com/openedx/frontend-app-learner-record/blob/open-release/olive.master/README.rst
 
+Other Learner Experience changes
+--------------------------------
+
+- add reset option to the Randomized Content Block. See this `video demo <https://www.loom.com/share/91b7224cb8a74cf2891a240b6e4fb8c6>`_ for the new user experience.
+
 
 Instructor Experiences
 ======================
@@ -94,6 +99,10 @@ Discussions
 
 - Send out an email to discussion moderators when a content (post/response/comment) is reported. See https://github.com/openedx/edx-platform/pull/30276 for more details.
 
+Other Instructor Experience changes
+-----------------------------------
+
+- Course authors can optional set Randomized Content Blocks to display a reset option. This allows students to use the Randomize Content Block as a problem-bank for studying. See this `video demo <https://www.loom.com/share/91b7224cb8a74cf2891a240b6e4fb8c6>`_ for the new user experience.
 
 
 ORA Grading Micro-frontend (MFE)
