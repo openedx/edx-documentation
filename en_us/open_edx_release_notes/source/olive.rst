@@ -57,6 +57,13 @@ The Discussions MFE is included in the Olive release, but is not enabled by defa
 
 See the `New discussions forum experience wiki page`_ for a detailed explanation of new and improved functionality.
 
+Known issues: Discussions MFE (rendered in Discussions tab) uses tinyMCE v5 which is a different text editor compared to the in-line discussions. As a result, there are some incompatibilities:
+
+#. Hyperlinks created in MFE do not appear in in-line discussions
+#. Images uploaded in MFE do not appear in in-line discussions in some cases
+#. Code formatted in MFE do not appear formatted in in-line discussions
+
+
 .. _New discussions forum experience wiki page: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3509551260/New+discussions+forum+experience+-+Course+teams+and+moderators
 
 
