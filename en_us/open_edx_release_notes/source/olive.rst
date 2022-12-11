@@ -109,6 +109,19 @@ Administrators & Operators
 
 - fixed a performance issue when using multiple themes when running in docker. Now by using LRU cache when searching themes,  the performance was improved.
 
+Hooks Extension Framework
+-------------------------
+
+As part of `OEP-55`_, the following filters were added in olive:
+
+- :code:`certificate.render.started`
+- :code:`cohort.change.requested.v1`
+- :code:`course_about.render.started`
+- :code:`dashboard.render.started.v1`
+- :code:`certificate.creation.requested`
+
+.. _OEP-55: https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0050-hooks-extension-framework.html
+
 Pre-Alpha Features
 -------------------
 
