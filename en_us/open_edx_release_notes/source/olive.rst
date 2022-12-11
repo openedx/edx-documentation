@@ -48,7 +48,8 @@ Other Learner Experience changes
 --------------------------------
 
 - add reset option to the Randomized Content Block. See this `video demo <https://www.loom.com/share/91b7224cb8a74cf2891a240b6e4fb8c6>`_ for the new user experience.
-
+- tabs will now display in a consistent order: Course, Progress, Dates, Discussion, etc.
+-
 
 Instructor Experiences
 ======================
@@ -102,7 +103,8 @@ Discussions
 Other Instructor Experience changes
 -----------------------------------
 
-- Course authors can optional set Randomized Content Blocks to display a reset option. This allows students to use the Randomize Content Block as a problem-bank for studying. See this `video demo <https://www.loom.com/share/91b7224cb8a74cf2891a240b6e4fb8c6>`_ for the new user experience.
+- Course authors can optionally set Randomized Content Blocks to display a reset option. This allows students to use the Randomize Content Block as a problem-bank for studying. See this `video demo <https://www.loom.com/share/91b7224cb8a74cf2891a240b6e4fb8c6>`_ for the new user experience.
+- upgraded TinyMCE version 4 to version 5.5.1.
 
 
 ORA Grading Micro-frontend (MFE)
@@ -116,23 +118,13 @@ ORA Staff Grading App is a staff grading experience for Open Response Assessment
     :alt: new ORA Staff Grading experience
 
 
+
+
 Administrators & Operators
 ==========================
 
 - fixed a performance issue when using multiple themes when running in docker. Now by using LRU cache when searching themes,  the performance was improved.
 
-Hooks Extension Framework
--------------------------
-
-As part of `OEP-55`_, the following filters were added in olive:
-
-- :code:`certificate.render.started`
-- :code:`cohort.change.requested.v1`
-- :code:`course_about.render.started`
-- :code:`dashboard.render.started.v1`
-- :code:`certificate.creation.requested`
-
-.. _OEP-55: https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0050-hooks-extension-framework.html
 
 Pre-Alpha Features
 -------------------
@@ -220,3 +212,26 @@ Other removals/deprecations
 .. include:: links.rst
 .. include:: ../../links/links.rst
 
+
+Developer Experience
+====================
+
+Hooks Extension Framework
+-------------------------
+
+As part of `OEP-55`_, the following filters were added in olive:
+
+- :code:`certificate.render.started`
+- :code:`cohort.change.requested.v1`
+- :code:`course_about.render.started`
+- :code:`dashboard.render.started.v1`
+- :code:`certificate.creation.requested`
+
+.. _OEP-55: https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0050-hooks-extension-framework.html
+
+
+Researcher & Data Experiences
+=============================
+
+* Added analytics event on recommendation course click, :code:`edx.bi.user.recommended.course.click`
+* added tracking event on learner search (in discussions)
