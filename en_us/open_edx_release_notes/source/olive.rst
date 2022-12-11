@@ -86,6 +86,13 @@ Part of the :ref:`course-authoring-mfe`, the new video editor can be enabled by 
 .. image:: ../images/olive/video_editor_view.png
     :alt: new Video Editor in Studio
 
+Discussions
+-----------
+
+- Send out an email to discussion moderators when a content (post/response/comment) is reported. See https://github.com/openedx/edx-platform/pull/30276 for more details.
+
+
+
 ORA Grading Micro-frontend (MFE)
 --------------------------------
 
