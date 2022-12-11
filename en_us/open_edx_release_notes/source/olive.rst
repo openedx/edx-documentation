@@ -50,7 +50,7 @@ See the `New discussions forum experience wiki page`_ for a detailed explanation
 Learner Records Micro-frontend (MFE)
 ------------------------------------
 
-- The Learner records MFE is now available as an optional frontend for the Credentials application (or is it a plugin?). See the `Learner Records MFE README`_ for configuration information.
+- The Learner records MFE is now available as an optional frontend for the Credentials application. See the `Learner Records MFE README`_ for configuration information.
 - Even if the the Learner Records MFE is turned on, the old UI is still used for public links to records. This will be changed in the Palm release. (this may have been backported already)
 - Masquerading is not supported, as it is in the legacy UI. Use the "Records" tab in support tools as an alternative.
 
