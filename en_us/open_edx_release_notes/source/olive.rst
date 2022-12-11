@@ -27,6 +27,9 @@ Learning MFE is now required
 ----------------------------
 The Learning Micro Frontend (MFE) is no longer optional, and must be run as part of your installation now. It has been the default since the Maple release, with a setting that allowed for opting out. The setting :code:`courseware.use_legacy_frontend` has been removed. (See Deprecations & Removals below for more).
 
+JWT access tokens expire in 1 hour
+----------------------------------
+The default expiration for JWT access tokens is now one hour. This default setting can be overriden by setting :code:`JWT_ACCESS_TOKEN_EXPIRE_SECONDS`.
 
 Learner Experiences
 ===================
