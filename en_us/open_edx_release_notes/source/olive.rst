@@ -50,7 +50,7 @@ There are a number of settings that affect this experience. See the `Authenticat
 Discussions Micro-frontend (MFE)
 --------------------------------
 
-The Discussions MFE is included in the Olive release, but is not enabled by default. You can control which learners will see it with the waffle flag :code:`discussions.enable_discussions_mfe`. To configure course discussions, the :ref:`course-authoring-mfe` must be enabled as well.
+The Discussions MFE is included in the Olive release and enabled by default. You can control which learners will see it with the waffle flag :code:`discussions.enable_discussions_mfe`. To configure course discussions, the :ref:`course-authoring-mfe` must be enabled as well.
 
 .. image:: ../images/olive/discussions.png
     :alt: Learner view of Discussions Micro-frontend
