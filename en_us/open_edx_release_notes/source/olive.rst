@@ -130,7 +130,7 @@ Part of the :ref:`course-authoring-mfe`, the new video editor can be enabled by 
 Discussions
 -----------
 
-- Send out an email to discussion moderators when a content (post/response/comment) is reported. See https://github.com/openedx/edx-platform/pull/30276 for more details.
+An email can now be sent out to discussion moderators when content (post/response/comment) is reported.  To use it, set the :code:`discussions.enable_reported_content_email_notifications` waffle flag.  See https://github.com/openedx/edx-platform/pull/30276 for more details.
 
 Other Instructor Experience changes
 -----------------------------------
