@@ -83,8 +83,13 @@ To add a video and its transcript to an edx.org course, follow these steps.
    platform specifies “Video” for you. Clicking the “Check” icon will save your
    changes, the “X” icon will discard them.
 
-#. Under Video Source, in the **Video ID or URL** field, enter the Video ID,
-   streaming media link, or video file URL.
+#. Under Video Source, in the **Video ID** field, enter the Video ID, or **Video
+   URL** fields, enter the streaming media link, or video file URL.
+   
+   .. note::
+      When you add the video ID, you do not need to add values to the **Video
+      URL** or **Fallback Video** fields. The URLs that are associated with the
+      video ID override any existing values in other fields.
 
 #. Optionally, you can set more options for the video. For a
    description of each option, see :ref:`Video Settings`.
