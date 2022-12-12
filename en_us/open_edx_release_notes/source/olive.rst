@@ -164,8 +164,6 @@ The following Micro-frontends (MFEs) are in a "pre-alpha" state. They exist on G
 * `Learner Record Micro-Frontend (MFE)`_
 * `ORA Grading Micro-frontend (MFE)`_ `
 
-.. _Authentication Micro-Frontend (MFE): https://github.com/openedx/frontend-app-authn
-.. _Discussions Micro-Frontend (MFE): https://github.com/openedx/frontend-app-discussions
 .. _Learner Record Micro-Frontend (MFE): https://github.com/openedx/frontend-app-learner-record
 .. _ORA Grading Micro-frontend (MFE): https://github.com/edx/frontend-app-ora-grading
 
