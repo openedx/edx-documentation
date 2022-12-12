@@ -147,6 +147,7 @@ Other Instructor Experience changes
 Administrators & Operators
 ==========================
 
+Relevant changes to Tutor are in the `Tutor Changelog <https://github.com/overhangio/tutor/blob/olive/CHANGELOG.md>`_.
 
 MFE runtime configuration support
 ---------------------------------
