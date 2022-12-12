@@ -27,7 +27,7 @@ To add a video to an edge.edx.org course, follow these steps.
    video for you in Insights. If you do not enter a display name, the platform
    specifies "Video" for you.
 
-#. Locate the **Video ID or URL field**, and then enter the location of your video.
+#. Locate the **Video URL field**, and then enter the location of your video.
    This is the URL that was created when you uploaded the video to the hosting site.
 
    .. note::

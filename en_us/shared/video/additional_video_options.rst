@@ -61,6 +61,15 @@ Video Source
 .. list-table::
     :widths: 30 70
 
+    * - **Video ID**
+      - The Video IDis the source for your video. Video IDs are the
+        identifiers that the video process assigns to the video. Only courses on
+        edx.org use Video IDs.
+
+    * - **Video URL**
+      - The Video URL is the source for your video. Video URLS are for externally
+        hosted video.
+  
     * - **Allow Video Downloads**
       - Specifies whether learners can download the video. If you select **Allow
         video downloads**, you must add at least one URL in the **Fallback
@@ -80,12 +89,6 @@ Video Source
 
         To help make sure all standard browsers can play your video, we
         **strongly** recommend that you use the .mp4 format.
-
-    * - **Video ID or URL**
-      - The Video ID or URL is the source for your video. Video IDs are the
-        identifiers that the video process assigns to the video. Only ourses on
-        edx.org use Video IDs. All other videos and Edge, use the URL to the
-        externally hosted video.
 
 .. _Thumbnail:
 
