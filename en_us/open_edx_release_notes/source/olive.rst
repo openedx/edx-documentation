@@ -122,7 +122,7 @@ Part of the :ref:`course-authoring-mfe` the new Text Editor includes updates tha
 
 Video Editor
 ------------
-Part of the :ref:`course-authoring-mfe`, the new video editor can be enabled by setting the waffle flag :code:`new_core_editors.use_new_text_editor`
+Part of the :ref:`course-authoring-mfe`, the new video editor can be enabled by setting the waffle flag :code:`new_core_editors.use_new_video_editor`
 
 .. image:: ../images/olive/video_editor_view.png
     :alt: new Video Editor in Studio
