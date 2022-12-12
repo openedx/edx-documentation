@@ -260,7 +260,7 @@ In order to make testing your Open edX installation easier, `this course and its
 Hooks Extension Framework
 -------------------------
 
-As part of `OEP-55`_, the following filters were added in olive:
+As part of `OEP-50`_, the following filters were added in Olive:
 
 - :code:`certificate.render.started`
 - :code:`cohort.change.requested.v1`
@@ -268,7 +268,7 @@ As part of `OEP-55`_, the following filters were added in olive:
 - :code:`dashboard.render.started.v1`
 - :code:`certificate.creation.requested`
 
-.. _OEP-55: https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0050-hooks-extension-framework.html
+.. _OEP-50: https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0050-hooks-extension-framework.html
 
 
 Researcher & Data Experiences
