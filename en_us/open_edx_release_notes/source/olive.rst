@@ -253,7 +253,7 @@ Developer Experience
 Open edX Test Course
 --------------------
 
-In order to make testing Open edX easier, `this course and its associated libraries`_ aim to expose as many Open edX Studio & courseware features as possible. It does so by providing example usages of various block types and by enabling various features through Advanced Settings.
+In order to make testing your Open edX installation easier, `this course and its associated libraries`_ aim to expose as many Open edX Studio & courseware features as possible. It does so by providing example usages of various block types and by enabling various features through Advanced Settings.
 
 .. _this course and its associated libraries: https://github.com/openedx/openedx-test-course
 
