@@ -25,7 +25,7 @@ The Persistent Grades feature was added as an option in Hawthorne. Legacy, non-p
 
 Learning MFE is now required
 ----------------------------
-The Learning Micro Frontend (MFE) is no longer optional, and must be run as part of your installation now. It has been the default since the Maple release, with a setting that allowed for opting out. The setting :code:`courseware.use_legacy_frontend` has been removed. (See Deprecations & Removals below for more).
+The Learning Micro Frontend (MFE) is no longer optional, and must be run as part of your installation. It has been the default since the Maple release, with a setting that allowed for opting out. The setting :code:`courseware.use_legacy_frontend` has been removed. (See Deprecations & Removals below for more).
 
 JWT access tokens expire in 1 hour
 ----------------------------------
