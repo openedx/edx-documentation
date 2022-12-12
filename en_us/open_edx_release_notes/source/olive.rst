@@ -73,7 +73,7 @@ Learner Records Micro-frontend (MFE)
 ------------------------------------
 
 - The Learner records MFE is now available as an optional frontend for the Credentials application. See the `Learner Records MFE README`_ for configuration information.
-- Even if the the Learner Records MFE is turned on, the old UI is still used for public links to records. This will be changed in the Palm release. (this may have been backported already)
+- Even if the the Learner Records MFE is turned on, the old UI is still used for public links to records. This will be changed in the Palm release.
 - Masquerading is not supported, as it is in the legacy UI. Use the "Records" tab in support tools as an alternative.
 
 .. _Learner Records MFE README: https://github.com/openedx/frontend-app-learner-record/blob/open-release/olive.master/README.rst
