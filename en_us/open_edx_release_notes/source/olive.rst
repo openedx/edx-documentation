@@ -113,12 +113,12 @@ Part of the :ref:`course-authoring-mfe`, when this feature is enabled course aut
 Text / HTML Editor
 -------------------
 
-Part of the :ref:`course-authoring-mfe` the new Text Editor includes updates that make it even easier to include text and images in your course content. Set the waffle flag :code:`new_core_editors.use_new_text_editor` to enable it. The newly updated editor:
+Part of the :ref:`course-authoring-mfe`, the new Text Editor includes updates that make it even easier to include text and images in your course content. Set the waffle flag :code:`new_core_editors.use_new_text_editor` to enable it. The newly updated editor:
 
 - makes incorporating special characters and symbols easier,
 - adds undo / redo actions,
 - lets you author tables without going into HTML mode,
-- makes emoticons easy to include
+- makes emoticons easy to include,
 - and more.
 
 .. _video-editor:
@@ -126,7 +126,7 @@ Part of the :ref:`course-authoring-mfe` the new Text Editor includes updates tha
 Video Editor
 ------------
 
-Part of the :ref:`course-authoring-mfe`, the new video editor is not production ready. If you want to experiment with it, you can be enable it by setting the waffle flag :code:`new_core_editors.use_new_video_editor`
+Part of the :ref:`course-authoring-mfe`, the new video editor is not production ready. If you want to experiment with it, you can enable it by setting the waffle flag :code:`new_core_editors.use_new_video_editor`
 
 .. image:: ../images/olive/video_editor_view.png
     :alt: new Video Editor in Studio
