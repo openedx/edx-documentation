@@ -19,7 +19,9 @@ Breaking Changes
 
 All grades are persisted
 ------------------------
-The Persistent Grades feature was added as an option in Hawthorne. Legacy, non-persistent grades were deprecated in Nutmeg. Now, persistent grades are required. If you have not turned on persistent grades in your installation yet, when you upgrade to Olive, grades will not appear on learners' Progress page or in data downloads. You must follow the instructions in `Migrating to Persistent Grading`_ for grades to appear. This process can take a significant amount of time, depending on how many graded problems are in your installation, and how long those grades take to be calculated. It can be run before or after the upgrade.
+The Persistent Grades feature was added as an option in Hawthorne. Legacy, non-persistent grades were deprecated in Nutmeg and enabled by default in Tutor. Now, persistent grades are required.
+
+If you are not using Tutor, and have not turned on persistent grades in your installation yet, grades will disappear from learners' Progress pages and in Instructors' data downloads when you upgrade to Olive. You must follow the instructions in `Migrating to Persistent Grading`_ for grades to appear. This process can take a significant amount of time, depending on how many graded problems are in your installation, and how long those grades take to be calculated. It can be run before or after the upgrade.
 
 .. _Migrating to Persistent Grading: https://openedx.atlassian.net/wiki/spaces/AC/pages/755171487/Migrating+to+Persistent+Grading
 
