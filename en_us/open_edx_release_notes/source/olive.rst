@@ -161,8 +161,6 @@ Pre-Alpha Features
 
 The following Micro-frontends (MFEs) are in a "pre-alpha" state. They exist on GitHub but are not yet supported in Tutor. Additionally, they may lack key features such as support for theming, internationalization, and path-based deployments. We include mention of them because we expect all of them to be supported in the next release, Palm.
 
-* `Authentication Micro-Frontend (MFE)`_
-* `Discussions Micro-Frontend (MFE)`_
 * `Learner Record Micro-Frontend (MFE)`_
 * `ORA Grading Micro-frontend (MFE)`_ `
 
