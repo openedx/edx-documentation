@@ -278,4 +278,11 @@ Researcher & Data Experiences
 * added tracking event on learner search (in discussions)
 * added many new discussion events, including :code:`edx.forum.thread.edited`, :code:`edx.forum.response.edited`, :code:`edx.forum.comment.edited`
 
+Known Issues
+============
+
+- The Authentication MFE contains some hard-coded mentioned of edX. We expect these will be fixed by the time Olive.2 is released.
+- The Zoom tool is not working. There is currently no plan for when this may be fixed.
+
+
 
