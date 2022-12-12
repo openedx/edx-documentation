@@ -63,7 +63,7 @@ Known issues: Discussions MFE (rendered in Discussions tab) uses tinyMCE v5 whic
 
 #. Hyperlinks created in MFE do not appear in in-line discussions
 #. Images uploaded in MFE do not appear in in-line discussions in some cases
-#. Code formatted in MFE do not appear formatted in in-line discussions
+#. Code formatted in MFE does not appear formatted in in-line discussions
 
 
 .. _New discussions forum experience wiki page: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3509551260/New+discussions+forum+experience+-+Course+teams+and+moderators
