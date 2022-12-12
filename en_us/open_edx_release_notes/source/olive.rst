@@ -91,7 +91,8 @@ Instructor Experiences
 Course Authoring Micro-frontend (MFE)
 -------------------------------------
 
-The Course Authoring Micro-frontend is included in the Olive release. It is enabled by setting :code:`COURSE_AUTHORING_MICROFRONTEND_URL`. The Course Authoring MFE allows for several new features, including :ref:`pages-and-resources` in Studio, and a new :ref:`text-html-editor` and a new :ref:`video-editor`. More details on each of these features are below, and in the `Course Authoring MFE README`_.
+The Course Authoring Micro-frontend is included and enabled in the Olive release, but only the :ref:`pages-and-resources` feature is turned on.
+The MFE can be disabled by setting :code:`COURSE_AUTHORING_MICROFRONTEND_URL` to False. The Course Authoring MFE also allows for new course editors in Studio, although only the new :ref:`text-html-editor` is production ready. More details on each of these features are below, and in the `Course Authoring MFE README`_.
 
 .. _Course Authoring MFE README: https://github.com/openedx/frontend-app-course-authoring/blob/open-release/olive.master/README.rst
 
@@ -122,7 +123,8 @@ Part of the :ref:`course-authoring-mfe` the new Text Editor includes updates tha
 
 Video Editor
 ------------
-Part of the :ref:`course-authoring-mfe`, the new video editor can be enabled by setting the waffle flag :code:`new_core_editors.use_new_video_editor`
+
+Part of the :ref:`course-authoring-mfe`, the new video editor is not production ready. If you want to experiment with it, you can be enable it by setting the waffle flag :code:`new_core_editors.use_new_video_editor`
 
 .. image:: ../images/olive/video_editor_view.png
     :alt: new Video Editor in Studio
