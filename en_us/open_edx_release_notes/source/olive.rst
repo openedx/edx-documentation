@@ -86,7 +86,6 @@ Other Learner Experience changes
 --------------------------------
 
 - add reset option to the Randomized Content Block. See this `video demo <https://www.loom.com/share/91b7224cb8a74cf2891a240b6e4fb8c6>`_ for the new user experience.
-- tabs will now display in a consistent order: Course, Progress, Dates, Discussion, etc.
 - "Live" tab displayed on course when live content is enabled (for example, Zoom or Big Blue Button)
 
 Instructor Experiences
