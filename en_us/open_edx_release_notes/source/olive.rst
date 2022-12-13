@@ -317,6 +317,8 @@ Known Issues
 
 - The Authentication MFE contains some hard-coded mentioned of edX. We expect these will be fixed by the time Olive.2 is released.
 - The Zoom tool is not working. There is currently no plan for when this may be fixed.
+- Android app support is currently limited to `Release 3.0.2 <https://github.com/openedx/edx-app-android/releases/tag/release%2F3.0.2>`_.
+
 
 
 
