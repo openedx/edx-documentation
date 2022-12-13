@@ -158,6 +158,25 @@ Where up until Nutmeg it was only possible to change a micro-frontend's settings
 
 This behavior is optional and controlled by the :code:`ENABLE_MFE_CONFIG_API` Django setting in the LMS, and the :code:`APP_ID` and :code:`MFE_CONFIG_API_URL` MFE build-time settings.  The actual runtime configuration can then be specified via the :code:`MFE_CONFIG` and :code:`MFE_CONFIG_OVERRIDES` variables in the LMS.  (These can also be overriden via `site configuration <https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/sites/configure_site.html>`_, with the effect that such configuration can be changed dynamically via the backing database.)  For more details, refer to the `corresponding architecture decision record <https://github.com/openedx/edx-platform/blob/open-release/olive.master/lms/djangoapps/mfe_config_api/docs/decisions/0001-mfe-config-api.rst>`_.
 
+Upgrade note
+~~~~~~~~~~~~
+
+In Tutor, :code:`ENABLE_MFE_CONFIG_API` is enabled and used by default by all supported MFEs.  Because of it, a previously supported mechanism of setting some MFE settings via Tutor configuration is no longer available.  When upgrading from Nutmeg to Olive, the following variables can no longer be set via :code:`tutor config save --set`:
+
+* Account MFE: :code:`COACHING_ENABLED` and :code:`ENABLE_DEMOGRAPHICS_COLLECTION`
+* Profile MFE: :code:`ENABLE_LEARNER_RECORD_MFE`
+
+Instead, the recommended way to modify MFE settings from Olive onwards is to write a Tutor plugin and use the :code:`openedx-lms-production-settings` and :code:`openedx-lms-development-settings` hooks to change :code:`MFE_CONFIG` or :code:`MFE_CONFIG_OVERRIDES` as needed.  For instance::
+
+  MFE_CONFIG["PLATFORM_NAME"] = "My Awesome Platform"
+  MFE_CONFIG_OVERRIDES["account"]["SITE_NAME"] = "My Awesome Site"
+
+Also note that if you've maintained such a plugin prior to Olive, the following hooks are no longer available after the upgrade::
+
+* :code:`mfe-env-production`
+* :code:`mfe-env-development`
+
+You must instead migrate your MFE settings to the LMS settings hooks as described above.
 Other Operator Experience changes
 ---------------------------------
 - fixed a performance issue when using multiple themes when running in docker. Now by using LRU cache when searching themes,  the performance was improved.
