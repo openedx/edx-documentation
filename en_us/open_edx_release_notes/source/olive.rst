@@ -96,8 +96,7 @@ Instructor Experiences
 Course Authoring Micro-frontend (MFE)
 -------------------------------------
 
-The Course Authoring Micro-frontend is included and enabled in the Olive release, but only the :ref:`pages-and-resources` feature is turned on.
-The MFE can be disabled by setting :code:`COURSE_AUTHORING_MICROFRONTEND_URL` to False. The Course Authoring MFE also allows for new course editors in Studio, although only the new :ref:`text-html-editor` is production ready. More details on each of these features are below, and in the `Course Authoring MFE README`_.
+The Course Authoring Micro-frontend is included and enabled by default in the Olive release, but only the :ref:`pages-and-resources` feature is turned on. The MFE can be disabled by setting :code:`COURSE_AUTHORING_MICROFRONTEND_URL` to False. The Course Authoring MFE also allows for new course editors in Studio, although only the new :ref:`text-html-editor` is production ready. More details on each of these features are below, and in the `Course Authoring MFE README`_.
 
 .. _Course Authoring MFE README: https://github.com/openedx/frontend-app-course-authoring/blob/open-release/olive.master/README.rst
 
