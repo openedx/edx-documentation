@@ -33,6 +33,10 @@ The Learning Micro Frontend (MFE) is no longer optional, and must be run as part
 
 The Learning MFE has been the default since the Maple release, with a setting that allowed for opting out. The setting :code:`courseware.use_legacy_frontend` has been removed. (See :ref:`deprecations-and-removals` for more).
 
+MFE settings are no longer supported in Tutor configuration
+-----------------------------------------------------------
+Instead, :ref:`mfe-runtime-configuration` should now be used to manage MFE settings. See the :ref:`upgrade-note` for specific MFE variables that have been removed.
+
 JWT access tokens expire in 1 hour
 ----------------------------------
 The default expiration for JWT access tokens was changed from ten hours to one hour. This default setting can be overriden now, by setting :code:`JWT_ACCESS_TOKEN_EXPIRE_SECONDS`.
@@ -151,12 +155,16 @@ Administrators & Operators
 
 Relevant changes to Tutor are in the `Tutor Changelog <https://github.com/overhangio/tutor/blob/olive/CHANGELOG.md>`_.
 
+.. _mfe-runtime-configuration:
+
 MFE runtime configuration support
 ---------------------------------
 
 Where up until Nutmeg it was only possible to change a micro-frontend's settings at build time, it is now possible to do so at both server _and_ browser runtime via a new configuration mechanism.  In addition to the added convenience, this significantly reduces the frequency at which MFE container images need to be rebuilt.  Many operators will never have to build them to begin with, as pre-built ones can be (and are) provided, thus saving up precious time and resources on deployment.
 
 This behavior is optional and controlled by the :code:`ENABLE_MFE_CONFIG_API` Django setting in the LMS, and the :code:`APP_ID` and :code:`MFE_CONFIG_API_URL` MFE build-time settings.  The actual runtime configuration can then be specified via the :code:`MFE_CONFIG` and :code:`MFE_CONFIG_OVERRIDES` variables in the LMS.  (These can also be overriden via `site configuration <https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/sites/configure_site.html>`_, with the effect that such configuration can be changed dynamically via the backing database.)  For more details, refer to the `corresponding architecture decision record <https://github.com/openedx/edx-platform/blob/open-release/olive.master/lms/djangoapps/mfe_config_api/docs/decisions/0001-mfe-config-api.rst>`_.
+
+.. _upgrade-note:
 
 Upgrade note
 ~~~~~~~~~~~~
