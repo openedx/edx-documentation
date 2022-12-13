@@ -77,15 +77,6 @@ Known issues: Discussions MFE (rendered in Discussions tab) uses tinyMCE v5 whic
 .. _New discussions forum experience wiki page: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3509551260/New+discussions+forum+experience+-+Course+teams+and+moderators
 
 
-Learner Records Micro-frontend (MFE)
-------------------------------------
-
-- The Learner records MFE is now available as an optional frontend for the Credentials application. See the `Learner Records MFE README`_ for configuration information.
-- Even if the the Learner Records MFE is turned on, the old UI is still used for public links to records. This will be changed in the Palm release.
-- Masquerading is not supported, as it is in the legacy UI. Use the "Records" tab in support tools as an alternative.
-
-.. _Learner Records MFE README: https://github.com/openedx/frontend-app-learner-record/blob/open-release/olive.master/README.rst
-
 Other Learner Experience changes
 --------------------------------
 
@@ -190,8 +181,8 @@ Other Operator Experience changes
 - fixed a performance issue when using multiple themes when running in docker. Now by using LRU cache when searching themes,  the performance was improved.
 
 
-Pre-Alpha Features
--------------------
+Features not supported in Tutor
+---------------------------
 
 The following Micro-frontends (MFEs) are in a "pre-alpha" state. They exist on GitHub but are not yet supported in Tutor. Additionally, they may lack key features such as support for theming, internationalization, and path-based deployments. We include mention of them because we expect all of them to be supported in the next release, Palm.
 
