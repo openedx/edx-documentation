@@ -43,7 +43,7 @@ Learner Experiences
 Authentication Micro-frontend (MFE)
 -----------------------------------
 
-The Authentication MFE is responsible for the login, registration and password reset functionality. It is enabled by default in Olive and has all the same features as the legacy login and registration pages. You can revert to the legacy experience by setting :code:`FEATURES['ENABLE_AUTHN_MICROFRONTEND']` to False.
+The Authentication MFE is responsible for the login, registration and password reset functionality. It is enabled by default in Olive and has all the same features as the legacy login and registration pages. You can revert to the legacy experience by setting :code:`FEATURES['ENABLE_AUTHN_MICROFRONTEND']` to False. Although the deprecation process for the legacy experiences has not yet started, they could be removed as soon as the next release, Palm.
 
 .. image:: ../images/olive/authn.png
     :alt: The authentication Micro-frontend
@@ -56,7 +56,7 @@ There are a number of settings that affect this experience. See the `Authenticat
 Discussions Micro-frontend (MFE)
 --------------------------------
 
-The Discussions MFE is included in the Olive release and enabled by default. You can control which learners will see it with the waffle flag :code:`discussions.enable_discussions_mfe`. To configure course discussions, the :ref:`course-authoring-mfe` must be enabled as well.
+The Discussions MFE is included in the Olive release and enabled by default. You can control which learners will see it with the waffle flag :code:`discussions.enable_discussions_mfe`. To configure course discussions, the :ref:`course-authoring-mfe` must be enabled as well. Although the deprecation process for the legacy discussion experiences has not yet started, they could be removed as soon as the next release, Palm.
 
 .. image:: ../images/olive/discussions.png
     :alt: Learner view of Discussions Micro-frontend
