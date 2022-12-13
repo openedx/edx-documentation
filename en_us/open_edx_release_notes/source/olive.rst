@@ -296,8 +296,20 @@ Researcher & Data Experiences
 =============================
 
 * Added analytics event on recommendation course click, :code:`edx.bi.user.recommended.course.click`
-* added tracking event on learner search (in discussions)
-* added many new discussion events, including :code:`edx.forum.thread.edited`, :code:`edx.forum.response.edited`, :code:`edx.forum.comment.edited`
+* Added many new discussion events, including
+
+  * :code:`edx.forum.thread.edited`
+  * :code:`edx.forum.response.edited`
+  * :code:`edx.forum.comment.edited`
+  * :code:`edx.forum.thread.deleted`
+  * :code:`edx.forum.response.deleted`
+  * :code:`edx.forum.comment.deleted`
+  * :code:`edx.forum.thread.locked`
+  * :code:`edx.forum.thread.unlocked`
+  * :code:`edx.forum.thread.edited`
+  * :code:`edx.forum.response.edited`
+  * :code:`edx.forum.comment.edited`
+  * :code:`edx.forum.searched`
 
 Known Issues
 ============
