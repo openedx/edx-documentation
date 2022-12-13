@@ -31,7 +31,7 @@ The Learning Micro Frontend (MFE) is no longer optional, and must be run as part
 
 JWT access tokens expire in 1 hour
 ----------------------------------
-The default expiration for JWT access tokens is now one hour. This default setting can be overriden by setting :code:`JWT_ACCESS_TOKEN_EXPIRE_SECONDS`.
+The default expiration for JWT access tokens was changed from ten hours to one hour. This default setting can be overriden now, by setting :code:`JWT_ACCESS_TOKEN_EXPIRE_SECONDS`.
 
 Learner Experiences
 ===================
