@@ -27,7 +27,11 @@ If you are not using Tutor, and have not turned on persistent grades in your ins
 
 Learning MFE is now required
 ----------------------------
-The Learning Micro Frontend (MFE) is no longer optional, and must be run as part of your installation. It has been the default since the Maple release, with a setting that allowed for opting out. The setting :code:`courseware.use_legacy_frontend` has been removed. (See Deprecations & Removals below for more).
+The Learning Micro Frontend (MFE) is no longer optional, and must be run as part of your installation. In Tutor, this means that the `MFE plugin`_ must be installed and enabled.
+
+.. _MFE Plugin: https://github.com/overhangio/tutor-mfe
+
+The Learning MFE has been the default since the Maple release, with a setting that allowed for opting out. The setting :code:`courseware.use_legacy_frontend` has been removed. (See :ref:`deprecations-and-removals` for more).
 
 JWT access tokens expire in 1 hour
 ----------------------------------
@@ -214,6 +218,7 @@ The following settings were removed:
 * :code:`split_library_on_studio_dashboard`
 
 
+.. _deprecations-and-removals:
 
 Deprecations & Removals
 =======================
