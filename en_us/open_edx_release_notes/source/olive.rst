@@ -176,6 +176,7 @@ Also note that if you've maintained such a plugin prior to Olive, the following 
 * :code:`mfe-env-development`
 
 You must instead migrate your MFE settings to the LMS settings hooks as described above.
+
 Other Operator Experience changes
 ---------------------------------
 - fixed a performance issue when using multiple themes when running in docker. Now by using LRU cache when searching themes,  the performance was improved.
