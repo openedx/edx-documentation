@@ -110,7 +110,9 @@ Part of the :ref:`course-authoring-mfe`, when this feature is enabled course aut
 Text / HTML Editor
 -------------------
 
-Part of the :ref:`course-authoring-mfe`, the new Text Editor includes updates that make it even easier to include text and images in your course content. Set the waffle flag :code:`new_core_editors.use_new_text_editor` to enable it. The newly updated editor:
+Formerly known as the HTML Component, the newly renamed Text Component includes updates that make it even easier to include text and images in your course content. This editor is part the of :ref:`course-authoring-mfe`. To enable it, set the waffle flag :code:`new_core_editors.use_new_text_editor`.
+
+The newly updated editor:
 
 - makes incorporating special characters and symbols easier,
 - adds undo / redo actions,
