@@ -118,7 +118,7 @@ The newly updated editor:
 - adds undo / redo actions,
 - lets you author tables without going into HTML mode,
 - makes emoticons easy to include,
-- and more.
+- see the wiki page `New Text / HTML Editing Experience <https://openedx.atlassian.net/wiki/spaces/OEPM/blog/2022/10/21/3560571009/2U+New+Text+HTML+Editing+Experience>`_ for details.
 
 .. _video-editor:
 
