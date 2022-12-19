@@ -81,7 +81,7 @@ Other Learner Experience changes
 --------------------------------
 
 - add reset option to the Randomized Content Block. See this `video demo <https://www.loom.com/share/91b7224cb8a74cf2891a240b6e4fb8c6>`_ for the new user experience.
-- "Live" tab displayed on course when live content is enabled (for example, Zoom or Big Blue Button)
+- "Live" tab displayed on course when live content is enabled (for example, Zoom or Big Blue Button). More information about Zoom integration is available in two blog posts in the wiki, `Course-Level Zoom Integration <https://openedx.atlassian.net/wiki/spaces/OEPM/blog/2022/10/21/3560243384/2U+Course-Level+Zoom+Integration>`_ and `Program & Degree level Zoom Integration <https://openedx.atlassian.net/wiki/spaces/OEPM/blog/2022/10/21/3560833066/2U+Program+Degree+level+Zoom+Integration>`_
 
 Instructor Experiences
 ======================
