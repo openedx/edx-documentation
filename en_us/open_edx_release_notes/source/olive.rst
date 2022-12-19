@@ -263,7 +263,6 @@ Other removals/deprecations
 .. _Removed the last vestiges of the save option from anonymous_id_for_user: https://github.com/openedx/public-engineering/issues/35
 .. _Removed Learner View in Insights, Data Pipeline and API: https://github.com/openedx/public-engineering/issues/36
 .. _Molecular Structure Problem type: https://github.com/openedx/public-engineering/issues/14
-.. _Removed dependency in ecommerce application on deprecated v1 catalog API: https://github.com/openedx/public-engineering/issues/61
 .. _django-ratelimit-backend library: https://github.com/openedx/public-engineering/issues/12
 
 .. include:: links.rst
