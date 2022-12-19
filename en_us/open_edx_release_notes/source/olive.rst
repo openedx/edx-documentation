@@ -190,7 +190,7 @@ Features not supported in Tutor
 The following Micro-frontends (MFEs) are in a "pre-alpha" state. They exist on GitHub but are not yet supported in Tutor. Additionally, they may lack key features such as support for theming, internationalization, and path-based deployments. We include mention of them because we expect all of them to be supported in the next release, Palm.
 
 * `Learner Record Micro-Frontend (MFE)`_
-* `ORA Grading Micro-frontend (MFE)`_ `
+* `ORA Grading Micro-frontend (MFE)`_
 
 .. _Learner Record Micro-Frontend (MFE): https://github.com/openedx/frontend-app-learner-record
 .. _ORA Grading Micro-frontend (MFE): https://github.com/edx/frontend-app-ora-grading
