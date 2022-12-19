@@ -172,7 +172,7 @@ Instead, the recommended way to modify MFE settings from Olive onwards is to wri
   MFE_CONFIG["PLATFORM_NAME"] = "My Awesome Platform"
   MFE_CONFIG_OVERRIDES["account"]["SITE_NAME"] = "My Awesome Site"
 
-Also note that if you've maintained such a plugin prior to Olive, the following hooks are no longer available after the upgrade::
+Also note that if you've maintained such a plugin prior to Olive, the following hooks are no longer available after the upgrade:
 
 * :code:`mfe-env-production`
 * :code:`mfe-env-development`
@@ -181,7 +181,7 @@ You must instead migrate your MFE settings to the LMS settings hooks as describe
 
 Other Operator Experience changes
 ---------------------------------
-- fixed a performance issue when using multiple themes when running in docker. Now by using LRU cache when searching themes,  the performance was improved.
+- A performance issue that occurs when using multiple themes in a docker environment was fixed by using an LRU cache when searching themes.
 
 
 Features not supported in Tutor
