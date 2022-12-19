@@ -257,7 +257,6 @@ Other removals/deprecations
 - `Removed the last vestiges of the save option from anonymous_id_for_user`_.
 - `Removed Learner View in Insights, Data Pipeline and API`_
 - The `frontend-learner-portal-base repo`_ has been archived. Any MFEs that depend on this library have been updated.
-- `Removed dependency in ecommerce application on deprecated v1 catalog API`_.
 - Removed all dependencies on `django-ratelimit-backend library`_.
 
 .. _frontend-learner-portal-base repo: https://github.com/openedx-unsupported/frontend-learner-portal-base
