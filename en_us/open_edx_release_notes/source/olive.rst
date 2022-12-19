@@ -261,7 +261,7 @@ Other removals/deprecations
 
 .. _frontend-learner-portal-base repo: https://github.com/openedx-unsupported/frontend-learner-portal-base
 .. _Removed the last vestiges of the save option from anonymous_id_for_user: https://github.com/openedx/public-engineering/issues/35
-.. _Removed Learner View in Insights, Data Pipeline and API: https://github.com/openedx/public-engineering/issues/36kl
+.. _Removed Learner View in Insights, Data Pipeline and API: https://github.com/openedx/public-engineering/issues/36
 .. _Molecular Structure Problem type: https://github.com/openedx/public-engineering/issues/14
 .. _Removed dependency in ecommerce application on deprecated v1 catalog API: https://github.com/openedx/public-engineering/issues/61
 .. _django-ratelimit-backend library: https://github.com/openedx/public-engineering/issues/12
