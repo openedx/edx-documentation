@@ -67,7 +67,7 @@ The Discussions MFE is included in the Olive release and enabled by default. You
 
 See the `New discussions forum experience wiki page`_ for a detailed explanation of new and improved functionality.
 
-Known issues: Discussions MFE (rendered in Discussions tab) uses tinyMCE v5 which is a different text editor compared to the in-line discussions. As a result, there are some incompatibilities:
+**Known issues**: Discussions MFE (rendered in Discussions tab) uses tinyMCE v5 which is a different text editor compared to the in-line discussions. As a result, there are some incompatibilities:
 
 #. Hyperlinks created in MFE do not appear in in-line discussions
 #. Images uploaded in MFE do not appear in in-line discussions in some cases
@@ -139,7 +139,7 @@ Other Instructor Experience changes
 -----------------------------------
 
 - Course authors can optionally set Randomized Content Blocks to display a reset option. This allows students to use the Randomize Content Block as a problem-bank for studying. See this `video demo <https://www.loom.com/share/91b7224cb8a74cf2891a240b6e4fb8c6>`_ for the new user experience.
-- upgraded TinyMCE version 4 to version 5.5.1.
+- Upgraded TinyMCE version 4 to version 5.5.1 in Studio.
 
 
 
