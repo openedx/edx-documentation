@@ -318,8 +318,13 @@ Known Issues
 
 - The Authentication MFE contains some hard-coded mentioned of edX. We expect these will be fixed by the time Olive.2 is released.
 - The Zoom tool is not working. There is currently no plan for when this may be fixed.
-- Android app support is currently limited to `Release 3.0.2 <https://github.com/openedx/edx-app-android/releases/tag/release%2F3.0.2>`_.
-
+- Android app support is currently limited to `Release 3.0.2 <https://github.com/openedx/edx-app-android/releases/tag/release%2F3.0.2>`_ (`build-test-release-wg#211 <https://github.com/openedx/build-test-release-wg/issues/211>`_).
+- The default cookie banner has a hardcoded mention of edX. This should be fixed in Olive.2. (`build-test-release-wg#146 <https://github.com/openedx/build-test-release-wg/issues/146>`_)
+- Student notes will load the first time a unit loads, but not on subsequent loads. (`build-test-release-wg#227 <https://github.com/openedx/build-test-release-wg/issues/227>`_)
+- When deleting a file in studio, the "Learn More" link in the warning pop-up leads to a 404. (`build-test-release-wg#219 <https://github.com/openedx/build-test-release-wg/issues/219>`_)
+- Links in the Notes tab are malformed and do not link to the correct unit in the course. (`build-test-release-wg#233 <https://github.com/openedx/build-test-release-wg/issues/233>`_)
+- The dashboard model dialogs for unenrolling and changing email settings do not work. This should be fixed in Olive.2. (`build-test-release-wg#228 <https://github.com/openedx/build-test-release-wg/issues/228>`_)
+- On the instructor dashboard, text is obscured in some data tables. (`build-test-release-wg#223 <https://github.com/openedx/build-test-release-wg/issues/223>`_  and `build-test-release-wg#225 <https://github.com/openedx/build-test-release-wg/issues/225>`_)
 
 
 
