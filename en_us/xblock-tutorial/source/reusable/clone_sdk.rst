@@ -15,17 +15,24 @@ requirements. To do this, complete the following steps at a command prompt.
 
       (venv) $ git clone https://github.com/openedx/xblock-sdk.git
 
+#. In the same directory, create an empty directory called `var`.
+
+   .. code-block:: bash
+
+      (venv) $ mkdir var
+
 #. Run the following command to change to the ``xblock-sdk`` directory.
 
    .. code-block:: bash
   
       (venv) $ cd xblock-sdk
 
-#. Run the following command to install the XBlock SDK requirements.
+#. Run the following commands to install the XBlock SDK requirements.
 
    .. code-block:: bash
   
       (venv) $ pip install -r requirements/base.txt
+      (venv) $ make install
 
 #. Run the following command to return to the ``xblock_development`` directory,
    where you will perform the rest of your work.
