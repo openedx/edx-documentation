@@ -34,4 +34,12 @@ To send goal reminder emails, you need to regularly run the following `managemen
 
 edx.org runs this command at the following cron schedule H \*/3 \* \* \*
 
+The script does a number of checks before sending emails. There are five main conditions that must be met in order for an email to be sent, otherwise an email will not be sent:
+
+1. The script will check the number of days left for a learner to successfully hit their goal compared to the learning goal selected by the learner (i.e. if the learner has chosen to learn once per week, three times per week, or five times per week)
+2. If you're not actively enrolled in the course or your enrollment was this week
+3. If an audit user's access expires this week, exclude them from the email since they may not be able to hit their goal anyway
+4. If a user has a downloadable certificate, we will consider them as having completed the course and opt them out of receiving emails
+5. We want to email users during the morning of their timezone
+
 .. note:: For the emails to work you will need to have at least one email channel configured within https://github.com/edx/edx-ace
