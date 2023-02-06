@@ -31,7 +31,6 @@ requirements. To do this, complete the following steps at a command prompt.
 
    .. code-block:: bash
   
-      (venv) $ pip install -r requirements/base.txt
       (venv) $ make install
 
 #. Run the following command to return to the ``xblock_development`` directory,
