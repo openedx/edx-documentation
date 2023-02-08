@@ -10,11 +10,11 @@ Open edX releases are named alphabetically with botanical tree names.
 Latest Open edX Release
 -----------------------
 
-The latest supported release line is Nutmeg_, based on code from 2022-04-12.
+The latest supported release line is Olive_, based on code from 2022-10-11.
 
-The next release will be Olive__.
+The next release will be Palm__.
 
-__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/3396501578/Olive
+__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/3552938822/Palm
 
 
 All Open edX Releases
@@ -32,11 +32,29 @@ Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes
 
 If an installation of a tag fails, try the corresponding release line master branch, it may have a fix.
 
+Olive
+~~~~~
+
+* **Code cut date:** 2022-10-11
+* **Status:** supported
+* :doc:`Release Notes <openreleasenotes:olive>`
+
+.. list-table::
+   :header-rows: 1
+
+   * - Release Name
+     - Release Date
+     - Git Tag
+
+   * - Olive.1
+     - 2022-12-12
+     - open-release/olive.1
+
 Nutmeg
 ~~~~~~
 
 * **Code cut date:** 2022-04-12
-* **Status:** supported
+* **Status:** unsupported
 * :doc:`Release Notes <openreleasenotes:nutmeg>`
 
 .. list-table::
