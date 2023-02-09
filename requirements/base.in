@@ -4,3 +4,4 @@
 edx-sphinx-theme                    # edX theme for the generated documentation
 sphinx                              # Documentation builder
 sphinx-intl                         # i18n tool to create .po files
+sphinx-reredirects                  # Redirect pages that have moved.
