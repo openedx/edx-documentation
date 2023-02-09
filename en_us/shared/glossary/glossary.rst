@@ -1045,7 +1045,7 @@ T
   instance of Open edX with a campus or institutional authentication system,
   see :ref:`installation:Enabling Third Party Authentication`.
 
-.. _Transcript:
+.. _Transcript Definition:
 
 **transcript**
 
