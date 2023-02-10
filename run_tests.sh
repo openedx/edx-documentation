@@ -79,7 +79,7 @@ for project in "${projects[@]}"; do
     # -w writes warnings and errors to the specified file in
     #    addition to stderr.
     # -n runs in nit-picky mode.
-    make html SPHINXOPTS="-j4 -n -w $err_log_file"
+    make html SPHINXOPTS="-w $err_log_file"
 
     if [ $? -gt 0 ]; then
         project_build_status=1
