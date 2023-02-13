@@ -88,7 +88,10 @@ sphinx==5.3.0
     #   -r requirements/base.txt
     #   edx-sphinx-theme
     #   sphinx-intl
+    #   sphinx-reredirects
 sphinx-intl==2.1.0
+    # via -r requirements/base.txt
+sphinx-reredirects==0.1.1
     # via -r requirements/base.txt
 sphinxcontrib-applehelp==1.0.4
     # via
@@ -122,7 +125,7 @@ urllib3==1.26.14
     #   requests
 wheel==0.38.4
     # via pip-tools
-zipp==3.12.1
+zipp==3.13.0
     # via
     #   -r requirements/base.txt
     #   importlib-metadata

@@ -46,7 +46,8 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'sphinx.ext.extlinks',
-    'sphinx.ext.graphviz'
+    'sphinx.ext.graphviz',
+    'sphinx_reredirects',
 ]
 
 # The suffix of source filenames.

@@ -48,7 +48,10 @@ sphinx==5.3.0
     #   -r requirements/base.in
     #   edx-sphinx-theme
     #   sphinx-intl
+    #   sphinx-reredirects
 sphinx-intl==2.1.0
+    # via -r requirements/base.in
+sphinx-reredirects==0.1.1
     # via -r requirements/base.in
 sphinxcontrib-applehelp==1.0.4
     # via sphinx
@@ -64,7 +67,7 @@ sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
 urllib3==1.26.14
     # via requests
-zipp==3.12.1
+zipp==3.13.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
