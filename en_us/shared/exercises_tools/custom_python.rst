@@ -29,7 +29,6 @@ problem types.
 * :ref:`Chemical Equation`
 * :ref:`Custom JavaScript`
 * :ref:`Gene Explorer`
-* :ref:`Molecule Editor`
 * :ref:`Protein Builder`
 
 ********************************************************
