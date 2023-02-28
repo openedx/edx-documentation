@@ -39,3 +39,4 @@ configuration options.
    install_xblock
    static_replace/cdn
    enable_weekly_learning_goals
+   retrieve_extended_profile_metadata

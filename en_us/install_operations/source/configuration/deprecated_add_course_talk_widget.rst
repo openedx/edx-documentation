@@ -1,15 +1,15 @@
 .. _Add CourseTalk (Deprecated):
 
-################################################
-DEPRECATED: This Is Unavailable in Lilac onwards
-################################################
-
 #############################################
 Adding the CourseTalk Widget
 #############################################
 
 This topic describes how to add `CourseTalk`_ widgets to your instance of Open
 edX. When you add the CourseTalk widget, it is visible for all courses.
+
+.. Note::
+
+   This feature has been deprecated and is unavailable in Lilac and onwards.
 
 .. contents::
    :local:
