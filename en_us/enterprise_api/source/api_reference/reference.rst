@@ -17,7 +17,7 @@ Endpoints
 The following endpoints are available in the Enterprise API.
 
 - **/enterprise-catalogs** - You can make GET calls to the
-  ``/enterprise/v1/enterprise-catalogs`` endpoint to get a list of all the course catalogs
+  ``/enterprise/v2/enterprise-catalogs`` endpoint to get a list of all the course catalogs
   that are available to your organization.
   For details, see :ref:`enterprise_catalogs Endpoint`.
 
@@ -86,7 +86,7 @@ Method and Endpoint
    * - Method
      - Endpoint
    * - GET
-     - ``/enterprise/v1/enterprise-catalogs``
+     - ``/enterprise/v2/enterprise-catalogs``
 
 =====================
 Example Request
@@ -94,7 +94,7 @@ Example Request
 ::
 
    curl -X GET
-     https://api.edx.org/enterprise/v1/enterprise-catalogs \
+     https://api.edx.org/enterprise/v2/enterprise-catalogs \
      -H "Authorization: JWT {access token}"
      -H "Content-Type: application/json" \
     }]"
@@ -102,7 +102,7 @@ Example Request
 =====================
 Response Values
 =====================
-The ``GET /enterprise/v1/enterprise-catalogs`` request returns  the values: ``count``, ``next``, ``previous``, ``results`` described here: :ref:`response_Values`.
+The ``GET /enterprise/v2/enterprise-catalogs`` request returns  the values: ``count``, ``next``, ``previous``, ``results`` described here: :ref:`response_Values`.
 The ``results`` response value include these fields:
 
 .. list-table::
@@ -121,6 +121,21 @@ The ``results`` response value include these fields:
    * - ``enterprise_customer``
      - string
      - The customer's unique identifier links to a catalog.
+   * - ``catalog_query_uuid``
+     - string
+     - A unique identifier for the catalog query.
+   * - ``content_last_modified``
+     - string
+     - Datetime string of the last time the content in the catalog was updated.
+   * - ``catalog_modified``
+     - string
+     - Datetime string of the last time the catalog was modified.
+   * - ``query_title``
+     - string
+     - The string title of the query used by the catalog.
+   * - ``include_exec_ed_2u_courses``
+     - bool (Nullable)
+     - Whether or not the catalog allows the linking of Executive Education content.
 
 .. _enterprise_catalogs_catalogID Endpoint:
 
