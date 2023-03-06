@@ -264,11 +264,6 @@ available in Studio. For more information, see
      - Learners answer prompts by selecting a defined area in an image. You
        define the area by including coordinates in the body of the problem.
      - Not supported
-   * - :ref:`Molecular Structure<Molecule Editor>`
-     - Learners draw molecules that follow the rules for covalent bond
-       formation and formal charge, even if the molecules are chemically
-       impossible, are unstable, or do not exist in living systems.
-     - Not supported
    * - :ref:`Problem with Adaptive Hint`
      - A problem with an adaptive hint evaluates a learner's response, then
        gives the learner feedback or a hint based on that response so that the
@@ -426,10 +421,6 @@ tools available in Studio. For more information, see
    * - :ref:`Multiple Choice and Numerical Input`
      - Learners not only choose one answer from a set of possible options, they
        are also prompted to provide more specific information, if necessary.
-     - Not supported
-   * - :ref:`Molecule Viewer`
-     - Learners view three-dimensional representations of molecules that you
-       create.
      - Not supported
    * - :ref:`Periodic Table`
      - An interactive periodic table of the elements that shows detailed

@@ -116,7 +116,7 @@ msgid "To test the transcript with the video, after you have saved the video, se
 msgstr ""
 
 #: ../../../shared/video/additional_transcript_options.rst:5
-msgid "Specifying Additional Transcript Options"
+msgid "Specifying Transcript Options"
 msgstr ""
 
 #: ../../../shared/video/additional_transcript_options.rst:13

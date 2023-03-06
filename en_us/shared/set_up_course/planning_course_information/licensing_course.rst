@@ -131,8 +131,8 @@ Set Video Licensing
 *************************************
 
 If you intend for a specific video to have a different license than the course
-as a whole, you must set the license in the :ref:`video advanced options <Video
-Advanced Options>`.
+as a whole, you must set the license in the :ref:`video additional options <Video
+Additional Options>`.
 
 For example, you might license for your course under Creative Commons, but use
 a video from another party that is copyrighted. In this case, you can set the

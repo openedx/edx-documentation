@@ -247,8 +247,6 @@ problem types in the advanced editor.
 
 * :ref:`Problem with Adaptive Hint` and Problem with Adaptive Hint in LaTex
 
-* :ref:`Molecular Structure<Molecule Editor>`
-
 For the :ref:`Open Response Assessment<Open Response Assessments Two>` advanced
 problem type, a dialog box opens for problem setup.
 

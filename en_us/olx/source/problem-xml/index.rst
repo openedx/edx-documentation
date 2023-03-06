@@ -34,7 +34,6 @@ exercise, tool, or problem type, see :ref:`Levels of Support`.
    lti_component
    math_expression_input
    mathjax
-   molecule_editor
    mult_choice_num_input
    multiple_choice
    numerical_input

@@ -52,7 +52,7 @@ represents all of the formats and hosting locations for the video.
 * For courses that have :ref:`non-integrated transcripts <Automated Video
   Process for Non Integrated Transcripts>`, you must obtain your transcripts
   from your third party provider. You later :ref:`add the video transcripts
-  manually <Add a Video and Transcript>` when you create a video component.
+  manually <Add a Transcript>` when you create a video component.
 
 .. note::
   If a step in the process does not complete successfully, the process
@@ -414,7 +414,7 @@ Uploading a Video for an Edge Course
 For :ref:`Edge courses <Uploading a Video for an Edge Course>`, you upload your
 videos to the third party hosting site that you selected. You also obtain the
 transcripts for the videos from your third party provider. You :ref:`add the
-video location and transcripts manually <Add a Video and Transcript>` when you
+video location <Add a Video>` and :ref:`transcripts manually <Add a Transcript>` when you
 create a video component.
 
 .. include:: ../../../shared/video/upload_video.rst

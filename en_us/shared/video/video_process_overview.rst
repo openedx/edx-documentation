@@ -34,6 +34,6 @@
 3. The course team :ref:`creates video components <Add a Video to a Course>`
    and adds the video location to the components.
 
-#. The course team :ref:`uploads transcripts <Add a Video and Transcript>` in
+#. The course team :ref:`uploads transcripts <Add a Transcript>` in
    the video component.
 

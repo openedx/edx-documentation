@@ -17,7 +17,7 @@ What's Included in Eucalyptus
 
 The Open edX Eucalyptus release contains several new features for learners,
 course teams, and developers. For more information, see
-:ref:`openreleasenotes:Open edX Eucalyptus Release`.
+`Open edX Eucalyptus Release <https://docs.openedx.org/en/latest/community/release_notes/eucalyptus.html>`.
 
 *******************************
 What Is the Eucalyptus Git Tag?

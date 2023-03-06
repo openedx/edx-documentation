@@ -40,8 +40,6 @@ For information about building specific course component types, see
    image_mapped_input
    lti_component
    math_expression_input
-   molecule_editor
-   molecule_viewer
    multiple_choice
    mult_choice_num_input
    notes

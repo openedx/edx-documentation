@@ -331,7 +331,6 @@ advanced problem types.
 * :ref:`Math Expression Input`
 * :ref:`Problem Written in LaTeX`
 * :ref:`Problem with Adaptive Hint`
-* :ref:`Molecular Structure<Molecule Editor>`
 
 To change the results visibility for your subsection, follow these steps.
 

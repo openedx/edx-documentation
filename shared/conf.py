@@ -46,7 +46,8 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'sphinx.ext.extlinks',
-    'sphinx.ext.graphviz'
+    'sphinx.ext.graphviz',
+    'sphinx_reredirects',
 ]
 
 # The suffix of source filenames.
@@ -205,5 +206,5 @@ intersphinx_mapping = {
 
 extlinks = {
     # :jira:`TNL-4904` becomes: <a href='https://openedx.atlassian.net/browse/TNL-4904'>TNL-4904</a>
-    'jira': ('https://openedx.atlassian.net/browse/%s', ''),
+    'jira': ('https://openedx.atlassian.net/browse/%s', 'Jira Issue %s'),
 }
