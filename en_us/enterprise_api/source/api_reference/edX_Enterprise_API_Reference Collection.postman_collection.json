@@ -58,7 +58,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://api.edx.org/enterprise/v1/enterprise-catalogs/",
+					"raw": "https://api.edx.org/enterprise/v2/enterprise-catalogs/",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -67,7 +67,7 @@
 					],
 					"path": [
 						"enterprise",
-						"v1",
+						"v2",
 						"enterprise-catalogs",
 						""
 					]
