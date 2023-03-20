@@ -19,7 +19,7 @@ certifi==2022.12.7
     # via
     #   -r base.txt
     #   requests
-charset-normalizer==3.0.1
+charset-normalizer==3.1.0
     # via
     #   -r base.txt
     #   requests
@@ -119,7 +119,7 @@ sphinxcontrib-serializinghtml==1.1.5
     #   sphinx
 tomli==2.0.1
     # via build
-urllib3==1.26.14
+urllib3==1.26.15
     # via
     #   -r base.txt
     #   requests
