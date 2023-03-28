@@ -49,7 +49,8 @@ Change Course Information`.
 
 .. only:: Partners
 
-  Your dashboard has two pages.
+  * The dashboard has two tabs: 'Course Status' and 'Sort'
+        #. Course Status includes 'In progress, 'Not Started,' 'Done,' 'Not Enrolled,' and 'Upgraded'
 
   * The **Courses** page lists all the courses you have enrolled in, whether
     the course is current or has ended. The **Courses** page provides
