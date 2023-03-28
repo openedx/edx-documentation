@@ -307,7 +307,7 @@ To send a scheduled email message to course participants, follow these steps.
 
 #. In the **Message** box, enter the text for the message.
 
-   For details about options for composing your message, see
+   For details about options for composing your message, including using keywords to make the message more personal, see
    :ref:`Options for Email Message Text`.
 
 #. Check the **Schedule this email for a future date** checkbox. This also
