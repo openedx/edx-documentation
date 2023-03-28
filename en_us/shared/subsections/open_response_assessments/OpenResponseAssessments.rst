@@ -82,7 +82,7 @@ Prompt`.
 
 In the learner view of the assignment, each prompt appears above the field
 where learners enter their responses. For more information, see
-:ref:`learners:Steps in an Open Response Assessment`.
+:ref:`learners: Steps in an Open Response Assessment`.
 
 
 .. _PA Rubric:
