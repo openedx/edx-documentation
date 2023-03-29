@@ -21,10 +21,10 @@ Create a Circuit Schematic Builder Problem
 *********************************************
 
 #. In the unit where you want to create the problem, under **Add New
-   Component** select **Problem**, and then select **Advanced**.
-#. Select **Circuit Schematic Builder**.
-#. In the component that appears, select **Edit**.
-#. In the component editor, replace the example code with your own code.
+   Component** select **Problem**.
+#. In the problem editor, select **Advanced problem types**. Then select
+   **Circuit Schematic Builder**.
+#. In the advanced problem editor, replace the example code with your own code.
 #. Select **Save**.
 
 **Problem Code**
