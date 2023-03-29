@@ -33,8 +33,8 @@ information about using MathJax in Studio, see :ref:`MathJax in Studio`.
 To create the above chemical equation problem, follow these steps.
 
 #. In the unit where you want to create the problem, select **Problem** under
-   **Add New Component**, and then select the **Advanced** tab.
-#. Select **Blank Advanced Problem**.
+   **Add New Component**.
+#. Select **Advanced problem types**. Then select **Blank Advanced Problem**.
 #. In the component that appears, select **Edit**.
 #. In the component editor, paste the code from below.
 #. Select **Save**.
