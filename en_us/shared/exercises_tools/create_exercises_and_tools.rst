@@ -125,7 +125,7 @@ following problem types. When you select any of the simple problem types, the
      - In single select problems, learners select one answer from a set of
        possible answers, which are visible directly below the question.
      - Full support; mobile-ready
-   * - :ref:`Multi-select Problem<Checkbox>`
+   * - :ref:`Multi-select`
      - In multi-select problems, learners select one or more options from a list of
        possible answers. To answer the problem correctly, a learner must select
        all of the options that are correct answers, and none of the options
@@ -436,7 +436,7 @@ For more information, see :ref:`insights:Using edX Insights`.
 
 * :ref:`Dropdown`
 * :ref:`Math Expression Input`
-* :ref:`Multi-select Problem<Checkbox>`
+* :ref:`Multi-select`
 * :ref:`Numerical Input`
 * :ref:`Single Select Problem<Multiple Choice>`
 * :ref:`Text Input`
@@ -453,7 +453,7 @@ they use the edX mobile app.
 * :ref:`drag_and_drop_problem`
 * :ref:`Dropdown`
 * :ref:`Math Expression Input`
-* :ref:`Multi-select Problem<Checkbox>`
+* :ref:`Multi-select`
 * :ref:`Numerical Input`
 * :ref:`Single Select Problem<Multiple Choice>`
 * :ref:`Text Input`

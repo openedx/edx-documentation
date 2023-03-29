@@ -314,7 +314,7 @@ Visibility** setting.
 The **Assessment Results Visibility** setting can be used with the following
 common problem types.
 
-* :ref:`Checkbox`
+* :ref:`Multi-select`
 * :ref:`Dropdown`
 * :ref:`Multiple Choice`
 * :ref:`Numerical Input`

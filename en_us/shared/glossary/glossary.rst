@@ -121,13 +121,13 @@ C
 
   See :ref:`Section<S>`.
 
-.. _Checkbox_g:
+.. _Multi-select_g:
 
-**checkbox problem**
+**multi-select problem**
 
   A problem that prompts learners to select one or more options from a list of
   possible answers. For more information, see
-  :ref:`partnercoursestaff:Checkbox`.
+  :ref:`partnercoursestaff:Multi-select`.
 
 
 .. _Chemical Equation_g:

@@ -95,7 +95,7 @@ the simple editor.
 
 *  :ref:`Single Select<Multiple Choice>`
 
-*  :ref:`Multi-select<Checkbox>`
+*  :ref:`Multi-select<Multi-select>`
 
 *  :ref:`Dropdown<Dropdown>`
 
