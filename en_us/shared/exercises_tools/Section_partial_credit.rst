@@ -1,16 +1,16 @@
 .. _Awarding Partial Credit for a Problem:
 
-***************************************
+==========================================
 Awarding Partial Credit for a Problem
-***************************************
+==========================================
 
 You can configure the following problem types so that learners can receive
 partial credit for a problem if they submit an answer that is partly correct.
 
-* :ref:`Checkbox <Awarding Partial Credit in a Checkbox Problem>`
-* :ref:`Multiple Choice <Awarding Partial Credit in a Multiple Choice Problem>`
+* :ref:`Single Select <Awarding Partial Credit in a Checkbox Problem>`
+* :ref:`Multi-select <Awarding Partial Credit in a Multiple Choice Problem>`
 * :ref:`Numerical Input <Awarding Partial Credit in a Numerical Input Problem>`
-* :ref:`Write-Your-Own Grader <Award Half Credit>`
+* :ref:`Custom Python-evaluated Input Problem (Write-Your-Own Grader) <Award Half Credit>`
 
 By awarding partial credit for problems, you can motivate learners who have
 mastered some of the course content and provide a score that accurately
@@ -27,13 +27,13 @@ problem type.
     you publish them to learners. For more information, contact your edX
     partner manager.
 
-==========================================
+------------------------------------------
 How Learners Receive Partial Credit
-==========================================
+------------------------------------------
 
 Learners receive partial credit when they submit an answer in the LMS.
 
-In the following example, the course team configured a multiple choice problem
+In the following example, the course team configured a single select problem
 to award 25% of the possible points (instead of 0 points) for one of the
 incorrect answer options. The learner selected this incorrect option, and
 received 25% of the possible points.
@@ -44,9 +44,9 @@ received 25% of the possible points.
  :width: 500
 
 
-====================================================
+-----------------------------------------------------
 Partial Credit and Reporting on Learner Performance
-====================================================
+-----------------------------------------------------
 
 When a learner receives partial credit for a problem, the LMS only adds the
 points that the learner earned to the grade. However, the LMS reports any
