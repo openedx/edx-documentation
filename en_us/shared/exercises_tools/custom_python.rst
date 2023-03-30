@@ -1,8 +1,8 @@
 .. _Write Your Own Grader:
 
-##############################
+##############################################################
 Custom Python-evaluated Input Problem (Write-Your-Own-Grader)
-##############################
+##############################################################
 
 .. note:: EdX offers provisional support for this problem type.
 

@@ -6,7 +6,7 @@ Text Input Problem
 
 .. note:: EdX offers full support for this problem type.
 
-The text input problem type is a core problem type that can be added to any
+The text input problem type is a simple problem type that can be added to any
 course. At a minimum, text input problems include a question or prompt and a
 response field for free form answer text. By adding hints, feedback, or both,
 you can give learners guidance and help when they work on a problem.
@@ -15,7 +15,7 @@ you can give learners guidance and help when they work on a problem.
   :local:
   :depth: 2
 
-For more information about the core problem types, see
+For more information about the simple problem types, see
 :ref:`Working with Problem Components`.
 
 **********
@@ -41,144 +41,25 @@ input problem. An example of a completed text input problem follows.
   entered by the learner exactly matches one of the acceptable answer options,
   which appear below the response along with the explanation.
 
-To add the example problem illustrated above, in Studio you use the simple
-editor to enter the following text and Markdown formatting.
-
-::
-
-    >>What was the first post-secondary school in China to allow both male and female students?||Answer with a name from the modern period.<<
-
-    = Nanjing University
-    or= National Central University
-    or= Nanjing Higher Normal Institute
-    or= Nanking University
-
-    [explanation]
-    Nanjing University first admitted female students in 1920.
-    [explanation]
-
-The OLX (open learning XML) markup for this example text input problem follows.
-
-.. code-block:: xml
-
-  <problem>
-    <stringresponse answer="Nanjing University" type="ci">
-      <label>What was the first post-secondary school in China to allow both
-       male and female students?</label>
-      <description>Answer with a name from the modern period.</description>
-      <additional_answer answer="National Central University"/>
-      <additional_answer answer="Nanjing Higher Normal Institute"/>
-      <additional_answer answer="Nanking University"/>
-      <textline size="20"/>
-      <solution>
-        <div class="detailed-solution">
-          <p>Explanation</p>
-          <p>Nanjing University first admitted female students in 1920.</p>
-        </div>
-      </solution>
-    </stringresponse>
-  </problem>
-
-============================================
-Analyzing Performance on Text Input Problems
-============================================
-
-For the text input problems in your course, you can use edX Insights to review
-aggregated learner performance data and examine submitted answers. For more
-information, see :ref:`insights:Using edX Insights`.
-
 ******************************
 Adding a Text Input Problem
 ******************************
 
-You add text input problems in Studio by selecting the **Problem** component
-type and then using either the simple editor or the advanced editor to specify
-the prompt and the acceptable answer or answers.
+You add text input problems in Studio by selecting the **Problem** component. In the problem editor, select the **Text Input** option. Fill in the fields on this screen to create your problem.
 
-.. contents::
-  :local:
-  :depth: 1
+.. image:: ../../../shared/images/problem_editor_text_input.png
+ :alt: An image of the problem editor in Studio. The various inputs and sections are labeled, and are referenced below.
 
-.. note:: You can begin work on the problem in the simple editor, and then
-  switch to the advanced editor. However, after you save any changes you make
-  in the advanced editor, you cannot switch back to the simple editor.
+Creating a text input problem is as simple as:
 
-====================================================
-Use the Simple Editor to Add a Text Input Problem
-====================================================
+1. Editing the **Display Name**. Click the pen symbol to edit.
+2. Filling in the **Question** field.
+3. Filling in the **Explanation** field. When this is shown to learners is based on the selection in the **Show answer** panel on the right.
+4. Filling in the **Answer** fields. Select the correct answer(s) by ticking off the checkbox(es). Additional answers can be added by clicking the **Add answer** button. Answers can be deleted by clicking the trash can icon. Feedback can be provided for each answer. More information on feedback can be found in the following :ref:`Adding Feedback` section.
 
-When you add a text input problem, you can choose one of these templates.
-
-* **Text Input**
-
-* **Text Input with Hints and Feedback**
-
-These templates include the Markdown formatting that you use in the simple
-editor to add a problem without, or with, hints and feedback.
-
-.. include:: ../../../shared/exercises_tools/Section_simple_editor.rst
-
-=====================================================
-Use the Advanced Editor to Add a Text Input Problem
-=====================================================
-
-You can use the advanced editor to identify the elements of a text input
-problem with OLX. For more information, see :ref:`Text Input Problem XML`.
-
-.. include:: ../../../shared/exercises_tools/Section_advanced_editor.rst
-
-.. _Multiple Responses in Text Input Problems:
-
-*********************************
-Adding Multiple Correct Responses
-*********************************
-
-You can specify more than one correct response for text input problems. For
-example, instead of requiring learners to enter an answer of "Dr. Martin Luther
-King, Junior" exactly, you can also allow answers of "Martin Luther King, Jr."
-"Doctor Martin Luther King," and other variations. To do this, you can use the
-simple editor or the advanced editor.
-
-====================================================
-Add Multiple Correct Responses in the Simple Editor
-====================================================
-
-To specify additional correct responses in the simple editor, include
-``or=`` before each additional correct response.
-
-::
-
-    >>What African-American led the United States civil rights movement during the 1960s?<<
-    =Dr. Martin Luther King, Jr.
-    or=Dr. Martin Luther King, Junior
-    or=Martin Luther King, Jr.
-    or=Martin Luther King
-
-======================================================
-Add Multiple Correct Responses in the Advanced Editor
-======================================================
-
-To specify an additional correct response in the advanced editor, within the
-``<stringresponse>`` element add the ``<additional_answer />`` element with an
-``answer=""`` attribute value.
-
-.. code-block:: xml
-
-  <problem>
-    <stringresponse answer="Dr. Martin Luther King, Jr." type="ci" >
-      <label>What African-American led the United States civil rights movement during the 1960s?</label>
-      <additional_answer answer="Dr. Martin Luther King, Junior"/>
-      <additional_answer answer="Martin Luther King, Jr."/>
-      <additional_answer answer="Martin Luther King"/>
-      <textline size="30"/>
-    </stringresponse>
-  </problem>
-
-.. _Use Feedback in a Text Input Problem:
-
-********************************************
-Adding Feedback to a Text Input Problem
-********************************************
+=============================
+Adding Feedback
+=============================
 
 For an overview of feedback in problems, see :ref:`Adding Feedback and Hints to
 a Problem`. In text input problems, you can provide feedback for the correct
@@ -190,47 +71,71 @@ the correct answer.
 If you define multiple correct responses for the question, you can define
 feedback for each response.
 
-=========================================
-Configure Feedback in the Simple Editor
-=========================================
+You can add answer-specific feedback for each answer in a text input problem. You can access the feedback panel shown below by clicking the button to the right of the answer text.
 
-You can configure feedback in the simple editor. When you add a text input
-problem, select the template **Text Input with Hints and Feedback**. This
-template has example formatted feedback that you can replace with your own
-text.
+.. image:: ../../../shared/images/problem_editor_feedback_box.png
+ :alt: an image of the feedback section. There are options for when the student's answer is selected.
 
-In the simple editor, you configure feedback for a text input problem with the
-following Markdown formatting.
+Simply enter your feedback message in this text field. It will display when the learner submits this answer.
 
-::
+=============================
+Adding Hints
+=============================
 
-  =Correct Answer {{Feedback for learners who enter this answer.}}
-  not=Incorrect Answer {{Feedback for learners who enter this answer.}}
+You can add hints to a text input problem using the simple editor or the
+advanced editor. For an overview of hints in problems, see
+:ref:`Adding Feedback and Hints to a Problem`.
 
-For example, the following problem has feedback for the correct answer and two
-common incorrect answers.
+In the settings panels on the right of the editor, you’ll find a Hints panel.
 
-::
+.. image:: ../../../shared/images/problem_editor_hints_box.png
+ :alt: an image of the hints setting widget. It shows a text input box inside a collabsable labeled "hints", and it also includes a button to add hints and a button to delete the current hint.
 
-  >>What is the largest state in the U.S. in terms of land area?<<
 
-  =Alaska {{Alaska is the largest state in the U.S. in terms of not only land
-  area, but also total area and water area. Alaska is 576,400 square miles,
-  more than double the land area of the second largest state, Texas.}}
+Click the Add hint button to add a new hint text field. To delete any hints you’ve added, click the trash can icon next to its respective hint field.
 
-  not=Texas {{While many people think Texas is the largest state in terms of
-  land area, it is actually the second largest and contains 261,797 square
-  miles.}}
+.. note:: You can configure any number of hints. The learner views one hint at a time and views the next one by selecting Hint again.
 
-  not=California {{California is the third largest state and contains 155,959
-  square miles.}}
 
-===========================================
-Configure Feedback in the Advanced Editor
-===========================================
+*********************************************************************
+Editing Text Input Problems using the Advanced Editor
+*********************************************************************
 
-In the advanced editor, you configure answer feedback with the following
-syntax.
+If the simple editor is not enough to meet your needs, you can switch over to the advanced editor. In the setting panels on the right of the editor, click **Show advanced settings**, then scroll down and click **Switch to advanced editor**.
+
+You can use the `advanced editor <https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_components/create_problem.html#advanced-editor>`_  to identify the elements of a text input problem with open learning XML (OLX). For more information, see `Multi-select Problem OLX Reference <https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/checkbox.html#checkbox-problem-xml>`_.
+
+To format equations, you can use MathJax. For more information, see `Using MathJax for Mathematics <https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/mathjax.html#mathjax-in-studio>`_.
+
+You can see the OLX for the example problem from the Overview section below.
+
+.. code-block:: xml
+
+  <problem>
+  <stringresponse answer="Nanjing University" type="ci">
+    <label>What was the first post-secondary school in China to allow both
+     male and female students?</label>
+    <description>Answer with a name from the modern period.</description>
+    <additional_answer answer="National Central University"/>
+    <additional_answer answer="Nanjing Higher Normal Institute"/>
+    <additional_answer answer="Nanking University"/>
+    <textline size="20"/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Nanjing University first admitted female students in 1920.</p>
+      </div>
+    </solution>
+  </stringresponse>
+  </problem>
+
+.. note:: You can begin work on the problem in the simple editor, and then switch to the advanced editor. However, after you save any advanced OLX changes you make in the advanced editor, you may not be able to cannot switch back to the simple editor.
+
+=============================
+Adding Feedback
+=============================
+
+In the advanced editor, you configure answer feedback with the following syntax.
 
 .. code-block:: xml
 
@@ -243,8 +148,7 @@ syntax.
     </stringresponse>
   </problem>
 
-For example, the following problem has feedback for the correct answer and two
-common incorrect answers.
+For example, the following problem has feedback for the correct answer and two common incorrect answers.
 
 .. code-block:: xml
 
@@ -252,70 +156,39 @@ common incorrect answers.
     <stringresponse answer="Alaska" type="ci">
       <label>What is the largest state in the U.S. in terms of land area?</label>
       <correcthint>Alaska is the largest state in the U.S. in terms of not
-       only land area, but also total area and water area. Alaska is 576,400
-       square miles, more than double the land area of the second largest
-       state, Texas.</correcthint>
+      only land area, but also total area and water area. Alaska is 576,400
+      square miles, more than double the land area of the second largest
+      state, Texas.</correcthint>
       <stringequalhint answer="Texas">While many people think Texas is the
-       largest state in terms of land area, it is actually the second
-       largest and contains 261,797 square miles.</stringequalhint>
+      largest state in terms of land area, it is actually the second
+      largest and contains 261,797 square miles.</stringequalhint>
       <stringequalhint answer="California">California is the third largest
-       state and contains 155,959 square miles.</stringequalhint>
+      state and contains 155,959 square miles.</stringequalhint>
       <textline size="20"/>
     </stringresponse>
   </problem>
 
-===========================
+=============================
 Customizing Feedback Labels
-===========================
+=============================
 
-By default, the feedback labels shown to learners are **Correct** and
-**Incorrect**. If you do not define feedback labels, learners see these terms
-when they submit an answer, as in the following example.
+By default, the feedback labels shown to learners are **Correct** and **Incorrect**. If you do not define feedback labels, learners see these terms when they submit an answer, as in the following example.
 
-::
+.. code-block:: none
 
   Incorrect: California is the third largest state and contains 155,959 square
   miles.
 
-You can configure the problem to override the default labels. For example, you
-can configure a custom label for a specific wrong answer.
+You can configure the problem to override the default labels. For example, you can configure a custom label for a specific wrong answer.
 
-::
+.. code-block:: none
 
   Close but wrong: California is the third largest state and contains 155,959
   square miles.
 
-.. note:: The default labels **Correct** and **Incorrect** display in the
-  learner's requested language. If you provide custom labels, they display as
-  you define them to all learners. They are not translated into different
-  languages.
+.. note:: The default labels **Correct** and **Incorrect** display in the learner’s requested language. If you provide custom labels, they display as you define them to all learners. They are not translated into different languages.
 
-Customize a Feedback Label in the Simple Editor
-***********************************************
-
-In the simple editor, you configure custom feedback labels with the following
-syntax.
-
-::
-
-  not=Answer {{Label:: Feedback}}
-
-That is, you provide the label text, followed by two colon (:) characters,
-before the feedback text.
-
-For example, the following feedback is configured to use a custom label.
-
-::
-
-  not=Texas {{Close but wrong:: While many people think Texas is the largest
-  state in terms of land area, it is actually the second largest of the 50 U.S.
-  states, containing 261,797 square miles.}}
-
-Customize a Feedback Label in the Advanced Editor
-*************************************************
-
-In the advanced editor, you configure custom feedback labels with the following
-syntax.
+In the advanced editor, you configure custom feedback labels with the following syntax.
 
 .. code-block:: xml
 
@@ -324,31 +197,53 @@ syntax.
 
 For example, the following feedback is configured to use custom labels.
 
+
 .. code-block:: xml
 
   <correcthint label="Right you are">Alaska is the largest state in the U.S.
-   in terms of not only land area, but also total area and water area. Alaska
-   is 576,400 square miles, more than double the land area of the second
-   largest state, Texas.</correcthint>
+  in terms of not only land area, but also total area and water area. Alaska
+  is 576,400 square miles, more than double the land area of the second
+  largest state, Texas.</correcthint>
   <stringequalhint answer="Texas" label="Close but wrong">While many people
-   think Texas is the largest state in terms of land area, it is actually the
-   second largest of the 50 U.S. states containing 261,797 square miles.</stringequalhint>
+  think Texas is the largest state in terms of land area, it is actually the
+  second largest of the 50 U.S. states containing 261,797 square miles.</stringequalhint>
 
-.. _Use Hints in a Text Input Problem:
+=============================
+Adding Hints
+=============================
 
-********************************************
-Adding Hints to a Text Input Problem
-********************************************
+In the advanced editor, you add the ``<demandhint>`` element immediately before the closing ``</problem>`` tag, and then configure each hint using the ``<hint>`` element.
 
-You can add hints to a text input problem using the simple editor or the
-advanced editor. For an overview of hints in problems, see
-:ref:`Adding Feedback and Hints to a Problem`.
+.. code-block:: xml
 
-.. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
+  .
+  .
+  .
+  <demandhint>
+    <hint>Hint 1</hint>
+    <hint>Hint 2</hint>
+    <hint>Hint 3</hint>
+  </demandhint>
+  </problem>
 
-******************************************
+For example, the following OLX for a multiple choice problem shows two hints.
+
+.. code-block:: xml
+
+  .
+  .
+  .
+  </multiplechoiceresponse>
+  <demandhint>
+    <hint>A fruit is the fertilized ovary from a flower.</hint>
+    <hint>A fruit contains seeds of the plant.</hint>
+  </demandhint>
+  </problem>
+
+
+==========================================================
 Adding Text after the Response Field
-******************************************
+==========================================================
 
 You might want to include a word, phrase, or sentence after the response field
 in a text input problem to help guide your learners or resolve ambiguity.
@@ -362,20 +257,10 @@ To do this, you use the advanced editor.
 
 In the problem, locate the ``textline`` element. This element creates the
 response field for the problem and is a child of the ``stringresponse``
-element. An example follows.
-
-.. code-block:: xml
-
-    <problem>
-      <stringresponse answer="Ashmun" type="ci">
-        <label>What Pennsylvania school was founded in 1854 to provide
-         educational opportunities for African-Americans?</label>
-        <textline size="20"/>
-      </stringresponse>
-    </problem>
+element.
 
 To add text after the response field, add the ``trailing_text`` attribute
-together with the text that you want to use inside the ``textline`` element.
+together with the text that you want to use inside the ``textline`` element.  An example follows.
 
 .. code-block:: xml
 
@@ -779,46 +664,3 @@ Children
 ========
 
 None.
-
-.. reviewers esp. Shelby, can we take this opportunity to remove this last section? V - Alison 10 Aug
-
-**************************
-Deprecated Hinting Method
-**************************
-
-The following example shows the XML format with the ``<hintgroup>`` element
-that you could use in the past to configure hints for text input problems.
-Problems using this XML format will continue to work in the edX Platform.
-However, edX recommends that you use the new way of configuring hints
-documented above.
-
-.. code-block:: xml
-
-  <problem>
-    <stringresponse answer="Correct answer 1" type="ci regexp">
-      <label>Question text</label>
-      <additional_answer>Correct answer 2</additional_answer>
-      <additional_answer>Correct answer 3</additional_answer>
-      <textline size="20" />
-    <hintgroup>
-      <stringhint answer="Incorrect answer A" type="ci" name="hintA" />
-        <hintpart on="hintA">
-          <startouttext />Text of hint for incorrect answer A<endouttext />
-        </hintpart >
-      <stringhint answer="Incorrect answer B" type="ci" name="hintB" />
-        <hintpart on="hintB">
-          <startouttext />Text of hint for incorrect answer B<endouttext />
-        </hintpart >
-      <stringhint answer="Incorrect answer C" type="ci" name="hintC" />
-        <hintpart on="hintC">
-          <startouttext />Text of hint for incorrect answer C<endouttext />
-        </hintpart >
-    </hintgroup>
-    </stringresponse>
-    <solution>
-      <div class="detailed-solution">
-      <p>Explanation or Solution Header</p>
-      <p>Explanation or solution text</p>
-      </div>
-    </solution>
-  </problem>
