@@ -18,8 +18,7 @@ to use drag and drop problems in your course.
     This drag and drop problem type is intended as a replacement for an older
     drag and drop problem type. This drag and drop problem type includes
     significant improvements and you should use it for any new course
-    development. For more information about the previous, deprecated drag and
-    drop problem type, see :ref:`Drag and Drop`.
+    development.
 
 .. _overview_of_drag_and_drop_problems:
 
@@ -258,10 +257,8 @@ Creating a Drag and Drop Problem
 To create a drag and drop problem, follow these steps.
 
 #. In the unit where you want to create the problem, under **Add New
-   Component** select **Advanced**.
-
-#. From the list of advanced components, select **Drag and Drop**.
-
+   Component** select **Drag and Drop**.
+   
    Studio adds the drag and drop problem to the unit.
 
 #. Select **Edit**. The **Editing** dialog box opens.
