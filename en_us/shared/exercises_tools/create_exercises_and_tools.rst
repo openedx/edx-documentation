@@ -390,10 +390,6 @@ tools available in Studio. For more information, see
        calculates and displays the effects of the mutations on the mRNA and
        protein.
      - Not supported
-   * - :ref:`Single Select and Numerical Input Problem<Multiple Choice and Numerical Input>`
-     - Learners not only choose one answer from a set of possible options, they
-       are also prompted to provide more specific information, if necessary.
-     - Not supported
    * - :ref:`Periodic Table`
      - An interactive periodic table of the elements that shows detailed
        information about each element when learners move the pointer over each
@@ -420,6 +416,10 @@ tools available in Studio. For more information, see
        team and learners to work together to maintain the list of resources.
        For example, team members and learners can suggest new resources, vote
        for useful ones, or flag abuse and spam.
+     - Not supported
+   * - :ref:`Single Select and Numerical Input`
+     - Learners not only choose one answer from a set of possible options, they
+       are also prompted to provide more specific information, if necessary.
      - Not supported
    * - :ref:`Zooming Image`
      - Learners can view sections of an image in detail. You specify the
