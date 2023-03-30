@@ -80,9 +80,9 @@ Create an Image Mapped Input Problem in Studio
    note of the file path for the image. For more information, see :ref:`Add
    Files to a Course`.
 #. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Image Mapped Input**.
-#. In the component that appears, click **Edit**.
+   under **Add New Component**.
+#. In the problem editor, select **Advanced problem types**. Then select
+   **Image Mapped Input**.
 #. In the component editor, replace the example problem text with your own
    text.
 #. In the ``<imageinput>`` element, follow these steps.
@@ -277,11 +277,11 @@ Tags
 
 Indicates that the problem is an image mapped input problem.
 
-  Attributes
+  **Attributes**
 
   (none)
 
-  Children
+  **Children**
 
   * ``<imageinput>``
 
@@ -289,7 +289,7 @@ Indicates that the problem is an image mapped input problem.
 
 Specifies the image file and the region in the file where learners must click.
 
-  Attributes
+  **Attributes**
 
    .. list-table::
       :widths: 20 80
@@ -308,7 +308,7 @@ Specifies the image file and the region in the file where learners must click.
       * - ``alt`` (required)
         - A description of the image, used for accessibility
 
-  Children
+  **Children**
 
   (none)
 
