@@ -74,8 +74,7 @@ Creating a multi-select problem is as simple as:
    off the checkbox(es). Additional answers can be added by clicking the
    **Add answer** button. Answers can be deleted by clicking the trash can
    icon. Feedback can be provided for each answer. More information on feedback
-   can be found in the following
-   :ref:`Adding Feedback<Adding Feedback for Multi-select Problems>` section.
+   can be found in the following section.
 #. Selecting and filling in any desired settings on the right.
 
 If you have any questions on the specifics of using the simple editor, please check
