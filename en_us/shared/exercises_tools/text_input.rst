@@ -55,7 +55,7 @@ Creating a text input problem is as simple as:
 1. Editing the **Display Name**. Click the pen symbol to edit.
 2. Filling in the **Question** field.
 3. Filling in the **Explanation** field. When this is shown to learners is based on the selection in the **Show answer** panel on the right.
-4. Filling in the **Answer** fields. Select the correct answer(s) by ticking off the checkbox(es). Additional answers can be added by clicking the **Add answer** button. Answers can be deleted by clicking the trash can icon. Feedback can be provided for each answer. More information on feedback can be found in the following :ref:`Adding Feedback` section.
+4. Filling in the **Answer** fields. Select the correct answer(s) by ticking off the checkbox(es). Additional answers can be added by clicking the **Add answer** button. Answers can be deleted by clicking the trash can icon. Feedback can be provided for each answer. More information on feedback can be found in the following section.
 
 =============================
 Adding Feedback
