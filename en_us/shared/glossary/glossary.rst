@@ -725,7 +725,7 @@ M
 **multiple choice problem**
 
   A problem that asks learners to select one answer from a list of options.
-  For more information, see :ref:`partnercoursestaff:Multiple Choice`.
+  For more information, see :ref:`partnercoursestaff:Single Select`.
 
 
 .. _N:

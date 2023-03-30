@@ -175,7 +175,7 @@ You can add hints to a multi-select problem. For an overview of hints in problem
 
 .. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
 
-.. _Use the Advanced Editor to Edit a Multi-select Problem:
+.. _Editing Multi-select Problems using the Advanced Editor:
 
 **********************************************************
 Editing Multi-select Problems using the Advanced Editor
@@ -899,24 +899,24 @@ correctness.
 
     <problem>
       <script type="text/python">
-        <![CDATA[
-        random.seed(anonymous_student_id)  # Use different random numbers for each student.
-        a = random.randint(1,10)
-        b = random.randint(1,10)
-        c = a + b
+      <![CDATA[
+      random.seed(anonymous_student_id)  # Use different random numbers for each student.
+      a = random.randint(1,10)
+      b = random.randint(1,10)
+      c = a + b
 
-        ok0 = c % 2 == 0 # check remainder modulo 2
-        text0 = "$a + $b is divisible by 2"
+      ok0 = c % 2 == 0 # check remainder modulo 2
+      text0 = "$a + $b is divisible by 2"
 
-        ok1 = c % 3 == 0 # check remainder modulo 3
-        text1 = "$a + $b is divisible by 3"
+      ok1 = c % 3 == 0 # check remainder modulo 3
+      text1 = "$a + $b is divisible by 3"
 
-        ok2 = c % 5 == 0 # check remainder modulo 5
-        text2 = "$a + $b is divisible by 5"
+      ok2 = c % 5 == 0 # check remainder modulo 5
+      text2 = "$a + $b is divisible by 5"
 
-        ok3 = not any([ok0, ok1, ok2])
-        text3 = "None of the above statements is true."
-        ]]>
+      ok3 = not any([ok0, ok1, ok2])
+      text3 = "None of the above statements is true."
+      ]]>
       </script>
       <choiceresponse>
         <label>Which statements about the number $a+$b are true? Select all that apply.</label>
@@ -929,5 +929,7 @@ correctness.
       </choiceresponse>
     </problem>
 
-.. note:: Make sure to remove the indentation spaces in front of the CDATA
-  section when pasting this example into the advanced editor.
+.. note:: After saving a block with scripts, you'll see an error on the block in your
+  unit if your script cannot be executed. One common error is the indentation error.
+  The script must start on no indentation regardless of the indentation of the previous
+  line. 

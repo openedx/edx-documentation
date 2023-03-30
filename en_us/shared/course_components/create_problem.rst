@@ -93,7 +93,7 @@ The Simple Editor
 When you select one of the **simple problem types**, you will be directed to
 the simple editor.
 
-*  :ref:`Single Select<Multiple Choice>`
+*  :ref:`Single Select<Single Select>`
 
 *  :ref:`Multi-select<Multi-select>`
 

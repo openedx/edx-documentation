@@ -121,7 +121,7 @@ following problem types. When you select any of the simple problem types, the
    * - Problem Type
      - Description
      - Support
-   * - :ref:`Single Select Problem<Multiple Choice>`
+   * - :ref:`Single Select`
      - In single select problems, learners select one answer from a set of
        possible answers, which are visible directly below the question.
      - Full support; mobile-ready
@@ -438,7 +438,7 @@ For more information, see :ref:`insights:Using edX Insights`.
 * :ref:`Math Expression Input`
 * :ref:`Multi-select`
 * :ref:`Numerical Input`
-* :ref:`Single Select Problem<Multiple Choice>`
+* :ref:`Single Select`
 * :ref:`Text Input`
 
 .. _Mobile-Ready Problem Types:
@@ -455,7 +455,7 @@ they use the edX mobile app.
 * :ref:`Math Expression Input`
 * :ref:`Multi-select`
 * :ref:`Numerical Input`
-* :ref:`Single Select Problem<Multiple Choice>`
+* :ref:`Single Select`
 * :ref:`Text Input`
 
 Questions that have other problem types do not appear in the edX mobile app.

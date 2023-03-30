@@ -23,7 +23,7 @@ Overview
 **********
 
 In dropdown problems, learners select one answer from a list of answer options.
-Unlike :ref:`multiple choice<Multiple Choice>` problems, where the answer
+Unlike :ref:`single select<Single Select>` problems, where the answer
 choices are always visible directly below the question, the answer options for
 dropdown problems do not appear until the learner selects the dropdown arrow.
 
@@ -106,6 +106,8 @@ You can add hints to a dropdown problem. For an overview of hints in problems, s
 :ref:`Adding Feedback and Hints to a Problem`.
 
 .. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
+
+.. _Editing Dropdown Problems using the Advanced Editor:
 
 ****************************************************
 Editing Dropdown Problems using the Advanced Editor
