@@ -1,4 +1,4 @@
- .. _Problem with Adaptive Hint:
+.. _Problem with Adaptive Hint:
 
 ################################
 Problem with Adaptive Hint
@@ -21,10 +21,10 @@ Create a Problem with an Adaptive Hint
 To create the problem illustrated above, follow these steps.
 
 #. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Problem with Adaptive Hint**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, replace the example code with the code below.
+   under **Add New Component**.
+#. In the problem editor, select **Advanced problem types**. Then select
+   **Problem with Adaptive Hint**.
+#. In the advanced problem editor, replace the example code with the code below.
 #. Click **Save**.
 
 .. code-block:: xml
@@ -122,18 +122,18 @@ Tags
 
 **Tag:** ``<customresponse>``
 
-  Attributes
+  **Attributes**
 
   (none)
 
-  Children
+  **Children**
 
      * ``<textline>``
      * ``<hintgroup>``
 
 **Tag:** ``<textline>``
 
-  Attributes
+  **Attributes**
 
   .. list-table::
      :widths: 20 80
@@ -153,13 +153,13 @@ Tags
          responses to the problem are not case sensitive. They can contain both
          uppercase and lowercase letters.)
 
-  Children
+  **Children**
 
   (none)
 
 **Tag:** ``<hintgroup>``
 
-  Attributes
+  **Attributes**
 
   .. list-table::
      :widths: 20 80
