@@ -236,7 +236,7 @@ available in Studio. For more information, see
      - A problem with an adaptive hint evaluates a learner's response, then
        gives the learner feedback or a hint based on that response so that the
        learner is more likely to answer correctly on the next attempt. These
-       problems can be text input or multiple choice problems.
+       problems can be text input or single select problems.
      - Not supported
 
 ******************************

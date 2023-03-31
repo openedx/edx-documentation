@@ -27,7 +27,7 @@ choose the type of problem that you want to build on the Problem Type Selection
 page.
 
 The simple problem types include relatively straightforward CAPA problems such
-as multiple choice and text or numeric input. The advanced problem types can be
+as single select and text or numeric input. The advanced problem types can be
 more complex to set up, such as math expression input, open response
 assessment, or custom JavaScript problems.
 
@@ -517,7 +517,7 @@ in *Using edX Insights*.
  include up to 20 variants for the problem, **even if the problem was not
  actually configured to include randomly generated values**. This can make data
  collected for problems that cannot include randomly generated values,
- (including, but not limited to, all multiple choice, checkboxes, dropdown, and
+ (including, but not limited to, all single select, multi-select, dropdown, and
  text input problems), extremely difficult to interpret.
 
 You can choose the following options for the **Randomization** setting.

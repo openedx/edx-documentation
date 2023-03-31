@@ -33,7 +33,7 @@ your course.
 * **Text** components allow you to add text, images, and some types of learning
   tools to your course. Content in Text components is formatted as HTML.
 * **Problem** components enable you to add many different types of exercises
-  and problems to your course, from simple multiple choice problems to complex
+  and problems to your course, from simple single select problems to complex
   circuit schematic exercises.
 * **Video** components contain the videos that you want to include in your
   course.

@@ -45,17 +45,30 @@ input problem. An example of a completed text input problem follows.
 Adding a Text Input Problem
 ******************************
 
-You add text input problems in Studio by selecting the **Problem** component. In the problem editor, select the **Text Input** option. Fill in the fields on this screen to create your problem.
+You add text input problems in Studio by selecting the **Problem** component.
+In the problem editor, select the **Text Input** option. Fill in the fields on
+this screen to create your problem.
 
 .. image:: ../../../shared/images/problem_editor_text_input.png
- :alt: An image of the problem editor in Studio. The various inputs and sections are labeled, and are referenced below.
+ :alt: An image of the problem editor in Studio. The various inputs and
+    sections are labeled, and are referenced below.
+ :width: 800
 
 Creating a text input problem is as simple as:
 
-1. Editing the **Display Name**. Click the pen symbol to edit.
-2. Filling in the **Question** field.
-3. Filling in the **Explanation** field. When this is shown to learners is based on the selection in the **Show answer** panel on the right.
-4. Filling in the **Answer** fields. Select the correct answer(s) by ticking off the checkbox(es). Additional answers can be added by clicking the **Add answer** button. Answers can be deleted by clicking the trash can icon. Feedback can be provided for each answer. More information on feedback can be found in the following section.
+#. Editing the **Display Name**. Click the pen symbol to edit.
+#. Filling in the **Question** field.
+#. Filling in the **Explanation** field. When this is shown to learners is
+   based on the selection in the **Show answer** panel on the right.
+#. Filling in the **Answer** fields. Select the correct answer(s) by ticking
+   off the checkbox(es). Additional answers can be added by clicking the
+   **Add answer** button. Answers can be deleted by clicking the trash can
+   icon. Feedback can be provided for each answer. More information on feedback
+   can be found in the following section.
+#. Selecting and filling in any desired settings on the right.
+
+If you have any questions on the specifics of using the simple editor, please check
+out :ref:`Simple Editor` and :ref:`Problem Settings`.
 
 =============================
 Adding Feedback
@@ -71,12 +84,17 @@ the correct answer.
 If you define multiple correct responses for the question, you can define
 feedback for each response.
 
-You can add answer-specific feedback for each answer in a text input problem. You can access the feedback panel shown below by clicking the button to the right of the answer text.
+You can add answer-specific feedback for each answer in a text input problem.
+You can access the feedback panel shown below by clicking the button to the
+right of the answer text.
 
 .. image:: ../../../shared/images/problem_editor_feedback_box.png
- :alt: an image of the feedback section. There are options for when the student's answer is selected.
+ :alt: an image of the feedback section. There are options for when the student's
+    answer is selected.
+ :width: 600
 
-Simply enter your feedback message in this text field. It will display when the learner submits this answer.
+Simply enter your feedback message in this text field. It will display when the
+learner submits this answer.
 
 =============================
 Adding Hints
@@ -86,26 +104,22 @@ You can add hints to a text input problem using the simple editor or the
 advanced editor. For an overview of hints in problems, see
 :ref:`Adding Feedback and Hints to a Problem`.
 
-In the settings panels on the right of the editor, you’ll find a Hints panel.
+.. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
 
-.. image:: ../../../shared/images/problem_editor_hints_box.png
- :alt: an image of the hints setting widget. It shows a text input box inside a collabsable labeled "hints", and it also includes a button to add hints and a button to delete the current hint.
-
-
-Click the Add hint button to add a new hint text field. To delete any hints you’ve added, click the trash can icon next to its respective hint field.
-
-.. note:: You can configure any number of hints. The learner views one hint at a time and views the next one by selecting Hint again.
-
+.. _Editing Text Input Problems using the Advanced Editor:
 
 *********************************************************************
 Editing Text Input Problems using the Advanced Editor
 *********************************************************************
 
-If the simple editor is not enough to meet your needs, you can switch over to the advanced editor. In the setting panels on the right of the editor, click **Show advanced settings**, then scroll down and click **Switch to advanced editor**.
+If the simple editor is not enough to meet your needs, you can switch over to the
+advanced editor. In the setting panels on the right of the editor, click 
+**Show advanced settings**, then scroll down and click 
+**Switch to advanced editor**.
 
-You can use the `advanced editor <https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_components/create_problem.html#advanced-editor>`_  to identify the elements of a text input problem with open learning XML (OLX). For more information, see `Multi-select Problem OLX Reference <https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/checkbox.html#checkbox-problem-xml>`_.
-
-To format equations, you can use MathJax. For more information, see `Using MathJax for Mathematics <https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/mathjax.html#mathjax-in-studio>`_.
+You can use the advanced editor to identify the elements of a text input problem
+with OLX. For more information, see :ref:`Text Input Problem XML`. To format
+equations, you can use MathJax. For more information, see :ref:`MathJax in Studio`.
 
 You can see the OLX for the example problem from the Overview section below.
 
@@ -129,7 +143,10 @@ You can see the OLX for the example problem from the Overview section below.
   </stringresponse>
   </problem>
 
-.. note:: You can begin work on the problem in the simple editor, and then switch to the advanced editor. However, after you save any advanced OLX changes you make in the advanced editor, you may not be able to cannot switch back to the simple editor.
+.. note:: You can begin work on the problem in the simple editor, and then
+  switch to the advanced editor. However, after you save any advanced OLX
+  changes you make in the advanced editor, you may not be able to cannot
+  switch back to the simple editor.
 
 =============================
 Adding Feedback
@@ -148,7 +165,8 @@ In the advanced editor, you configure answer feedback with the following syntax.
     </stringresponse>
   </problem>
 
-For example, the following problem has feedback for the correct answer and two common incorrect answers.
+For example, the following problem has feedback for the correct answer and two
+common incorrect answers.
 
 .. code-block:: xml
 
@@ -168,78 +186,13 @@ For example, the following problem has feedback for the correct answer and two c
     </stringresponse>
   </problem>
 
-=============================
-Customizing Feedback Labels
-=============================
-
-By default, the feedback labels shown to learners are **Correct** and **Incorrect**. If you do not define feedback labels, learners see these terms when they submit an answer, as in the following example.
-
-.. code-block:: none
-
-  Incorrect: California is the third largest state and contains 155,959 square
-  miles.
-
-You can configure the problem to override the default labels. For example, you can configure a custom label for a specific wrong answer.
-
-.. code-block:: none
-
-  Close but wrong: California is the third largest state and contains 155,959
-  square miles.
-
-.. note:: The default labels **Correct** and **Incorrect** display in the learner’s requested language. If you provide custom labels, they display as you define them to all learners. They are not translated into different languages.
-
-In the advanced editor, you configure custom feedback labels with the following syntax.
-
-.. code-block:: xml
-
-  <correcthint label="Custom Label">Feedback</correcthint>
-  <stringequalhint answer="Incorrect Answer" label="Custom Label">Feedback</stringequalhint>
-
-For example, the following feedback is configured to use custom labels.
-
-
-.. code-block:: xml
-
-  <correcthint label="Right you are">Alaska is the largest state in the U.S.
-  in terms of not only land area, but also total area and water area. Alaska
-  is 576,400 square miles, more than double the land area of the second
-  largest state, Texas.</correcthint>
-  <stringequalhint answer="Texas" label="Close but wrong">While many people
-  think Texas is the largest state in terms of land area, it is actually the
-  second largest of the 50 U.S. states containing 261,797 square miles.</stringequalhint>
+.. include:: ../../../shared/exercises_tools/Subsection_customizing_feedback_labels.rst
 
 =============================
 Adding Hints
 =============================
 
-In the advanced editor, you add the ``<demandhint>`` element immediately before the closing ``</problem>`` tag, and then configure each hint using the ``<hint>`` element.
-
-.. code-block:: xml
-
-  .
-  .
-  .
-  <demandhint>
-    <hint>Hint 1</hint>
-    <hint>Hint 2</hint>
-    <hint>Hint 3</hint>
-  </demandhint>
-  </problem>
-
-For example, the following OLX for a multiple choice problem shows two hints.
-
-.. code-block:: xml
-
-  .
-  .
-  .
-  </multiplechoiceresponse>
-  <demandhint>
-    <hint>A fruit is the fertilized ovary from a flower.</hint>
-    <hint>A fruit contains seeds of the plant.</hint>
-  </demandhint>
-  </problem>
-
+.. include:: ../../../shared/exercises_tools/Subsection_configure_hints_advanced.rst
 
 ==========================================================
 Adding Text after the Response Field
@@ -249,9 +202,9 @@ You might want to include a word, phrase, or sentence after the response field
 in a text input problem to help guide your learners or resolve ambiguity.
 
 .. image:: ../../../shared/images/MC_trailing_text.png
- :width: 500
  :alt: Text input problem with the word "Institute" after the response
-  field.
+    field.
+ :width: 500
 
 To do this, you use the advanced editor.
 
@@ -264,17 +217,17 @@ together with the text that you want to use inside the ``textline`` element.  An
 
 .. code-block:: xml
 
-    <problem>
-      <stringresponse answer="Ashmun" type="ci">
-        <label>What Pennsylvania school was founded in 1854 to provide
-         educational opportunities for African-Americans?</label>
-        <textline size="20" trailing_text="Institute"/>
-      </stringresponse>
-    </problem>
+  <problem>
+    <stringresponse answer="Ashmun" type="ci">
+      <label>What Pennsylvania school was founded in 1854 to provide
+        educational opportunities for African-Americans?</label>
+      <textline size="20" trailing_text="Institute"/>
+    </stringresponse>
+  </problem>
 
-******************************************
+==========================================================
 Case Sensitivity and Text Input Problems
-******************************************
+==========================================================
 
 By default, text input problems do not require a case sensitive response. You
 can change this default to require a case sensitive answer.
@@ -314,11 +267,9 @@ attribute to ``cs``.
 Learners who submit an answer of "Paris" are scored as correct, but
 learners who submit an answer of "PARIS" are scored as incorrect.
 
-*************************************************
+==========================================================
 Response Field Length in Text Input Problems
-*************************************************
-
-By default, the response field for text input problems is 20 characters long.
+==========================================================
 
 You should preview the unit to ensure that the length of the response input
 field accommodates the correct answer, and provides extra space for possible
@@ -355,9 +306,9 @@ attribute.
       </stringresponse>
     </problem>
 
-***************************************************************
+===============================================================
 Allowing Regular Expressions as Answers for Text Input Problems
-***************************************************************
+===============================================================
 
 You can configure a text input problem to allow a regular expression as an
 answer. Allowing learners to answer with a regular expression can minimize the
@@ -445,13 +396,15 @@ hierarchy of child elements.
 
 In addition, standard HTML tags can be used to format text.
 
+---------------------
 ``<stringresponse>``
-*********************
+---------------------
 
 Required. Indicates that the problem is a text input problem.
 
+^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -478,8 +431,9 @@ Attributes
        example, ``<stringresponse type="regexp cs">`` specifies that the
        problem allows regular expressions and is case sensitive.
 
+^^^^^^^^^^
 Children
-========
+^^^^^^^^^^
 
 * ``<label>``
 * ``<description>``
@@ -489,46 +443,54 @@ Children
 * ``<stringequalhint>``
 * ``<solution>``
 
+---------------------
 ``<label>``
-***********
+---------------------
 
 Required. Identifies the question or prompt. You can include HTML tags within
 this element.
 
+^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^
 Children
-========
+^^^^^^^^^^
 
 None.
 
+---------------------
 ``<description>``
-*****************
+---------------------
 
 Optional. Provides clarifying information about how to answer the question. You
 can include HTML tags within this element.
 
+^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^
 Children
-========
+^^^^^^^^^^
 
 None.
 
+---------------------
 ``<textline>``
-****************
+---------------------
 
 Required. Creates a response field in the LMS where the learner enters a text
 string.
 
+^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -548,19 +510,22 @@ Attributes
 
 .. reviewers, note that I could not get "correct_answer" to work ^^. The answer attribute of stringresponse is required and overrides whatever I put in here. Can this attribute be removed or marked as deprecated? - Alison 10 Aug
 
+^^^^^^^^^^
 Children
-========
+^^^^^^^^^^
 
 None.
 
+------------------------
 ``<additional_answer>``
-*************************
+------------------------
 
 Optional. Specifies an additional correct answer for the problem. A problem can
 contain an unlimited number of additional answers.
 
+^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -571,19 +536,22 @@ Attributes
    * - ``answer``
      - Required. The text of the alternative correct answer.
 
+^^^^^^^^^^
 Children
-========
+^^^^^^^^^^
 
 ``<correcthint>``
 
+------------------------
 ``<correcthint>``
-*****************
+------------------------
 
 Optional. Specifies feedback to appear after the learner submits a correct
 answer.
 
+^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -594,19 +562,22 @@ Attributes
    * - ``label``
      - Optional. The text of the custom feedback label.
 
+^^^^^^^^^^
 Children
-========
+^^^^^^^^^^
 
 None.
 
+------------------------
 ``<stringequalhint>``
-*********************
+------------------------
 
 Optional. Specifies feedback to appear after the learner submits an incorrect
 answer.
 
+^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -619,13 +590,15 @@ Attributes
    * - ``label``
      - Optional. The text of the custom feedback label.
 
+^^^^^^^^^^
 Children
-========
+^^^^^^^^^^
 
 None.
 
+------------------------
 ``<solution>``
-**************
+------------------------
 
 Optional. Identifies the explanation or solution for the problem, or for one of
 the questions in a problem that contains more than one question.
@@ -633,34 +606,39 @@ the questions in a problem that contains more than one question.
 This element contains an HTML division ``<div>``. The division contains one or
 more paragraphs ``<p>`` of explanatory text.
 
-
+------------------------
 ``<demandhint>``
-****************
+------------------------
 
 Optional. Specifies hints for the learner. For problems that include multiple
 questions, the hints apply to the entire problem.
 
+^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^
 Children
-========
+^^^^^^^^^^
 
 ``<hint>``
 
+------------------------
 ``<hint>``
-**********
+------------------------
 
 Required. Specifies additional information that learners can access if needed.
 
+^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^
 Children
-========
+^^^^^^^^^^
 
 None.

@@ -180,9 +180,6 @@ learner submits this answer.
 .. note:: You cannot add feedback for an incorrect answer in numerical input
   problems. Add hints to guide the learners in the correct direction instead.
 
-
-
-
 .. _Use Hints in a Numerical Input Problem:
 
 =================
@@ -206,9 +203,9 @@ advanced editor. In the setting panels on the right of the editor, click
 **Show advanced settings**, then scroll down and click 
 **Switch to advanced editor**.
 
-You can use the advanced editor to identify the elements of a checkbox problem
-with OLX. For more information, see :ref:`Numerical Input Problem XML`. To format equations,
-you can use MathJax. For more information, see :ref:`MathJax in Studio`.
+You can use the advanced editor to identify the elements of a numerical input problem
+with OLX. For more information, see :ref:`Numerical Input Problem XML`. To format
+equations, you can use MathJax. For more information, see :ref:`MathJax in Studio`.
 
 You can see the OLX for the example problem from the Overview section below.
 
@@ -501,9 +498,9 @@ updated to provide partial credit for a different answer.
     </numericalresponse>
   </problem>
 
-==========================================
-Add Text after the Numeric Response Field
-==========================================
+=============================================
+Adding Text after the Numeric Response Field
+=============================================
 
 You might want to include a word, phrase, or sentence after the response field
 in a numerical input problem to help guide your students or resolve ambiguity.

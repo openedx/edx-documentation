@@ -118,7 +118,7 @@ advanced editor. In the setting panels on the right of the editor, click
 **Show advanced settings**, then scroll down and click 
 **Switch to advanced editor**.
 
-You can use the advanced editor to identify the elements of a checkbox problem
+You can use the advanced editor to identify the elements of a dropdown problem
 with OLX. For more information, see :ref:`Dropdown Problem XML`. To format equations,
 you can use MathJax. For more information, see :ref:`MathJax in Studio`.
 

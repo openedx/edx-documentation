@@ -121,14 +121,6 @@ C
 
   See :ref:`Section<S>`.
 
-.. _Multi-select_g:
-
-**multi-select problem**
-
-  A problem that prompts learners to select one or more options from a list of
-  possible answers. For more information, see
-  :ref:`partnercoursestaff:Multi-select`.
-
 
 .. _Chemical Equation_g:
 
@@ -720,12 +712,13 @@ M
   content as children.
 
 
-.. _Multiple Choice_g:
+.. _Multi-select_g:
 
-**multiple choice problem**
+**multi-select problem**
 
-  A problem that asks learners to select one answer from a list of options.
-  For more information, see :ref:`partnercoursestaff:Single Select`.
+  A problem that prompts learners to select one or more options from a list of
+  possible answers. For more information, see
+  :ref:`partnercoursestaff:Multi-select`.
 
 
 .. _N:
@@ -980,6 +973,15 @@ S
   authentication, which is a different type of authentication system. For
   information about third party authentication, see
   :ref:`Third Party Authentication<T>`.
+
+
+.. _Single_select_g:
+
+**single select problem**
+
+  A problem that asks learners to select one answer from a list of options.
+  For more information, see :ref:`partnercoursestaff:Single Select`.
+
 
 .. _Special Exam_g:
 

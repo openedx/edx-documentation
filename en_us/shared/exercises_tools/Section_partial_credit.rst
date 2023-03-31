@@ -39,7 +39,7 @@ incorrect answer options. The learner selected this incorrect option, and
 received 25% of the possible points.
 
 .. image:: ../../../shared/images/partial_credit_multiple_choice.png
- :alt: A multiple choice problem with partial credit for an incorrect
+ :alt: A single select problem with partial credit for an incorrect
      answer.
  :width: 500
 

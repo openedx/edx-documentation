@@ -183,7 +183,7 @@ advanced editor. In the setting panels on the right of the editor, click
 **Show advanced settings**, then scroll down and click 
 **Switch to advanced editor**.
 
-You can use the advanced editor to identify the elements of a checkbox problem
+You can use the advanced editor to identify the elements of a single select problem
 with OLX. For more information, see :ref:`Single Select Problem XML`. To format equations,
 you can use MathJax. For more information, see :ref:`MathJax in Studio`.
 
@@ -305,7 +305,7 @@ the :ref:`advanced editor<Advanced Editor>`.
 * Within each ``<targetedfeedback>`` element use HTML formatting, such as
   ``<p></p>`` tags, to enter your explanation for the specified answer option.
 
-For example, the OLX for a multiple choice problem follows, showing a unique ID
+For example, the OLX for a single select problem follows, showing a unique ID
 for each answer choice. This is immediately followed by OLX that defines the
 targeted feedback.
 
@@ -359,7 +359,7 @@ Adding Hints
 Awarding Partial Credit
 ========================================
 
-You can configure a multiple choice problem so that specific incorrect answers
+You can configure a single select problem so that specific incorrect answers
 award learners partial credit for the problem.
 
 .. only:: Partners
@@ -374,7 +374,7 @@ In the following example, the learner selected a wrong answer and received
 partial credit.
 
 .. image:: ../../../shared/images/partial_credit_multiple_choice.png
- :alt: A multiple choice problem with partial credit for an incorrect answer.
+ :alt: A single select problem with partial credit for an incorrect answer.
  :width: 400
 
 You can specify what percentage of the points for the problem a learner
@@ -384,7 +384,7 @@ system uses the default of 50%.
 For an overview of partial credit in problems, see
 :ref:`Awarding Partial Credit for a Problem`.
 
-To configure a multiple choice problem to award partial credit for a specific
+To configure a single select problem to award partial credit for a specific
 answer, you add the following attributes to the problem OLX.
 
 * Add the ``partial_credit="points"`` attribute to the
@@ -401,7 +401,7 @@ answer, you add the following attributes to the problem OLX.
   understanding of the concept. If you do not add the ``point_value``
   attribute, the system uses the default of 50%.
 
-For example, the following OLX shows a multiple choice problem that
+For example, the following OLX shows a single select problem that
 provides partial credit of 25% for an answer option.
 
 .. code-block:: xml
@@ -424,7 +424,7 @@ provides partial credit of 25% for an answer option.
 Shuffle Answers
 =============================================
 
-Optionally, you can configure a multiple choice problem so that it shuffles
+Optionally, you can configure a single select problem so that it shuffles
 the order of possible answers.
 
 For example, one view of a problem could be as follows.
@@ -488,7 +488,7 @@ Then, you select **Settings** to specify an option other than **Never** for the
 Answer Pools
 =============================================
 
-You can configure a multiple choice problem so that a random subset of choices
+You can configure a single select problem so that a random subset of choices
 are shown to each learner. For example, you can add 10 possible choices to the
 problem, and each learner views a set of five choices.
 
@@ -521,7 +521,7 @@ problem in the :ref:`advanced editor<Advanced Editor>`.
  element. You do still use the ``<solutionset>`` element to wrap the
  ``<solution>`` element.
 
-For example, for the following multiple choice problem, a learner will see
+For example, for the following single select problem, a learner will see
 four choices. In each set, one of the choices will be one of the two correct
 choices. The explanation shown for the correct answer is the one with the same
 explanation ID.
@@ -813,9 +813,9 @@ Attributes
      - Description
    * - ``explanation-id``
      - Optional. See :ref:`Targeted Feedback in a Single Select Problem`.
-      Links this answer to the corresponding ``<choice>`` element. For example,
-      ``<solution explanation-id="correct">`` links to 
-      ``<choice correct="true" explanation-id="correct">``.
+       Links this answer to the corresponding ``<choice>`` element. For example,
+       ``<solution explanation-id="correct">`` links to 
+       ``<choice correct="true" explanation-id="correct">``.
 
 ----------------------------
 ``<demandhint>``

@@ -5,7 +5,7 @@ Enabling Additional Exercises and Tools
 #########################################
 
 Studio includes a default set of core problem types that can be added to any
-course, including CAPA problems like text input, multiple choice, and math
+course, including CAPA problems like text input, single select, and math
 expression input. To add these problem types to a course, you select
 **Problem** on the unit page.
 
@@ -54,9 +54,10 @@ To enable an advanced exercise or tool, follow these steps.
 
      ::
 
-       ["annotatable",
-           "word_cloud",
-           "split_test"
+       [
+         "annotatable",
+         "word_cloud",
+         "split_test"
        ]
 
 #. Select **Save Changes**.

@@ -134,11 +134,11 @@ Tags
 Indicates that this problem has a custom response. The ``<customresponse>``
 tags must surround the ``<chemicalequation>`` tags.
 
-  Attributes
+  **Attributes**
 
   (none)
 
-  Children
+  **Children**
 
   * ``<chemicalequationinput>``
   * ``<answer>``
@@ -148,7 +148,7 @@ tags must surround the ``<chemicalequation>`` tags.
 Indicates that the answer to this problem is a chemical equation and creates a
 response field where the learner enters an answer.
 
-  Attributes
+  **Attributes**
 
   .. list-table::
      :widths: 20 80
@@ -160,7 +160,7 @@ response field where the learner enters an answer.
      * - label (required)
        - Contains the text of the principal question in the problem.
 
-  Children
+  **Children**
 
   (none)
 
@@ -168,7 +168,7 @@ response field where the learner enters an answer.
 
 Contains the Python script that grades the problem.
 
-  Attributes
+  **Attributes**
 
   .. list-table::
      :widths: 20 80
@@ -178,7 +178,7 @@ Contains the Python script that grades the problem.
      * - type (required)
        - Must be "loncapa/python".
 
-  Children
+  **Children**
 
   (none)
 

@@ -186,7 +186,7 @@ advanced editor. In the setting panels on the right of the editor, click
 **Show advanced settings**, then scroll down and click 
 **Switch to advanced editor**.
 
-You can use the advanced editor to identify the elements of a checkbox problem
+You can use the advanced editor to identify the elements of a multi-select problem
 with OLX. For more information, see :ref:`Multi-select Problem XML`. To format equations,
 you can use MathJax. For more information, see :ref:`MathJax in Studio`.
 
@@ -419,9 +419,9 @@ would score for one EDC problem whose answers are as follows.
        - The learner matched 1 of the correct answers for 25%, but selected the
          incorrect answer.
 
-
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Configure an EDC Multi-select Problem
-**************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To configure an EDC multi-select problem, you add the ``partial_credit="EDC"``
 attribute to the ``<choiceresponse>`` element in the problem OLX.
@@ -592,9 +592,9 @@ for problems with an increasing number of total answer options.
        - 7
        - 0
 
-
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Configure a By Halves Multi-select Problem
-*******************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To configure a by halves multi-select problem, you add the
 ``partial_credit="halves"`` attribute to the ``<choiceresponse>`` element in
@@ -904,8 +904,9 @@ options for your multi-select problems.  You could use this feature to display
 different questions/answers depending on variable factors, like time of day, or
 randomly generated numbers.
 
+-------------------------------------------------------
 Use the Advanced Editor to Configure the Script Element
-*******************************************************
+-------------------------------------------------------
 
 You must use the :ref:`advanced editor<Advanced Editor>` to configure a
 ``<script>`` element.

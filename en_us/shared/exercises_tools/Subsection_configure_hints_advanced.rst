@@ -5,6 +5,7 @@ the closing ``</problem>`` tag, and then configure each hint using the
 
 .. code-block:: xml
 
+  <problem>
   .
   .
   .
@@ -15,16 +16,18 @@ the closing ``</problem>`` tag, and then configure each hint using the
   </demandhint>
   </problem>
 
-For example, the following OLX for a multiple choice problem shows two hints.
+For example, the following OLX for a single select problem shows two hints.
 
 .. code-block:: xml
 
-  .
-  .
-  .
-  </multiplechoiceresponse>
-  <demandhint>
-    <hint>A fruit is the fertilized ovary from a flower.</hint>
-    <hint>A fruit contains seeds of the plant.</hint>
-  </demandhint>
+  <problem>
+    <multiplechoiceresponse>
+    .
+    .
+    .
+    </multiplechoiceresponse>
+    <demandhint>
+      <hint>A fruit is the fertilized ovary from a flower.</hint>
+      <hint>A fruit contains seeds of the plant.</hint>
+    </demandhint>
   </problem>
