@@ -620,13 +620,15 @@ hierarchy of child elements.
 
 In addition, standard HTML tags can be used to format text.
 
+----------------------------
 ``<multiplechoiceresponse>``
-****************************
+----------------------------
 
 Required. Indicates that the problem is a single select problem.
 
+^^^^^^^^^^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^^^^^^^^^^
 
   .. list-table::
     :widths: 20 80
@@ -641,53 +643,62 @@ Attributes
       - Optional. Set to targeted-feedback="" if using targeted feedback.
         Otherwise, do not add this attribute.
 
+^^^^^^^^^^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^^^^^^^^^^
 
 * ``<label>``
 * ``<description>``
 * ``<choicegroup>``
 * ``<solution>``
 
+----------------------------
 ``<label>``
-***********
+----------------------------
 
 Required. Identifies the question or prompt. You can include HTML tags within
 this element.
 
+^^^^^^^^^^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^^^^^^^^^^
 
 None.
 
+----------------------------
 ``<description>``
-*****************
+----------------------------
 
 Optional. Provides clarifying information about how to answer the question. You
 can include HTML tags within this element.
 
+^^^^^^^^^^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^^^^^^^^^^
 
 None.
 
+----------------------------
 ``<choicegroup>``
-*****************
+----------------------------
 
 Required. Indicates the beginning of the list of answer options.
 
+^^^^^^^^^^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -704,18 +715,21 @@ Attributes
      - Optional. See :ref:`Answer Pools in a Single Select Problem`.
        Set a numerical value to indicate the number of answers to show to learners.
 
+^^^^^^^^^^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^^^^^^^^^^
 
 ``<choice>``
 
+----------------------------
 ``<choice>``
-************
+----------------------------
 
 Required. Lists an answer option.
 
+^^^^^^^^^^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -753,28 +767,33 @@ Attributes
        ``<choice correct="false" explanation-id="feedback1">`` links to 
        ``<targetedfeedback explanation-id="feedback1">``.
 
+^^^^^^^^^^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^^^^^^^^^^
 
 ``<choicehint>``
 
+----------------------------
 ``<choicehint>``
-****************
+----------------------------
 
 Optional. Specifies feedback for the answer.
 
+^^^^^^^^^^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^^^^^^^^^^
 
 None.
 
+----------------------------
 ``<solution>``
-**************
+----------------------------
 
 Optional. Identifies the explanation or solution for the problem, or for one of
 the questions in a problem that includes multiple questions.
@@ -782,8 +801,9 @@ the questions in a problem that includes multiple questions.
 This element contains an HTML division ``<div>``. The division contains one or
 more paragraphs ``<p>`` of explanatory text.
 
+^^^^^^^^^^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -797,57 +817,67 @@ Attributes
       ``<solution explanation-id="correct">`` links to 
       ``<choice correct="true" explanation-id="correct">``.
 
+----------------------------
 ``<demandhint>``
-****************
+----------------------------
 
 Optional. Specifies hints for the learner. For problems that include multiple
 questions, the hints apply to the entire problem.
 
+^^^^^^^^^^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^^^^^^^^^^
 
 ``<hint>``
 
+----------------------------
 ``<hint>``
-**********
+----------------------------
 
 Required. Specifies additional information that learners can access if needed.
 
+^^^^^^^^^^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^^^^^^^^^^
 
 None.
 
+----------------------------
 ``<targetedfeedbackset>``
-*************************
+----------------------------
 
 Optional. Groups a set of targeted feedbacks that assist learners. See
 :ref:`Targeted Feedback in a Single Select Problem`.
 
+^^^^^^^^^^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^^^^^^^^^^
 
 ``<targetedfeedback>``
 
+----------------------------
 ``<targetedfeedback>``
-**********************
+----------------------------
 
 Optional. Specifies targeted feedback shown automatically to learners. This element
 contains an HTML division ``<div>``. The division contains one or more paragraphs 
 ``<p>`` of explanatory text. See :ref:`Targeted Feedback in a Single Select Problem`.
 
+^^^^^^^^^^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -861,32 +891,37 @@ Attributes
        ``<targetedfeedback explanation-id="feedback1">`` links to 
        ``<choice correct="false" explanation-id="feedback1">``.
 
+----------------------------
 ``<solutionset>``
-*****************
+----------------------------
 
 Optional. Groups a set of explanations that assist learners. See
 :ref:`Answer Pools in a Single Select Problem`. 
 
+^^^^^^^^^^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^^^^^^^^^^
 
 ``<solution>``
 
+----------------------------
 ``<solution>``
-**************
+----------------------------
 
 Optional. Specifies the explanation shown to learners for a given answer. This
 element contains an HTML division ``<div>``. The division contains one or more
 paragraphs ``<p>`` of explanatory text. See 
 :ref:`Answer Pools in a Single Select Problem`.
 
+^^^^^^^^^^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
