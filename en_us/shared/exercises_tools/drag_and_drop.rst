@@ -14,6 +14,13 @@ to use drag and drop problems in your course.
   :local:
   :depth: 1
 
+.. note::
+    This drag and drop problem type is intended as a replacement for an older
+    drag and drop problem type. This drag and drop problem type includes
+    significant improvements and you should use it for any new course
+    development. For more information about the previous, deprecated drag and
+    drop problem type, see :ref:`Drag and Drop`.
+
 .. _overview_of_drag_and_drop_problems:
 
 **********************************

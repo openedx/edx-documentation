@@ -29,6 +29,7 @@ For information about building specific course component types, see
    custom_javascript
    custom_python
    drag_and_drop
+   drag_and_drop_deprecated
    dropdown
    external_graders
    full_screen_image

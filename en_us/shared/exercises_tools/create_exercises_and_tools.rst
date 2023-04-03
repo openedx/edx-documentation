@@ -286,6 +286,13 @@ tools that you can add to your course.
      - Learners respond to a question by dragging text or objects to a specific
        location on an image.
      - Full support; mobile-ready
+   * - :ref:`Drag and Drop`
+     - Learners respond to a question by dragging text or objects to a specific
+       location on an image. This version of the drag and drop problem type is
+       deprecated and should not be added to a course. For more information
+       about the fully supported drag and drop problem type, see
+       :ref:`drag_and_drop_problem`.
+     - Not supported
    * - :ref:`External Grader`
      - An external grader is a service that receives learner responses to a
        problem, processes those responses, and returns feedback and a problem
