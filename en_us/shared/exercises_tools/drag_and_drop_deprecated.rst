@@ -80,9 +80,11 @@ to drag labels onto, and then create a problem component.
     Sweden label).
 
     .. code-block:: xml
+
         correct-answer = {
                 '1':    [[50, 50], 75]
                 '2':    [[550, 350], 75]}
+
     .. note:: Make sure the code contains the closing curly brace (``}``).
 
 #. Click **Save**.
@@ -115,6 +117,7 @@ page, and then add the code for the problem to a problem component.
 **Problem Code**:
 
 .. code-block:: xml
+
   <problem>
     <p> Allopurinol is a drug used to treat and prevent gout, a very painful form of arthritis. Once only a “rich man’s disease”, gout has become more and more common in recent decades – affecting about 3 million people in the United States alone. Deposits of needle-like crystals of uric acid in connective tissue or joint spaces cause the symptoms of swelling, stiffness and intense pain. Individuals with gout overproduce uric acid because they cannot eliminate it efficiently. Allopurinol treats and prevents gout by stopping the overproduction of uric acid through inhibition of an enzyme required for the synthesis of uric acid. </p>
     <p> You are shown one of many possible molecules. On the structure of allopurinol below, identify the functional groups that are present by dragging the functional group name listed onto the appropriate target boxes on the structure. If you want to change an answer, you have to drag off the name as well. You may need to scroll through the names of functional groups to see all options. </p>
@@ -146,6 +149,8 @@ page, and then add the code for the problem to a problem component.
       <img src="/static/AllopurinolAnswer.gif"/>
     </solution>
   </problem>
+
+
 .. _Drag and Drop Problem XML:
 
 *********************************
@@ -153,6 +158,7 @@ Drag and Drop Problem XML
 *********************************
 
 .. code-block:: xml
+
  <problem>
      <customresponse>
          <p>Drag each word in the scrollbar to the bucket that matches the number of
@@ -190,7 +196,9 @@ Drag and Drop Problem XML
          </answer>
      </customresponse>
  </problem>
+
 .. code-block:: xml
+
  <problem>
      <customresponse>
          <p>Label the hydrogen atoms connected with the left carbon atom.</p>
@@ -223,6 +231,8 @@ Drag and Drop Problem XML
          </answer>
      </customresponse>
  </problem>
+
+
 ========
 Tags
 ========
