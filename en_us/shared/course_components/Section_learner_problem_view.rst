@@ -38,7 +38,7 @@ an option is available in problems.
 
      .. note::
        If you want to temporarily or permanently hide learners' results for
-       the problem, see :ref:`Problem Results Visibility`.
+       problems inside of a subsection, see :ref:`Problem Results Visibility`.
 
 #. **Attempts.** You can set a specific number of attempts or allow unlimited
    attempts for a problem. By default, the course-wide **Maximum Attempts**
@@ -96,17 +96,13 @@ an option is available in problems.
 
    .. note::
      If you want to temporarily or permanently hide learners' results for
-     the problem, see :ref:`Problem Results Visibility`.
+     problems inside of a subsection, see :ref:`Problem Results Visibility`.
 
 In addition to the items above, which are shown in the example, problems also
 have the following elements.
 
 * **Correct answer.** Most problems require that you specify a single correct
   answer.
-
-     .. note::
-       If you want to temporarily or permanently hide learners' results for
-       the problem, see :ref:`Problem Results Visibility`.
 
 * **Explanation.** You can include an explanation that appears when a learner
   selects **Show Answer**.

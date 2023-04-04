@@ -960,8 +960,7 @@ S
 
 **simple editor**
 
-  The graphical user interface in a problem component that contains a toolbar
-  for adding Markdown formatting to the text you supply. The simple editor is
+  The graphical user interface in a problem component. The simple editor is
   available for some problem types. For more information, see
   :ref:`partnercoursestaff:Problem Studio View`.
 

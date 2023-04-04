@@ -9,16 +9,19 @@ steps.
 #. From the list of **Common Problem Types**, select the type of problem you
    want to add. Studio adds a template for the problem to the unit.
 
-#. Select **Edit**. The simple editor opens to a template that shows the
-   Markdown formatting that you use for this problem type.
+#. Select **Edit**. The simple editor opens.
 
-#. Replace the guidance provided by the template to add your own text for the
-   question or prompt, answer options, explanation, and so on.
+#. Add a **Display Name** by clicking the pen by the field at the top and
+   entering the desired text.
+
+#. Add your own content for the question or prompt, explanation, answer
+   options, and so on.
 
    To format equations, you can use MathJax. For more information, see
    :ref:`MathJax in Studio`.
 
-#. Select **Settings** to provide an identifying **Display Name** and define
-   settings for the problem. For more information, see :ref:`Problem Settings`.
+#. Configure the **Settings** to the right of the problem. Default values are
+   used for unconfigured settings. For more information, see
+   :ref:`Problem Settings`.
 
 #. Select **Save**.

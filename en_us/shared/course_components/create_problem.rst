@@ -67,15 +67,19 @@ types** or select Advanced problem types for a list of **advanced problem types*
   this editor, you can quickly create problems with question and answer formats.
   Options for scoring, hints, feedback and more can be entered.
 
-* For advanced problem types (with the exception of :ref:`open response
-  assessment<Open Response Assessments Two>`), the :ref:`advanced editor<Advanced
-  Editor>` opens. In this editor you use open learning XML (OLX) elements and
-  attributes to identify the elements of the problem. Options for scoring,
+* For advanced problem types, the :ref:`advanced editor<Advanced Editor>` opens.
+  In this editor you use :ref:`open learning XML (OLX)<edX Open Learning XML Guide>`
+  elements and attributes to identify the elements of the problem. Options for scoring,
   feedback and more can be entered.
 
-  For open response assessment problem types, you define the problem elements
-  and options by using a graphical user interface. For more information, see
+* For open response assessment problem types, you define the problem elements and
+  options by using a graphical user interface. For more information, see
   :ref:`PA Create an ORA Assignment`.
+
+* For drag and drop problem types, you build an interactive assessment in a
+  customized interface in which you define areas that learners can drag into target
+  zones on a background image. For more information, see
+  :ref:`creating_a_drag_and_drop_problem`.
 
 You can switch from the simple editor to the advanced editor at any time by
 selecting the **Switch to advanced editor** from the simple editor's settings.
@@ -163,19 +167,89 @@ problem types.
  :alt: An example answer field in the simple editor.
  :width: 600
 
-#. **Correct Answer**: The selected or checked answer(s) are the correct. The
-   dropdown problem type has radio buttons which allow you to select only one
-   correct answer. The numeric input problem type automatically comes with
-   checked answers as you cannot enter incorrect answers. The other problem
-   types allow you to select any number of correct answers.
+#. **Correct Answer**: The selected or checked answer(s) are the correct answers.
+   Due to the nature of dropdowns only allowing a single selection, the dropdown
+   problem type has radio buttons which allow you to select only one correct
+   answer. As you cannot enter incorrect answers for numeric input problems,
+   the numeric input problem type automatically comes with checked answers.
+   The other problem types allow you to select any number of correct answers.
 
 #. **Answer Feedback**: Opens up the feedback panel for an answer option. For
-   more information, see :ref:`Adding Feedback and Hints to a Problem`.
+   more information, see the following **Adding Feedback** section.
 
 #. **Delete Answer**: Removes the corresponding line of answer buttons and
    fields.
 
 #. **Add Answer**: Adds a new line of answer buttons and fields.
+
+.. _Adding Feedback:
+
+================
+Adding Feedback
+================
+
+You can add feedback that displays to learners after they submit an answer.
+
+For example, the following single select problem provides feedback in
+response to the selected option when the learner selects **Submit**. In this
+case, feedback is given for an incorrect answer.
+
+.. image:: ../../../shared/images/multiple_choice_feedback.png
+ :alt: Image of a single select problem with feedback.
+ :width: 600
+
+While editing a problem block, you can apply **Answer-specific feedback**
+for all problem types. **Group feedback** can only be applied to 
+**multi-select** problems.
+
+**Answer-specific feedback** can be added under each answer by pressing
+the feedback icon to the right of the answer text. Feedback entered in
+these fields are given when the learner selects that answer or when the
+learner does not select that answer.
+
+.. image:: ../../../shared/images/problem_editor_feedback_box.png
+ :alt: Image of the answer-specific feedback settings.
+ :width: 600
+
+.. note::
+   The “is not selected” feedback field shown above is only available
+   for the **multi-select** problem type.
+
+**Group Feedback** can be found on the collapsible settings to the right of
+the problem editor. Feedback entered in this field will display if and
+only if the learner selects all of the checked answers. Click the 
+**Add group feedback** button to add additional feedback for different
+groups of checked answers. **Group feedback** can only be applied for
+the **multi-select** problem type.
+
+.. image:: ../../../shared/images/problem_editor_group_feedback_box.png
+ :alt: Image of the group feedback settings.
+ :width: 300
+
+.. note::
+   Feedback for incorrect answers in the **numerical input** problem type
+   is not supported.
+
+---------------------------------------------
+Best Practices for Providing Feedback
+---------------------------------------------
+
+The immediacy of the feedback available to learners is a key advantage of
+online instruction and difficult to do in a traditional classroom environment.
+
+You can target feedback for common incorrect answers to the misconceptions that
+are common for the level of the learner (for example, elementary, middle, high
+school, college).
+
+In addition, you can create feedback that provides some guidance to the learner
+about how to arrive at the correct answer. This is especially important in text
+input problems, because without such guidance, learners might
+not be able to proceed.
+
+You should also include feedback for the correct answer to reinforce why the
+answer is correct. Especially in questions where learners are able to guess,
+such as single select and dropdown problems, the feedback should provide a
+reason why the selection is correct.
 
 .. _Adding Mathematics:
 
@@ -193,13 +267,16 @@ Studio`.
 Defining Settings for Problem Components
 ****************************************
 
-In addition to the text of the problem and its Markdown formatting or OLX
+In addition to the text of the problem and its formatting or OLX
 markup, you define the following settings for problem components. To access
-these settings, you edit the problem and then select **Settings**.
+these settings, edit the problem. With the exception of **Display Name**,
+you can find all of these settings on the right side of your problem. Click
+on **Show advanced settings** to view additional options such as
+**Show Answer**, **Show reset option** and **Time between attempts**.
 
 .. contents::
   :local:
-  :depth: 1
+  :depth: 2
 
 If you do not edit these settings, default values are supplied for your
 problems.
@@ -220,6 +297,9 @@ problem for you in Insights. Be sure to add unique, descriptive display names
 so that you, and your learners, can identify specific problems quickly and
 accurately.
 
+You can find the display name setting at the top of your problem. To edit,
+click the pen symbol to the right of the field and enter the desired text.
+
 The following illustration shows the display name of a problem in Studio, in
 the LMS, and in Insights.
 
@@ -231,14 +311,52 @@ the LMS, and in Insights.
 For more information about metrics for your course's problem components, see
 `Using edX Insights`_.
 
-=================
-Maximum Attempts
-=================
+.. _Problem Type:
 
-This setting can be found under Scoring and specifies the number of times that
-a learner is allowed to try to answer this problem correctly. You can define a
-different **Attempts** value for each problem. Setting the Attempts value to
-empty means that learners have an unlimited number of attempts.
+========
+Type
+========
+
+You can change the problem type after your initial selection. The current
+problem type is shown with a check mark. Selecting any other problem type will
+change your problem to that type while carrying over the content you have already
+prepared. Please check your selection for correct answers as these may not carry
+over when changing problem types.
+
+.. note:: If you would like to convert your problem into an advanced problem,
+  scroll down to the bottom of the settings, click **Show advanced settings**
+  and then click **Switch to advanced editor**.
+
+.. _Problem Scoring:
+
+==========
+Scoring
+==========
+
+These settings allow you to change the amount of points your problem is worth
+and the number of attempts a student has for answering it.
+
+---------------
+Problem Points
+---------------
+
+This setting specifies the total number of points possible for the problem.
+This defaults to 1 point. In the LMS, the number of points a problem is worth
+appears near the problem's display name. 
+
+.. note::
+  The LMS scores all problems. However, only scores for problem
+  components that are in graded subsections count toward a learner's final
+  grade.
+
+---------------
+Attempts
+---------------
+
+This setting specifies the number of times that a learner is allowed to try
+to answer this problem correctly. You can define a different **Attempts**
+value for each problem. Setting the Attempts value to empty means that learners
+have an unlimited number of attempts.
 
 A course-wide **Maximum Attempts** setting defines the default value for this
 problem-specific setting. Initially, the value for the course-wide setting is
@@ -260,22 +378,48 @@ Answer Distribution report.
    some courses, such as those that use primarily single select or dropdown
    problems in graded subsections.
 
-.. _Problem Points:
+.. _Hints:
 
-===============
-Problem Points
-===============
+=============
+Hints
+=============
 
-.. note::
-  The LMS scores all problems. However, only scores for problem
-  components that are in graded subsections count toward a learner's final
-  grade.
+.. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
 
-This setting can be found under Scoring and specifies the total number of
-points possible for the problem. In the LMS, the number of points a problem is
-worth appears near the problem's display name.
+When you add hints, the **Hint** button is automatically displayed to learners.
+Learners can access the hints by selecting **Hint** beneath the problem.  A
+learner can view multiple hints by selecting **Hint** multiple times.
 
-.. include:: ../../../shared/exercises_tools/Section_adding_hints.rst
+For example, in the following single select problem, the learner selects
+**Hint** after having made one incorrect attempt.
+
+.. image:: ../../../shared/images/multiple_choice_hint.png
+ :alt: Image of a single select problem with the first hint.
+ :width: 600
+
+The hint text indicates that it is the first of two hints. After the learner
+selects **Next Hint**, both of the available hints appear. When all hints have
+been used, the **Hint** or **Next Hint** option is no longer available.
+
+.. image:: ../../../shared/images/multiple_choice_hint2.png
+ :alt: Image of a single select problem with the second hint.
+ :width: 600
+
+-----------------------------------
+Best Practices for Providing Hints
+-----------------------------------
+
+To ensure that your hints can assist learners with varying backgrounds and
+levels of understanding, you should provide multiple hints with different
+levels of detail.
+
+For example, the first hint can orient the learner to the problem and help
+those struggling to better understand what is being asked.
+
+The second hint can then take the learner further towards the answer.
+
+In problems that are not graded, the third and final hint can explain the
+solution for learners who are still confused.
 
 .. _Show Answer:
 
@@ -360,7 +504,7 @@ Number of Attempts
 -------------------
 
 This setting appears under the Show answer dropdown when the
-**After some numberof attempts**, **After all attempts** or
+**After some number of attempts**, **After all attempts** or
 **After all attempts or correct** option is selected. This limits when
 learners can select the **Show Answer** option for a problem. Learners must
 submit at least the specified number of attemptedanswers for the problem
@@ -389,10 +533,10 @@ reached, the **Reset** option is not visible.
 This problem-level setting overrides the course-level **Show Reset Button for
 Problems** advanced setting.
 
-.. _Timer Between Attempts:
+.. _Time Between Attempts:
 
 =======================
-Timer Between Attempts
+Time Between Attempts
 =======================
 
 This setting can be found on the collapsible settings to the right of the
@@ -583,9 +727,8 @@ Adding Multiple Questions to a Problem Component
 To design an assignment that includes several questions, you add one problem
 component and then edit it to add every question and its answer options, one
 after the other, in that component. Be sure to identify the text of every
-question or prompt with the appropriate Markdown formatting (``>> <<``) or OLX
-``<label>`` element, and include all of the other required elements
-for each question.
+question or prompt with the appropriate OLX ``<label>`` element, and include
+all of the other required elements for each question.
 
 * Each question and its answer options are enclosed by the element that
   identifies the type of problem, such as
@@ -593,8 +736,7 @@ for each question.
   ``<formularesponse>`` for a math expression input question.
 
 * You can provide a different explanation for each question with the
-  appropriate Markdown formatting (``[explanation]``) or OLX ``<solution>``
-  element.
+  OLX ``<solution>`` element.
 
 As a best practice, edX recommends that you avoid including unformatted
 paragraph text between the questions. Screen readers can skip over text that is
@@ -691,7 +833,7 @@ However, if you change a problem or its attributes, existing learner
 information for that problem is not automatically updated.
 
 For example, you release a problem and specify that its answer is 3.
-After some learner have submitted responses, you notice that the answer
+After some learners have submitted responses, you notice that the answer
 should be 2 instead of 3. When you update the problem with the correct
 answer, the LMS does not update scores for learners who originally answered
 2 for the problem and received the wrong score.
