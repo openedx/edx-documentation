@@ -3662,8 +3662,8 @@ field.
        correct and incorrect selections across all of the available choices.
        All other types of feedback are identified as 'single'.
 
-       For more information, see :ref:`partnercoursestaff:Adding Feedback and
-       Hints to a Problem` in the *Building and Running an edX Course* guide.
+       For more information, see the :ref:`feedback<Adding Feedback>` and :ref:`hint<Hints>`
+       sections in the *Building and Running an edX Course* guide.
 
 =================
 ``problem_check``
