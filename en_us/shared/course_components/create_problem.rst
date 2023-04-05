@@ -150,7 +150,7 @@ number of formatting tools to craft your problem.
 #. **More**: Depending on page size, some of the toolbar may not show. Click
    this button to expand or shrink the toolbar.
 
-The explanation field is almost idential to the question field, only missing
+The explanation field is almost identical to the question field, only missing
 the Label button for marking questions.
 
 .. _Answer Fields:
@@ -507,7 +507,7 @@ This setting appears under the Show answer dropdown when the
 **After some number of attempts**, **After all attempts** or
 **After all attempts or correct** option is selected. This limits when
 learners can select the **Show Answer** option for a problem. Learners must
-submit at least the specified number of attemptedanswers for the problem
+submit at least the specified number of attempted answers for the problem
 before the **Show Answer** option is available to them.
 
 .. _Show Reset Button:
@@ -790,9 +790,9 @@ numerical input question follows.
 
 .. _Problem Randomization:
 
-=======================
+***********************
 Problem Randomization
-=======================
+***********************
 
 Presenting different learners with different problems or with different
 versions of the same problem is referred to as "problem randomization".
@@ -816,9 +816,9 @@ course's XML files is no longer supported.
 
 .. _Modifying a Released Problem:
 
-================================
+*****************************
 Modifying a Released Problem
-================================
+*****************************
 
 .. warning::
  Be careful when you modify problems after they have been
@@ -848,9 +848,9 @@ If you change the points setting for the problem in Studio, however, existing
 scores update when the learner's **Progress** page is refreshed. In a live
 section, learners will see the effect of these changes.
 
-------------
+============
 Workarounds
-------------
+============
 
 If you have to modify a released problem in a way that affects grading, you
 have two options to ensure that every learner has the opportunity

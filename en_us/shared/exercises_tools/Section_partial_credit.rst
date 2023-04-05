@@ -7,8 +7,8 @@ Awarding Partial Credit for a Problem
 You can configure the following problem types so that learners can receive
 partial credit for a problem if they submit an answer that is partly correct.
 
-* :ref:`Single Select <Awarding Partial Credit in a Multi-select Problem>`
-* :ref:`Multi-select <Awarding Partial Credit in a Multiple Choice Problem>`
+* :ref:`Single Select <Awarding Partial Credit in a Multiple Choice Problem>`
+* :ref:`Multi-select <Awarding Partial Credit in a Multi-select Problem>`
 * :ref:`Numerical Input <Awarding Partial Credit in a Numerical Input Problem>`
 * :ref:`Custom Python-evaluated Input Problem (Write-Your-Own Grader) <Award Half Credit>`
 
