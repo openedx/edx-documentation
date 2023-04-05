@@ -3543,7 +3543,7 @@ by other XBlocks, such as :ref:`open response assessments<ora2>`,
 different events.
 
 For information about designing problems to include hints, feedback, or
-both, see :ref:`partnercoursestaff:Adding Feedback and Hints to a Problem` in
+both, see the :ref:`feedback<Adding Feedback>` and :ref:`hint<Hints>` sections in
 the *Building and Running an edX Course* guide.
 
 ===============================================
