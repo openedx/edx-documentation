@@ -16,7 +16,6 @@ exercise, tool, or problem type, see :ref:`Levels of Support`.
 
    levels_of_support
    annotation
-   checkbox
    chemical_equation
    circuit_schematic_builder
    completion
@@ -34,8 +33,7 @@ exercise, tool, or problem type, see :ref:`Levels of Support`.
    lti_component
    math_expression_input
    mathjax
-   mult_choice_num_input
-   multiple_choice
+   multi_select
    numerical_input
    open_response_assessments/index
    periodic_table
@@ -45,6 +43,8 @@ exercise, tool, or problem type, see :ref:`Levels of Support`.
    problem_with_hint
    protein_builder
    recommenderXBlock
+   single_select
+   single_select_num_input
    survey
    symbolic_response
    text_input

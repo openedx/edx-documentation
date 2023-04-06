@@ -27,7 +27,7 @@ but for the sake of clarity, some of these fields are documented here.
 
 ``markdown``
   The text of the problem, in Markdown format. This is often written using
-  Studio.
+  Studio. Markdown is no longer supported with the release of the visual editors.
 
 ``display_name``
   The name of the problem, as shown to the learner.

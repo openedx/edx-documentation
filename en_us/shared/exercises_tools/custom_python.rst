@@ -1,8 +1,8 @@
 .. _Write Your Own Grader:
 
-##############################
-Write-Your-Own-Grader Problem
-##############################
+##############################################################
+Custom Python-evaluated Input Problem (Write-Your-Own-Grader)
+##############################################################
 
 .. note:: EdX offers provisional support for this problem type.
 
@@ -36,11 +36,9 @@ Create a Custom Python-Evaluated Input Problem in Studio
 ********************************************************
 
 #. In the unit where you want to create the problem, select **Problem** under
-   **Add New Component**, and then select the **Advanced** tab.
+   **Add New Component**.
 
-#. Select **Custom Python-Evaluated Input**.
-
-#. In the component that appears, select **Edit**.
+#. In the problem editor, select **Advanced problem types**. Then select **Custom Python-Evaluated Input**.
 
 #. In the component editor, edit the problem in :ref:`Script Tag Format`.
 

@@ -100,26 +100,19 @@ Core Problem Types
 The problem types that you can include in any course, without taking any
 other steps to identify or enable additional exercises or tools, are the core
 problem types. When you add a problem component in Studio, the core problem
-types are classified as either **Common Problem Types** or **Advanced**.
+types are classified as either **Simple Problem Types** or **Advanced**.
 
 .. contents::
   :local:
   :depth: 1
 
 =====================
-Common Problem Types
+Simple Problem Types
 =====================
 
-When you select any of the common problem types in Studio the :ref:`simple
-editor<Simple Editor>` opens.
-
-* If you choose the **Blank Common Problem** option, the editor opens without
-  providing a template or example for you to follow You can begin to add text
-  and markdown for required and optional problem elements immediately.
-
-* If you choose one of the following problem types, a template appears in the
-  editor with guidance for adding all of that problem type's required
-  elements, as well as several optional elements.
+When you create a problem in Studio, the editor opens with options for the
+following problem types. When you select any of the simple problem types, the
+:ref:`simple editor<Simple Editor>` opens.
 
 .. list-table::
    :widths: 25 60 20
@@ -128,8 +121,12 @@ editor<Simple Editor>` opens.
    * - Problem Type
      - Description
      - Support
-   * - :ref:`Checkbox`
-     - In checkbox problems, learners select one or more options from a list of
+   * - :ref:`Single Select`
+     - In single select problems, learners select one answer from a set of
+       possible answers, which are visible directly below the question.
+     - Full support; mobile-ready
+   * - :ref:`Multi-select`
+     - In multi-select problems, learners select one or more options from a list of
        possible answers. To answer the problem correctly, a learner must select
        all of the options that are correct answers, and none of the options
        that are incorrect.
@@ -138,10 +135,6 @@ editor<Simple Editor>` opens.
      - In dropdown problems, learners choose one answer from a set of possible
        answers, which are presented in a dropdown list after the learner
        selects the dropdown arrow.
-     - Full support; mobile-ready
-   * - :ref:`Multiple Choice`
-     - In multiple choice problems, learners select one answer from a set of
-       possible answers, which are visible directly below the question.
      - Full support; mobile-ready
    * - :ref:`Numerical Input`
      - In numerical input problems, learners enter numbers or specific and
@@ -157,30 +150,19 @@ editor<Simple Editor>` opens.
      - Full support; mobile-ready
 
 By adding hints, feedback, or both, you can give learners guidance and help
-when they work on a problem. When you choose one of the following common
-problem types, a template provides additional guidance for these options. All
-of these problem types also have full support and are mobile-ready.
-
-* :ref:`Checkboxes with Hints and Feedback <Use Feedback in a Checkbox
-  Problem>`
-
-* :ref:`Dropdown with Hints and Feedback <Use Feedback in a Dropdown Problem>`
-
-* :ref:`Multiple Choice with Hints and Feedback <Use Feedback in a Multiple
-  Choice Problem>`
-
-* :ref:`Numerical Input with Hints and Feedback <Use Feedback in a Numerical
-  Input Problems>`
-
-* :ref:`Text Input with Hints and Feedback <Use Feedback in a Text Input
-  Problem>`
+when they work on a problem. When you choose one of the simple problem types,
+the editor interface provides additional guidance and text fields for entering
+these options. All of these problem types also have full support and are
+mobile-ready.
 
 =========
 Advanced
 =========
 
-When you select any of the advanced problem types in Studio the :ref:`advanced
-editor<Advanced Editor>` opens.
+If none of the simple problem types fit what you need, the editor's problem type
+select page has an option for **Advanced problem types**. Selecting this option
+will bring you to a list of advanced problems. When you select any of the
+advanced problem types, the :ref:`advanced editor<Advanced Editor>` opens.
 
 * If you choose the **Blank Advanced Problem** option, the editor opens without
   providing a template or example for you to follow. You can begin to add OLX
@@ -210,7 +192,7 @@ editor<Advanced Editor>` opens.
        problem or tool that uses JavaScript and then add the problem or tool
        directly into Studio.
      - Full support
-   * - :ref:`Write Your Own Grader`
+   * - :ref:`Custom Python-evaluated Input (Write Your Own Grader)<Write Your Own Grader>`
      - In custom Python-evaluated input (also called "write-your-own-grader")
        problems, the grader uses a Python script that you create and embed in
        the problem to evaluate a learner's response or provide hints. These
@@ -222,13 +204,6 @@ editor<Advanced Editor>` opens.
        expressions. You can specify a correct answer either explicitly or by
        using a Python script.
      - Full support; mobile-ready
-   * - :ref:`Open Response Assessment<Open Response Assessments Two>`
-     - Learners receive feedback on responses that they submit and give
-       feedback to other course participants. Open response assessments include
-       self assessment, peer assessment, and optionally, staff assessment.
-     - Full support
-
-.. when new Drag and Drop is enabled and included in the dropdown, add an entry to this table (above) for it.
 
 .. _Unsupported Advanced Problem Types:
 
@@ -253,13 +228,6 @@ available in Studio. For more information, see
        resistors, and MOSFETs on an interactive grid. They then submit a DC,
        AC, or transient analysis of their circuits to the system for grading.
      - Not supported
-   * - :ref:`Drag and Drop`
-     - Learners respond to a question by dragging text or objects to a specific
-       location on an image. This version of the drag and drop problem type is
-       deprecated and should not be added to a course. For more information
-       about the fully supported drag and drop problem type, see
-       :ref:`drag_and_drop_problem`.
-     - Not supported
    * - :ref:`Image Mapped Input`
      - Learners answer prompts by selecting a defined area in an image. You
        define the area by including coordinates in the body of the problem.
@@ -268,9 +236,8 @@ available in Studio. For more information, see
      - A problem with an adaptive hint evaluates a learner's response, then
        gives the learner feedback or a hint based on that response so that the
        learner is more likely to answer correctly on the next attempt. These
-       problems can be text input or multiple choice problems.
+       problems can be text input or single select problems.
      - Not supported
-
 
 ******************************
 Additional Exercises and Tools
@@ -319,6 +286,13 @@ tools that you can add to your course.
      - Learners respond to a question by dragging text or objects to a specific
        location on an image.
      - Full support; mobile-ready
+   * - :ref:`Drag and Drop`
+     - Learners respond to a question by dragging text or objects to a specific
+       location on an image. This version of the drag and drop problem type is
+       deprecated and should not be added to a course. For more information
+       about the fully supported drag and drop problem type, see
+       :ref:`drag_and_drop_problem`.
+     - Not supported
    * - :ref:`External Grader`
      - An external grader is a service that receives learner responses to a
        problem, processes those responses, and returns feedback and a problem
@@ -343,6 +317,11 @@ tools that you can add to your course.
    * - :ref:`LTI Component`
      - LTI components allow you to add an external learning application or non-
        PDF textbook to Studio.
+     - Full support
+   * - :ref:`Open Response Assessment<Open Response Assessments Two>`
+     - Learners receive feedback on responses that they submit and give
+       feedback to other course participants. Open response assessments include
+       self assessment, peer assessment, and optionally, staff assessment.
      - Full support
    * - :ref:`Oppia Exploration Tool`
      - You can embed Oppia explorations in your course so that learners can
@@ -418,10 +397,6 @@ tools available in Studio. For more information, see
        calculates and displays the effects of the mutations on the mRNA and
        protein.
      - Not supported
-   * - :ref:`Multiple Choice and Numerical Input`
-     - Learners not only choose one answer from a set of possible options, they
-       are also prompted to provide more specific information, if necessary.
-     - Not supported
    * - :ref:`Periodic Table`
      - An interactive periodic table of the elements that shows detailed
        information about each element when learners move the pointer over each
@@ -449,27 +424,45 @@ tools available in Studio. For more information, see
        For example, team members and learners can suggest new resources, vote
        for useful ones, or flag abuse and spam.
      - Not supported
+   * - :ref:`Single Select and Numerical Input`
+     - Learners not only choose one answer from a set of possible options, they
+       are also prompted to provide more specific information, if necessary.
+     - Not supported
    * - :ref:`Zooming Image`
      - Learners can view sections of an image in detail. You specify the
        sections in an image that can be enlarged.
      - Not supported
 
+******************************************
+Analyzing Learner Performance on Problems
+******************************************
+
+For the following problem types in your course, you can use edX Insights to
+review aggregated learner performance data and examine the submitted answers.
+For more information, see :ref:`insights:Using edX Insights`.
+
+* :ref:`Dropdown`
+* :ref:`Math Expression Input`
+* :ref:`Multi-select`
+* :ref:`Numerical Input`
+* :ref:`Single Select`
+* :ref:`Text Input`
+
+.. _Mobile-Ready Problem Types:
 
 *********************************
 Mobile-Ready Problem Types
 *********************************
 
-.. _Mobile-Ready Problem Types:
-
 Learners can read and submit answers for the following types of problems while
 they use the edX mobile app.
 
-* :ref:`Checkbox`
 * :ref:`drag_and_drop_problem`
 * :ref:`Dropdown`
 * :ref:`Math Expression Input`
-* :ref:`Multiple Choice`
+* :ref:`Multi-select`
 * :ref:`Numerical Input`
+* :ref:`Single Select`
 * :ref:`Text Input`
 
 Questions that have other problem types do not appear in the edX mobile app.

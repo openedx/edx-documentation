@@ -141,8 +141,8 @@ In a unit that uses a randomized content block, you can view the list of all
 components that match the filters specified in that block.
 
 For example, if you have specified in the randomized content block that you
-want to provide each student with 3 multiple choice problems, you see all the
-multiple choice problems that exist in the referenced library. In other words,
+want to provide each student with 3 single select problems, you see all the
+single select problems that exist in the referenced library. In other words,
 you see every problem in the library that could potentially be provided to a
 student.
 

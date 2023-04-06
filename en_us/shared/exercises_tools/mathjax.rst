@@ -1,7 +1,7 @@
 .. _MathJax in Studio:
 
 ##############################
-Using MathJax for Mathematics
+MathJax for Mathematics
 ##############################
 
 To produce clear and professional-looking symbols and equations in web browser,
@@ -65,7 +65,7 @@ The Navier-Stokes equation is enclosed in backslashes and brackets, so it
 appears on its own line (display).
 
 .. image:: ../../../shared/images/MathJax_Problem.png
- :alt: A composite image of four views of the same multiple choice problem. The
+ :alt: A composite image of four views of the same single select problem. The
      simple editor Markdown and advanced editor OLX are shown at the top, with
      the rendered problem on the Studio unit page and in the LMS below.
 

@@ -22,7 +22,6 @@ For information about building specific course component types, see
    enable_exercises_tools
    annotation
    calculator
-   checkbox
    chemical_equation
    circuit_schematic_builder
    conditional_module
@@ -40,8 +39,8 @@ For information about building specific course component types, see
    image_mapped_input
    lti_component
    math_expression_input
-   multiple_choice
-   mult_choice_num_input
+   mathjax
+   multi_select
    notes
    numerical_input
    open_response_assessments/index
@@ -56,10 +55,11 @@ For information about building specific course component types, see
    qualtrics
    randomized_content_blocks
    recommenderXBlock
+   single_select
+   single_select_num_input
    staffgraded
    survey
    text_input
    word_cloud
    custom_python
    zooming_image
-   mathjax
