@@ -36,8 +36,7 @@ Documentation
 ==============
 
 The `edX Help Center for Learners`_ includes topics to help you understand how
-to use the edX learning management system. The Help Center is also available 
-when you select **Help** while you are in a course, and from your edX dashboard.
+to use the edX learning management system. The Help Center is also available from withing the learning experinece by selecting the **Help** menu and from within your edX dashboard.
 
 ==============
 In a Course
@@ -69,24 +68,21 @@ these options for getting an answer.
 
 * Investigate other resources. Some courses have a :ref:`wiki<SFD Wiki>`,
   which can be a good source of information. Outside of the course, a
-  course-specific Facebook page or Twitter feed might be available for
+  course-specific social media (ex: Facebook group) or messaging community (ex: Discord) might be available for
   learners to share information.
 
 =================================
 Resources on the edx.org Website
 =================================
 
-To help you get started with the edX learning experience, edX offers a course
-(of course!). You can find the edX Demo_ course on the edx.org website.
+To help you get started with the learning experience, edX offers a Demo_ course
+that introduces the core concepts of using the system.
 
 When you are working in an edX course, you can select **Help** to access a
 help center with `frequently asked questions`_  and answers.
 
 If you still have questions or suggestions, you can contact the `edX Support`_ 
 team for help.
-
-For opportunities to meet others who are interested in edX courses, check the
-edX Global Community meetup_ group.
 
 .. _The edX Partner Portal:
 
@@ -118,32 +114,21 @@ Course Team Support in the edX Partner Portal
 
 EdX partner course teams can get technical support in the `edX Partner
 Portal`_. To access technical support, submit a support ticket, or review any
-support tickets you have created, go to `partners.edx.org`_ and select **Course
-Staff Support** at the top of the page. This option is available on every page
-in the Partner Portal.
+support tickets you have created, go to `partners.edx.org`_ and select **Get Techincal Support**.
 
 .. _The Open edX Portal:
 
 ***********************
-The Open edX Portal
+The Open edX Site
 ***********************
 
-The `Open edX Portal`_ is the destination for learning about hosting an Open
-edX instance, extending the edX platform, and contributing to Open edX. In
-addition, the Open edX Portal provides product announcements and other
+The `Open edX Site`_ is the destination for learning about hosting an Open
+edX instance, extending the edX platform, and contributing to the Open edX project. In
+addition, the Open edX Psite provides product announcements and other
 community resources.
 
-All users can view content on the Open edX Portal without creating an account
+All users can view content on the Open edX site without creating an account
 and logging in.
-
-To comment on blog posts or the edX roadmap, or subscribe to email updates, you
-must create an account and log in. If you do not have an account, follow these
-steps.
-
-#. Visit `open.edx.org/user/register`_.
-#. Fill in your personal details.
-#. Select **Create New Account**. You are then logged in to the `Open edX
-   Portal`_.
 
 .. _Release Announcements through the Open edX Portal:
 
