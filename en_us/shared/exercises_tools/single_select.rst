@@ -355,6 +355,8 @@ Adding Hints
 
 .. include:: ../../../shared/exercises_tools/Subsection_configure_hints_advanced.rst
 
+.. _Awarding Partial Credit in a Multiple Choice Problem:
+
 ========================================
 Awarding Partial Credit
 ========================================
