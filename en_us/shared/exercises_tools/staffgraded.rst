@@ -1,35 +1,45 @@
 .. _StaffGraded:
 
-###################
-Staff Graded Points
-###################
+#######################
+Staff Graded Assignment
+#######################
 
 .. note:: EdX offers provisional support for this tool.
 
-Staff Graded Points allows you to assign scores to learners for off-platform activities
+Staff Graded Assignment allows you to assign scores to learners for off-platform activities
 or participation, at the assessment level. It provides a text component with instructions
 to learners, and a way for you to assign grades.
 
 
 ***************************************
-Create a Staff Graded Points assignment
+Enable Staff Assignment
 ***************************************
 
-#. Under **Add New Component** select **Staff Graded Points**
+Before you can add staff graded assignments to your course, you must enable staff graded
+assignments in Studio.
 
-#. In Advanced Settings, specify **title** and **max_score**
+To enable staff graded assignments in Studio, you add the ``"edx_sga"`` key to the
+**Advanced Module List** on the **Advanced Settings** page. (Be sure to include the
+quotation marks around the key value.) For more information, see
+:ref:`Enable Additional Exercises and Tools`.
 
-#. Specify learner-facing instructions
+***************************************
+Create a Staff Graded Assignment
+***************************************
 
-#. After learners complete the assignment you’re grading, Grade Learners **(see below.)**
+#. Under **Add New Component** select **Advanced** and then select **Staff Graded Assignment**
+
+#. Edit the newly created block, specify **Display Name** and **Maximum Score**
+
+#. After learners complete the assignment you're grading, Grade Learners **(see below.)**
 
 
 
 .. _StaffGraded Settings:
 
-============================
-Staff Graded Points settings
-============================
+=================================
+Staff Graded Assignment Settings
+=================================
 
 .. list-table::
    :widths: 20 80
@@ -39,8 +49,6 @@ Staff Graded Points settings
      - Description
    * - ``Display Name`` (optional)
      - The display name for this component.
-   * - ``Instructions`` (optional)
-     - Markdown formatted instructions to the learner.
    * - ``Problem Weight`` (optional)
      - Enter the number of points possible for this component. The default value is 1.0.
 

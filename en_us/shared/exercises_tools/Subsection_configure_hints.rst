@@ -1,57 +1,12 @@
-====================================
-Configure Hints in the Simple Editor
-====================================
+In the settings panels on the right of the editor, you'll find a Hints panel.
 
-In the simple editor, you configure hints with the following syntax.
+.. image:: ../../../shared/images/problem_editor_hints_box.png
+ :alt: An example of the hints settings panel.
+ :width: 200
 
-::
-
-  ||Hint 1||
-  ||Hint 2||
-  ||Hint n||
+Click the **Add hint** button to add a new hint text field. To delete any hints
+you've added, click the trash can icon next to its respective hint field.
 
 .. note::
   You can configure any number of hints. The learner views one hint at a time
   and views the next one by selecting **Hint** again.
-
-For example, the following problem has two hints.
-
-::
-
-  ||A fruit is the fertilized ovary from a flower.||
-  ||A fruit contains seeds of the plant.||
-
-======================================
-Configure Hints in the Advanced Editor
-======================================
-
-In the advanced editor, you add the ``<demandhint>`` element immediately before
-the closing ``</problem>`` tag, and then configure each hint using the
-``<hint>`` element.
-
-.. code-block:: xml
-
-  .
-  .
-  .
-  <demandhint>
-    <hint>Hint 1</hint>
-    <hint>Hint 2</hint>
-    <hint>Hint 3</hint>
-  </demandhint>
-  </problem>
-
-For example, the following OLX for a multiple choice problem shows two hints.
-
-.. code-block:: xml
-
-  .
-  .
-  .
-  </multiplechoiceresponse>
-  <demandhint>
-    <hint>A fruit is the fertilized ovary from a flower.</hint>
-    <hint>A fruit contains seeds of the plant.</hint>
-  </demandhint>
-  </problem>
-

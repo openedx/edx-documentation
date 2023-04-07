@@ -42,17 +42,14 @@ Create a Custom JavaScript Display and Grading Problem
 #. Create your JavaScript application, and then upload all files associated
    with that application to the **Files & Uploads** page.
 #. In the unit where you want to create the problem, under **Add New
-   Component** select **Problem** , and then select **Advanced**.
-#. Select **Custom JavaScript Display and Grading**.
-#. In the component that appears, select **Edit**.
-
-#. In the component editor, modify the example code according to your problem.
+   Component** select **Problem**.
+#. In the problem editor, select **Advanced problem types**. Then select
+   **Custom JavaScript Display and Grading**.
+#. In the advanced problem editor, modify the example code according to your problem.
    Be sure to specify a ``title`` attribute on the ``jsinput`` tag. This title
    is used for the title attribute on the generated inline frame.
-
-#. (Optional) To add a **Save** button to your problem, select **Settings**, and
-   then set **Maximum Attempts** to a number larger than zero.
-
+#. (Optional) To add a **Save** button to your problem, in the settings panels on
+   the right side of the editor, set **Attempts** to a number larger than zero.
 #. Select **Save**.
 
 

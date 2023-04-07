@@ -258,10 +258,8 @@ Creating a Drag and Drop Problem
 To create a drag and drop problem, follow these steps.
 
 #. In the unit where you want to create the problem, under **Add New
-   Component** select **Advanced**.
-
-#. From the list of advanced components, select **Drag and Drop**.
-
+   Component** select **Drag and Drop**.
+   
    Studio adds the drag and drop problem to the unit.
 
 #. Select **Edit**. The **Editing** dialog box opens.

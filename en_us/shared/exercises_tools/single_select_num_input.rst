@@ -1,17 +1,17 @@
-.. _Multiple Choice and Numerical Input:
+.. _Single Select and Numerical Input:
 
 ############################################
-Multiple Choice and Numerical Input Problem
+Single Select and Numerical Input Problem
 ############################################
 
 .. note:: EdX does not support this problem type.
 
-You can create a problem that combines a multiple choice and numerical input
+You can create a problem that combines a single select and numerical input
 problems. Students not only select a response from options that you provide,
 but also provide more specific information, if necessary.
 
 .. image:: ../../../shared/images/MultipleChoice_NumericalInput.png
-  :alt: Image of a multiple choice and numerical input problem
+  :alt: Image of a single select and numerical input problem
 
 .. note::
  Currently, students can only enter numerals in the text field. Students
@@ -24,15 +24,14 @@ but also provide more specific information, if necessary.
 .. _Create an MCNI Problem:
 
 ********************************************************
-Create a Multiple Choice and Numerical Input Problem
+Create a Single Select and Numerical Input Problem
 ********************************************************
 
-To create a multiple choice and numerical input problem, follow these steps.
+To create a single select and numerical input problem, follow these steps.
 
 #. In the unit where you want to create the problem, click **Problem** under
-   **Add New Component**, and then click the **Advanced** tab.
-#. Click **Blank Advanced Problem**.
-#. In the component that appears, click **Edit**.
+   **Add New Component**.
+#. Clicke ** Advanced problem types**. Then click **Blank Advanced Problem**.
 #. In the component editor, paste the code from below.
 #. Replace the example problem and response options with your own text.
 #. Click **Save**.
@@ -40,7 +39,7 @@ To create a multiple choice and numerical input problem, follow these steps.
 .. _MCNI Problem Code:
 
 ************************************************
-Multiple Choice and Numerical Input Problem Code
+Single Select and Numerical Input Problem Code
 ************************************************
 
 .. code-block:: xml

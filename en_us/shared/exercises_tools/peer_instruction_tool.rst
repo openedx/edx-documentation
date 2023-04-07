@@ -25,7 +25,7 @@ Assignment Overview
 *********************
 
 Assignments created with the peer instruction tool present learners with a
-multiple choice question, and then guide the learners through these stages of
+single select question, and then guide the learners through these stages of
 the exercise.
 
 #. An initial response, which includes both an answer choice and a written

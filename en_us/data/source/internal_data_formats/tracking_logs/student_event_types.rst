@@ -3543,7 +3543,7 @@ by other XBlocks, such as :ref:`open response assessments<ora2>`,
 different events.
 
 For information about designing problems to include hints, feedback, or
-both, see :ref:`partnercoursestaff:Adding Feedback and Hints to a Problem` in
+both, see the :ref:`feedback<Adding Feedback>` and :ref:`hint<Hints>` sections in
 the *Building and Running an edX Course* guide.
 
 ===============================================
@@ -3621,7 +3621,7 @@ field.
    * - ``choice_all``
      - array
      - For problems that have a set of possible answers defined, such as
-       checkbox problems, lists all of the answer choices.
+       multi-select problems, lists all of the answer choices.
    * - ``correctness``
      - Boolean
      - 'True' if the ``student_answer`` response is correct. 'False' if the
@@ -3633,7 +3633,7 @@ field.
    * - ``hints``
      - array
      - Contains a ``text`` member field with the feedback string that was
-       displayed to the user. For some problem types, such as checkbox
+       displayed to the user. For some problem types, such as multi-select
        problems, feedback can be provided for more than one answer at a time,
        including both correct and incorrect answers. A separate ``text`` member
        field is included for each feedback message that was displayed.
@@ -3652,18 +3652,18 @@ field.
    * - ``student_answer``
      - array
      - The answer value selected or supplied by the user. For problem types
-       that accept multiple answers, such as checkbox problems, every response,
+       that accept multiple answers, such as multi-select problems, every response,
        including both selected and unselected options, is included.
    * - ``trigger_type``
      - string
      - Identifies the type of feedback elicited by the ``student_answer``
-       response. For checkbox problems only, course teams can design 'compound'
+       response. For multi-select problems only, course teams can design 'compound'
        feedback that is provided when a user's response matches an exact set of
        correct and incorrect selections across all of the available choices.
        All other types of feedback are identified as 'single'.
 
-       For more information, see :ref:`partnercoursestaff:Adding Feedback and
-       Hints to a Problem` in the *Building and Running an edX Course* guide.
+       For more information, see the :ref:`feedback<Adding Feedback>` and :ref:`hint<Hints>`
+       sections in the *Building and Running an edX Course* guide.
 
 =================
 ``problem_check``

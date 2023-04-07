@@ -6,7 +6,7 @@ Dropdown Problem
 
 .. note:: EdX offers full support for this problem type.
 
-The dropdown problem type is a core problem type that can be added to any
+The dropdown problem type is a simple problem type that can be added to any
 course. Dropdown problems include a question or prompt and
 several answer options with a single correct answer. By adding hints, feedback, or both, you can give
 learners guidance and help when they work on a problem.
@@ -15,135 +15,66 @@ learners guidance and help when they work on a problem.
   :local:
   :depth: 2
 
-For more information about the core problem types, see
+For more information about the simple problem types, see
 :ref:`Working with Problem Components`.
 
 **********
 Overview
 **********
 
-In dropdown problems, learners select one option from a list of answer options.
-Unlike :ref:`multiple choice<Multiple Choice>` problems, where the answer
+In dropdown problems, learners select one answer from a list of answer options.
+Unlike :ref:`single select<Single Select>` problems, where the answer
 choices are always visible directly below the question, the answer options for
 dropdown problems do not appear until the learner selects the dropdown arrow.
 
-Dropdown problems can only have one correct answer per question, we reccomend adding a "Both B & C" option where multiple multiple selections could be correct.
+Dropdown problems can only have one correct answer per question, we recommend
+adding a "Both B & C" answer where multiple selections could be correct.
 
 ================================
 Example Dropdown Problem
 ================================
 
 In the LMS, learners select a single answer option to complete a dropdown
-problem. An example of a completed dropdown problem follows.
+problem. An example of a dropdown problem from the learner's perspective follows.
 
-.. image:: ../../../shared/images/DropdownExample.png
- :alt: A problem component that contains a series of three dropdown problems.
-     The questions have been answered, and two are marked incorrect and one
-     correct.
+.. image:: ../../../shared/images/DropdownExample2.png
+ :alt: A problem component that contains three answer choices.
  :width: 400
-
-In this example, a single problem component contains multiple questions, all
-of them using the dropdown problem type. To add the example illustrated above,
-you enter the following text and Markdown formatting in the simple editor in
-Studio. Then, select **Settings** for the problem to define settings. To
-specify that each question is worth one point, leave the **Problem Weight**
-field empty.
-
-::
-
-  >>What type of data is age?<<
-  [[Nominal, Discrete, (Continuous)]]
-  ---
-  >>What type of data is age, when rounded to the nearest year?<<
-  [[
-  Nominal
-  (Discrete)
-  Continuous
-  ]]
-  ---
-  >>What type of data is life stage, such as infant, child, or adult?<<
-  [[(Nominal), Discrete, Continuous]]
-
-.. note:: You separate :ref:`multiple questions<Multiple Problems in
-  One Component>` in a problem component with three hyphen (``---``)
-  characters. You can separate the answer options with either comma (``,``)
-  characters or new lines. Each question can ONLY have a single correct answer.
-
-The OLX markup for this example problem follows.
-
-.. code-block:: xml
-
-  <problem>
-    <optionresponse>
-      <label>What type of data is age?</label>
-      <optioninput options="('Nominal','Discrete','Continuous')"
-       correct="Continuous"></optioninput>
-    </optionresponse>
-    <optionresponse>
-      <label>What type of data is age, when rounded to the nearest year?</label>
-      <optioninput options="('Nominal','Discrete','Continuous')"
-       correct="Discrete"></optioninput>
-      </optionresponse>
-    <optionresponse>
-      <label>What type of data is life stage, such as infant, child, or adult?</label>
-      <optioninput options="('Nominal','Discrete','Continuous')"
-       correct="Nominal"></optioninput>
-    </optionresponse>
-  </problem>
-
-============================================
-Analyzing Performance on Dropdown Problems
-============================================
-
-For the dropdown problems in your course, you can use edX Insights to review
-aggregated learner performance data and examine submitted answers. For
-more information, see :ref:`insights:Using edX Insights`.
 
 ********************************
 Adding a Dropdown Problem
 ********************************
 
 You add dropdown problems in Studio by selecting the **Problem**
-component type and then using either the simple editor or the advanced editor
-to specify the prompt and the answer options.
+component. In the problem editor, select the **Dropdown** option. Fill in
+the fields on this screen to create your problem.
 
-.. contents::
-  :local:
-  :depth: 1
+.. image:: ../../../shared/images/problem_editor_dropdown.png
+ :alt: An example dropdown problem in the problem editor with number
+    indicators labeling the various features.
+ :width: 800
 
-.. note:: You can begin work on the problem in the simple editor, and then
-  switch to the advanced editor. However, after you save any changes you make
-  in the advanced editor, you cannot switch back to the simple editor.
+Creating a dropdown problem is as simple as:
 
-=================================================
-Use the Simple Editor to Add a Dropdown Problem
-=================================================
+#. Editing the **Display Name**. Click the pen symbol to edit.
+#. Filling in the **Question** field.
+#. Filling in the **Explanation** field. When this is shown to learners is
+   based on the selection in the **Show answer** panel on the right.
+#. Filling in the Answer fields. Select the correct answer by ticking off
+   the radio button. Additional answers can be added by clicking the 
+   **Add answer** button. Answers can be deleted by clicking the trash can
+   icon. Feedback can be provided for each answer. More information on
+   feedback can be found in the following section.
+#. Selecting and filling in any desired settings on the right.
 
-When you add a dropdown problem, you can choose one of these templates.
-
-* **Dropdown**
-
-* **Dropdown with Hints and Feedback**
-
-These templates include the Markdown formatting that you use in the simple
-editor to add a problem without, or with, hints and feedback.
-
-.. include:: ../../../shared/exercises_tools/Section_simple_editor.rst
-
-========================================================================
-Use the Advanced Editor to Add a Dropdown Problem
-========================================================================
-
-You can use the advanced editor to identify the elements of a dropdown
-problem with OLX. For more information, see :ref:`Dropdown Problem XML`.
-
-.. include:: ../../../shared/exercises_tools/Section_advanced_editor.rst
+If you have any questions on the specifics of using the simple editor, please check
+out :ref:`Simple Editor` and :ref:`Problem Settings`.
 
 .. _Use Feedback in a Dropdown Problem:
 
-********************************************
-Adding Feedback to a Dropdown Problem
-********************************************
+===========================================
+Adding Feedback
+===========================================
 
 For an overview of feedback in problems, see :ref:`Adding Feedback and Hints to
 a Problem`. You can add feedback for each of the answer options you provide in
@@ -160,58 +91,65 @@ the problem. Use the following guidelines when providing feedback.
   why the answer is correct for learners who might have selected that answer by
   chance.
 
-You can add feedback in a dropdown problem using the simple editor or the
-advanced editor.
+.. image:: ../../../shared/images/problem_editor_feedback_box_2.png
+ :alt: An example of an expanded feedback section for dropdown problems showing 
+    the 'is selected' feedback field.
+ :width: 600
 
-=========================================
-Configuring Feedback in the Simple Editor
-=========================================
-
-You can configure feedback in the :ref:`simple editor<Simple Editor>`.  When
-you add a dropdown problem, select the template **Dropdown with Hints and
-Feedback**. This template has example feedback syntax that you can replace.
-
-::
-
-  [[
-  Wrong Answer {{Feedback for learners who select this answer.}}
-  Wrong Answer {{Feedback for learners who select this answer.}}
-  (Correct Answer) {{Feedback for learners who select this answer.}}
-  ]]
-
-.. note:: When you include feedback, you might find it more convenient to use
-  new lines to separate the answer options.
-
-For example, the following problem has feedback for each possible answer.
-
-::
-
-  >>A/an ________ is an example of a vegetable.<<
-
-  [[
-    apple {{An apple is the fertilized ovary that comes from an apple tree and
-      contains seeds classifying it as a fruit.}}
-    pumpkin {{A pumpkin is the fertilized ovary of a squash plant and contains
-      seeds classifying it as a fruit.}}
-    (potato) {{A potato is an edible part of a plant in tuber form and is
-      classified as a vegetable}}
-    tomato {{Many people mistakenly think a tomato is a vegetable. However,
-      because a tomato is the fertilized ovary of a tomato plant and contains
-      seeds it is classified as a fruit.}}
-  ]]
+.. _Use Hints in a Dropdown Problem:
 
 ===========================================
-Configuring Feedback in the Advanced Editor
+Adding Hints
 ===========================================
 
-In the advanced editor, you configure answer feedback with the following
-syntax.
+You can add hints to a dropdown problem. For an overview of hints in problems, see
+:ref:`Adding Feedback and Hints to a Problem`.
+
+.. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
+
+.. _Editing Dropdown Problems using the Advanced Editor:
+
+****************************************************
+Editing Dropdown Problems using the Advanced Editor
+****************************************************
+
+If the simple editor is not enough to meet your needs, you can switch over to the
+advanced editor. In the setting panels on the right of the editor, click 
+**Show advanced settings**, then scroll down and click 
+**Switch to advanced editor**.
+
+You can use the advanced editor to identify the elements of a dropdown problem
+with OLX. For more information, see :ref:`Dropdown Problem XML`. To format equations,
+you can use MathJax. For more information, see :ref:`MathJax in Studio`.
+
+You can see the OLX for the example problem from the Overview section below.
 
 .. code-block:: xml
 
-    <option correct="False">Option Label
-      <optionhint>Feedback for when a learner selects this incorrect answer.</optionhint>
-    </option>
+  <problem>
+    <optionresponse>
+      <label>What type of data is age?</label>
+      <optioninput options="('Nominal','Discrete','Continuous')"
+      correct="Continuous"></optioninput>
+    </optionresponse>
+  </problem>
+
+.. note:: You can begin work on the problem in the simple editor, and then
+  switch to the advanced editor. However, after you save any advanced OLX
+  changes you make in the advanced editor, you may not be able to cannot
+  switch back to the simple editor.
+
+=============================
+Adding Feedback
+=============================
+
+In the advanced editor, you configure feedback with the following syntax.
+
+.. code-block:: xml
+
+  <option correct="False">Option Label
+    <optionhint>Feedback for when a learner selects this incorrect answer.</optionhint>
+  </option>
 
 For example, the following problem has feedback for each answer.
 
@@ -223,119 +161,32 @@ For example, the following problem has feedback for each answer.
       <optioninput>
         <option correct="False">apple
           <optionhint>An apple is the fertilized ovary that comes from an
-           apple tree and contains seeds classifying it as a fruit.</optionhint>
+          apple tree and contains seeds classifying it as a fruit.</optionhint>
         </option>
         <option correct="False">pumpkin
           <optionhint>A pumpkin is the fertilized ovary of a squash plant and
-           contains seeds classifying it as a fruit.</optionhint>
+          contains seeds classifying it as a fruit.</optionhint>
         </option>
         <option correct="True">potato
           <optionhint>A potato is an edible part of a plant in tuber form and
-           is classified as a vegetable.</optionhint>
+          is classified as a vegetable.</optionhint>
         </option>
         <option correct="False">tomato
           <optionhint>Many people mistakenly think a tomato is a vegetable.
-           However, because a tomato is the fertilized ovary of a tomato plant
-           and contains seeds it is classified as a fruit.</optionhint>
+          However, because a tomato is the fertilized ovary of a tomato plant
+          and contains seeds it is classified as a fruit.</optionhint>
         </option>
       </optioninput>
     </optionresponse>
   </problem>
 
-===========================
-Customizing Feedback Labels
-===========================
+.. include:: ../../../shared/exercises_tools/Subsection_customizing_feedback_labels.rst
 
-By default, the feedback labels shown to learners are **Correct** and
-**Incorrect**. If you do not define feedback labels, learners see these terms
-when they submit an answer, as in the following example.
+========================================
+Adding Hints
+========================================
 
-::
-
-  Incorrect:
-  An apple is the fertilized ovary that comes from an apple tree and contains
-  seeds classifying it as a fruit.
-
-You can configure the problem to override the default labels. For example, you
-can configure a custom label for a specific wrong answer.
-
-::
-
-  Not Quite:
-  Many people mistakenly think a tomato is a vegetable. However, because a
-  tomato is the fertilized ovary of a tomato plant and contains seeds it is
-  classified as a fruit.
-
-.. note::
-  The default labels **Correct** and **Incorrect** display in the learner's
-  requested language. If you provide custom labels, they display as you define
-  them to all learners. They are not translated into different languages.
-
-Customize Feedback Labels in the Simple Editor
-***********************************************
-
-In the :ref:`simple editor<Simple Editor>`, you configure custom feedback
-labels with the following syntax.
-
-::
-
-  [[
-  Incorrect Answer {{Label:: Feedback for learners who select this answer.}}
-  .
-  .
-  .
-  ]]
-
-That is, you provide the label text, followed by two colon (:) characters,
-before the feedback text.
-
-For example, the following feedback is configured to use a custom label.
-
-::
-
-  [[
-  tomato {{Not Quite:: Many people mistakenly think a tomato is a
-  vegetable. However, because a tomato is the fertilized ovary of a tomato
-  plant and contains seeds, it is a fruit.}}
-  .
-  .
-  .
-  ]]
-
-Customize Feedback Labels in the Advanced Editor
-*************************************************
-
-In the :ref:`advanced editor<Advanced Editor>`, you configure custom feedback
-labels with the following syntax.
-
-.. code-block:: xml
-
-   <option correct="False">Answer
-     <optionhint label="Custom Label">Feedback for learners who select this answer.</optionhint>
-   </option>
-
-For example, the following feedback is configured to use a custom label.
-
-.. code-block:: xml
-
-  <option correct="False">tomato
-    <optionhint label="Not Quite">Many people mistakenly think a tomato is a
-     vegetable. However, because a tomato is the fertilized ovary of a tomato
-     plant and contains seeds it is classified as a fruit.</optionhint>
-  </option>
-
-.. _Use Hints in a Dropdown Problem:
-
-************************************
-Adding Hints to a Dropdown Problem
-************************************
-
-You can add hints to a dropdown problem using the simple editor
-or the advanced editor. For an overview of hints in problems, see
-:ref:`Adding Feedback and Hints to a Problem`.
-
-.. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
-
+.. include:: ../../../shared/exercises_tools/Subsection_configure_hints_advanced.rst
 
 .. _Dropdown Problem XML:
 
@@ -394,64 +245,74 @@ hierarchy of child elements.
 
 In addition, standard HTML tags can be used to format text.
 
+---------------------
 ``<optionresponse>``
-*********************
+---------------------
 
 Required. Indicates that the problem is a dropdown problem.
 
+^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^
 
 * ``<label>``
 * ``<description>``
 * ``<optioninput>``
 * ``<solution>``
 
-
+---------------------
 ``<label>``
-***********
+---------------------
 
 Required. Identifies the question or prompt. You can include HTML tags within
 this element.
 
+^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^
 
 None.
 
+---------------------
 ``<description>``
-*****************
+---------------------
 
 Optional. Provides clarifying information about how to answer the question. You
 can include HTML tags within this element.
 
+^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^
 
 None.
 
+---------------------
 ``<optioninput>``
-*******************
+---------------------
 
 Required. Designates an answer option.
 
+^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -470,20 +331,23 @@ Attributes
      - Used if the ``options`` attribute is set. Required. Indicates
        which of the answer options is correct.
 
+^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^
 
 * ``<option>``
 * ``<optionhint>``
 
+---------------------
 ``<option>``
-**************
+---------------------
 
 Designates an answer option. Either a set of ``<option>`` child elements or the
 ``options`` attribute for ``<optioninput>`` is required.
 
+^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -499,23 +363,27 @@ Attributes
 If the ``<option>`` element is used, ``<optionhint>`` is a child of
 ``<option>``.
 
+---------------------
 ``<optionhint>``
-****************
+---------------------
 
 Optional. Specifies feedback for the answer.
 
+^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^
 
 None.
 
+---------------------
 ``<solution>``
-**************
+---------------------
 
 Optional. Identifies the explanation or solution for the problem, or for one of
 the questions in a problem that contains more than one question.
@@ -523,33 +391,39 @@ the questions in a problem that contains more than one question.
 This element contains an HTML division ``<div>``. The division contains one or
 more paragraphs ``<p>`` of explanatory text.
 
+---------------------
 ``<demandhint>``
-****************
+---------------------
 
 Optional. Specifies hints for the learner. For problems that include multiple
 questions, the hints apply to the entire problem.
 
+^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^
 
 ``<hint>``
 
+---------------------
 ``<hint>``
-**********
+---------------------
 
 Required. Specifies additional information that learners can access if needed.
 
+^^^^^^^^^^^
 Attributes
-==========
+^^^^^^^^^^^
 
 None.
 
+^^^^^^^^^^^
 Children
-========
+^^^^^^^^^^^
 
 None.

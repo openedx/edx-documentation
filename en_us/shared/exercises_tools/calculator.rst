@@ -50,6 +50,7 @@ Enable the Calculator Tool
 
 To enable the calculator tool, follow these steps.
 
-#. In Studio, on the **Settings**  menu, select **Advanced Settings**.
-#. In the **Show Calculator** field, change ``false`` to ``true``.
-#. Select **Save Changes**.
+#. In Studio, from the **Content** menu select **Pages & Resources**.
+#. Click the gear icon on the **Calculator** card shown on this page.
+#. From the **Configure calculator** modal, select the toggle to enable or disable the notes application.
+#. Select **Apply** to save your configuration changes.
