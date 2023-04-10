@@ -42,7 +42,7 @@ imagesize==1.4.1
     # via
     #   -r base.txt
     #   sphinx
-importlib-metadata==6.1.0
+importlib-metadata==6.2.1
     # via
     #   -r base.txt
     #   sphinx
@@ -59,7 +59,7 @@ packaging==23.0
     #   -r base.txt
     #   build
     #   sphinx
-pip-tools==6.12.3
+pip-tools==6.13.0
     # via -r dev.in
 pygments==2.14.0
     # via
@@ -67,7 +67,7 @@ pygments==2.14.0
     #   sphinx
 pyproject-hooks==1.0.0
     # via build
-pytz==2022.7.1
+pytz==2023.3
     # via
     #   -r base.txt
     #   babel
