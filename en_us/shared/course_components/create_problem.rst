@@ -575,7 +575,7 @@ settings to the right of the problem editor after clicking
 **Show advanced settings**.
 
 The Advanced Editor retains several settings from the simple editor such as
-**Scoring**, **Show answer**, **Show reset option**, **Time between attempts**
+**Scoring**, **Show answer**, **Time between attempts**
 and **MATLAB API Key** as well as introduces the **Randomization** setting.
 While the other settings are not shown on the collapsible panes to the right of
 the problem editor, they can be added via editing the OLX.
