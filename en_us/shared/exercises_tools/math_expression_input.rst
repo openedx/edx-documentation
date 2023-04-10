@@ -131,13 +131,8 @@ To create a math expression input problem, follow these steps.
 #. In the unit where you want to create the problem, under **Add New
    Component** select **Problem**.
 
-#. Select **Advanced**.
-
-#. From the list of **Advanced** problem types, select **Math Expression
-   Input**. Studio adds a template for the problem to the unit.
-
-#. Select **Edit**. The advanced editor opens the template and shows the OLX
-   markup that you can use for this problem type.
+#. In the problem editor, select **Advanced problem types**. Then select 
+   **Math Expression Input**.
 
 #. Replace the guidance provided by the template to add your own text. For
    example, replace the question or prompt, answer options, and solution.
@@ -145,7 +140,7 @@ To create a math expression input problem, follow these steps.
 #. Update the OLX to use any additional elements and attributes in your
    problem.
 
-#. Select **Settings** to provide an identifying **Display Name** and define
+#. Provide an identifying **Display Name** and define
    settings for the problem. For more information, see :ref:`Problem Settings`.
 
 #. Select **Save**.

@@ -33,12 +33,12 @@ an option is available in problems.
    problem, the LMS saves the grade and current state of the problem. The
    LMS immediately provides feedback about whether the response is correct
    or incorrect, as well as the problem score. The **Submit** option remains
-   available if the learner has unused attempts remaining, so that she can
+   available if the learner has unused attempts remaining, so that they can
    try to answer the problem again.
 
      .. note::
        If you want to temporarily or permanently hide learners' results for
-       the problem, see :ref:`Problem Results Visibility`.
+       problems inside of a subsection, see :ref:`Problem Results Visibility`.
 
 #. **Attempts.** You can set a specific number of attempts or allow unlimited
    attempts for a problem. By default, the course-wide **Maximum Attempts**
@@ -50,7 +50,7 @@ an option is available in problems.
    Attempts** for an individual problem, the number of attempts for that
    problem defaults to the number of attempts defined in Advanced Settings.
 
-#. **Save.** The learner can select **Save** to save his current response
+#. **Save.** The learner can select **Save** to save their current response
    without submitting it for grading. This allows the learner to stop working
    on a problem and come back to it later.
 
@@ -77,7 +77,7 @@ an option is available in problems.
    problem. If a learner selects **Show Answer**, the learner sees both the
    correct answer and the explanation, if any.
 
-   If you specify a number in **Show Answer: Number of Attempts**, the learner
+   If you specify a number in **Show Answer: After Some Number of Attempts**, the learner
    must submit at least that number of attempted answers before the **Show 
    Answer** option is available for the problem.
 
@@ -96,17 +96,13 @@ an option is available in problems.
 
    .. note::
      If you want to temporarily or permanently hide learners' results for
-     the problem, see :ref:`Problem Results Visibility`.
+     problems inside of a subsection, see :ref:`Problem Results Visibility`.
 
 In addition to the items above, which are shown in the example, problems also
 have the following elements.
 
 * **Correct answer.** Most problems require that you specify a single correct
   answer.
-
-     .. note::
-       If you want to temporarily or permanently hide learners' results for
-       the problem, see :ref:`Problem Results Visibility`.
 
 * **Explanation.** You can include an explanation that appears when a learner
   selects **Show Answer**.
@@ -135,6 +131,3 @@ visible. You can set these attributes in Studio.
   script to randomize the values that are presented to learners. You use this
   setting to define when values are randomized. For more information, see
   :ref:`Randomization`.
-
-*  **Weight.** Different problems in a particular problem set can be
-   given different weights. For more information, see :ref:`Problem Weight`.
