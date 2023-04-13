@@ -10,7 +10,6 @@ Possible roles follow. The PR submitter checks the boxes after each reviewer fin
 
 - [ ] Subject matter expert:
 - [ ] Subject matter expert:
-- [ ] Doc team review (sanity check, copy edit, or dev edit?): @edx/doc
 - [ ] Product review:
 - [ ] Partner support:
 - [ ] PM review:
