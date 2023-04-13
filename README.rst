@@ -1,10 +1,14 @@
 ###################
-EdX Documentation
+edX Documentation
 ###################
 
 The edx-documentation repository contains source files for most of the
-documentation for edX partners and the Open edX community. This repository is
-managed by the edX Documentation team.
+documentation for edX partners and the Open edX community.
+
+* A new site, `docs.openedx.org`_, is currently being built. Before adding new
+  documentation to this repo, consider if the documentation should be added, or
+  moved, to the new site. See the rationale for this decision, as well as more
+  on how the new site is organized, in `this decision document`_.
 
 * API documentation that includes docstrings from code files is stored in the
   repository of that module.
@@ -15,11 +19,15 @@ managed by the edX Documentation team.
 Documentation for developers, researchers, course staff, and students is
 located in the language-specific subdirectories.
 
+.. _docs.openedx.org: https://docs.openedx.org
+
+.. _this decision document: https://docs.openedx.org/en/latest/documentors/decisions/0001-purpose-of-this-repo.html
+
 ******************************
 View Published Documentation
 ******************************
 
-EdX documentation is published through Read the Docs. Links to all published
+edX documentation is published through Read the Docs. Links to all published
 documentation are available through `docs.edx.org`_.
 
 .. _docs.edx.org: http://docs.edx.org
@@ -28,12 +36,9 @@ documentation are available through `docs.edx.org`_.
 Submit Documentation Issues
 ******************************
 
-We welcome input from the community on any documentation issues.  You can
-submit issues to the Documentation project in the `Open edX JIRA board`_.
+You may submit issues via the `edx-documentation GitHub Issues`_ system.
 
-.. _Open edX JIRA board: https://openedx.atlassian.net
-
-You can also email docs@edx.org.
+.. _edx-documentation GitHub Issues: https://github.com/openedx/edx-documentation/issues
 
 **********************************
 Contribute to edX Documentation
@@ -41,7 +46,7 @@ Contribute to edX Documentation
 
 You, the user community, can help update and revise edX documentation.
 
-EdX documentation is published from `RST`_ source files using `Sphinx`_.
+edX documentation is published from `RST`_ source files using `Sphinx`_.
 
 .. _RST: http://docutils.sourceforge.net/rst.html
 .. _Sphinx: http://sphinx-doc.org
@@ -52,8 +57,8 @@ Flow`_.
 
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
 
-All pull requests need approval from edX. For more information, contact edX at
-docs@edx.org.
+All pull requests need approval from project maintainers, who will look over and
+review your contributions.
 
 ============================================
 Supplying Information with a Pull Request
