@@ -42,7 +42,7 @@ imagesize==1.4.1
     # via
     #   -r base.txt
     #   sphinx
-importlib-metadata==6.2.1
+importlib-metadata==6.4.1
     # via
     #   -r base.txt
     #   sphinx
@@ -54,14 +54,14 @@ markupsafe==2.1.2
     # via
     #   -r base.txt
     #   jinja2
-packaging==23.0
+packaging==23.1
     # via
     #   -r base.txt
     #   build
     #   sphinx
 pip-tools==6.13.0
     # via -r dev.in
-pygments==2.14.0
+pygments==2.15.0
     # via
     #   -r base.txt
     #   sphinx
