@@ -31,7 +31,7 @@ Obtaining a Video Transcript
 
   To obtain a transcript in .srt format, you can work with a transcript
   provider such as `3Play Media`_ or `cielo24`_. 3Play Media and cielo24 offer
-  a discounted rate for edX partners.
+  a discounted rate for edX.org partners.
 
   * If your course is on edx.org and you work with 3Play Media or cielo24, you
     can use integrated video transcripts in Studio to obtain transcripts and
