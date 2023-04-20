@@ -41,10 +41,8 @@ edX Learner's Guide
    completing_assignments/proctored_exams/SFD_proctoring_technical_problems
    completing_assignments/proctored_exams/online_proctoring_rules_students
    completing_assignments/timed_exams
-   completing_assignments/SFD_proctored_exams
    completing_assignments/SFD_mathformatting
    completing_assignments/interactive_multiple_choice
-   completing_assignments/online_proctoring_rules_students
    SFD_ORA
    SFD_mathformatting
    SFD_google_docs
