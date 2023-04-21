@@ -4,27 +4,20 @@
 Uploading a Video
 #################
 
-Uploading a video and transcript is different depending on whether your course is on edx.org or Edge.
-
 For more information, see the following topics.
 
 .. contents::
   :local:
   :depth: 2
 
-.. _Uploading a Video for an edx org Course:
+.. _Uploading a Video for an MITX Online Course:
 
 ******************************************
-Uploading a Video for an edx.org Course
+Uploading a Video for an MITx Online Course
 ******************************************
 
-.. note::
-  **This information applies only to courses that run on the edx.org site.**
-  For information about adding video files to courses that run on Edge,
-  see :ref:`Uploading a Video for an Edge Course`.
-
-For :ref:`edx.org courses <Uploading a Video for an edx org Course>`, you
-upload your videos to the **Video Uploads** page. The edX video process then
+For :ref:`MITx Online courses <Uploading a Video for an MITx Online Course>`, you use MIT's ODL Video Services (OVS) to 
+upload your videos to the **Video Uploads** page. The MITX Online video process then
 creates multiple formats and sources for your videos.
 
 For more information, see the following topics.
