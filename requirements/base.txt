@@ -29,7 +29,7 @@ idna==3.4
     # via requests
 imagesize==1.4.1
     # via sphinx
-importlib-metadata==6.4.1
+importlib-metadata==6.6.0
     # via sphinx
 jinja2==3.1.2
     # via sphinx
@@ -41,7 +41,7 @@ packaging==23.1
     #   sphinx
 pydata-sphinx-theme==0.13.3
     # via sphinx-book-theme
-pygments==2.15.0
+pygments==2.15.1
     # via
     #   accessible-pygments
     #   pydata-sphinx-theme

@@ -50,7 +50,7 @@ imagesize==1.4.1
     # via
     #   -r base.txt
     #   sphinx
-importlib-metadata==6.4.1
+importlib-metadata==6.6.0
     # via
     #   -r base.txt
     #   sphinx
@@ -74,7 +74,7 @@ pydata-sphinx-theme==0.13.3
     # via
     #   -r base.txt
     #   sphinx-book-theme
-pygments==2.15.0
+pygments==2.15.1
     # via
     #   -r base.txt
     #   accessible-pygments
