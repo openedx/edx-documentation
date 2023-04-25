@@ -132,7 +132,7 @@ team creates a video component and adds the video ID and transcript to the
 component. For more information, see :ref:`Add a Video to a Course`.
 
 ====================================
-Upload a Video for an edx.org Course
+Upload a Video for an MITx Online Course
 ====================================
 
 To upload video files, both for videos with integrated transcripts and
