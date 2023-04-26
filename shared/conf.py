@@ -4,7 +4,8 @@ import datetime
 import os
 import sys
 import urllib
-from pathlib import Path
+
+# import edx_theme
 
 # What release line is this?  Use "master" for master, and the release name
 # on release branches.  Zebrawood should have "zebrawood".
@@ -37,6 +38,7 @@ pygments_style = 'sphinx'
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
+#   'edx_theme',
     'sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
@@ -66,45 +68,14 @@ if on_rtd:
     html_context["github_base_account"] = 'edx'
     html_context["github_project"] = 'edx-documentation'
 
-html_theme = 'sphinx_book_theme'
-path_to_docs = '/'.join(Path.cwd().parts[-3:])
+html_theme = 'sphinx_rtd_theme'
 
-# html_theme_path = []
-html_theme_options = {
-    "repository_url": "https://github.com/openedx/edx-documentation",
-    "repository_branch": "master",
-    "path_to_docs": path_to_docs,
-    "home_page_in_toc": True,
-    "use_repository_button": True,
-    "use_issues_button": True,
-    "use_edit_page_button": True,
-    # Please don't change unless you know what you're doing.
-    "extra_footer": """
-        <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
-            <img
-                alt="Creative Commons License"
-                style="border-width:0"
-                src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/>
-        </a>
-        <br>
-        These works by
-            <a
-                xmlns:cc="https://creativecommons.org/ns#"
-                href="https://openedx.org"
-                property="cc:attributionName"
-                rel="cc:attributionURL"
-            >The Axim Collaborative</a>
-        are licensed under a
-            <a
-                rel="license"
-                href="https://creativecommons.org/licenses/by-sa/4.0/"
-            >Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-    """
-}
+html_theme_path = '/default.css'
+
+html_theme_options = {}
 html_theme_options['navigation_depth'] = 3
 
-html_logo = "https://logos.openedx.org/open-edx-logo-color.png"
-html_favicon = "https://logos.openedx.org/open-edx-favicon.ico"
+# html_favicon = os.path.join(edx_theme.get_html_theme_path(), 'edx_theme', 'static', 'css', 'favicon.ico')
 
 # Help and Feedback links.  These are customized for the category and audience
 # of the book.  Add a line to the book's conf.py like this:
@@ -179,7 +150,7 @@ if the_builder != "json":
 
 # General information about the project.
 
-copyright = '{year}, The Axim Collaborative'.format(year=datetime.datetime.now().year)
+copyright = '{year}, edX Inc.'.format(year=datetime.datetime.now().year)
 
 # Intersphinx manages the connections between books.
 # Normally the references in a book are downloaded from readthedocs.  But you
