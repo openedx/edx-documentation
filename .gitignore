@@ -36,6 +36,9 @@ autodeploy.properties
 ### Doc health data
 health.csv
 
+### Conf file
+shared/conf.py
+
 ### Translations and Transifex
 .tx/
 .doctrees
