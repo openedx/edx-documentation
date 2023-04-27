@@ -68,12 +68,12 @@ If the course has integrated video transcripts through 3Play Media or cielo24,
 the process has the following steps.
 
 
-
+<!--
 .. image:: ../../../shared/images/VidProc-IT.png
  :width: 600
  :alt: The video process for courses with integrated video transcripts, as
      explained in the following numbered list.
-
+-->
 #. The course team uploads the video file on the **Video Uploads** page.
 
 #. The process assigns a unique video ID to the video. This video ID represents
