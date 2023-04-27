@@ -125,9 +125,9 @@ Configuration options for BBB are presented below:
 If you want to deploy your own server of BBB, please the documentation provided
 by BBB in the links below.
 
-https://docs.bigbluebutton.org/2.5/install.html
+https://docs.bigbluebutton.org/administration/install
 
-https://docs.bigbluebutton.org/admin/lti.html
+https://docs.bigbluebutton.org/administration/lti
 
 Once successfully configured and enabled, BBB will be
 accessible in *Live* tab in course navigation.
