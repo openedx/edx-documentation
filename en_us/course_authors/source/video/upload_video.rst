@@ -1,4 +1,4 @@
-.. _Upload a Video on edX:
+.. _Upload a Video on MITx Online:
 
 #################
 Uploading a Video
@@ -10,14 +10,14 @@ For more information, see the following topics.
   :local:
   :depth: 2
 
-.. _Uploading a Video for an MITX Online Course:
+.. _Uploading a Video for an MITx Online Course:
 
 ******************************************
 Uploading a Video for an MITx Online Course
 ******************************************
 
 For :ref:`MITx Online courses <Uploading a Video for an MITx Online Course>`, you use MIT's ODL Video Services (OVS) to 
-upload your videos to the **Video Uploads** page. The MITX Online video process then
+upload your videos to the **Video Uploads** page. The MITx Online video process then
 creates multiple formats and sources for your videos.
 
 For more information, see the following topics.
@@ -32,14 +32,14 @@ For more information, see the following topics.
 Automated Video Process
 =======================
 
-So that the edX video player can automatically play videos in the best format
+So that the MITx Online video player can automatically play videos in the best format
 for a learner's device and internet connection, after you upload a video for an
-edx.org course, an automated video process creates multiple formats and sources
+MITx Online course, an automated video process creates multiple formats and sources
 for every video. The process also assigns a single video ID to the video that
 represents all of the formats and hosting locations for the video.
 
 * For courses that have :ref:`integrated transcripts <Automated Video Process
-  for Integrated Transcripts>` through 3Play Media or cielo24, the edX
+  for Integrated Transcripts>` through 3Play Media or cielo24, the MITx Online
   automated video process also creates transcripts for each video.
 
 * For courses that have :ref:`non-integrated transcripts <Automated Video
@@ -126,13 +126,13 @@ transcripts, the video processing service completes the following steps.
 
 Either before or after the course team uploads a video on the **Video Uploads**
 page, the course team :ref:`obtains transcripts <Obtain a Video Transcript>`
-from a transcript provider. When the edX video process is complete, and the
+from a transcript provider. When the MITx Online video process is complete, and the
 course team has obtained transcripts from the transcript provider, the course
 team creates a video component and adds the video ID and transcript to the
 component. For more information, see :ref:`Add a Video to a Course`.
 
 ====================================
-Upload a Video for an edx.org Course
+Upload a Video for an MITx Online Course
 ====================================
 
 To upload video files, both for videos with integrated transcripts and
@@ -186,7 +186,7 @@ begins.
 .. note::
   This service takes up to 24 hours to complete.
 
-A list of every file that you attempt to upload to the edX servers appears in
+A list of every file that you attempt to upload to the MITx Online servers appears in
 the **Previous Uploads** section of the **Video Uploads** page. The list
 includes each file's status in the encoding and hosting workflow. In addition,
 you can download a report of the video files that you uploaded. For more
@@ -219,8 +219,7 @@ The encoding and hosting process assigns the following statuses to video files.
       There might be failure instances where a small error message will be displayed
       under the **Failed** status. In most of the cases when the error message is displayed, there
       is a possibility of corruption in the uploaded file (either during the upload or the original
-      video file itself). However, if processing fails more than one time for a file, contact edX partner
-      support at ``partner-support@edx.org``.
+      video file itself). However, if processing fails more than one time for a file, contact MITx Online support at ``mitxonline-support@mit.edu``.
 
   * - **Failed Duplicate**
     - Files failed to upload because the system identified the files as
@@ -229,8 +228,7 @@ The encoding and hosting process assigns the following statuses to video files.
     - Files are undergoing processing to create additional file formats, or are
       waiting for successful transfer to the host sites.
   * - **Invalid Token**
-    - A configuration problem has occurred. If this status appears, contact edX
-      partner support at ``partner-support@edx.org``.
+    - A configuration problem has occurred. If this status appears, contact MITx Online support at ``mitxonline-support@mit.edu``.
   * - **Ready**
     - The encoding process is complete for your files. When you click the names
       of these files, a file on one of the external host sites plays. The
@@ -263,8 +261,8 @@ The encoding and hosting process assigns the following statuses to video files.
          "Remove this video" icon for the video.
       #. Upload the original file again, or upload a replacement file.
 
-      If this problem occurs more than one time for a file, contact edX partner
-      support at ``partner-support@edx.org``.
+      If this problem occurs more than one time for a file, contact MITx Online
+      support at ``mitxonline-support@mit.edu``.
 
   * - **Transcript Ready**
     - Both the video encoding and transcript creation processes are complete.
@@ -280,12 +278,11 @@ The encoding and hosting process assigns the following statuses to video files.
     - All the transcription processes have failed.
 
   * - **Unknown**
-    - A configuration problem has occurred. If this status appears, contact edX
-      partner support at ``partner-support@edx.org``.
+    - A configuration problem has occurred. If this status appears, contact MITx Online support at ``mitxonline-support@mit.edu``.
   * - **Uploaded**
-    - The file has successfully completed uploading to the edX servers.
+    - The file has successfully completed uploading to the MITx Online servers.
   * - **Uploading**
-    - The file has not yet reached the edX servers. If a video has this status
+    - The file has not yet reached the MITx Online servers. If a video has this status
       for more than 48 hours, follow these steps.
 
       #. Verify that the file that you uploaded is in .mp4 or .mov format and
@@ -295,8 +292,7 @@ The encoding and hosting process assigns the following statuses to video files.
          "Remove this video" icon for the video.
       #. Upload the original file again, or upload a replacement file.
 
-      If this problem occurs more than one time for a file, contact edX partner
-      support at ``partner-support@edx.org``.
+      If this problem occurs more than one time for a file, contact MITx Online support at ``mitxonline-support@mit.edu``.
 
 
 
@@ -309,7 +305,7 @@ The Available Encodings report is a comma separated values (.csv) file that
 provides detailed information about the video files that you have uploaded.
 This report includes the status of the encoding and hosting process for each
 video file that you have uploaded, the identifier for the video, and the URLs
-for each encoding format. The edX encoding and hosting process produces these
+for each encoding format. The MITx Online encoding and hosting process produces these
 alternative formats to ensure optimal playback quality for your learners.
 
 You can view the Available Encodings report in a spreadsheet application or
@@ -344,7 +340,7 @@ The .csv file includes the following columns.
   information, see :ref:`Video Processing Statuses`.
 
 The .csv file also includes a column for each of the formats that are the
-result of the edX encoding and hosting process. These columns include the URL
+result of the MITx Online encoding and hosting process. These columns include the URL
 of a host site only after the format is successfully generated and delivered to
 its destination.
 
@@ -365,7 +361,7 @@ its destination.
 * **mobile_low URL**: The location of a 360p resolution video file. Learners
   who download and view course videos on mobile devices view this file.
 
-* **youtube URL**: EdX no longer supports YouTube videos.
+* **youtube URL**: MITx Online does not support YouTube videos.
 
 .. _Delete Videos from Upload Page:
 
@@ -373,7 +369,7 @@ its destination.
 Remove Videos from the Video Uploads Page
 =========================================
 
-A list of every file that has been uploaded to the edX servers appears in the
+A list of every file that has been uploaded to the MITx Online servers appears in the
 **Previous Uploads** section of the **Video Uploads** page. You can remove
 videos from the **Previous Uploads** list without affecting course content
 that uses the video ID of successfully uploaded videos.
@@ -392,22 +388,3 @@ To remove a video from the **Previous Uploads** list, follow these steps.
 
 The selected video is removed from the **Previous Uploads** list. Course
 content that uses the video ID of the removed video is not affected.
-
-.. _Uploading a Video for an Edge Course:
-
-******************************************
-Uploading a Video for an Edge Course
-******************************************
-
-.. note::
-  This information applies only to courses that run on Edge. For information
-  about uploading videos to courses that run on edx.org, see
-  :ref:`Uploading a Video for an edx org Course`.
-
-For :ref:`Edge courses <Uploading a Video for an Edge Course>`, you upload your
-videos to the third party hosting site that you selected. You also obtain the
-transcripts for the videos from your third party provider. You :ref:`add the
-video location <Add a Video>` and :ref:`transcripts manually <Add a Transcript>` when you
-create a video component.
-
-.. include:: ../../../shared/video/upload_video.rst
