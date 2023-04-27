@@ -2,6 +2,10 @@
 Process for Contributing Code
 *****************************
 
+.. tip::
+
+   Looking for fewer words? Checkout the `concise contributing guide <https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+Start+Contributing+Code>`_
+
 Open edX is a massive project, and we would love you to help us build
 the best online education system in the world -- we can't do it alone!
 However, the core committers on the project are also developing features
