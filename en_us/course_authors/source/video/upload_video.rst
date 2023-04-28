@@ -97,11 +97,6 @@ Automated Video Process for Non-Integrated Transcripts
 If the course uses a transcript provider that does not offer integrated
 transcripts, the video processing service completes the following steps.
 
-.. image:: ../../../shared/images/VidProc-NoIT.png
- :width: 600
- :alt: The video process for courses without integrated video transcripts, as
-     explained in the following numbered list.
-
 #. The course team uploads the video file on the **Video Uploads** page.
 
 #. The process assigns a unique video ID to the video. This video ID represents
@@ -131,10 +126,13 @@ Upload a Video for an MITx Online Course
 To upload video files, both for videos with integrated transcripts and
 non-integrated transcripts, follow these steps.
 
-.. important::
-  You must leave the **Video Uploads** page open in your browser until the
-  upload process is complete for all files.
-
+#. Load your course videos onto your MIT Dropbox account. You will navigate to your Dropbox later from ODL Video Services to upload the videos to your course.
+   .. note::
+    If you are unfamiliar with how to use your MIT Dropbox account, please see the :ref:'documentation <https://ist.mit.edu/dropbox>' on the IS&T website.
+    
+  * Video types are limited to .mov and .mp4 files
+  * Video sizes must be under 5 GB
+#. 
 #. Open the course in Studio.
 #. On the **Content** menu, select **Video Uploads**.
 #. Add video files to the **Video Uploads** page. You can drag files to the
