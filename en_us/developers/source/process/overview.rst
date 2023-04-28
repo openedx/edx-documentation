@@ -64,8 +64,7 @@ overview of the process is here:
    :target: ../_images/pr-process.png
 
 .. _Open edX Proposal (OEP) process: http://open-edx-proposals.readthedocs.io/en/latest/
-.. _The instructions here: https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst#step-0-join-the-conversation
-.. _contribution agreement: https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst#step-1-sign-a-contribution-agreement
+.. _contribution agreement: https://openedx.org/cla
 
 General Guidelines
 ------------------
