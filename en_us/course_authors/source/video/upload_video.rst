@@ -142,7 +142,7 @@ non-integrated transcripts, follow these steps.
       :width: 300
       :alt: The ODL Video Services library, with a list of collections. The collection associated with a course will have the course number listed in its title.
       
-      
+
 #. Click "Add Videos from Dropbox." (See #4 below)
 
    .. image:: ../../../shared/images/add_from_dropbox.png
