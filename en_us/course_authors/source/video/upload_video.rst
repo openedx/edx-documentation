@@ -127,6 +127,7 @@ To upload video files, both for videos with integrated transcripts and
 non-integrated transcripts, follow these steps.
 
 #. Load your course videos onto your MIT Dropbox account. You will navigate to your Dropbox later from ODL Video Services to upload the videos to your course.
+
 .. note::
      If you are unfamiliar with how to use your MIT Dropbox account, please see the 'documentation <https://ist.mit.edu/dropbox>'_ on the IS&T website.
 
