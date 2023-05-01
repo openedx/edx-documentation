@@ -134,35 +134,33 @@ non-integrated transcripts, follow these steps.
   * Video types are limited to .mov and .mp4 files
   * Video sizes must be under 5 GB
 
-2. Open the course in Studio.
+2. Go to `ODL Video Services <https://video.odl.mit.edu/>`_ You will need to sign in with your Kerberos account.
 
-#. On the **Content** menu, select **Video Uploads**.
+#. Choose the collectuon associated with your course. (See #3 in the image below):
 
-#. Add video files to the **Video Uploads** page. You can drag files to the
-   page and drop them, or select **Browse your computer** to locate the files
-   to upload.
+   .. image:: ../../../shared/images/find_collection.png
+      :width: 600
+      :alt: The ODL Video Services library, with a list of collections. The collection associated with a course will have the course number listed in its title.
+      
+#. Click "Add Videos from Dropbox." (See #4 below)
 
-   A rectangular tile appears on the page for each file and shows the following
-   information.
+   .. image:: ../../../shared/images/add_from_dropbox.png
+      :width: 600
+      :alt: On the screen with a list of videos associated with your course, click the "Add Videos from Dropbbox" link in the upper right hand corner of the page.
+      
+#. A pop-up will open showing your Dropbox account.
 
-   * The video file name.
-   * A progress bar.
-   * The status of the file upload process.
+#. Select the videos you would like to upload by clicking the checkboxes. You may select as many images as you would like (See #6 in the image below). Then click the "Choose" button (see #7 in the image below).
 
-   When the file has been successfully uploaded, the tile disappears, and an
-   entry for the video appears under **Previous Uploads** with a status of
-   “Uploaded”.
+   .. image:: ../../../shared/images/select_videos.png
+      :width: 600
+      :alt: From your Dropbox you will be able to click a check box next to any of the videos you want to upload and then click "Choose."
 
-#. (optional) Specify a thumbnail image for the video. The thumbnail image is
-   the image that learners see before the video begins to play. To do this,
-   hover the cursor over **Add Thumbnail**, select an image from your computer,
-   and then select **Open**.
+OVS will take a few minutes to upload and process the videos. You will see the status change inside the collection folder.
 
-   If a thumbnail image exists for the video and you want to change the image,
-   hover the cursor over the image, and then select **Edit Thumbnail**. Select
-   an image from your computer, and then select **Open**.
 
-After you have uploaded video files, the edX video process begins. You can
+
+After you have uploaded video files, the MITx Online video process begins. You can
 check the progress of a video file through the service at any time. For more
 information, see :ref:`Monitor Video Processing` or :ref:`Reporting Video
 Status`.
