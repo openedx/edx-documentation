@@ -131,8 +131,8 @@ non-integrated transcripts, follow these steps.
 
 1. Load your course videos onto your MIT Dropbox account. You will navigate to your Dropbox later from ODL Video Services to upload the videos to your course.
 
-* Video types are limited to .mov and .mp4 files
-* Video sizes must be under 5 GB
+  * Video types are limited to .mov and .mp4 files
+  * Video sizes must be under 5 GB
 
 2. Open the course in Studio.
 
