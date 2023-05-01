@@ -139,22 +139,25 @@ non-integrated transcripts, follow these steps.
 #. Choose the collectuon associated with your course. (See #3 in the image below):
 
    .. image:: ../../../shared/images/find_collection.png
-      :width: 600
+      :width: 300
       :alt: The ODL Video Services library, with a list of collections. The collection associated with a course will have the course number listed in its title.
+      
       
 #. Click "Add Videos from Dropbox." (See #4 below)
 
    .. image:: ../../../shared/images/add_from_dropbox.png
-      :width: 600
+      :width: 300
       :alt: On the screen with a list of videos associated with your course, click the "Add Videos from Dropbbox" link in the upper right hand corner of the page.
-      
+   
+   
 #. A pop-up will open showing your Dropbox account.
 
 #. Select the videos you would like to upload by clicking the checkboxes. You may select as many images as you would like (See #6 in the image below). Then click the "Choose" button (see #7 in the image below).
 
    .. image:: ../../../shared/images/select_videos.png
-      :width: 600
+      :width: 300
       :alt: From your Dropbox you will be able to click a check box next to any of the videos you want to upload and then click "Choose."
+
 
 OVS will take a few minutes to upload and process the videos. You will see the status change inside the collection folder.
 
