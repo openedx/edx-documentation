@@ -128,12 +128,16 @@ non-integrated transcripts, follow these steps.
 
 .. note::
   This process requires you to use your MIT Dropbox account. If you are unfamiliar with how to use your MIT Dropbox account, please see the `documentation <https://ist.mit.edu/dropbox>`_ on the IS&T website.
-  
-#. Load your course videos onto your MIT Dropbox account. You will navigate to your Dropbox later from ODL Video Services to upload the videos to your course.
+
+1. Load your course videos onto your MIT Dropbox account. You will navigate to your Dropbox later from ODL Video Services to upload the videos to your course.
+
 * Video types are limited to .mov and .mp4 files
 * Video sizes must be under 5 GB
-#. Open the course in Studio.
+
+2. Open the course in Studio.
+
 #. On the **Content** menu, select **Video Uploads**.
+
 #. Add video files to the **Video Uploads** page. You can drag files to the
    page and drop them, or select **Browse your computer** to locate the files
    to upload.
