@@ -86,7 +86,7 @@ pytz==2023.3
     # via
     #   -r base.txt
     #   babel
-requests==2.28.2
+requests==2.29.0
     # via
     #   -r base.txt
     #   sphinx

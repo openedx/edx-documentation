@@ -48,7 +48,7 @@ pygments==2.15.1
     #   sphinx
 pytz==2023.3
     # via babel
-requests==2.28.2
+requests==2.29.0
     # via sphinx
 snowballstemmer==2.2.0
     # via sphinx
