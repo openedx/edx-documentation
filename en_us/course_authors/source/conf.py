@@ -12,7 +12,5 @@ set_audience(PARTNER, COURSE_TEAMS)
 
 product = 'Partners'
 
-root_doc = '../../../../../qa-mitx-documentation/checkouts/latest/en_us/course_authors/source/index'
-
 def setup(app):
     app.add_config_value('product', '', True)
