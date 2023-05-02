@@ -94,7 +94,7 @@ the process has the following steps.
 
 After the automated video process is complete, the course team creates a video
 component and adds the video ID to the video component. For more information,
-see :ref:`Add a Video to a Course`. 
+see :ref:`add video to course`. 
 
 .. _Automated Video Process for Non Integrated Transcripts:
 
