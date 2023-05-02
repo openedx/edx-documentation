@@ -12,6 +12,7 @@ set_audience(PARTNER, COURSE_TEAMS)
 
 product = 'Partners'
 
+root_doc = 'index.rst'
 
 def setup(app):
     app.add_config_value('product', '', True)
