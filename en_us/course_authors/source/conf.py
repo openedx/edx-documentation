@@ -12,7 +12,7 @@ set_audience(PARTNER, COURSE_TEAMS)
 
 product = 'Partners'
 
-root_doc = '/QA-MITx-documentation/en_us/course_authors/source/index'
+root_doc = 'https://github.com/jakirschner//QA-MITx-documentation/en_us/course_authors/source/index'
 
 def setup(app):
     app.add_config_value('product', '', True)
