@@ -136,7 +136,7 @@ non-integrated transcripts, follow these steps.
 
 2. Go to `ODL Video Services <https://video.odl.mit.edu/>`_ You will need to sign in with your Kerberos account.
 
-#. Choose the collectuon associated with your course. (See #3 in the image below):
+#. Choose the collection associated with your course. (See #3 in the image below):
 
    .. image:: ../../../shared/images/find_collection.png
       :width: 300
@@ -159,14 +159,14 @@ non-integrated transcripts, follow these steps.
       :alt: From your Dropbox you will be able to click a check box next to any of the videos you want to upload and then click "Choose."
 
 
-OVS will take a few minutes to upload and process the videos. You will see the status change inside the collection folder.
+OVS will take a few minutes to upload and process the videos. You will see the status change inside the collection folder. You do not have to remain on the page for process to run. You will receive an email from **MIT ODL Video** with the status of your video once processing is complete. The video will now appear on the **Video Uploads** page within your course.
 
+.. note::
+   **Video uploads, even very large ones, should take less than two hours to complete.** If you have a video that is still processing after two hours, try uploading it again. If it still does not work, please report the issue to your assigned Educational Technologist.
 
-
-After you have uploaded video files, the MITx Online video process begins. You can
-check the progress of a video file through the service at any time. For more
-information, see :ref:`Monitor Video Processing` or :ref:`Reporting Video
-Status`.
+After the automated video process is complete, the course team creates a video
+component and adds the video ID to the video component. For more information,
+see :ref:`Add a Video to a Course`.
 
 
 .. _Monitor Video Processing:
