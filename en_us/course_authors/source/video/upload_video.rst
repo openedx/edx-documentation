@@ -117,7 +117,7 @@ page, the course team :ref:`obtains transcripts <Obtain a Video Transcript>`
 from a transcript provider. When the MITx Online video process is complete, and the
 course team has obtained transcripts from the transcript provider, the course
 team creates a video component and adds the video ID and transcript to the
-component. For more information, see :ref:`Add a Video to a Course`.
+component. For more information, see :ref:`Add a Video to a Course <Add a Video to a Course>`.
 
 ====================================
 Upload a Video for an MITx Online Course
