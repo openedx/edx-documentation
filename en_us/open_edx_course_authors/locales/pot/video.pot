@@ -16,12 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../source/video/add_video_to_course.rst:5
+#: ../../shared/video/add_video_to_course.rst:5
 msgid "Adding a Video to a Course"
 msgstr ""
 
-#: ../../source/video/add_video_to_course.rst:7
-#: ../../source/video/upload_video.rst:7
+#: ../../shared/video/add_video_to_course.rst:7
+#: ../../shared/video/upload_video.rst:7
 msgid "To make a video visible in your course, you create a video component in a unit in Studio, and then you add the following information for the video to the video component."
 msgstr ""
 
