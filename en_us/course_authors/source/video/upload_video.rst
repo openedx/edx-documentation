@@ -67,7 +67,7 @@ Automated Video Process for Integrated Transcripts
 If the course has integrated video transcripts through 3Play Media or cielo24,
 the process has the following steps.
 
-#. The course team uploads the video file on the **Video Uploads** page.
+#. The course team :ref:`uploads a video file <Upload a Video for an MITx Online Course>` via **MIT's ODL Video Services (OVS)**.
 
 #. The process assigns a unique video ID to the video. This video ID represents
    all of the files, hosting locations, and transcripts that the automated
@@ -97,7 +97,7 @@ Automated Video Process for Non-Integrated Transcripts
 If the course uses a transcript provider that does not offer integrated
 transcripts, the video processing service completes the following steps.
 
-#. The course team uploads the video file on the **Video Uploads** page.
+#. The course team :ref:`uploads a video file <Upload a Video for an MITx Online Course>` via **MIT's ODL Video Services (OVS)**.
 
 #. The process assigns a unique video ID to the video. This video ID represents
    all of the files and hosting locations that the automated process creates.
@@ -112,8 +112,7 @@ transcripts, the video processing service completes the following steps.
 
 #. The process uploads the video files to the hosting service.
 
-Either before or after the course team uploads a video on the **Video Uploads**
-page, the course team :ref:`obtains transcripts <Obtain a Video Transcript>`
+Either before or after the course team :ref:`uploads a video file <Upload a Video for an MITx Online Course>`, the course team :ref:`obtains transcripts <Obtain a Video Transcript>`
 from a transcript provider. When the MITx Online video process is complete, and the
 course team has obtained transcripts from the transcript provider, the course
 team creates a video component and adds the video ID and transcript to the
@@ -134,16 +133,16 @@ non-integrated transcripts, follow these steps.
   * Video types are limited to .mov and .mp4 files
   * Video sizes must be under 5 GB
 
-2. Go to `ODL Video Services <https://video.odl.mit.edu/>`_ You will need to sign in with your Kerberos account.
+2. Go to `ODL Video Services <https://video.odl.mit.edu/>`_. You will need to sign in with your Kerberos account.
 
-#. Choose the collection associated with your course. You may want to use the **Find** command on your browser to look for your course number. Also note that there are several pages of collections, and you may have to use the arrows at the bottom of the page to navigate to another page to find your collection. (See #3 in the image below):
+#. Choose the collection associated with your course:
 
    .. image:: ../../../shared/images/find_collection.png
       :width: 300
       :alt: The ODL Video Services library, with a list of collections. The collection associated with a course will have the course number listed in its title.
-      
 
-#. Click **Add Videos from Dropbox.** (See #4 below)
+  * You may want to use the **Find** command on your browser to look for your course number. Also note that there are several pages of collections, and you may have to use the arrows at the bottom of the page to navigate to another page to find your collection:
+4. Click **Add Videos from Dropbox**:
 
    .. image:: ../../../shared/images/add_from_dropbox.png
       :width: 300
@@ -152,17 +151,21 @@ non-integrated transcripts, follow these steps.
    
 #. A pop-up will open showing your Dropbox account.
 
-#. Select the videos you would like to upload by clicking the checkboxes. You may select as many images as you would like (See #6 in the image below). Then click the **Choose** button (see #7 in the image below).
+#. Select the videos you would like to upload by clicking the checkboxes. You may select as many images as you would like (see #6 in the image below). Then click the **Choose** button (see #7 in the image below).
 
    .. image:: ../../../shared/images/select_videos.png
       :width: 300
       :alt: From your Dropbox you will be able to click a check box next to any of the videos you want to upload and then click "Choose."
 
 
-OVS will take a few minutes to upload and process the videos. You will see the status change inside the collection folder. You do not have to remain on the page for process to run. You will receive an email from **MIT ODL Video** with the status of your video once processing is complete. The video will now appear on the **Video Uploads** page within your course.
+OVS will take a few minutes to upload and process the videos. You will see the status change inside the collection folder. You do not have to remain on the page for process to run. You will receive an email from **MIT ODL Video** with the status of your video once processing is complete. The video will now appear on the **Video Uploads** page within your course:
+
+#. Open the course in Studio.
+
+#. On the **Content** menu, select **Video Uploads**.
 
 .. note::
-  **Video uploads, even very large ones, should take less than two hours to complete.** If you have a video that is still processing after two hours, try uploading it again. If it still does not work, please report the issue to your assigned Educational Technologist.
+  **Video uploads, even very large ones, should take less than two hours to complete.** If you have a video that is still processing after two hours, try uploading it again. If it still does not work, please report the issue to your **assigned educational technologist**.
 
 .. note::
   Once you have uploaded a video to your OVS collection, you may delete it from your Dropbox. It will not affect the video collection.
@@ -357,8 +360,6 @@ its destination.
 
 * **mobile_low URL**: The location of a 360p resolution video file. Learners
   who download and view course videos on mobile devices view this file.
-
-* **youtube URL**: MITx Online does not support YouTube videos.
 
 .. _Delete Videos from Upload Page:
 
