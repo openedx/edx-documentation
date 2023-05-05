@@ -1,4 +1,4 @@
-.. _Upload a Video on MITx Online:
+.. _Upload a Video on edX:
 
 #################
 Uploading a Video
@@ -10,13 +10,13 @@ For more information, see the following topics.
   :local:
   :depth: 2
 
-.. _Uploading a Video for an MITx Online Course:
+.. _Uploading a Video for an edx org Course:
 
 ******************************************
 Uploading a Video for an MITx Online Course
 ******************************************
 
-For :ref:`MITx Online courses <Uploading a Video for an MITx Online Course>`, you use **MIT's ODL Video Services (OVS)** to 
+For :ref:`MITx Online courses <Uploading a Video for an edx org Course>`, you use **MIT's ODL Video Services (OVS)** to 
 upload your videos to the **Video Uploads** page. The MITx Online video process then
 creates multiple formats and sources for your videos.
 
@@ -112,7 +112,7 @@ transcripts, the video processing service completes the following steps.
 
 #. The process uploads the video files to the hosting service.
 
-Either before or after the course team :ref:`uploads a video file <Upload a Video for an MITx Online Course>`, the course team :ref:`obtains transcripts <Obtain a Video Transcript>`
+Either before or after the course team :ref:`uploads a video file <Uploading a Video for an edx org Course>`, the course team :ref:`obtains transcripts <Obtain a Video Transcript>`
 from a transcript provider. When the MITx Online video process is complete, and the
 course team has obtained transcripts from the transcript provider, the course
 team creates a video component and adds the video ID and transcript to the

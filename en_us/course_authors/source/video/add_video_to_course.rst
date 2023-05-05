@@ -11,7 +11,7 @@ in Studio, and then you add information for the video to the video component.
  :local:
  :depth: 1
 
-.. _Add a Video to an MITx Online Course:
+.. _Add a Video to an edx org Course:
 
 ********************************
 Add a Video to an MITx Online Course
