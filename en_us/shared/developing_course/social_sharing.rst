@@ -6,6 +6,7 @@ Sharing Course Content on Social Media Platforms
 EdX course video content can now be shared to a select list of Social Media platforms.  At the time of writing, this feature is in limited release, please reach out to your platform operator to include this feature.
 
 .. _Supported Platforms:
+
 ************************************************
 Supported Platforms
 ************************************************
