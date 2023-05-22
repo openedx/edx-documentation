@@ -109,7 +109,7 @@ sphinx-book-theme==1.0.1
     # via -r base.txt
 sphinx-intl==2.1.0
     # via -r base.txt
-sphinx-reredirects==0.1.1
+sphinx-reredirects==0.1.2
     # via -r base.txt
 sphinxcontrib-applehelp==1.0.4
     # via
