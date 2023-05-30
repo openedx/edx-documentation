@@ -50,6 +50,10 @@ imagesize==1.4.1
     # via
     #   -r base.txt
     #   sphinx
+importlib-metadata==6.6.0
+    # via
+    #   -r base.txt
+    #   sphinx
 jinja2==3.1.2
     # via
     #   -r base.txt
@@ -78,6 +82,10 @@ pygments==2.15.1
     #   sphinx
 pyproject-hooks==1.0.0
     # via build
+pytz==2023.3
+    # via
+    #   -r base.txt
+    #   babel
 requests==2.31.0
     # via
     #   -r base.txt
@@ -127,7 +135,9 @@ sphinxcontrib-serializinghtml==1.1.5
     # via
     #   -r base.txt
     #   sphinx
-typing-extensions==4.5.0
+tomli==2.0.1
+    # via build
+typing-extensions==4.6.2
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
@@ -137,6 +147,10 @@ urllib3==2.0.2
     #   requests
 wheel==0.40.0
     # via pip-tools
+zipp==3.15.0
+    # via
+    #   -r base.txt
+    #   importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
