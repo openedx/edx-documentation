@@ -31,6 +31,10 @@ Enabling Content for sharing
 * All Videos
 * No Videos
 
+.. image:: ../../../shared/images/studio-header-video-options.png
+ :alt: Studio course outline page displaying the options for video sharing.
+ :width: 500
+
 .. _Sharing Control:
 
 ****************************************
@@ -45,6 +49,10 @@ Per Video
 
 This is the default state for a course. The default state for a video is unshared. To change the sharing state for a video, click the edit option for the video and navigate to the *Social Sharing* section. This section of the editor will indicate if this video is shared and if the course or the video controls if it is shared or not.
 
+.. image:: ../../../shared/images/content-editor-social-video-settings.png
+ :alt: Content Editor displaying sharing controls for a single video
+ :width: 500
+
 .. note:: Per video share state is persisted even if the course is set to all or no videos. Changing the course to per-video will restore what ever state the video was in beforehand.
 
 All Videos
@@ -56,3 +64,16 @@ No Videos
 =========
 Setting the course to *No Videos* will disable the social sharing links on all course videos.  Any previously shared video links will no longer work, clicking on one in a social media platform  in this state will return a 404 error.
 
+****************************************
+Video Interaction
+****************************************
+The social media platorm, when able, will redirect interactions (i.e., clicks) back to the edX platform and provide a rich interaction with the video and the course.  On this page one can:
+
+* Play the video, with all edx specific controls, as in a course.
+* Learn more about the course.
+* Directly enroll or if already enrolled, retun to the course.
+
+.. image:: ../../../shared/images/lms-public-video-view.png
+ :alt: A public video being displayed on the edX platform
+ :width: 500
+ 
