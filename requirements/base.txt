@@ -54,9 +54,8 @@ snowballstemmer==2.2.0
     # via sphinx
 soupsieve==2.4.1
     # via beautifulsoup4
-sphinx==5.3.0
+sphinx==6.2.1
     # via
-    #   -c common_constraints.txt
     #   -r base.in
     #   pydata-sphinx-theme
     #   sphinx-book-theme
