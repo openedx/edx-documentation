@@ -68,7 +68,7 @@ packaging==23.1
     #   build
     #   pydata-sphinx-theme
     #   sphinx
-pip-tools==6.13.0
+pip-tools==6.14.0
     # via -r dev.in
 pydata-sphinx-theme==0.13.3
     # via
@@ -136,8 +136,10 @@ sphinxcontrib-serializinghtml==1.1.5
     #   -r base.txt
     #   sphinx
 tomli==2.0.1
-    # via build
-typing-extensions==4.6.3
+    # via
+    #   build
+    #   pip-tools
+typing-extensions==4.7.1
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
