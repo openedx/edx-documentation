@@ -478,19 +478,7 @@ peer grading`.
 Flexible Peer Grade Averaging
 *****************************
 
-To reduce the chance of users getting “stuck” in the waiting step, flexible peer grade averaging is a feature that lowers the requirements for a grade in the peer assessment step. Flexible peer grade averaging is set to ON by default for course reruns and new courses.
-
-You can adjust this setting by going to Pages and Resources, and selecting “ORA Flexible Peer Grading”
-
-.. image:: ../../../../shared/images/oraflex_coursesetting.png
-     :alt: Image highlighting a card on the Pages and Resources page that enables flexible peer grading at the course level
-     :width: 600
-
-Then set the toggle for this feature on or off
-
-.. image:: ../../../../shared/images/oraflex_card.png
-     :alt: Image highlighting the toggle for flexible peer grading on the course level
-     :width: 600
+To reduce the change of users getting “stuck” in the waiting step, you can enable this feature to lower the requirements for a grade in the peer assessment step.
 
 When this feature is enabled, seven days after a learner submits, the number of peer reviews required for them to receive a grade decreases to 30% of what it previously was, rounded down to the nearest integer.
 
@@ -504,6 +492,27 @@ Learner B has received only one peer review. This isn't enough for a grade, and 
 .. note:: Fexible Peer Grading will never reduce the number of required peer reviews below 1, but it will
    bring the number to 1. That means if a learner has not recieved any peer reviews after seven days, the
    very first peer review they will recieve will be the entirety of their peer grade.
+
+.. _Flexible Peer Grade Averaging Course Override:
+
+Flexible Peer Grade Averaging Course Override
+*****************************
+
+There is an additional field at the course level to simplify turning flexible peer averaging on for all ORAs in a course. When set to “ON” all peer graded ORAs in the course will have flexible peer grade averaging enabled, with no need to manually change settings on each individual ORA. When set to “OFF” all peer Graded ORAs in the course will fallback to the setting on each individual assignment. This course field is set to ON by default for course reruns and new courses in order to facilitate students receiving a grade in a timely manner.
+
+
+You can adjust this setting by going to Pages and Resources, and selecting “ORA Flexible Peer Grading”
+
+.. image:: ../../../../shared/images/oraflex_coursesetting.png
+     :alt: Image highlighting a card on the Pages and Resources page that enables flexible peer grading at the course level
+     :width: 600
+
+Then set the toggle for this feature on or off
+
+.. image:: ../../../../shared/images/oraflex_card.png
+     :alt: Image highlighting the toggle for flexible peer grading on the course level
+     :width: 600
+
 
 =======================
 Self Assessment Scoring
