@@ -482,13 +482,13 @@ To reduce the chance of users getting “stuck” in the waiting step, flexible 
 
 You can adjust this setting by going to Pages and Resources, and selecting “ORA Flexible Peer Grading”
 
-.. image:: ./images/oraflex_coursesetting.png
+.. image:: ../../../../shared/images/oraflex_coursesetting.png
      :alt: Image highlighting a card on the Pages and Resources page that enables flexible peer grading at the course level
      :width: 600
 
 Then set the toggle for this feature on or off
 
-.. image:: ../images/oraflex_card.png
+.. image:: ../../../../shared/images/oraflex_card.png
      :alt: Image highlighting the toggle for flexible peer grading on the course level
      :width: 600
 
