@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 'edx-documentation'
+  description: "This repository contains the legacy documentation content that is slowly being replaced with https://docs.openedx.org"
+  annotations:
+    openedx.org/arch-interest-groups: "feanil"
+spec:
+  owner: user:feanil
+  type: 'website'
+  lifecycle: 'production'
