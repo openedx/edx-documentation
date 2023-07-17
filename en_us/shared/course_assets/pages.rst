@@ -319,6 +319,16 @@ in the learner experience, and is detailed in :ref:`12.4.1 Using the Teams appli
 
 .. _Reordering and deleting custom pages:
 
+===========================================================
+Configuring Course-level Open Response Assessment Settings 
+===========================================================
+
+To simplify the management of Open Response Assessment (ORA) problems, a card on this page provides a way to enable
+certain course-wide overrides. Rather than going through each ORA in a course indiviually, these overrides allow
+course staff to enable certain new features course-wide.
+
+To learn about Flexible Peer Grading and its associated course override setting, see  :ref:`Flexible Peer Grade Averaging`
+
 ************************************
 Reordering and Deleting Custom Pages
 ************************************
