@@ -32,7 +32,7 @@ charset-normalizer==3.2.0
     # via
     #   -r base.txt
     #   requests
-click==8.1.4
+click==8.1.5
     # via
     #   -r base.txt
     #   pip-tools
@@ -68,7 +68,7 @@ packaging==23.1
     #   build
     #   pydata-sphinx-theme
     #   sphinx
-pip-tools==6.14.0
+pip-tools==7.0.0
     # via -r dev.in
 pydata-sphinx-theme==0.13.3
     # via
@@ -139,6 +139,7 @@ tomli==2.0.1
     # via
     #   build
     #   pip-tools
+    #   pyproject-hooks
 typing-extensions==4.7.1
     # via
     #   -r base.txt
@@ -149,7 +150,7 @@ urllib3==2.0.3
     #   requests
 wheel==0.40.0
     # via pip-tools
-zipp==3.16.0
+zipp==3.16.2
     # via
     #   -r base.txt
     #   importlib-metadata
