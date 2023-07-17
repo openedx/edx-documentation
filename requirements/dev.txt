@@ -24,15 +24,15 @@ beautifulsoup4==4.12.2
     #   pydata-sphinx-theme
 build==0.10.0
     # via pip-tools
-certifi==2022.12.7
+certifi==2023.5.7
     # via
     #   -r base.txt
     #   requests
-charset-normalizer==3.1.0
+charset-normalizer==3.2.0
     # via
     #   -r base.txt
     #   requests
-click==8.1.3
+click==8.1.4
     # via
     #   -r base.txt
     #   pip-tools
@@ -50,7 +50,7 @@ imagesize==1.4.1
     # via
     #   -r base.txt
     #   sphinx
-importlib-metadata==6.6.0
+importlib-metadata==6.8.0
     # via
     #   -r base.txt
     #   sphinx
@@ -58,7 +58,7 @@ jinja2==3.1.2
     # via
     #   -r base.txt
     #   sphinx
-markupsafe==2.1.2
+markupsafe==2.1.3
     # via
     #   -r base.txt
     #   jinja2
@@ -68,7 +68,7 @@ packaging==23.1
     #   build
     #   pydata-sphinx-theme
     #   sphinx
-pip-tools==6.13.0
+pip-tools==6.14.0
     # via -r dev.in
 pydata-sphinx-theme==0.13.3
     # via
@@ -86,7 +86,7 @@ pytz==2023.3
     # via
     #   -r base.txt
     #   babel
-requests==2.28.2
+requests==2.31.0
     # via
     #   -r base.txt
     #   sphinx
@@ -98,7 +98,7 @@ soupsieve==2.4.1
     # via
     #   -r base.txt
     #   beautifulsoup4
-sphinx==5.3.0
+sphinx==6.2.1
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
@@ -109,7 +109,7 @@ sphinx-book-theme==1.0.1
     # via -r base.txt
 sphinx-intl==2.1.0
     # via -r base.txt
-sphinx-reredirects==0.1.1
+sphinx-reredirects==0.1.2
     # via -r base.txt
 sphinxcontrib-applehelp==1.0.4
     # via
@@ -136,18 +136,20 @@ sphinxcontrib-serializinghtml==1.1.5
     #   -r base.txt
     #   sphinx
 tomli==2.0.1
-    # via build
-typing-extensions==4.5.0
+    # via
+    #   build
+    #   pip-tools
+typing-extensions==4.7.1
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
-urllib3==1.26.15
+urllib3==2.0.3
     # via
     #   -r base.txt
     #   requests
 wheel==0.40.0
     # via pip-tools
-zipp==3.15.0
+zipp==3.16.0
     # via
     #   -r base.txt
     #   importlib-metadata
