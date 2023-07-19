@@ -496,7 +496,7 @@ Learner B has received only one peer review. This isn't enough for a grade, and 
 .. _Flexible Peer Grade Averaging Course Override:
 
 Flexible Peer Grade Averaging Course Override
-*****************************
+*********************************************
 
 There is an additional field at the course level to simplify turning flexible peer averaging on for all ORAs in a course. When set to “ON” all peer graded ORAs in the course will have flexible peer grade averaging enabled, with no need to manually change settings on each individual ORA. When set to “OFF” all peer Graded ORAs in the course will fallback to the setting on each individual assignment. This course field is set to ON by default for course reruns and new courses in order to facilitate students receiving a grade in a timely manner.
 
