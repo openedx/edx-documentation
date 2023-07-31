@@ -10,3 +10,4 @@ Contributing to Open edX
     overview
     contributor
     code-considerations
+    core-contributors
