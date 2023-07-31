@@ -7,6 +7,5 @@ Writing Good Code
 .. toctree::
     :maxdepth: 2
 
-    accessibility
     django
 
