@@ -1,11 +1,11 @@
 ..  _edx_javascript_guidelines:
 
-##########################
-EdX JavaScript Style Guide
-##########################
+###############################
+Open edX JavaScript Style Guide
+###############################
 
 This section describes the requirements and conventions used to contribute
-JavaScript programming to the edX platform.
+JavaScript programming to the Open edX platform.
 
 .. contents::
  :local:
@@ -15,13 +15,13 @@ JavaScript programming to the edX platform.
 JavaScript Version
 ******************
 
-edX JavaScript should be written consistent with the latest ECMA-262
+Open edX JavaScript should be written consistent with the latest ECMA-262
 specification in order to ensure future support, the largest community and the
 availability of modern features. To support this syntax in older browsers, use
 `Babel`_. Babel may also be configured to add syntax extensions widely adopted
 by the community of our recommended framework (e.g., `JSX`_).
 
-Note: Much of edX's existing front end code is written conformant to the version
+Note: Much of the existing Open edX front end code is written conformant to the version
 of ECMA-262 released in 2009 (ES5). Files written in ES5 should be gradually
 converted to the newer standard as new development in those feature areas
 requires.
@@ -31,8 +31,8 @@ Code Style
 **********
 
 In order to standardize and enforce Open edX's JavaScript coding style across
-multiple codebases, edX has published an `ESLint`_ configuration that provides
-an enforceable specification. EdX JavaScript style generally follows the
+multiple codebases, Open edX has published an `ESLint`_ configuration that provides
+an enforceable specification. Open edX JavaScript style generally follows the
 `Airbnb JavaScript Style Guide`_, with a few custom rules. The
 `edX ESLint Config`_ is made available as an npm package that can be installed
 into any Open edX package.

@@ -2,9 +2,11 @@
 
 .. _Browsers:
 
-####################
-edX Browser Support
-####################
+########################
+Open edX Browser Support
+########################
+
+TODO: This needs to be removed from all of the books that reference it and be updated for the Open edX community.
 
 Most current browsers will work on edX.org. For best performance, we recommend the latest versions of:
 

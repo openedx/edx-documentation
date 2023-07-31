@@ -21,7 +21,7 @@ This section of the developers' documentation lists and explains the different w
    * -
      - Custom |br|
        JavaScript |br|
-       Applications*
+       Applications
      - LTI
      - External |br|
        Graders
@@ -94,5 +94,3 @@ This section of the developers' documentation lists and explains the different w
      - Possibly
      - No
      - No
-
-(*) :ref:`Custom JavaScript Applications`

@@ -14,7 +14,6 @@ Open edX Developer's Guide
    extending_platform/index
    testing/index
    analytics.rst
-   deploy-new-service
    conventions/index
    internationalization/index
    preventing_xss/index

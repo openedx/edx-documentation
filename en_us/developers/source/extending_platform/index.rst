@@ -7,5 +7,3 @@ Extending the edX Platform
 
     extending
     xblocks
-    javascript
-    js_template_example
