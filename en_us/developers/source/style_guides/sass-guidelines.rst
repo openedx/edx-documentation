@@ -7,6 +7,12 @@ EdX Sass Style Guide
 This section describes the requirements and conventions used to contribute
 Sass stylesheets to the edX platform.
 
+.. warning:: Please note that the project is currently in the process of
+   transitioning to `Design Tokens`_, a better alternative to Sass.  At the
+   time of writing there is no official deprecation plan, but the goal is to
+   eventually remove Sass altogether from the codebase.  The linked document
+   describes the reasons why.
+
 .. contents::
  :local:
  :depth: 2
@@ -57,9 +63,10 @@ This should instead be written as::
       color: $my-custom-color;
     }
 
-.. _CSS Rules: https://github.com/stylelint/stylelint/blob/master/docs/user-guide/rules.md#possible-errors
-.. _default flag: http://sass-lang.com/documentation/file.SASS_REFERENCE.html#Variable_Defaults___default
-.. _edX Stylelint Config: https://github.com/edx-unsupported/stylelint-config-edx
-.. _edX Stylelint Config README: https://github.com/edx-unsupported/stylelint-config-edx#sass-style-guide
+.. _Design Tokens: https://github.com/openedx/paragon/blob/master/docs/decisions/0019-scaling-styles-with-design-tokens.rst
+.. _CSS Rules: https://github.com/stylelint/stylelint/blob/master/docs/user-guide/rules.md
+.. _default flag: https://sass-lang.com/documentation/variables/#default-values
+.. _edX Stylelint Config: https://github.com/openedx/stylelint-config-edx
+.. _edX Stylelint Config README: https://github.com/openedx/stylelint-config-edx#sass-style-guide
 .. _SCSS-Specific Rules: https://www.npmjs.com/package/stylelint-scss#list-of-rules
 .. _Stylelint: https://stylelint.io/
