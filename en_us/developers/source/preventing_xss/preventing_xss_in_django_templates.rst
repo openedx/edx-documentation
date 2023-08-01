@@ -21,11 +21,13 @@ In Django templates, strings wrapped in ``trans`` and ``blocktrans`` are not aut
 
 For most cases simply wrapping the ``trans`` or ``blocktrans`` in a ``force_escape`` filter is sufficient.
 
-.. code:: Basic example
+.. code-block::
+   :name: Basic example
 
     {% trans "somestring" as tmsg %}{{ tmsg | force_escape }}
 
-.. code:: Block Translation Example
+.. code-block::
+   :name: Block Translation Example
 
     {% filter force_escape %}
         {# Translators: Some note here. #}

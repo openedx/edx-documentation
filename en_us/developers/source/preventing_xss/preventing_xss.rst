@@ -11,7 +11,7 @@ practices for handling proper escaping in the Open edX platform to avoid these
 vulnerabilities.
 
 .. note:: If you become aware of security issues, do not report them in
-   public. Instead, please email security@edx.org.
+   public. Instead, please email security@openedx.org.
 
 .. contents::
    :depth: 1

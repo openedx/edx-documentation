@@ -1,8 +1,15 @@
 .. _Contributor:
 
-***********
-Contributor
-***********
+************
+Contributing
+************
+
+
+------------------
+Finding Work To Do
+------------------
+
+TODO: Add Content Here (how to use Feature Requests & Product Roadmap)
 
 Before you make a pull request, it's a good idea to reach out to the
 Open edX community to discuss your ideas. There
@@ -22,10 +29,17 @@ pull request title with "(WIP)" (Work In Progress), or start the pull request
 as a draft on GitHub. Please include a link to a WIP pull request in any
 discussion threads you start.
 
+
+----------------
+Landing The Work
+----------------
+
+TODO: Update This Section
+
 Once you're ready to submit your changes in a pull request, check the following
 list of requirements to be sure that your pull request is ready to be reviewed:
 
-#. Prepare a :doc:`pull request cover letter <cover-letter>`. When you open
+#. Prepare a detailed pull request description. When you open
    your pull request, put your cover letter into the "Description" field on
    GitHub.
 
@@ -56,7 +70,10 @@ list of requirements to be sure that your pull request is ready to be reviewed:
    `contributor's agreement`_, and all libraries included or
    referenced in the pull request must have `compatible licenses`_.
 
-#. All of the tests must pass. If a pull request contains a new feature, it
+#. All of the tests must pass. You'll see the checks that are being run on the
+   bottom of your PR; they must be green.
+
+#. If a pull request contains a new feature, it
    should also contain new tests for that feature. If the pull request fixes a
    bug, it should also contain tests for that bug to be sure that it stays
    fixed. GitHub actions will verify this for your pull request, and point out
@@ -112,13 +129,7 @@ same result in a way that we will accept.
 Once A PR is Open
 -----------------
 
-Once a pull request is open, automation will create a JIRA ticket in 2U's
-system to track review of your pull request. The JIRA ticket is a
-way for non-engineers (particularly, product owners) to understand your change
-and prioritize your pull request for team review.
-
-If you open up your pull request with a solid description, following the
-:doc:`pull request cover letter <cover-letter>` guidelines, the product owners
+If you open up your pull request with a solid description, the product owners
 will be able to quickly understand your change and prioritize it for
 review. However, they may have some questions about your intention, need,
 and/or approach that they will ask about. A community

@@ -12,6 +12,10 @@ platform codebase and run the following command. ::
 
     $ paver run_quality
 
+Most other repos use the command ::
+
+    $ make quality
+
 The following topics provide additional details on the tools that we use.
 
 .. contents::

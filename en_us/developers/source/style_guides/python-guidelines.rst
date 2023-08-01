@@ -1,11 +1,11 @@
 ..  _edx_python_guidelines:
 
-######################
-EdX Python Style Guide
-######################
+###########################
+Open edX Python Style Guide
+###########################
 
 This section describes the requirements and conventions used to contribute
-Python programming to the edX platform.
+Python programming to the Open edX platform.
 
 .. contents::
  :local:
@@ -172,7 +172,7 @@ different sections, and all arguments and return values defined.
 .. note:: There is one exception to the preferred style. REST APIs created
    using Django REST Framework (DRF) must use a hybrid format that is suitable
    both for DRF and ReadTheDocs. For more information see the
-   `edX REST API Conventions`_.
+   `Open edX REST API Conventions`_.
 
 For additional information see these references.
 
@@ -210,10 +210,10 @@ Most of our code is written using an older style::
         Navigates the entire course, adding up the student's grades. Note that
         blah blah blah, and also beware that blah blah blah.
 
-        `course` is an `EdxCourseThingy`. The student must be registered in the
+        `course` is an `OpenedxCourseThingy`. The student must be registered in the
         course, or a `NotRegistered` exception will be raised.
 
-        `student` is an `EdxStudentThingy`.
+        `student` is an `OpenedxStudentThingy`.
 
         Returns a dict with two keys: `total` is a float, the student's total
         score, and `outof` is the maximum possible score.
@@ -251,7 +251,7 @@ References
 * `Pythonic Sensibilities`_
 
 .. _Django Coding Style: https://docs.djangoproject.com/en/1.11/internals/contributing/writing-code/coding-style/
-.. _edX REST API Conventions: https://openedx.atlassian.net/wiki/display/AC/edX+REST+API+Conventions#edXRESTAPIConventions-docstringsDocstringFormat
+.. _Open edX REST API Conventions: https://openedx.atlassian.net/wiki/display/AC/edX+REST+API+Conventions#edXRESTAPIConventions-docstringsDocstringFormat
 .. _Example Google Style Python Docstrings: http://www.sphinx-doc.org/en/stable/ext/example_google.html#example-google
 .. _Google Python Style Guide: https://google.github.io/styleguide/pyguide.html?showone=Comments#Comments
 .. _isort: https://github.com/timothycrosley/isort

@@ -8,6 +8,5 @@ Language Style Guidelines
     :maxdepth: 1
 
     javascript-guidelines
-    ios
     python-guidelines
     sass-guidelines

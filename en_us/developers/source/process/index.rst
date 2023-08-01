@@ -9,8 +9,5 @@ Contributing to Open edX
 
     overview
     contributor
-    cover-letter
-    community-manager
-    product-owner
-    core-committer
     code-considerations
+    core-contributors

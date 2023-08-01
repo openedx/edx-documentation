@@ -15,6 +15,5 @@ file on GitHub.
     jenkins
     code-coverage
     code-quality
-    test_openedx_features
 
 .. _testing.rst: https://github.com/openedx/edx-platform/blob/6d2468d0dcf782a7561ecc61946146d6fae2762f/docs/en_us/internal/testing.rst
