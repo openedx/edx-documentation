@@ -36,7 +36,7 @@ Documentation
 ==============
 
 The `edX Help Center for Learners`_ includes topics to help you understand how
-to use the edX learning management system. The Help Center is also available from withing the learning experinece by selecting the **Help** menu and from within your edX dashboard.
+to use the Open edX learning management system. On edx.org, the Help Center is also available from within the learning experience by selecting the **Help** menu from within your edX dashboard.
 
 ==============
 In a Course
@@ -122,9 +122,9 @@ support tickets you have created, go to `partners.edx.org`_ and select **Get Tec
 The Open edX Site
 ***********************
 
-The `Open edX Site`_ is the destination for learning about hosting an Open
-edX instance, extending the edX platform, and contributing to the Open edX project. In
-addition, the Open edX Psite provides product announcements and other
+The `Open edX Portal`_ is the destination for learning about hosting an Open
+edX instance, extending the Open edX platform, and contributing to the Open edX project. In
+addition, the Open edX site provides product announcements and other
 community resources.
 
 All users can view content on the Open edX site without creating an account
