@@ -68,7 +68,7 @@ packaging==23.1
     #   build
     #   pydata-sphinx-theme
     #   sphinx
-pip-tools==7.2.0
+pip-tools==7.3.0
     # via -r dev.in
 pydata-sphinx-theme==0.13.3
     # via
