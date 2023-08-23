@@ -1,5 +1,6 @@
 .. _Managing Notification Index:
 
+######################
 Managing Notifications
 ######################
 

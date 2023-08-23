@@ -1,5 +1,6 @@
 .. _Managing Notifications:
 
+###############################################
 Navigating the Notifications Tray & Preferences
 ###############################################
 
@@ -7,10 +8,11 @@ This topic describes how to navigate the notifications tray & preferences.
 
 .. contents::
   :local:
-  :depth: 2
+  :depth: 1
 
 .. _Accessing Notifications Tray:
 
+********************************
 Accessing the Notifications Tray
 ********************************
 
@@ -30,6 +32,7 @@ opens related content in a new tab.
 
 .. _Notification Icons, Alerts & Context:
 
+************************************
 Notification Icons, Alerts & Context
 ************************************
 
@@ -48,6 +51,7 @@ it's news from a forum, you'll know which course's forum it's about.
 
 .. _Interacting with Notifications:
 
+******************************
 Interacting with Notifications
 ******************************
 
@@ -62,6 +66,7 @@ preferences page where you can adjust your notification settings.
 
 .. _Notification Lifecycle:
 
+**********************
 Notification Lifecycle
 **********************
 
@@ -70,15 +75,13 @@ the system is designed such that any notification older than three months will b
 automatically deleted. This guarantees that your tray is always populated with recent
 and pertinent alerts.
 
+*******************************************
 Personalizing Your Notification Preferences
 *******************************************
 
-.. contents::
-  :local:
-  :depth: 1
-
 .. _Accessing Notification Preference Settings:
 
+==========================================
 Accessing Notification Preference Settings
 ==========================================
 
@@ -90,6 +93,7 @@ You have two ways to get to your notification preference settings:
 
 .. _Course Specific Preferences:
 
+===========================
 Course-Specific Preferences
 ===========================
 
@@ -104,6 +108,7 @@ Just click on a course to adjust the notifications for it.
 
 .. _Choosing Notifications for Platform Areas:
 
+=========================================
 Choosing Notifications for Platform Areas
 =========================================
 
@@ -114,6 +119,7 @@ specific activities you want to be notified about.
 
 .. _Discussion Notifications:
 
+========================
 Discussion Notifications
 ========================
 
