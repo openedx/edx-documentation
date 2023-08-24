@@ -16,9 +16,9 @@ periods for individual assignments.
   * Timed exams. For more information, see :ref:`Grant Learners More Time for a
     Timed Exam`.
   * Proctored exams.
-  * Open response assessments. For information about setting the response date
-    for an ORA assignment, see :ref:`Specify Assignment Names and Dates <PA
-    Specify Name and Dates>`.
+  * Open response assessments (unless the date configuration on the problem is set to
+    use subsection due dates). For information about setting the response date
+    for an ORA assignment, see :ref:`ORA Assignment Schedule <PA ORA Assignment Schedule>`.
 
 On the **Grading** page, under **Grading Rules & Policies**, enter a value in
 the **Grace Period on Deadline** field. Enter the value in ``HH:MM`` format.
