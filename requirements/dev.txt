@@ -148,7 +148,7 @@ urllib3==2.0.4
     # via
     #   -r base.txt
     #   requests
-wheel==0.41.1
+wheel==0.41.2
     # via pip-tools
 zipp==3.16.2
     # via
