@@ -1,6 +1,5 @@
 .. _SFD Notification Index:
 
-######################
 Managing Notifications
 ######################
 
