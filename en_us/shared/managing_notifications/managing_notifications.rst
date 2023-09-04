@@ -1,18 +1,8 @@
 .. _Managing Notifications:
-
-Navigating the Notifications Tray & Preferences
-###############################################
-
-This topic describes how to navigate the notifications tray & preferences.
-
-.. contents::
-  :local:
-  :depth: 2
-
 .. _Accessing Notifications Tray:
 
 Accessing the Notifications Tray
-********************************
+################################
 
 At the top right of your screen, there's a bell icon. When there are
 unseen notifications, a count will appear next to this icon. Clicking
@@ -31,7 +21,7 @@ opens related content in a new tab.
 .. _Notification Icons, Alerts & Context:
 
 Notification Icons, Alerts & Context
-************************************
+####################################
 
 Each unread notification has a red dot on the right side. There's an icon on
 the left that shows the type of notification, so you can quickly understand
@@ -49,7 +39,7 @@ it's news from a forum, you'll know which course's forum it's about.
 .. _Interacting with Notifications:
 
 Interacting with Notifications
-******************************
+##############################
 
 Once you open the notifications tray, the unseen count will be reset. Inside,
 notifications are organized into tabs corresponding to their learning activity.
@@ -63,7 +53,7 @@ preferences page where you can adjust your notification settings.
 .. _Notification Lifecycle:
 
 Notification Lifecycle
-**********************
+######################
 
 In the spirit of keeping your notification tray decluttered and ensuring relevance,
 the system is designed such that any notification older than three months will be
@@ -71,7 +61,7 @@ automatically deleted. This guarantees that your tray is always populated with r
 and pertinent alerts.
 
 Personalizing Your Notification Preferences
-*******************************************
+###########################################
 
 .. contents::
   :local:
@@ -80,7 +70,7 @@ Personalizing Your Notification Preferences
 .. _Accessing Notification Preference Settings:
 
 Accessing Notification Preference Settings
-==========================================
+******************************************
 
 You have two ways to get to your notification preference settings:
 
@@ -91,7 +81,7 @@ You have two ways to get to your notification preference settings:
 .. _Course Specific Preferences:
 
 Course-Specific Preferences
-===========================
+***************************
 
 Your notification preference settings are set up by course. So, if you're in
 multiple courses, you'll see a list of them when you open the preferences.
@@ -105,7 +95,7 @@ Just click on a course to adjust the notifications for it.
 .. _Choosing Notifications for Platform Areas:
 
 Choosing Notifications for Platform Areas
-=========================================
+*****************************************
 
 Inside each course's settings, you can pick the platform areas you want to get
 notifications from. For example, if you don't want any alerts from 'Discussions',
@@ -115,7 +105,7 @@ specific activities you want to be notified about.
 .. _Discussion Notifications:
 
 Discussion Notifications
-========================
+************************
 
 For the "Discussions" area, here are the choices:
 
