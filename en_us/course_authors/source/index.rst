@@ -30,6 +30,7 @@ Building and Running an edX Course
    releasing_course/index
    manage_live_course/index
    manage_discussions/index
+   managing_notifications/index
    student_progress/index
    rerun_course/index
    glossary
