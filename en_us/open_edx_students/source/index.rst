@@ -26,6 +26,7 @@ Open edX Learner's Guide
    SFD_course_search
    SFD_bookmarks
    SFD_notes
+   sfd_notifications/index
    SFD_wiki
    SFD_licensing
    front_matter/index
