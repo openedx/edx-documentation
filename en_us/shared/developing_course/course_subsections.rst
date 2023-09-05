@@ -257,9 +257,10 @@ designate the assignment type for a subsection as **Homework**, then all
 problem types in that subsection are graded as homework.
 
 .. note::
-   Unlike other problem types, ORA assignments are not governed by the
-   subsection due date. Due dates for each ORA assignment are set in the
-   assignment's settings. For details, see :ref:`PA Specify Name and Dates`.
+   Unlike other problem types, by default, ORA assignments are not governed by the
+   subsection due date, but are instead set in the assignment's settings. There
+   is, however, a setting that allow ORAs to instead use the subsection due date.
+   For details, see :ref:`PA ORA Assignment Schedule`.
 
 To set the assignment type and due date for a subsection, follow these steps.
 
