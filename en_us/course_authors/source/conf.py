@@ -4,6 +4,7 @@ import sys
 sys.path.append('../../../')
 
 from shared.conf import *
+from shared.edxconf import *
 
 project = u'Building and Running an edX Course'
 
