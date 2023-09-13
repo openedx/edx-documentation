@@ -113,8 +113,8 @@ Editing Text Input Problems using the Advanced Editor
 *********************************************************************
 
 If the simple editor is not enough to meet your needs, you can switch over to the
-advanced editor. In the setting panels on the right of the editor, click 
-**Show advanced settings**, then scroll down and click 
+advanced editor. In the setting panels on the right of the editor, click
+**Show advanced settings**, then scroll down and click
 **Switch to advanced editor**.
 
 You can use the advanced editor to identify the elements of a text input problem
@@ -341,6 +341,29 @@ In this example, learners who submit an answer of "string pattern", "String
 Patterns", "string patterned", or "STRING PATTERNING" are all scored as
 correct, but learners who submit an answer of "Strings Pattern" or "string
 patern" are scored as incorrect.
+
+=========================
+Disable MathJax rendering
+=========================
+
+You can configure a text input problem to accept raw expressions which could
+resemble functions that are processed by MathJax by default. Sometimes this
+might not be the expected behaviour, i.e., you want to accept raw expression as
+well as display (show answer) it in its raw form. You can do this by simply
+enclosing ``<stringresponse>`` element in ``<annotation-xm>`` tag. All elements
+inside this tag will be ignored by MathJax processor. An example follows.
+
+.. code-block:: xml
+
+   <problem>
+     <annotation-xml>
+       <stringresponse class="tex2jax_ignore" answer="\s*n\s**?\s*x\[\s*n\s*\]\s*" type="ci">
+         <div>Question</div>
+         <additional_answer class="tex2jax_ignore" answer="or \s*x\[\s*n\s*\]\s**?\s*n\s*"></additional_answer>
+         <textline size="20"></textline>
+       </stringresponse>
+     </annotation-xml>
+   </problem>
 
 .. _Text Input Problem XML:
 
