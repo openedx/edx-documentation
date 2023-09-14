@@ -126,9 +126,9 @@ Course team members who have the Staff role can complete the following tasks.
 
 * Activate course certificates.
 
-==================
+=======================
 The Limited Staff Role
-==================
+=======================
 
 Course team members who have the Limited Staff role can do all of the Staff tasks 
 but without content editing permissions. This role has no access to Studio. 
