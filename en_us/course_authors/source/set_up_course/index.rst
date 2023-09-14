@@ -4,7 +4,7 @@
 Setting Up a Course
 ###################
 
-When you begin to set up a course, the first step is to plan and specify two
+Xhen you begin to set up a course, the first step is to plan and specify two
 types of basic information.
 
 * **Course** information, such as the course title and number, remains true
