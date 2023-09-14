@@ -350,7 +350,7 @@ You can configure a text input problem to accept raw expressions which could
 resemble functions that are processed by MathJax by default. Sometimes this
 might not be the expected behaviour, i.e., you want to accept raw expression as
 well as display (show answer) it in its raw form. You can do this by simply
-enclosing ``<stringresponse>`` element in ``<annotation-xm>`` tag. All elements
+enclosing ``<stringresponse>`` element in ``<annotation-xml>`` tag. All elements
 inside this tag will be ignored by MathJax processor. An example follows.
 
 .. code-block:: xml
