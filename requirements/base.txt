@@ -39,7 +39,7 @@ packaging==23.1
     # via
     #   pydata-sphinx-theme
     #   sphinx
-pydata-sphinx-theme==0.14.0
+pydata-sphinx-theme==0.14.1
     # via sphinx-book-theme
 pygments==2.16.1
     # via
@@ -79,11 +79,11 @@ sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
-typing-extensions==4.7.1
+typing-extensions==4.8.0
     # via pydata-sphinx-theme
-urllib3==2.0.4
+urllib3==2.0.5
     # via requests
-zipp==3.16.2
+zipp==3.17.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
