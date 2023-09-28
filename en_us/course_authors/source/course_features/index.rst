@@ -20,3 +20,4 @@ see :ref:`Developing Your Course Index`.
    credit_courses/index
    timed_exams
    lti/index
+   xpert_summaries/index
