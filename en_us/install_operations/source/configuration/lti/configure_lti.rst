@@ -52,6 +52,20 @@ follow these steps.
    .. important:: Do not supply a value for the **Instance guid** field. The
       tool consumer generates and supplies a globally unique identifier.
 
+    - **Auto link users using email:** Check this if the learners accessing the
+      content via LTI already have an account in the edX platform using the same
+      email as the LTI Consumer and you want the data they generate (like
+      submissions and grades) on the platform to be associated with that
+      account instead of the Anonymous account that's created by default. This
+      is done by making use of the ``lis_person_contact_primary_email``
+      attribute shared by the LTI Consumer during the LTI Launch and the auto
+      linking will not work if the LTI Consumer does not send this value or sends
+      a default value due to stricter privacy settings.
+
+   .. note:: The **Auto link users using email** field can only set when a new
+        LTI Consumer is created. This helps the LTI Consumer to have consistency
+        in the way it stores learner data.
+
 #. Select **Save** at the bottom of the page.
 
 .. include:: ../../../../links/links.rst
