@@ -49,23 +49,38 @@ follow these steps.
      tool consumer. Alternatively, you can use an external application to
      generate the secret, and then enter it here.
 
-   .. important:: Do not supply a value for the **Instance guid** field. The
-      tool consumer generates and supplies a globally unique identifier.
+     .. important::
+       Do not supply a value for the **Instance guid** field. The
+       tool consumer generates and supplies a globally unique identifier.
 
-    - **Auto link users using email:** Check this if the learners accessing the
-      content via LTI already have an account in the edX platform using the same
-      email as the LTI Consumer and you want the data they generate (like
-      submissions and grades) on the platform to be associated with that
-      account instead of the Anonymous account that's created by default. This
-      is done by making use of the ``lis_person_contact_primary_email``
-      attribute shared by the LTI Consumer during the LTI Launch and the auto
-      linking will not work if the LTI Consumer does not send this value or sends
-      a default value due to stricter privacy settings.
+   - **Auto link users using email**: Check this to automatically link learners
+     accessing content via LTI using their email ID.
 
-   .. note:: The **Auto link users using email** field can only set when a new
-        LTI Consumer is created. This helps the LTI Consumer to have consistency
-        in the way it stores learner data.
+     Usually :ref:`an anonymous Open edX system user is created<Anonymous User Authentication>`
+     to record the learner data internally and pass it on the the LTI Consumers.
+     However, in cases where the learners already have an account in the Open
+     edX system, it might be desirable to directly link the existing account instead
+     of creating a new anonymous account. Marking this flag as checked enables
+     such auto linking.
+
+     The auto linking happens only when the following conditions are met
+
+     #. the learner already has an account in the Open edX system
+     #. the LTI Consumer sends the email of the learner to the Open edX
+        system when loading the content, by setting the POST data attribute
+        ``lis_person_contact_primary_email`` in the LTI Launch request.
+
+     .. important::
+      The **Auto link users using email** field can only set when a new
+      LTI Consumer is created. This helps the LTI Consumer to have consistency
+      in the way it stores learner data. If you run into a situation where the
+      auto-linking needs to be turned off, you can create a new LTI Consumer
+      configuration with the flag unset and use the new consumer key and secret
+      in your external system.
 
 #. Select **Save** at the bottom of the page.
+
+
+
 
 .. include:: ../../../../links/links.rst
