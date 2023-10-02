@@ -17,7 +17,7 @@ beautifulsoup4==4.12.2
     # via pydata-sphinx-theme
 certifi==2023.7.22
     # via requests
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
     # via requests
 click==8.1.7
     # via sphinx-intl
@@ -35,7 +35,7 @@ jinja2==3.1.2
     # via sphinx
 markupsafe==2.1.3
     # via jinja2
-packaging==23.1
+packaging==23.2
     # via
     #   pydata-sphinx-theme
     #   sphinx
