@@ -8,7 +8,7 @@ accessible-pygments==0.0.4
     # via pydata-sphinx-theme
 alabaster==0.7.13
     # via sphinx
-babel==2.12.1
+babel==2.13.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
@@ -81,7 +81,7 @@ sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
 typing-extensions==4.8.0
     # via pydata-sphinx-theme
-urllib3==2.0.5
+urllib3==2.0.6
     # via requests
 zipp==3.17.0
     # via importlib-metadata
