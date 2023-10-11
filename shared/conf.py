@@ -8,7 +8,7 @@ from pathlib import Path
 
 # What release line is this?  Use "master" for master, and the release name
 # on release branches.  Zebrawood should have "zebrawood".
-release_line = "master"
+release_line = "quince"
 
 # The slug that is used by ReadTheDocs for this version of the projects.
 project_version = "latest" if (release_line == "master") else f"open-release-{release_line}.master"
