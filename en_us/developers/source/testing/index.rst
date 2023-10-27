@@ -2,12 +2,8 @@
 Testing
 *******
 
-Testing is something that we take very seriously at edX: we even have a
-"test engineering" team at edX devoted purely to making our testing
-infrastructure even more awesome.
-
-To find out more about our testing infrastructure, check out the `testing.rst`_
-file on GitHub.
+.. This is a placeholder for redirects to the new release notes site.
+   See https://docs.openedx.org/en/latest/developers/references/developer_guide/index.html
 
 .. toctree::
     :maxdepth: 2

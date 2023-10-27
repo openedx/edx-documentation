@@ -2,14 +2,5 @@
 GitHub Actions
 **************
 
-TODO: Explain GHA
-
-Kicking Off Builds
-==================
-
-TODO: Explain how runs on commits and other actions
-
-Failed Builds
-=============
-
-Click on the build to be brought to the build page.
+.. This is a placeholder for redirects to the new release notes site.
+   See https://docs.openedx.org/en/latest/developers/references/developer_guide/index.html
