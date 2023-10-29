@@ -54,7 +54,7 @@ to install the XBlock to the virtual environments of both containers.
 
    .. code-block:: bash
 
-      $ make studio-shell
+      $ make cms-shell
 
 #. Install the XBlock in the same way you've installed it on LMS:
 
@@ -66,7 +66,7 @@ to install the XBlock to the virtual environments of both containers.
 
    .. code-block:: bash
 
-      $ make lms-restart && make studio-restart
+      $ make lms-restart && make cms-restart
 
 
 After this, you'll be able to enable and add the XBlock to your course.
