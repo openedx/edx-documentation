@@ -715,7 +715,7 @@ delivered for the first time.
        To identify a component consistently within a course, you can use
        either ``usage_key`` or ``original_usage_key`` as a consistent
        identifier. To identify components across courses, use
-       ``orignal_usage_key``.
+       ``original_usage_key``.
 
 =====================================================
 ``edx.librarycontentblock.content.removed``
@@ -794,7 +794,7 @@ This section includes descriptions of the following events.
 =============================================================================
 The browser emits this event when a user selects a hyperlink using the breadcrumb jump navigation menus.
 
-**History**: Added Semptember 20 2021.
+**History**: Added September 20 2021.
 
 **Component**: Sequence
 
@@ -2298,7 +2298,7 @@ Example ``edx.course.enrollment.deactivated`` Event
         "accept_language": "en-US,en;q=0.8",
         "time": "2014-01-26T00:28:28.388782+00:00",
         "agent": "Mozilla\/5.0 (Windows NT 6.1; WOW64; Trident\/7.0; rv:11.0) like Gecko",
-        "page": null
+        "page": null,
         "host": "courses.edx.org",
         "session": "a14j3ifhskngw0gfgn230g",
         "context": {
@@ -6655,7 +6655,7 @@ this type as for :ref:`play_video`.
 
 * ``code``
 * ``id``
-* ``language``: The selected language of the current video trascript.
+* ``language``: The selected language of the current video transcript.
 
 ==========================================================
 ``video_show_cc_menu``/``edx.video.language_menu.shown``
