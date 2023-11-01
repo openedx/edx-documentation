@@ -217,8 +217,7 @@ Add a File or Image Inside the Course
 To add a file or image inside the course, such as to a component, a course
 update, or a course handout, follow these steps:
 
-#. On the **Files** page, select the **Studio** option in the
-   **Copy URLs** column.
+#. On the **Files** page, select Copy Studio URL from the three dot menu.
 
 #. In the component or other content, paste the Studio URL.
 
