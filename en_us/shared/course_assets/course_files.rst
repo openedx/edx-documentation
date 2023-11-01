@@ -265,7 +265,7 @@ Delete a File
 
 To delete a file, first click on the corresponding checkboxes of the files 
 that you wish to delete, then click on the Actions button, and then select 
-Delete. To deleteall files, select the very first checkbox, then select the 
+Delete. To delete all files, select the very first checkbox, then select the 
 Action button and then select Delete.
 
 
