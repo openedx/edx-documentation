@@ -7,11 +7,7 @@ Adding Files to a Course
 Adding files, such as images, that you can use in your course has the following
 steps.
 
-.. image:: ../../../shared/images/AddFiles.png
- :alt: A workflow diagram showing the steps to add and show a file in a course
-     or on the internet.
-
-#. The course team uploads a file on the **Files & Uploads** page in Studio.
+#. The course team uploads a file on the **Files** page in Studio.
 #. Studio generates two URLs for the file.
 
    * The Studio URL is used to add the file inside the course, such as in a
@@ -21,13 +17,6 @@ steps.
      email message or external web page.
 
 #. The course team adds a link to the file inside or outside the course.
-
-   * To add the file inside the course, the course team adds the Studio URL in
-     the course content, such as in a component or on a page.
-
-   * To add the file outside the course, the course team adds the web URL in
-     an email message or external web page.
-
 #. The file is visible in the course, email, or external web page.
 
 For more information, see the following topics.
@@ -36,40 +25,44 @@ For more information, see the following topics.
   :local:
   :depth: 1
 
-.. _The Files and Uploads Page:
+.. _The Files Page:
 
 *************************
-The Files & Uploads Page
+The Files Page
 *************************
 
-You manage most files for your course, including image files, on the **Files &
-Uploads** page. This page lists the files that you upload, along with the
-following information about the files.
+You manage most files for your course, including image files, on the **Files** 
+page. This page lists the files that you have added, along with the
+following capabilities and information regarding the files:
 
-* The file name.
-* A preview of the file (if the file is an image) or an icon that represents
-  the file.
+.. image:: ../../../shared/images/FilesPageTableView.png
+ :alt: an image of the Files page in Studio. Each page shows up to 50 files 
+     and includes a Search box, sort and filter capabilities, an Add files 
+     button, and checkboxes so that you can bulk delete or bulk download files.
 
-  .. note::
-    If you do not want to see a preview of your files, select the **Hide File
-    Preview** checkbox in the left pane. To show a preview again, clear this
-    checkbox.
-
-* The file type.
-* The date the file was added.
-* The URLs that you use to make your files visible in your course or on the
-  internet.
+* A checkbox for Download and Delete bulk actions
+* A thumbnail of the file
+* The file name
+* The file size 
+* The file type
 * An indication of whether the file is :ref:`locked<Lock a File>`.
+* The three dot menu allows you to copy the Studio URL, copy the web URL, 
+  lock the file, click on the Info button, and delete a file
+* The Info button within the three dot menu allows you to additionally see
+  the date added and details about whether the file is within the course as
+ well as the number of times it appears in your course.
+
+.. image:: ../../../shared/images/FilesPageInfoPop.png
+ :alt: When you first select the three dot menu, then select Info, this 
+     Info modal appears. The Info modal provides details such as date added, 
+     file size, Studio URL, Web URL, ability to lock a file, as well as usage 
+     data within the course. 
 
 This page also includes a **Search** option to help you find specific files.
 For more information, see :ref:`Find Files`.
+56
+57   .. _File Size:
 
-.. note::
-  For textbooks or for course handouts that you want to make available in the
-  sidebar of the **Course** page, see :ref:`Adding Textbooks` or :ref:`Add
-  Course Handouts`.
-
-.. _File Size:
 
 *******************
 File Size
@@ -82,8 +75,8 @@ to your course.
 You can upload multiple files at a time.
 
 If you have very large audio files or large data sets to share with your
-students, do not use the **Files & Uploads** page to add these files to your
-course. Instead, use another hosting service to host these files.
+students, do not use the **Files** page to add these files to your course. 
+Instead, use another hosting service to host these files.
 
 .. _Upload a File:
 
@@ -105,19 +98,16 @@ To upload one or more files, follow these steps.
      Avoid using file names that contain information that you do not want to
      share about the file contents, such as "Answerkey.pdf".
 
-#. On the **Content** menu, select **Files & Uploads**.
+#. On the **Content** menu, select **Files**.
 
-#. On the **Files & Uploads** page, drag your file or files into the **Drag and
-   Drop** area.
+#. On the **Files** page, select the Add Files button at the top of the page 
+   and select the files that you want to add.
 
    .. note::
      If you upload a file that has the same name as an existing course file,
      the original file is overwritten without warning.
 
-The **Files & Uploads** page refreshes to show the uploaded file or files.
-
-To upload additional files, drag more files into the **Drag and Drop** area of
-the page.
+The **Files** page refreshes to show the uploaded file or files.
 
 .. _Find Files:
 
@@ -125,14 +115,14 @@ the page.
 Find an Uploaded File
 *********************
 
-The **Files & Uploads** page lists up to 50 files at one time.  If your course
-has more than 50 files, additional files are listed on other pages.
+The **Files** page lists up to 50 files at one time.  If your course has more 
+than 50 files, additional files are listed on other pages.
 
-To find a file on the **Files & Uploads** page, you can use the **Search**
-option, or you can view the page that lists the file.
+To find a file on the **Files** page, you can use the **Search** option, or 
+you can view the page that lists the file.
 
 * To use the **Search** option, enter one of the following search terms in the
-  **Search** field, and then select the magnifying glass icon.
+  **Search** field.
 
   * The full file name.
   * The file name extension, or file type.
@@ -146,11 +136,8 @@ option, or you can view the page that lists the file.
   * ``First`` ``Image``
   * ``First`` ``.jpg``
 
-* To view the page that lists the file, select **Previous** or **Next** to view
-  the previous or next page, or select the number of the page that you want to
-  view.
-
-You can also sort files by name, type, or date added, or filter files by type.
+You can also sort files by Name (A-Z), Name (Z-A), Newest, Oldest, File size 
+(low to high), or filter files by Type (Code, Images, Documents, Audio).
 For more information, see :ref:`Sort Files` or :ref:`Filter files`.
 
 .. _Sort Files:
@@ -159,15 +146,14 @@ For more information, see :ref:`Sort Files` or :ref:`Filter files`.
 Sort Files
 *********************
 
-On the **Files & Uploads** page, you can sort your files by name, type, or date
-added. To sort by one of these columns, select the name of the column. For
-example, to sort your files by type, select the **Type** column name.
+.. image:: ../../../shared/images/FilesPageFilterAction.png
+ :alt: an image of the Sort options, which include Name (A-Z), Name (Z-A), 
+     Newest, Oldest, File size (High to low) and File size (Low to High). 
+     Selecting Apply will sort the files accordingly. 
 
-The arrow or arrows to the right of the column name indicate the column sort
-order. Files are sorted by the column that has one arrow. The direction of the
-arrow indicates whether the order is ascending or descending.
-
-To change between ascending and descending order, select the column name again.
+On the **Files** page, you can sort your files by Name (A-Z), Name (Z-A), 
+Newest, Oldest, File size (high to low), and File size (low to high).
+ To sort by one of these, select what you wish to sort by and click Apply.
 
 .. _Filter Files:
 
@@ -175,8 +161,8 @@ To change between ascending and descending order, select the column name again.
 Filter Files
 *********************
 
-You can filter the list of files by type so that only a selected type of file
-is visible. The list remains in the current sort order.
+You can filter files by type so that only a selected type of file is 
+visible. The list remains in the current sort order.
 
 You can filter by the following file types.
 
@@ -195,16 +181,13 @@ You can filter by the following file types.
        spreadsheets
    * - Images
      - .gif, .ico, .jpg, .jpeg, .png, .tif, .tiff
-   * - Other
-     - Files not included in the other types, such .sjson
 
-To filter the list of files by type, follow these steps.
+To filter the list of files by type, follow these steps:
 
-#. On the **Files & Uploads** page, locate **Filter by File Type**.
+#. On the **Files** page, click the Filters button.
 #. In the list, select the checkboxes for the types of file that you want.
 
-The list refreshes to show only the type or types of file you selected. You can
-sort the resulting list by name, type, and date added.
+The list refreshes to show only the type or types of file you selected.
 
 To reset the list and view files of all types, clear all checkboxes.
 
@@ -215,9 +198,9 @@ Use an Uploaded File Inside or Outside the Course
 *************************************************
 
 When you upload a file, Studio assigns a Studio URL and a web URL to the file.
-The **Copy URLs** column on the **Files & Uploads** page lists these URLs. To
-use an uploaded file, you add a link to the Studio URL or the web URL in your
-content.
+These URLs are found within the info modal (select three dot menu, then select
+Info to view the modal).To use an uploaded file, you add a link to the Studio 
+URL or the web URL in your content.
 
 .. note::
   If you do not want to allow access to a file from outside your course, you
@@ -232,12 +215,10 @@ Add a File or Image Inside the Course
 =====================================
 
 To add a file or image inside the course, such as to a component, a course
-update, or a course handout, follow these steps.
+update, or a course handout, follow these steps:
 
-#. On the **Files & Uploads** page, select the **Studio** option in the
+#. On the **Files** page, select the **Studio** option in the
    **Copy URLs** column.
-
-   The **Studio** option text briefly changes to **Copied**.
 
 #. In the component or other content, paste the Studio URL.
 
@@ -283,9 +264,24 @@ To lock a file, select the lock icon in the row for the file.
 Delete a File
 *******************
 
-To delete a file, select the delete icon in the row for file, and then select
-**Permanently delete** in the confirmation dialog box.
+To delete a file, first click on the corresponding checkboxes of the files 
+that you wish to delete, then click on the Actions button, and then select 
+Delete. To deleteall files, select the very first checkbox, then select the 
+Action button and then select Delete.
+
 
 .. warning::
   After you delete a file, any links to the file from inside or outside the
   course are broken. You must update links to files that you delete.
+
+.. _Download a File
+
+**************************
+Download a File
+**************************
+To download individual files, multiple files at once, or all of your files, 
+first click on corresponding checkboxes of the files that you wish to 
+download, then click on the Actions button, and then select Download. To 
+download all files, select the very first checkbox, then select the Action 
+button and then select Download.
+
