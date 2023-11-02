@@ -50,7 +50,7 @@ following capabilities and information regarding the files:
   lock the file, click on the Info button, and delete a file
 * The Info button within the three dot menu allows you to additionally see
   the date added and details about whether the file is within the course as
- well as the number of times it appears in your course.
+  well as the number of times it appears in your course.
 
 .. image:: ../../../shared/images/FilesPageInfoPop.png
  :alt: When you first select the three dot menu, then select Info, this 
@@ -60,9 +60,8 @@ following capabilities and information regarding the files:
 
 This page also includes a **Search** option to help you find specific files.
 For more information, see :ref:`Find Files`.
-56
-57   .. _File Size:
 
+.. _File Size:
 
 *******************
 File Size
@@ -153,7 +152,7 @@ Sort Files
 
 On the **Files** page, you can sort your files by Name (A-Z), Name (Z-A), 
 Newest, Oldest, File size (high to low), and File size (low to high).
- To sort by one of these, select what you wish to sort by and click Apply.
+To sort by one of these, select what you wish to sort by and click Apply.
 
 .. _Filter Files:
 
@@ -272,7 +271,7 @@ Action button and then select Delete.
   After you delete a file, any links to the file from inside or outside the
   course are broken. You must update links to files that you delete.
 
-.. _Download a File
+.. _Download a File:
 
 **************************
 Download a File
