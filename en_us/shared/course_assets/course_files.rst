@@ -230,10 +230,7 @@ Add a File or Image Outside the Course
 To add a file or image outside the course, such as to a bulk email message that
 you send from the LMS, follow these steps.
 
-#. On the **Files & Uploads** page, select the **Web** option in the
-   **Copy URLs** column.
-
-   The **Web** option text briefly changes to **Copied**.
+#. On the **Files** page, select the Copy Web URL from the three dot menu.
 
 #. In the external content, paste the web URL.
 
