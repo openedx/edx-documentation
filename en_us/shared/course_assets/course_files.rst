@@ -198,9 +198,8 @@ Use an Uploaded File Inside or Outside the Course
 *************************************************
 
 When you upload a file, Studio assigns a Studio URL and a web URL to the file.
-These URLs are found within the info modal (select three dot menu, then select
-Info to view the modal).To use an uploaded file, you add a link to the Studio 
-URL or the web URL in your content.
+These URLs are found within the three dot menu or the info modal. To use an 
+uploaded file, you add a link to the Studio URL or the web URL in your content.
 
 .. note::
   If you do not want to allow access to a file from outside your course, you
