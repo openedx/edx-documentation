@@ -53,30 +53,52 @@ follow these steps.
        Do not supply a value for the **Instance guid** field. The
        tool consumer generates and supplies a globally unique identifier.
 
-   - **Auto link users using email**: Check this to automatically link learners
-     accessing content via LTI using their email ID.
+   - **Require User Account**: Checking this makes the content available only
+     for the learners who already have an account on the Open edX instance. This
+     is useful when learners need to be linked between different LMS systems.
 
-     Usually :ref:`an anonymous Open edX system user is created<Anonymous User Authentication>`
-     to record the learner data internally and pass it on the the LTI Consumers.
-     However, in cases where the learners already have an account in the Open
-     edX system, it might be desirable to directly link the existing account instead
-     of creating a new anonymous account. Marking this flag as checked enables
-     such auto linking.
-
-     The auto linking happens only when the following conditions are met
-
-     #. the learner already has an account in the Open edX system
-     #. the LTI Consumer sends the email of the learner to the Open edX
-        system when loading the content, by setting the POST data attribute
-        ``lis_person_contact_primary_email`` in the LTI Launch request.
+     By default, :ref:`an anonymous Open edX system user<Anonymous User Authentication>`
+     is created and all the data is associated with that user. This flag
+     can be used when it is desirable to associate the data, generated
+     via LTI interactions, to actual learner accounts instead of an
+     anonymous account. When this is checked, instead of creating an
+     anonymous user automatically, a message requesting the learner to sign
+     into Open edX is displayed on the first LTI launch and the content
+     is presented after a successful sign in.
 
      .. important::
-      The **Auto link users using email** field can only set when a new
-      LTI Consumer is created. This helps the LTI Consumer to have consistency
-      in the way it stores learner data. If you run into a situation where the
-      auto-linking needs to be turned off, you can create a new LTI Consumer
-      configuration with the flag unset and use the new consumer key and secret
-      in your external system.
+       The account linking happens only when the LTI Consumer sends the
+       learners' email to Open edX by setting the POST data attribute
+       ``lis_person_contact_email_primary`` in the LTI Launch request.
+       This feature has only been tested with **Canvas LMS**, with privacy
+       setting set to "Email Only" or "Public".
+
+     With this flag checked, the LTI content embedded in iframes will require
+     the following Django configuration.
+
+     .. code-block:: python
+
+         # Needed for passing user session with the LTI Request
+         SESSION_COOKIE_SAMESITE = 'None'
+         SESSION_COOKIE_SECURE = True
+         SESSION_COOKIE_SAMESITE_FORCE_ALL = True
+         CSRF_COOKIE_SECURE = True
+         CSRF_COOKIE_SAMESITE = 'None'
+
+         # Needed for showing pages in iframe
+         X_FRAME_OPTIONS = "ALLOW-FROM <your-lti-consumer-domain>"
+
+
+     Caveats:
+       - Setting this flag only associates future interactions of the learner.
+         This flag cannot be used to migrate data from existing anonymous accounts
+         to corresponding user accounts.
+       - Unchecking the flag will not roll back the auto-linked users and
+         might cause the LTI content to break completely. In situations
+         requiring rollback of this feature, it is recommended to create a
+         new LTI Consumer with this flag turned off and the new credentials
+         be used in the LTI consumer application.
+
 
 #. Select **Save** at the bottom of the page.
 
