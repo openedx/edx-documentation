@@ -93,11 +93,10 @@ follow these steps.
        - Setting this flag only associates future interactions of the learner.
          This flag cannot be used to migrate data from existing anonymous accounts
          to corresponding user accounts.
-       - Unchecking the flag will not roll back the auto-linked users and
-         might cause the LTI content to break completely. In situations
-         requiring rollback of this feature, it is recommended to create a
-         new LTI Consumer with this flag turned off and the new credentials
-         be used in the LTI consumer application.
+       - Unchecking the flag will not roll back the auto-linked users. In
+         situations requiring rollback of this feature, it is recommended
+         to create a new LTI Consumer with this flag turned off, and the
+         new credentials be used in the LTI consumer application.
 
 
 #. Select **Save** at the bottom of the page.
