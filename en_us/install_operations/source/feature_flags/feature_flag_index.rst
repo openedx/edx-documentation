@@ -87,6 +87,9 @@ in the Open edX wiki.
    * - ENABLE_COURSEWARE_SEARCH
      - Supported
      - FALSE
+   * - ENABLE_COURSE_DISCOVERY_DEFAULT_LANGUAGE_FILTER
+     - Supported
+     - FALSE
    * - ENABLE_CREATOR_GROUP
      - Supported
      - FALSE
