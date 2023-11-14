@@ -49,8 +49,55 @@ follow these steps.
      tool consumer. Alternatively, you can use an external application to
      generate the secret, and then enter it here.
 
-   .. important:: Do not supply a value for the **Instance guid** field. The
-      tool consumer generates and supplies a globally unique identifier.
+     .. important::
+       Do not supply a value for the **Instance guid** field. The
+       tool consumer generates and supplies a globally unique identifier.
+
+   - **Require User Account**: Checking this makes the content available only
+     for the learners who already have an account on the Open edX instance. This
+     is useful when learners need to be linked between different LMS systems.
+
+     By default, :ref:`an anonymous Open edX system user<Anonymous User Authentication>`
+     is created and all the data is associated with that user. This flag
+     can be used when it is desirable to associate the data, generated
+     via LTI interactions, to actual learner accounts instead of an
+     anonymous account. When this is checked, instead of creating an
+     anonymous user automatically, a message requesting the learner to sign
+     into Open edX is displayed on the first LTI launch and the content
+     is presented after a successful sign in.
+
+     .. important::
+       The account linking happens only when the LTI Consumer sends the
+       learners' email to Open edX by setting the POST data attribute
+       ``lis_person_contact_email_primary`` in the LTI Launch request.
+       This feature has only been tested with **Canvas LMS**, with privacy
+       setting set to "Email Only" or "Public".
+
+     With this flag checked, the LTI content embedded in iframes will require
+     the following Django configuration.
+
+     .. code-block:: python
+
+         # Needed for passing user session with the LTI Request
+         SESSION_COOKIE_SAMESITE = 'None'
+         SESSION_COOKIE_SECURE = True
+         SESSION_COOKIE_SAMESITE_FORCE_ALL = True
+         CSRF_COOKIE_SECURE = True
+         CSRF_COOKIE_SAMESITE = 'None'
+
+         # Needed for showing pages in iframe
+         X_FRAME_OPTIONS = "ALLOW-FROM <your-lti-consumer-domain>"
+
+
+     Caveats:
+       - Setting this flag only associates future interactions of the learner.
+         This flag cannot be used to migrate data from existing anonymous accounts
+         to corresponding user accounts.
+       - Unchecking the flag will not roll back the auto-linked users. In
+         situations requiring rollback of this feature, it is recommended
+         to create a new LTI Consumer with this flag turned off, and the
+         new credentials be used in the LTI consumer application.
+
 
 #. Select **Save** at the bottom of the page.
 
