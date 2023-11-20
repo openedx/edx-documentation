@@ -24,7 +24,7 @@ beautifulsoup4==4.12.2
     #   pydata-sphinx-theme
 build==1.0.3
     # via pip-tools
-certifi==2023.7.22
+certifi==2023.11.17
     # via
     #   -r base.txt
     #   requests
@@ -75,7 +75,7 @@ pydata-sphinx-theme==0.14.3
     # via
     #   -r base.txt
     #   sphinx-book-theme
-pygments==2.16.1
+pygments==2.17.1
     # via
     #   -r base.txt
     #   accessible-pygments
@@ -145,7 +145,7 @@ typing-extensions==4.8.0
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
-urllib3==2.0.7
+urllib3==2.1.0
     # via
     #   -r base.txt
     #   requests
