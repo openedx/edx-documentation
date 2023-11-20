@@ -317,6 +317,23 @@ Configuring the Teams application
 Additional management and configuration of the teams application can be done through the main Team application tab
 in the learner experience, and is detailed in :ref:`12.4.1 Using the Teams application<Teams Setup>`.
 
+.. _ORA Coursewide Settings:
+
+===========================================================
+Configuring Course-level Open Response Assessment Settings 
+===========================================================
+
+To simplify the management of Open Response Assessment (ORA) problems, a card on this page provides a way to enable
+certain course-wide overrides. Rather than going through each ORA in a course indiviually, these overrides allow
+course staff to enable certain new features course-wide.
+
+**Flexible Peer Grading**
+
+This setting enables Flexible Peer Grade Averaging for all peer-graded ORA assignments across the course, without needing
+to manually edit each individual problem.
+
+To learn about Flexible Peer Grading and the course override setting, see  :ref:`Flexible Peer Grade Averaging`
+
 .. _Reordering and deleting custom pages:
 
 ************************************

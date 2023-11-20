@@ -8,9 +8,6 @@ To test new applications that you develop for the E-Commerce service, you
 create and run tests for the Open edX platform first, and then you run a set of
 tests that are specific to E-Commerce.
 
-For more information about tests for the Open edX platform, see
-:ref:`opendevelopers:Test OpenedX Features` in the *Open edX Developer's Guide*.
-
 ********************
 Tests for E-Commerce
 ********************

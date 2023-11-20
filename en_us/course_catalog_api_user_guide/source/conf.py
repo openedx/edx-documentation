@@ -4,6 +4,7 @@ import sys
 sys.path.append('../../../')
 
 from shared.conf import *
+from shared.edxconf import *
 
 project = u'EdX Course Catalog API User Guide'
 

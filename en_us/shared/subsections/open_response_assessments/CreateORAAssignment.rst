@@ -256,53 +256,6 @@ member of the team.
 
 .. note:: Team Open Response Assessments are designed to only be assessed by staff.
 
-.. _PA Specify Name and Dates:
-
-========================
-Specify a Name and Dates
-========================
-
-Before you specify the start and due dates and times for a response, be sure
-that you consider these aspects of, and best practices for, the open response
-assessment feature. For more information, see
-:ref:`Best Practices for ORA`.
-
-* Unlike other problem types, ORA assignments are not governed by the
-  subsection due date. You set due dates for each ORA assignment in the
-  assignment's settings.
-
-* The :ref:`grace period <Set the Grace Period>` that you can set for the
-  course does not apply to ORA assignments. For more information about the
-  grade period setting, see :ref:`Set the Grace Period`.
-
-* You should allow sufficient time for peer assessments to be performed after
-  learners have submitted their own responses. EdX recommends that you allow at
-  least one week between the due date for responses and the due date for peer
-  assessments. If the response due time and peer assessment due time are close
-  together, and a learner submits a response just before responses are due,
-  other learners may not have time to perform peer assessments before peer
-  assessments are due.
-
-* The times that you set are in Coordinated Universal Time (UTC). To verify
-  that you have specified the times that you intend, use a time zone converter
-  such as `Time and Date Time Zone Converter
-  <https://www.timeanddate.com/worldclock/converter.html>`_.
-
-To specify a name for the assignment as well as start and due dates for all
-learner responses, follow these steps.
-
-#. In the ORA component editor, select **Settings**.
-
-#. Next to **Display Name**, enter the name you want to give the assignment.
-
-#. Select **Schedule** at the top of the ORA component editor.
-
-#. Next to **Response Start Date** and **Response Start Time**, enter the date
-   and time when you want learners to be able to begin submitting responses.
-
-#. Next to **Response Due Date** and **Response Due Time**, enter the date and
-   time by which all learner responses must be submitted.
-
 .. _PA Allow Images:
 
 =========================
@@ -460,11 +413,117 @@ To add steps to the open response assignment, complete these actions.
 #. (optional) To change the order of the steps, drag the steps into the order
    that you want using the bar at the left side of the steps.
 
+.. _PA ORA Assignment Schedule:
+
+****************************
+Step 6. Assignment Schedule
+****************************
+
+Under the **Schedule** tab of the ORA comonent editor, you can choose between
+three different modes for configuring the schedule and due dates for an ORA assignment.
+
+The three different date configuration modes are:
+* Configure deadlines manually
+* Match deadlines to the subsection due date
+* Match deadlines to the course end date
+
+The behavior of each option is as follows:
+
+=============================
+Configure deadlines manually
+=============================
+
+With this option, you hace the ability to set individual deadlines for each step of
+the Open Response Assessment individually. The options that you can set include:
+
+* **Response Start Date** and **Response Start Time**: These settings define when
+  learners can begin working on their response. Before this date and time, learners
+  cannot type a response or upload files. After, they can begin to work on their response
+  and upload files.
+
+* **Response Due Date** and **Response Due Time**: These settings define the date / time by which 
+  learners must complete and submit their response. After this date / time passes, learners
+  can no longer submit responses to the problem.
+
+* **Peer Assessment Start Date** and **Peer Assessment Start Time**: These settings define
+  when learners can begin to assess peer responses. Before this time, learners will recieve a message
+  that peer assessment has not yet begun.
+
+* **Peer Assessment Due Date** and **Peer Assessment Due Time**: These settings define the date / time
+  by which learners must complete assessing peer responses. After this date / time has passed learners will
+  no longer be able to assess peers. If learners have not assessed the required number of peers before this
+  deadline, they will not be able to recieve a grade.
+
+* **Self Assessment Start Date** and **Self Assessment Start TIme**: These settings define
+  when learners can begin to self-assess their responses. Before this time, learners will recieve a message
+  that self assessment has not yet begun.
+
+* **Self Assessment Due Date** and **Self Assessment Due Time**: These settings define the date / time
+  by which learners must complete their self-assessment. After this date / time has passed learners will
+  no longer be able to complete their self-assessment. 
+
+.. note::
+   The times that you set are in Coordinated Universal Time (UTC). To verify
+   that you have specified the times that you intend, use a time zone
+   converter such as `Time and Date Time Zone Converter
+   <https://www.timeanddate.com/worldclock/converter.html>`_.
+
+.. note::
+   If you choose to specify these dates manually, the course grace period setting
+   and individual learner extensions will not apply to open response assessments.
+   For more information about the grace period setting, see :ref:`Set the Grace Period`.
+
+.. note::
+   You should allow sufficient time for peer assessments to be performed after
+   learners have submitted their own responses. EdX recommends that you allow at
+   least one week between the due date for responses and the due date for peer
+   assessments. If the response due time and peer assessment due time are close
+   together, and a learner submits a response just before responses are due,
+   other learners may not have time to perform peer assessments before peer
+   assessments are due.
+
+===========================================
+Match deadlines to the subsection due date
+===========================================
+
+When this setting is selected, all ORA due dates will be set to the due date of the subsection
+that they are contained within. Rather than specifying individual dates and times for the submission, peer,
+and self due dates, they are all set to the due date of the subsection they are contained within. 
+This has multiple benefits:
+
+* **Alignment with other assignment dates**: Rather than having their own separate due dates,
+  ORAs can use the same due date as all other problems within a subsection, reducing complexity
+  and simplifying the course timelie for students.
+* **Ability to use grace period and individual extensions**: Setting the date configuration to
+  this setting allows ORA problems to use the grace period and learner extension features.
+     
+.. note::
+
+   Becuase the submission and assessment deadlines are all set to the same date under this option,
+   there will be no "buffer" time between the response due date and the peer assessment due date.
+   If you are using this setting for a peer assessment ORA, you must make it clear to learners that
+   they must submit early enough to give their peers time to review their response.
+
+========================================
+Match deadlines to the course end date
+========================================
+
+When this setting is selected, all ORA due dates will be set to the end date of the course.
+Rather than specifying individual dates and times for the submission, peer, and self due dates,
+they are all set to the end date of the course. This setting is useful for self-paced courses.
+
+.. note::
+
+   Becuase the submission and assessment deadlines are all set to the same date under this option,
+   there will be no "buffer" time between the response due date and the peer assessment due date.
+   If you are using this setting for a peer assessment ORA, you must make it clear to learners that
+   they must submit early enough to give their peers time to review their response.
+
 
 .. _PA Specify Step Settings:
 
 ******************************
-Step 6. Specify Step Settings
+Step 7. Specify Step Settings
 ******************************
 
 After you select the steps that you want, you can specify settings for those
@@ -528,27 +587,6 @@ To specify peer assessment settings, follow these steps.
 #. Next to **Enable Flexible Peer Grade Averaging**, select **True** if you
    want to enable :ref:`Flexible Peer Grade Averaging`.
 
-#. Switch to the **Schedule** tab.
-
-#. Locate the **Peer Assessment Deadlines** heading.
-
-#. Next to **Start Date** and **Start Time**, enter the date and time when
-   learners can begin assessing their peers' responses.
-
-#. Next to **Due Date** and **Due Time**, enter the date and time by which all
-   peer assessments must be completed.
-
-  .. note::
-
-     The times that you set are in Coordinated Universal Time (UTC). To verify
-     that you have specified the times that you intend, use a time zone
-     converter such as `Time and Date Time Zone Converter
-     <https://www.timeanddate.com/worldclock/converter.html>`_.
-
-     Additionally, the course grace period setting does not apply to open
-     response assessments. For more information about the grace period setting,
-     see :ref:`Set the Grace Period`.
-
 For more information about peer assessment steps, see :ref:`Peer Assessment
 Step`.
 
@@ -594,7 +632,7 @@ in the assignment.
 .. _PA Test Assignment:
 
 ******************************
-Step 7. Test the Assignment
+Step 8. Test the Assignment
 ******************************
 
 To test your ORA assignment, you can set up the assignment in your course, set

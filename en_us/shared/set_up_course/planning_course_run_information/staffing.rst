@@ -66,6 +66,8 @@ Insights, you assign one of these course team roles to them.
 
 * Staff
 
+* Limited Staff
+
 * Admin
 
 You can assign these privileged roles when you work in either the LMS or
@@ -123,6 +125,13 @@ Course team members who have the Staff role can complete the following tasks.
 * Send email messages to course participants.
 
 * Activate course certificates.
+
+=======================
+The Limited Staff Role
+=======================
+
+Course team members who have the Limited Staff role can do all of the Staff tasks 
+but without content editing permissions. This role has no access to Studio. 
 
 ==================
 The Admin Role

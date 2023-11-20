@@ -134,7 +134,7 @@ as your course content videos.
 .. only:: Partners
 
  For courses on edx.org, when you add an About video for a course, you must
- first upload the video to the edX/Veda video upload page. You can then
+ first upload the video to the edX About video upload page. You can then
  optionally enter the URL for your course About video in Publisher. For more
  information, see :ref:`Pub Add an About Video` and :ref:`Pub Create a Course`.
 

@@ -16,6 +16,8 @@ The Open edX system supports these user authentication flows for LTI.
    :local:
    :depth: 1
 
+.. _Anonymous User Authentication:
+
 ******************************
 Anonymous User Authentication
 ******************************
