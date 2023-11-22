@@ -4,7 +4,7 @@
 Adding a Video to a Course
 ##########################
 
-To make a video visible in your course, you create a video component in a unit
+To make a video visible in your course, you create a video component in a Unit
 in Studio, and then you add information for the video to the video component.
 The information is different for courses on edx.org and courses on Edge.
 
@@ -24,7 +24,7 @@ Add a Video to an edx.org Course
   :ref:`Add a Video to an Edge Course`.
 
 For courses on edx.org, you add the following information to the video
-component.
+component:
 
 * A display name for the component.
 * The video ID that the upload process automatically creates for your video. To
