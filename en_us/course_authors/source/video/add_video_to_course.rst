@@ -100,7 +100,6 @@ To add a video and its transcript to an edx.org course, follow these steps.
 Add New or Previously Uploaded Video to Course on edx.org 
 =========================================================
 
-
 If you are in a Unit in your course and you want to add a previously uploaded video, click on the green video tile. 
 
 .. image:: ../../../shared/images/AddNewComponent.png
