@@ -12,3 +12,8 @@ set_audience(OPENEDX, DEVELOPERS)
 
 # remove directory when content is first added to it, and add to index
 exclude_patterns = ['reusable/*']
+
+
+redirects = {
+    "*": "https://docs.openedx.org/projects/xblock/en/latest/xblock-tutorial/$source.html",
+}
