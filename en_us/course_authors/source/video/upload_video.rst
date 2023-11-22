@@ -59,7 +59,7 @@ represents all of the formats and hosting locations for the video.
   automatically tries again multiple times. If the process does not complete
   successfully after multiple tries, an :ref:`error status <Video Processing
   Statuses>` appears in the list of videos on the **Video Uploads** page as 
-well as within the video component.
+  well as within the video component.
 
 For more information, see the following topics:
 
