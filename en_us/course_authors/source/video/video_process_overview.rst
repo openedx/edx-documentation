@@ -33,8 +33,6 @@ edx.org course.
 #. The course team :ref:`uploads a video <Uploading a Video for an edx org
    Course>` to the **Video Uploads** page.
 
-#. The :ref:`edX video process <Automated Video Process>` encodes and uploads
-   completed videos to the edX hosting service.
 
 #. The course team :ref:`creates video components <Add a Video to an edx org
    Course>` and adds the video information to the components.

@@ -58,9 +58,10 @@ represents all of the formats and hosting locations for the video.
   If a step in the process does not complete successfully, the process
   automatically tries again multiple times. If the process does not complete
   successfully after multiple tries, an :ref:`error status <Video Processing
-  Statuses>` appears in the list of videos on the **Video Uploads** page.
+  Statuses>` appears in the list of videos on the **Video Uploads** page as 
+  well as within the video component.
 
-For more information, see the following topics.
+For more information, see the following topics:
 
 .. contents::
   :local:
@@ -138,9 +139,9 @@ course team has obtained transcripts from the transcript provider, the course
 team creates a video component and adds the video ID and transcript to the
 component. For more information, see :ref:`Add a Video to a Course`.
 
-====================================
-Upload a Video for an edx.org Course
-====================================
+=============================================================
+Upload a Video for an edx.org Course (for Video Uploads page)
+=============================================================
 
 To upload video files, both for videos with integrated transcripts and
 non-integrated transcripts, follow these steps.
@@ -156,11 +157,11 @@ non-integrated transcripts, follow these steps.
    to upload.
 
    A rectangular tile appears on the page for each file and shows the following
-   information.
+   information:
 
-   * The video file name.
-   * A progress bar.
-   * The status of the file upload process.
+   * The video file name
+   * A progress bar
+   * The status of the file upload process
 
    When the file has been successfully uploaded, the tile disappears, and an
    entry for the video appears under **Previous Uploads** with a status of
