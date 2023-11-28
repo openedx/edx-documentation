@@ -104,8 +104,8 @@ html_theme_options = {
 }
 html_theme_options['navigation_depth'] = 3
 
-html_logo = "https://logos.openedx.org/open-edx-logo-color.png"
-html_favicon = "https://logos.openedx.org/open-edx-favicon.ico"
+html_logo = "https://edxuploads.s3.amazonaws.com/organization_logos/2a73d2ce-c34a-4e08-8223-83bca9d2f01d-239e27d970f5.png"
+html_favicon = "https://mitxonline.mit.edu/static/images/favicon.ico"
 
 # Help and Feedback links.  These are customized for the category and audience
 # of the book.  Add a line to the book's conf.py like this:
