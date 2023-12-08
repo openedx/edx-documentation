@@ -42,7 +42,7 @@ docutils==0.19
     #   -r base.txt
     #   pydata-sphinx-theme
     #   sphinx
-idna==3.4
+idna==3.6
     # via
     #   -r base.txt
     #   requests
@@ -50,7 +50,7 @@ imagesize==1.4.1
     # via
     #   -r base.txt
     #   sphinx
-importlib-metadata==6.8.0
+importlib-metadata==7.0.0
     # via
     #   -r base.txt
     #   build
@@ -71,11 +71,11 @@ packaging==23.2
     #   sphinx
 pip-tools==7.3.0
     # via -r dev.in
-pydata-sphinx-theme==0.14.3
+pydata-sphinx-theme==0.14.4
     # via
     #   -r base.txt
     #   sphinx-book-theme
-pygments==2.17.1
+pygments==2.17.2
     # via
     #   -r base.txt
     #   accessible-pygments
@@ -149,7 +149,7 @@ urllib3==2.1.0
     # via
     #   -r base.txt
     #   requests
-wheel==0.41.3
+wheel==0.42.0
     # via pip-tools
 zipp==3.17.0
     # via

@@ -51,9 +51,10 @@ represents all of the formats and hosting locations for the video.
   If a step in the process does not complete successfully, the process
   automatically tries again multiple times. If the process does not complete
   successfully after multiple tries, an :ref:`error status <Video Processing
-  Statuses>` appears in the list of videos on the **Video Uploads** page.
+  Statuses>` appears in the list of videos on the **Video Uploads** page as 
+  well as within the video component.
 
-For more information, see the following topics.
+For more information, see the following topics:
 
 .. contents::
   :local:

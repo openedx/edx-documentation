@@ -4,7 +4,7 @@
 Adding a Video to a Course
 ##########################
 
-To make a video visible in your course, you create a video component in a unit
+To make a video visible in your course, you create a video component in a Unit
 in Studio, and then you add information for the video to the video component.
 
 .. contents::
@@ -83,3 +83,43 @@ To add a video and its transcript to an edx.org course, follow these steps.
    description of each option, see :ref:`Video Settings`.
 
 #. Select **Save** to save the video component.
+
+=========================================================
+Add New or Previously Uploaded Video to Course on edx.org 
+=========================================================
+
+If you are in a Unit in your course and you want to add a previously uploaded video, click on the green video tile. 
+
+.. image:: ../../../shared/images/AddNewComponent.png
+  :alt: this is an image of several components that you can choose from, including the video component.
+
+You now see a list of all the videos that you have previously uploaded. You can search for specific videos within the Search bar, filter by date added (newest/oldest), name (ascending/descending), or duration (longest/shortest). You can sort by video status (uploading, processing, ready, failed). To add a video to your course, click on the video you want to add and then click on Select video. 
+
+.. image:: ../../../shared/images/AddVideoToYourCourse.png
+  :alt: this is the page you are brought to after clicking on the video component and this page offers the ability to select a previously uploaded video so that you can add it to the course as well as a button to upload or embed a new video.
+
+To upload or embed a new video, click on the link on the bottom left side of the Add video to your course page. You can drag and drop a video, click to upload a video, or paste your video ID or URL in the text box. 
+
+.. image:: ../../../shared/images/UploadVideoDragAndDrop.png
+  :alt: you can drag and drop a video here or upload MP4 or MOV files.
+
+In the screenshot above, a Youtube URL was pasted into the text box. If you click the right arrow in the box, you are taken to the Video Settings page (screenshot below). If you click Save, the video is added to your course. If you click on Replace video, you are taken back to the Add video to your course page.
+
+.. image:: ../../../shared/images/VideoUploadDetails.png
+  :alt: this screen shows the settings for the video and includes video ID and video URL as well as fields for fallback videos, a thumbnail, transcripts, duration, handout, and license. 
+
+.. _Add a Video to an Edge Course:
+
+********************************
+Add a Video to an Edge Course
+********************************
+
+.. note::
+  **This information applies only to courses that run on the Edge site.**
+  For information about adding videos to courses that run on edx.org, see
+  :ref:`Add a Video to an edx org Course`.
+
+For courses on Edge, you add the following information to the video
+component.
+
+.. include:: ../../../shared/video/add_video_to_course.rst
