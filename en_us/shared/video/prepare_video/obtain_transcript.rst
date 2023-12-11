@@ -26,26 +26,25 @@ Obtaining a Video Transcript
 
 To obtain a transcript in .srt format, you can work with a transcript
 provider such as `3Play Media`_ or `cielo24`_.
+.. note::
+  Transcripts must be in the SubRip Text (.srt)
+  format. We strongly recommend that you format your .srt files as plain text
+  with no encoding. Encodings such as ``UTF-8`` and ``ANSI - Western Roman``
+  can cause errors.
 
-  .. note::
-    Transcripts must be in the SubRip Text (.srt)
-    format. We strongly recommend that you format your .srt files as plain text
-    with no encoding. Encodings such as ``UTF-8`` and ``ANSI - Western Roman``
-    can cause errors.
+  If you use a third party transcript provider other than 3Play Media or
+  cielo24, make sure that your finished transcripts are in .srt format.
 
-    If you use a third party transcript provider other than 3Play Media or
-    cielo24, make sure that your finished transcripts are in .srt format.
+.. _Adding Transcripts:
 
-  .. _Adding Transcripts:
+==========================
+Adding Transcripts
+==========================
 
-  ==========================
-  Adding Transcripts
-  ==========================
-
-  When you work with a transcript provider, you send your videos to the
-  transcript provider, and the provider sends you the completed transcripts.
-  You later upload the transcripts when you :ref:`create a video
-  component<opencoursestaff:Add a Video to a Course>`.
+When you work with a transcript provider, you send your videos to the
+transcript provider, and the provider sends you the completed transcripts.
+You later upload the transcripts when you :ref:`create a video
+component<opencoursestaff:Add a Video to a Course>`.
 
 **********************************
 Transcript File Naming Conventions
