@@ -46,8 +46,9 @@ Automated Video Process
 
 #. The course team :ref:`uploads a video file via MIT's ODL Video Services (OVS)<Upload a video to an MITx Online Course>`.
 #. The process assigns a unique video ID to the video. This video ID represents all of the files and hosting locations that the automated process creates.
- .. important::
-    As soon as the automated video process has assigned a video ID to the video, you can add the video to the course. However, the video is not visible in the course until the automated process is complete. The process can take up to 24 hours.
+
+.. important::
+  As soon as the automated video process has assigned a video ID to the video, you can add the video to the course. However, the video is not visible in the course until the automated process is complete. The process can take up to 24 hours.
 3. The process encodes video files in different formats.
 #. The process uploads the video files to the hosting service.
 
@@ -69,30 +70,40 @@ To upload video files, follow these steps.
   This process requires you to use your MIT Dropbox account. If you are unfamiliar with how to use your MIT Dropbox account, please see the `documentation <https://ist.mit.edu/dropbox>`_ on the IS&T website.
 
 1. Load your course videos onto your MIT Dropbox account. (You will navigate to your Dropbox later from ODL Video Services to upload the videos to your course.)
-  .. note::
-    Video types are limited to .mov and .mp4 files, and video sizes must be under 5 GB
+
+.. note::
+  Video types are limited to .mov and .mp4 files, and video sizes must be under 5 GB
 2. Go to `ODL Video Services <https://video.odl.mit.edu/>`_. You will need to sign in with your Kerberos account.
 3. Choose the collection associated with your course:
-  .. image:: ../../../shared/images/find_collection.png
-    :width: 300
-    :alt: The ODL Video Services library, with a list of collections. The collection associated with a course will have the course number listed in its title.
+
+.. image:: ../../../shared/images/find_collection.png
+  :width: 300
+  :alt: The ODL Video Services library, with a list of collections. The collection associated with a course will have the course number listed in its title.
+
 .. note::
   You may want to use the **Find** command on your browser to look for your course number. Also note that there are several pages of collections, and you may have to use the arrows at the bottom of the page to navigate to another page to find your collection.
+
 4. Click **Add Videos from Dropbox**:
-  .. image:: ../../../shared/images/add_from_dropbox.png
-   :width: 300
-   :alt: On the screen with a list of videos associated with your course, click the "Add Videos from Dropbbox" link in the upper right hand corner of the page.
+
+.. image:: ../../../shared/images/add_from_dropbox.png
+ :width: 300
+ :alt: On the screen with a list of videos associated with your course, click the "Add Videos from Dropbbox" link in the upper right hand corner of the page.
+
 5. A pop-up will open showing your Dropbox account.
 #. Select the videos you would like to upload by clicking the checkboxes. Please select the videos you would like to add (see #6 in the image below). Then click the **Choose** button (see #7 in the image below).
-  .. image:: ../../../shared/images/select_videos.png
-   :width: 300
-   :alt: From your Dropbox you will be able to click a check box next to any of the videos you want to upload and then click "Choose."
+
+.. image:: ../../../shared/images/select_videos.png
+ :width: 300
+ :alt: From your Dropbox you will be able to click a check box next to any of the videos you want to upload and then click "Choose."
+
 .. important::
   Please do not attempt to upload more than five videos at a time, as it may result in an error.
+
 7. OVS will take a few minutes to upload and process the videos. You will see the status change inside the collection folder. You do not have to remain on the page for process to run. If the process is successful, the video will appear in **Video Uploads**, under the **Content** menu.
 
 .. note::
   **Video uploads, even very large ones, should take less than two hours to complete.** If you have a video that is still processing after two hours, try uploading it again. If it still does not work, please report the issue to your assigned educational technologist.
+  
 .. note::
   Once you have uploaded a video to your OVS collection, you may delete it from your Dropbox. It will not affect the video collection.
 
