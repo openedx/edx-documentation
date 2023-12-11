@@ -9,7 +9,7 @@ in Studio, and then you add information for the video to the video component.
 
 .. contents::
  :local:
- :depth: 1
+ :depth: 2
 
 .. _Add a Video to an edx org Course:
 
