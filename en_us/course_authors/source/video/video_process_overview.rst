@@ -13,9 +13,6 @@ Video Process for Courses on MITx Online
 The following diagram outlines the general process for adding videos to an
 MITx Online course.
 
-  :alt: The process for adding videos to an MITx Online course, as outlined in the
-      following numbered steps.
-
 #. The course team :ref:`prepares to add videos to the course <Preparing a
    Video>`. These steps can happen simultaneously.
 
