@@ -30,5 +30,3 @@ MITx Online course.
    Course>` and adds the video information to the components.
 
 
-.. include:: ../../../shared/video/video_process_overview.rst
-
