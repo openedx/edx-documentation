@@ -29,34 +29,8 @@ General Guidelines
 * Each video should follow established :ref:`file naming conventions <File
   Naming Conventions>` and :ref:`video compression specifications <Video
   Compression Specifications>`.
-* The video player supports videos in .mp4, .mov, .mpeg, .webm, and .ogg
-  format. However, to help make sure all standard browsers can play your video,
-  we **strongly** recommend that you use the .mp4 format.
+* For courses on MITx Online, your videos must use the .mp4 or .mov format.
 
-.. only:: Partners
-
-  .. note::
-    For courses on edx.org, your videos must use the .mp4 or .mov format.
-
-    For courses on Edge, we also strongly recommend that you create additional
-    copies of your videos in the following resolutions. When multiple videos
-    are available, the video player automatically plays the best video for each
-    learner's device and internet connection.
-
-    * 1080p
-    * 720p
-    * Mobile 360p
-
-.. only:: Open_edX
-
-  * We strongly recommend that you create copies of your videos in the
-    following resolutions. When multiple resolutions are available, the video
-    player automatically plays the best video for each learner's device and
-    internet connection.
-
-    * 1080p
-    * 720p
-    * Mobile 360p
 
 .. _File Naming Conventions:
 
@@ -99,20 +73,8 @@ these guidelines.
 ********************************
 Video Compression Specifications
 ********************************
-
-.. only:: Partners
-
-  For courses on edx.org, all videos must comply with the following
-  specifications.
-
-  For courses on Edge, the following video compression specifications are
-  strongly recommended, but not required.
-
-.. only:: Open_edX
-
-  The following video compression specifications are strongly recommended, but
-  not required.
-
+For courses on MITx Online, all videos must comply with the following
+specifications.
 
 .. list-table::
    :widths: 10 20
