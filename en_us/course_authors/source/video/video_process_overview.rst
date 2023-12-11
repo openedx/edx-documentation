@@ -14,7 +14,7 @@ The following outlines the general process for adding videos to an
 MITx Online course.
 
 #. The course team :ref:`prepares to add videos to the course <Preparing a
-   Video>`. These steps can happen simultaneously.
+   Video>`.
 
    * The course team :ref:`creates videos <Create a Video>`.
    * The course team or organization :ref:`contracts with a transcript
