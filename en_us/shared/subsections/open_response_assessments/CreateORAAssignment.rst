@@ -23,7 +23,7 @@ assessments.
 
 * Actions you can take for an active ORA assignment: :ref:`Managing ORA
   Assignments`
-  
+
 ********************************
 Team Open Response Assessments
 ********************************
@@ -236,7 +236,7 @@ Team vs. Individual ORA
 
 To make a Team ORA, set the option **Teams Enabled** to **True**\.
 This reveals a drop down for **Selected Team-set** that defines which
-group of teams will be able to submit a response for this assignment. 
+group of teams will be able to submit a response for this assignment.
 
 .. image:: ../../../../shared/images/ORA_CreateTeamORA.png
    :alt: The settings page with the control which toggles individual / team ORA.
@@ -380,14 +380,14 @@ assessment, self assessment, and staff assessment steps.
 When adding an ORA problem, the component editor provides some predefined ORA
 problem templates with different :ref:`steps<PA Assessment Steps>` set up
 in a sequence that works well for most courses. While you can change the
-order of the peer, self, and staff assessment steps, edX recommends that
+order of the peer, self, and staff assessment steps, MITx Online recommends that
 you include them in this order.
 
 .. note:: If you include a learner training step, you must also include a peer
    assessment step. The learner training step must come before peer or self
    assessment steps.
 
-   If you include both peer and self assessment steps, edX recommends that you
+   If you include both peer and self assessment steps, MITx Online recommends that you
    place the peer assessment before the self assessment.
 
    If you include a staff assessment step, it should be the final step in the
@@ -419,7 +419,7 @@ To add steps to the open response assignment, complete these actions.
 Step 6. Assignment Schedule
 ****************************
 
-Under the **Schedule** tab of the ORA comonent editor, you can choose between
+Under the **Schedule** tab of the ORA component editor, you can choose between
 three different modes for configuring the schedule and due dates for an ORA assignment.
 
 The three different date configuration modes are:
@@ -433,7 +433,7 @@ The behavior of each option is as follows:
 Configure deadlines manually
 =============================
 
-With this option, you hace the ability to set individual deadlines for each step of
+With this option, you have the ability to set individual deadlines for each step of
 the Open Response Assessment individually. The options that you can set include:
 
 * **Response Start Date** and **Response Start Time**: These settings define when
@@ -441,26 +441,26 @@ the Open Response Assessment individually. The options that you can set include:
   cannot type a response or upload files. After, they can begin to work on their response
   and upload files.
 
-* **Response Due Date** and **Response Due Time**: These settings define the date / time by which 
+* **Response Due Date** and **Response Due Time**: These settings define the date / time by which
   learners must complete and submit their response. After this date / time passes, learners
   can no longer submit responses to the problem.
 
 * **Peer Assessment Start Date** and **Peer Assessment Start Time**: These settings define
-  when learners can begin to assess peer responses. Before this time, learners will recieve a message
+  when learners can begin to assess peer responses. Before this time, learners will receive a message
   that peer assessment has not yet begun.
 
 * **Peer Assessment Due Date** and **Peer Assessment Due Time**: These settings define the date / time
   by which learners must complete assessing peer responses. After this date / time has passed learners will
   no longer be able to assess peers. If learners have not assessed the required number of peers before this
-  deadline, they will not be able to recieve a grade.
+  deadline, they will not be able to receive a grade.
 
-* **Self Assessment Start Date** and **Self Assessment Start TIme**: These settings define
-  when learners can begin to self-assess their responses. Before this time, learners will recieve a message
+* **Self Assessment Start Date** and **Self Assessment Start Time**: These settings define
+  when learners can begin to self-assess their responses. Before this time, learners will receive a message
   that self assessment has not yet begun.
 
 * **Self Assessment Due Date** and **Self Assessment Due Time**: These settings define the date / time
   by which learners must complete their self-assessment. After this date / time has passed learners will
-  no longer be able to complete their self-assessment. 
+  no longer be able to complete their self-assessment.
 
 .. note::
    The times that you set are in Coordinated Universal Time (UTC). To verify
@@ -475,7 +475,7 @@ the Open Response Assessment individually. The options that you can set include:
 
 .. note::
    You should allow sufficient time for peer assessments to be performed after
-   learners have submitted their own responses. EdX recommends that you allow at
+   learners have submitted their own responses. MITx Online recommends that you allow at
    least one week between the due date for responses and the due date for peer
    assessments. If the response due time and peer assessment due time are close
    together, and a learner submits a response just before responses are due,
@@ -488,18 +488,18 @@ Match deadlines to the subsection due date
 
 When this setting is selected, all ORA due dates will be set to the due date of the subsection
 that they are contained within. Rather than specifying individual dates and times for the submission, peer,
-and self due dates, they are all set to the due date of the subsection they are contained within. 
+and self due dates, they are all set to the due date of the subsection they are contained within.
 This has multiple benefits:
 
 * **Alignment with other assignment dates**: Rather than having their own separate due dates,
   ORAs can use the same due date as all other problems within a subsection, reducing complexity
-  and simplifying the course timelie for students.
+  and simplifying the course timeline for students.
 * **Ability to use grace period and individual extensions**: Setting the date configuration to
   this setting allows ORA problems to use the grace period and learner extension features.
-     
+
 .. note::
 
-   Becuase the submission and assessment deadlines are all set to the same date under this option,
+   Becase the submission and assessment deadlines are all set to the same date under this option,
    there will be no "buffer" time between the response due date and the peer assessment due date.
    If you are using this setting for a peer assessment ORA, you must make it clear to learners that
    they must submit early enough to give their peers time to review their response.
@@ -514,7 +514,7 @@ they are all set to the end date of the course. This setting is useful for self-
 
 .. note::
 
-   Becuase the submission and assessment deadlines are all set to the same date under this option,
+   Because the submission and assessment deadlines are all set to the same date under this option,
    there will be no "buffer" time between the response due date and the peer assessment due date.
    If you are using this setting for a peer assessment ORA, you must make it clear to learners that
    they must submit early enough to give their peers time to review their response.
@@ -559,7 +559,7 @@ To add and score learner training responses, follow these steps.
 
 #. Under **Step: Learner Training**, select **View / Add Sample Responses**.
    The section will expand and display the sample responses already set up.
-#. Select **Add sample reponse**.
+#. Select **Add sample response**.
 #. In the **Response** field, enter the text of your example response.
 #. Under **Response Score**, for each criterion, select the option that you
    want.
