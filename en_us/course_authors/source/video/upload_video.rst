@@ -39,11 +39,6 @@ represents all of the formats and hosting locations for the video.
 .. note::
   If a step in the process does not complete successfully, the process automatically tries again multiple times. If the process does not complete successfully after multiple tries, an :ref:`error status <Video Processing Statuses>` appears in the list of videos on the **Video Uploads** page as well as within the video component.
 
-.. _Automated Video Process:
-
-Automated Video Process
-***********************
-
 #. The course team :ref:`uploads a video file via MIT's ODL Video Services (OVS)<Upload a video to an MITx Online Course>`.
 #. The process assigns a unique video ID to the video. This video ID represents all of the files and hosting locations that the automated process creates.
 

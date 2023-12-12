@@ -23,7 +23,7 @@ component.
 * A display name for the component.
 * The video ID that the upload process automatically creates for your video. To
   find the video ID, see :ref:`Copy the Video ID`.
-* The transcript for your video, for videos with non-integrated transcripts.
+* The transcript for your video.
 
 .. _Copy the Video ID:
 
@@ -59,7 +59,7 @@ videos. The report includes the video ID for every uploaded file.
 Add a Video Component
 =====================
 
-To add a video and its transcript to an edx.org course, follow these steps.
+To add a video and its transcript to an MITx Online course, follow these steps.
 
 #. In Studio, locate the unit that you want, and then select **Video** under
    **Add New Component**.
