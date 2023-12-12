@@ -7,8 +7,8 @@ Uploading a Video
 For more information, see the following topics.
 
 .. contents::
-  :local:
-  :depth: 2
+ :local:
+ :depth: 2
 
 .. _Uploading a Video for an edx org Course:
 
@@ -16,15 +16,10 @@ For more information, see the following topics.
 Uploading a Video for an MITx Online Course
 ******************************************
 
-For :ref:`MITx Online courses <Uploading a Video for an edx org Course>`, you use **MIT's ODL Video Services (OVS)** to 
-upload your videos to the **Video Uploads** page. The MITx Online video process then
-creates multiple formats and sources for your videos.
+For MITx Online courses, you use MIT's ODL Video Services (OVS) to upload your videos to the **Video Uploads** page. The MITx Online video process then creates multiple formats and sources for your videos.
 
-For more information, see the following topics.
-
-.. contents::
-  :local:
-  :depth: 2
+.. important::
+  You will not use the video upload feature on your course's **Video Uploads** page. This will result in an error and your upload attempt will fail.
 
 .. _Automated Video Process:
 
@@ -38,136 +33,72 @@ MITx Online course, an automated video process creates multiple formats and sour
 for every video. The process also assigns a single video ID to the video that
 represents all of the formats and hosting locations for the video.
 
-* For courses that have :ref:`integrated transcripts <Automated Video Process
-  for Integrated Transcripts>` through 3Play Media or cielo24, the MITx Online
-  automated video process also creates transcripts for each video.
-
-* For courses that have :ref:`non-integrated transcripts <Automated Video
-  Process for Non Integrated Transcripts>`, you must obtain your transcripts
-  from your third party provider. You later :ref:`add the video transcripts
-  manually <Add a Transcript>` when you create a video component.
+* For all videos, you must obtain transcripts
+  from a third party provider. You later :ref:`add the video transcripts <Add a Transcript>` when you create a video component.
 
 .. note::
-  If a step in the process does not complete successfully, the process
-  automatically tries again multiple times. If the process does not complete
-  successfully after multiple tries, an :ref:`error status <Video Processing
-  Statuses>` appears in the list of videos on the **Video Uploads** page as 
-  well as within the video component.
+  If a step in the process does not complete successfully, the process automatically tries again multiple times. If the process does not complete successfully after multiple tries, an :ref:`error status <Video Processing Statuses>` appears in the list of videos on the **Video Uploads** page as well as within the video component.
 
-For more information, see the following topics:
+#. The course team :ref:`uploads a video file via MIT's ODL Video Services (OVS)<Upload a video to an MITx Online Course>`.
+#. The process assigns a unique video ID to the video. This video ID represents all of the files and hosting locations that the automated process creates.
 
-.. contents::
-  :local:
-  :depth: 1
-
-.. _Automated Video Process for Integrated Transcripts:
-
-Automated Video Process for Integrated Transcripts
-**************************************************
-
-If the course has integrated video transcripts through 3Play Media or cielo24,
-the process has the following steps.
-
-#. The course team :ref:`uploads a video file <Upload a Video for an MITx Online Course>` via **MIT's ODL Video Services (OVS)**.
-
-#. The process assigns a unique video ID to the video. This video ID represents
-   all of the files, hosting locations, and transcripts that the automated
-   process creates.
-
-   .. important::
-    As soon as the automated video process has assigned a video ID to the
-    video, you can add the video to the course. However, the video is not
-    visible in the course until the automated process is complete. The process
-    can take up to 24 hours.
-
-#. The process encodes video files in different formats, and then uploads the
-   video files to the hosting service.
-
-#. The process creates transcripts for the video, and then uploads the
-   transcripts to the hosting service.
-
-After the automated video process is complete, the course team creates a video
-component and adds the video ID to the video component. For more information,
-see :ref:`Add a Video to a Course`. 
-
-.. _Automated Video Process for Non Integrated Transcripts:
-
-Automated Video Process for Non-Integrated Transcripts
-******************************************************
-
-If the course uses a transcript provider that does not offer integrated
-transcripts, the video processing service completes the following steps.
-
-#. The course team :ref:`uploads a video file <Upload a Video for an MITx Online Course>` via **MIT's ODL Video Services (OVS)**.
-
-#. The process assigns a unique video ID to the video. This video ID represents
-   all of the files and hosting locations that the automated process creates.
-
-   .. important::
-    As soon as the automated video process has assigned a video ID to the
-    video, you can add the video to the course. However, the video is not
-    visible in the course until the automated process is complete. The process
-    can take up to 24 hours.
-
-#. The process encodes video files in different formats.
-
+.. important::
+  As soon as the automated video process has assigned a video ID to the video, you can add the video to the course. However, the video is not visible in the course until the automated process is complete. The process can take up to 24 hours.
+3. The process encodes video files in different formats.
 #. The process uploads the video files to the hosting service.
 
-Either before or after the course team :ref:`uploads a video file <Uploading a Video for an edx org Course>`, the course team :ref:`obtains transcripts <Obtain a Video Transcript>`
+Either before or after the course team :ref:`uploads a video file <Upload a video to an MITx Online Course>`, the course team :ref:`obtains transcripts <Obtain a Video Transcript>`
 from a transcript provider. When the MITx Online video process is complete, and the
 course team has obtained transcripts from the transcript provider, the course
 team creates a video component and adds the video ID and transcript to the
 component. For more information, see :ref:`Add a Video to a Course <Add a Video to a Course>`.
 
+.. _Upload a video to an MITx Online Course:
+
 ====================================
-Upload a Video for an MITx Online Course
+Upload a Video to an MITx Online Course
 ====================================
 
-To upload video files, both for videos with integrated transcripts and
-non-integrated transcripts, follow these steps.
+To upload video files, follow these steps.
 
 .. note::
-  This process requires you to use your **MIT Dropbox account**. If you are unfamiliar with how to use your MIT Dropbox account, please see the `documentation <https://ist.mit.edu/dropbox>`_ on the IS&T website.
+  This process requires you to use your MIT Dropbox account. If you are unfamiliar with how to use your MIT Dropbox account, please see the `documentation <https://ist.mit.edu/dropbox>`_ on the IS&T website.
 
-1. Load your course videos onto your **MIT Dropbox account**. You will navigate to your Dropbox later from **ODL Video Services** to upload the videos to your course.
+1. Load your course videos onto your MIT Dropbox account. (You will navigate to your Dropbox later from ODL Video Services to upload the videos to your course.)
 
-  * Video types are limited to .mov and .mp4 files
-  * Video sizes must be under 5 GB
-
+.. note::
+  Video types are limited to .mov and .mp4 files, and video sizes must be under 5 GB
 2. Go to `ODL Video Services <https://video.odl.mit.edu/>`_. You will need to sign in with your Kerberos account.
+3. Choose the collection associated with your course:
 
-#. Choose the collection associated with your course:
+.. image:: ../../../shared/images/find_collection.png
+  :width: 300
+  :alt: The ODL Video Services library, with a list of collections. The collection associated with a course will have the course number listed in its title.
 
-   .. image:: ../../../shared/images/find_collection.png
-      :width: 300
-      :alt: The ODL Video Services library, with a list of collections. The collection associated with a course will have the course number listed in its title.
+.. note::
+  You may want to use the **Find** command on your browser to look for your course number. Also note that there are several pages of collections, and you may have to use the arrows at the bottom of the page to navigate to another page to find your collection.
 
-  * You may want to use the **Find** command on your browser to look for your course number. Also note that there are several pages of collections, and you may have to use the arrows at the bottom of the page to navigate to another page to find your collection:
 4. Click **Add Videos from Dropbox**:
 
-   .. image:: ../../../shared/images/add_from_dropbox.png
-      :width: 300
-      :alt: On the screen with a list of videos associated with your course, click the "Add Videos from Dropbbox" link in the upper right hand corner of the page.
-   
-   
-#. A pop-up will open showing your Dropbox account.
+.. image:: ../../../shared/images/add_from_dropbox.png
+ :width: 300
+ :alt: On the screen with a list of videos associated with your course, click the "Add Videos from Dropbbox" link in the upper right hand corner of the page.
 
-#. Select the videos you would like to upload by clicking the checkboxes. You may select as many images as you would like (see #6 in the image below). Then click the **Choose** button (see #7 in the image below).
+5. A pop-up will open showing your Dropbox account.
+#. Select the videos you would like to upload by clicking the checkboxes. Please select the videos you would like to add (see #6 in the image below). Then click the **Choose** button (see #7 in the image below).
 
-   .. image:: ../../../shared/images/select_videos.png
-      :width: 300
-      :alt: From your Dropbox you will be able to click a check box next to any of the videos you want to upload and then click "Choose."
+.. image:: ../../../shared/images/select_videos.png
+ :width: 300
+ :alt: From your Dropbox you will be able to click a check box next to any of the videos you want to upload and then click "Choose."
 
+.. important::
+  Please do not attempt to upload more than five videos at a time, as it may result in an error.
 
-OVS will take a few minutes to upload and process the videos. You will see the status change inside the collection folder. You do not have to remain on the page for process to run. You will receive an email from **MIT ODL Video** with the status of your video once processing is complete. The video will now appear on the **Video Uploads** page within your course:
-
-#. Open the course in Studio.
-
-#. On the **Content** menu, select **Video Uploads**.
+7. OVS will take a few minutes to upload and process the videos. You will see the status change inside the collection folder. You do not have to remain on the page for process to run. If the process is successful, the video will appear in **Video Uploads**, under the **Content** menu.
 
 .. note::
-  **Video uploads, even very large ones, should take less than two hours to complete.** If you have a video that is still processing after two hours, try uploading it again. If it still does not work, please report the issue to your **assigned educational technologist**.
-
+  **Video uploads, even very large ones, should take less than two hours to complete.** If you have a video that is still processing after two hours, try uploading it again. If it still does not work, please report the issue to your assigned educational technologist.
+  
 .. note::
   Once you have uploaded a video to your OVS collection, you may delete it from your Dropbox. It will not affect the video collection.
 
