@@ -50,7 +50,7 @@ imagesize==1.4.1
     # via
     #   -r base.txt
     #   sphinx
-importlib-metadata==7.0.0
+importlib-metadata==7.0.1
     # via
     #   -r base.txt
     #   build
