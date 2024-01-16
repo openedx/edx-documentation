@@ -16,6 +16,20 @@ Endpoints
 
 The following endpoints are available in the Enterprise API.
 
+- **/subscriptions/{subscription_plan_uuid}/licenses/assign** - You can make POST calls to the
+  ``/enterprise/v1/subscriptions/{subscription_plan_uuid}/licenses/assign`` endpoint to assign
+  licenses to a list of users in the given subscription plan.
+  For details, see :ref:`licenses_assign Endpoint`.
+
+- **/subscriptions/{subscription_plan_uuid}/licenses/bulk-revoke** - You can make POST calls to the
+  ``/enterprise/v1/subscriptions/{subscription_plan_uuid}/licenses/bulk-revoke`` endpoint to revoke
+  licenses of learners in the given subscription plan.
+  For details, see :ref:`licenses_revoke Endpoint`.
+
+- **/bulk-license-enrollment** - You can make POST calls to the
+  ``/enterprise/v1/bulk-license-enrollment`` to bulk enroll learners in given list of courses.
+  For details, see :ref:`bulk-license-enrollment Endpoint`.
+
 - **/enterprise-catalogs** - You can make GET calls to the
   ``/enterprise/v2/enterprise-catalogs`` endpoint to get a list of all the course catalogs
   that are available to your organization.
@@ -66,6 +80,265 @@ example, to request JSON-formatted information about a course run using
    https://api.edx.org/enterprise/v2/enterprise-catalogs/3f56a21c-76c8-47c0-add8-a99714d40d94/courses/MyUni+Sport101x \
    -H "Authorization: JWT {access token}"
    -H "Accept: application/json"
+
+.. _Licenses_assign Endpoint:
+
+************************
+licenses/assign Endpoint
+************************
+
+POST calls to the ``licenses/assign`` endpoint to assign a license to a list of users provided in request body in the given subscription plan specified in the path.
+
+===================
+Method and Endpoint
+===================
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Method
+     - Endpoint
+   * - POST
+     - ``enterprise/v1/subscriptions/{subscription_plan_uuid}/licenses/assign``
+
+=====================
+Request Values
+=====================
+The ``POST enterprise/v1/subscriptions/{subscription_plan_uuid}/licenses/assign`` request accepts the following values in the body of the request:
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``user_emails``
+     - array
+     - A list of user emails to assign licenses to.
+   * - ``user_sfids``
+     - array
+     - A list of user Salesforce ids.
+   * - ``greeting``
+     - string
+     - An opening body that will be added at the start of email if users are supposed to be notified of their assignment.
+   * - ``closing``
+     - string
+     - A closing body that will be added at the bottom of email.
+   * - ``notify_users``
+     - boolean
+     - To specify if learners should be notified after assignment.
+
+=====================
+Example Request
+=====================
+::
+
+   curl -X POST
+     https://api.edx.org/enterprise/v1/subscriptions/904b1785-9d3a-1000-848d-6ae7a56e6355/licenses/assign \
+     -H 'Authorization: JWT {access token}'
+     -H 'Content-Type: application/json' \
+     -d '{"user_emails":["abc@example.com","xyz@example.com"],"user_sfids":["001OE000001f26OXZP","001OE000001a25WXYZ"],"greeting":"Hello","closing":"Bye","notify_users":true}'
+
+=====================
+Response Values
+=====================
+The ``POST enterprise/v1/subscriptions/{subscription_plan_uuid}/licenses/assign`` request returns the following response values:
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``num_successful_assignments``
+     - integer
+     - Number of successful license assignments for given learners.
+   * - ``num_already_associated``
+     - integer
+     - Number of users that have already been associated with a non-revoked license in the given subscription.
+   * - ``license_assignments``
+     - array
+     - A list of objects where each object holds a pair of user email and license uuid for successful assignments.
+
+===================
+Example Response
+===================
+
+A sample response with a status `200 OK` will look like:
+
+::
+
+   {
+        "num_successful_assignments": 2,
+        "num_already_associated": 0,
+        "license_assignments": [
+            {
+                "user_email": "abc@example.com",
+                "license": "30824248-e671-449f-8bf7-02715478abce"
+            },
+            {
+                "user_email": "xyz@example.com",
+                "license": "30821223-e671-449f-8bf7-02715478xyze"
+            }
+        ]
+   }
+
+.. _Licenses_revoke Endpoint:
+
+*****************************
+licenses/bulk-revoke Endpoint
+*****************************
+
+POST calls to the ``licenses/bulk-revoke`` endpoint to revoke one or more licenses in the given subscription plan.
+
+===================
+Method and Endpoint
+===================
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Method
+     - Endpoint
+   * - POST
+     - ``enterprise/v1/subscriptions/{subscription_plan_uuid}/licenses/bulk-revoke``
+
+=====================
+Request Values
+=====================
+The ``POST enterprise/v1/subscriptions/{subscription_plan_uuid}/licenses/bulk-revoke`` request accepts the following values in the body of the request:
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``user_emails``
+     - array
+     - List of emails with which licenses are associated.
+   * - ``filters``
+     - array
+     - A list of objects that either hold user email value for lookup or a list of valid statuses of license for filtering. A request must either provide ``user_email`` or ``filters``, but not both. Valid values for statuses are: ``activated``, ``assigned``, ``unassigned``, and ``revoked``.
+
+=====================
+Example Request
+=====================
+
+Request payload with ``user_emails``
+::
+
+   curl -X POST
+     https://api.edx.org/enterprise/v1/subscriptions/904b1785-9d3a-1000-848d-6ae7a56e6355/licenses/bulk-revoke \
+     -H 'Authorization: JWT {access token}'
+     -H 'Content-Type: application/json' \
+     -d '{"user_emails":["abc@example.com","xyz@example.com"]}'
+
+Request payload with ``filters``
+::
+
+   curl -X POST
+     https://api.edx.org/enterprise/v1/subscriptions/904b1785-9d3a-1000-848d-6ae7a56e6355/licenses/bulk-revoke \
+     -H 'Authorization: JWT {access token}'
+     -H 'Content-Type: application/json' \
+     -d '{"filters":[{"user_email": "al"}]}'
+
+::
+
+   curl -X POST
+     https://api.edx.org/enterprise/v1/subscriptions/904b1785-9d3a-1000-848d-6ae7a56e6355/licenses/bulk-revoke \
+     -H 'Authorization: JWT {access token}'
+     -H 'Content-Type: application/json' \
+     -d '{"filters":[{"status_in": ["activated", "assigned"]}]}'
+
+
+=====================
+Response
+=====================
+
+The ``POST enterprise/v1/subscriptions/{subscription_plan_uuid}/licenses/bulk-revoke`` request can return the following responses:
+
+    204 No Content - All revocations were successful.
+
+    400 Bad Request - Some error occurred when processing one of the revocations, no revocations were committed. An error message is provided.
+
+    404 Not Found - No license exists in the plan for one of the given email addresses, or the license is not in an assigned or activated state. An error message is provided.
+
+.. _Bulk-license-enrollment Endpoint:
+
+*************************************************************************************
+/bulk-license-enrollment Endpoint
+*************************************************************************************
+
+POST calls to the ``/bulk-license-enrollment`` to bulk enroll learners in given list of courses.
+
+===================
+Method and Endpoint
+===================
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Method
+     - Endpoint
+   * - POST
+     - ``enterprise/v1/bulk-license-enrollment``
+
+=====================
+Request Values
+=====================
+The ``POST enterprise/v1/bulk-license-enrollment`` request accepts the following values in the body of the request:
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``enterprise_customer_uuid``
+     - string
+     - The uuid of the associated enterprise customer provided as a query param.
+   * - ``emails``
+     - array
+     - List of learner emails to bulk enroll in given list of courses. Limit is ``1000`` learners + course keys.
+   * - ``course_run_keys``
+     - array
+     - List of course keys.
+   * - ``notify``
+     - boolean
+     - Notify users about the enrollment.
+
+=====================
+Example Request
+=====================
+
+Request payload
+::
+
+   curl -X POST
+     https://api.edx.org/enterprise/v1/bulk-license-enrollment?enterprise_customer_uuid=abcd-aeiou-wxyz \
+     -H 'Authorization: JWT {access token}'
+     -H 'Content-Type: application/json' \
+     -d '{"emails":["abc@example.com","xyz@example.com"], "course_run_keys":["testX"], "notify": true}'
+
+===================
+Example Response
+===================
+
+A sample response with a status `201 Created` will look like:
+
+::
+
+   {
+    "job_id": "<UUID4>"
+   }
 
 .. _Enterprise_catalogs Endpoint:
 
