@@ -26,6 +26,10 @@ The following endpoints are available in the Enterprise API.
   licenses of learners in the given subscription plan.
   For details, see :ref:`licenses_revoke Endpoint`.
 
+- **/bulk-license-enrollment** - You can make POST calls to the
+  ``/enterprise/v1/bulk-license-enrollment`` to bulk enroll learners in given list of courses.
+  For details, see :ref:`bulk-license-enrollment Endpoint`.
+
 - **/enterprise-catalogs** - You can make GET calls to the
   ``/enterprise/v2/enterprise-catalogs`` endpoint to get a list of all the course catalogs
   that are available to your organization.
@@ -264,6 +268,77 @@ The ``POST enterprise/v1/subscriptions/{subscription_plan_uuid}/licenses/bulk-re
     400 Bad Request - Some error occurred when processing one of the revocations, no revocations were committed. An error message is provided.
 
     404 Not Found - No license exists in the plan for one of the given email addresses, or the license is not in an assigned or activated state. An error message is provided.
+
+.. _Bulk-license-enrollment Endpoint:
+
+*************************************************************************************
+/bulk-license-enrollment Endpoint
+*************************************************************************************
+
+POST calls to the ``/bulk-license-enrollment`` to bulk enroll learners in given list of courses.
+
+===================
+Method and Endpoint
+===================
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Method
+     - Endpoint
+   * - POST
+     - ``enterprise/v1/bulk-license-enrollment``
+
+=====================
+Request Values
+=====================
+The ``POST enterprise/v1/bulk-license-enrollment`` request accepts the following values in the body of the request:
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``enterprise_customer_uuid``
+     - string
+     - The uuid of the associated enterprise customer provided as a query param.
+   * - ``emails``
+     - array
+     - List of learner emails to bulk enroll in given list of courses. Limit is ``1000`` learners + course keys.
+   * - ``course_run_keys``
+     - array
+     - List of course keys.
+   * - ``notify``
+     - boolean
+     - Notify users about the enrollment.
+
+=====================
+Example Request
+=====================
+
+Request payload
+::
+
+   curl -X POST
+     https://api.edx.org/enterprise/v1/bulk-license-enrollment?enterprise_customer_uuid=abcd-aeiou-wxyz \
+     -H 'Authorization: JWT {access token}'
+     -H 'Content-Type: application/json' \
+     -d '{"emails":["abc@example.com","xyz@example.com"], "course_run_keys":["testX"], "notify": true}'
+
+===================
+Example Response
+===================
+
+A sample response with a status `201 Created` will look like:
+
+::
+
+   {
+    "job_id": "<UUID4>"
+   }
 
 .. _Enterprise_catalogs Endpoint:
 
