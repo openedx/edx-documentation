@@ -656,79 +656,195 @@ Fields in a course Content Item
    * - Field
      - Data Type
      - Description
+   * - ``key``
+     - string
+     - A unique identifier for the course. Example: ``edX+DemoX``.
+   * - ``uuid``
+     - string
+     - The unique identifier for the course. Example: ``0dbd8181-8866-47fc...``
+   * - ``title``
+     - string
+     - The title of the course.
    * - ``course_runs``
-     - array
+     - array (obj)
      - The currently existing :ref:`course runs<course_run Fields>` for the
        course.
    * - ``enrollment_url``
      - string
      - The URL for the enrollment page.
    * - ``entitlements``
+     - array (obj)
+     - Information about seat purchase options. Items includes ``mode``,
+       ``price``, ``currency``, ``sku`` and ``expires``.
+   * - ``owners``
      - array
-     - Information about seat purchase options.
-   * - ``expected_learning_items``
-     - array
-     - Elements of the course.
+     - The institution that offers the course.
+   * - ``image``
+     - obj
+     - The About page image for the course.
+   * - ``short_description``
+     - string
+     - The HTML short description of the course.
+   * - ``type``
+     - string
+     - UUID associated with the course type object.
+   * - ``url_slug``
+     - string
+     - The course identifying slug used in related url paths
+   * - ``course_type``
+     - string
+     - The course type. Example: ``verified-audit``.
+   * - ``enterprise_subscription_inclusion``
+     - boolean
+     - Signifies if this course is in the enterprise subscription catalog.
+   * - ``excluded_from_seo``
+     - boolean
+     - Signifies if the course's About Page will be excluded from indexing.
+   * - ``excluded_from_search`` 
+     - boolean
+     - Signifies if this course will show up in search results.
    * - ``full_description``
      - string
      - The HTML full description of the course.
-   * - ``image``
-     - array
-     - The About page image for the course.
-   * - ``key``
-     - string
-     - A unique identifier for the course. Example: ``edX+DemoX``.
    * - ``level_type``
      - enum string
      - The course's level of difficulty, such as ``Intermediate`` or
        ``Advanced``.
-   * - ``marketing_url``
-     - string
-     - The URL for the course About page.
-   * - ``modified``
-     - datetime
-     - The most recent date and time when the course metadata was modified.
-   * - ``original_image``
-     - string
-     - The URL of the original unmodified image for the course About page.
-   * - ``outcome``
-     - string
-     - What learners will learn from the course.
-   * - ``owners``
-     - array
-     - The institution that offers the course.
+   * - ``subjects``
+     - array (obj)
+     - The academic subjects that the course covers.
    * - ``prerequisites``
-     - array
+     - array (obj)
      - Any courses a learner must complete before enrolling in the current
        course.
    * - ``prerequisites_raw``
      - array
      - Any courses a learner must complete before enrolling in the current
        course.
-   * - ``programs``
+   * - ``expected_learning_items``
      - array
-     - Any programs that the course is part of.
-   * - ``short_description``
-     - string
-     - The HTML short description of the course.
+     - Elements of the course learning items records.
+   * - ``video``
+     - obj
+     - The course About video record.
    * - ``sponsors``
      - array
-     - The corporate sponsors for the course.
-   * - ``subjects``
-     - array
-     - The academic subjects that the course covers.
+     - The corporate sponsors for the course. 
+   * - ``modified``
+     - datetime
+     - The most recent date and time when the course metadata was modified.
+   * - ``marketing_url``
+     - string
+     - The URL for the course About page. 
    * - ``syllabus_raw``
      - string
      - The course syllabus.
-   * - ``title``
+   * - ``outcome``
      - string
-     - The title of the course.
-   * - ``uuid``
+     - What learners will learn from the course.
+   * - ``original_image``
      - string
-     - The unique identifier for the course. Example: ``0dbd8181-8866-47fc...``
-   * - ``video``
-     - array
-     - The course About video.
+     - The URL of the original unmodified image for the course About page.
+   * - ``card_image_url``
+     - string
+     - The URL of the card image for the various course card enterprise components. 
+   * - ``canonical_course_run_key``
+     - string 
+     - The unique identifying key for the course's canonical course run. 
+       Example: ``course-v1:edx+tr1012+1T2021``
+   * - ``extra_description``
+     - string
+     - additional description text provided by the course author.
+   * - ``additional_information``
+     - string
+     - Additional information relating to the course in HTML form. This 
+       information is only provided by administrators, not course authors,
+       and as such may hold special HTML that is normally not allowed.  
+   * - ``additional_metadata``
+     - obj
+     - Additional course metadata associated with 2U courses external to the
+       edX platform. 
+   * - ``faq``
+     - string
+     - HTML representation of the course FAQ section.
+   * - ``learner_testimonials``
+     - string
+     - HTML representation of hte course learner testimonials section.
+   * - ``enrollment_count``
+     - integer
+     - Total number of learners who have enrolled in this course.
+   * - ``recent_enrollment_count``
+     - integer
+     - Total number of learners who have enrolled in this course in the last 6
+       months.
+   * - ``topics``
+     - array (obj)
+     - Topics associated with the course.
+   * - ``key_for_reruns``
+     - string
+     - Course author provided key that is used for all reruns of the course.
+   * - ``url_slug_history``
+     - array (string)
+     - List of course slugs used for the course throughout its lifespan.
+   * - ``url_redirects``
+     - array (string)
+     - List of course url redirects.
+   * - ``course_run_statuses``
+     - array (string)
+     - All unique course run status values associated with this course.
+   * - ``editors``
+     - array (obj)
+     - List of course editor users.
+   * - ``collaborators``
+     - array (obj)
+     - List of course collaborators.
+   * - ``skill_names``
+     - array (string)
+     - List of skill names associated with the course.
+   * - ``skills``
+     - array (obj) 
+     - List of skill records associated with the course.
+   * - ``organization_short_code_override``
+     - string
+     - Organization short code overwritten string.
+   * - ``organization_logo_override_url``
+     - string
+     - Organization logo url overwritten.
+   * - ``geolocation``
+     - obj
+     - Geographic location for the course, if one exists.
+   * - ``location_restriction``
+     - obj
+     - Course location restriction record.
+   * - ``in_year_value``
+     - obj
+     - Record related to projected value for a course.
+   * - ``product_source``
+     - obj
+     - Record related to course origin.
+   * - ``data_modified_timestamp``
+     - datetime
+     - The timestamp of the last time the course data was modified.
+   * - ``watchers``
+     - array (string)
+     - The list of email addresses that will be notified if any of the course
+       runs are published or scheduled.
+   * - ``programs``
+     - array (obj)
+     - Any programs that the course is part of.
+   * - ``course_run_keys``
+     - array (string)
+     - The list of associated course run keys.
+   * - ``editable``
+     - boolean
+     - Whether the course is editable.
+   * - ``advertised_course_run_uuid``
+     - string
+     - Unique identifier of the primary advertised course run associated with
+       the course.
+   * - ``enrollment_url``
+     - string
+     - The enrollment url related to the course.  
 
 .. _course_run Fields:
 
@@ -743,116 +859,170 @@ Fields in a course_run Content Item
    * - Field
      - Data Type
      - Description
-   * - ``aggregation_key``
+   * - ``key``
      - string
-     - Example: ``courserun:edX+DemoX``.
-   * - ``authoring_organization_uuids``
-     - array
-     - The unique user IDs for the organizations that produced the content
-       item.
-   * - ``availability``
-     - enum string
-     - One of ``Current``, ``Upcoming``.
-   * - ``content_type``
-     - enum string
-     - Type of learning item. In this case, the value is ``courserun``.
+     - An identifier for the course run. For example, ``course-v1:RITx+PM9003x``. 
+   * - ``uuid``
+     - string
+     - The unique identifier for the course run. Example: ``0dbd8181-8866-47fc...`` 
+   * - ``title``
+     - string
+     - The title of the content item. For example, "Introduction to Plasma Physics".
+   * - ``external_key``
+     - string
+     - Content item unique identifying key external to the edX platform.
+   * - ``image``
+     - obj
+     - The About page image for the course. 
+   * - ``short_description``
+     - string
+     - The short description of the content item and its content. 
+   * - ``marketing_url``
+     - string
+     - The URL for the course About page.
+   * - ``seats``
+     - array (obj)
+     - List of seat records available for enrollment for the course run.
+   * - ``start``
+     - datetime
+     - The start date for the content item.
    * - ``end``
      - datetime
      - The end date of the course run.
-   * - ``enrollment_end``
+   * - ``go_live_date``
      - datetime
-     - The last date and time when this course run is open for learners to enroll.
-       Learners cannot enroll after this date and time.
+     - Datetime when the course run will go live
    * - ``enrollment_start``
      - datetime
      - The first date and time when this course run is open for learners to enroll.
        Learners cannot enroll before this date and time.
-   * - ``enrollment_url``
+   * - ``enrollment_end``
+     - datetime
+     - The last date and time when this course run is open for learners to enroll.
+       Learners cannot enroll after this date and time.
+   * - ``weeks_to_complete``
+     - integer
+     - The number of weeks required to complete the content item.
+   * - ``pacing_type``
+     - enum string
+     - The pacing of the course. May be ``self-paced`` or ``instructor-paced``.
+   * - ``type``
+     - enum string
+     - Typing for the course. One of ``verified``, ``professional``, ``audit``.
+   * - ``status``
+     -  string
+     -  String representation of the course run status. Example: ``published``
+   * -  ``is_enrollable``
+     - boolean
+     - Whether the course run is currently enrollable.
+   * - ``is_marketable``
+     - boolean
+     - Whether the course run is specified as marketable.
+   * - ``availability``
+     - enum string
+     - One of ``Current``, ``Upcoming``.
+   * - ``variant_id``
      - string
-     - The URL for the enrollment page.
+     -  The UUID for a product variant.
+   * - ``course``
+     - string
+     - Course unique key associated with the course run. Example:
+       ``HarvardX+FIH``
    * - ``full_description``
      - string
      - The long description of the course and its content.
-   * - ``has_enrollable_seats``
-     - boolean
-     - Whether learners can enroll in the course run.
-   * - ``image_url``
+   * - ``announcement``
+     - datetime
+     - Datetime when the most recent course run announcement was released.
+   * - ``video``
+     - obj
+     - The course About video record.
+   * - ``content_language``
      - string
-     - The URL for the About page image for the course.
-   * - ``key``
+     - Shortened representation of course run language. Example: ``en-us``
+   * - ``license``
      - string
-     - An identifier for the course. For example, ``RITx+PM9003x``.
-   * - ``language``
+     - The license associated with the course run
+   * - ``outcome``
      - string
-     - The language used by the content item.
+     - HTML element for what learners will learn from the course.
+   * - ``transcript_languages``
+     - array (string)
+     - The languages for which video transcripts are available.
+   * - ``instructors``
+     - array (obj)
+     - Instructor users associated with the course run.
+   * - ``staff``
+     -  array (obj)
+     - Staff users associated with the course run. 
+   * - ``min_effort``
+     - integer
+     - The minimum number of estimated hours of effort per week.
+   * - ``max_effort``
+     - integer
+     - The maximum number of estimated hours of effort per week.
+   * - ``modified``
+     - datetime
+     - Datetime string of the last time the content in the courserun was updated.
    * - ``level_type``
      - enum string
      - The course's level of difficulty. Can be one of ``high_school``,
        ``introductory``, ``intermediate``, or ``advanced``.
-   * - ``logo_image_urls``
-     - array
-     - The URLs of the enterprise's logos.
-   * - ``marketing_url``
-     - string
-     - The URL for the course About page.
-   * - ``max_effort``
-     - integer
-     - The maximum number of estimated hours of effort per week.
-   * - ``min_effort``
-     - integer
-     - The minimum number of estimated hours of effort per week.
    * - ``mobile_available``
      - boolean
      - Whether the content item is available for mobile devices.
-   * - ``number``
-     - string
-     - The content item's course number identifier.
-   * - ``org``
-     - string
-     - The university or other entity offering the course.
-   * - ``pacing_type``
-     - enum string
-     - The pacing of the course. May be ``self-paced`` or ``instructor-paced``.
-   * - ``partner``
-     - string
-     - The university or other entity offering the course.
-   * - ``program_types``
-     - array
-     - The type of program. One of Professional Certificate, XSeries,
-       MicroMasters, or Professional Program.
-   * - ``published``
+   * - ``hidden``
      - boolean
-     - Whether the content item has been published.
-   * - ``seat_types``
-     - enum string
-     - The enrollment types that are available. One of ``audit``,
-       ``verified``, ``professional``.
-   * - ``short_description``
+     - Whether the course run has been hidden by the authors or administrators.
+   * - ``reporting_type``
      - string
-     - The short description of the content item and its content.
-   * - ``staff_uuids``
-     - array
-     - The unique identifiers of the staff for the content item.
-   * - ``start``
-     - datetime
-     - The start time for the content item.
-   * - ``subject_uuids``
-     - array
-     - The unique identifiers of the subject categories of the content item.
-   * - ``title``
-     - string
-     - The title of the content item. For example, "Introduction to Plasma
-       Physics".
-   * - ``transcript_languages``
-     - array
-     - The languages for which video transcripts are available.
-   * - ``type``
-     - enum string
-     - One of ``verified``, ``professional``
-   * - ``weeks_to_complete``
+     - Reporting type designated for the course. Example: ``mooc``.
+   * - ``eligible_for_financial_aid``
+     - bool
+     - Whether the course run is eligible for financial aid to a learner.
+   * - ``first_enrollable_paid_seat_price``
      - integer
-     - The number of weeks required to complete the content item.
-
+     - Available seat price for enrollment in the course.
+   * - ``has_ofac_restrictions``
+     - boolean
+     - Whether the course run has OFAC restrictions, i.e. geographical
+       restrictions as to where the course run can be sold.
+   * - ``ofac_comment``
+     - string
+     - Additional information on ofac restrictions relating to the course run.
+   * - ``enrollment_count``
+     - integer
+     - Total number of learners who have enrolled in this course run.
+   * - ``recent_enrollment_count``
+     - integer
+     - Total number of learners who have enrolled in this course run in the last 6
+       months.
+   * - ``expected_program_type``
+     - obj
+     - Designated program type record for the course run.
+   * - ``expected_program_name``
+     - string
+     - Designated expected program name for the course run.
+   * - ``course_uuid``
+     - string
+     - The UUID of the course object associated with the course run.
+   * - ``estimated_hours``
+     - float
+     - Estimated number of hours it takes to complete the course.
+   * - ``content_language_search_facet_name``
+     - string
+     - The language associated with the course run that is indexed for search
+       throughout the platform.
+   * - ``enterprise_subscription_inclusion``
+     - boolean
+     - Signifies whether the course run is included in the Enterprise Subscription catalog.
+   * - ``programs``
+     - array (obj)
+     - An array of programs that the course run is associated with.
+   * - ``enrollment_url``
+     - string
+     - The URL for the enrollment page.
+   
 .. _program Fields:
 
 ====================================
@@ -868,65 +1038,117 @@ A program is a collection of related courses.
    * - Field
      - Data Type
      - Description
-   * - ``aggregation_key``
+   * - ``uuid``
      - string
-     - Example: ``program:7a8b9c6ead``.
-   * - ``authoring_organization_uuids``
-     - array
-     - The unique user IDs for the organizations that produced the program.
-   * - ``authoring_organizations``
-     - array
-     - Information about the organizations that produced the program.
-   * - ``card_image_url``
-     - string
-     - The URL of an image that represents the program.
-   * - ``content_type``
-     - enum string
-     - Type of learning item. In this case, the value is ``program``.
-   * - ``enrollment_url``
-     - string
-     - The URL for the enrollment page.
-   * - ``language``
-     - string
-     - The language used by the program.
-   * - ``marketing_url``
-     - string
-     - The URL for the program About page.
-   * - ``max_hours_effort_per_week``
-     - integer
-     - The maximum number of estimated hours of effort per week.
-   * - ``min_hours_effort_per_week``
-     - integer
-     - The minimum number of estimated hours of effort per week.
-   * - ``partner``
-     - string
-     - The organization offering the program.
-   * - ``published``
-     - boolean
-     - Whether the program has been published.
-   * - ``published``
-     - boolean
-     - Whether the content item has been published.
-   * - ``staff_uuids``
-     - array
-     - The unique identifiers of the staff for the program.
-   * - ``subject_uuids``
-     - array
-     - The unique identifiers of the subject categories of the program.
-   * - ``subtitle``
-     - string
-     - A subtitle for the program.
+     - The unique identifier for the program.
    * - ``title``
      - string
      - The title of the program. For example, "MicroMasters: Plasma
        Physics".
+   * - ``subtitle``
+     - string
+     - A subtitle for the program.
    * - ``type``
      - enum string
      - The program type. One of ``Professional Certificate``, ``XSeries``,
        or ``MicroMasters``.
-   * - ``uuid``
+   * - ``type_attrs``
+     - obj
+     - The object representation of the type record associated with the
+       program
+   * - ``status``
+     -  string
+     -  String representation of the program status. Example: ``published``
+   * - ``marketing_slug``
      - string
-     - The unique identifier for the program.
+     - The slug used in the marketing URL related to the program.
+   * - ``marketing_url``
+     - string
+     - The full url string related to the marketing URL for the program.
+   * - ``banner_image``
+     - obj
+     - The banner image record relating to the program
+   * - ``hidden``
+     - boolean
+     - Whether the program has been hidden by the authors or administrators.
+   * - ``courses``
+     - array (obj)
+     - List of course records that are offered by the program.
+   * - ``authoring_organizations``
+     - array (obj)
+     - List of organizations records responsible for authoring the courses
+       within the program.
+   * - ``card_image_url``
+     - string
+     - The URL of an image that represents the program.
+   * - ``is_program_eligible_for_one_click_purchase``
+     - boolean
+     - Whether learners can purchase the program with a single click.
+   * - ``degree``
+     - obj
+     - The degree record associated with the program.
+   * - ``curricula``
+     - array (obj)
+     - Curricula items related to the program.
+   * - ``marketing_hook``
+     - string
+     - Marketing hook written for the program.
+   * - ``total_hours_of_effort``
+     - integer
+     - Total number of hours estimated to take in order to complete the
+       program.
+   * - ``recent_enrollment_count``
+     - integer
+     - Total number of learners who have enrolled in program in the last 6
+       months.
+   * - ``organization_short_code_override``
+     - string
+     - Organization short code overwritten string.
+   * - ``organization_logo_override_url``
+     - string 
+     - Organization logo url overwritten.
+   * - ``primary_subject_override``
+     - obj
+     - Subject record override for the program.
+   * - ``level_type_override``
+     - obj
+     - Level type record override for the program.
+   * - ``language_override``
+     - string
+     - Language record override for the program.
+   * - ``labels``
+     - array (string)
+     - List of labels for the courses in the program.
+   * - ``taxi_form``
+     - object
+     - Represents the data needed for a single Taxi (2U form library) lead
+       capture form.
+   * - ``program_duration_override``
+     - integer
+     - Override value for the program duration.
+   * - ``data_modified_timestamp``
+     - datetime
+     - The timestamp of the last time the program data was modified.
+   * - ``excluded_from_search`` 
+     - boolean
+     - Whether or not the content is searchable by the various enterprise
+       program search tools.
+   * - ``excluded_from_seo``
+     - boolean 
+     - Whether the program should be excluded from the edX SEO.
+   * - ``has_ofac_restrictions``
+     - boolean
+     - Whether the program and program content has OFAC restrictions, i.e.
+       geographical restrictions as to where the course run can be sold.
+   * - ``ofac_comment``
+     - string
+     - Additional information on OFAC restrictions relating to the course run.
+   * - ``overview``
+     - string
+     - Overview text surrounding the program.
+   * - ``weeks_to_complete``
+     - integer
+     - The estimated number of weeks required to complete the program.  
    * - ``weeks_to_complete_max``
      - integer
      - The maximum number of estimated weeks required to complete the program.
@@ -934,6 +1156,537 @@ A program is a collection of related courses.
      - integer
      - The minimum number of estimated weeks required to complete the
        program.
+   * - ``min_hours_effort_per_week``
+     - integer
+     - The minimum number of estimated hours of effort per week.
+   * - ``max_hours_effort_per_week``
+     - integer
+     - The maximum number of estimated hours of effort per week.
+   * - ``video``
+     - obj
+     - The program About video record.
+   * - ``expected_learning_items``
+     - array (obj)
+     - Elements of the course learning items records.
+   * - ``faq``
+     - array (string)
+     - List of HTML representations of the course FAQ sections under the
+       program.
+   * - ``credit_backing_organizations``
+     - array (obj)
+     - List of organization records associated with the credit earned by the
+       program.
+   * - ``corporate_endorsements``
+     - array (obj)
+     - List of endorsement records associated with the program.
+   * - ``job_outlook_items``
+     - array (obj)
+     - Job outlook records associated with the program.
+   * - ``individual_endorsements``
+     - array (obj)
+     - List of endorsement records associated with the program.
+   * - ``languages``
+     - array (string)
+     - List of languages used in the program.
+   * - ``transcript_languages``
+     - array (string)
+     - List of languages used in the program's transcripts.
+   * - ``subjects``
+     - array (obj)
+     - The academic subjects that the program covers.
+   * - ``price_ranges``
+     - array (integer)
+     - Price ranges for the program.
+   * - ``staff``
+     - array (obj)
+     - Staff users associated with the course run. 
+   * - ``credit_redemption_overview``
+     - obj
+     - Redemption overview record associated with the program.
+   * - ``applicable_seat_types``
+     - array (string)
+     - Array of string representation of the different seat types offered
+       by the program. 
+   * - ``instructor_ordering``
+     - array (obj)
+     - Ordered instructor records associated with the programs.
+   * - ``enrollment_count``
+     - integer
+     - Total number of learners who have enrolled in this program.
+   * - ``topics``
+     - array (obj)
+     - List of topic records related to the program.
+   * - ``credit_value``
+     - integer
+     - The total credit value for the program.
+   * - ``enterprise_subscription_inclusion``
+     - bool
+     - Whether the program is tagged to be included in the enterprise
+       subscription package. 
+   * - ``geolocation``
+     - obj
+     - Geographic location for the course, if one exists.
+   * - ``location_restriction``
+     - obj
+     - Course location restriction record.
+   * - ``is_2u_degree_program``
+     - boolean
+     - Whether or not the program is a 2u degree program.
+   * - ``in_year_value``
+     - obj
+     - Record related to projected value for a course.
+   * - ``skill_names``
+     - array (string)
+     - List of skill names associated with the program.
+   * - ``skills``
+     - array (obj) 
+     - List of skill records associated with the program.
+   * - ``product_source``
+     - obj
+     - Product source record associated with the program.
+   * - ``subscription_eligible``
+     - boolean
+     - Whether the program is eligible for subscriptions.
+   * - ``subscription_prices``
+     - array (integer)
+     - List of subscription prices for the program.
+   * - ``enrollment_url``
+     - string
+     - The URL for the enrollment page.
+
+===================================================
+Example Response Showing Information about a Course
+===================================================
+
+The following example shows a single course. A catalog may contain many
+courses.
+
+.. code-block:: json
+
+  {
+    "key": "edx+tr1012",
+    "uuid": "04d8eb8e-7773-42b3-97fc-a42f8266e1e5",
+    "title": "Trench Run 10",
+    "course_runs": [
+      {
+        "key": "course-v1:edx+tr1012+1T2021",
+        "uuid": "293e187e-c1d7-42cf-85b7-760e98a6f02d",
+        "title": "Trench Run 10",
+        "external_key": "",
+        "image": {
+          "src": "https://stage-discovery.edx-cdn.org/media/course/image/04d8eb8e-7773-42b3-97fc-a42f8266e1e5-5daa73db36a3.small.png",
+          "description": null,
+          "height": null,
+          "width": null
+        },
+        "short_description": "<p>t</p>",
+        "marketing_url": "https://stage.edx.org/course/trench-run-10-course-v1edxtr10121t2021?utm_source=lms_catalog_service_user&utm_medium=affiliate_partner",
+        "seats": [
+          {
+            "type": "audit",
+            "price": "0.00",
+            "currency": "USD",
+            "upgrade_deadline": null,
+            "upgrade_deadline_override": null,
+            "credit_provider": null,
+            "credit_hours": null,
+            "sku": "4A19EC2",
+            "bulk_sku": null
+          },
+          {
+            "type": "verified",
+            "price": "100.00",
+            "currency": "USD",
+            "upgrade_deadline": "2030-09-05T23:59:59Z",
+            "upgrade_deadline_override": null,
+            "credit_provider": null,
+            "credit_hours": null,
+            "sku": "DE707ED",
+            "bulk_sku": "8BA9C3A"
+          }
+        ],
+        "start": "2022-04-12T16:00:00Z",
+        "end": "2090-09-15T16:00:00Z",
+        "go_live_date": "2021-04-22T04:00:00Z",
+        "enrollment_start": null,
+        "enrollment_end": null,
+        "weeks_to_complete": 3,
+        "pacing_type": "instructor_paced",
+        "type": "verified",
+        "run_type": "946d043a-7b2c-414d-a106-8b7761e86eba",
+        "status": "published",
+        "is_enrollable": true,
+        "is_marketable": true,
+        "availability": "Current",
+        "variant_id": null,
+        "course": "edx+tr1012",
+        "full_description": "<p>t</p>",
+        "announcement": "2021-04-22T16:19:27.987040Z",
+        "video": null,
+        "content_language": "en-us",
+        "license": "",
+        "outcome": "<p>t</p>",
+        "transcript_languages": [
+          "en-us"
+        ],
+        "instructors": [],
+        "staff": [
+          {
+            "uuid": "16a4422b-55f2-45eb-81da-ac1d0655d065",
+            "salutation": null,
+            "given_name": "New",
+            "family_name": "Instructor1",
+            "bio": "",
+            "slug": "new-instructor1",
+            "position": {
+              "title": "Dr",
+              "organization_name": "edX",
+              "organization_id": 11,
+              "organization_override": null,
+              "organization_marketing_url": "https://stage.edx.org/school/edx",
+              "organization_uuid": "4f8cb2c9-589b-4d1e-88c1-b01a02db3a9c",
+              "organization_logo_image_url": "https://stage-discovery.edx-cdn.org/organization/logos/4f8cb2c9-589b-4d1e-88c1-b01a02db3a9c-086cef28bdf5.png"
+            },
+            "areas_of_expertise": [],
+            "profile_image": {
+              "medium": {
+                "url": "https://stage-discovery.edx-cdn.org/media/people/profile_images/16a4422b-55f2-45eb-81da-ac1d0655d065.medium.png",
+                "width": 110,
+                "height": 110
+              }
+            },
+            "works": [],
+            "urls": {
+              "facebook": "adding fb url",
+              "twitter": null,
+              "blog": null
+            },
+            "urls_detailed": [
+              {
+                "id": 9,
+                "type": "facebook",
+                "title": "",
+                "display_title": "Facebook",
+                "url": "adding fb url"
+              }
+            ],
+            "email": null,
+            "profile_image_url": "https://stage-discovery.edx-cdn.org/media/people/profile_images/16a4422b-55f2-45eb-81da-ac1d0655d065.png",
+            "major_works": "",
+            "published": false
+          }
+        ],
+        "min_effort": 1,
+        "max_effort": 2,
+        "modified": "2024-01-12T16:45:17.436871Z",
+        "level_type": "Introductory",
+        "mobile_available": false,
+        "hidden": false,
+        "reporting_type": "mooc",
+        "eligible_for_financial_aid": true,
+        "first_enrollable_paid_seat_price": 100,
+        "has_ofac_restrictions": false,
+        "ofac_comment": "",
+        "enrollment_count": 3,
+        "recent_enrollment_count": 3,
+        "expected_program_type": null,
+        "expected_program_name": "",
+        "course_uuid": "04d8eb8e-7773-42b3-97fc-a42f8266e1e5",
+        "estimated_hours": 4.5,
+        "content_language_search_facet_name": "English",
+        "enterprise_subscription_inclusion": false,
+        "enrollment_url": "https://courses.stage.edx.org/enterprise/40709edf-3748-4fcf-aa18-99abd765b692/course/course-v1:edx+tr1012+1T2021/enroll/?catalog=fcbb8cc6-85f5-427e-b154-4055fdd69472&utm_medium=enterprise&utm_source=dusenbery-devices"
+      }
+    ],
+    "entitlements": [
+      {
+        "mode": "verified",
+        "price": "100.00",
+        "currency": "USD",
+        "sku": "0E5F108",
+        "expires": null
+      }
+    ],
+    "owners": [
+      {
+        "uuid": "4f8cb2c9-589b-4d1e-88c1-b01a02db3a9c",
+        "key": "edx",
+        "name": "edX",
+        "auto_generate_course_run_keys": false,
+        "certificate_logo_image_url": "https://stage-discovery.edx-cdn.org/organization/certificate_logos/4f8cb2c9-589b-4d1e-88c1-b01a02db3a9c-80a7fb4abe88.png",
+        "logo_image_url": "https://stage-discovery.edx-cdn.org/organization/logos/4f8cb2c9-589b-4d1e-88c1-b01a02db3a9c-086cef28bdf5.png",
+        "organization_hex_color": null,
+        "data_modified_timestamp": null,
+        "description": "<p>EdX is a non-profit created by founding partners Harvard and MIT. We're bringing the best of higher education to students around the world. EdX offers MOOCs and interactive online classes in subjects including law, history, science, engineering, business, social sciences, computer science, public health, and artificial intelligence (AI).</p>",
+        "description_es": "",
+        "homepage_url": null,
+        "tags": [
+          "charter"
+        ],
+        "marketing_url": "https://stage.edx.org/school/edx",
+        "slug": "edx",
+        "banner_image_url": "https://stage-discovery.edx-cdn.org/organization/banner_images/4f8cb2c9-589b-4d1e-88c1-b01a02db3a9c-86aa2499c053.png",
+        "enterprise_subscription_inclusion": false
+      }
+    ],
+    "image": {
+      "src": "https://stage-discovery.edx-cdn.org/media/course/image/04d8eb8e-7773-42b3-97fc-a42f8266e1e5-5daa73db36a3.small.png",
+      "description": null,
+      "height": null,
+      "width": null
+    },
+    "short_description": "<p>t</p>",
+    "type": "69b8a063-e5fb-4a91-96d6-e50c8335c5da",
+    "url_slug": "trench-run-10",
+    "course_type": "verified-audit",
+    "enterprise_subscription_inclusion": false,
+    "excluded_from_seo": false,
+    "excluded_from_search": false,
+    "full_description": "<p>t</p>",
+    "level_type": "Introductory",
+    "subjects": [
+      {
+        "name": "Social Sciences",
+        "subtitle": "<p>Learn about the social sciences and more from the best universities and institutions around the world.</p>",
+        "description": "<p>Enroll in free online courses in the social sciences including sociology, political science, human geography, demography and more. Learn about the science of happiness or the history and effect of social programs. Courses are available from major universities worldwide.</p>",
+        "banner_image_url": "https://stage.edx.org/sites/default/files/social-sciences-1440x210.jpg",
+        "card_image_url": "https://stage.edx.org/sites/default/files/subject/image/card/social-sciences.jpg",
+        "slug": "social-sciences",
+        "uuid": "eefb009b-0a02-49e9-b1b1-249982b6ce86"
+      }
+    ],
+    "prerequisites": [],
+    "prerequisites_raw": null,
+    "expected_learning_items": [],
+    "video": null,
+    "sponsors": [],
+    "modified": "2024-01-12T16:45:17.341223Z",
+    "marketing_url": "https://stage.edx.org/course/trench-run-10?utm_source=lms_catalog_service_user&utm_medium=affiliate_partner",
+    "syllabus_raw": null,
+    "outcome": "<p>t</p>",
+    "original_image": {
+      "src": "https://stage-discovery.edx-cdn.org/media/course/image/04d8eb8e-7773-42b3-97fc-a42f8266e1e5-5daa73db36a3.png",
+      "description": null,
+      "height": null,
+      "width": null
+    },
+    "card_image_url": null,
+    "canonical_course_run_key": "course-v1:edx+tr1012+1T2021",
+    "extra_description": null,
+    "additional_information": null,
+    "additional_metadata": null,
+    "faq": null,
+    "learner_testimonials": null,
+    "enrollment_count": 3,
+    "recent_enrollment_count": 3,
+    "topics": [],
+    "key_for_reruns": "",
+    "url_slug_history": [
+      "trench-run-10",
+      "trench-run-10-course-v1edxtr10121t2021",
+      "learn/social-sciences/edx-trench-run-10"
+    ],
+    "url_redirects": [],
+    "course_run_statuses": [
+      "published"
+    ],
+    "editors": [],
+    "collaborators": [],
+    "skill_names": [],
+    "skills": [],
+    "organization_short_code_override": "",
+    "organization_logo_override_url": null,
+    "geolocation": null,
+    "location_restriction": null,
+    "in_year_value": null,
+    "product_source": {
+      "name": "edX",
+      "slug": "edx",
+      "description": "Open courses"
+    },
+    "data_modified_timestamp": "2023-11-21T21:09:56.175672Z",
+    "watchers": [],
+    "programs": [],
+    "course_run_keys": [
+      "course-v1:edx+tr1012+1T2021"
+    ],
+    "editable": true,
+    "advertised_course_run_uuid": "293e187e-c1d7-42cf-85b7-760e98a6f02d",
+    "enrollment_url": "https://courses.stage.edx.org/enterprise/40709edf-3748-4fcf-aa18-99abd765b692/course/edx+tr1012/enroll/?catalog=fcbb8cc6-85f5-427e-b154-4055fdd69472&utm_medium=enterprise&utm_source=dusenbery-devices"
+  }
+
+====================================================
+Example Response Showing Information about a Program
+====================================================
+
+The following example response shows a single program. A catalog may
+contain many programs.
+
+.. code-block:: json
+
+  {
+    "uuid": "fcfe93c3-9123-4a58-a190-8614c96b8eab",
+    "title": "Master of Business Administration",
+    "subtitle": "",
+    "type": "Masters",
+    "type_attrs": {
+      "uuid": "1399475e-cca8-4676-a669-fe5ba477c73f",
+      "slug": "masters",
+      "coaching_supported": false
+    },
+    "status": "unpublished",
+    "marketing_slug": "ucd-master-of-business-administration",
+    "marketing_url": "https://stage.edx.org/masters/ucd-master-of-business-administration",
+    "banner_image": {},
+    "hidden": false,
+    "courses": [],
+    "authoring_organizations": [
+      {
+        "uuid": "2c17b012-432f-4182-a914-bee8baea4f2a",
+        "key": "UCDavis",
+        "name": "University of California, Davis",
+        "auto_generate_course_run_keys": true,
+        "certificate_logo_image_url": null,
+        "logo_image_url": null,
+        "organization_hex_color": null,
+        "data_modified_timestamp": null,
+        "description": "",
+        "description_es": "",
+        "homepage_url": null,
+        "tags": [],
+        "marketing_url": "https://stage.edx.org/school/ucdavis",
+        "slug": "ucdavis",
+        "banner_image_url": null,
+        "enterprise_subscription_inclusion": false
+      }
+    ],
+    "card_image_url": "https://stage-discovery.edx-cdn.org/media/programs/card_images/fcfe93c3-9123-4a58-a190-8614c96b8eab-6ec5c946a62b.png",
+    "is_program_eligible_for_one_click_purchase": true,
+    "degree": {
+      "application_requirements": "TBD",
+      "apply_url": "",
+      "banner_border_color": "",
+      "campus_image": null,
+      "title_background_image": null,
+      "costs": [],
+      "deadlines": [],
+      "lead_capture_list_name": "Master_default",
+      "quick_facts": [],
+      "overall_ranking": "",
+      "prerequisite_coursework": "TBD",
+      "rankings": [],
+      "lead_capture_image": {},
+      "micromasters_path": null,
+      "micromasters_url": null,
+      "micromasters_long_title": null,
+      "micromasters_long_description": null,
+      "micromasters_background_image": {},
+      "micromasters_org_name_override": null,
+      "costs_fine_print": null,
+      "deadlines_fine_print": null,
+      "hubspot_lead_capture_form_id": null,
+      "additional_metadata": {
+        "external_identifier": "65390275-9b17-4dda-bcf0-d24250bf0a00",
+        "external_url": "https://onlinemba.ucdavis.edu/requestinfo/plp/?lsrc=edx&utm_source=edx&utm_medium=referral&utm_campaign=ucd-mba",
+        "organic_url": "https://onlinemba.ucdavis.edu/?utm_source=edx&utm_medium=referral&utm_campaign=UCD_MBA"
+      },
+      "specializations": [
+        "Business Analytics",
+        "Finance",
+        "Marketing Strategy and Analytics",
+        "Strategic Management",
+        "Organizational Leadership",
+        "Technology Management",
+        "Entrepreneurship",
+        "Product Management",
+        "Business"
+      ],
+      "program_duration_override": null,
+      "display_on_org_page": false,
+      "excluded_from_search": false,
+      "excluded_from_seo": false
+    },
+    "curricula": [
+      {
+        "uuid": "8ef7ba75-0b2f-434e-ab55-8f3436c6471f",
+        "name": "",
+        "marketing_text": "<ul><li>Markets and the Firm</li><li>Business Taxation</li><li>Financial Accounting</li><li>Individual and Group Dynamics</li><li>Negotiations in Organizations</li><li>Data Analysis for Managers (was Statistics)</li><li>Marketing Management</li><li>Financial Theory and Policy</li><li>Integrated Management Project (Capstone)</li><li>Organizational Strategy and Structure</li></ul>",
+        "marketing_text_brief": null,
+        "is_active": true,
+        "courses": [],
+        "programs": []
+      }
+    ],
+    "marketing_hook": "",
+    "total_hours_of_effort": null,
+    "recent_enrollment_count": 0,
+    "organization_short_code_override": "University of California, Davis",
+    "organization_logo_override_url": null,
+    "primary_subject_override": {
+      "name": "Business & Management",
+      "subtitle": "<p>Learn about business and management and more from the best universities and institutions around the world.</p>",
+      "description": "<p>Online courses cover the core concepts in all areas of business including entrepreneurship, economics, finance, marketing and product development. Learn about business contracts, supply chain management, statistical analysis and much more with online courses from Harvard, MIT, Cornell and other top universities.</p>\n<h3>Browse Popular Business and Management Subjects</h3>\n<p><a href=\"/course/subject/business-management/finance\">Finance</a> | <a href=\"/course/subject/business-management/marketing\">Marketing</a> | <a href=\"/course/subject/business-management/accounting\">Accounting</a> | <a href=\"/course/subject/business-management/communications\">Communications</a> | <a href=\"/course/subject/business-management/international-business\">International Business</a> | <a href=\"/course/subject/business-management/risk-management\">Risk Management</a></p>\n<p><a href=\"/course/subject/business-management/innovation-entrepreneurship\">Innovation &amp; Entrepreneurship</a></p>",
+      "banner_image_url": "https://stage.edx.org/sites/default/files/business-and-management-1440x210.jpg",
+      "card_image_url": "https://stage.edx.org/sites/default/files/subject/image/card/business.jpg",
+      "slug": "business-management",
+      "uuid": "409d43f7-ff36-4834-9c28-252132347d87"
+    },
+    "level_type_override": {
+      "name": "Intermediate",
+      "sort_value": 3
+    },
+    "language_override": "en-us",
+    "labels": [],
+    "taxi_form": null,
+    "program_duration_override": null,
+    "data_modified_timestamp": "2023-05-23T12:13:31.380214Z",
+    "excluded_from_search": false,
+    "excluded_from_seo": false,
+    "has_ofac_restrictions": null,
+    "ofac_comment": "",
+    "overview": "The online MBA from the University of California, Davis, features the same curriculum and globally recognized faculty as the on-campus MBA program. You'll experience our culture of collaboration and make Silicon Valley connections. The program can be completed in as few as 24 months. Bachelor’s required     \n",
+    "weeks_to_complete": null,
+    "weeks_to_complete_min": null,
+    "weeks_to_complete_max": null,
+    "min_hours_effort_per_week": null,
+    "max_hours_effort_per_week": null,
+    "video": null,
+    "expected_learning_items": [],
+    "faq": [],
+    "credit_backing_organizations": [],
+    "corporate_endorsements": [],
+    "job_outlook_items": [],
+    "individual_endorsements": [],
+    "languages": [],
+    "transcript_languages": [],
+    "subjects": [],
+    "price_ranges": [],
+    "staff": [],
+    "credit_redemption_overview": null,
+    "applicable_seat_types": [
+      "credit",
+      "verified"
+    ],
+    "instructor_ordering": [],
+    "enrollment_count": 0,
+    "topics": [],
+    "credit_value": 0,
+    "enterprise_subscription_inclusion": false,
+    "geolocation": null,
+    "location_restriction": null,
+    "is_2u_degree_program": true,
+    "in_year_value": null,
+    "skill_names": [],
+    "skills": [],
+    "product_source": {
+      "name": "2u",
+      "slug": "2u",
+      "description": "2U, Trilogy, Getsmarter -- external source for 2u courses and programs"
+    },
+    "subscription_eligible": null,
+    "subscription_prices": [],
+    "enrollment_url": "https://courses.stage.edx.org/enterprise/943b1234-58cf-4376-b8e0-0efcbf4bfdf9/program/fcfe93c3-9123-4a58-a190-8614c96b8eab/enroll/?catalog=9014df44-e8eb-41c0-ab39-fb9a508ac716&utm_medium=enterprise&utm_source=pied-piper"
+  }
 
 =======================================================
 Example Response Showing Information about a Course Run
@@ -942,83 +1695,82 @@ Example Response Showing Information about a Course Run
 The following example response shows a single course run. A catalog may
 contain many course runs.
 
-::
+.. code-block:: json
 
   {
-    "uuid": "0e871df0-6e43-4cfc-92cc-357ebf1fda75",
-    "title": "All Content",
-    "enterprise_customer": "58152f7f-6d0e-41cf-862d-0a27c6fad72c",
-    "count": 13,
-    "previous": null,
-    "next": null,
-    "results": [
+    "key": "course-v1:HarvardX+FIH+3T2023",
+    "uuid": "359e8f1c-627e-421b-9c5c-5e8560455219",
+    "title": "Harvard VPAL FinTech online short course",
+    "external_key": null,
+    "image": {
+      "src": "https://stage-discovery.edx-cdn.org/media/course/image/b718b44e-ac0e-4371-921a-bc7d02ea5a4a-a6e1b555a479.small.jpg",
+      "description": null,
+      "height": null,
+      "width": null
+    },
+    "short_description": "<p>Step beyond current FinTech disruption and prepare for future financial services priorities.</p>",
+    "marketing_url": "https://stage.edx.org/course/harvard-vpal-fintech-online-short-course-course-v1-harvardx-fih-3t2023?utm_source=lms_catalog_service_user&utm_medium=affiliate_partner",
+    "seats": [
       {
-        "content_type": "courserun",
-        "number": "DemoX",
-        "weeks_to_complete": 3,
-        "partner": "edx",
-        "enrollment_url": "https://courses.edx.org/
-        enterprise/58152f7f-6d0e-41cf-862d-0a27c6fad72c/course/
-        course-v1:edX+DemoX+Demo_Course/enroll/?catalog=0e871df0-6e43-4cfc-92cc-3
-        57ebf1fda75&utm_medium=enterprise&utm_source=degreed-company",
-        "availability": "Upcoming",
-        "transcript_languages": [
-
-        ],
-        "logo_image_urls": [
-          "https://www.edx.org/sites/default/files/school/image/logo/
-          gtx-logo-200x101.png"
-        ],
-        "end": null,
-        "title": "edX Demonstration Course",
-        "enrollment_start": "2017-10-01T00:00:00",
-        "start": "2017-11-01T05:00:00",
-        "min_effort": 5,
-        "short_description": "A hands-on introduction to basic programming
-        principles and practice relevant to modern data analysis, data mining,
-        and machine learning.",
-        "image_url": "https://courses.edx.org/
-        asset-v1:edX+DemoX+Demo_Course+type@asset+block@images_course_image.jpg",
-        "level_type": "Beginner",
-        "type": "verified",
-        "marketing_url": "course/edxdemoslug?utm_medium=enterprise
-        &utm_source=degreed-company",
-        "seat_types": [
-          "audit",
-          "verified"
-        ],
-        "max_effort": 6,
-        "full_description": "<p>The modern data analysis pipeline involves
-        collection, preprocessing, storage, analysis, and interactive
-        visualization of data.</p>\\n<p>The goal of this course, part of the
-        Analytics: Essential Tools and Methods MicroMasters program, is for you
-        to learn how to build these components and connect them using modern
-        tools and techniques.</p>",
-        "key": "course-v1:edX+DemoX+Demo_Course",
-        "enrollment_end": null,
-        "org": "edX",
-        "authoring_organization_uuids": [
-          "12de950c-6fae-49f7-aaa9-778c2fbdae56"
-        ],
-        "subject_uuids": [
-
-        ],
-        "has_enrollable_seats": true,
-        "language": "English",
-        "staff_uuids": [
-          "a1b2c3d4-3185-4233-a323-2fbeb401cb82",
-          "a1b2c3d4-4ebe-4e5c-b0a2-2ff630c0dae0",
-          "b2c3d4e5-bf58-47cf-ae9a-994c0eb22062",
-          "1111a42a-b667-4664-bdaa-4754e1cfd480"
-        ],
-        "mobile_available": true,
-        "pacing_type": "self_paced",
-        "aggregation_key": "courserun:edX+DemoX",
-        "published": true,
-        "program_types": [
-          "Professional Certificate"
-        ]
+        "type": "unpaid-executive-education",
+        "price": "0.00",
+        "currency": "USD",
+        "upgrade_deadline": null,
+        "upgrade_deadline_override": null,
+        "credit_provider": null,
+        "credit_hours": null,
+        "sku": "C33ACD3",
+        "bulk_sku": null
       }
+    ],
+    "start": "2023-11-09T00:00:00Z",
+    "end": "2023-12-18T23:59:59Z",
+    "go_live_date": "2023-12-15T00:00:00Z",
+    "enrollment_start": null,
+    "enrollment_end": "2024-02-07T23:59:59Z",
+    "weeks_to_complete": 6,
+    "pacing_type": "instructor_paced",
+    "type": null,
+    "run_type": "6fb73168-371b-419e-8f33-b30619497164",
+    "status": "published",
+    "is_enrollable": true,
+    "is_marketable": true,
+    "availability": "Current",
+    "variant_id": "73b264ba-d49b-4012-93d1-ddc97553e9ab",
+    "course": "HarvardX+FIH",
+    "full_description": "<p>A practical sustainability action plan to overcome the barriers and aid in seizing the opportunities associated with creating a sustainable businessAs awareness of climate change, resource scarcity, pollution, and social inequality rises, businesses and governments are being held increasingly responsible. There is a need for positive, sustainable change. By taking this Business Sustainability Management online short course you’ll become that change, and set yourself up for success.</p>",
+    "announcement": "2023-12-18T19:15:13.218663Z",
+    "video": null,
+    "content_language": "en-us",
+    "license": "",
+    "outcome": "<p>Al finalizar este curso, obtendrá lo siguiente:Claridad en la especulación y el despliegue del panorama de tecnología financiera, y las habilidades y el conocimiento para abordar las iniciativas de innovación. Comprensión de las tecnologías que dan forma al futuro de las finanzas y el potencial de asociaciones entre empresas establecidas, empresas tecnológicas de la nueva era e inversionistas. La capacidad de evaluar críticamente el futuro de la tecnología financiera y pensar estratégica y creativamente sobre los problemas que enfrentan las compañías reales. La oportunidad de establecer contactos con una cohorte de profesionales de ideas afines en una semana de conferencias adicional. Un certificado de primer nivel de la VPAL de Harvard, en asociación con HarvardX, como validación de sus conocimientos de tecnología financiera.</p>",
+    "transcript_languages": [
+      "en-us"
+    ],
+    "instructors": [],
+    "staff": [],
+    "min_effort": 2,
+    "max_effort": 3,
+    "modified": "2023-12-18T19:29:52.582607Z",
+    "level_type": "Introductory",
+    "mobile_available": false,
+    "hidden": false,
+    "reporting_type": "mooc",
+    "eligible_for_financial_aid": true,
+    "first_enrollable_paid_seat_price": null,
+    "has_ofac_restrictions": false,
+    "ofac_comment": "",
+    "enrollment_count": 0,
+    "recent_enrollment_count": 0,
+    "expected_program_type": null,
+    "expected_program_name": "",
+    "course_uuid": "b718b44e-ac0e-4371-921a-bc7d02ea5a4a",
+    "estimated_hours": 15,
+    "content_language_search_facet_name": "English",
+    "enterprise_subscription_inclusion": false,
+    "programs": [],
+    "enrollment_url": "https://courses.stage.edx.org/enterprise/4a3d7eae-fbf9-4786-b648-f7565289aeb7/course/course-v1:HarvardX+FIH+3T2023/enroll/?catalog=1236fd56-ede6-487f-8335-eb9fca8f0ad1&utm_medium=enterprise&utm_source=stripe-co"
+  }
 
 
 .. _learner_summary Endpoint:
