@@ -625,7 +625,6 @@ However, if you select “Remove formatting”, this is what Studio and LMS will
   :alt: an image of a bulleted list in LMS in which you have chosen to “remove 
    formatting” when you were in the editor. The bullets and text are correctly 
    aligned.
-
   :width: 600
 
 
