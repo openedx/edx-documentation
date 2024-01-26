@@ -182,7 +182,8 @@ descriptions.
 #. Review the HTML markup.
 
 #. Accessibility Checker, which allows you to check HTML in the editor for various 
-   accessibility problems. For more information, see :ref:`Accessibility Checker`.
+   accessibility problems. For more information, see :ref:`Accessibility Checker 
+   <Accessibility Checker>`.
 
 
 .. note::
