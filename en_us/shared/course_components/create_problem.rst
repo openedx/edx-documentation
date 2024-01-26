@@ -265,8 +265,6 @@ To add mathematics, you can use LaTeX, MathML, or AsciiMath notation. Studio
 uses MathJax to render equations. For more information, see :ref:`MathJax in
 Studio`.
 
-.. _Power Paste
-
 ============
 Power Paste
 ============
