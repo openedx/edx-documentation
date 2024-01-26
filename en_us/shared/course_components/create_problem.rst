@@ -117,7 +117,8 @@ The question and explanation fields (and other text fields as well) offer a
 number of formatting tools to craft your problem.
 
 .. image:: ../../../shared/images/problem_editor_question_box.png
- :alt: An example question field in the simple editor.
+ :alt: an image of the Problem Editor toolbar and a number associated with 
+  each icon in the toolbar.
  :width: 800
 
 #. **Undo/Redo**: Undo or redo changes made to the text field.
@@ -146,6 +147,9 @@ number of formatting tools to craft your problem.
    breaks using these buttons.
 
 #. **Clear Formatting**: Clears all formatting applied to the selected text.
+
+#. **Accessibility Checker**: allows you to check HTML in the editor for 
+   various accessibility problems.
 
 #. **More**: Depending on page size, some of the toolbar may not show. Click
    this button to expand or shrink the toolbar.
@@ -260,6 +264,17 @@ Adding Mathematics
 To add mathematics, you can use LaTeX, MathML, or AsciiMath notation. Studio
 uses MathJax to render equations. For more information, see :ref:`MathJax in
 Studio`.
+
+.. _Power Paste
+
+============
+Power Paste
+============
+
+Many course authoring teams rely on copying and pasting content from documents 
+such as Google docs or Microsoft Word. Correct formatting in Studio and the LMS 
+can be most easily realized through Power Paste. To learn how to use Power 
+Paste, see :ref:`Power Paste`.
 
 .. _Problem Settings:
 
