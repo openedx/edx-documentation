@@ -587,7 +587,7 @@ To change the size of your image, follow these steps.
 If you want to change the image back to the original size, clear the values in
 the **Width** and **Height** fields.
 
-.. Power Paste:
+.. _Power Paste:
 
 ************
 Power Paste
