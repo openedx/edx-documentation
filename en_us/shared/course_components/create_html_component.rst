@@ -587,9 +587,9 @@ To change the size of your image, follow these steps.
 If you want to change the image back to the original size, clear the values in
 the **Width** and **Height** fields.
 
-***********************************
+************
 Power Paste
-***********************************
+************
 
 Many course authoring teams rely on copying and pasting content from documents 
 such as Google docs or Microsoft Word. Correct formatting in Studio and the LMS 
