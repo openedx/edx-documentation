@@ -181,6 +181,11 @@ descriptions.
 
 #. Review the HTML markup.
 
+#. Accessibility Checker, which allows you to check HTML in the editor for various 
+   accessibility problems. For more information, see :ref:`Accessibility Checker 
+   <Accessibility Checker>`.
+
+
 .. note::
   The visual editor is not available for :ref:`course handouts <Adding Course
   Updates and Handouts>`.
@@ -582,6 +587,47 @@ To change the size of your image, follow these steps.
 
 If you want to change the image back to the original size, clear the values in
 the **Width** and **Height** fields.
+
+.. _Power Paste:
+
+************
+Power Paste
+************
+
+Many course authoring teams rely on copying and pasting content from documents 
+such as Google docs or Microsoft Word. Correct formatting in Studio and the LMS 
+can be most easily realized through Power Paste. 
+
+When you copy and paste content into the Text Editor, you will receive a “Paste 
+Formatting Options” popup on the page.  If you choose “Remove formatting”, then 
+the bullets will be correctly aligned with text in both Studio and the LMS. If 
+you select “Keep formatting”, then the formatting is unchanged and bullets and 
+text will not be aligned in Studio or the LMS. 
+
+
+.. image:: ../../../shared/images/HTML_PowerPastePop.png
+  :alt: an image of the popup that you will receive after copying and 
+   pasting content into the Text Editor. This popup allows you to select 
+   either keep or remove formatting.
+  :width: 300
+
+Below is a bulleted list example, a type of formatting that commonly needs Power 
+Paste.  If you select “Keep formatting”, this is what Studio and LMS will show:
+
+.. image:: ../../../shared/images/PowerPaste_KeepFormatting.png
+  :alt: an image of a bulleted list in LMS in which you have chosen to “keep 
+   formatting” when you were in the editor. The bullets and text are misaligned.
+  :width: 600
+
+However, if you select “Remove formatting”, this is what Studio and LMS will show:
+
+.. image:: ../../../shared/images/PowerPaste_RemoveFormatting.png
+  :alt: an image of a bulleted list in LMS in which you have chosen to “remove 
+   formatting” when you were in the editor. The bullets and text are correctly 
+   aligned.
+
+  :width: 600
+
 
 
 .. JRistau (26 Sept 2022) - LaTeX editor support was removed with the rollout of 
