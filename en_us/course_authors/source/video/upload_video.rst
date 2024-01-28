@@ -211,7 +211,7 @@ non-integrated transcripts, follow these steps.
 #. Open the course in Studio.
 #. On the **Content** menu, select **Videos**.
 #. Add video files to the **Videos** page by clicking the “Add videos” button 
-and browsing your computer to locate the files to upload.
+   and browsing your computer to locate the files to upload.
 
 #. (optional) Specify a thumbnail image for the video. The thumbnail image is
    the image that learners see before the video begins to play. To do this,
