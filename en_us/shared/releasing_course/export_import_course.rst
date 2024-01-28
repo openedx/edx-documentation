@@ -1,8 +1,8 @@
 .. _Exporting and Importing a Course:
 
-#####################################
+################################
 Exporting and Importing a Course
-#####################################
+################################
 
 When you have released your course, you can use the course export and import
 tools in Studio to save a backup copy of the course, and optionally re-import
@@ -120,7 +120,8 @@ follow.
 The course that you import must be in a .tar.gz file (that is, a .tar file
 compressed with GNU Zip). This .tar.gz file must contain a course.xml file in a
 course data directory. The tar.gz file must have the same name as the course
-data directory. It may also contain other files.
+data directory. It may also contain other files.  For more information, see 
+:ref:`Work with the .tar.gz File`.
 
 If your course uses legacy layout structures, you may not be able to edit the
 course in Studio. To make sure that your course is completely editable, ensure
@@ -136,7 +137,6 @@ To import a course, follow these steps.
 #. From the **Tools** menu, select **Import**.
 #. Select **Choose a File to Import**.
 #. Locate the file that you want, and then Select **Open**.
-#. Select **Replace my course with the one above**.
 
 .. note::
  When you import a course, important dates, such as the course start date and
