@@ -65,6 +65,11 @@ To export your course, follow these steps.
 When the export completes you can then access the .tar.gz file on your
 computer.
 
+.. image:: ../../../shared/images/course_export_page.png
+ :width: 600
+ :alt: an image of the Export page in which you can export courses and 
+  edit them outside of Studio.
+
 **********************************************
 Course Outline Terminology in Exported Files
 **********************************************
@@ -137,6 +142,11 @@ To import a course, follow these steps.
 #. From the **Tools** menu, select **Import**.
 #. Select **Choose a File to Import**.
 #. Locate the file that you want, and then Select **Open**.
+
+.. image:: ../../../shared/images/course_import_page.png
+ :width: 600
+ :alt: an image of the Import page in which you can select a .tar.gz file to 
+  replace your course content.
 
 .. note::
  When you import a course, important dates, such as the course start date and
