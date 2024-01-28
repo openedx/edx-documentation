@@ -126,7 +126,7 @@ The course that you import must be in a .tar.gz file (that is, a .tar file
 compressed with GNU Zip). This .tar.gz file must contain a course.xml file in a
 course data directory. The tar.gz file must have the same name as the course
 data directory. It may also contain other files.  For more information, see 
-:ref:`Work with the .tar.gz File`.
+:ref:`Work with the targz file`.
 
 If your course uses legacy layout structures, you may not be able to edit the
 course in Studio. To make sure that your course is completely editable, ensure
