@@ -9,3 +9,4 @@
    edX_accessib_guidelines
    supporting_learners_diverse_needs
    best_practices_course_content_dev  
+   accessibility_checker
