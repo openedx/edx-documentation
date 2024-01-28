@@ -418,6 +418,7 @@ its destination.
 
 * **youtube URL**: EdX no longer supports YouTube videos.
 
+.. _Find an Uploaded Video:
 
 **********************
 Find an Uploaded Video
