@@ -56,7 +56,7 @@ Accessibility Checker Review
    than 120 characters.
 
 #. **Large text contrast**: Text larger than 18pt (or bold 14pt) 
-  should display a minimum contrast ratio of 3:1.
+   should display a minimum contrast ratio of 3:1.
 
 #. **Lists**: Lists should be formatted as lists.
 
