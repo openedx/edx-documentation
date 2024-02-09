@@ -700,7 +700,7 @@ Fields in a course Content Item
    * - ``excluded_from_seo``
      - boolean
      - Signifies if the course's About Page will be excluded from indexing.
-   * - ``excluded_from_search`` 
+   * - ``excluded_from_search``
      - boolean
      - Signifies if this course will show up in search results.
    * - ``full_description``
@@ -729,13 +729,13 @@ Fields in a course Content Item
      - The course About video record.
    * - ``sponsors``
      - array
-     - The corporate sponsors for the course. 
+     - The corporate sponsors for the course.
    * - ``modified``
      - datetime
      - The most recent date and time when the course metadata was modified.
    * - ``marketing_url``
      - string
-     - The URL for the course About page. 
+     - The URL for the course About page.
    * - ``syllabus_raw``
      - string
      - The course syllabus.
@@ -747,23 +747,23 @@ Fields in a course Content Item
      - The URL of the original unmodified image for the course About page.
    * - ``card_image_url``
      - string
-     - The URL of the card image for the various course card enterprise components. 
+     - The URL of the card image for the various course card enterprise components.
    * - ``canonical_course_run_key``
-     - string 
-     - The unique identifying key for the course's canonical course run. 
+     - string
+     - The unique identifying key for the course's canonical course run.
        Example: ``course-v1:edx+tr1012+1T2021``
    * - ``extra_description``
      - string
      - additional description text provided by the course author.
    * - ``additional_information``
      - string
-     - Additional information relating to the course in HTML form. This 
+     - Additional information relating to the course in HTML form. This
        information is only provided by administrators, not course authors,
-       and as such may hold special HTML that is normally not allowed.  
+       and as such may hold special HTML that is normally not allowed.
    * - ``additional_metadata``
      - obj
      - Additional course metadata associated with 2U courses external to the
-       edX platform. 
+       edX platform.
    * - ``faq``
      - string
      - HTML representation of the course FAQ section.
@@ -802,7 +802,7 @@ Fields in a course Content Item
      - array (string)
      - List of skill names associated with the course.
    * - ``skills``
-     - array (obj) 
+     - array (obj)
      - List of skill records associated with the course.
    * - ``organization_short_code_override``
      - string
@@ -844,7 +844,7 @@ Fields in a course Content Item
        the course.
    * - ``enrollment_url``
      - string
-     - The enrollment url related to the course.  
+     - The enrollment url related to the course.
 
 .. _course_run Fields:
 
@@ -861,10 +861,10 @@ Fields in a course_run Content Item
      - Description
    * - ``key``
      - string
-     - An identifier for the course run. For example, ``course-v1:RITx+PM9003x``. 
+     - An identifier for the course run. For example, ``course-v1:RITx+PM9003x``.
    * - ``uuid``
      - string
-     - The unique identifier for the course run. Example: ``0dbd8181-8866-47fc...`` 
+     - The unique identifier for the course run. Example: ``0dbd8181-8866-47fc...``
    * - ``title``
      - string
      - The title of the content item. For example, "Introduction to Plasma Physics".
@@ -873,10 +873,10 @@ Fields in a course_run Content Item
      - Content item unique identifying key external to the edX platform.
    * - ``image``
      - obj
-     - The About page image for the course. 
+     - The About page image for the course.
    * - ``short_description``
      - string
-     - The short description of the content item and its content. 
+     - The short description of the content item and its content.
    * - ``marketing_url``
      - string
      - The URL for the course About page.
@@ -954,7 +954,7 @@ Fields in a course_run Content Item
      - Instructor users associated with the course run.
    * - ``staff``
      -  array (obj)
-     - Staff users associated with the course run. 
+     - Staff users associated with the course run.
    * - ``min_effort``
      - integer
      - The minimum number of estimated hours of effort per week.
@@ -1022,7 +1022,7 @@ Fields in a course_run Content Item
    * - ``enrollment_url``
      - string
      - The URL for the enrollment page.
-   
+
 .. _program Fields:
 
 ====================================
@@ -1105,7 +1105,7 @@ A program is a collection of related courses.
      - string
      - Organization short code overwritten string.
    * - ``organization_logo_override_url``
-     - string 
+     - string
      - Organization logo url overwritten.
    * - ``primary_subject_override``
      - obj
@@ -1129,12 +1129,12 @@ A program is a collection of related courses.
    * - ``data_modified_timestamp``
      - datetime
      - The timestamp of the last time the program data was modified.
-   * - ``excluded_from_search`` 
+   * - ``excluded_from_search``
      - boolean
      - Whether or not the content is searchable by the various enterprise
        program search tools.
    * - ``excluded_from_seo``
-     - boolean 
+     - boolean
      - Whether the program should be excluded from the edX SEO.
    * - ``has_ofac_restrictions``
      - boolean
@@ -1148,7 +1148,7 @@ A program is a collection of related courses.
      - Overview text surrounding the program.
    * - ``weeks_to_complete``
      - integer
-     - The estimated number of weeks required to complete the program.  
+     - The estimated number of weeks required to complete the program.
    * - ``weeks_to_complete_max``
      - integer
      - The maximum number of estimated weeks required to complete the program.
@@ -1199,14 +1199,14 @@ A program is a collection of related courses.
      - Price ranges for the program.
    * - ``staff``
      - array (obj)
-     - Staff users associated with the course run. 
+     - Staff users associated with the course run.
    * - ``credit_redemption_overview``
      - obj
      - Redemption overview record associated with the program.
    * - ``applicable_seat_types``
      - array (string)
      - Array of string representation of the different seat types offered
-       by the program. 
+       by the program.
    * - ``instructor_ordering``
      - array (obj)
      - Ordered instructor records associated with the programs.
@@ -1222,7 +1222,7 @@ A program is a collection of related courses.
    * - ``enterprise_subscription_inclusion``
      - bool
      - Whether the program is tagged to be included in the enterprise
-       subscription package. 
+       subscription package.
    * - ``geolocation``
      - obj
      - Geographic location for the course, if one exists.
@@ -1239,7 +1239,7 @@ A program is a collection of related courses.
      - array (string)
      - List of skill names associated with the program.
    * - ``skills``
-     - array (obj) 
+     - array (obj)
      - List of skill records associated with the program.
    * - ``product_source``
      - obj
@@ -1780,7 +1780,8 @@ learner-summary Endpoint
 ************************
 
 GET calls to the ``learner-summary`` endpoint get information about learners'
-course enrollments and progress.
+course enrollments and progress. The response data is by default sorted on the basis of ``last_activity_date``. The data
+can be sorted on other fields available in response by passing it in query_param as ``?ordering=field_name``.
 
 ===================
 Method and Endpoint
