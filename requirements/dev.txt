@@ -69,7 +69,7 @@ packaging==23.2
     #   build
     #   pydata-sphinx-theme
     #   sphinx
-pip-tools==7.3.0
+pip-tools==7.4.0
     # via -r dev.in
 pydata-sphinx-theme==0.14.4
     # via
@@ -82,7 +82,9 @@ pygments==2.17.2
     #   pydata-sphinx-theme
     #   sphinx
 pyproject-hooks==1.0.0
-    # via build
+    # via
+    #   build
+    #   pip-tools
 pytz==2024.1
     # via
     #   -r base.txt
@@ -145,7 +147,7 @@ typing-extensions==4.9.0
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
-urllib3==2.2.0
+urllib3==2.2.1
     # via
     #   -r base.txt
     #   requests
