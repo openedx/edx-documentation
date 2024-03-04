@@ -22,7 +22,7 @@ beautifulsoup4==4.12.3
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
-build==1.0.3
+build==1.1.1
     # via pip-tools
 certifi==2024.2.2
     # via
