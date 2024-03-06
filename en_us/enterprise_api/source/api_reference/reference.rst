@@ -136,13 +136,16 @@ You can use optional query parameters to get specific subscription plans.
    * - ``page``
      - integer
      - The page number of the results.
+   * - ``current``
+     - bool (Nullable)
+     - Whether to return the most recently created subscription plan with an active ``start_date``. Can only be used with ``enterprise_customer_uuid``.
 
 For example:
 
 ::
 
    curl -X GET
-    https://api.edx.org/enterprise/v1/subscriptions?enterprise_catalog_uuid=904b1785-9d3a-1000-848d-6ae7a56e6355&page=1 \
+    https://api.edx.org/enterprise/v1/subscriptions?enterprise_customer_uuid=904b1785-9d3a-1000-848d-6ae7a56e6355&page=1&current=true \
     -H "Authorization: JWT {access token}"
     -H "Content-Type: application/json"
 
@@ -243,11 +246,11 @@ A sample response with a status `200 OK` will look like:
     "results": [
         {
             "title": "Enterprise Subscription",
-            "uuid": "904b1785-9d3a-1000-848d-6ae7a56e6355",
+            "uuid": "104b1785-1d3a-1000-148d-1ae7a56e6355",
             "start_date": "2023-01-01T00:00:00Z",
             "expiration_date": "2024-01-01T00:00:00Z",
-            "enterprise_customer_uuid": "904b1785-9d3a-1000-848d-6ae7a56e6355",
-            "enterprise_catalog_uuid": "904b1785-9d3a-1000-848d-6ae7a56e6355",
+            "enterprise_customer_uuid": "204b1785-2d3a-2000-248d-2ae7a56e6355",
+            "enterprise_catalog_uuid": "304b1785-3d3a-3000-348d-3ae7a56e6355",
             "is_active": true,
             "is_revocation_cap_enabled": true,
             "days_until_expiration": 365,
@@ -269,7 +272,7 @@ A sample response with a status `200 OK` will look like:
             },
             "prior_renewals": [
                 {
-                    "prior_subscription_plan_id": "6b27b24a-68f5-4266-a48e-37d5b7deacb2",
+                    "prior_subscription_plan_id": "4b27b24a-48f5-4266-448e-47d5b7deacb2",
                     "prior_subscription_plan_start_date": "2021-01-01 00:00:00+00:00",
                     "renewed_subscription_plan_id": "59f50cb8-4b22-4e21-9119-e0022955f9cb",
                     "renewed_subscription_plan_start_date": "2021-07-01 00:00:00+00:00"
