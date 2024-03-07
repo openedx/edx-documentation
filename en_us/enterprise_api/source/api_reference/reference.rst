@@ -16,6 +16,10 @@ Endpoints
 
 The following endpoints are available in the Enterprise API.
 
+- **/subscriptions** - You can make GET calls to the
+  ``/enterprise/v1/subscriptions`` endpoint to get a list of subscription plans.
+  For details, see :ref:`subscriptions_summary Endpoint`.
+
 - **/subscriptions/{subscription_plan_uuid}/licenses/assign** - You can make POST calls to the
   ``/enterprise/v1/subscriptions/{subscription_plan_uuid}/licenses/assign`` endpoint to assign
   licenses to a list of users in the given subscription plan.
@@ -80,6 +84,203 @@ example, to request JSON-formatted information about a course run using
    https://api.edx.org/enterprise/v2/enterprise-catalogs/3f56a21c-76c8-47c0-add8-a99714d40d94/courses/MyUni+Sport101x \
    -H "Authorization: JWT {access token}"
    -H "Accept: application/json"
+
+.. _Subscriptions_summary Endpoint:
+
+**********************
+subscriptions Endpoint
+**********************
+
+GET calls to the ``subscriptions`` endpoint to get a list of subscription plans.
+
+===================
+Method and Endpoint
+===================
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Method
+     - Endpoint
+   * - GET
+     - ``/enterprise/v1/subscriptions``
+
+=====================
+Example Request
+=====================
+
+::
+
+   curl -X GET
+     https://api.edx.org/enterprise/v1/subscriptions \
+     -H "Authorization: JWT {access token}"
+     -H "Content-Type: application/json"
+
+=====================
+Parameters
+=====================
+
+You can use optional query parameters to get specific subscription plans.
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+  
+   * - Parameter
+     - Data Type
+     - Description
+   * - ``enterprise_customer_uuid``
+     - string
+     - The unique identifier for the customer.
+   * - ``page``
+     - integer
+     - The page number of the results.
+   * - ``current``
+     - bool (Nullable)
+     - Whether to return the most recently created subscription plan with an active ``start_date``. Can only be used with ``enterprise_customer_uuid``.
+
+For example:
+
+::
+
+   curl -X GET
+    https://api.edx.org/enterprise/v1/subscriptions?enterprise_customer_uuid=904b1785-9d3a-1000-848d-6ae7a56e6355&page=1&current=true \
+    -H "Authorization: JWT {access token}"
+    -H "Content-Type: application/json"
+
+=====================
+Response Values
+=====================
+
+The ``GET /enterprise/v1/subscriptions`` request returns the following response values:
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``count``
+     - integer
+     - The number of subscription plans.
+   * - ``next``
+     - string
+     - The URL for the next page of results.
+   * - ``previous``
+     - string
+     - The URL for the previous page of results.
+   * - ``results``
+     - array (obj)
+     - A list of subscription plans.
+
+Each top-level object in the ``results`` array represents a subscription plan.
+The ``results`` for a subscription plan returns an array of objects with the following fields:
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``title``
+     - string
+     - The title of the subscription plan.
+   * - ``uuid``
+     - string
+     - A unique identifier for the subscription plan.
+   * - ``start_date``
+     - string
+     - Datetime string of the start date of the subscription plan.
+   * - ``expiration_date``
+     - string
+     - Datetime string of the expiration date of the subscription plan.
+   * - ``enterprise_customer_uuid``
+     - string
+     - The customer's unique identifier linked to the subscription plan.
+   * - ``enterprise_catalog_uuid``
+     - string
+     - The catalog's unique identifier linked to the subscription plan.
+   * - ``is_active``
+     - bool (Nullable)
+     - Whether or not the subscription plan is active.
+   * - ``is_revocation_cap_enabled``
+     - bool (Nullable)
+     - Whether or not the subscription plan allows the revocation of licenses.
+   * - ``days_until_expiration``
+     - integer
+     - The number of days until the subscription plan expires.
+   * - ``days_until_expiration_including_renewals``
+     - integer
+     - The number of days until the subscription plan expires, including renewals.
+   * - ``is_locked_for_renewal_processing``
+     - bool (Nullable)
+     - Whether or not the subscription plan is locked for renewal processing.
+   * - ``should_auto_apply_licenses``
+     - bool (Nullable)
+     - Whether or not the subscription plan should automatically apply licenses.
+   * - ``licenses``
+     - obj
+     - The details about the licenses in the subscription plan.
+   * - ``revocations``
+     - bool (Nullable)
+     - The details about the revocations in the subscription plan.
+   * - ``prior_renewals``
+     - array
+     - The details about the prior renewals in the subscription plan.
+
+===================
+Example Response
+===================
+
+A sample response with a status `200 OK` will look like:
+
+::
+  
+   {
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "title": "Enterprise Subscription",
+            "uuid": "104b1785-1d3a-1000-148d-1ae7a56e6355",
+            "start_date": "2023-01-01T00:00:00Z",
+            "expiration_date": "2024-01-01T00:00:00Z",
+            "enterprise_customer_uuid": "204b1785-2d3a-2000-248d-2ae7a56e6355",
+            "enterprise_catalog_uuid": "304b1785-3d3a-3000-348d-3ae7a56e6355",
+            "is_active": true,
+            "is_revocation_cap_enabled": true,
+            "days_until_expiration": 365,
+            "days_until_expiration_including_renewals": 365,
+            "is_locked_for_renewal_processing": false,
+            "should_auto_apply_licenses": true,
+            "licenses": {
+                "activated": 0,
+                "assigned": 0,
+                "unassigned": 100,
+                "revoked": 0,
+                "total": 100,
+                "allocated": 0
+            },
+            "revocations": {
+                "total": 0,
+                "used": 0,
+                "remaining": 0
+            },
+            "prior_renewals": [
+                {
+                    "prior_subscription_plan_id": "4b27b24a-48f5-4266-448e-47d5b7deacb2",
+                    "prior_subscription_plan_start_date": "2021-01-01 00:00:00+00:00",
+                    "renewed_subscription_plan_id": "59f50cb8-4b22-4e21-9119-e0022955f9cb",
+                    "renewed_subscription_plan_start_date": "2021-07-01 00:00:00+00:00"
+                }
+            ]
+        }
+    ]
+   }
 
 .. _Licenses_assign Endpoint:
 
