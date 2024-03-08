@@ -138,7 +138,7 @@ You can use optional query parameters to get specific subscription plans.
      - The page number of the results.
    * - ``current``
      - bool (Nullable)
-     - Whether to return the most recently created subscription plan with an active ``start_date``. Can only be used with ``enterprise_customer_uuid``.
+     - returns the active subscription plan
 
 For example:
 
