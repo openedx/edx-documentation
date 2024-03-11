@@ -50,7 +50,7 @@ imagesize==1.4.1
     # via
     #   -r base.txt
     #   sphinx
-importlib-metadata==7.0.1
+importlib-metadata==7.0.2
     # via
     #   -r base.txt
     #   build
@@ -63,13 +63,13 @@ markupsafe==2.1.5
     # via
     #   -r base.txt
     #   jinja2
-packaging==23.2
+packaging==24.0
     # via
     #   -r base.txt
     #   build
     #   pydata-sphinx-theme
     #   sphinx
-pip-tools==7.4.0
+pip-tools==7.4.1
     # via -r dev.in
 pydata-sphinx-theme==0.14.4
     # via
