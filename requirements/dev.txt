@@ -22,7 +22,7 @@ beautifulsoup4==4.12.3
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
-build==1.1.1
+build==1.2.1
     # via pip-tools
 certifi==2024.2.2
     # via
@@ -143,7 +143,7 @@ tomli==2.0.1
     #   build
     #   pip-tools
     #   pyproject-hooks
-typing-extensions==4.10.0
+typing-extensions==4.11.0
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
