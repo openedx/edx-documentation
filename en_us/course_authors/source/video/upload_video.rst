@@ -75,6 +75,14 @@ Uploading a Video for an edx.org Course
   For information about adding video files to courses that run on Edge,
   see :ref:`Uploading a Video for an Edge Course`.
 
+
+When you upload a video, a banner message will appear at the top, alerting you to the upload now in progress. 
+Once the video thumbnail says "uploaded" over it and the banner message at the top has gone away, 
+it is safe to move on to other things.
+Until that time, please either:
+ * remain on the page until the upload has completed; or
+ * open a new browser tab where you can continue doing other work in Studio
+
 For :ref:`edx.org courses <Uploading a Video for an edx org Course>`, you
 upload your videos to the **Videos** page. The edX video process then
 creates multiple formats and sources for your videos.
