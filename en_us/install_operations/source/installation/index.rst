@@ -8,7 +8,7 @@ This section provides information about options for installing and
 starting the Open edX platform.
 
 We've tried to simplify the installation by providing a small number of
-options, prepackaged to varying degrees. Before installing Open edX, you have
+options, prepackaged to varying degrees. Before installing the Open edX platform, you have
 two decisions to make:
 
 * **Version**: What version of the code do you want?
@@ -23,7 +23,8 @@ There are two possibilities for the version to install:
 * **Master** is the latest version of the code, newer even than what is running
   on edx.org.
 * A **Release** is a version of the code marked and tested for wide use.  These
-  are named alphabetically for trees: Juniper, Koa, Lilac, etc.
+  are named alphabetically for trees: Juniper, Koa, Lilac, etc. Look for the most
+  recent release if you're beginning a new installation.
 
 You should choose master only if you will be modifying the code and
 contributing it back, or if you need a feature or fix that is newer than the
@@ -35,27 +36,11 @@ Details of the releases are on the `Open edX Named Releases page`_.
 2. Choose an installation method
 ********************************
 
-The currently supported installation methods are:
+The currently supported installation methods for both developing code and installing an instance:
 
 * **Tutor**: (New for Lilac) A community-supported Docker-based environment
   suited for both production and development.
-* **Native**: (Deprecated in Lilac, to be removed in Maple) Provides a
-  production-ready installation on an Ubuntu machine of your own, using an
-  Ansible playbook.
-* **Devstack**: A development environment based on Docker; useful if you want
-  to modify Open edX code locally.
 
-Broadly speaking, the different methods all install the same collection of
-software.  Which method you choose depends on what you'll be doing with your
-installation:
-
-* If you will be running a production installation on a **Release**, use
-  **Tutor** or **Native**.
-* If you want a production-like installation for testing a **Release**, you
-  should also use either **Tutor** or **Native**.
-* If you want a production-like installation for testing **Master**, you
-  should use **Native**.
-* If you will be modifying code on **Master**, use **Devstack**.
 
 Note that all of them require some foundational skills:
 
@@ -69,7 +54,5 @@ You can find more details on each of the methods below:
    :maxdepth: 2
 
    tutor
-   native_installation
-   devstack
 
 .. include:: ../../../links/links.rst
