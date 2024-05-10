@@ -603,12 +603,13 @@ OLX specifications can be found under each problem type in
    Editor instead of the Advanced Editor.
 
 .. warning::
-   Be careful when using the following values in your tag's class attribute. They
-   are used when running the problem. 
-   ``capa_inputtype``, ``choicegroup``, ``collapsible``, ``full``, ``inputtype``, 
-   ``longform``, ``message``, ``notification-gentle-alert``, ``notification-hint``,
-   ``notification-message``, ``notification-save``, ``problem``, ``script_placeholder``,
-   ``shortform``, ``shortform-custom``, ``show``, ``wrapper-problem-response``
+   Be careful when using certain values in your tag's class attribute. The
+   following are used when running the problem: ``capa_inputtype``,
+   ``choicegroup``, ``collapsible``, ``full``, ``inputtype``, ``longform``,
+   ``message``, ``notification-gentle-alert``, ``notification-hint``,
+   ``notification-message``, ``notification-save``, ``problem``,
+   ``script_placeholder``, ``shortform``, ``shortform-custom``, ``show``,
+   ``wrapper-problem-response``
 
 .. _Advanced Editor Features:
 
