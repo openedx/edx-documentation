@@ -602,6 +602,15 @@ OLX specifications can be found under each problem type in
    problem editor can fully parse the OLX, the editor will open as the Simple
    Editor instead of the Advanced Editor.
 
+.. warning::
+   Be careful when using certain values in your tag's class attribute. The
+   following are used when running the problem: ``capa_inputtype``,
+   ``choicegroup``, ``collapsible``, ``full``, ``inputtype``, ``longform``,
+   ``message``, ``notification-gentle-alert``, ``notification-hint``,
+   ``notification-message``, ``notification-save``, ``problem``,
+   ``script_placeholder``, ``shortform``, ``shortform-custom``, ``show``,
+   ``wrapper-problem-response``
+
 .. _Advanced Editor Features:
 
 ***************************************************
