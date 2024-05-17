@@ -249,6 +249,12 @@ subsection, follow these steps.
     Two>` that have a point value of 0 as the prerequisite for other course
     subsections.
 
+.. note::
+    You should not use a subsection that only has :ref:`HTML components<Working 
+    with HTML Components>` as a prerequisite as HTML blocks are not considered 
+    for completion or grading and they will be automtically considered passed 
+    if the student tries to access the subsection with the prerequisite.
+
 #. Enable subsection prerequisites for your course. For more information, see
    :ref:`enabling_subsection_gating`.
 
