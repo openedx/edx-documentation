@@ -34,7 +34,6 @@ configuration options.
    password
    tpa/index
    enable_timed_exams
-   user_retire/index
    youtube_api
    install_xblock
    static_replace/cdn
