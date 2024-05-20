@@ -85,7 +85,7 @@ typing-extensions==4.11.0
     # via pydata-sphinx-theme
 urllib3==2.2.1
     # via requests
-zipp==3.18.1
+zipp==3.18.2
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
