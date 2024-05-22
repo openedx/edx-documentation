@@ -64,6 +64,10 @@ The following endpoints are available in the Enterprise API.
   enterprise learners and their status in the courses they are enrolled in.
   For details, see :ref:`learner_summary Endpoint`.
 
+- **/assignment-configurations-cancel** - You can make POST calls to the
+  ``enterprise/v1/assignment-configurations/{assignment_configuration_uuid}/admin/assignments/cancel/`` to cancel the learner content assignment.
+  For details, see :ref:`assignment-configurations-cancel Endpoint`.
+
   `Use this JSON file <https://raw.githubusercontent.com/openedx/edx-documentation/master/en_us/enterprise_api/source/api_reference/edX_Enterprise_API_Reference%20Collection.postman_collection.json>`_ to import into your `Postman enviroment <https://learning.postman.com/docs/getting-started/importing-and-exporting-data/>`_ . It includes the endpoints mentioned above.
 
 .. _Returning XML Data:
@@ -126,7 +130,7 @@ You can use optional query parameters to get specific subscription plans.
 .. list-table::
    :widths: 25 20 80
    :header-rows: 1
-  
+
    * - Parameter
      - Data Type
      - Description
@@ -238,7 +242,7 @@ Example Response
 A sample response with a status `200 OK` will look like:
 
 ::
-  
+
    {
     "count": 1,
     "next": null,
@@ -540,6 +544,62 @@ A sample response with a status `201 Created` will look like:
    {
     "job_id": "<UUID4>"
    }
+
+.. _Assignment-configurations-cancel Endpoint:
+
+*************************************************************************************
+/assignment-configurations-cancel  Endpoint
+*************************************************************************************
+
+POST calls to the ``/assignment-configurations-cancel`` to cancel content assignments of learners.
+
+===================
+Method and Endpoint
+===================
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Method
+     - Endpoint
+   * - POST
+     - ``enterprise/v1/assignment-configurations/{assignment_configuration_uuid}/admin/assignments/cancel/``
+
+=====================
+Request Values
+=====================
+The ``POST enterprise/v1/assignment-configurations/{assignment_configuration_uuid}/admin/assignments/cancel/`` request accepts the following values in the body of the request:
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``assignment_uuids``
+     - array
+     - List of assignment UUIDs for the learners that need to be canceled, associated with the assignment configuration UUID specified in the URL.
+
+=====================
+Example Request
+=====================
+
+Request payload
+::
+
+   curl -X POST
+     https://api.edx.org/enterprise/v1/assignment-configurations/6fc7ef56-d1c4-4aa8-a649-e6eb209f0000/admin/assignments/cancel/ \
+     -H 'Authorization: JWT {access token}'
+     -H 'Content-Type: application/json' \
+     -d '{"assignment_uuids":["8977ef56-d1c4-4aa8-a649-e6eb209f0000","8907ef56-d1c4-4aa8-a649-e6eb209f0000"]'
+
+===================
+Example Response
+===================
+
+A sample response with a status `200 OK` will be returned
 
 .. _Enterprise_catalogs Endpoint:
 
