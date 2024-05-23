@@ -21,8 +21,12 @@ The following endpoints are available in the Enterprise API.
   an assignment in the requested SubsidyAccessPolicy record to a list of users.
   For details, see :ref:`policy_allocation Endpoint`.
 
-- **/assignment-configurations-cancel** - You can make POST calls to the
-  ``enterprise/v1/assignment-configurations/{assignment_configuration_uuid}/admin/assignments/cancel/`` to cancel the learner content assignment.
+- **/assignment-configurations/remind** - You can make POST calls to the
+  ``/enterprise/v1/assignment-configurations/{assignment_configuration_uuid}/admin/assignments/remind/`` to remind learner(s) of their content assignments.
+  For details, see :ref:`assignment-configurations-remind Endpoint`.
+
+- **/assignment-configurations/cancel** - You can make POST calls to the
+  ``enterprise/v1/assignment-configurations/{assignment_configuration_uuid}/admin/assignments/cancel/`` to cancel the learner(s) content assignments.
   For details, see :ref:`assignment-configurations-cancel Endpoint`.
 
 - **/subscriptions** - You can make GET calls to the
@@ -202,13 +206,70 @@ A sample response with a status `202 Accepted` will look like:
         "no_change": []
    }
 
+.. _Assignment-configurations-remind Endpoint:
+
+*************************************************************************************
+assignment-configurations-remind  Endpoint
+*************************************************************************************
+
+POST calls to the ``assignment-configurations-remind`` endpoint reminds learners of their content assignments.
+
+===================
+Method and Endpoint
+===================
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Method
+     - Endpoint
+   * - POST
+     - ``enterprise/v1/assignment-configurations/{assignment_configuration_uuid}/admin/assignments/remind/``
+
+=====================
+Request Values
+=====================
+The ``POST enterprise/v1/assignment-configurations/{assignment_configuration_uuid}/admin/assignments/remind/`` request accepts the following values in the body of the request:
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``assignment_uuids``
+     - array
+     - List of assignment UUIDs for the learners that need to be reminded of, associated with the assignment configuration UUID specified in the URL.
+
+=====================
+Example Request
+=====================
+
+Request payload
+::
+
+   curl -X POST
+     https://api.edx.org/enterprise/v1/assignment-configurations/6fc7ef56-d1c4-4aa8-a649-e6eb209f0000/admin/assignments/remind/ \
+     -H 'Authorization: JWT {access token}'
+     -H 'Content-Type: application/json' \
+     -d '{"assignment_uuids":["8977ef56-d1c4-4aa8-a649-e6eb209f0000","8907ef56-d1c4-4aa8-a649-e6eb209f0000"]'
+
+===================
+Example Response
+===================
+
+A sample response with a status `200 OK` will be returned
+
+
 .. _Assignment-configurations-cancel Endpoint:
 
 *************************************************************************************
-/assignment-configurations-cancel  Endpoint
+assignment-configurations-cancel  Endpoint
 *************************************************************************************
 
-POST calls to the ``/assignment-configurations-cancel`` to cancel content assignments of learners.
+POST calls to the ``/assignment-configurations-cancel`` cancels content assignments of learners.
 
 ===================
 Method and Endpoint
