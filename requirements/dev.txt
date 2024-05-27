@@ -89,7 +89,7 @@ pytz==2024.1
     # via
     #   -r base.txt
     #   babel
-requests==2.31.0
+requests==2.32.2
     # via
     #   -r base.txt
     #   sphinx
@@ -142,7 +142,7 @@ tomli==2.0.1
     # via
     #   build
     #   pip-tools
-typing-extensions==4.11.0
+typing-extensions==4.12.0
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
@@ -152,7 +152,7 @@ urllib3==2.2.1
     #   requests
 wheel==0.43.0
     # via pip-tools
-zipp==3.18.2
+zipp==3.19.0
     # via
     #   -r base.txt
     #   importlib-metadata
