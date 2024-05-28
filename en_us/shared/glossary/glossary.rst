@@ -1152,7 +1152,7 @@ XYZ
 
   Third parties can create components as web applications that can run within
   the edX learning management system. For more information, see
-  :ref:`xblocktutorial:Open edX XBlock Tutorial`.
+  `the Open edX XBlock Tutorial. <https://docs.openedx.org/projects/xblock/en/latest/xblock-tutorial/index.html>`_
 
 
 **XSeries**
