@@ -16,6 +16,11 @@ Endpoints
 
 The following endpoints are available in the Enterprise API.
 
+- **/subsidy-access-policies/** - You can make GET calls to the
+  ``/enterprise/v1/subsidy-access-policies/`` endpoint to list
+  subsidy access policies for an enterprise customer.
+  For details, see :ref:`subsidy_access_policies_list Endpoint`.
+
 - **/policy-allocation/{policy_uuid}/allocate/** - You can make POST calls to the
   ``/enterprise/v1/policy-allocation/{policy_uuid}/allocate/`` endpoint to allocate
   an assignment in the requested SubsidyAccessPolicy record to a list of users.
@@ -205,6 +210,197 @@ A sample response with a status `202 Accepted` will look like:
         ],
         "no_change": []
    }
+
+.. _Subsidy_access_policies_list Endpoint:
+
+*************************************
+subsidy_access_policies_list Endpoint
+*************************************
+
+
+GET calls to the ``subsidy-access-policies-list`` endpoint to list subsidy access policies for an enterprise customer.
+
+===================
+Method and Endpoint
+===================
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Method
+     - Endpoint
+   * - GET
+     - ``/enterprise/v1/subsidy-access-policies/``
+
+==============
+Request Values
+==============
+The ``GET /enterprise/v1/subsidy-access-policies/`` request accepts the following values as the query parameters of the request:
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``active``
+     - boolean
+     - Set to FALSE to deactivate and hide this policy. Use this when you want to disable redemption and make it disappear from all frontends, effectively soft-deleting it. Default is False (deactivated).
+   * - ``enterprise_customer_uuid``
+     - string <uuid>
+     - The owning Enterprise Customer's UUID. Cannot be blank or null.
+   * - ``page``
+     - integer
+     - A page number within the paginated result set.
+   * - ``page_size``
+     - integer
+     - Number of results to return per page.
+   * - ``policy_type``
+     - string
+     - The type of this policy (e.g. the name of an access policy proxy model).
+
+===============
+Example Request
+===============
+::
+
+   curl -X GET
+     https://api.edx.org/enterprise/v1/subsidy-access-policies/?active=true&enterprise_customer_uuid=66b5922b-a22b-4a7b-b587-d4af0378bd6f' \
+     -H 'Authorization: JWT {access token}'
+     -H 'Content-Type: application/json' \
+
+===============
+Response Values
+===============
+The ``/enterprise/v1/subsidy-access-policies/`` request returns the following response values:
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``uuid``
+     - string <uuid>
+     - A unique identifier for the policy.
+   * - ``policy_type``
+     - string
+     - The type of this policy.
+   * - ``display_name``
+     - string
+     - The name of the policy.
+   * - ``description``
+     - string
+     - A description of the policy.
+   * - ``active``
+     - boolean
+     - Whether or not the policy is active.
+   * - ``retired``
+     - boolean
+     - Whether or not the policy is retired.
+   * - ``enterprise_customer_uuid``
+     - string <uuid>
+     - The owning Enterprise Customer's UUID.
+   * - ``catalog_uuid``
+     - string <uuid>
+     - The catalog's UUID.
+   * - ``subsidy_uuid``
+     - string <uuid>
+     - The subsidy's UUID.
+   * - ``access_method``
+     - string
+     - The method of access for this policy.
+   * - ``per_learner_enrollment_limit``
+     - integer
+     - The maximum number of enrollments per learner.
+   * - ``per_learner_spend_limit``
+     - integer
+     - The maximum spend per learner.
+   * - ``spend_limit``
+     - integer
+     - The maximum spend for this policy.
+   * - ``subsidy_active_datetime``
+     - string
+     - The datetime when the subsidy is active.
+   * - ``subsidy_expiration_datetime``
+     - string
+     - The datetime when the subsidy expires.
+   * - ``is_subsidy_active``
+     - boolean
+     - Whether or not the subsidy is active.
+   * - ``aggregates``
+     - array
+     - Aggregated data for this policy.
+   * - ``assignment_configuration``
+     - array
+     - Assignment configuration for this policy.
+   * - ``group_associations``
+     - array
+     - Group associations for this policy.
+   * - ``late_redemption_allowed_until``
+     - string
+     - The datetime until late redemption is allowed.
+   * - ``is_late_redemption_allowed``
+     - boolean
+     - Whether or not late redemption is allowed.
+
+===================
+Example Response
+===================
+
+A sample response with a status `200 OK` will look like:
+
+::
+
+   {
+        "next": null,
+        "previous": null,
+        "count": 1,
+        "num_pages": 1,
+        "current_page": 1,
+        "start": 0,
+        "results": [
+            {
+                "uuid": "7f344aea-c28c-4ef0-95e6-fb6e58f98495",
+                "policy_type": "AssignedLearnerCreditAccessPolicy",
+                "display_name": "Assignable Budget ALC General Testing",
+                "description": "Budget for general Assigned LC Testing",
+                "active": true,
+                "retired": false,
+                "enterprise_customer_uuid": "66b5922b-a22b-4a7b-b587-d4af0378bd6f",
+                "catalog_uuid": "101989c0-5dfa-4e0b-91dc-01f590148c6f",
+                "subsidy_uuid": "1b6c28b4-2f17-4b18-bbde-b32930e2705c",
+                "access_method": "assigned",
+                "per_learner_enrollment_limit": null,
+                "per_learner_spend_limit": null,
+                "spend_limit": 100000000,
+                "subsidy_active_datetime": "2023-11-15T20:16:59Z",
+                "subsidy_expiration_datetime": "2025-11-15T20:17:01Z",
+                "is_subsidy_active": true,
+                "aggregates": {
+                    "amount_redeemed_usd_cents": 181450,
+                    "amount_redeemed_usd": 1814.5,
+                    "amount_allocated_usd_cents": 279100,
+                    "amount_allocated_usd": 2791.0,
+                    "spend_available_usd_cents": 99539450,
+                    "spend_available_usd": 995394.5
+                },
+                "assignment_configuration": {
+                    "uuid": "6fc7ef56-d1c4-4aa8-a649-e6eb209f7668",
+                    "subsidy_access_policy": "7f344aea-c28c-4ef0-95e6-fb6e58f98495",
+                    "enterprise_customer_uuid": "66b5922b-a22b-4a7b-b587-d4af0378bd6f",
+                    "active": true
+                },
+                "group_associations": [],
+                "late_redemption_allowed_until": null,
+                "is_late_redemption_allowed": false
+            }
+        ]
+    }
+
 
 .. _Assignment-configurations-remind Endpoint:
 
