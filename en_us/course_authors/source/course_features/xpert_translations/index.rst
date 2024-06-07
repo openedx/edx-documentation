@@ -10,5 +10,3 @@ Xpert Course Translations
    feature_description
    enabling_disabling_translations
    reviewing_and_editing_translations
-   translations_technology
-   feature_cost
