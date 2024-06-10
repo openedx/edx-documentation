@@ -63,7 +63,7 @@ markupsafe==2.1.5
     # via
     #   -r base.txt
     #   jinja2
-packaging==24.0
+packaging==24.1
     # via
     #   -r base.txt
     #   build
@@ -142,7 +142,7 @@ tomli==2.0.1
     # via
     #   build
     #   pip-tools
-typing-extensions==4.12.1
+typing-extensions==4.12.2
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
@@ -152,7 +152,7 @@ urllib3==2.2.1
     #   requests
 wheel==0.43.0
     # via pip-tools
-zipp==3.19.1
+zipp==3.19.2
     # via
     #   -r base.txt
     #   importlib-metadata
