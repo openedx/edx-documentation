@@ -1,4 +1,4 @@
-.. _Enabling_Xpert_Unit_Summaries:
+.. _Feature_Description_Xpert_Course_Translations:
 
 ##############################################
 Feature Description: Xpert Course Translations 
