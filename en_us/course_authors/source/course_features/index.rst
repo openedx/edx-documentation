@@ -21,3 +21,4 @@ see :ref:`Developing Your Course Index`.
    timed_exams
    lti/index
    xpert_summaries/index
+   xpert_translations/index
