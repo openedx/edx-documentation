@@ -656,10 +656,15 @@ and the individual problem scores are included in this list. Assignments will no
 
 * The assignment has a future scheduled release date.
 
-* The assignment is not graded.
+* The assignment is not graded and ``SHOW_UNGRADED_ASSIGNMENT_PROGRESS`` is not set to ``True`` in ``MFE_CONFIG``.
 
    .. image:: ../../../shared/images/Progress_DetailedGrades.png
      :alt: Detailed Grades feature that displays subsection scores.
+
+If you want to include non-graded problems in this section, please add ``"SHOW_UNGRADED_ASSIGNMENT_PROGRESS": True`` in ``MFE_CONFIG``.
+
+   .. image:: ../../../shared/images/Progress_DetailedGrades_Ungraded.png
+     :alt: Detailed Grades feature that displays subsection scores with ungraded problems.
 
 .. _certificate_status:
 
