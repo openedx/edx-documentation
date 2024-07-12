@@ -4,7 +4,10 @@
 Adding E-Commerce to the Open edX Platform
 ##########################################
 
-EdX uses a Django application called ``ecommerce`` to provide the platform with
+.. warning::
+   This service is under-maintained. We are not fixing bugs or developing new features for it. We hope to deprecate and replace it soon. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
+
+edX uses a Django application called ``ecommerce`` to provide the platform with
 ecommerce functionality. This `E-Commerce service`_ extends `Oscar`_, an open
 source Django ecommerce framework, to manage the edX product catalog and handle
 orders for those products. The following sections describe how to install and
