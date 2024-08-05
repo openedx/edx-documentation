@@ -8,7 +8,7 @@ accessible-pygments==0.0.5
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
-alabaster==0.7.16
+alabaster==1.0.0
     # via
     #   -r base.txt
     #   sphinx
@@ -92,7 +92,7 @@ soupsieve==2.5
     # via
     #   -r base.txt
     #   beautifulsoup4
-sphinx==7.4.7
+sphinx==8.0.2
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
@@ -105,15 +105,15 @@ sphinx-intl==2.2.0
     # via -r base.txt
 sphinx-reredirects==0.1.5
     # via -r base.txt
-sphinxcontrib-applehelp==1.0.8
+sphinxcontrib-applehelp==2.0.0
     # via
     #   -r base.txt
     #   sphinx
-sphinxcontrib-devhelp==1.0.6
+sphinxcontrib-devhelp==2.0.0
     # via
     #   -r base.txt
     #   sphinx
-sphinxcontrib-htmlhelp==2.0.6
+sphinxcontrib-htmlhelp==2.1.0
     # via
     #   -r base.txt
     #   sphinx
@@ -121,11 +121,11 @@ sphinxcontrib-jsmath==1.0.1
     # via
     #   -r base.txt
     #   sphinx
-sphinxcontrib-qthelp==1.0.8
+sphinxcontrib-qthelp==2.0.0
     # via
     #   -r base.txt
     #   sphinx
-sphinxcontrib-serializinghtml==1.1.10
+sphinxcontrib-serializinghtml==2.0.0
     # via
     #   -r base.txt
     #   sphinx
@@ -137,7 +137,7 @@ urllib3==2.2.2
     # via
     #   -r base.txt
     #   requests
-wheel==0.43.0
+wheel==0.44.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
