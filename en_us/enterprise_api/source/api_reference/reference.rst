@@ -16,15 +16,15 @@ Endpoints
 
 The following endpoints are available in the Enterprise API.
 
-- **/subsidy-access-policies/** - You can make GET calls to the
-  ``/enterprise/v1/subsidy-access-policies/`` endpoint to list
-  subsidy access policies for an enterprise customer.
-  For details, see :ref:`subsidy_access_policies_list Endpoint`.
-
 - **/policy-allocation/{policy_uuid}/allocate/** - You can make POST calls to the
   ``/enterprise/v1/policy-allocation/{policy_uuid}/allocate/`` endpoint to allocate
   an assignment in the requested SubsidyAccessPolicy record to a list of users.
   For details, see :ref:`policy_allocation Endpoint`.
+
+- **/subsidy-access-policies/** - You can make GET calls to the
+  ``/enterprise/v1/subsidy-access-policies/`` endpoint to list
+  subsidy access policies for an enterprise customer.
+  For details, see :ref:`subsidy_access_policies_list Endpoint`.
 
 - **/assignment-configurations/remind** - You can make POST calls to the
   ``/enterprise/v1/assignment-configurations/{assignment_configuration_uuid}/admin/assignments/remind/`` to remind learner(s) of their content assignments.
@@ -332,10 +332,10 @@ The ``/enterprise/v1/subsidy-access-policies/`` request returns the following re
      - boolean
      - Whether or not the subsidy is active.
    * - ``aggregates``
-     - array
+     - obj
      - Aggregated data for this policy.
    * - ``assignment_configuration``
-     - array
+     - obj
      - Assignment configuration for this policy.
    * - ``group_associations``
      - array
