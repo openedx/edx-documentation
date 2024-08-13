@@ -16,15 +16,20 @@ Endpoints
 
 The following endpoints are available in the Enterprise API.
 
+- **/policy-allocation/{policy_uuid}/allocate/** - You can make POST calls to the
+  ``/enterprise/v1/policy-allocation/{policy_uuid}/allocate/`` endpoint to allocate
+  an assignment in the requested SubsidyAccessPolicy record to a list of users.
+  For details, see :ref:`policy_allocation Endpoint`.
+
 - **/subsidy-access-policies/** - You can make GET calls to the
   ``/enterprise/v1/subsidy-access-policies/`` endpoint to list
   subsidy access policies for an enterprise customer.
   For details, see :ref:`subsidy_access_policies_list Endpoint`.
 
-- **/policy-allocation/{policy_uuid}/allocate/** - You can make POST calls to the
-  ``/enterprise/v1/policy-allocation/{policy_uuid}/allocate/`` endpoint to allocate
-  an assignment in the requested SubsidyAccessPolicy record to a list of users.
-  For details, see :ref:`policy_allocation Endpoint`.
+- **/assignment-configurations/** - You can make GET calls to the
+  ``/enterprise/v1/assignment-configurations/{assignment_configuration_uuid}/admin/assignments/`` endpoint to list
+  learner(s) content assignments.
+  For details, see :ref:`assignment-configurations-list Endpoint`.
 
 - **/assignment-configurations/remind** - You can make POST calls to the
   ``/enterprise/v1/assignment-configurations/{assignment_configuration_uuid}/admin/assignments/remind/`` to remind learner(s) of their content assignments.
@@ -332,10 +337,10 @@ The ``/enterprise/v1/subsidy-access-policies/`` request returns the following re
      - boolean
      - Whether or not the subsidy is active.
    * - ``aggregates``
-     - array
+     - obj
      - Aggregated data for this policy.
    * - ``assignment_configuration``
-     - array
+     - obj
      - Assignment configuration for this policy.
    * - ``group_associations``
      - array
@@ -400,6 +405,206 @@ A sample response with a status `200 OK` will look like:
             }
         ]
     }
+
+
+.. _Assignment-configurations-list Endpoint:
+
+***************************************
+assignment-configurations-list Endpoint
+***************************************
+
+
+GET calls to the ``assignment-configurations-list`` endpoint to list learner(s) content assignments.
+
+===================
+Method and Endpoint
+===================
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Method
+     - Endpoint
+   * - GET
+     - ``/enterprise/v1/assignment-configurations/{assignment_configuration_uuid}/admin/assignments/``
+
+==============
+Request Values
+==============
+The ``GET /enterprise/v1/assignment-configurations/{assignment_configuration_uuid}/admin/assignments/`` request accepts the following values as the query parameters of the request:
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``content_key``
+     - string
+     - The globally unique content identifier to assign to the learner. Joinable with ContentMetadata.content_key in enterprise-catalog.
+   * - ``content_key__in``
+     - Array of strings
+     - The globally unique content identifier to assign to the learner. Joinable with ContentMetadata.content_key in enterprise-catalog.
+   * - ``learner_email``
+     - string
+     - Email of learner to assign content. Automatically scrubbed after 90 days.
+   * - ``learner_email__in``
+     - Array of strings
+     - Email of learner to assign content. Automatically scrubbed after 90 days.
+   * - ``learner_state``
+     - string
+     - Choose from the following valid learner states: notifying, waiting, failed, expired.
+   * - ``learner_state__in``
+     - Array of strings
+     - Choose from the following valid learner states: notifying, waiting, failed, expired.
+   * - ``lms_user_id``
+     - integer
+     - The id of the Open edX LMS user record with which this LearnerContentAssignment is associated. This may be null at time of creation.
+   * - ``lms_user_id__in``
+     - Array of integers
+     - The id of the Open edX LMS user record with which this LearnerContentAssignment is associated. This may be null at time of creation.
+   * - ``ordering``
+     - string
+     - Which field to use when ordering the results.
+   * - ``page``
+     - integer
+     - A page number within the paginated result set.
+   * - ``page_size``
+     - integer
+     - Number of results to return per page.
+   * - ``search``
+     - string
+     - A search term.
+   * - ``state``
+     - string
+     - The current state of the LearnerContentAssignment. One of: ['allocated', 'accepted', 'cancelled', 'errored', 'expired', 'reversed']
+   * - ``state__in``
+     - Array of strings
+     - The current state of the LearnerContentAssignment. One of: ['allocated', 'accepted', 'cancelled', 'errored', 'expired', 'reversed']
+
+===============
+Example Request
+===============
+::
+
+   curl -X GET
+     https://api.edx.org/enterprise/v1/assignment-configurations/6fc7ef56-d1c4-4aa8-a649-e6eb209f7668/admin/assignments/ \
+     -H 'Authorization: JWT {access token}'
+     -H 'Content-Type: application/json' \
+
+===============
+Response Values
+===============
+The ``/enterprise/v1/assignment-configurations/{assignment_configuration_uuid}/admin/assignments/`` request returns the following response values:
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``uuid``
+     - string <uuid>
+     - A unique identifier for the assinment.
+   * - ``assignment_configuration``
+     - string <uuid>
+     - The assignment configuration's UUID.
+   * - ``learner_email``
+     - string
+     - The learner's email.
+   * - ``lms_user_id``
+     - integer
+     - The learner's LMS user ID.
+   * - ``content_key``
+     - string
+     - The content key.
+   * - ``content_title``
+     - string
+     - The content title.
+   * - ``content_quantity``
+     - integer
+     - The content quantity.
+   * - ``state``
+     - string
+     - The state of the assignment i.e. allocated, accepted, cancelled, errored, expired, reversed.
+   * - ``transaction_uuid``
+     - string <uuid>
+     - The transaction's UUID.
+   * - ``actions``
+     - array
+     - Actions for this assignment.
+   * - ``earliest_possible_expiration``
+     - obj
+     - The earliest possible expiration for this assignment.
+   * - ``recent_action``
+     - obj
+     - The most recent action for this assignment.
+   * - ``learner_state``
+     - string
+     - The learner's state. One of: ['notifying', 'waiting', 'failed', 'expired']
+   * - ``learner_state_counts``
+     - array
+     - The learner's state count.
+
+===================
+Example Response
+===================
+
+A sample response with a status `200 OK` will look like:
+
+::
+
+    {
+        "count": 123,
+        "page_count": 3,
+        "page_size": 50,
+        "current_page": 1,
+        "next": "http://example.com",
+        "previous": "http://example.com",
+        "results": [
+            {
+                "uuid": "095be615-a8ad-4c33-8e9c-c7612fbf6c9f",
+                "assignment_configuration": "fd456a98-653b-41e9-94d1-94d7b136832a",
+                "learner_email": "user@example.com",
+                "lms_user_id": 0,
+                "content_key": "string",
+                "content_title": "string",
+                "content_quantity": 0,
+                "state": "allocated",
+                "transaction_uuid": "3a6bcbed-b7dc-4791-84fe-b20f12be4001",
+                "actions": [
+                    {
+                        "created": "2019-08-24T14:15:22Z",
+                        "modified": "2019-08-24T14:15:22Z",
+                        "uuid": "095be615-a8ad-4c33-8e9c-c7612fbf6c9f",
+                        "action_type": "learner_linked",
+                        "completed_at": "2019-08-24T14:15:22Z",
+                        "error_reason": "email_error"
+                    }
+                ],
+                "earliest_possible_expiration": {
+                    "date": "2019-08-24T14:15:22Z",
+                    "reason": "string"
+                },
+                "recent_action": {
+                    "action_type": "assigned",
+                    "timestamp": "2019-08-24T14:15:22Z"
+                },
+                "learner_state": "notifying",
+                "error_reason": "string"
+            }
+        ],
+        "learner_state_counts": [
+            {
+                "learner_state": "waiting",
+                "count": 123
+            }
+        ]
+    }
+
 
 
 .. _Assignment-configurations-remind Endpoint:
