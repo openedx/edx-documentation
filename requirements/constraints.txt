@@ -10,3 +10,9 @@
 
 # Common constraints for edx repos
 -c common_constraints.txt
+
+# This is needed until https://github.com/sphinx-contrib/images/issues/40 is closed.
+# The current latest version of sphinx-contrib-images is not compatible with Sphinx 8.0.0
+# and doesn't have proper constraining so we need to hold back sphinx here until the above
+# issue is closed.
+sphinx<8.0.0
