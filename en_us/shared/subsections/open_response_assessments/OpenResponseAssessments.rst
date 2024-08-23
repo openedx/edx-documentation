@@ -681,6 +681,11 @@ that are relevant to your course.
 Before you decide to ask learners to upload files along with their text
 responses, however, be aware of the following limitations and best practices.
 
+* Course teams can configure an ORA to allow one or multiple file uploads.
+  With multiple file uploads, a learner can upload up to 20 files.
+
+* Each uploaded file must be less than 500 MB.
+
 * During the peer assessment step, learners download the files that other
   learners uploaded. To reduce the potential for problems from files with
   malicious content, learners cannot upload files with certain file extensions.
@@ -690,8 +695,6 @@ responses, however, be aware of the following limitations and best practices.
   Uploaded file content is not included in the reports of answer submissions
   that are available from the instructor dashboard, and course data packages do
   not include any of the uploaded files.
-
-* The cumulative size of all uploaded files must be less than 500 MB.
 
 * Image files must be in .jpg, .gif, or .png format.
 
