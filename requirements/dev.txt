@@ -42,7 +42,7 @@ docutils==0.21.2
     #   -r base.txt
     #   pydata-sphinx-theme
     #   sphinx
-idna==3.8
+idna==3.10
     # via
     #   -r base.txt
     #   requests
@@ -133,7 +133,7 @@ typing-extensions==4.12.2
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
-urllib3==2.2.2
+urllib3==2.2.3
     # via
     #   -r base.txt
     #   requests
