@@ -25,7 +25,7 @@ docutils==0.21.2
     # via
     #   pydata-sphinx-theme
     #   sphinx
-idna==3.8
+idna==3.10
     # via requests
 imagesize==1.4.1
     # via sphinx
@@ -78,7 +78,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 typing-extensions==4.12.2
     # via pydata-sphinx-theme
-urllib3==2.2.2
+urllib3==2.2.3
     # via requests
 
 # The following packages are considered to be unsafe in a requirements file:
