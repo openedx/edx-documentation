@@ -1100,11 +1100,32 @@ Response
 
 The ``POST enterprise/v1/subscriptions/{subscription_plan_uuid}/licenses/bulk-revoke`` request can return the following responses:
 
-    204 No Content - All revocations were successful.
+    200 OK - All revocations were successful. Returns a list of successful revocations.
 
-    400 Bad Request - Some error occurred when processing one of the revocations, no revocations were committed. An error message is provided.
+    207 Multi-Status - Some revocations were successful, but others failed. Returns both successful and failed revocations.
 
+    400 Bad Request - An error occurred when processing the request (e.g., invalid data format).
+    
     404 Not Found - No license exists in the plan for one of the given email addresses, or the license is not in an assigned or activated state. An error message is provided.
+
+.. code-block:: json
+
+  {
+    "successful_revocations": [
+      {
+        "license_uuid": "string",
+        "original_status": "string",
+        "user_email": "string"
+      }
+    ],
+    "unsuccessful_revocations": [
+      {
+        "error": "string",
+        "error_response_status": "integer",
+        "user_email": "string"
+      }
+    ]
+  }
 
 .. _Bulk-license-enrollment Endpoint:
 
