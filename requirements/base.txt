@@ -34,10 +34,8 @@ jinja2==3.1.4
 markupsafe==3.0.2
     # via jinja2
 packaging==24.1
-    # via
-    #   pydata-sphinx-theme
-    #   sphinx
-pydata-sphinx-theme==0.15.4
+    # via sphinx
+pydata-sphinx-theme==0.16.0
     # via sphinx-book-theme
 pygments==2.18.0
     # via
