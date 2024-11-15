@@ -17,7 +17,6 @@ configuration options.
    config_allowed_regis_emails
    deprecated_add_course_talk_widget
    edx_search
-   enable_badging
    enable_certificates
    enable_pacing
    enable_public_course
