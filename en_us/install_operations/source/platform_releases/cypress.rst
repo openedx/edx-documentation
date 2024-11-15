@@ -23,10 +23,13 @@ teams, and developers. See the Open edX Release Notes for more details.
  not enabled by default in new installations. For details, see the following
  topics.
 
+
+
  * :ref:`Enable edX Search`
- * :ref:`Enable Badging`
  * :ref:`Enable CCX`
  * :ref:`Enable Licensing`
+ * Badging - Support was dropped in Palm and so the documentation is no longer
+   available on the latest release.
 
 ******************************
 What is the Cypress Git Tag?
