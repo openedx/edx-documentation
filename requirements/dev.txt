@@ -100,7 +100,7 @@ sphinx==7.4.7
     #   sphinx-reredirects
 sphinx-book-theme==1.1.3
     # via -r base.txt
-sphinx-intl==2.3.0
+sphinx-intl==2.3.1
     # via -r base.txt
 sphinx-reredirects==0.1.5
     # via -r base.txt
