@@ -68,7 +68,6 @@ these steps.
 #. On the instructor dashboard, select **Open Responses**.
 #. In the table listing the ORA problems, locate the waiting column corresponding to
    the problem you want to see users waiting on.
-#. If there are any students in the waiting step, the column will become clickable.
 #. Select it to open the **Waiting step details** page.
 
 The **Waiting step details** page displays some information related to the peer step
@@ -86,6 +85,11 @@ The **Waiting step details** page also allows managing student grades through th
 **Manage individual learners** button near the bottom of the page, which works in
 the same manner as :ref:`partnercoursestaff:Access Information for a Specific Learner`.
 
+   .. note:: The  **Waiting step details** page will display any learners who have
+    recieved fewer peer assessments than the assignment is configured to require.
+    This means that even after performing a staff override for a waiting learner,
+    they won't immediately disappear from the table. Refer to the  **Final grade status**
+    column to determine if a learner is actually waiting or not.
 
 .. _PA View Metrics for Individual Steps:
 
