@@ -28,11 +28,11 @@ certifi==2024.12.14
     # via
     #   -r base.txt
     #   requests
-charset-normalizer==3.4.0
+charset-normalizer==3.4.1
     # via
     #   -r base.txt
     #   requests
-click==8.1.7
+click==8.1.8
     # via
     #   -r base.txt
     #   pip-tools
@@ -50,7 +50,7 @@ imagesize==1.4.1
     # via
     #   -r base.txt
     #   sphinx
-jinja2==3.1.4
+jinja2==3.1.5
     # via
     #   -r base.txt
     #   sphinx
@@ -65,7 +65,7 @@ packaging==24.2
     #   sphinx
 pip-tools==7.4.1
     # via -r dev.in
-pydata-sphinx-theme==0.16.0
+pydata-sphinx-theme==0.16.1
     # via
     #   -r base.txt
     #   sphinx-book-theme
@@ -132,7 +132,7 @@ typing-extensions==4.12.2
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
-urllib3==2.2.3
+urllib3==2.3.0
     # via
     #   -r base.txt
     #   requests
