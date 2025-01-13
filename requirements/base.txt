@@ -37,7 +37,7 @@ packaging==24.2
     # via sphinx
 pydata-sphinx-theme==0.16.1
     # via sphinx-book-theme
-pygments==2.19.0
+pygments==2.19.1
     # via
     #   accessible-pygments
     #   pydata-sphinx-theme
@@ -76,8 +76,10 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 typing-extensions==4.12.2
     # via pydata-sphinx-theme
-urllib3==2.3.0
-    # via requests
+urllib3==2.2.3
+    # via
+    #   -c common_constraints.txt
+    #   requests
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
