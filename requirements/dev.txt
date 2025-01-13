@@ -69,7 +69,7 @@ pydata-sphinx-theme==0.16.1
     # via
     #   -r base.txt
     #   sphinx-book-theme
-pygments==2.19.0
+pygments==2.19.1
     # via
     #   -r base.txt
     #   accessible-pygments
@@ -132,7 +132,7 @@ typing-extensions==4.12.2
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
-urllib3==2.3.0
+urllib3==2.2.3
     # via
     #   -r base.txt
     #   requests
