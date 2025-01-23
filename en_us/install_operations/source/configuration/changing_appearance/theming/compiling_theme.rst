@@ -21,7 +21,7 @@ To update a theme for Studio or the LMS, follow these steps.
 
 #. Change to the ``/edx/app/edxapp/edx-platform`` directory.
 
-#. Execute the ``paver update_assets`` command to update all themes.
+#. Execute the ``npm run compile-sass`` command to update all themes.
 
    If you want to update specific themes, use the arguments described in the
    following table.
