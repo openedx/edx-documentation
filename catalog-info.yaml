@@ -5,6 +5,7 @@ metadata:
   description: "This repository contains the legacy documentation content that is slowly being replaced with https://docs.openedx.org"
   annotations:
     openedx.org/arch-interest-groups: "feanil"
+    openedx.org/release: "master"
 spec:
   owner: user:feanil
   type: 'website'
