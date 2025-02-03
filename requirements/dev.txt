@@ -12,19 +12,19 @@ alabaster==0.7.16
     # via
     #   -r base.txt
     #   sphinx
-babel==2.16.0
+babel==2.17.0
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
     #   sphinx
     #   sphinx-intl
-beautifulsoup4==4.12.3
+beautifulsoup4==4.13.0
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
 build==1.2.2.post1
     # via pip-tools
-certifi==2024.12.14
+certifi==2025.1.31
     # via
     #   -r base.txt
     #   requests
@@ -131,6 +131,7 @@ sphinxcontrib-serializinghtml==2.0.0
 typing-extensions==4.12.2
     # via
     #   -r base.txt
+    #   beautifulsoup4
     #   pydata-sphinx-theme
 urllib3==2.2.3
     # via
