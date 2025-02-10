@@ -18,7 +18,7 @@ babel==2.17.0
     #   pydata-sphinx-theme
     #   sphinx
     #   sphinx-intl
-beautifulsoup4==4.13.0
+beautifulsoup4==4.13.3
     # via
     #   -r base.txt
     #   pydata-sphinx-theme
