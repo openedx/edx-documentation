@@ -21,7 +21,7 @@ What's Included in Dogwood
 
 The Open edX Dogwood release contains several new features for learners, course
 teams, and developers. See the release notes for the
-:ref:`openreleasenotes:Open edX Dogwood Release` for more details.
+:ref:`Open edX Dogwood Release` for more details.
 
 ******************************
 What Is the Dogwood Git Tag?

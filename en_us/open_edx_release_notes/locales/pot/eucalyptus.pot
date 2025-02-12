@@ -482,7 +482,7 @@ msgid "System Upgrades and Updates"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:428
-msgid "You can now enable or disable the bulk email feature from the Django administration console, rather than editing different configuration files. For more information, see :ref:`openreleasenotes:Enable Bulk Email`."
+msgid "You can now enable or disable the bulk email feature from the Django administration console, rather than editing different configuration files. For more information, see :ref:`Enable Bulk Email`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:432

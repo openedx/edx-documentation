@@ -17,7 +17,7 @@ What's Included in Ficus
 
 The Open edX Ficus release contains several new features for learners,
 course teams, and developers. For more information, see
-:ref:`openreleasenotes:Open edX Ficus Release`.
+:ref:`Open edX Ficus Release`.
 
 **************************
 What Is the Ficus Git Tag?
