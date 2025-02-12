@@ -876,7 +876,7 @@ msgid "If your course is on Edge, integrated transcript functionality is not ava
 msgstr ""
 
 #: ../../../shared/video/prepare_video/obtain_transcript.rst:187
-msgid "When you work with a transcript provider, you send your videos to the transcript provider, and the provider sends you the completed transcripts. You later upload the transcripts when you :ref:`create a video component<opencoursestaff:Add a Video to a Course>`."
+msgid "When you work with a transcript provider, you send your videos to the transcript provider, and the provider sends you the completed transcripts. You later upload the transcripts when you :ref:`create a video component<Add a Video to a Course>`."
 msgstr ""
 
 #: ../../../shared/video/prepare_video/obtain_transcript.rst:194

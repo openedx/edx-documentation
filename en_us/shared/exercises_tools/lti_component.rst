@@ -69,7 +69,7 @@ system such as Canvas or Blackboard.
 .. only:: Open_edX
 
   For more information about how to use Studio as an LTI tool provider, see
-  :ref:`opencoursestaff:Using Open edX as an LTI Tool Provider`.
+  :ref:`Using Open edX as an LTI Tool Provider`.
 
 .. note the slightly different destination links ^. Alison 23 Nov 2015
 

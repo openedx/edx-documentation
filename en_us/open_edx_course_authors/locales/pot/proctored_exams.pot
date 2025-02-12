@@ -209,7 +209,7 @@ msgid "Proctored Exam Overview"
 msgstr ""
 
 #: ../../source/proctored_exams/overview.rst:7
-msgid "Proctored exams are timed exams that learners take while online proctoring software monitors their computer, environment, and behavior. When learners complete a proctored exam, a reviewer examines the recording of the exam to determine whether the learner complied with the :ref:`online proctoring rules <CA Online Proctoring Rules>`."
+msgid "Proctored exams are timed exams that learners take while online proctoring software monitors their computer, environment, and behavior. When learners complete a proctored exam, a reviewer examines the recording of the exam to determine whether the learner complied with the :ref:`online proctoring rules <Online Proctoring Rules>`."
 msgstr ""
 
 #: ../../source/proctored_exams/overview.rst:15
@@ -363,7 +363,7 @@ msgid "In the **Time Allotted** field, enter the length of time that you want to
 msgstr ""
 
 #: ../../source/proctored_exams/proctored_enabling.rst:79
-msgid "(optional) For a proctored exam, in the **Review Rules** field, enter any additions or exceptions to the :ref:`default rules for proctored exams<CA Online Proctoring Rules>`. For more information, see :ref:`specifying_exam_rules_and_exceptions`."
+msgid "(optional) For a proctored exam, in the **Review Rules** field, enter any additions or exceptions to the :ref:`default rules for proctored exams<Online Proctoring Rules>`. For more information, see :ref:`specifying_exam_rules_and_exceptions`."
 msgstr ""
 
 #: ../../source/proctored_exams/proctored_enabling.rst:84
@@ -376,11 +376,11 @@ msgid "Specify Exam Rules and Exceptions"
 msgstr ""
 
 #: ../../source/proctored_exams/proctored_enabling.rst:94
-msgid "By default, reviewers evaluate exam attempts according to a standard set of :ref:`online proctoring rules <CA Online Proctoring Rules>` that the proctoring service has provided."
+msgid "By default, reviewers evaluate exam attempts according to a standard set of :ref:`online proctoring rules <Online Proctoring Rules>` that the proctoring service has provided."
 msgstr ""
 
 #: ../../source/proctored_exams/proctored_enabling.rst:100
-msgid "The rules for proctoring exams vary according to the proctoring service that you or your organization has chosen. However, the :ref:`online proctoring rules <CA Online Proctoring Rules>` that this guide lists are common to many proctoring services."
+msgid "The rules for proctoring exams vary according to the proctoring service that you or your organization has chosen. However, the :ref:`online proctoring rules <Online Proctoring Rules>` that this guide lists are common to many proctoring services."
 msgstr ""
 
 #: ../../source/proctored_exams/proctored_enabling.rst:106
@@ -496,7 +496,7 @@ msgid "Explain what proctored exams are, and provide learners with links to the 
 msgstr ""
 
 #: ../../../shared/course_features/proctored_exams/proctored_learners.rst:33
-msgid "Communicate the rules for proctored exams, including the :ref:`online proctoring rules<CA Online Proctoring Rules>` in the *Open edX Learner’s Guide* as well as any specific rules for a particular exam. For information about creating specific rules, see :ref:`specifying_exam_rules_and_exceptions`."
+msgid "Communicate the rules for proctored exams, including the :ref:`online proctoring rules<Online Proctoring Rules>` in the *Open edX Learner’s Guide* as well as any specific rules for a particular exam. For information about creating specific rules, see :ref:`specifying_exam_rules_and_exceptions`."
 msgstr ""
 
 #: ../../../shared/course_features/proctored_exams/proctored_learners.rst:43

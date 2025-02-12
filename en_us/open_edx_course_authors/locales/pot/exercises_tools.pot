@@ -6078,7 +6078,7 @@ msgid "For more information about how to use Studio as an LTI tool provider, see
 msgstr ""
 
 #: ../../../shared/exercises_tools/lti_component.rst:71
-msgid "For more information about how to use Studio as an LTI tool provider, see :ref:`opencoursestaff:Using Open edX as an LTI Tool Provider`."
+msgid "For more information about how to use Studio as an LTI tool provider, see :ref:`Using Open edX as an LTI Tool Provider`."
 msgstr ""
 
 #: ../../../shared/exercises_tools/lti_component.rst:80

@@ -66,7 +66,7 @@ Open edX site learners to the learner records that your organization maintains,
 you can use the third- party authentication ID mapping REST API to retrieve the
 user ID SAML attribute and matching Open edX username for a learner. For more
 information about grade reports for Open edX courses that you run, see
-:ref:`opencoursestaff:Access_grades`.
+:ref:`Access_grades`.
 
 .. Organizations may be able to access learner information in other ways. Make
 .. the paragraph above more general when we know of those other methods.

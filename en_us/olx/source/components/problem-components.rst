@@ -81,7 +81,7 @@ following settings.
 
 This section describes the OLX elements and attributes that you define for the
 problem settings. For a detailed description of each setting, see
-:ref:`opencoursestaff:Problem Settings`.
+:ref:`Problem Settings`.
 
 ===============
 Display Name
@@ -289,7 +289,7 @@ content libraries. For more information, see :ref:`Randomized Content Blocks`.
    versions to different learners, whereas the **Randomization** setting
    controls when a Python script randomizes the variables within a single
    problem. For more information about the **Randomization** setting, see
-   :ref:`opencoursestaff:Randomization`.
+   :ref:`Randomization`.
 
 
 .. _Create Randomized Problems:

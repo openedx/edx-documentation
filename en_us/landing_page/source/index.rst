@@ -28,10 +28,9 @@ If you use or host an Open edX site
 
 * Learners: See the :ref:`openlearners:Open edX Learner's Guide`.
 
-* Course teams: See :ref:`opencoursestaff:Building and Running an Open edX
-  Course`.
+* Course teams: See :ref:`Quick Start Build a Course`.
 
-* Developers: See the :ref:`opendevelopers:edX Developer's Guide` and
+* Developers: See the :ref:`Open edX Developer's Guide` and
   :ref:`installation:Installing, Configuring, and Running the Open edX
   Platform`.
 

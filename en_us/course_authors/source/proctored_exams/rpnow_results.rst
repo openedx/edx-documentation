@@ -216,7 +216,7 @@ Values in the ``review_status`` Column
 
 After learners complete a proctored exam, a reviewer from the proctoring
 service provider reviews the exam according to specific criteria, including the
-:ref:`Online Proctoring Rules <CA Online Proctoring Rules>`. The value in the
+:ref:`Online Proctoring Rules <Online Proctoring Rules>`. The value in the
 ``review_status`` column shows the outcome of the proctored exam review.
 
 Additionally, the value in the ``review_status`` column affects the following

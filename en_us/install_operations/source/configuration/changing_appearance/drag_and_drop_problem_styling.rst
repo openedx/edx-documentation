@@ -8,7 +8,7 @@ You can customize the appearance of drag and drop problems in your Open edX
 site using custom Cascading Style Sheet (CSS) files. The style that you
 configure applies to all drag and drop problems in all courses. For more
 information about drag and drop problems, see
-:ref:`opencoursestaff:drag_and_drop_problem`.
+:ref:`drag_and_drop_problem`.
 
 The following two methods apply CSS styling to drag and drop problems.
 
@@ -30,7 +30,7 @@ The following two methods apply CSS styling to drag and drop problems.
     Course teams can also style the background and text colors of the draggable
     items in an individual drag and drop problem, without adding CSS files or
     configuring a Python module. For more information, see
-    :ref:`opencoursestaff:changing_visual_style_of_drag_and_drop_problem`.
+    :ref:`changing_visual_style_of_drag_and_drop_problem`.
 
 To customize the style of drag and drop problems by adding a CSS file in a
 Python module, follow these steps.

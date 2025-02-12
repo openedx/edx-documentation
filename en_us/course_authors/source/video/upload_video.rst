@@ -166,7 +166,7 @@ the process has the following steps.
 
 After the automated video process is complete, the course team creates a video
 component and adds the video ID to the video component. For more information,
-see :ref:`Add a Video to a Course`.
+see :ref:`Adding a video to a Course`.
 
 .. _Automated Video Process for Non Integrated Transcripts:
 
@@ -202,7 +202,7 @@ page, the course team :ref:`obtains transcripts <Obtain a Video Transcript>`
 from a transcript provider. When the edX video process is complete, and the
 course team has obtained transcripts from the transcript provider, the course
 team creates a video component and adds the video ID and transcript to the
-component. For more information, see :ref:`Add a Video to a Course`.
+component. For more information, see :ref:`Adding a video to a Course`.
 
 =============================================================
 Upload a Video for an edx.org Course (for Videos page)
@@ -396,7 +396,7 @@ The .csv file includes the following columns.
 
 * The unique, identifying **Video ID**. When you add a video component to your
   course, you supply the video ID for the file you want to add. For more
-  information, see :ref:`Add a Video to a Course`.
+  information, see :ref:`Adding a video to a Course`.
 
 * The **Status** of the encoding and hosting process for the file. For more
   information, see :ref:`Video Processing Statuses`.

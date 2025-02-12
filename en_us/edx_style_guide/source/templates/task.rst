@@ -59,4 +59,4 @@ topics.
   procedures for Windows and Macintosh users and shows an illustration of the
   result of the task.
 
-.. * :ref:`opencoursestaff:Add a Post` is one of a series of task topics.
+.. * :ref:`Add a Post` is one of a series of task topics.
