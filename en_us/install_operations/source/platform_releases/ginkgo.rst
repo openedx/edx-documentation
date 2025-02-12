@@ -16,7 +16,7 @@ What's Included in Ginkgo
 
 The Open edX Ginkgo release contains several new features for learners,
 course teams, and developers. For more information, see
-:ref:`openreleasenotes:Open edX Ginkgo Release`.
+:ref:`Open edX Ginkgo Release`.
 
 ****************************
 What Is the Ginkgo Git Tag?

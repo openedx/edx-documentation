@@ -226,7 +226,7 @@
 
 .. EDX WIKI LINKS
 
-.. _Open edX Releases Wiki page: https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/11108700/Open+edX+Releases
+.. _Open edX Releases Wiki page: https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4191191044/Open+edX+Releases+Homepage
 
 .. _Release Pages: https://openedx.atlassian.net/wiki/pages/viewpage.action?pageId=12550314
 
