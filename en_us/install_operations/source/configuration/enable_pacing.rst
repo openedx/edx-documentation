@@ -28,7 +28,7 @@ teams are able to set up a course as either instructor-paced or self-paced in
 Studio.
 
 For information about how course teams set course pacing, see the
-:ref:`opencoursestaff:Set Schedule and Pacing` topic in the
+:ref:`Set Schedule and Pacing` topic in the
 *Building and Running an Open edX Course* guide.
 
 .. Note::

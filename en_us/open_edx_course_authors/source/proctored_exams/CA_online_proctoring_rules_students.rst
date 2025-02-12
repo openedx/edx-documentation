@@ -1,4 +1,4 @@
-.. _CA Online Proctoring Rules:
+.. _Online Proctoring Rules:
 
 ####################################
 Online Proctoring Rules for Learners

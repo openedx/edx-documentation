@@ -19,7 +19,7 @@ If your organization has an agreement with edX and approval to do so, you can
 run courses on the edX Edge and edx.org websites.
 
 If you are using an instance of Open edX to create a course, see
-:ref:`opencoursestaff:Getting Started with Studio` in the *Building and Running
+:ref:`Getting Started with Studio` in the *Building and Running
 an Open edX Course* guide.
 
 .. _What is Studio?:

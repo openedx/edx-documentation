@@ -22,7 +22,7 @@ Organizations and course teams can choose to generate certificates for learners
 who pass a course. Learners can view, print, or share their certificates.
 
 For additional information about certificates, see
-:ref:`opencoursestaff:Setting Up Certificates` in the *Building and Running an
+:ref:`Setting Up Certificates` in the *Building and Running an
 Open edX Course* guide or :ref:`openlearners:Print a Web Certificate` in the
 *Open edX Learner's Guide*.
 
@@ -69,7 +69,7 @@ Configuring Course Certificates in Studio
 Within Studio, course team members with the Admin role can create and edit a
 certificate configuration that is used to generate certificates for their
 course, including adding signatories and images for organization logo and
-signature images for signatories. For details, :ref:`opencoursestaff:Setting Up
+signature images for signatories. For details, :ref:`Setting Up
 Certificates` in *Building and Running an Open edX Course*.
 
 
@@ -186,7 +186,7 @@ Assets for HTML certificates exist in the following locations.
   in creating certificates, such as images, fonts, and sass/css files.
 
   .. note:: The organization logo on a certificate is uploaded in Studio. For
-     details, see :ref:`opencoursestaff:Setting Up Certificates` in *Building
+     details, see :ref:`Setting Up Certificates` in *Building
      and Running an Open edX Course*.
 
 
@@ -361,9 +361,9 @@ setting may take several minutes to propagate in a large installation.
 
 In addition to this Waffle switch, automatic certificate generation
 requires certain settings to be defined for the course, by a member of
-the course staff. For more details, see :ref:`opencoursestaff:Allow
+the course staff. For more details, see :ref:`Allow
 Learners to Receive Early Certificates` and
-:ref:`opencoursestaff:Allow Learners to Download Certificates` in
+:ref:`Allow Learners to Download Certificates` in
 *Building and Running an Open edX Course*.
 
 .. _Manually Generate Certificates for a Course:

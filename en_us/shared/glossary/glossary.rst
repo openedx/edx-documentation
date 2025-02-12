@@ -12,7 +12,7 @@ Glossary
 .. note:: Most of the links to documentation provided in this glossary are to
    the :ref:`partnercoursestaff:document index` guide, for edX partners. Many
    of the same topics are available in the Open edX version of this guide,
-   :ref:`opencoursestaff:Building and Running an Open edX Course`.
+   :ref:`Quick Start Build a Course`.
 
 .. _A:
 

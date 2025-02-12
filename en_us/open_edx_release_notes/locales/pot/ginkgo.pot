@@ -85,7 +85,7 @@ msgid "Course teams that use cohorts can now select specific content groups from
 msgstr ""
 
 #: ../../source/ginkgo.rst:79
-msgid "Course staff can now send emails to learners based on their enrollment track, so you can reach all verified or audit track learners at one time. For more information, see :ref:`opencoursestaff:Bulk Email`."
+msgid "Course staff can now send emails to learners based on their enrollment track, so you can reach all verified or audit track learners at one time. For more information, see :ref:`Bulk Email`."
 msgstr ""
 
 #: ../../source/ginkgo.rst:83

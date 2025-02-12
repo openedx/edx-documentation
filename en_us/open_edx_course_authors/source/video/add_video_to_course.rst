@@ -1,4 +1,4 @@
-.. _Add a Video to a Course:
+.. _Adding a Video to a Course:
 
 ##########################
 Adding a Video to a Course

@@ -29,37 +29,37 @@ msgid "The following topics cover some of the tasks you perform on the instructo
 msgstr ""
 
 #: ../../source/CA_instructor_dash_help.rst:20
-msgid ":ref:`Reviewing Course Information<opencoursestaff:Course Data>`"
+msgid ":ref:`Reviewing Course Information<Course Data>`"
 msgstr ""
 
 #: ../../source/CA_instructor_dash_help.rst:21
-msgid ":ref:`Enrolling Learners<opencoursestaff:Enrollment>`"
+msgid ":ref:`Enrolling Learners<Enrollment>`"
 msgstr ""
 
 #: ../../source/CA_instructor_dash_help.rst:22
-msgid ":ref:`Managing Your Course Team<opencoursestaff:Course_Staffing>`"
+msgid ":ref:`Managing Your Course Team<Course_Staffing>`"
 msgstr ""
 
 #: ../../source/CA_instructor_dash_help.rst:23
-msgid ":ref:`Managing Cohorts<opencoursestaff:Cohorts Overview>`"
+msgid ":ref:`Managing Cohorts<Cohorts Overview>`"
 msgstr ""
 
 #: ../../source/CA_instructor_dash_help.rst:24
-msgid ":ref:`Generating Grade Reports<opencoursestaff:Access_grades>`"
+msgid ":ref:`Generating Grade Reports<Access_grades>`"
 msgstr ""
 
 #: ../../source/CA_instructor_dash_help.rst:25
-msgid ":ref:`Sending Email to Learners<opencoursestaff:Bulk Email>`"
+msgid ":ref:`Sending Email to Learners<Bulk Email>`"
 msgstr ""
 
 #: ../../source/CA_instructor_dash_help.rst:26
-msgid ":ref:`Issuing Certificates<opencoursestaff:Issuing Certificates>`"
+msgid ":ref:`Issuing Certificates<Issuing Certificates>`"
 msgstr ""
 
 #: ../../source/CA_instructor_dash_help.rst:27
-msgid ":ref:`Accessing Metrics for Open Response Assessments<opencoursestaff:Accessing ORA Assignment Information>`"
+msgid ":ref:`Accessing Metrics for Open Response Assessments<Accessing ORA Assignment Information>`"
 msgstr ""
 
 #: ../../source/CA_instructor_dash_help.rst:31
-msgid "For more information, see the :ref:`Building and Running an Open edX Course<opencoursestaff:Building and Running an Open edX Course>` guide."
+msgid "For more information, see the :ref:`Building and Running an Open edX Course<Building and Running an Open edX Course>` guide."
 msgstr ""

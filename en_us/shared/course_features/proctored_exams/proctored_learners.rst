@@ -31,7 +31,7 @@ To prepare learners for a proctored exam, follow these guidelines.
     :ref:`openlearners:OE SFD Proctored Exams` topic in the *Open edX
     Learner’s Guide*.
   * Communicate the rules for proctored exams, including the :ref:`online
-    proctoring rules<CA Online Proctoring Rules>` in the *Open edX Learner’s
+    proctoring rules<Online Proctoring Rules>` in the *Open edX Learner’s
     Guide* as well as any specific rules for a particular exam. For information
     about creating specific rules, see
     :ref:`specifying_exam_rules_and_exceptions`.
@@ -108,7 +108,7 @@ Practice Proctored Exams
     software installation and environment scan steps again when they take an
     actual proctored exam.
 
-For information about how to create a practice proctored exam, see :ref:`Create
-a Proctored Exam`.
+For information about how to create a practice proctored exam, see :ref:`Enable
+Proctored Exams`.
 
 .. include:: ../../../links/links.rst

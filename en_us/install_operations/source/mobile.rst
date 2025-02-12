@@ -187,7 +187,7 @@ includes the video in the course structure.
 * To configure a video module in edX Studio, you edit the video component. On
   the **Advanced** tab, in the **Video File URLs** field, enter the URL to the
   mobile-targeted video as the first URL in the list. For more information, see
-  :ref:`opencoursestaff:Working with Video Components` in *Building and Running
+  :ref:`Working with Video Components` in *Building and Running
   an Open edX Course*.
 
 * To configure a video module by editing the course XML, enter the URL to the

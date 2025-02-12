@@ -23,7 +23,7 @@ than the edX LMS.
 
 For more information and examples of how course teams might set up a course on
 an external LMS as a consumer of edX course content, see
-:ref:`opencoursestaff:Using Open edX as an LTI Tool Provider` in the *Building
+:ref:`Using Open edX as an LTI Tool Provider` in the *Building
 and Running an edX Course* guide.
 
 .. include:: ../../../../links/links.rst

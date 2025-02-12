@@ -22,7 +22,7 @@ To use this feature on your instance of Open edX, you must enable the timed
 exams feature in Studio and the Learning Management System.
 
 For information about how course teams set up timed exams, see the
-:ref:`opencoursestaff:Timed Exams` topic in *Building and Running an Open edX
+:ref:`Timed Exams` topic in *Building and Running an Open edX
 Course*. For information about the learner experience, see
 :ref:`openlearners:taking_timed_exams` in the  *Open edX Learner's Guide*.
 

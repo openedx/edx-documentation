@@ -41,6 +41,6 @@ To install an XBlock, follow these steps.
 The course teams that want to include components that use the XBlock can then
 enable the XBlock for their courses. To do so, they add the name specified in
 the XBlock’s ``setup.py`` file to each course's advanced module list. For more
-information, see :ref:`opencoursestaff:Enable Additional Exercises and Tools`.
+information, see :ref:`Enable Additional Exercises and Tools`.
 
 .. include:: ../../../links/links.rst

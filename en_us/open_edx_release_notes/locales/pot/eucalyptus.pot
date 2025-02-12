@@ -37,7 +37,7 @@ msgid "Self-Paced Course Configuration"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:27
-msgid "When course teams create a course, they can now select the way a course is delivered to learners. You can set a schedule for the course, including due dates for assignments or exams, or you can specify that the course is self-paced, which allows learners to work at their own pace. For more information, see :ref:`opencoursestaff:Setting Course Pacing`."
+msgid "When course teams create a course, they can now select the way a course is delivered to learners. You can set a schedule for the course, including due dates for assignments or exams, or you can specify that the course is self-paced, which allows learners to work at their own pace. For more information, see :ref:`Setting Course Pacing`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:35
@@ -45,7 +45,7 @@ msgid "Subsection Prerequisites"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:37
-msgid "Course teams can now control the visibility of subsections based on the scores that learners earn in other subsections. This feature prevents learners from viewing content before they earn a minimum score for previous content. For more information, see :ref:`opencoursestaff:configuring_prerequisite_content`."
+msgid "Course teams can now control the visibility of subsections based on the scores that learners earn in other subsections. This feature prevents learners from viewing content before they earn a minimum score for previous content. For more information, see :ref:`configuring_prerequisite_content`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:44
@@ -73,7 +73,7 @@ msgid "Teams"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:63
-msgid "With the teams feature, a learner can browse a list of topics, and then create a team and invite other learners to take part in group activities relating to one of the topics. Team activities provide opportunities for small group interactions and projects in your course. For more information, see :ref:`opencoursestaff:CA_Teams_Overview`."
+msgid "With the teams feature, a learner can browse a list of topics, and then create a team and invite other learners to take part in group activities relating to one of the topics. Team activities provide opportunities for small group interactions and projects in your course. For more information, see :ref:`CA_Teams_Overview`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:71
@@ -89,7 +89,7 @@ msgid "Drag and Drop Problem XBlock"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:81
-msgid "A new, mobile-ready and accessible drag and drop problem type is now available. This version replaces the original drag and drop problem type, which is now deprecated. For more information, see :ref:`opencoursestaff:drag_and_drop_problem`."
+msgid "A new, mobile-ready and accessible drag and drop problem type is now available. This version replaces the original drag and drop problem type, which is now deprecated. For more information, see :ref:`drag_and_drop_problem`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:88
@@ -97,7 +97,7 @@ msgid "Peer Instruction XBlock"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:90
-msgid "The peer instruction tool emulates the classroom experiences of the Peer Instruction learning system. A multiple choice question gives online learners an opportunity to review the answers, and rationales, provided by other course participants, and arrive at a deeper understanding of concepts. For more information for course teams, see :ref:`opencoursestaff:UBC Peer Instruction`. For more information for learners, see :ref:`openlearners:interactive_multiple_choice`."
+msgid "The peer instruction tool emulates the classroom experiences of the Peer Instruction learning system. A multiple choice question gives online learners an opportunity to review the answers, and rationales, provided by other course participants, and arrive at a deeper understanding of concepts. For more information for course teams, see :ref:`UBC Peer Instruction`. For more information for learners, see :ref:`openlearners:interactive_multiple_choice`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:100
@@ -105,7 +105,7 @@ msgid "Completion XBlock"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:102
-msgid "The completion XBlock adds a toggle control that allows learners to mark the associated section of course content as complete. For more information, see :ref:`opencoursestaff:completion`."
+msgid "The completion XBlock adds a toggle control that allows learners to mark the associated section of course content as complete. For more information, see :ref:`completion`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:108
@@ -161,7 +161,7 @@ msgid "In the LMS, course teams can now override the grade that an individual le
 msgstr ""
 
 #: ../../source/eucalyptus.rst:161
-msgid "For more information, see :ref:`opencoursestaff:Managing ORA Assignments`."
+msgid "For more information, see :ref:`Managing ORA Assignments`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:165
@@ -169,7 +169,7 @@ msgid "Learner ORA Response Report"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:167
-msgid "A new report is available for ORA assignments that includes each learner's response, assessment details and scores, the final score for the assignment, and any feedback provided by the learner about the peer assessment process. For more information, see :ref:`opencoursestaff:Generate ORA Report`."
+msgid "A new report is available for ORA assignments that includes each learner's response, assessment details and scores, the final score for the assignment, and any feedback provided by the learner about the peer assessment process. For more information, see :ref:`Generate ORA Report`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:174
@@ -185,7 +185,7 @@ msgid "Badges for Custom Course Events"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:186
-msgid "Open edX instances can now create and award badges to learners for certain milestone achievements. Example achievements include enrolling in a certain number of courses, completing a certain number of courses, or completing a specific set of courses. For more information, see :ref:`installation:Create Course Event Badges` and :ref:`opencoursestaff:Enable Badges in Course`."
+msgid "Open edX instances can now create and award badges to learners for certain milestone achievements. Example achievements include enrolling in a certain number of courses, completing a certain number of courses, or completing a specific set of courses. For more information, see :ref:`installation:Create Course Event Badges` and :ref:`Enable Badges in Course`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:195
@@ -226,15 +226,15 @@ msgid "In the LMS unit navigation bar, only the unit display name now appears or
 msgstr ""
 
 #: ../../source/eucalyptus.rst:230
-msgid "The student profile report now includes columns for city and country.  For more information, see :ref:`opencoursestaff:Columns in the Student Profile Report`."
+msgid "The student profile report now includes columns for city and country.  For more information, see :ref:`Columns in the Student Profile Report`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:234
-msgid "Course teams can now send bulk email messages to one or more of the cohorts in their courses. For more information, see :ref:`opencoursestaff:bulk_email_message_addressing`. (:jira:`TNL-4357`)"
+msgid "Course teams can now send bulk email messages to one or more of the cohorts in their courses. For more information, see :ref:`bulk_email_message_addressing`. (:jira:`TNL-4357`)"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:238
-msgid "Studio now has a setting that course teams can use to keep timed exams hidden after the exam due date has passed. In the LMS, course team members who view the course as a specific learner see the timed exam content even if the exam is hidden. For more information, see :ref:`opencoursestaff:Timed Exams`."
+msgid "Studio now has a setting that course teams can use to keep timed exams hidden after the exam due date has passed. In the LMS, course team members who view the course as a specific learner see the timed exam content even if the exam is hidden. For more information, see :ref:`Timed Exams`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:244
@@ -450,7 +450,7 @@ msgid "To ensure that all headings on a course page in the LMS are rendered corr
 msgstr ""
 
 #: ../../source/eucalyptus.rst:394
-msgid "For more information, see :ref:`opencoursestaff:Best Practices for HTML Markup` or :ref:`opencoursestaff:The Visual Editor`."
+msgid "For more information, see :ref:`Best Practices for HTML Markup` or :ref:`The Visual Editor`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:401
@@ -574,11 +574,11 @@ msgid "Deprecated Tools and Problem Types"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:513
-msgid "The randomize component is now deprecated. To provide randomized content in your courses, add randomized content blocks to assign problems from a content library. For more information, see :ref:`opencoursestaff:Randomized Content Blocks`."
+msgid "The randomize component is now deprecated. To provide randomized content in your courses, add randomized content blocks to assign problems from a content library. For more information, see :ref:`Randomized Content Blocks`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:518
-msgid "The original drag and drop problem type is now deprecated. A new mobile- ready, accessible drag and drop problem type is available. For more information, see :ref:`opencoursestaff:drag_and_drop_problem`."
+msgid "The original drag and drop problem type is now deprecated. A new mobile- ready, accessible drag and drop problem type is available. For more information, see :ref:`drag_and_drop_problem`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:524

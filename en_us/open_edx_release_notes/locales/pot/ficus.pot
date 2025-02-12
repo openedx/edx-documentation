@@ -73,7 +73,7 @@ msgid "Course teams can easily copy HTML components in Studio."
 msgstr ""
 
 #: ../../source/ficus.rst:57
-msgid "For rescoring, course teams can now specify that the system will only update a learner's score if the process improves the learner's score. For more information, see :ref:`opencoursestaff:rescore`."
+msgid "For rescoring, course teams can now specify that the system will only update a learner's score if the process improves the learner's score. For more information, see :ref:`rescore`."
 msgstr ""
 
 #: ../../source/ficus.rst:61
@@ -81,27 +81,27 @@ msgid "CAPA problems now allow HTML formatting. See the following documentation 
 msgstr ""
 
 #: ../../source/ficus.rst:64
-msgid ":ref:`opencoursestaff:Multiple Responses in Numerical Input Problems` for numerical input problems."
+msgid ":ref:`Multiple Responses in Numerical Input Problems` for numerical input problems."
 msgstr ""
 
 #: ../../source/ficus.rst:67
-msgid ":ref:`opencoursestaff:Using the Script Element in Multiple Choice Problems` for multiple choice problems."
+msgid ":ref:`Using the Script Element in Multiple Choice Problems` for multiple choice problems."
 msgstr ""
 
 #: ../../source/ficus.rst:70
-msgid ":ref:`opencoursestaff:Using the Script Element in Checkbox Problems` for checkbox problems."
+msgid ":ref:`Using the Script Element in Checkbox Problems` for checkbox problems."
 msgstr ""
 
 #: ../../source/ficus.rst:73
-msgid "Randomized content block components no longer have the unused **Scored** field. Because grading is set at the subsection level, this action won't affect your course. See :ref:`opencoursestaff:Randomized Content Blocks` for more information."
+msgid "Randomized content block components no longer have the unused **Scored** field. Because grading is set at the subsection level, this action won't affect your course. See :ref:`Randomized Content Blocks` for more information."
 msgstr ""
 
 #: ../../source/ficus.rst:78
-msgid "Course teams can create custom pages that only course team members with the Staff or Admin role can see.  See :ref:`opencoursestaff:Add Page` for more information."
+msgid "Course teams can create custom pages that only course team members with the Staff or Admin role can see.  See :ref:`Add Page` for more information."
 msgstr ""
 
 #: ../../source/ficus.rst:82
-msgid "When course teams override grades from peer assessments in open response assessment (ORA) problems, the assignment is now correctly marked as complete. For more information, see :ref:`opencoursestaff:Override a learner assessment grade`."
+msgid "When course teams override grades from peer assessments in open response assessment (ORA) problems, the assignment is now correctly marked as complete. For more information, see :ref:`Override a learner assessment grade`."
 msgstr ""
 
 #: ../../source/ficus.rst:87

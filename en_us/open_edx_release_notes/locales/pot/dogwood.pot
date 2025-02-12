@@ -49,7 +49,7 @@ msgid "The LTI XModule continues to function in courses that include it, but it 
 msgstr ""
 
 #: ../../source/dogwood.rst:44
-msgid "For more information, see :ref:`opencoursestaff:LTI Component` in the *Building and Running an Open edX Course* guide."
+msgid "For more information, see :ref:`LTI Component` in the *Building and Running an Open edX Course* guide."
 msgstr ""
 
 #: ../../source/dogwood.rst:49
@@ -61,7 +61,7 @@ msgid "A new preview mode in the LMS allows course team members to see the cours
 msgstr ""
 
 #: ../../source/dogwood.rst:57
-msgid "For more information, see :ref:`opencoursestaff:Grades` in *Building and Running an Open edX Course*."
+msgid "For more information, see :ref:`Grades` in *Building and Running an Open edX Course*."
 msgstr ""
 
 #: ../../source/dogwood.rst:62
@@ -89,7 +89,7 @@ msgid "Write-your-own-grader"
 msgstr ""
 
 #: ../../source/dogwood.rst:73
-msgid "For more information, see :ref:`opencoursestaff:Awarding Partial Credit for a Problem` in *Building and Running an Open edX Course*."
+msgid "For more information, see :ref:`Awarding Partial Credit for a Problem` in *Building and Running an Open edX Course*."
 msgstr ""
 
 #: ../../source/dogwood.rst:78
@@ -141,7 +141,7 @@ msgid "A custom set of one or more file formats, specified by the course team."
 msgstr ""
 
 #: ../../source/dogwood.rst:121
-msgid "For more information, see :ref:`opencoursestaff:PA Allow Images`."
+msgid "For more information, see :ref:`PA Allow Images`."
 msgstr ""
 
 #: ../../source/dogwood.rst:123
@@ -177,7 +177,7 @@ msgid "There are now no character limits on the name and title fields of certifi
 msgstr ""
 
 #: ../../source/dogwood.rst:149
-msgid "For more information, see :ref:`opencoursestaff:Setting Up Certificates` in *Building and Running an Open edX Course* or :ref:`openlearners:Print a Web Certificate` in the *Open edX Learner's Guide*."
+msgid "For more information, see :ref:`Setting Up Certificates` in *Building and Running an Open edX Course* or :ref:`openlearners:Print a Web Certificate` in the *Open edX Learner's Guide*."
 msgstr ""
 
 #: ../../source/dogwood.rst:153
@@ -201,7 +201,7 @@ msgid "This release includes the timed exams feature. Course teams can configure
 msgstr ""
 
 #: ../../source/dogwood.rst:177
-msgid "For more information, see  the :ref:`opencoursestaff:Timed Exams` section in the *Building and Running an Open edX Course* guide."
+msgid "For more information, see  the :ref:`Timed Exams` section in the *Building and Running an Open edX Course* guide."
 msgstr ""
 
 #: ../../source/dogwood.rst:181
@@ -241,7 +241,7 @@ msgid "The labels that identify two of the course team member roles in the LMS n
 msgstr ""
 
 #: ../../source/dogwood.rst:225
-msgid "No changes were made to the privileges granted by these roles. For more information, see :ref:`opencoursestaff:Course_Staffing` in the *Building and Running an Open edX Course* guide."
+msgid "No changes were made to the privileges granted by these roles. For more information, see :ref:`Course_Staffing` in the *Building and Running an Open edX Course* guide."
 msgstr ""
 
 #: ../../source/dogwood.rst:229
@@ -417,7 +417,7 @@ msgid "Studio Checklist"
 msgstr ""
 
 #: ../../source/dogwood.rst:358
-msgid "The **Tools** menu in Studio no longer offers the **Checklists** option. For a template checklist, see the :ref:`opencoursestaff:Course Launch Checklist` topic in the *Building and Running an Open edX Course* guide."
+msgid "The **Tools** menu in Studio no longer offers the **Checklists** option. For a template checklist, see the :ref:`Course Launch Checklist` topic in the *Building and Running an Open edX Course* guide."
 msgstr ""
 
 #: ../../source/dogwood.rst:364
