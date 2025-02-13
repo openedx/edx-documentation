@@ -854,7 +854,7 @@ msgid "Work with the .tar.gz File"
 msgstr ""
 
 #: ../../../shared/releasing_course/export_import_course.rst:153
-msgid "Courses are exported and imported in .tar.gz files containing OLX (open learning XML), the edX markup format for open course exchange. For more information about OLX, see the :ref:`olx:edX Open Learning XML Guide`."
+msgid "Courses are exported and imported in .tar.gz files containing OLX (open learning XML), the edX markup format for open course exchange. For more information about OLX, see the :ref:`edX Open Learning XML Guide`."
 msgstr ""
 
 #: ../../../shared/releasing_course/export_import_course.rst:157

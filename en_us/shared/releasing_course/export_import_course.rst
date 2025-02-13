@@ -162,7 +162,7 @@ Work with the .tar.gz File
 
 Courses are exported and imported in .tar.gz files containing OLX (open
 learning XML), the edX markup format for open course exchange. For more
-information about OLX, see the :ref:`olx:edX Open Learning XML Guide`.
+information about OLX, see the :ref:`OLX TOC`.
 
 To extract and compress .tar.gz files, you use a third-party program.
 

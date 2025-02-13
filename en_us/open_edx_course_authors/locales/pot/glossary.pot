@@ -772,7 +772,7 @@ msgid "OLX  (open learning XML) is the XML-based markup language that is used to
 msgstr ""
 
 #: ../../../shared/glossary/glossary.rst:764
-msgid "For more information, see :ref:`olx:What is Open Learning XML?`."
+msgid "For more information, see :ref:`What is Open Learning XML?`."
 msgstr ""
 
 #: ../../../shared/glossary/glossary.rst:769

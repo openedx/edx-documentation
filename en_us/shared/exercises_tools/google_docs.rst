@@ -89,7 +89,7 @@ also enables Google calendars.
       ...
   </course>
 
-For more information, see :ref:`olx:OLX Course Building Blocks` in the
+For more information, see :ref:`OLX Course Building Blocks` in the
 *EdX Open Learning XML Guide*.
 
 .. _Obtain the Google Drive File Embed Code:
@@ -178,7 +178,7 @@ element in the ``vertical`` element, or you can create the
 ``google-document`` element as a stand-alone file that you reference
 in the vertical.
 
-For more information, see :ref:`olx:OLX Course Building Blocks` in the
+For more information, see :ref:`OLX Course Building Blocks` in the
 *EdX Open Learning XML Guide*.
 
 For example:

@@ -192,7 +192,7 @@ includes the video in the course structure.
 
 * To configure a video module by editing the course XML, enter the URL to the
   mobile-targeted video as the first URL in the list of ``html5_sources``. For
-  more information, see :ref:`olx:Video Components` in the *edX
+  more information, see :ref:`Video Components` in the *edX
   Open Learning XML Guide*.
 
 ****************************************
