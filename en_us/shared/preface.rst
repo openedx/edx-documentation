@@ -411,7 +411,7 @@ page for a list of the documentation that is available.
 .. _edX Support: https://courses.edx.org/support/contact_us
 .. _edX Help Center for Learners: https://support.edx.org/hc/en-us/
 .. _edX Developer Documentation: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/
-.. _edX Open Learning XML Guide: http://edx-open-learning-xml.readthedocs.io/en/latest/index.html
+.. _edX Open Learning XML Guide: https://docs.openedx.org/en/latest/educators/navigation/olx.html
 .. _edX Partner Portal: https://partners.edx.org
 .. _forums: https://partners.edx.org/forums/partner-forums
 .. _edX Research Guide: http://edx.readthedocs.io/projects/devdata/en/latest/

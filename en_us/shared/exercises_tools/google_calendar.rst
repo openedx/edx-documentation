@@ -82,7 +82,7 @@ also enables Google Drive files.
       ...
   </course>
 
-For more information, see :ref:`olx:OLX Course Building Blocks` in the
+For more information, see :ref:`OLX Course Building Blocks` in the
 *EdX Open Learning XML Guide*.
 
 .. _Make the Google Calendar Public and Obtain Its ID:
@@ -198,7 +198,7 @@ Add a Google Calendar XBlock in OLX
 To add a Google Calendar XBlock in OLX, create the ``google-calendar`` element.
 You can embed this element in the ``vertical`` element, or you can embed this
 element in its own file that is referenced within the vertical. For more
-information, see :ref:`olx:OLX Course Building Blocks` in the *EdX Open
+information, see :ref:`OLX Course Building Blocks` in the *EdX Open
 Learning XML Guide*.
 
 An example follows.

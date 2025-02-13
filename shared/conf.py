@@ -216,7 +216,7 @@ intersphinx_mapping = {
     "xblockapi" : ("https://docs.openedx.org/projects/xblock/en/latest/", None),
     "xblocktutorial" : ("https://docs.openedx.org/projects/xblock/en/latest/", None),
     "installation" : (openedx_rtd_url("edx-installing-configuring-and-running"), ism_location("install_operations")),
-    "olx" : (edx_rtd_url("edx-open-learning-xml"), ism_location("olx")),
+    "olx" : ("https://docs.openedx.org/en/latest/", None),
     "learners" : ("", ism_location("students_redirect")),
     "openlearners" : (openedx_rtd_url("open-edx-learner-guide"), ism_location("open_edx_students")),
     "opendevelopers" : ("https://docs.openedx.org/en/latest/", None),
