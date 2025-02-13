@@ -10,9 +10,9 @@ tags.add('OLX')
 product = 'OLX'
 set_audience(OPENEDX, DEVELOPERS)
 
-
-def setup(app):
-    app.add_config_value('product', '', True)
-
 # General information about the project.
-project = u'EdX Open Learning XML Guide - Alpha Version'
+project = u'Open edX Open Learning XML Guide - Alpha Version'
+
+redirects = {
+    "*": "https://docs.openedx.org/en/latest/educators/navigation/olx.html",
+}
