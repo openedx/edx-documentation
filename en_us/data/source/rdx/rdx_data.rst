@@ -210,7 +210,7 @@ names removed by the obfuscation process.
     }
  }
 
-For more information about this file, see :ref:`olx:Course Policies`.
+For more information about this file, see :ref:`Course Policies`.
 
 Obfuscated Data in the XML Files
 *********************************
@@ -233,7 +233,7 @@ as follows.
 * The new ``redacted_children`` attribute lists all of the child nodes that edX
   removed.
 
-For more information about this file, see :ref:`olx:Course Components`.
+For more information about this file, see :ref:`OLX TOC`.
 
 *****************************
 Obfuscated Data in SQL Tables

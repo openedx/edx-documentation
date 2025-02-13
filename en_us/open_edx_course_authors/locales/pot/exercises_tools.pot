@@ -2429,7 +2429,7 @@ msgid ":ref:`Poll`"
 msgstr ""
 
 #: ../../../shared/exercises_tools/create_exercises_and_tools.rst:440
-msgid "You can run polls in your course so that your learners can share opinions on different questions. You can only add this type of poll to a course by using OLX (open learning XML). Support for this tool in Studio is not available. For more information, see the :ref:`olx:edX Open Learning XML Guide`."
+msgid "You can run polls in your course so that your learners can share opinions on different questions. You can only add this type of poll to a course by using OLX (open learning XML). Support for this tool in Studio is not available. For more information, see the :ref:`edX Open Learning XML Guide`."
 msgstr ""
 
 #: ../../../shared/exercises_tools/create_exercises_and_tools.rst:446
@@ -5174,7 +5174,7 @@ msgstr ""
 #: ../../../shared/exercises_tools/google_calendar.rst:85
 #: ../../../shared/exercises_tools/google_docs.rst:92
 #: ../../../shared/exercises_tools/google_docs.rst:181
-msgid "For more information, see :ref:`olx:OLX Course Building Blocks` in the *EdX Open Learning XML Guide*."
+msgid "For more information, see :ref:`OLX Course Building Blocks` in the *EdX Open Learning XML Guide*."
 msgstr ""
 
 #: ../../../shared/exercises_tools/google_calendar.rst:92
@@ -5314,7 +5314,7 @@ msgid "Add a Google Calendar XBlock in OLX"
 msgstr ""
 
 #: ../../../shared/exercises_tools/google_calendar.rst:198
-msgid "To add a Google Calendar XBlock in OLX, create the ``google-calendar`` element. You can embed this element in the ``vertical`` element, or you can embed this element in its own file that is referenced within the vertical. For more information, see :ref:`olx:OLX Course Building Blocks` in the *EdX Open Learning XML Guide*."
+msgid "To add a Google Calendar XBlock in OLX, create the ``google-calendar`` element. You can embed this element in the ``vertical`` element, or you can embed this element in its own file that is referenced within the vertical. For more information, see :ref:`OLX Course Building Blocks` in the *EdX Open Learning XML Guide*."
 msgstr ""
 
 #: ../../../shared/exercises_tools/google_calendar.rst:204

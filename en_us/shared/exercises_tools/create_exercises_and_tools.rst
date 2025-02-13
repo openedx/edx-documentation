@@ -406,8 +406,7 @@ tools available in Studio. For more information, see
      - You can run polls in your course so that your learners can share
        opinions on different questions. You can only add this type of poll to a
        course by using OLX (open learning XML). Support for this tool in Studio
-       is not available. For more information, see the :ref:`olx:edX Open
-       Learning XML Guide`.
+       is not available. For more information, see the :ref:`OLX TOC`.
      - Not supported
    * - :ref:`Problem Written in LaTeX`
      - If you have a problem that is already written in LaTeX, you can use this

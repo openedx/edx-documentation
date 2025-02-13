@@ -754,7 +754,7 @@ O
   OLX  (open learning XML) is the XML-based markup language that is used to
   build courses on the Open edX platform.
 
-  For more information, see :ref:`olx:What is Open Learning XML?`.
+  For more information, see :ref:`What is Open Learning XML?`.
 
 
 .. _Open Response Assessment_g:
