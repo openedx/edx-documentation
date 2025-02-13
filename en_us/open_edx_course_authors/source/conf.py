@@ -6,12 +6,8 @@ sys.path.append('../../../')
 from shared.conf import *
 
 tags.add('Open_edX')
-set_audience(OPENEDX, COURSE_TEAMS)
-
-product = 'Open_edX'
-
-
-def setup(app):
-    app.add_config_value('product', '', True)
-
 project = u'Building and Running an Open edX Course'
+
+redirects = {
+    "*": "https://docs.openedx.org/en/latest/educators/quickstarts/build_a_course.html",
+}
