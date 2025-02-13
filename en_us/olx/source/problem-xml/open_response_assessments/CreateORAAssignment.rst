@@ -1,1 +1,0 @@
-.. include:: ../../../../shared/subsections/open_response_assessments/CreateORAAssignment.rst
