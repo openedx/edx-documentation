@@ -13,6 +13,6 @@ tags.add('Open_edX')
 product = 'Open_edX'
 set_audience(OPENEDX, LEARNERS)
 
-
-def setup(app):
-    app.add_config_value('product', '', True)
+redirects = {
+    "*": "https://docs.openedx.org/en/latest/learners/index.html",
+}
