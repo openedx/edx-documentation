@@ -51,7 +51,7 @@ course About page.
   before they enroll in your course, or that learners complete an entrance exam
   before they access course content. This information also appears on the About
   page, but you specify these prerequisites on the **Schedule & Details** page
-  in Studio. For more information, see :ref:`Specify Prerequisite Courses` and
+  in Studio. For more information, see :ref:`Set Course Prerequisites` and
   :ref:`Require an Entrance Exam`.
 
   You add skill and knowledge prerequisites in Studio. For more information,
@@ -94,8 +94,7 @@ Example Skill and Knowledge Prerequisites
     :alt: The learner dashboard with an available course and a course that is
         unavailable because it has a prerequisite.
 
-  You enter this information in Studio. For more information, see :ref:`Specify
-  Prerequisite Courses`.
+  You enter this information in Studio. For more information, see :ref:`Set Course Prerequisites`.
 
   .. _Entrance Exam Prerequisite:
 
