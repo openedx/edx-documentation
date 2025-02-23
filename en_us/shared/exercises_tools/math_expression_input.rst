@@ -29,7 +29,7 @@ include unknown variables and more complicated symbolic expressions.
 
 For more information about how learners enter expressions, see
 :ref:`learners:Math Formatting` in the *EdX Learner's Guide* or
-:ref:`openlearners:Math Formatting` in the *Open edX Learner's Guide*.
+:ref`Math Formatting` in the *Open edX Learner's Guide*.
 
 .. note::
   You can make a calculator tool available to your learners on every unit

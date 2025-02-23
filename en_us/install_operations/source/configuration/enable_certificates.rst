@@ -23,7 +23,7 @@ who pass a course. Learners can view, print, or share their certificates.
 
 For additional information about certificates, see
 :ref:`Setting Up Certificates` in the *Building and Running an
-Open edX Course* guide or :ref:`openlearners:Print a Web Certificate` in the
+Open edX Course* guide or :ref`Print a Web Certificate` in the
 *Open edX Learner's Guide*.
 
 To enable course certificates on your instance of Open edX, you must enable a

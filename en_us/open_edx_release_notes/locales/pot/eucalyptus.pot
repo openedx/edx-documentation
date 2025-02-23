@@ -81,7 +81,7 @@ msgid "Bookmarks"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:73
-msgid "The bookmarks feature allows a learner to add a bookmark to any unit in the LMS so that the page can be found later on the **My Bookmarks** page. For more information, see :ref:`openlearners:SFD Bookmarks`."
+msgid "The bookmarks feature allows a learner to add a bookmark to any unit in the LMS so that the page can be found later on the **My Bookmarks** page. For more information, see :ref`SFD Bookmarks`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:79
@@ -97,7 +97,7 @@ msgid "Peer Instruction XBlock"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:90
-msgid "The peer instruction tool emulates the classroom experiences of the Peer Instruction learning system. A multiple choice question gives online learners an opportunity to review the answers, and rationales, provided by other course participants, and arrive at a deeper understanding of concepts. For more information for course teams, see :ref:`UBC Peer Instruction`. For more information for learners, see :ref:`openlearners:interactive_multiple_choice`."
+msgid "The peer instruction tool emulates the classroom experiences of the Peer Instruction learning system. A multiple choice question gives online learners an opportunity to review the answers, and rationales, provided by other course participants, and arrive at a deeper understanding of concepts. For more information for course teams, see :ref:`UBC Peer Instruction`. For more information for learners, see :ref`interactive_multiple_choice`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:100

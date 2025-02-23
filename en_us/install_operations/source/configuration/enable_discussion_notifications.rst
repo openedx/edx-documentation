@@ -9,7 +9,7 @@ adds a response to a discussion post that they have made.
 
 For more information, including the text of the discussion notification
 message, see :ref:`Automatic Email` and
-:ref:`openlearners:Receiving Discussion Notifications`.
+:ref`Receiving Discussion Notifications`.
 
 .. contents::
    :depth: 1

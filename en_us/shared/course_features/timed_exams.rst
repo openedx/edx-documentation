@@ -36,7 +36,7 @@ starting a timed exam.
 
 To better understand the learner's experience of timed exams, see
 :ref:`learners:taking_timed_exams` in the *edX Learner's Guide* or
-:ref:`openlearners:taking_timed_exams` in the *Open edX Learner's Guide*.
+:ref`taking_timed_exams` in the *Open edX Learner's Guide*.
 
 .. only:: Partners
 

@@ -57,7 +57,7 @@ of the course history.
 .. only:: Open_edX
 
  For information about participating in discussions, see the
- :ref:`openlearners:Course Discussions Index` section in the *Open edX
+ :ref`Course Discussions Index` section in the *Open edX
  Learner's Guide*. Consider referring learners in your courses to that section,
  which describes the structure and features of course discussions, and provides
  useful information to help learners make the most of their participation in

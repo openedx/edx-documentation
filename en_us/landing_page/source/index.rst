@@ -26,7 +26,7 @@ The `edX Release Notes`_ describe recent additions to the edX platform.
 If you use or host an Open edX site
 ************************************
 
-* Learners: See the :ref:`openlearners:Open edX Learner's Guide`.
+* Learners: See the :ref`Open edX Learner's Guide`.
 
 * Course teams: See :ref:`Quick Start Build a Course`.
 
