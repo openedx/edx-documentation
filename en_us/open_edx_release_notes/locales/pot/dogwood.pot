@@ -177,7 +177,7 @@ msgid "There are now no character limits on the name and title fields of certifi
 msgstr ""
 
 #: ../../source/dogwood.rst:149
-msgid "For more information, see :ref:`Setting Up Certificates` in *Building and Running an Open edX Course* or :ref:`openlearners:Print a Web Certificate` in the *Open edX Learner's Guide*."
+msgid "For more information, see :ref:`Setting Up Certificates` in *Building and Running an Open edX Course* or :ref`Print a Web Certificate` in the *Open edX Learner's Guide*."
 msgstr ""
 
 #: ../../source/dogwood.rst:153
@@ -189,7 +189,7 @@ msgid "Search Feature for DevStack"
 msgstr ""
 
 #: ../../source/dogwood.rst:164
-msgid "When you install the Open edX developer stack, the search feature is now enabled by default. For more information about how you can configure this feature, see :ref:`installation:Enable edX Search`. For more information about how learners can use this feature, see :ref:`openlearners:SFD Search`."
+msgid "When you install the Open edX developer stack, the search feature is now enabled by default. For more information about how you can configure this feature, see :ref:`installation:Enable edX Search`. For more information about how learners can use this feature, see :ref`SFD Search`."
 msgstr ""
 
 #: ../../source/dogwood.rst:171

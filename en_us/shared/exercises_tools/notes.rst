@@ -46,4 +46,4 @@ tool, follow these steps.
 .. only:: Open_edX
 
  For more information about the ways learners can use notes, see
- :ref:`openlearners:SFD Notes`.
+ :ref`SFD Notes`.

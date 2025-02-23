@@ -196,7 +196,7 @@ introduce features of edX discussions.
 
 .. only:: Open_edX
 
- You can also refer learners to the :ref:`openlearners:Course Discussions
+ You can also refer learners to the :ref`Course Discussions
  Index` section in the *Open EdX Learner's Guide*. Consider referring learners
  in your courses to that section, which describes the structure and features of
  edX course discussions, and provides useful information to help learners make
