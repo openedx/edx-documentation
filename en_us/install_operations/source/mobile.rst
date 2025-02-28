@@ -11,30 +11,45 @@ applications and customizing an Open edX installation to support their use.
    :local:
    :depth: 1
 
+Currently Supported Mobile Applications
+***************************************
+
+There are currently two supported mobile applications:
+
+* `Open edX Android App <https://github.com/openedx/openedx-app-android?tab=readme-ov-file#open-edx-android>`_
+
+* `Open edX iOS App <https://github.com/openedx/openedx-app-ios?tab=readme-ov-file#open-edx-ios>`_
+
+
+Deprecated Mobile Applications
 ******************************
+
+.. note::
+   The following instructions refer to the older, now unsupported,
+   mobile applications. They were last supported in the Quince release.
+
 Accessing the Source Code
-******************************
+=========================
 
 There are currently two edX mobile applications, one for iOS and one for
 Android. You can find the source code and additional documentation for each
 application in the following repositories.
 
-* iOS: http://github.com/openedx/edx-app-ios
+* iOS (`Deprecated <https://github.com/openedx/public-engineering/issues/260>`_): http://github.com/openedx-unsupported/edx-app-ios
 
-* Android: http://github.com/openedx/edx-app-android
+* Android (`Deprecated <https://github.com/openedx/public-engineering/issues/261>`_): http://github.com/openedx-unsupported/edx-app-android
 
-*****************************************
+
 Configuring Mobile Application Features
-*****************************************
+=======================================
 
 For the mobile API and authentication to work correctly with the edX mobile
 applications, you enable them in the ``edx/app/edxapp/lms.yml`` file. You
 then complete the setup for authentication by creating OAuth clients and
 adding their IDs to the custom configuration file of each mobile application.
 
-====================================
 Enable Mobile Application Features
-====================================
+----------------------------------
 
 .. note:: Configuration settings added to the ``lms.yml`` file are reset
  to their default values when you use Ansible to update edx-platform.
@@ -65,9 +80,9 @@ To enable the mobile application features, follow these steps.
 
 .. _Create the OAuth Clients:
 
-=======================================
+
 Create the OAuth Clients
-=======================================
+------------------------------
 
 You create an OAuth client ID and secret that are specific to your
 installation for use by the mobile applications. The procedure that follows
@@ -101,9 +116,8 @@ To create your OAuth clients, follow these steps.
 #. Repeat steps 4-6 for the second mobile application, and then select
    **Save**.
 
-================================================
 Configure the Applications with OAuth Client IDs
-================================================
+------------------------------------------------
 
 The procedure that follows assumes that you have a different OAuth client ID
 for each edX mobile application.
@@ -135,9 +149,8 @@ for `iOS`_ and `Android`_.
 
 .. _Configure OAuth Token Expiration Days:
 
-==================================
 Configure OAuth Token Expiration
-==================================
+-----------------------------------
 
 When OAuth tokens expire, learners who use the mobile apps to access your site
 must log in again.
@@ -171,9 +184,8 @@ To configure the number of days before OAuth tokens expire, follow these steps.
 
 .. _Configuring Video Modules for Mobile:
 
-************************************
 Configuring Video Modules for Mobile
-************************************
+=====================================
 
 Course videos must be specifically prepared to ensure that they are in
 mobile accessible formats. Video modules in mobile-available courses should
@@ -195,9 +207,8 @@ includes the video in the course structure.
   more information, see :ref:`Video Components` in the *edX
   Open Learning XML Guide*.
 
-****************************************
 Enabling Push Notifications
-****************************************
+=============================
 
 You enable push notifications on the server and then configure each of the edX
 mobile applications. Currently, you can use Parse for notification delivery.
@@ -205,9 +216,8 @@ mobile applications. Currently, you can use Parse for notification delivery.
 The procedures that follow assume that you have obtained an application ID,
 REST API key, and client key from Parse.
 
-============================================
 Enable Push Notification on the Server
-============================================
+-----------------------------------------
 
 To enable the push notification feature, follow these steps.
 
@@ -215,9 +225,9 @@ To enable the push notification feature, follow these steps.
 
    .. code-block:: none
 
-    PARSE_KEYS = { 
-      "APPLICATION_ID": "{app_id}", 
-      "REST_API_KEY": "{API_key}" 
+    PARSE_KEYS = {
+      "APPLICATION_ID": "{app_id}",
+      "REST_API_KEY": "{API_key}"
     }
 
 2. Save the ``edx/app/edxapp/studio.yml`` file.
@@ -233,9 +243,8 @@ To enable the push notification feature, follow these steps.
 
 #. Verify that **Enabled** is selected, and then select **Save**.
 
-=============================================
 Configure Push Notification on the Clients
-=============================================
+-----------------------------------------------
 
 The procedure that follows assumes that you use a single set of Parse
 credentials for both of the edX mobile applications.
