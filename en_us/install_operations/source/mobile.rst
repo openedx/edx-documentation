@@ -35,9 +35,9 @@ There are currently two edX mobile applications, one for iOS and one for
 Android. You can find the source code and additional documentation for each
 application in the following repositories.
 
-* iOS (`Deprecated <https://github.com/openedx/public-engineering/issues/260>`_): http://github.com/openedx-unsupported/edx-app-ios
+* iOS (`iOS app deprecation ticket <https://github.com/openedx/public-engineering/issues/260>`_): http://github.com/openedx-unsupported/edx-app-ios
 
-* Android (`Deprecated <https://github.com/openedx/public-engineering/issues/261>`_): http://github.com/openedx-unsupported/edx-app-android
+* Android (`Android app deprecation ticket <https://github.com/openedx/public-engineering/issues/261>`_): http://github.com/openedx-unsupported/edx-app-android
 
 
 Configuring Mobile Application Features
