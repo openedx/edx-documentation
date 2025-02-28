@@ -27,10 +27,17 @@ release.
    platform_releases/index
    installation/index
    configuration/index
-   insights/index
+   analytics/index
    ecommerce/index
    mobile
    feature_flags/feature_flag_index
    glossary
+
+.. hide outdated materials, but don't remove so links still work
+
+.. toctree::
+   :hidden:
+
+   insights/index
 
 .. include:: ../../links/links.rst

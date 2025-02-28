@@ -1,8 +1,14 @@
 .. _Installing edX Insights:
 
-##############################################
-Options for Installing edX Insights
-##############################################
+#################################################
+Options for Installing edX Insights (Deprecated)
+#################################################
+
+.. note::
+
+   The edX Insights service is deprecated and no longer supported by the Open
+   edX community. Please see :ref:`Open edX Analytics Options` for other ways
+   of running analytics on your Open edX instance.
 
 This topic is intended for those who are interested in running `edX Insights`_
 and its dependencies in a production environment. This topic does not provide

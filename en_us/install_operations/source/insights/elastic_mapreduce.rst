@@ -4,6 +4,12 @@
 Using Elastic MapReduce on AWS
 ******************************************
 
+.. note::
+
+   The edX Insights service is deprecated and no longer supported by the Open
+   edX community. Please see :ref:`Open edX Analytics Options` for other ways
+   of running analytics on your Open edX instance.
+
 This topic provides an overview of the components and services that you set up
 and configure in a deployment that uses Amazon EMR. Work to prepare complete
 installation procedures for edX Insights is in progress.

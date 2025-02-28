@@ -1,8 +1,14 @@
 .. _Adding edX Insights:
 
 #####################################
-Adding edX Insights for Course Teams
+Adding edX Insights (Deprecated)
 #####################################
+
+.. note::
+
+   The edX Insights service is deprecated and no longer supported by the Open
+   edX community. Please see :ref:`Open edX Analytics Options` for other ways
+   of running analytics on your Open edX instance.
 
 The following topics provide information about installing, configuring, and
 running `edX Insights`_ and its dependencies in a production environment.
