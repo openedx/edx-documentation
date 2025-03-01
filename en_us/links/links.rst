@@ -238,7 +238,9 @@
 
 .. _Koa Open edX Native Installation: https://openedx.atlassian.net/wiki/x/lIJjdQ
 
-.. _edX Feature Flags: https://openedx.atlassian.net/wiki/spaces/OpenDev/pages/34734726/edX+Feature+Flags
+.. _Open edX Feature Flags: https://docs.openedx.org/projects/edx-platform/en/latest/references/featuretoggles.html
+
+.. _edx-platform documentation: https://docs.openedx.org/projects/edx-platform/en/latest/index.html
 
 .. _Managing Open edX Tips and Tricks:  https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/60227913/Managing+Open+edX+Tips+and+Tricks
 
