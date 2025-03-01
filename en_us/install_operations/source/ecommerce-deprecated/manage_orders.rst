@@ -4,6 +4,10 @@
 Manage Orders
 ##################
 
+.. warning::
+   This service is deprecated and was last tagged for the Redwood release. We are not fixing bugs or developing new features for it. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
+
+
 EdX has created a framework that manages order placement and fulfillment for
 digital products. Most of the products that edX supports involve modifications
 to enrollments.

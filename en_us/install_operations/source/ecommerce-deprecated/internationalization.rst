@@ -1,5 +1,10 @@
 Internationalization
 ====================
+
+.. warning::
+   This service is deprecated and was last tagged for the Redwood release. We are not fixing bugs or developing new features for it. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
+
+
 Follow the `internationalization coding guidelines`_ in the edX Developer's Guide when developing new features.
 
 Languages are enabled in the settings file, for example in ``ecommerce/settings/base.py``

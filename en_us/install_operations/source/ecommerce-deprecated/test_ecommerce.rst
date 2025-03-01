@@ -4,6 +4,10 @@
 Test Your E-Commerce Application
 ###################################
 
+.. warning::
+   This service is deprecated and was last tagged for the Redwood release. We are not fixing bugs or developing new features for it. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
+
+
 To test new applications that you develop for the E-Commerce service, you
 create and run tests for the Open edX platform first, and then you run a set of
 tests that are specific to E-Commerce.

@@ -4,6 +4,9 @@
 Install and Start the E-Commerce Service
 ########################################
 
+.. warning::
+   This service is deprecated and was last tagged for the Redwood release. We are not fixing bugs or developing new features for it. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
+
 To install and start the edX E-Commerce service, you must complete the
 following steps.
 
