@@ -7,16 +7,17 @@ Installing, Configuring, and Running the Open edX Platform
 This guide provides instructions for using your own instance of the Open edX
 platform and associated applications.
 
-This document applies to the most recent version of the Open edX
-platform, that is, it applies to the *master* branch of the edX platform.
-This document also contains instructions for installing Open edX
-releases. The most recent release of the Open edX platform is
-:ref:`Lilac <Open edX Lilac Release>`.
+The most recent Open edX release will be found on the `Open edX Named Releases page`_.
+It is strongly recommended to use `Tutor`_ for both development and installation.
+It is also recommended to stay up-to-date with the latest Open edX release, as
+previous releases are unsupported by the community. See the `Open edX Release Schedule`_
+for information on release dates and end-of-life support.
 
-You can install any release of the Open edX platform. For most situations, edX
-recommends that you install the most recent release. However, if your
-organization or project is currently running an earlier release, or your
-software requires a specific release, you may want to install an earlier
+You *can* install any release of the Open edX platform, but note the community
+will likely be unable to answer questions about issues you encounter. Please be
+aware that older releases do not receive security fixes or any of the latest features,
+and documentation on docs.openedx.org will always reflect the latest release.
+
 release.
 
 .. toctree::

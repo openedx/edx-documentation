@@ -4,6 +4,18 @@
 Open edX Ginkgo Release
 ########################
 
+.. warning::
+
+    This release is unsupported.
+
+    The `Open edX Named Releases page`_ and the `Open edX Releases Homepage`_ are the
+    authoratative sources of information on all Open edX releases. It is *strongly*
+    recommended to operate off the latest Open edX release at all points in time, as
+    only the most recent release is community-supported.
+
+    See the `Open edX Release Schedule`_ for information on release dates and end-of-life
+    support.
+
 This section describes the Open edX Ginkgo release.
 
 .. contents::
@@ -16,7 +28,7 @@ What's Included in Ginkgo
 
 The Open edX Ginkgo release contains several new features for learners,
 course teams, and developers. For more information, see
-:ref:`Open edX Ginkgo Release`.
+`Open edX Ginkgo Release Notes <https://docs.openedx.org/en/latest/community/release_notes/ginkgo.html>`_.
 
 ****************************
 What Is the Ginkgo Git Tag?

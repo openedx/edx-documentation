@@ -82,11 +82,19 @@
 
 .. _edX pattern library: http://ux.edx.org/design_elements/colors/
 
-.. _Open edX Named Releases page: https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4191191044/Open+edX+Releases+Homepage
+.. _Open edX Named Releases page: https://docs.openedx.org/en/latest/community/release_notes/latest.html
+
+.. _Open edX Releases Homepage: https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4191191044/Open+edX+Releases+Homepage
+
+.. _Open edX Release Schedule: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3613392957/Open+edX+Release+Schedule
 
 .. _Open edX Installation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/
 
-.. _Open edX Native Installation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/native_installation.html
+.. _Native Installation to Tutor forum post: https://discuss.openedx.org/t/upgrade-from-native-to-tutor/9252
+
+.. _this second Native to Tutor post: https://discuss.overhang.io/t/migrating-from-native-install-to-tutor-juniper-tutor-10-x/1533
+
+.. _Open edX Forums: https://discuss.openedx.org
 
 .. GitHub Links
 
