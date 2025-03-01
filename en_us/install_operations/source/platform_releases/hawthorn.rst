@@ -4,6 +4,18 @@
 Open edX Hawthorn Release
 #########################
 
+.. warning::
+
+    This release is unsupported.
+
+    The `Open edX Named Releases page`_ and the `Open edX Releases Homepage`_ are the
+    authoratative sources of information on all Open edX releases. It is *strongly*
+    recommended to operate off the latest Open edX release at all points in time, as
+    only the most recent release is community-supported.
+
+    See the `Open edX Release Schedule`_ for information on release dates and end-of-life
+    support.
+
 This section describes how to install the Open edX Hawthorn release.
 
 .. contents::
@@ -18,7 +30,7 @@ The Open edX Hawthorn release contains several new features for learners,
 course teams, and developers. For more information, see the 
 `Open edX Release Notes`__.
 
-__ http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/hawthorn.html
+__ https://docs.openedx.org/en/latest/community/release_notes/hawthorn.html
 
 =======================
 User Retirement Feature

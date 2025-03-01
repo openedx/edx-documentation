@@ -20,10 +20,10 @@ two decisions to make:
 
 There are two possibilities for the version to install:
 
-* **Master** is the latest version of the code, newer even than what is running
-  on edx.org.
+* **Master** is the latest version of the code.
+
 * A **Release** is a version of the code marked and tested for wide use.  These
-  are named alphabetically for trees: Juniper, Koa, Lilac, etc. Look for the most
+  are named alphabetically for trees: Sumac, Teak, Ulmo, etc. Look for the most
   recent release if you're beginning a new installation.
 
 You should choose master only if you will be modifying the code and
@@ -36,13 +36,11 @@ Details of the releases are on the `Open edX Named Releases page`_.
 2. Choose an installation method
 ********************************
 
-The currently supported installation methods for both developing code and installing an instance:
-
-* **Tutor**: (New for Lilac) A community-supported Docker-based environment
+**`Tutor`_**: is the community-supported Docker-based environment
   suited for both production and development.
 
 
-Note that all of them require some foundational skills:
+Note that Tutor requires some foundational skills:
 
 * Comfort with your chosen operating system.
 * Using the command line to perform tasks.
