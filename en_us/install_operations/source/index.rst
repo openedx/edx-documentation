@@ -28,7 +28,7 @@ release.
    installation/index
    configuration/index
    analytics/index
-   ecommerce/index
+   ecommerce-solutions
    mobile
    feature_flags/feature_flag_index
    glossary
@@ -38,6 +38,7 @@ release.
 .. toctree::
    :hidden:
 
+   ecommerce-deprecated/index
    insights/index
 
 .. include:: ../../links/links.rst

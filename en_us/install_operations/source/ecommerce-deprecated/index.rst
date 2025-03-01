@@ -1,11 +1,11 @@
-.. _Adding ECommerce to Open edX:
+.. _Adding ECommerce (Deprecated) to Open edX:
 
-##########################################
-Adding E-Commerce to the Open edX Platform
-##########################################
+#########################################################
+Adding E-Commerce (Deprecated) to the Open edX Platform
+#########################################################
 
 .. warning::
-   This service is under-maintained. We are not fixing bugs or developing new features for it. We hope to deprecate and replace it soon. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
+   This service is deprecated and was last tagged for the Redwood release. We are not fixing bugs or developing new features for it. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
 
 edX uses a Django application called ``ecommerce`` to provide the platform with
 ecommerce functionality. This `E-Commerce service`_ extends `Oscar`_, an open
