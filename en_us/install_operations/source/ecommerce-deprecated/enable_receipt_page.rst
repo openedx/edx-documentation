@@ -4,6 +4,9 @@
 Enable the E-Commerce Service Receipt Page
 ##########################################
 
+.. warning::
+   This service is deprecated and was last tagged for the Redwood release. We are not fixing bugs or developing new features for it. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
+
 The E-Commerce service includes a receipt page that you can display to users
 after their orders are complete.
 
