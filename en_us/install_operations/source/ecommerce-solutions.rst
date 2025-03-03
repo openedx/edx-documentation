@@ -10,18 +10,18 @@ solutions and customizing an Open edX installation to support their use.
    :local:
    :depth: 1
 
-WooCommerce Plugin
-*******************
+Open edX Commerce (WordPress Plugin)
+************************************
 
-There exists a WooCommerce plugin for the Open edX platform. See the following resources:
+The Open edX WooCommerce Plugin is a free, open-source WordPress plugin that aims to integrate third-party e-commerce, WooCommerce, with your Open edX platform. See the following resources:
 
-* `WooCommerce Quickstart <https://edunext-docs-openedx-woocommerce-plugin.readthedocs-hosted.com/en/latest/plugin_quickstart.html#add-the-plugin-settings>`_
-* `WooCommerce plugin source <https://github.com/openedx/openedx-wordpress-ecommerce?tab=readme-ov-file#-open-edx-commerce-wordpress-plugin>`_
+* `Open edX Commerce (WordPress Plugin) Quickstart <https://docs.openedx.org/projects/wordpress-ecommerce-plugin/en/latest/plugin_quickstart.html>`_
+* `Open edX Commerce (WordPress Plugin) Source <https://github.com/openedx/openedx-wordpress-ecommerce?tab=readme-ov-file#-open-edx-commerce-wordpress-plugin>`_
 
 Open edX Webhook Receiver
 *************************
 
-The `Open edX Webhook Receiver <https://github.com/hastexo/webhook-receiver?tab=readme-ov-file#openedx-webhook-receiver>`
+The `Open edX Webhook Receiver <https://github.com/hastexo/webhook-receiver?tab=readme-ov-file#openedx-webhook-receiver>`_
 extension  is a small Django app that listens for incoming webhooks, and then
 translates those into calls against the Open edX REST APIs.
 
