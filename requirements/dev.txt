@@ -50,7 +50,7 @@ imagesize==1.4.1
     # via
     #   -r base.txt
     #   sphinx
-jinja2==3.1.5
+jinja2==3.1.6
     # via
     #   -r base.txt
     #   sphinx
@@ -98,10 +98,13 @@ sphinx==7.4.7
     #   pydata-sphinx-theme
     #   sphinx-book-theme
     #   sphinx-intl
+    #   sphinx-notfound-page
     #   sphinx-reredirects
 sphinx-book-theme==1.1.4
     # via -r base.txt
 sphinx-intl==2.3.1
+    # via -r base.txt
+sphinx-notfound-page==1.1.0
     # via -r base.txt
 sphinx-reredirects==0.1.5
     # via -r base.txt

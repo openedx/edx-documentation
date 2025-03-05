@@ -46,6 +46,7 @@ extensions = [
     'sphinx.ext.extlinks',
     'sphinx.ext.graphviz',
     'sphinx_reredirects',
+    'notfound.extension',
 ]
 
 # The suffix of source filenames.

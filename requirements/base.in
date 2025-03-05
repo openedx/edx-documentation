@@ -5,3 +5,4 @@ sphinx-book-theme                   # Common theme for all Open edX projects
 sphinx                              # Documentation builder
 sphinx-intl                         # i18n tool to create .po files
 sphinx-reredirects                  # Redirect pages that have moved.
+sphinx-notfound-page                # Custom 404 page
