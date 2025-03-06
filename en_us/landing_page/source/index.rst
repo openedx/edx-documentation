@@ -34,5 +34,10 @@ If you use or host an Open edX site
   :ref:`installation:Installing, Configuring, and Running the Open edX
   Platform`.
 
+.. toctree::
+   :hidden:
+
+   dummy
+
 .. _docs.edx.org: https://docs.edx.org
 .. _edX Release Notes: http://edx.readthedocs.io/projects/edx-release-notes/en/latest/

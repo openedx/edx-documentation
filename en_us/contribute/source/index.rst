@@ -65,4 +65,10 @@ benefit from, please post on the `forums`_.
 
 .. _forums: https://discuss.openedx.org/
 
+
+.. toctree::
+   :hidden:
+
+   dummy
+
 .. include:: ../../links/links.rst
