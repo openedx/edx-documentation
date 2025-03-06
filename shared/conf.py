@@ -230,3 +230,14 @@ extlinks = {
     # :jira:`TNL-4904` becomes: <a href='https://openedx.atlassian.net/browse/TNL-4904'>TNL-4904</a>
     'jira': ('https://openedx.atlassian.net/browse/%s', 'Jira Issue %s'),
 }
+
+# sphinx-notfound-page
+# https://github.com/readthedocs/sphinx-notfound-page
+notfound_context = {
+    "title": "Page Not Found",
+    "body": """
+<h1>Page Not Found</h1>
+
+<p>Sorry, we couldn't find that page. Try using the search box or visiting <a href="https://docs.openedx.org/en/latest/">docs.openedx.org</a>, our new documentation site.</p>
+""",
+}
