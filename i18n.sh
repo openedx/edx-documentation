@@ -46,7 +46,7 @@ echo "host = https://www.transifex.com" >> $TX_CONFIG_FILE
 # assesing which books will remain a part of openedx and which ones are actually specific
 # to edx.org
 projects=(
-    "en_us/open_edx_students"
+    "en_us/edx_students"
     "en_us/open_edx_course_authors"
     "en_us/open_edx_release_notes"
     )
