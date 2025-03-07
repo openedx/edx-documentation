@@ -26,13 +26,12 @@ The `edX Release Notes`_ describe recent additions to the edX platform.
 If you use or host an Open edX site
 ************************************
 
-* Learners: See the :ref:`openlearners:Open edX Learner's Guide`.
+* Learners: See the `Open edX Learner's Guide`_.
 
-* Course teams: See :ref:`Quick Start Build a Course`.
+* Course teams: See `Quick Start Build a Course`_.
 
-* Developers: See the :ref:`Open edX Developer's Guide` and
-  :ref:`Installing, Configuring, and Running the Open edX
-  Platform`.
+* Developers: See the `Open edX Developer's Guide`_ and
+  `Installing, Configuring, and Running the Open edX Platform`_.
 
 .. toctree::
    :hidden:
@@ -41,3 +40,7 @@ If you use or host an Open edX site
 
 .. _docs.edx.org: https://docs.edx.org
 .. _edX Release Notes: http://edx.readthedocs.io/projects/edx-release-notes/en/latest/
+.. _Open edX Learner's Guide: https://docs.openedx.org/en/latest/learners/index.html
+.. _Quick Start Build a Course: https://docs.openedx.org/en/latest/educators/quickstarts/build_a_course.html
+.. _Open edX Developer's Guide: https://docs.openedx.org/en/latest/developers/references/developer_guide/index.html
+.. _Installing, Configuring, and Running the Open edX Platform: https://docs.openedx.org/en/latest/site_ops/install_configure_run_guide/index.html
