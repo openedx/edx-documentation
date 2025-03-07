@@ -117,6 +117,7 @@ html_favicon = "https://logos.openedx.org/open-edx-favicon.ico"
 # Categories
 PARTNER = object()
 OPENEDX = object()
+EDX = object()
 
 # Audiences
 COURSE_TEAMS = object()
@@ -153,6 +154,10 @@ HELP_LINKS = {
         'help_url': "https://open.edx.org/getting-help",
         'help_link_text': "Get Help",
     },
+    (EDX, LEARNERS): {
+        'help_url': "https://help.edx.org",
+        'help_link_text': "Get Help",
+    }
 }
 
 # Defaults for the help links.
@@ -219,7 +224,7 @@ intersphinx_mapping = {
     "installation" : (openedx_rtd_url("edx-installing-configuring-and-running"), ism_location("install_operations")),
     "olx" : ("https://docs.openedx.org/en/latest/", None),
     "learners" : ("", ism_location("students_redirect")),
-    "openlearners" : (openedx_rtd_url("open-edx-learner-guide"), ism_location("open_edx_students")),
+    "openlearners" : (openedx_rtd_url("open-edx-learner-guide"), ism_location("edx_students")),
     "opendevelopers" : ("https://docs.openedx.org/en/latest/", None),
     "opendataapi" : (edx_rtd_url("edx-data-analytics-api"), None),
     "openreleasenotes" : ("https://docs.openedx.org/en/latest/", None),

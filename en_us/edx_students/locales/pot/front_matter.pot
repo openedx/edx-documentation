@@ -466,7 +466,7 @@ msgid "The *Open edX Learner's Guide* is created using RST_ files and Sphinx_. Y
 msgstr ""
 
 #: ../../source/front_matter/read_me.rst:9
-msgid "https://github.com/openedx/edx-documentation/tree/master/en_us/open_edx_students/source"
+msgid "https://github.com/openedx/edx-documentation/tree/master/en_us/edx_students/source"
 msgstr ""
 
 #: ../../source/front_matter/read_me.rst:11
