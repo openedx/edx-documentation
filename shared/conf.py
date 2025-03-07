@@ -224,7 +224,7 @@ intersphinx_mapping = {
     "installation" : ("https://docs.openedx.org/en/latest/", None),
     "olx" : ("https://docs.openedx.org/en/latest/", None),
     "learners" : ("", ism_location("students_redirect")),
-    "openlearners" : (openedx_rtd_url("open-edx-learner-guide"), ism_location("open_edx_students")),
+    "openlearners" : (openedx_rtd_url("open-edx-learner-guide"), ism_location("edx_students")),
     "opendevelopers" : ("https://docs.openedx.org/en/latest/", None),
     "opendataapi" : (edx_rtd_url("edx-data-analytics-api"), None),
     "openreleasenotes" : ("https://docs.openedx.org/en/latest/", None),
