@@ -45,7 +45,7 @@ then
         "en_us/landing_page"
         "en_us/open_edx_course_authors"
         "en_us/open_edx_release_notes"
-        "en_us/open_edx_students"
+        "en_us/edx_students"
         "en_us/students_redirect"
     )
 fi

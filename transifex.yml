@@ -2,10 +2,10 @@ git:
   filters:
     - filter_type: dir
       file_format: PO
-      source_file_dir: en_us/open_edx_students/locales/pot/
+      source_file_dir: en_us/edx_students/locales/pot/
       source_file_extension: pot
       source_language: en
-      translation_files_expression: en_us/open_edx_students/locales/<lang>/LC_MESSAGES/
+      translation_files_expression: en_us/edx_students/locales/<lang>/LC_MESSAGES/
 
     - filter_type: dir
       file_format: PO
