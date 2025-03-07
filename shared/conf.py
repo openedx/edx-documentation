@@ -117,6 +117,7 @@ html_favicon = "https://logos.openedx.org/open-edx-favicon.ico"
 # Categories
 PARTNER = object()
 OPENEDX = object()
+EDX = object()
 
 # Audiences
 COURSE_TEAMS = object()
@@ -153,6 +154,10 @@ HELP_LINKS = {
         'help_url': "https://openedx.org/community/connect/",
         'help_link_text': "Get Help",
     },
+    (EDX, LEARNERS): {
+        'help_url': "https://help.edx.org",
+        'help_link_text': "Get Help",
+    }
 }
 
 # Defaults for the help links.
