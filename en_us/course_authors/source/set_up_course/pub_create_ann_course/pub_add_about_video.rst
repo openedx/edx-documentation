@@ -16,8 +16,15 @@ Publisher course page.
 To add an About video for a course or program that is running on edx.org,
 follow these steps.
 
-#. In your browser, go to the edX About video upload page at
-   https://prod-edx-video-encode-manager.edx.org/upload/.
+#. The edX About video upload page is an authenticated, restricted page.
+   You need the required permissions to access it. Visit https://prod-edx-video-encode-manager.edx.org/login
+   to log in using SSO.
+
+#. Ask your relevant Project Coordinator (PC) or Partner Support member to provide you the 
+   necessary permissions to access the edX About video upload page.
+
+#. Once you have the required permissions, go to the edX About video upload page in your browser
+   at https://prod-edx-video-encode-manager.edx.org/upload/.
 
 #. Enter a title for the video that includes the course number and name or the
    program name. For example, the title might be ``edx101: Creating an edX
