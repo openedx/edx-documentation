@@ -138,7 +138,7 @@ HELP_LINKS = {
         'help_link_text': "Get Help",
     },
     (PARTNER, DEVELOPERS): {
-        'help_url': "https://open.edx.org/getting-help",
+        'help_url': "https://openedx.org/community/connect/",
         'help_link_text': "Get Help",
     },
     (OPENEDX, LEARNERS): {
@@ -146,11 +146,11 @@ HELP_LINKS = {
         'help_link_text': None,
     },
     (OPENEDX, COURSE_TEAMS): {
-        'help_url': "https://open.edx.org/getting-help",
+        'help_url': "https://openedx.org/community/connect/",
         'help_link_text': "Get Help",
     },
     (OPENEDX, DEVELOPERS): {
-        'help_url': "https://open.edx.org/getting-help",
+        'help_url': "https://openedx.org/community/connect/",
         'help_link_text': "Get Help",
     },
 }
@@ -216,7 +216,7 @@ intersphinx_mapping = {
     "insights" : (edx_rtd_url("edx-insights"), None),
     "xblockapi" : ("https://docs.openedx.org/projects/xblock/en/latest/", None),
     "xblocktutorial" : ("https://docs.openedx.org/projects/xblock/en/latest/", None),
-    "installation" : (openedx_rtd_url("edx-installing-configuring-and-running"), ism_location("install_operations")),
+    "installation" : ("https://docs.openedx.org/en/latest/", None),
     "olx" : ("https://docs.openedx.org/en/latest/", None),
     "learners" : ("", ism_location("students_redirect")),
     "openlearners" : (openedx_rtd_url("open-edx-learner-guide"), ism_location("open_edx_students")),

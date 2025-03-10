@@ -113,7 +113,7 @@ msgid "CourseTalk for Course Reviews"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:110
-msgid "The CourseTalk widget allows learners to post course ratings and reviews that then appear on the course's **About** page. When you add the CourseTalk widget to an Open edX instance, the widget is enabled for every course on that instance. For more information, see :ref:`installation:Add CourseTalk (Deprecated)`."
+msgid "The CourseTalk widget allows learners to post course ratings and reviews that then appear on the course's **About** page. When you add the CourseTalk widget to an Open edX instance, the widget is enabled for every course on that instance. For more information, see :ref:`Add CourseTalk (Deprecated)`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:117
@@ -137,7 +137,7 @@ msgid "With this release, it is now possible to configure themes for multiple si
 msgstr ""
 
 #: ../../source/eucalyptus.rst:135
-msgid "For more information about how to configure multiple sites for your installation, see :ref:`installation:Configuring Open edX Sites`."
+msgid "For more information about how to configure multiple sites for your installation, see :ref:`Configuring Open edX Sites`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:138
@@ -177,7 +177,7 @@ msgid "Updates to E-Commerce Checkout"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:176
-msgid "This release includes updates to the user interface on the **Checkout** page that is presented by the edX e-commerce service. The functionality of this page has not changed, and learners can continue to check out using their credit cards or PayPal. For more information, see :ref:`installation:Adding ECommerce to Open edX`."
+msgid "This release includes updates to the user interface on the **Checkout** page that is presented by the edX e-commerce service. The functionality of this page has not changed, and learners can continue to check out using their credit cards or PayPal. For more information, see :ref:`Adding ECommerce to Open edX`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:184
@@ -185,7 +185,7 @@ msgid "Badges for Custom Course Events"
 msgstr ""
 
 #: ../../source/eucalyptus.rst:186
-msgid "Open edX instances can now create and award badges to learners for certain milestone achievements. Example achievements include enrolling in a certain number of courses, completing a certain number of courses, or completing a specific set of courses. For more information, see :ref:`installation:Create Course Event Badges` and :ref:`Enable Badges in Course`."
+msgid "Open edX instances can now create and award badges to learners for certain milestone achievements. Example achievements include enrolling in a certain number of courses, completing a certain number of courses, or completing a specific set of courses. For more information, see :ref:`Create Course Event Badges` and :ref:`Enable Badges in Course`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:195
@@ -238,7 +238,7 @@ msgid "Studio now has a setting that course teams can use to keep timed exams hi
 msgstr ""
 
 #: ../../source/eucalyptus.rst:244
-msgid "System administrators can now add custom fields to the registration page for their Open edX instances. Fields can be of different types, including dropdown and text entry. For more information, see :ref:`installation:Customize Registration Page`."
+msgid "System administrators can now add custom fields to the registration page for their Open edX instances. Fields can be of different types, including dropdown and text entry. For more information, see :ref:`Customize Registration Page`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:251
@@ -494,7 +494,7 @@ msgid "The OAuth 2.0 provider library has been updated to version 0.5.0. This up
 msgstr ""
 
 #: ../../source/eucalyptus.rst:438
-msgid "The number of days before OAuth tokens expire for mobile OAuth clients can now be configured. For more information, see :ref:`installation:Configure OAuth Token Expiration Days`."
+msgid "The number of days before OAuth tokens expire for mobile OAuth clients can now be configured. For more information, see :ref:`Configure OAuth Token Expiration Days`."
 msgstr ""
 
 #: ../../source/eucalyptus.rst:442

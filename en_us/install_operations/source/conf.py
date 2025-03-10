@@ -21,4 +21,5 @@ redirects = {
     "configuration/user_retire/implementation_overview": "https://docs.openedx.org/projects/edx-platform/en/latest/references/docs/scripts/user_retirement/docs/implementation_overview.html",
     "configuration/user_retire/service_setup": "https://docs.openedx.org/projects/edx-platform/en/latest/references/docs/scripts/user_retirement/docs/service_setup.html",
     "configuration/user_retire/special_cases": "https://docs.openedx.org/projects/edx-platform/en/latest/references/docs/scripts/user_retirement/docs/special_cases.html",
+    "*": "https://docs.openedx.org/en/latest/site_ops/install_configure_run_guide/$source.html",
 }

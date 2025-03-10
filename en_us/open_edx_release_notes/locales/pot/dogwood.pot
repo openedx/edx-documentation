@@ -117,7 +117,7 @@ msgid "The initial version of comprehensive theming is now available. Sites that
 msgstr ""
 
 #: ../../source/dogwood.rst:103
-msgid "For more information, see :ref:`installation:Changing the Way Open edX Looks` in the *Installing, Configuring, and Running the Open edX Platform* guide."
+msgid "For more information, see :ref:`Changing the Way Open edX Looks` in the *Installing, Configuring, and Running the Open edX Platform* guide."
 msgstr ""
 
 #: ../../source/dogwood.rst:108
@@ -149,7 +149,7 @@ msgid "To protect learners from the transmission of potentially harmful files, t
 msgstr ""
 
 #: ../../source/dogwood.rst:127
-msgid "For more information, see :ref:`installation:Configuring ORA2 to Prohibit Submission of File Types`."
+msgid "For more information, see :ref:`Configuring ORA2 to Prohibit Submission of File Types`."
 msgstr ""
 
 #: ../../source/dogwood.rst:132
@@ -189,7 +189,7 @@ msgid "Search Feature for DevStack"
 msgstr ""
 
 #: ../../source/dogwood.rst:164
-msgid "When you install the Open edX developer stack, the search feature is now enabled by default. For more information about how you can configure this feature, see :ref:`installation:Enable edX Search`. For more information about how learners can use this feature, see :ref:`openlearners:SFD Search`."
+msgid "When you install the Open edX developer stack, the search feature is now enabled by default. For more information about how you can configure this feature, see :ref:`Enable edX Search`. For more information about how learners can use this feature, see :ref:`openlearners:SFD Search`."
 msgstr ""
 
 #: ../../source/dogwood.rst:171
@@ -261,7 +261,7 @@ msgid "Command Change for SAML Testing"
 msgstr ""
 
 #: ../../source/dogwood.rst:243
-msgid "The recent edX platform upgrade to Django 1.8 required a change to the management command used when :ref:`installation:testing an enabled SAML identity provider<Test an Enabled SAML Provider>`. This command now uses the syntax ``lms saml --pull`` instead of ``lms saml pull``."
+msgid "The recent edX platform upgrade to Django 1.8 required a change to the management command used when :ref:`testing an enabled SAML identity provider<Test an Enabled SAML Provider>`. This command now uses the syntax ``lms saml --pull`` instead of ``lms saml pull``."
 msgstr ""
 
 #: ../../source/dogwood.rst:250
@@ -601,7 +601,7 @@ msgid "Django is updated to version 1.8.12."
 msgstr ""
 
 #: ../../source/dogwood.rst:519
-msgid "You now have the option to allow learners to audit courses without offering certificates for the audit track.  Use the ``AUDIT_CERT_CUTOFF_DATE`` setting to control when audit certificates are discontinued. For more information, see :ref:`installation:Discontinue Audit Certificates` in the *Installing, Configuring, and Running the Open edX Platform* guide."
+msgid "You now have the option to allow learners to audit courses without offering certificates for the audit track.  Use the ``AUDIT_CERT_CUTOFF_DATE`` setting to control when audit certificates are discontinued. For more information, see :ref:`Discontinue Audit Certificates` in the *Installing, Configuring, and Running the Open edX Platform* guide."
 msgstr ""
 
 #: ../../source/dogwood.rst:525
