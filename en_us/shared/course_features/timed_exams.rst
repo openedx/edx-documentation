@@ -89,7 +89,7 @@ steps.
     If the **Settings** dialog box does not contain the **Advanced** tab, timed
     exams might not be enabled for your Open edX site. Enabling timed exams for
     an Open edX site is a task that is usually performed by a system
-    administrator. For more information, see :ref:`installation:Enable Timed
+    administrator. For more information, see :ref:`Enable Timed
     Exams` in *Installing, Configuring, and Running the Open edX Platform*.
 
 #. In the **Set as a Special Exam** section, select **Timed**.

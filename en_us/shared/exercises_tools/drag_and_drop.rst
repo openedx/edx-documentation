@@ -493,6 +493,6 @@ edit a drag and drop problem.
   You can develop a Python programming language module and include a custom
   Cascading Style Sheet (CSS) file for drag and drop problems in your Open edX
   site. For more information, see
-  :ref:`installation:styling_drag_and_drop_problems`.
+  :ref:`styling_drag_and_drop_problems`.
 
 .. include:: ../../../links/links.rst

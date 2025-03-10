@@ -1044,7 +1044,7 @@ T
 
   For more information about how system administrators can integrate an
   instance of Open edX with a campus or institutional authentication system,
-  see :ref:`installation:Enabling Third Party Authentication`.
+  see :ref:`Enabling Third Party Authentication`.
 
 .. _Transcript Definition:
 

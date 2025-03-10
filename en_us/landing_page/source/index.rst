@@ -31,7 +31,7 @@ If you use or host an Open edX site
 * Course teams: See :ref:`Quick Start Build a Course`.
 
 * Developers: See the :ref:`Open edX Developer's Guide` and
-  :ref:`installation:Installing, Configuring, and Running the Open edX
+  :ref:`Installing, Configuring, and Running the Open edX
   Platform`.
 
 .. toctree::
